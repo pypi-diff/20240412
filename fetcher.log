@@ -705,3 +705,27 @@
 [2024-04-12 00:32:02] INFO root fetch - processPackages [betty]: Remove: archive file [/home/abi/fetcher/tmp/betty-0.3.3.tar.gz]
 [2024-04-12 00:32:02] INFO root fetch - main [MainThread]: End processing [betty]: success
 [2024-04-12 00:32:02] INFO root fetch - main [MainThread]: Store serial: [22727630]
+[2024-04-12 00:34:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727630]
+[2024-04-12 00:34:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 00:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: l2m2
+[2024-04-12 00:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prosperity2bt
+[2024-04-12 00:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hepdata-lib
+[2024-04-12 00:34:11] WARNING root fetch - processPackages [l2m2]: Skipping, unable to determine old version
+[2024-04-12 00:34:11] INFO root fetch - main [MainThread]: End processing [l2m2] error
+[2024-04-12 00:34:11] INFO root fetch - processPackages [prosperity2bt]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-12 00:34:11] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/fe/b2/ee137c12c5d5638044785ea4f88bdc6ca46dbbc77708fbd9c781bdb5bc71/prosperity2bt-0.4.1.tar.gz
+[2024-04-12 00:34:11] INFO root fetch - processPackages [hepdata-lib]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-12 00:34:12] INFO root fetch - processPackages [hepdata-lib]: Downloading https://files.pythonhosted.org/packages/f0/6f/d54b384bf298b3e0d12ca90adfc469861825fa0c3711a005863f1c867aaf/hepdata_lib-0.8.1.tar.gz
+[2024-04-12 00:34:12] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/6e/51/6c9492c96497be8c754e400f5f8ccfb55974c5fc76a5b6f6149a0d8d0c59/prosperity2bt-0.4.2.tar.gz
+[2024-04-12 00:34:12] INFO root fetch - processPackages [prosperity2bt]: executing diffoscope
+[2024-04-12 00:34:12] INFO root fetch - processPackages [prosperity2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2bt-0.4.1.tar.gz tmp/prosperity2bt-0.4.2.tar.gz --markdown 20240412/p/prosperity2bt/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-12 00:34:12] INFO root fetch - processPackages [hepdata-lib]: Downloading https://files.pythonhosted.org/packages/e7/d2/85cf50adc0c7935faa396aa111f9599c00122d160a66e38ac0fbb3e48eaf/hepdata_lib-0.9.0.tar.gz
+[2024-04-12 00:34:12] INFO root fetch - processPackages [hepdata-lib]: executing diffoscope
+[2024-04-12 00:34:12] INFO root fetch - processPackages [hepdata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepdata_lib-0.8.1.tar.gz tmp/hepdata_lib-0.9.0.tar.gz --markdown 20240412/h/hepdata-lib/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-12 00:34:13] INFO root fetch - processPackages [hepdata-lib]: Remove: archive file [/home/abi/fetcher/tmp/hepdata_lib-0.8.1.tar.gz]
+[2024-04-12 00:34:13] INFO root fetch - processPackages [hepdata-lib]: Remove: archive file [/home/abi/fetcher/tmp/hepdata_lib-0.9.0.tar.gz]
+[2024-04-12 00:34:13] INFO root fetch - main [MainThread]: End processing [hepdata-lib]: success
+[2024-04-12 00:34:13] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.1.tar.gz]
+[2024-04-12 00:34:13] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.2.tar.gz]
+[2024-04-12 00:34:13] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
+[2024-04-12 00:34:13] INFO root fetch - main [MainThread]: Store serial: [22727640]
