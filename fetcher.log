@@ -1783,3 +1783,24 @@
 [2024-04-12 01:38:05] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.2.0.tar.gz]
 [2024-04-12 01:38:05] INFO root fetch - main [MainThread]: End processing [metasequoia-sql]: success
 [2024-04-12 01:38:05] INFO root fetch - main [MainThread]: Store serial: [22728099]
+[2024-04-12 01:40:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728099]
+[2024-04-12 01:40:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 01:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-ipware
+[2024-04-12 01:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ktpanda-modules
+[2024-04-12 01:40:15] INFO root fetch - processPackages [ktpanda-modules]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-12 01:40:15] INFO root fetch - processPackages [django-ipware]: New version: [6.0.5] Old Version: [6.0.4]
+[2024-04-12 01:40:15] INFO root fetch - processPackages [django-ipware]: Downloading https://files.pythonhosted.org/packages/42/86/88c08cf2fd5f3632c4b0d9f54a95a1210a2a6771b162beea0b2f69d564c8/django-ipware-6.0.4.tar.gz
+[2024-04-12 01:40:15] INFO root fetch - processPackages [ktpanda-modules]: Downloading https://files.pythonhosted.org/packages/ea/dc/600485e5afe97e4a76bb5c55a15d72c38047d80ec24ca0004c063e9c7a19/ktpanda_modules-1.0.7-py3-none-any.whl
+[2024-04-12 01:40:16] INFO root fetch - processPackages [django-ipware]: Downloading https://files.pythonhosted.org/packages/4c/14/1f2f3b1408cd0fb9e57d861bcdfafadde4ef5d5d48a5b0b51b2467faf262/django-ipware-6.0.5.tar.gz
+[2024-04-12 01:40:16] INFO root fetch - processPackages [django-ipware]: executing diffoscope
+[2024-04-12 01:40:16] INFO root fetch - processPackages [django-ipware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipware-6.0.4.tar.gz tmp/django-ipware-6.0.5.tar.gz --markdown 20240412/d/django-ipware/6.0.4-6.0.5/README.md --exclude *.pyd
+[2024-04-12 01:40:16] INFO root fetch - processPackages [ktpanda-modules]: Downloading https://files.pythonhosted.org/packages/1d/9f/49858d5b950ee0787213d27d2f22bb2180a52761cbe51d575e614ff0a995/ktpanda_modules-1.0.9-py3-none-any.whl
+[2024-04-12 01:40:16] INFO root fetch - processPackages [django-ipware]: Remove: archive file [/home/abi/fetcher/tmp/django-ipware-6.0.4.tar.gz]
+[2024-04-12 01:40:16] INFO root fetch - processPackages [django-ipware]: Remove: archive file [/home/abi/fetcher/tmp/django-ipware-6.0.5.tar.gz]
+[2024-04-12 01:40:16] INFO root fetch - main [MainThread]: End processing [django-ipware]: success
+[2024-04-12 01:40:16] INFO root fetch - processPackages [ktpanda-modules]: executing diffoscope
+[2024-04-12 01:40:16] INFO root fetch - processPackages [ktpanda-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktpanda_modules-1.0.7-py3-none-any.whl.zip tmp/ktpanda_modules-1.0.9-py3-none-any.whl.zip --markdown 20240412/k/ktpanda-modules/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-12 01:40:17] INFO root fetch - processPackages [ktpanda-modules]: Remove: archive file [/home/abi/fetcher/tmp/ktpanda_modules-1.0.7-py3-none-any.whl.zip]
+[2024-04-12 01:40:17] INFO root fetch - processPackages [ktpanda-modules]: Remove: archive file [/home/abi/fetcher/tmp/ktpanda_modules-1.0.9-py3-none-any.whl.zip]
+[2024-04-12 01:40:17] INFO root fetch - main [MainThread]: End processing [ktpanda-modules]: success
+[2024-04-12 01:40:17] INFO root fetch - main [MainThread]: Store serial: [22728106]
