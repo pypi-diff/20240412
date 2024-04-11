@@ -1378,3 +1378,20 @@
 [2024-04-12 01:11:37] INFO root fetch - processPackages [python-ipware]: Remove: archive file [/home/abi/fetcher/tmp/python-ipware-2.0.3.tar.gz]
 [2024-04-12 01:11:37] INFO root fetch - main [MainThread]: End processing [python-ipware]: success
 [2024-04-12 01:11:37] INFO root fetch - main [MainThread]: Store serial: [22727949]
+[2024-04-12 01:13:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727949]
+[2024-04-12 01:13:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 01:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Predviz
+[2024-04-12 01:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytagi
+[2024-04-12 01:13:45] INFO root fetch - processPackages [Predviz]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 01:13:45] INFO root fetch - processPackages [pytagi]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-12 01:13:45] WARNING root fetch - processPackages [Predviz]: fallback to get urls: [0.0.1]
+[2024-04-12 01:13:45] WARNING root fetch - processPackages [Predviz]: None
+[2024-04-12 01:13:45] WARNING root fetch - processPackages [Predviz]: None
+[2024-04-12 01:13:46] WARNING root fetch - processPackages [Predviz]: unable to get url for both version [0.0.1]
+[2024-04-12 01:13:46] WARNING root fetch - processPackages [Predviz]: None
+[2024-04-12 01:13:46] INFO root fetch - main [MainThread]: End processing [Predviz] error
+[2024-04-12 01:13:46] INFO root fetch - processPackages [pytagi]: Downloading https://files.pythonhosted.org/packages/eb/24/97012c8959a60e603ad39668a5a4575ff74a310adeda19b0b966a3da12ca/pytagi-0.1.6.tar.gz
+[2024-04-12 01:13:46] INFO root fetch - processPackages [pytagi]: Downloading https://files.pythonhosted.org/packages/79/fd/b16e8de14731dc517aa0a46747a055aae2ff7b2cee49a51f1a7173a7386f/pytagi-0.1.7-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-12 01:13:47] WARNING root fetch - processPackages [pytagi]: Skipping package: exceeds size limit 24554013>=10485760
+[2024-04-12 01:13:47] INFO root fetch - main [MainThread]: End processing [pytagi] error
+[2024-04-12 01:13:47] INFO root fetch - main [MainThread]: Store serial: [22727961]
