@@ -657,3 +657,51 @@
 [2024-04-12 00:29:50] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63551809>=10485760
 [2024-04-12 00:29:50] INFO root fetch - main [MainThread]: End processing [dissect.target] error
 [2024-04-12 00:29:50] INFO root fetch - main [MainThread]: Store serial: [22727615]
+[2024-04-12 00:31:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727615]
+[2024-04-12 00:32:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 00:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betty
+[2024-04-12 00:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-runtime
+[2024-04-12 00:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: purdy
+[2024-04-12 00:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylogix
+[2024-04-12 00:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: variable-local
+[2024-04-12 00:32:00] INFO root fetch - processPackages [mojo-runtime]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-12 00:32:00] INFO root fetch - processPackages [pylogix]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-12 00:32:00] INFO root fetch - processPackages [variable-local]: New version: [0.0.9] Old Version: [0.0.89]
+[2024-04-12 00:32:00] INFO root fetch - processPackages [purdy]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-12 00:32:00] INFO root fetch - processPackages [betty]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-12 00:32:00] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/a2/73/8d6292a4a8763a95222fb988aaaf46e8e4faa6dbfa82aba07ec8abaabd54/mojo_runtime-1.3.8.tar.gz
+[2024-04-12 00:32:00] INFO root fetch - processPackages [purdy]: Downloading https://files.pythonhosted.org/packages/ef/0f/e7b04b0676e236dd07493e32004bd58cdf4896759c1d2f0c4f109e6be23e/purdy-1.9.0.tar.gz
+[2024-04-12 00:32:00] INFO root fetch - processPackages [pylogix]: Downloading https://files.pythonhosted.org/packages/0e/8f/d9686ca9c1c86cf1bea640a0998c953bcb3391e61c3d8a7ebc33168c36ef/pylogix-1.0.0-py2.py3-none-any.whl
+[2024-04-12 00:32:00] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/3d/5d/ff708fc7986e60b6f524ba8f7d9130162e2d7a0a11f45da1832a810c39a0/variable-local-0.0.89.tar.gz
+[2024-04-12 00:32:00] INFO root fetch - processPackages [betty]: Downloading https://files.pythonhosted.org/packages/6c/0a/ce06714d053471332bc6d3423bac995c3bc0f29acd131208a60b4f310aaa/betty-0.3.2.tar.gz
+[2024-04-12 00:32:00] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/d8/72/11ae6da51311fb6fe39796b32cda706673eed2e6d5f1cc271bf029880f36/mojo_runtime-1.3.9.tar.gz
+[2024-04-12 00:32:00] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2024-04-12 00:32:00] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-1.3.8.tar.gz tmp/mojo_runtime-1.3.9.tar.gz --markdown 20240412/m/mojo-runtime/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-12 00:32:01] INFO root fetch - processPackages [pylogix]: Downloading https://files.pythonhosted.org/packages/9d/ff/c12b2db90ba923bc566219f3fa4d5a2b17f80d57491e6633011af29dfbf9/pylogix-1.0.1-py2.py3-none-any.whl
+[2024-04-12 00:32:01] INFO root fetch - processPackages [betty]: Downloading https://files.pythonhosted.org/packages/5b/42/d1ce049665a2c425ed7967736aec204c069784dddd498bb69c3a87c6c5d4/betty-0.3.3.tar.gz
+[2024-04-12 00:32:01] INFO root fetch - processPackages [purdy]: Downloading https://files.pythonhosted.org/packages/ce/80/6386267e56056121e05c05787cb83714c063622f3ab949af0e61262889f6/purdy-1.9.1.tar.gz
+[2024-04-12 00:32:01] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/e5/f4/e016a8f42b1cc297e98ae2094a036bf46b6f46572d6a1fdf8ec4e6ad57fe/variable_local-0.0.9.tar.gz
+[2024-04-12 00:32:01] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-04-12 00:32:01] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable-local-0.0.89.tar.gz tmp/variable_local-0.0.9.tar.gz --markdown 20240412/v/variable-local/0.0.89-0.0.9/README.md --exclude *.pyd
+[2024-04-12 00:32:01] INFO root fetch - processPackages [pylogix]: executing diffoscope
+[2024-04-12 00:32:01] INFO root fetch - processPackages [pylogix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogix-1.0.0-py2.py3-none-any.whl.zip tmp/pylogix-1.0.1-py2.py3-none-any.whl.zip --markdown 20240412/p/pylogix/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-12 00:32:01] INFO root fetch - processPackages [betty]: executing diffoscope
+[2024-04-12 00:32:01] INFO root fetch - processPackages [betty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betty-0.3.2.tar.gz tmp/betty-0.3.3.tar.gz --markdown 20240412/b/betty/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-12 00:32:01] INFO root fetch - processPackages [purdy]: executing diffoscope
+[2024-04-12 00:32:01] INFO root fetch - processPackages [purdy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purdy-1.9.0.tar.gz tmp/purdy-1.9.1.tar.gz --markdown 20240412/p/purdy/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-12 00:32:01] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.8.tar.gz]
+[2024-04-12 00:32:01] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
+[2024-04-12 00:32:01] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2024-04-12 00:32:01] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable-local-0.0.89.tar.gz]
+[2024-04-12 00:32:01] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.9.tar.gz]
+[2024-04-12 00:32:01] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-04-12 00:32:01] INFO root fetch - processPackages [pylogix]: Remove: archive file [/home/abi/fetcher/tmp/pylogix-1.0.0-py2.py3-none-any.whl.zip]
+[2024-04-12 00:32:01] INFO root fetch - processPackages [pylogix]: Remove: archive file [/home/abi/fetcher/tmp/pylogix-1.0.1-py2.py3-none-any.whl.zip]
+[2024-04-12 00:32:01] INFO root fetch - main [MainThread]: End processing [pylogix]: success
+[2024-04-12 00:32:02] INFO root fetch - processPackages [purdy]: Remove: archive file [/home/abi/fetcher/tmp/purdy-1.9.0.tar.gz]
+[2024-04-12 00:32:02] INFO root fetch - processPackages [purdy]: Remove: archive file [/home/abi/fetcher/tmp/purdy-1.9.1.tar.gz]
+[2024-04-12 00:32:02] INFO root fetch - main [MainThread]: End processing [purdy]: success
+[2024-04-12 00:32:02] INFO root fetch - processPackages [betty]: Remove: archive file [/home/abi/fetcher/tmp/betty-0.3.2.tar.gz]
+[2024-04-12 00:32:02] INFO root fetch - processPackages [betty]: Remove: archive file [/home/abi/fetcher/tmp/betty-0.3.3.tar.gz]
+[2024-04-12 00:32:02] INFO root fetch - main [MainThread]: End processing [betty]: success
+[2024-04-12 00:32:02] INFO root fetch - main [MainThread]: Store serial: [22727630]
