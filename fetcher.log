@@ -1156,3 +1156,15 @@
 [2024-04-12 01:00:33] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.7.0.tar.gz]
 [2024-04-12 01:00:33] INFO root fetch - main [MainThread]: End processing [airbyte-api]: success
 [2024-04-12 01:00:33] INFO root fetch - main [MainThread]: Store serial: [22727880]
+[2024-04-12 01:02:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727880]
+[2024-04-12 01:02:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-12 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edq-canvas
+[2024-04-12 01:02:43] INFO root fetch - processPackages [edq-canvas]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 01:02:43] INFO root fetch - processPackages [edq-canvas]: Downloading https://files.pythonhosted.org/packages/fd/00/4566a69182d23cb88291bb82052cf7f160995a61740be3b63f4805b17a80/edq-canvas-0.0.3.tar.gz
+[2024-04-12 01:02:43] INFO root fetch - processPackages [edq-canvas]: Downloading https://files.pythonhosted.org/packages/0d/6e/5ad7df078d02c4a01fbc263dd5e3b49b2a9a025b40f26c9af9423731149d/edq-canvas-0.0.4.tar.gz
+[2024-04-12 01:02:43] INFO root fetch - processPackages [edq-canvas]: executing diffoscope
+[2024-04-12 01:02:43] INFO root fetch - processPackages [edq-canvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edq-canvas-0.0.3.tar.gz tmp/edq-canvas-0.0.4.tar.gz --markdown 20240412/e/edq-canvas/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 01:02:44] INFO root fetch - processPackages [edq-canvas]: Remove: archive file [/home/abi/fetcher/tmp/edq-canvas-0.0.3.tar.gz]
+[2024-04-12 01:02:44] INFO root fetch - processPackages [edq-canvas]: Remove: archive file [/home/abi/fetcher/tmp/edq-canvas-0.0.4.tar.gz]
+[2024-04-12 01:02:44] INFO root fetch - main [MainThread]: End processing [edq-canvas]: success
+[2024-04-12 01:02:44] INFO root fetch - main [MainThread]: Store serial: [22727883]
