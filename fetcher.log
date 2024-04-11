@@ -238,3 +238,61 @@
 [2024-04-12 00:07:52] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.6.7.tar.gz]
 [2024-04-12 00:07:52] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
 [2024-04-12 00:07:52] INFO root fetch - main [MainThread]: Store serial: [22727281]
+[2024-04-12 00:10:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727281]
+[2024-04-12 00:10:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 00:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AITracker
+[2024-04-12 00:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luminesce-sdk-preview
+[2024-04-12 00:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyplotlib
+[2024-04-12 00:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cudf-cu11
+[2024-04-12 00:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyplotlib
+[2024-04-12 00:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dve-lumipy-testing
+[2024-04-12 00:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luminesce-sdk
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-12 00:10:08] INFO root fetch - processPackages [cudf-cu11]: New version: [24.4.0] Old Version: [24.2.2]
+[2024-04-12 00:10:08] WARNING root fetch - processPackages [AITracker]: Skipping, unable to determine old version
+[2024-04-12 00:10:08] INFO root fetch - main [MainThread]: End processing [AITracker] error
+[2024-04-12 00:10:08] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-12 00:10:08] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-12 00:10:08] INFO root fetch - processPackages [cudf-cu11]: Downloading https://files.pythonhosted.org/packages/f8/22/37abf36d8fe170920e60336b7770acce7b75c1536a5534dcb6b773bacebc/cudf-cu11-24.2.2.tar.gz
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-12 00:10:08] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/cc/27/bee5907ddeac9b66999728b93a5d36d39694c88c15469f36e2c4f320cdbc/luminesce_sdk-2.1.4.tar.gz
+[2024-04-12 00:10:08] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240412/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-12 00:10:08] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240412/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 00:10:08] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-04-12 00:10:08] INFO root fetch - processPackages [cudf-cu11]: Downloading https://files.pythonhosted.org/packages/e6/1f/cad0aa1727e2af1c52c2fb518375f4d28938318c23854f6e5859f47db643/cudf_cu11-24.4.0.tar.gz
+[2024-04-12 00:10:08] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-04-12 00:10:08] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/67/89/f2e724a63bf68087572099e6fb9237beae0568c1c0537aeda461c4bb2696/luminesce_sdk-2.1.5.tar.gz
+[2024-04-12 00:10:08] INFO root fetch - processPackages [cudf-cu11]: executing diffoscope
+[2024-04-12 00:10:08] INFO root fetch - processPackages [cudf-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudf-cu11-24.2.2.tar.gz tmp/cudf_cu11-24.4.0.tar.gz --markdown 20240412/c/cudf-cu11/24.2.2-24.4.0/README.md --exclude *.pyd
+[2024-04-12 00:10:09] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-12 00:10:09] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-04-12 00:10:09] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.4.tar.gz tmp/luminesce_sdk-2.1.5.tar.gz --markdown 20240412/l/luminesce-sdk/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-12 00:10:09] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-12 00:10:09] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-12 00:10:09] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-12 00:10:09] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-12 00:10:09] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240412/d/dve-lumipy-testing/0.1.998-0.1.999/README.md --exclude *.pyd
+[2024-04-12 00:10:09] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-04-12 00:10:09] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-12 00:10:09] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-04-12 00:10:09] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240412/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-04-12 00:10:09] INFO root fetch - processPackages [cudf-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cudf-cu11-24.2.2.tar.gz]
+[2024-04-12 00:10:09] INFO root fetch - processPackages [cudf-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cudf_cu11-24.4.0.tar.gz]
+[2024-04-12 00:10:09] INFO root fetch - main [MainThread]: End processing [cudf-cu11]: success
+[2024-04-12 00:10:10] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.4.tar.gz]
+[2024-04-12 00:10:10] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.5.tar.gz]
+[2024-04-12 00:10:10] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-04-12 00:10:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-04-12 00:10:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-04-12 00:10:10] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-04-12 00:10:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-12 00:10:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-12 00:10:10] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-12 00:10:10] INFO root fetch - main [MainThread]: Store serial: [22727302]
