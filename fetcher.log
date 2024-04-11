@@ -1762,3 +1762,24 @@
 [2024-04-12 01:35:54] INFO root fetch - processPackages [cuml-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuml_cu11-24.4.0.tar.gz]
 [2024-04-12 01:35:54] INFO root fetch - main [MainThread]: End processing [cuml-cu11]: success
 [2024-04-12 01:35:54] INFO root fetch - main [MainThread]: Store serial: [22728093]
+[2024-04-12 01:37:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728093]
+[2024-04-12 01:38:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 01:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipl-pipeline-py-common
+[2024-04-12 01:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metasequoia-sql
+[2024-04-12 01:38:04] INFO root fetch - processPackages [ipl-pipeline-py-common]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-12 01:38:04] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/f4/11/b3446b51ee9b74132cb390b002b892e01412d649b2e41f964ce9f460a423/ipl_pipeline_py_common-0.6.1.tar.gz
+[2024-04-12 01:38:04] INFO root fetch - processPackages [metasequoia-sql]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-12 01:38:04] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/e0/0b/f5480ae286b4b9b470ae1d6a68a96def7c46a1eb5e547866718ba79f78b3/ipl_pipeline_py_common-0.7.0.tar.gz
+[2024-04-12 01:38:04] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/d1/57/05d2546ffbfda626d5663c31d157ecbe76464059f32663a75f09ce9f78e5/metasequoia-sql-0.1.1.tar.gz
+[2024-04-12 01:38:04] INFO root fetch - processPackages [ipl-pipeline-py-common]: executing diffoscope
+[2024-04-12 01:38:04] INFO root fetch - processPackages [ipl-pipeline-py-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipl_pipeline_py_common-0.6.1.tar.gz tmp/ipl_pipeline_py_common-0.7.0.tar.gz --markdown 20240412/i/ipl-pipeline-py-common/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-12 01:38:04] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/75/8b/5434bcf6c0be9a467a72add4a46e8480357586aa2baa306c1ca0ab31b06e/metasequoia-sql-0.2.0.tar.gz
+[2024-04-12 01:38:05] INFO root fetch - processPackages [metasequoia-sql]: executing diffoscope
+[2024-04-12 01:38:05] INFO root fetch - processPackages [metasequoia-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasequoia-sql-0.1.1.tar.gz tmp/metasequoia-sql-0.2.0.tar.gz --markdown 20240412/m/metasequoia-sql/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-12 01:38:05] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.6.1.tar.gz]
+[2024-04-12 01:38:05] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.7.0.tar.gz]
+[2024-04-12 01:38:05] INFO root fetch - main [MainThread]: End processing [ipl-pipeline-py-common]: success
+[2024-04-12 01:38:05] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.1.1.tar.gz]
+[2024-04-12 01:38:05] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.2.0.tar.gz]
+[2024-04-12 01:38:05] INFO root fetch - main [MainThread]: End processing [metasequoia-sql]: success
+[2024-04-12 01:38:05] INFO root fetch - main [MainThread]: Store serial: [22728099]
