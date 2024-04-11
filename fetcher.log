@@ -1464,3 +1464,75 @@
 [2024-04-12 01:18:30] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
 [2024-04-12 01:18:30] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2024-04-12 01:18:30] INFO root fetch - main [MainThread]: Store serial: [22727983]
+[2024-04-12 01:20:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727983]
+[2024-04-12 01:20:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whylogs
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prayer-times-calculator-offline
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arxiv-client
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unscribe
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: payu
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-base
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-sbase
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gloe
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipl-pipeline-py-common
+[2024-04-12 01:20:40] INFO root fetch - processPackages [arxiv-client]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 01:20:40] INFO root fetch - processPackages [prayer-times-calculator-offline]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-12 01:20:40] INFO root fetch - processPackages [ipl-pipeline-py-common]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-12 01:20:41] INFO root fetch - processPackages [arxiv-client]: Downloading https://files.pythonhosted.org/packages/4e/b6/beb530d79fe2058b4311b7fb0f18b6b2ec6432d5895a6bb2b3b935690d5b/arxiv_client-0.3.0.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [prayer-times-calculator-offline]: Downloading https://files.pythonhosted.org/packages/f9/b7/86f3a2fb085d632150a7f8dc43abb6be90e96a6c585d63e3f063895ef691/prayer_times_calculator_offline-1.0.1.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [payu]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-12 01:20:41] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/d4/f3/732e140b5918b209dac6d1a6e2fc73e2c92268f74f19bf4a934bf439972f/ipl_pipeline_py_common-0.5.0.tar.gz
+[2024-04-12 01:20:41] WARNING root fetch - processPackages [unscribe]: Skipping, unable to determine old version
+[2024-04-12 01:20:41] INFO root fetch - main [MainThread]: End processing [unscribe] error
+[2024-04-12 01:20:41] WARNING root fetch - processPackages [gloe]: Skipping, unable to determine old version
+[2024-04-12 01:20:41] INFO root fetch - main [MainThread]: End processing [gloe] error
+[2024-04-12 01:20:41] INFO root fetch - processPackages [whylogs]: New version: [1.3.9.dev0] Old Version: [1.3.9]
+[2024-04-12 01:20:41] INFO root fetch - processPackages [prayer-times-calculator-offline]: Downloading https://files.pythonhosted.org/packages/b6/e4/017955cecc46fdbbd2935de0a1e21add0536e23ad16c642f0c3b30682ef0/prayer_times_calculator_offline-1.0.2.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-12 01:20:41] INFO root fetch - processPackages [payu]: Downloading https://files.pythonhosted.org/packages/8e/18/0173bc3a44c1bacc44a4c04dab7f7a38454c1a84224427fe33e7886d7c67/payu-1.1.2.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-12 01:20:41] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/5a/30/47d8e3f3be16165c83b5d82251bc55c5d474bc567b0fd89a0b113f2a81fd/whylogs-1.3.9.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/98/5e/4511e69567d228ac317c14698a6f35df053902dadfa22c4b146397616858/ipl_pipeline_py_common-0.6.0.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [prayer-times-calculator-offline]: executing diffoscope
+[2024-04-12 01:20:41] INFO root fetch - processPackages [arxiv-client]: Downloading https://files.pythonhosted.org/packages/4c/f6/2e744c677a6c36247b8f7eb406e3d90a5b729be2ca776088870b613be1da/arxiv_client-0.3.1.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [prayer-times-calculator-offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prayer_times_calculator_offline-1.0.1.tar.gz tmp/prayer_times_calculator_offline-1.0.2.tar.gz --markdown 20240412/p/prayer-times-calculator-offline/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-12 01:20:41] INFO root fetch - processPackages [ipl-pipeline-py-common]: executing diffoscope
+[2024-04-12 01:20:41] INFO root fetch - processPackages [ipl-pipeline-py-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipl_pipeline_py_common-0.5.0.tar.gz tmp/ipl_pipeline_py_common-0.6.0.tar.gz --markdown 20240412/i/ipl-pipeline-py-common/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-12 01:20:41] INFO root fetch - processPackages [arxiv-client]: executing diffoscope
+[2024-04-12 01:20:41] INFO root fetch - processPackages [arxiv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv_client-0.3.0.tar.gz tmp/arxiv_client-0.3.1.tar.gz --markdown 20240412/a/arxiv-client/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-12 01:20:41] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [payu]: Downloading https://files.pythonhosted.org/packages/76/a2/eeefbd4784e7ec653bd1d98f5f3c2a2f9e4f00e3c3f2b633913b77857fb8/payu-1.1.3.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/46/7e/17ce1e12e86efc6877c9c8d4b1ddb2ed9c23c6065f082f28a38477f9f9ec/whylogs-1.3.9.dev0.tar.gz
+[2024-04-12 01:20:41] INFO root fetch - processPackages [payu]: executing diffoscope
+[2024-04-12 01:20:41] INFO root fetch - processPackages [payu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payu-1.1.2.tar.gz tmp/payu-1.1.3.tar.gz --markdown 20240412/p/payu/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-12 01:20:42] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2024-04-12 01:20:42] INFO root fetch - processPackages [prayer-times-calculator-offline]: Remove: archive file [/home/abi/fetcher/tmp/prayer_times_calculator_offline-1.0.1.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - processPackages [prayer-times-calculator-offline]: Remove: archive file [/home/abi/fetcher/tmp/prayer_times_calculator_offline-1.0.2.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - main [MainThread]: End processing [prayer-times-calculator-offline]: success
+[2024-04-12 01:20:42] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2024-04-12 01:20:42] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.3.9.tar.gz tmp/whylogs-1.3.9.dev0.tar.gz --markdown 20240412/w/whylogs/1.3.9-1.3.9.dev0/README.md --exclude *.pyd
+[2024-04-12 01:20:42] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.5.0.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.6.0.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - main [MainThread]: End processing [ipl-pipeline-py-common]: success
+[2024-04-12 01:20:42] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2024-04-12 01:20:42] INFO root fetch - processPackages [arxiv-client]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_client-0.3.0.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - processPackages [arxiv-client]: Remove: archive file [/home/abi/fetcher/tmp/arxiv_client-0.3.1.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - main [MainThread]: End processing [arxiv-client]: success
+[2024-04-12 01:20:42] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2024-04-12 01:20:42] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20240412/s/selenium-base/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-12 01:20:42] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2024-04-12 01:20:42] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20240412/p/pytest-sbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-12 01:20:42] INFO root fetch - processPackages [payu]: Remove: archive file [/home/abi/fetcher/tmp/payu-1.1.2.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - processPackages [payu]: Remove: archive file [/home/abi/fetcher/tmp/payu-1.1.3.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - main [MainThread]: End processing [payu]: success
+[2024-04-12 01:20:42] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2024-04-12 01:20:42] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2024-04-12 01:20:42] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2024-04-12 01:20:43] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.3.9.tar.gz]
+[2024-04-12 01:20:43] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.3.9.dev0.tar.gz]
+[2024-04-12 01:20:43] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2024-04-12 01:20:43] INFO root fetch - main [MainThread]: Store serial: [22728010]
