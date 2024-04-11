@@ -1692,3 +1692,24 @@
 [2024-04-12 01:27:15] INFO root fetch - processPackages [h2ogpte]: Remove: archive file [/home/abi/fetcher/tmp/h2ogpte-1.4.9-py3-none-any.whl.zip]
 [2024-04-12 01:27:15] INFO root fetch - main [MainThread]: End processing [h2ogpte]: success
 [2024-04-12 01:27:15] INFO root fetch - main [MainThread]: Store serial: [22728066]
+[2024-04-12 01:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728066]
+[2024-04-12 01:29:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 01:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MethodicConfigurator
+[2024-04-12 01:29:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xian-py
+[2024-04-12 01:29:23] INFO root fetch - processPackages [MethodicConfigurator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 01:29:23] INFO root fetch - processPackages [xian-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-12 01:29:24] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/a9/be/90e605638e79b1b3cda75ca572ca9e367935913abef44fe2e36d01a9e582/MethodicConfigurator-0.1.8.tar.gz
+[2024-04-12 01:29:24] INFO root fetch - processPackages [xian-py]: Downloading https://files.pythonhosted.org/packages/9e/69/642beeabb9793bf36b0ec22db6138a7b087afba7f764ee1d977cb89ddc7a/xian_py-0.1.4.tar.gz
+[2024-04-12 01:29:24] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/e1/19/3632d8aa8d881c1c95df52c4d6ea82f15a010f4bded12382e9b8e1aad0c9/MethodicConfigurator-0.1.9.tar.gz
+[2024-04-12 01:29:24] INFO root fetch - processPackages [xian-py]: Downloading https://files.pythonhosted.org/packages/19/2e/19574a96355f09430e0043fdc56b0257715bb72877c55ec6d5b69b651d94/xian_py-0.1.5.tar.gz
+[2024-04-12 01:29:24] INFO root fetch - processPackages [MethodicConfigurator]: executing diffoscope
+[2024-04-12 01:29:24] INFO root fetch - processPackages [MethodicConfigurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MethodicConfigurator-0.1.8.tar.gz tmp/MethodicConfigurator-0.1.9.tar.gz --markdown 20240412/M/MethodicConfigurator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 01:29:24] INFO root fetch - processPackages [xian-py]: executing diffoscope
+[2024-04-12 01:29:24] INFO root fetch - processPackages [xian-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xian_py-0.1.4.tar.gz tmp/xian_py-0.1.5.tar.gz --markdown 20240412/x/xian-py/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-12 01:29:25] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/MethodicConfigurator-0.1.8.tar.gz]
+[2024-04-12 01:29:25] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/MethodicConfigurator-0.1.9.tar.gz]
+[2024-04-12 01:29:25] INFO root fetch - main [MainThread]: End processing [MethodicConfigurator]: success
+[2024-04-12 01:29:25] INFO root fetch - processPackages [xian-py]: Remove: archive file [/home/abi/fetcher/tmp/xian_py-0.1.4.tar.gz]
+[2024-04-12 01:29:25] INFO root fetch - processPackages [xian-py]: Remove: archive file [/home/abi/fetcher/tmp/xian_py-0.1.5.tar.gz]
+[2024-04-12 01:29:25] INFO root fetch - main [MainThread]: End processing [xian-py]: success
+[2024-04-12 01:29:25] INFO root fetch - main [MainThread]: Store serial: [22728074]
