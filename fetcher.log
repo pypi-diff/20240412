@@ -1747,3 +1747,18 @@
 [2024-04-12 01:33:44] INFO root fetch - processPackages [mime-utils]: Remove: archive file [/home/abi/fetcher/tmp/mime-utils-0.1.1.tar.gz]
 [2024-04-12 01:33:44] INFO root fetch - main [MainThread]: End processing [mime-utils]: success
 [2024-04-12 01:33:44] INFO root fetch - main [MainThread]: Store serial: [22728087]
+[2024-04-12 01:35:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728087]
+[2024-04-12 01:35:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 01:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-predpurchase
+[2024-04-12 01:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cuml-cu11
+[2024-04-12 01:35:53] WARNING root fetch - processPackages [py-predpurchase]: Skipping, unable to determine old version
+[2024-04-12 01:35:53] INFO root fetch - main [MainThread]: End processing [py-predpurchase] error
+[2024-04-12 01:35:53] INFO root fetch - processPackages [cuml-cu11]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 01:35:53] INFO root fetch - processPackages [cuml-cu11]: Downloading https://files.pythonhosted.org/packages/78/6e/61f40995bcf5b10cd6f35dc30588ada7ab0f9b9c459318cb23759343f120/cuml-cu11-24.2.0.tar.gz
+[2024-04-12 01:35:53] INFO root fetch - processPackages [cuml-cu11]: Downloading https://files.pythonhosted.org/packages/3b/65/c1aaaf521702e7fbb72b8644738d633c873c964225ae3f71cbfe1a8661b9/cuml_cu11-24.4.0.tar.gz
+[2024-04-12 01:35:53] INFO root fetch - processPackages [cuml-cu11]: executing diffoscope
+[2024-04-12 01:35:53] INFO root fetch - processPackages [cuml-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuml-cu11-24.2.0.tar.gz tmp/cuml_cu11-24.4.0.tar.gz --markdown 20240412/c/cuml-cu11/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 01:35:54] INFO root fetch - processPackages [cuml-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuml-cu11-24.2.0.tar.gz]
+[2024-04-12 01:35:54] INFO root fetch - processPackages [cuml-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuml_cu11-24.4.0.tar.gz]
+[2024-04-12 01:35:54] INFO root fetch - main [MainThread]: End processing [cuml-cu11]: success
+[2024-04-12 01:35:54] INFO root fetch - main [MainThread]: Store serial: [22728093]
