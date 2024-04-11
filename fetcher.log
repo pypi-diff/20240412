@@ -1141,3 +1141,18 @@
 [2024-04-12 00:58:23] INFO root fetch - processPackages [netdot]: Remove: archive file [/home/abi/fetcher/tmp/netdot-0.4.4.tar.gz]
 [2024-04-12 00:58:23] INFO root fetch - main [MainThread]: End processing [netdot]: success
 [2024-04-12 00:58:23] INFO root fetch - main [MainThread]: Store serial: [22727874]
+[2024-04-12 01:00:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727874]
+[2024-04-12 01:00:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 01:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renum
+[2024-04-12 01:00:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-api
+[2024-04-12 01:00:31] WARNING root fetch - processPackages [renum]: Skipping, unable to determine old version
+[2024-04-12 01:00:31] INFO root fetch - main [MainThread]: End processing [renum] error
+[2024-04-12 01:00:31] INFO root fetch - processPackages [airbyte-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-12 01:00:32] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/d4/66/f87aba87ada17376fee9e34bc8e371f044987bb411d9d01db6d321356f3a/airbyte-api-0.6.0.tar.gz
+[2024-04-12 01:00:32] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/c8/ff/cb73f3116051fd1759305c40178b654a37b22e1085a441b4ba720c8525d8/airbyte-api-0.7.0.tar.gz
+[2024-04-12 01:00:32] INFO root fetch - processPackages [airbyte-api]: executing diffoscope
+[2024-04-12 01:00:32] INFO root fetch - processPackages [airbyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-api-0.6.0.tar.gz tmp/airbyte-api-0.7.0.tar.gz --markdown 20240412/a/airbyte-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-12 01:00:33] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.6.0.tar.gz]
+[2024-04-12 01:00:33] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.7.0.tar.gz]
+[2024-04-12 01:00:33] INFO root fetch - main [MainThread]: End processing [airbyte-api]: success
+[2024-04-12 01:00:33] INFO root fetch - main [MainThread]: Store serial: [22727880]
