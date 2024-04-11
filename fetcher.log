@@ -1851,3 +1851,42 @@
 [2024-04-12 01:42:28] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
 [2024-04-12 01:42:28] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2024-04-12 01:42:28] INFO root fetch - main [MainThread]: Store serial: [22728137]
+[2024-04-12 01:44:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728137]
+[2024-04-12 01:44:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 01:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waii-sdk-py
+[2024-04-12 01:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tarsier
+[2024-04-12 01:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extrack
+[2024-04-12 01:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-public-admin
+[2024-04-12 01:44:37] INFO root fetch - processPackages [tarsier]: New version: [0.5.93] Old Version: [0.5.92]
+[2024-04-12 01:44:37] INFO root fetch - processPackages [tarsier]: Downloading https://files.pythonhosted.org/packages/c3/c1/b919789786736c5528d39a463f87e35918c7a2578bce3429900e3ad6561e/tarsier-0.5.92.tar.gz
+[2024-04-12 01:44:37] INFO root fetch - processPackages [django-public-admin]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 01:44:37] INFO root fetch - processPackages [waii-sdk-py]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-12 01:44:37] INFO root fetch - processPackages [extrack]: New version: [1.6] Old Version: [1.5.8]
+[2024-04-12 01:44:38] INFO root fetch - processPackages [django-public-admin]: Downloading https://files.pythonhosted.org/packages/58/53/302b5b1ec447bdf0d6d5752d8cd993332cdfc46de3bab3a5cf8818e0e3bf/django-public-admin-0.0.5.tar.gz
+[2024-04-12 01:44:38] INFO root fetch - processPackages [waii-sdk-py]: Downloading https://files.pythonhosted.org/packages/66/9c/2c87fc22d28c4ea1b75c79ce5a78be2a0493900c8354fa627df4f02ef50f/waii-sdk-py-1.9.0.tar.gz
+[2024-04-12 01:44:38] INFO root fetch - processPackages [extrack]: Downloading https://files.pythonhosted.org/packages/c2/26/54e57805172539e39c381ffccf1fa466fba9d880b325d107494c9b258a2a/extrack-1.5.8.tar.gz
+[2024-04-12 01:44:38] INFO root fetch - processPackages [tarsier]: Downloading https://files.pythonhosted.org/packages/95/92/36f650f5cc11fb9225dc55827b21cf0765eb41a2b188384c58ee0dcb36c4/tarsier-0.5.93.tar.gz
+[2024-04-12 01:44:38] INFO root fetch - processPackages [tarsier]: executing diffoscope
+[2024-04-12 01:44:38] INFO root fetch - processPackages [tarsier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarsier-0.5.92.tar.gz tmp/tarsier-0.5.93.tar.gz --markdown 20240412/t/tarsier/0.5.92-0.5.93/README.md --exclude *.pyd
+[2024-04-12 01:44:38] INFO root fetch - processPackages [waii-sdk-py]: Downloading https://files.pythonhosted.org/packages/31/e8/ee7289f00157a5259fec17cd83451e92f8300f69ef9884cef2adb87ca6cf/waii-sdk-py-1.9.1.tar.gz
+[2024-04-12 01:44:38] INFO root fetch - processPackages [django-public-admin]: Downloading https://files.pythonhosted.org/packages/f2/fd/1518f5cacada10a702ff63639c822721ccd3d09d70d2e5ba81489d26a390/django_public_admin-0.0.6.tar.gz
+[2024-04-12 01:44:38] INFO root fetch - processPackages [extrack]: Downloading https://files.pythonhosted.org/packages/37/33/656e65adf6920284285f525015a44b9e45db16fa8338b3003c0b5700b26d/extrack-1.6.tar.gz
+[2024-04-12 01:44:38] INFO root fetch - processPackages [waii-sdk-py]: executing diffoscope
+[2024-04-12 01:44:38] INFO root fetch - processPackages [waii-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waii-sdk-py-1.9.0.tar.gz tmp/waii-sdk-py-1.9.1.tar.gz --markdown 20240412/w/waii-sdk-py/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-12 01:44:38] INFO root fetch - processPackages [django-public-admin]: executing diffoscope
+[2024-04-12 01:44:38] INFO root fetch - processPackages [django-public-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-public-admin-0.0.5.tar.gz tmp/django_public_admin-0.0.6.tar.gz --markdown 20240412/d/django-public-admin/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 01:44:38] INFO root fetch - processPackages [extrack]: executing diffoscope
+[2024-04-12 01:44:38] INFO root fetch - processPackages [extrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extrack-1.5.8.tar.gz tmp/extrack-1.6.tar.gz --markdown 20240412/e/extrack/1.5.8-1.6/README.md --exclude *.pyd
+[2024-04-12 01:44:39] INFO root fetch - processPackages [tarsier]: Remove: archive file [/home/abi/fetcher/tmp/tarsier-0.5.92.tar.gz]
+[2024-04-12 01:44:39] INFO root fetch - processPackages [tarsier]: Remove: archive file [/home/abi/fetcher/tmp/tarsier-0.5.93.tar.gz]
+[2024-04-12 01:44:39] INFO root fetch - main [MainThread]: End processing [tarsier]: success
+[2024-04-12 01:44:39] INFO root fetch - processPackages [django-public-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-public-admin-0.0.5.tar.gz]
+[2024-04-12 01:44:39] INFO root fetch - processPackages [django-public-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_public_admin-0.0.6.tar.gz]
+[2024-04-12 01:44:39] INFO root fetch - main [MainThread]: End processing [django-public-admin]: success
+[2024-04-12 01:44:39] INFO root fetch - processPackages [waii-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/waii-sdk-py-1.9.0.tar.gz]
+[2024-04-12 01:44:39] INFO root fetch - processPackages [waii-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/waii-sdk-py-1.9.1.tar.gz]
+[2024-04-12 01:44:39] INFO root fetch - main [MainThread]: End processing [waii-sdk-py]: success
+[2024-04-12 01:44:39] INFO root fetch - processPackages [extrack]: Remove: archive file [/home/abi/fetcher/tmp/extrack-1.5.8.tar.gz]
+[2024-04-12 01:44:39] INFO root fetch - processPackages [extrack]: Remove: archive file [/home/abi/fetcher/tmp/extrack-1.6.tar.gz]
+[2024-04-12 01:44:39] INFO root fetch - main [MainThread]: End processing [extrack]: success
+[2024-04-12 01:44:39] INFO root fetch - main [MainThread]: Store serial: [22728151]
