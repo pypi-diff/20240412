@@ -883,3 +883,38 @@
 [2024-04-12 00:38:36] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
 [2024-04-12 00:38:36] INFO root fetch - main [MainThread]: End processing [dspygen]: success
 [2024-04-12 00:38:36] INFO root fetch - main [MainThread]: Store serial: [22727700]
+[2024-04-12 00:40:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727700]
+[2024-04-12 00:40:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 00:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: r6api
+[2024-04-12 00:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dailyai
+[2024-04-12 00:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Simba-UW-tf-dev
+[2024-04-12 00:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyegeria
+[2024-04-12 00:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sshpyk
+[2024-04-12 00:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oddsprout
+[2024-04-12 00:40:45] INFO root fetch - processPackages [dailyai]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 00:40:45] WARNING root fetch - processPackages [sshpyk]: Skipping, unable to determine old version
+[2024-04-12 00:40:45] INFO root fetch - main [MainThread]: End processing [sshpyk] error
+[2024-04-12 00:40:45] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.89.5] Old Version: [1.89.4]
+[2024-04-12 00:40:45] WARNING root fetch - processPackages [r6api]: Skipping, unable to determine old version
+[2024-04-12 00:40:45] INFO root fetch - main [MainThread]: End processing [r6api] error
+[2024-04-12 00:40:45] INFO root fetch - processPackages [pyegeria]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-12 00:40:45] WARNING root fetch - processPackages [oddsprout]: Skipping, unable to determine old version
+[2024-04-12 00:40:45] INFO root fetch - main [MainThread]: End processing [oddsprout] error
+[2024-04-12 00:40:45] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/d5/c2/da59d8f9bca42940578ba7f67619c2997011947bfb29a05ac9d125bd54bc/Simba-UW-tf-dev-1.89.4.tar.gz
+[2024-04-12 00:40:45] INFO root fetch - processPackages [dailyai]: Downloading https://files.pythonhosted.org/packages/5b/4a/4d7538bd6f59da57fb2d2a452215ff22f224a298478fd90edab91a13bf81/dailyai-0.0.6.tar.gz
+[2024-04-12 00:40:45] WARNING root fetch - processPackages [dailyai]: Skipping package: exceeds size limit 33468981>=10485760
+[2024-04-12 00:40:45] INFO root fetch - main [MainThread]: End processing [dailyai] error
+[2024-04-12 00:40:45] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/ee/b5/2037a2a861a034aa6ab035554b36806690ff7af92701a0629654bc88762a/pyegeria-0.3.3.tar.gz
+[2024-04-12 00:40:46] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/36/93/b02894b3d6b3b469daf8b449e151ec9f85d451ceda57f15a1df8c2741db1/pyegeria-0.3.4.tar.gz
+[2024-04-12 00:40:46] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/5d/6a/203460979618e11f287bd3635ad18bb6e5d8862e112820eb8883a5ca01d4/Simba-UW-tf-dev-1.89.5.tar.gz
+[2024-04-12 00:40:46] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-04-12 00:40:46] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.89.4.tar.gz tmp/Simba-UW-tf-dev-1.89.5.tar.gz --markdown 20240412/S/Simba-UW-tf-dev/1.89.4-1.89.5/README.md --exclude *.pyd
+[2024-04-12 00:40:46] INFO root fetch - processPackages [pyegeria]: executing diffoscope
+[2024-04-12 00:40:46] INFO root fetch - processPackages [pyegeria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyegeria-0.3.3.tar.gz tmp/pyegeria-0.3.4.tar.gz --markdown 20240412/p/pyegeria/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-12 00:40:47] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.3.tar.gz]
+[2024-04-12 00:40:47] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.4.tar.gz]
+[2024-04-12 00:40:47] INFO root fetch - main [MainThread]: End processing [pyegeria]: success
+[2024-04-12 00:40:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.4.tar.gz]
+[2024-04-12 00:40:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.5.tar.gz]
+[2024-04-12 00:40:50] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-04-12 00:40:50] INFO root fetch - main [MainThread]: Store serial: [22727722]
