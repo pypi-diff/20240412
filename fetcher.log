@@ -550,3 +550,48 @@
 [2024-04-12 00:23:19] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
 [2024-04-12 00:23:19] INFO root fetch - main [MainThread]: End processing [pulumi]: success
 [2024-04-12 00:23:19] INFO root fetch - main [MainThread]: Store serial: [22727567]
+[2024-04-12 00:25:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727567]
+[2024-04-12 00:25:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 00:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sshpyk
+[2024-04-12 00:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikeras
+[2024-04-12 00:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: interpreters-pep-734
+[2024-04-12 00:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remarkable-update-fuse
+[2024-04-12 00:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyplotlib
+[2024-04-12 00:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-salesforce
+[2024-04-12 00:25:28] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 00:25:28] INFO root fetch - processPackages [remarkable-update-fuse]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-12 00:25:28] INFO root fetch - processPackages [airbyte-source-salesforce]: New version: [2.5.0] Old Version: [2.4.4]
+[2024-04-12 00:25:28] WARNING root fetch - processPackages [sshpyk]: Skipping, unable to determine old version
+[2024-04-12 00:25:28] INFO root fetch - main [MainThread]: End processing [sshpyk] error
+[2024-04-12 00:25:28] WARNING root fetch - processPackages [interpreters-pep-734]: Skipping, unable to determine old version
+[2024-04-12 00:25:28] INFO root fetch - main [MainThread]: End processing [interpreters-pep-734] error
+[2024-04-12 00:25:28] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-12 00:25:28] INFO root fetch - processPackages [remarkable-update-fuse]: Downloading https://files.pythonhosted.org/packages/89/0e/5a79409048918eac1ef9bb77eb631c536de2edb92d1dcc2ac86fb0901a91/remarkable_update_fuse-1.0.5.tar.gz
+[2024-04-12 00:25:28] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/83/ea/b8ded1ca026a546e1223dd546753716be4ff7db58160bf5a5eb7858f1de7/airbyte_source_salesforce-2.4.4.tar.gz
+[2024-04-12 00:25:28] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-12 00:25:28] INFO root fetch - processPackages [scikeras]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-12 00:25:28] INFO root fetch - processPackages [remarkable-update-fuse]: Downloading https://files.pythonhosted.org/packages/93/a1/5d0948257fcdbb8974a1fc85abd37640613d89e6f4bc90bd49d693320e3e/remarkable_update_fuse-1.0.6.tar.gz
+[2024-04-12 00:25:28] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-12 00:25:28] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240412/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 00:25:28] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/ee/2e/e8bd15a2b0d8c6daeb4a06bedc1c8f05b25c269dd75f85ebce0e929e6560/airbyte_source_salesforce-2.5.0.tar.gz
+[2024-04-12 00:25:28] INFO root fetch - processPackages [scikeras]: Downloading https://files.pythonhosted.org/packages/bf/21/966b0ceb0048f2334cdbd58ad865de6561dc346b96bb6c55aa3176932826/scikeras-0.8.0.tar.gz
+[2024-04-12 00:25:28] INFO root fetch - processPackages [remarkable-update-fuse]: executing diffoscope
+[2024-04-12 00:25:28] INFO root fetch - processPackages [remarkable-update-fuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remarkable_update_fuse-1.0.5.tar.gz tmp/remarkable_update_fuse-1.0.6.tar.gz --markdown 20240412/r/remarkable-update-fuse/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-12 00:25:28] INFO root fetch - processPackages [airbyte-source-salesforce]: executing diffoscope
+[2024-04-12 00:25:28] INFO root fetch - processPackages [airbyte-source-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_salesforce-2.4.4.tar.gz tmp/airbyte_source_salesforce-2.5.0.tar.gz --markdown 20240412/a/airbyte-source-salesforce/2.4.4-2.5.0/README.md --exclude *.pyd
+[2024-04-12 00:25:29] INFO root fetch - processPackages [scikeras]: Downloading https://files.pythonhosted.org/packages/d8/e3/8122c117c4618d23e3449219149c16fb2ce686f6880da519131e16fc052f/scikeras-0.9.0.tar.gz
+[2024-04-12 00:25:29] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-12 00:25:29] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-12 00:25:29] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-12 00:25:29] INFO root fetch - processPackages [remarkable-update-fuse]: Remove: archive file [/home/abi/fetcher/tmp/remarkable_update_fuse-1.0.5.tar.gz]
+[2024-04-12 00:25:29] INFO root fetch - processPackages [remarkable-update-fuse]: Remove: archive file [/home/abi/fetcher/tmp/remarkable_update_fuse-1.0.6.tar.gz]
+[2024-04-12 00:25:29] INFO root fetch - main [MainThread]: End processing [remarkable-update-fuse]: success
+[2024-04-12 00:25:29] INFO root fetch - processPackages [scikeras]: executing diffoscope
+[2024-04-12 00:25:29] INFO root fetch - processPackages [scikeras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikeras-0.8.0.tar.gz tmp/scikeras-0.9.0.tar.gz --markdown 20240412/s/scikeras/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-12 00:25:29] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.4.4.tar.gz]
+[2024-04-12 00:25:29] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.0.tar.gz]
+[2024-04-12 00:25:29] INFO root fetch - main [MainThread]: End processing [airbyte-source-salesforce]: success
+[2024-04-12 00:25:30] INFO root fetch - processPackages [scikeras]: Remove: archive file [/home/abi/fetcher/tmp/scikeras-0.8.0.tar.gz]
+[2024-04-12 00:25:30] INFO root fetch - processPackages [scikeras]: Remove: archive file [/home/abi/fetcher/tmp/scikeras-0.9.0.tar.gz]
+[2024-04-12 00:25:30] INFO root fetch - main [MainThread]: End processing [scikeras]: success
+[2024-04-12 00:25:30] INFO root fetch - main [MainThread]: Store serial: [22727585]
