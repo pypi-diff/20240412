@@ -829,3 +829,57 @@
 [2024-04-12 00:36:26] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
 [2024-04-12 00:36:26] INFO root fetch - main [MainThread]: End processing [dspygen]: success
 [2024-04-12 00:36:26] INFO root fetch - main [MainThread]: Store serial: [22727671]
+[2024-04-12 00:38:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727671]
+[2024-04-12 00:38:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 00:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dspygen
+[2024-04-12 00:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-gettext
+[2024-04-12 00:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-dragonfly
+[2024-04-12 00:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: list-basculas
+[2024-04-12 00:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mateus-media
+[2024-04-12 00:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wring
+[2024-04-12 00:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyplotlib
+[2024-04-12 00:38:34] WARNING root fetch - processPackages [list-basculas]: Skipping, unable to determine old version
+[2024-04-12 00:38:34] INFO root fetch - main [MainThread]: End processing [list-basculas] error
+[2024-04-12 00:38:34] WARNING root fetch - processPackages [mateus-media]: Skipping, unable to determine old version
+[2024-04-12 00:38:34] INFO root fetch - main [MainThread]: End processing [mateus-media] error
+[2024-04-12 00:38:34] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 00:38:34] INFO root fetch - processPackages [dspygen]: New version: [2024.4.8] Old Version: [2024.4.11]
+[2024-04-12 00:38:34] INFO root fetch - processPackages [hatch-gettext]: New version: [1.0.0] Old Version: [0.6.0]
+[2024-04-12 00:38:34] INFO root fetch - processPackages [wring]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-12 00:38:34] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-12 00:38:34] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/41/8f/f9534bdae60ed7f72405d414c006cbd88b4ea407dfa263bc2751eeafe350/dspygen-2024.4.11.tar.gz
+[2024-04-12 00:38:34] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-12 00:38:35] INFO root fetch - processPackages [hatch-gettext]: Downloading https://files.pythonhosted.org/packages/8f/42/7a598e927e23cab215e2e802dc57be5cde04ae6ddef0cf264a9ba90e2946/hatch_gettext-0.6.0.tar.gz
+[2024-04-12 00:38:35] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-12 00:38:35] INFO root fetch - processPackages [wring]: Downloading https://files.pythonhosted.org/packages/47/de/300ebe4868d7492f3d6a9982f7f0be791ad44b0b96a9e9f833b57542bf80/wring-0.0.4.tar.gz
+[2024-04-12 00:38:35] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-12 00:38:35] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/b8/d2/67abba8675544ab98e98ff7bc3479521e1562052e572ea82c30eccce5120/dspygen-2024.4.8.tar.gz
+[2024-04-12 00:38:35] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-12 00:38:35] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240412/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 00:38:35] INFO root fetch - processPackages [hatch-gettext]: Downloading https://files.pythonhosted.org/packages/af/8d/98a4e455917472351f40137de71b6fe804db256e244b59a4669433d0c499/hatch_gettext-1.0.0.tar.gz
+[2024-04-12 00:38:35] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-12 00:38:35] INFO root fetch - processPackages [dspygen]: executing diffoscope
+[2024-04-12 00:38:35] INFO root fetch - processPackages [dspygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspygen-2024.4.11.tar.gz tmp/dspygen-2024.4.8.tar.gz --markdown 20240412/d/dspygen/2024.4.11-2024.4.8/README.md --exclude *.pyd
+[2024-04-12 00:38:35] INFO root fetch - processPackages [hatch-gettext]: executing diffoscope
+[2024-04-12 00:38:35] INFO root fetch - processPackages [hatch-gettext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_gettext-0.6.0.tar.gz tmp/hatch_gettext-1.0.0.tar.gz --markdown 20240412/h/hatch-gettext/0.6.0-1.0.0/README.md --exclude *.pyd
+[2024-04-12 00:38:35] INFO root fetch - processPackages [wring]: Downloading https://files.pythonhosted.org/packages/df/f3/75642a439dce44e187969b78328f7da7ded199a0df53f79436840a619d0a/wring-0.0.5.tar.gz
+[2024-04-12 00:38:35] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-12 00:38:35] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240412/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-12 00:38:35] INFO root fetch - processPackages [wring]: executing diffoscope
+[2024-04-12 00:38:35] INFO root fetch - processPackages [wring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wring-0.0.4.tar.gz tmp/wring-0.0.5.tar.gz --markdown 20240412/w/wring/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-12 00:38:35] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-12 00:38:35] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-12 00:38:35] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-12 00:38:36] INFO root fetch - processPackages [hatch-gettext]: Remove: archive file [/home/abi/fetcher/tmp/hatch_gettext-0.6.0.tar.gz]
+[2024-04-12 00:38:36] INFO root fetch - processPackages [hatch-gettext]: Remove: archive file [/home/abi/fetcher/tmp/hatch_gettext-1.0.0.tar.gz]
+[2024-04-12 00:38:36] INFO root fetch - main [MainThread]: End processing [hatch-gettext]: success
+[2024-04-12 00:38:36] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-12 00:38:36] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-12 00:38:36] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-12 00:38:36] INFO root fetch - processPackages [wring]: Remove: archive file [/home/abi/fetcher/tmp/wring-0.0.4.tar.gz]
+[2024-04-12 00:38:36] INFO root fetch - processPackages [wring]: Remove: archive file [/home/abi/fetcher/tmp/wring-0.0.5.tar.gz]
+[2024-04-12 00:38:36] INFO root fetch - main [MainThread]: End processing [wring]: success
+[2024-04-12 00:38:36] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.11.tar.gz]
+[2024-04-12 00:38:36] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
+[2024-04-12 00:38:36] INFO root fetch - main [MainThread]: End processing [dspygen]: success
+[2024-04-12 00:38:36] INFO root fetch - main [MainThread]: Store serial: [22727700]
