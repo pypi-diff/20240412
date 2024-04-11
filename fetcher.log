@@ -1653,3 +1653,42 @@
 [2024-04-12 01:25:04] INFO root fetch - processPackages [dendro]: Remove: archive file [/home/abi/fetcher/tmp/dendro-0.2.9.tar.gz]
 [2024-04-12 01:25:04] INFO root fetch - main [MainThread]: End processing [dendro]: success
 [2024-04-12 01:25:04] INFO root fetch - main [MainThread]: Store serial: [22728052]
+[2024-04-12 01:27:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728052]
+[2024-04-12 01:27:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-bridge
+[2024-04-12 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h2ogpte
+[2024-04-12 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langsmith
+[2024-04-12 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vision-agent
+[2024-04-12 01:27:13] INFO root fetch - processPackages [vision-agent]: New version: [0.0.50] Old Version: [0.0.49]
+[2024-04-12 01:27:13] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/42/a2/7a99c736be39cafbaf57e44c99177b077d951de535a9393df63e7b2aabe1/vision_agent-0.0.49-py3-none-any.whl
+[2024-04-12 01:27:13] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 01:27:13] INFO root fetch - processPackages [h2ogpte]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-12 01:27:13] INFO root fetch - processPackages [langsmith]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 01:27:13] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-12 01:27:13] INFO root fetch - processPackages [h2ogpte]: Downloading https://files.pythonhosted.org/packages/8b/e0/69b0902722adb7c3f55c933cea5b4b875c48c02759e7d0f86516d6313b47/h2ogpte-1.4.8-py3-none-any.whl
+[2024-04-12 01:27:13] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/3f/01/93a91da2527bbaa6155f9398417eeff6507ddada0f417560a67e20801455/langsmith-0.1.8.tar.gz
+[2024-04-12 01:27:13] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/1f/16/c6ecec8f9665166c4bbfb18c73cbec3bcdf85d0a3eaf62206cb1a8a068ea/vision_agent-0.0.50.tar.gz
+[2024-04-12 01:27:14] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-04-12 01:27:14] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.0.49-py3-none-any.whl.zip tmp/vision_agent-0.0.50.tar.gz --markdown 20240412/v/vision-agent/0.0.49-0.0.50/README.md --exclude *.pyd
+[2024-04-12 01:27:14] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-12 01:27:14] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/2f/bd/ae357eeb7736dd31ff704bfdb05c856cd78d6ebcb126b850c2bcdb5830ae/langsmith-0.1.9.tar.gz
+[2024-04-12 01:27:14] INFO root fetch - processPackages [h2ogpte]: Downloading https://files.pythonhosted.org/packages/2c/bb/ece6cc3a49ef7a8c9729b91d6b3e5dcfd2c20fba522b1f27e1115edafd00/h2ogpte-1.4.9-py3-none-any.whl
+[2024-04-12 01:27:14] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-12 01:27:14] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240412/p/python-bridge/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 01:27:14] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2024-04-12 01:27:14] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.1.8.tar.gz tmp/langsmith-0.1.9.tar.gz --markdown 20240412/l/langsmith/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 01:27:14] INFO root fetch - processPackages [h2ogpte]: executing diffoscope
+[2024-04-12 01:27:14] INFO root fetch - processPackages [h2ogpte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2ogpte-1.4.8-py3-none-any.whl.zip tmp/h2ogpte-1.4.9-py3-none-any.whl.zip --markdown 20240412/h/h2ogpte/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-12 01:27:14] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.49-py3-none-any.whl.zip]
+[2024-04-12 01:27:14] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.50.tar.gz]
+[2024-04-12 01:27:14] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-04-12 01:27:14] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-12 01:27:14] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-12 01:27:14] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-12 01:27:14] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.8.tar.gz]
+[2024-04-12 01:27:14] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.9.tar.gz]
+[2024-04-12 01:27:14] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2024-04-12 01:27:15] INFO root fetch - processPackages [h2ogpte]: Remove: archive file [/home/abi/fetcher/tmp/h2ogpte-1.4.8-py3-none-any.whl.zip]
+[2024-04-12 01:27:15] INFO root fetch - processPackages [h2ogpte]: Remove: archive file [/home/abi/fetcher/tmp/h2ogpte-1.4.9-py3-none-any.whl.zip]
+[2024-04-12 01:27:15] INFO root fetch - main [MainThread]: End processing [h2ogpte]: success
+[2024-04-12 01:27:15] INFO root fetch - main [MainThread]: Store serial: [22728066]
