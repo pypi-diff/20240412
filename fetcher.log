@@ -2037,3 +2037,41 @@
 [2024-04-12 01:53:20] INFO root fetch - processPackages [prodpadlm-client]: Remove: archive file [/home/abi/fetcher/tmp/prodpadlm_client-0.1.1.4.tar.gz]
 [2024-04-12 01:53:20] INFO root fetch - main [MainThread]: End processing [prodpadlm-client]: success
 [2024-04-12 01:53:20] INFO root fetch - main [MainThread]: Store serial: [22728222]
+[2024-04-12 01:55:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728222]
+[2024-04-12 01:55:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 01:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: masterqa
+[2024-04-12 01:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-display-name
+[2024-04-12 01:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AITracker
+[2024-04-12 01:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trinnov-altitude
+[2024-04-12 01:55:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Predviz
+[2024-04-12 01:55:29] INFO root fetch - processPackages [AITracker]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-12 01:55:29] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 01:55:29] INFO root fetch - processPackages [AITracker]: Downloading https://files.pythonhosted.org/packages/12/a3/2ad43508afb6243ac28313ae18a9f8b8f5a038a0c35b01afd85e3f74a9ed/AITracker-0.9.4.tar.gz
+[2024-04-12 01:55:29] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/e4/ad/169810413c21e2c593e82ea39ba4c92b32cca2d1928f2f133bdc2dd5774d/trinnov-altitude-0.1.8.tar.gz
+[2024-04-12 01:55:29] INFO root fetch - processPackages [Predviz]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 01:55:29] WARNING root fetch - processPackages [jupyterlab-display-name]: Skipping, unable to determine old version
+[2024-04-12 01:55:29] INFO root fetch - main [MainThread]: End processing [jupyterlab-display-name] error
+[2024-04-12 01:55:29] INFO root fetch - processPackages [masterqa]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-12 01:55:29] WARNING root fetch - processPackages [AITracker]: Skipping package: exceeds size limit 26155505>=10485760
+[2024-04-12 01:55:29] INFO root fetch - main [MainThread]: End processing [AITracker] error
+[2024-04-12 01:55:29] INFO root fetch - processPackages [masterqa]: Downloading https://files.pythonhosted.org/packages/f9/18/17574ff2008f1c1552fb2684c79be4d97d505171cc78323e52b4185d151e/masterqa-1.9.0.tar.gz
+[2024-04-12 01:55:29] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/76/2e/d188a8568df2fbd157a92850369057419ef690d42167df73acfde0838f4e/trinnov-altitude-0.1.9.tar.gz
+[2024-04-12 01:55:29] INFO root fetch - processPackages [Predviz]: Downloading https://files.pythonhosted.org/packages/6c/1c/10a0adc9ca2952fa78c1b62e3da31f26e7efb711ed49f5acd88dcac999df/Predviz-0.0.2.tar.gz
+[2024-04-12 01:55:29] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-12 01:55:29] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.8.tar.gz tmp/trinnov-altitude-0.1.9.tar.gz --markdown 20240412/t/trinnov-altitude/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 01:55:29] INFO root fetch - processPackages [masterqa]: Downloading https://files.pythonhosted.org/packages/d5/41/af01d7229ef285d882941c1506c87b116d33abfec230de34994a9f6e911e/masterqa-1.9.1.tar.gz
+[2024-04-12 01:55:29] INFO root fetch - processPackages [Predviz]: Downloading https://files.pythonhosted.org/packages/73/ec/b83e2a809b32a7c2cc7b18bb9901339d470dc6a6413c0a3eb5c8ded92dac/Predviz-0.0.3.tar.gz
+[2024-04-12 01:55:29] INFO root fetch - processPackages [masterqa]: executing diffoscope
+[2024-04-12 01:55:29] INFO root fetch - processPackages [masterqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masterqa-1.9.0.tar.gz tmp/masterqa-1.9.1.tar.gz --markdown 20240412/m/masterqa/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-12 01:55:29] INFO root fetch - processPackages [Predviz]: executing diffoscope
+[2024-04-12 01:55:29] INFO root fetch - processPackages [Predviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Predviz-0.0.2.tar.gz tmp/Predviz-0.0.3.tar.gz --markdown 20240412/P/Predviz/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 01:55:30] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.8.tar.gz]
+[2024-04-12 01:55:30] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.9.tar.gz]
+[2024-04-12 01:55:30] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-12 01:55:30] INFO root fetch - processPackages [Predviz]: Remove: archive file [/home/abi/fetcher/tmp/Predviz-0.0.2.tar.gz]
+[2024-04-12 01:55:30] INFO root fetch - processPackages [Predviz]: Remove: archive file [/home/abi/fetcher/tmp/Predviz-0.0.3.tar.gz]
+[2024-04-12 01:55:30] INFO root fetch - main [MainThread]: End processing [Predviz]: success
+[2024-04-12 01:55:30] INFO root fetch - processPackages [masterqa]: Remove: archive file [/home/abi/fetcher/tmp/masterqa-1.9.0.tar.gz]
+[2024-04-12 01:55:30] INFO root fetch - processPackages [masterqa]: Remove: archive file [/home/abi/fetcher/tmp/masterqa-1.9.1.tar.gz]
+[2024-04-12 01:55:30] INFO root fetch - main [MainThread]: End processing [masterqa]: success
+[2024-04-12 01:55:30] INFO root fetch - main [MainThread]: Store serial: [22728239]
