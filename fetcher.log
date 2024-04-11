@@ -1536,3 +1536,63 @@
 [2024-04-12 01:20:43] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.3.9.dev0.tar.gz]
 [2024-04-12 01:20:43] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2024-04-12 01:20:43] INFO root fetch - main [MainThread]: Store serial: [22728010]
+[2024-04-12 01:22:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728010]
+[2024-04-12 01:22:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 01:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-seleniumbase
+[2024-04-12 01:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbase
+[2024-04-12 01:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cuml-cu12
+[2024-04-12 01:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tursopy
+[2024-04-12 01:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydwca
+[2024-04-12 01:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helpful-assistant
+[2024-04-12 01:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: galah-python
+[2024-04-12 01:22:52] INFO root fetch - processPackages [galah-python]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-12 01:22:52] INFO root fetch - processPackages [pydwca]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 01:22:52] INFO root fetch - processPackages [cuml-cu12]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 01:22:52] INFO root fetch - processPackages [helpful-assistant]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-04-12 01:22:52] WARNING root fetch - processPackages [tursopy]: Skipping, unable to determine old version
+[2024-04-12 01:22:52] INFO root fetch - main [MainThread]: End processing [tursopy] error
+[2024-04-12 01:22:52] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-12 01:22:52] INFO root fetch - processPackages [galah-python]: Downloading https://files.pythonhosted.org/packages/7e/5c/61a0436dc60d9bdbabf0cabd42430b9cad62a755affd5e40a16ea06ce077/galah_python-0.8.3-py3-none-any.whl
+[2024-04-12 01:22:52] INFO root fetch - processPackages [pydwca]: Downloading https://files.pythonhosted.org/packages/b4/46/b241efff65e1bbb21691ea32f3ea507843e8ff929a3e57ed654e9f77ee3e/pydwca-0.1.0.tar.gz
+[2024-04-12 01:22:52] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/fd/91/375f5c8a071f0a0bc1d8788e6ef71f5d149bc28bb5ca5faedfa9ec717bd6/helpful-assistant-0.0.1.tar.gz
+[2024-04-12 01:22:52] INFO root fetch - processPackages [cuml-cu12]: Downloading https://files.pythonhosted.org/packages/77/a7/67415eeaf4905afc3912a677c86b261389a925d989e7e735d629f0f4e49e/cuml-cu12-24.2.0.tar.gz
+[2024-04-12 01:22:52] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2024-04-12 01:22:52] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-12 01:22:52] INFO root fetch - processPackages [pydwca]: Downloading https://files.pythonhosted.org/packages/a9/c0/f3c85efb7692888d1987e75218bbc259c093da8dcd73940e07eb38ea174c/pydwca-0.1.1.tar.gz
+[2024-04-12 01:22:52] INFO root fetch - processPackages [cuml-cu12]: Downloading https://files.pythonhosted.org/packages/d6/ad/9dbe3deefaa5dee6562d92a249c63be8b4963288c742df7c1e9118718762/cuml_cu12-24.4.0.tar.gz
+[2024-04-12 01:22:52] INFO root fetch - processPackages [galah-python]: Downloading https://files.pythonhosted.org/packages/33/3e/2e3cdde537adb24797962422943b5a6aa4f173ed1645845150c2c15d8b47/galah_python-0.9.0-py3-none-any.whl
+[2024-04-12 01:22:52] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/e7/65/7f9b151c89a6cab5581ed53943dce7482d2443ab25f461dc7763ce507cda/helpful-assistant-0.0.4.tar.gz
+[2024-04-12 01:22:52] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2024-04-12 01:22:53] INFO root fetch - processPackages [pydwca]: executing diffoscope
+[2024-04-12 01:22:53] INFO root fetch - processPackages [pydwca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwca-0.1.0.tar.gz tmp/pydwca-0.1.1.tar.gz --markdown 20240412/p/pydwca/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 01:22:53] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2024-04-12 01:22:53] INFO root fetch - processPackages [cuml-cu12]: executing diffoscope
+[2024-04-12 01:22:53] INFO root fetch - processPackages [cuml-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuml-cu12-24.2.0.tar.gz tmp/cuml_cu12-24.4.0.tar.gz --markdown 20240412/c/cuml-cu12/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 01:22:53] INFO root fetch - processPackages [galah-python]: executing diffoscope
+[2024-04-12 01:22:53] INFO root fetch - processPackages [galah-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galah_python-0.8.3-py3-none-any.whl.zip tmp/galah_python-0.9.0-py3-none-any.whl.zip --markdown 20240412/g/galah-python/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-12 01:22:53] INFO root fetch - processPackages [helpful-assistant]: executing diffoscope
+[2024-04-12 01:22:53] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2024-04-12 01:22:53] INFO root fetch - processPackages [helpful-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helpful-assistant-0.0.1.tar.gz tmp/helpful-assistant-0.0.4.tar.gz --markdown 20240412/h/helpful-assistant/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-04-12 01:22:53] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20240412/s/sbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-12 01:22:53] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2024-04-12 01:22:53] INFO root fetch - processPackages [cuml-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuml-cu12-24.2.0.tar.gz]
+[2024-04-12 01:22:53] INFO root fetch - processPackages [cuml-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuml_cu12-24.4.0.tar.gz]
+[2024-04-12 01:22:53] INFO root fetch - main [MainThread]: End processing [cuml-cu12]: success
+[2024-04-12 01:22:53] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2024-04-12 01:22:53] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20240412/p/pytest-seleniumbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-12 01:22:53] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful-assistant-0.0.1.tar.gz]
+[2024-04-12 01:22:53] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful-assistant-0.0.4.tar.gz]
+[2024-04-12 01:22:53] INFO root fetch - main [MainThread]: End processing [helpful-assistant]: success
+[2024-04-12 01:22:53] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2024-04-12 01:22:53] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2024-04-12 01:22:53] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2024-04-12 01:22:53] INFO root fetch - processPackages [galah-python]: Remove: archive file [/home/abi/fetcher/tmp/galah_python-0.8.3-py3-none-any.whl.zip]
+[2024-04-12 01:22:53] INFO root fetch - processPackages [galah-python]: Remove: archive file [/home/abi/fetcher/tmp/galah_python-0.9.0-py3-none-any.whl.zip]
+[2024-04-12 01:22:53] INFO root fetch - main [MainThread]: End processing [galah-python]: success
+[2024-04-12 01:22:54] INFO root fetch - processPackages [pydwca]: Remove: archive file [/home/abi/fetcher/tmp/pydwca-0.1.0.tar.gz]
+[2024-04-12 01:22:54] INFO root fetch - processPackages [pydwca]: Remove: archive file [/home/abi/fetcher/tmp/pydwca-0.1.1.tar.gz]
+[2024-04-12 01:22:54] INFO root fetch - main [MainThread]: End processing [pydwca]: success
+[2024-04-12 01:22:54] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2024-04-12 01:22:54] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2024-04-12 01:22:54] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2024-04-12 01:22:54] INFO root fetch - main [MainThread]: Store serial: [22728035]
