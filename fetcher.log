@@ -2123,3 +2123,24 @@
 [2024-04-12 01:57:42] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-04-12 01:57:42] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-04-12 01:57:42] INFO root fetch - main [MainThread]: Store serial: [22728254]
+[2024-04-12 01:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728254]
+[2024-04-12 01:59:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: austrakka
+[2024-04-12 01:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2024-04-12 01:59:52] INFO root fetch - processPackages [austrakka]: New version: [0.52.0] Old Version: [0.51.1]
+[2024-04-12 01:59:52] INFO root fetch - processPackages [phidata]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-12 01:59:52] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/c3/96/9de8d5f05b09f49e552aba2a5bba60c41f57c883eed8fa105fbd66de1aae/austrakka-0.51.1-py3-none-any.whl
+[2024-04-12 01:59:52] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/9a/24/afb3e8585b820976634b1dd732e5ec1f3562093b71b05a47e3bd6a870b75/phidata-2.3.8.tar.gz
+[2024-04-12 01:59:53] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/57/01/f98bbb6401e9f80de1c5663aa532816369213307a917745c771d56909428/austrakka-0.52.0-py3-none-any.whl
+[2024-04-12 01:59:53] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2024-04-12 01:59:53] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.51.1-py3-none-any.whl.zip tmp/austrakka-0.52.0-py3-none-any.whl.zip --markdown 20240412/a/austrakka/0.51.1-0.52.0/README.md --exclude *.pyd
+[2024-04-12 01:59:53] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/51/63/c5ed33bf592cd65cdcb90c64ded88ab6bc7786db2184c64f6484d61e92d0/phidata-2.3.9.tar.gz
+[2024-04-12 01:59:53] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-04-12 01:59:53] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.3.8.tar.gz tmp/phidata-2.3.9.tar.gz --markdown 20240412/p/phidata/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-12 01:59:53] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.51.1-py3-none-any.whl.zip]
+[2024-04-12 01:59:53] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.52.0-py3-none-any.whl.zip]
+[2024-04-12 01:59:53] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2024-04-12 01:59:54] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.8.tar.gz]
+[2024-04-12 01:59:54] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
+[2024-04-12 01:59:54] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-04-12 01:59:54] INFO root fetch - main [MainThread]: Store serial: [22728259]
