@@ -729,3 +729,103 @@
 [2024-04-12 00:34:13] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.2.tar.gz]
 [2024-04-12 00:34:13] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
 [2024-04-12 00:34:13] INFO root fetch - main [MainThread]: Store serial: [22727640]
+[2024-04-12 00:36:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727640]
+[2024-04-12 00:36:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-energy
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fsm-utils
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragonfly-radiance
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-uwg
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smaht-submitr
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: l2m2
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lollms-client
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: l2m2
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: generation-models
+[2024-04-12 00:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qcop
+[2024-04-12 00:36:21] INFO root fetch - processPackages [lollms-client]: New version: [0.2.8] Old Version: [0.2.6]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [l2m2]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [l2m2]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/a4/aa/e105be6f92924c34915a96a0398332a1cd0f90a2d564bc5b1c4fc76382d8/lollms_client-0.2.6.tar.gz
+[2024-04-12 00:36:21] INFO root fetch - processPackages [qcop]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [generation-models]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [fsm-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/d1/ee/3673248e32afc17ef8b2fbbb3c69763a655b39bfb1c934fc4481da3c551d/l2m2-0.0.1.tar.gz
+[2024-04-12 00:36:21] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-12 00:36:21] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-12 00:36:21] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-04-12 00:36:21] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/d1/ee/3673248e32afc17ef8b2fbbb3c69763a655b39bfb1c934fc4481da3c551d/l2m2-0.0.1.tar.gz
+[2024-04-12 00:36:21] INFO root fetch - processPackages [qcop]: Downloading https://files.pythonhosted.org/packages/64/57/ab910f0f07720c95973589dff1167909f2d5a958454f09d64eda33f372f4/qcop-0.5.2.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [generation-models]: Downloading https://files.pythonhosted.org/packages/bc/0d/1af4311726429767c9771cdf78ce97c612967623346f5ff38c8f178e150f/generation_models-0.6.0.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [fsm-utils]: Downloading https://files.pythonhosted.org/packages/6c/70/6da146d29067b6b0a2fbe8d03f418bd786310c11f8580b7dde0d93f3f876/fsm_utils-0.1.0.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/dc/ff/547183873ebda7c0e847bf6bca1e5882798393b7b01afd81c69ca3f6f4de/lollms_client-0.2.8.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/e4/95/13bd5bfacb4d3b494c8b79f9a8f9080b7243bdbec4eec3667b6e25536b28/l2m2-0.0.2.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/e4/95/13bd5bfacb4d3b494c8b79f9a8f9080b7243bdbec4eec3667b6e25536b28/l2m2-0.0.2.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [lollms-client]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [lollms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms_client-0.2.6.tar.gz tmp/lollms_client-0.2.8.tar.gz --markdown 20240412/l/lollms-client/0.2.6-0.2.8/README.md --exclude *.pyd
+[2024-04-12 00:36:22] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240412/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-12 00:36:22] INFO root fetch - processPackages [qcop]: Downloading https://files.pythonhosted.org/packages/37/63/cd015a2d928d0d13adafdbf595d4839e43c6c0ac3300467812781d29ed2d/qcop-0.5.3.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240412/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-12 00:36:22] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.1.tar.gz tmp/l2m2-0.0.2.tar.gz --markdown 20240412/l/l2m2/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 00:36:22] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.1.tar.gz tmp/l2m2-0.0.2.tar.gz --markdown 20240412/l/l2m2/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 00:36:22] INFO root fetch - processPackages [generation-models]: Downloading https://files.pythonhosted.org/packages/8e/6c/40c4b8499a0a0d9a4194a374b943e85f6c0304dd3e3966b51232e9d26b21/generation_models-0.7.0.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [fsm-utils]: Downloading https://files.pythonhosted.org/packages/01/7f/121709df73c3623928ebbc75a40377d91cb6ebd32729b6048610cfc7650f/fsm_utils-0.1.1.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-04-12 00:36:22] INFO root fetch - processPackages [qcop]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [qcop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcop-0.5.2.tar.gz tmp/qcop-0.5.3.tar.gz --markdown 20240412/q/qcop/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-12 00:36:22] INFO root fetch - processPackages [generation-models]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [generation-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generation_models-0.6.0.tar.gz tmp/generation_models-0.7.0.tar.gz --markdown 20240412/g/generation-models/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240412/d/dragonfly-radiance/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-12 00:36:22] INFO root fetch - processPackages [fsm-utils]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [fsm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsm_utils-0.1.0.tar.gz tmp/fsm_utils-0.1.1.tar.gz --markdown 20240412/f/fsm-utils/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-04-12 00:36:22] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240412/d/dragonfly-uwg/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-12 00:36:23] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.2.6.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.2.8.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [lollms-client]: Start processing: dspygen
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [lollms-client]: success
+[2024-04-12 00:36:23] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.1.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.2.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-04-12 00:36:23] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-04-12 00:36:23] INFO root fetch - processPackages [generation-models]: Remove: archive file [/home/abi/fetcher/tmp/generation_models-0.6.0.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [generation-models]: Remove: archive file [/home/abi/fetcher/tmp/generation_models-0.7.0.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [generation-models]: success
+[2024-04-12 00:36:23] INFO root fetch - processPackages [dspygen]: New version: [2024.4.8] Old Version: [2024.4.11]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-04-12 00:36:23] INFO root fetch - processPackages [qcop]: Remove: archive file [/home/abi/fetcher/tmp/qcop-0.5.2.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [qcop]: Remove: archive file [/home/abi/fetcher/tmp/qcop-0.5.3.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [qcop]: success
+[2024-04-12 00:36:23] INFO root fetch - processPackages [fsm-utils]: Remove: archive file [/home/abi/fetcher/tmp/fsm_utils-0.1.0.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [fsm-utils]: Remove: archive file [/home/abi/fetcher/tmp/fsm_utils-0.1.1.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [fsm-utils]: success
+[2024-04-12 00:36:23] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-04-12 00:36:23] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/41/8f/f9534bdae60ed7f72405d414c006cbd88b4ea407dfa263bc2751eeafe350/dspygen-2024.4.11.tar.gz
+[2024-04-12 00:36:23] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-04-12 00:36:23] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-04-12 00:36:24] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/b8/d2/67abba8675544ab98e98ff7bc3479521e1562052e572ea82c30eccce5120/dspygen-2024.4.8.tar.gz
+[2024-04-12 00:36:24] INFO root fetch - processPackages [dspygen]: executing diffoscope
+[2024-04-12 00:36:24] INFO root fetch - processPackages [dspygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspygen-2024.4.11.tar.gz tmp/dspygen-2024.4.8.tar.gz --markdown 20240412/d/dspygen/2024.4.11-2024.4.8/README.md --exclude *.pyd
+[2024-04-12 00:36:26] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.11.tar.gz]
+[2024-04-12 00:36:26] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
+[2024-04-12 00:36:26] INFO root fetch - main [MainThread]: End processing [dspygen]: success
+[2024-04-12 00:36:26] INFO root fetch - main [MainThread]: Store serial: [22727671]
