@@ -918,3 +918,33 @@
 [2024-04-12 00:40:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.5.tar.gz]
 [2024-04-12 00:40:50] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-04-12 00:40:50] INFO root fetch - main [MainThread]: Store serial: [22727722]
+[2024-04-12 00:42:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727722]
+[2024-04-12 00:42:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 00:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest_nlcov
+[2024-04-12 00:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2024-04-12 00:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lasfile
+[2024-04-12 00:42:58] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-12 00:42:59] INFO root fetch - processPackages [pytest_nlcov]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-12 00:42:59] INFO root fetch - processPackages [lasfile]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 00:42:59] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-12 00:42:59] INFO root fetch - processPackages [pytest_nlcov]: Downloading https://files.pythonhosted.org/packages/72/f1/7951852241d61e802eabd510c753331d301fb371c71befbc64b6081ca93d/pytest_nlcov-0.2.0.tar.gz
+[2024-04-12 00:42:59] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/d5/64/ec9a7cc9d411e7c7da40b3dad36030498cc079c8f4f65beae1c5d32d33fc/lasfile-0.1.8.tar.gz
+[2024-04-12 00:42:59] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-12 00:42:59] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-12 00:42:59] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240412/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-12 00:42:59] INFO root fetch - processPackages [pytest_nlcov]: Downloading https://files.pythonhosted.org/packages/9d/0a/ace8193ae88b7fd4105ef126664a860e618ce2894847f7f6218241d162f3/pytest_nlcov-0.3.0.tar.gz
+[2024-04-12 00:42:59] INFO root fetch - processPackages [lasfile]: Downloading https://files.pythonhosted.org/packages/81/46/99cbc4f9407daa16b3fe90802004647de4ec0eb60dfa6c1a4e06fbe5d312/lasfile-0.1.9.tar.gz
+[2024-04-12 00:42:59] INFO root fetch - processPackages [pytest_nlcov]: executing diffoscope
+[2024-04-12 00:42:59] INFO root fetch - processPackages [pytest_nlcov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_nlcov-0.2.0.tar.gz tmp/pytest_nlcov-0.3.0.tar.gz --markdown 20240412/p/pytest_nlcov/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-12 00:42:59] INFO root fetch - processPackages [lasfile]: executing diffoscope
+[2024-04-12 00:42:59] INFO root fetch - processPackages [lasfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasfile-0.1.8.tar.gz tmp/lasfile-0.1.9.tar.gz --markdown 20240412/l/lasfile/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 00:43:00] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-12 00:43:00] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-12 00:43:00] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-12 00:43:00] INFO root fetch - processPackages [pytest_nlcov]: Remove: archive file [/home/abi/fetcher/tmp/pytest_nlcov-0.2.0.tar.gz]
+[2024-04-12 00:43:00] INFO root fetch - processPackages [pytest_nlcov]: Remove: archive file [/home/abi/fetcher/tmp/pytest_nlcov-0.3.0.tar.gz]
+[2024-04-12 00:43:00] INFO root fetch - main [MainThread]: End processing [pytest_nlcov]: success
+[2024-04-12 00:43:00] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.8.tar.gz]
+[2024-04-12 00:43:00] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.9.tar.gz]
+[2024-04-12 00:43:00] INFO root fetch - main [MainThread]: End processing [lasfile]: success
+[2024-04-12 00:43:00] INFO root fetch - main [MainThread]: Store serial: [22727731]
