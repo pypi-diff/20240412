@@ -1730,3 +1730,20 @@
 [2024-04-12 01:31:34] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.7.0.tar.gz]
 [2024-04-12 01:31:34] INFO root fetch - main [MainThread]: End processing [ipl-pipeline-py-common]: success
 [2024-04-12 01:31:34] INFO root fetch - main [MainThread]: Store serial: [22728080]
+[2024-04-12 01:33:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728080]
+[2024-04-12 01:33:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 01:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qusi
+[2024-04-12 01:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mime-utils
+[2024-04-12 01:33:43] INFO root fetch - processPackages [mime-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 01:33:43] INFO root fetch - processPackages [qusi]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-12 01:33:43] INFO root fetch - processPackages [mime-utils]: Downloading https://files.pythonhosted.org/packages/a5/1d/93037a62adc95ec2d00b0f14abff8d2b1771a286ee63428416913c007b9d/mime-utils-0.1.0.tar.gz
+[2024-04-12 01:33:43] INFO root fetch - processPackages [qusi]: Downloading https://files.pythonhosted.org/packages/a4/20/f13933845b5a27d7493b18934e1a8958670dc9331bf34625c4642b6f8a71/qusi-0.9.0.tar.gz
+[2024-04-12 01:33:43] WARNING root fetch - processPackages [qusi]: Skipping package: exceeds size limit 24152424>=10485760
+[2024-04-12 01:33:43] INFO root fetch - main [MainThread]: End processing [qusi] error
+[2024-04-12 01:33:43] INFO root fetch - processPackages [mime-utils]: Downloading https://files.pythonhosted.org/packages/30/e7/990e141438035f58023b567cabdec4df1f9cfc60acb6e72b05fcccb89f39/mime-utils-0.1.1.tar.gz
+[2024-04-12 01:33:44] INFO root fetch - processPackages [mime-utils]: executing diffoscope
+[2024-04-12 01:33:44] INFO root fetch - processPackages [mime-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mime-utils-0.1.0.tar.gz tmp/mime-utils-0.1.1.tar.gz --markdown 20240412/m/mime-utils/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 01:33:44] INFO root fetch - processPackages [mime-utils]: Remove: archive file [/home/abi/fetcher/tmp/mime-utils-0.1.0.tar.gz]
+[2024-04-12 01:33:44] INFO root fetch - processPackages [mime-utils]: Remove: archive file [/home/abi/fetcher/tmp/mime-utils-0.1.1.tar.gz]
+[2024-04-12 01:33:44] INFO root fetch - main [MainThread]: End processing [mime-utils]: success
+[2024-04-12 01:33:44] INFO root fetch - main [MainThread]: Store serial: [22728087]
