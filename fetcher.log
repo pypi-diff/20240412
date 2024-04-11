@@ -353,3 +353,18 @@
 [2024-04-12 00:12:21] INFO root fetch - processPackages [autoanki]: Remove: archive file [/home/abi/fetcher/tmp/autoanki-1.1.8.tar.gz]
 [2024-04-12 00:12:21] INFO root fetch - main [MainThread]: End processing [autoanki]: success
 [2024-04-12 00:12:21] INFO root fetch - main [MainThread]: Store serial: [22727318]
+[2024-04-12 00:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727318]
+[2024-04-12 00:14:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 00:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fsm-utils
+[2024-04-12 00:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-testing-library
+[2024-04-12 00:14:29] INFO root fetch - processPackages [selenium-testing-library]: New version: [2024.3] Old Version: [2024.2]
+[2024-04-12 00:14:30] WARNING root fetch - processPackages [fsm-utils]: Skipping, unable to determine old version
+[2024-04-12 00:14:30] INFO root fetch - main [MainThread]: End processing [fsm-utils] error
+[2024-04-12 00:14:30] INFO root fetch - processPackages [selenium-testing-library]: Downloading https://files.pythonhosted.org/packages/ae/62/91732a578d4ccb938b9ee109279bbac40a34d7804904027bc92ba72ee36a/selenium_testing_library-2024.2.tar.gz
+[2024-04-12 00:14:30] INFO root fetch - processPackages [selenium-testing-library]: Downloading https://files.pythonhosted.org/packages/ba/8e/52e66e5f1fdcfe430ec666fa053a0b3e7b9f72bea4f30270a7620f4505f0/selenium_testing_library-2024.3.tar.gz
+[2024-04-12 00:14:30] INFO root fetch - processPackages [selenium-testing-library]: executing diffoscope
+[2024-04-12 00:14:30] INFO root fetch - processPackages [selenium-testing-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_testing_library-2024.2.tar.gz tmp/selenium_testing_library-2024.3.tar.gz --markdown 20240412/s/selenium-testing-library/2024.2-2024.3/README.md --exclude *.pyd
+[2024-04-12 00:14:32] INFO root fetch - processPackages [selenium-testing-library]: Remove: archive file [/home/abi/fetcher/tmp/selenium_testing_library-2024.2.tar.gz]
+[2024-04-12 00:14:32] INFO root fetch - processPackages [selenium-testing-library]: Remove: archive file [/home/abi/fetcher/tmp/selenium_testing_library-2024.3.tar.gz]
+[2024-04-12 00:14:32] INFO root fetch - main [MainThread]: End processing [selenium-testing-library]: success
+[2024-04-12 00:14:32] INFO root fetch - main [MainThread]: Store serial: [22727410]
