@@ -1937,3 +1937,29 @@
 [2024-04-12 01:46:49] INFO root fetch - processPackages [holdup]: Remove: archive file [/home/abi/fetcher/tmp/holdup-5.1.0.tar.gz]
 [2024-04-12 01:46:49] INFO root fetch - main [MainThread]: End processing [holdup]: success
 [2024-04-12 01:46:49] INFO root fetch - main [MainThread]: Store serial: [22728177]
+[2024-04-12 01:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728177]
+[2024-04-12 01:48:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 01:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AITracker
+[2024-04-12 01:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Django-Person-Client
+[2024-04-12 01:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ploomber-cloud
+[2024-04-12 01:48:58] INFO root fetch - processPackages [AITracker]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-12 01:48:58] INFO root fetch - processPackages [Django-Person-Client]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-12 01:48:58] INFO root fetch - processPackages [AITracker]: Downloading https://files.pythonhosted.org/packages/12/a3/2ad43508afb6243ac28313ae18a9f8b8f5a038a0c35b01afd85e3f74a9ed/AITracker-0.9.4.tar.gz
+[2024-04-12 01:48:58] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 01:48:58] WARNING root fetch - processPackages [AITracker]: Skipping package: exceeds size limit 26155505>=10485760
+[2024-04-12 01:48:58] INFO root fetch - main [MainThread]: End processing [AITracker] error
+[2024-04-12 01:48:58] INFO root fetch - processPackages [Django-Person-Client]: Downloading https://files.pythonhosted.org/packages/c2/89/80077aaf1f78c266c46f17446c3aed0e97ca312a87fefe3c95bb63ce7308/Django-Person-Client-1.0.0.tar.gz
+[2024-04-12 01:48:58] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/09/b7/440dcb1a0920e2be01c8f414f613165ff78c6816833a687736a9dc9162b1/ploomber-cloud-0.1.8.tar.gz
+[2024-04-12 01:48:58] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/e6/f8/f4451ff0cb54c012c89da5286d33c3f73ca21e606814f7366bd6cda4738a/ploomber-cloud-0.1.9.tar.gz
+[2024-04-12 01:48:58] INFO root fetch - processPackages [Django-Person-Client]: Downloading https://files.pythonhosted.org/packages/2f/4f/0138d43dd1d54c8cc97869fb26fe0b50c76a3b66b0487f48ddd1016d8723/Django-Person-Client-1.0.1.tar.gz
+[2024-04-12 01:48:59] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-04-12 01:48:59] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.1.8.tar.gz tmp/ploomber-cloud-0.1.9.tar.gz --markdown 20240412/p/ploomber-cloud/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 01:48:59] INFO root fetch - processPackages [Django-Person-Client]: executing diffoscope
+[2024-04-12 01:48:59] INFO root fetch - processPackages [Django-Person-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Django-Person-Client-1.0.0.tar.gz tmp/Django-Person-Client-1.0.1.tar.gz --markdown 20240412/D/Django-Person-Client/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-12 01:48:59] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.8.tar.gz]
+[2024-04-12 01:48:59] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
+[2024-04-12 01:48:59] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-04-12 01:48:59] INFO root fetch - processPackages [Django-Person-Client]: Remove: archive file [/home/abi/fetcher/tmp/Django-Person-Client-1.0.0.tar.gz]
+[2024-04-12 01:48:59] INFO root fetch - processPackages [Django-Person-Client]: Remove: archive file [/home/abi/fetcher/tmp/Django-Person-Client-1.0.1.tar.gz]
+[2024-04-12 01:48:59] INFO root fetch - main [MainThread]: End processing [Django-Person-Client]: success
+[2024-04-12 01:48:59] INFO root fetch - main [MainThread]: Store serial: [22728186]
