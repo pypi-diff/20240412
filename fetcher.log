@@ -91,3 +91,63 @@
 [2024-04-12 00:01:44] INFO root fetch - processPackages [web3]: Remove: archive file [/home/abi/fetcher/tmp/web3-7.0.0b4.tar.gz]
 [2024-04-12 00:01:44] INFO root fetch - main [MainThread]: End processing [web3]: success
 [2024-04-12 00:01:44] INFO root fetch - main [MainThread]: Store serial: [22727227]
+[2024-04-12 00:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727227]
+[2024-04-12 00:03:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 00:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: livekit-plugins-deepgram
+[2024-04-12 00:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt
+[2024-04-12 00:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embedchain
+[2024-04-12 00:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mateus-media
+[2024-04-12 00:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckietown-messages
+[2024-04-12 00:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vegafusion-python-embed
+[2024-04-12 00:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarms
+[2024-04-12 00:03:53] INFO root fetch - processPackages [embedchain]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-12 00:03:53] INFO root fetch - processPackages [swarms]: New version: [4.7.9] Old Version: [4.7.8]
+[2024-04-12 00:03:53] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/f2/0a/0533e02b852a707aa8322566681194dc15d055019eefb6c0f35cedc99a94/embedchain-0.1.98.tar.gz
+[2024-04-12 00:03:53] INFO root fetch - processPackages [duckietown-messages]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-12 00:03:53] INFO root fetch - processPackages [livekit-plugins-deepgram]: New version: [0.3.dev0] Old Version: [0.2.0]
+[2024-04-12 00:03:53] WARNING root fetch - processPackages [mateus-media]: Skipping, unable to determine old version
+[2024-04-12 00:03:53] INFO root fetch - main [MainThread]: End processing [mateus-media] error
+[2024-04-12 00:03:53] INFO root fetch - processPackages [dbt]: New version: [1.0.0rc1] Old Version: [1.0.0.37.8]
+[2024-04-12 00:03:53] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/cb/41/5fba5f873d44624cd2b1bec39b8d729c0c1623498a1718e1e2defa9f06dd/swarms-4.7.8.tar.gz
+[2024-04-12 00:03:53] INFO root fetch - processPackages [livekit-plugins-deepgram]: Downloading https://files.pythonhosted.org/packages/c5/5c/e6e9179fe277c54b1c27c11f09fdd2e7a3d87f2cca43a7e3721791d7ed55/livekit-plugins-deepgram-0.2.0.tar.gz
+[2024-04-12 00:03:53] INFO root fetch - processPackages [duckietown-messages]: Downloading https://files.pythonhosted.org/packages/fe/d8/f98279845918cccffbac1eaeb7fb59cd29e0024be8e327ad68a072d6c38a/duckietown-messages-0.0.7.tar.gz
+[2024-04-12 00:03:53] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/c2/43/bb953e8c002db9ccb4278a3126384b76228d455eef69eaa7bdd75cef1059/dbt-1.0.0.37.8.tar.gz
+[2024-04-12 00:03:53] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/0d/2d/2739eceecbbc32ad3687e1c8993737657b4cafa08f9b6712546852a21c74/embedchain-0.1.99.tar.gz
+[2024-04-12 00:03:53] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/91/f2/3142a0c287a4223a611677dc12543cb69104df260967c04a7128c7abd7eb/swarms-4.7.9.tar.gz
+[2024-04-12 00:03:54] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2024-04-12 00:03:54] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.1.98.tar.gz tmp/embedchain-0.1.99.tar.gz --markdown 20240412/e/embedchain/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-12 00:03:54] INFO root fetch - processPackages [vegafusion-python-embed]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-12 00:03:54] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-04-12 00:03:54] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.7.8.tar.gz tmp/swarms-4.7.9.tar.gz --markdown 20240412/s/swarms/4.7.8-4.7.9/README.md --exclude *.pyd
+[2024-04-12 00:03:54] INFO root fetch - processPackages [duckietown-messages]: Downloading https://files.pythonhosted.org/packages/e3/90/f13aad5e71df96dfd7e3813cba6199fb9f379e52850af493c82a34b67849/duckietown-messages-0.0.8.tar.gz
+[2024-04-12 00:03:54] INFO root fetch - processPackages [livekit-plugins-deepgram]: Downloading https://files.pythonhosted.org/packages/9b/1f/7a1b4401fe431e2379b3d97c50e0cd0bce2b3e4815d2c2fc7d0856b04710/livekit-plugins-deepgram-0.3.dev0.tar.gz
+[2024-04-12 00:03:54] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/7a/99/05944c00ffe021ceeae59e411a5b5f4521e582e35af5de3f57a6fec4eb05/dbt-1.0.0rc1.tar.gz
+[2024-04-12 00:03:54] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/b7/33/b77a5ff0ed3583515ab72417e4ddd67a98f383fc6d65a81194b02e48a21d/vegafusion_python_embed-1.6.6.tar.gz
+[2024-04-12 00:03:54] INFO root fetch - processPackages [duckietown-messages]: executing diffoscope
+[2024-04-12 00:03:54] INFO root fetch - processPackages [duckietown-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-messages-0.0.7.tar.gz tmp/duckietown-messages-0.0.8.tar.gz --markdown 20240412/d/duckietown-messages/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-12 00:03:54] INFO root fetch - processPackages [dbt]: executing diffoscope
+[2024-04-12 00:03:54] INFO root fetch - processPackages [dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-1.0.0.37.8.tar.gz tmp/dbt-1.0.0rc1.tar.gz --markdown 20240412/d/dbt/1.0.0.37.8-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-12 00:03:54] INFO root fetch - processPackages [livekit-plugins-deepgram]: executing diffoscope
+[2024-04-12 00:03:54] INFO root fetch - processPackages [livekit-plugins-deepgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-deepgram-0.2.0.tar.gz tmp/livekit-plugins-deepgram-0.3.dev0.tar.gz --markdown 20240412/l/livekit-plugins-deepgram/0.2.0-0.3.dev0/README.md --exclude *.pyd
+[2024-04-12 00:03:54] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/62/94/26adb1e129487c80d785f18392ba03227171846c1d400837f1db0def74e2/vegafusion_python_embed-1.6.7.tar.gz
+[2024-04-12 00:03:55] INFO root fetch - processPackages [duckietown-messages]: Remove: archive file [/home/abi/fetcher/tmp/duckietown-messages-0.0.7.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - processPackages [duckietown-messages]: Remove: archive file [/home/abi/fetcher/tmp/duckietown-messages-0.0.8.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - main [MainThread]: End processing [duckietown-messages]: success
+[2024-04-12 00:03:55] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0.37.8.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0rc1.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - main [MainThread]: End processing [dbt]: success
+[2024-04-12 00:03:55] INFO root fetch - processPackages [livekit-plugins-deepgram]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-deepgram-0.2.0.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - processPackages [livekit-plugins-deepgram]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-deepgram-0.3.dev0.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - main [MainThread]: End processing [livekit-plugins-deepgram]: success
+[2024-04-12 00:03:55] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.1.98.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.1.99.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2024-04-12 00:03:55] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.8.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.9.tar.gz]
+[2024-04-12 00:03:55] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-04-12 00:03:56] INFO root fetch - processPackages [vegafusion-python-embed]: executing diffoscope
+[2024-04-12 00:03:56] INFO root fetch - processPackages [vegafusion-python-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion_python_embed-1.6.6.tar.gz tmp/vegafusion_python_embed-1.6.7.tar.gz --markdown 20240412/v/vegafusion-python-embed/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-04-12 00:04:17] INFO root fetch - processPackages [vegafusion-python-embed]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion_python_embed-1.6.6.tar.gz]
+[2024-04-12 00:04:17] INFO root fetch - processPackages [vegafusion-python-embed]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion_python_embed-1.6.7.tar.gz]
+[2024-04-12 00:04:17] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
+[2024-04-12 00:04:17] INFO root fetch - main [MainThread]: Store serial: [22727252]
