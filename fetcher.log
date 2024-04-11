@@ -1091,3 +1091,29 @@
 [2024-04-12 00:54:00] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.0.3.tar.gz]
 [2024-04-12 00:54:00] INFO root fetch - main [MainThread]: End processing [telegram-wallet-pay]: success
 [2024-04-12 00:54:00] INFO root fetch - main [MainThread]: Store serial: [22727851]
+[2024-04-12 00:56:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727851]
+[2024-04-12 00:56:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 00:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-mongo
+[2024-04-12 00:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wasmstore
+[2024-04-12 00:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numerous
+[2024-04-12 00:56:09] INFO root fetch - processPackages [pydantic-mongo]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-04-12 00:56:09] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 00:56:09] INFO root fetch - processPackages [wasmstore]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-12 00:56:09] INFO root fetch - processPackages [pydantic-mongo]: Downloading https://files.pythonhosted.org/packages/10/1e/032210295fa0026272ce575fd49a3f4454b597c31e5f4f827f2682ae8cb2/pydantic-mongo-2.1.2.tar.gz
+[2024-04-12 00:56:09] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-12 00:56:09] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-12 00:56:09] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-12 00:56:09] INFO root fetch - processPackages [wasmstore]: Downloading https://files.pythonhosted.org/packages/d7/da/b77bc6e989a0a32a0b6aceb41b827095aec93d9fdfdc8e4827eb5102edd9/wasmstore-0.2.0.tar.gz
+[2024-04-12 00:56:09] INFO root fetch - processPackages [pydantic-mongo]: Downloading https://files.pythonhosted.org/packages/c2/b8/ad38b197f99108208c7ad4e8eb63b3e5517bc3ee9d737e1364fb5afd584b/pydantic-mongo-2.2.0.tar.gz
+[2024-04-12 00:56:09] INFO root fetch - processPackages [wasmstore]: Downloading https://files.pythonhosted.org/packages/05/df/dca5e5a5cd7d9ba35128dd14efa8497aba180bd29531ed5653928143ee0e/wasmstore-0.3.0.tar.gz
+[2024-04-12 00:56:09] INFO root fetch - processPackages [pydantic-mongo]: executing diffoscope
+[2024-04-12 00:56:09] INFO root fetch - processPackages [pydantic-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-mongo-2.1.2.tar.gz tmp/pydantic-mongo-2.2.0.tar.gz --markdown 20240412/p/pydantic-mongo/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-04-12 00:56:09] INFO root fetch - processPackages [wasmstore]: executing diffoscope
+[2024-04-12 00:56:09] INFO root fetch - processPackages [wasmstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmstore-0.2.0.tar.gz tmp/wasmstore-0.3.0.tar.gz --markdown 20240412/w/wasmstore/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-12 00:56:10] INFO root fetch - processPackages [pydantic-mongo]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-mongo-2.1.2.tar.gz]
+[2024-04-12 00:56:10] INFO root fetch - processPackages [pydantic-mongo]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-mongo-2.2.0.tar.gz]
+[2024-04-12 00:56:10] INFO root fetch - main [MainThread]: End processing [pydantic-mongo]: success
+[2024-04-12 00:56:10] INFO root fetch - processPackages [wasmstore]: Remove: archive file [/home/abi/fetcher/tmp/wasmstore-0.2.0.tar.gz]
+[2024-04-12 00:56:10] INFO root fetch - processPackages [wasmstore]: Remove: archive file [/home/abi/fetcher/tmp/wasmstore-0.3.0.tar.gz]
+[2024-04-12 00:56:10] INFO root fetch - main [MainThread]: End processing [wasmstore]: success
+[2024-04-12 00:56:10] INFO root fetch - main [MainThread]: Store serial: [22727864]
