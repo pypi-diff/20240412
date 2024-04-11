@@ -1043,3 +1043,51 @@
 [2024-04-12 00:51:49] INFO root fetch - processPackages [paramount]: Remove: archive file [/home/abi/fetcher/tmp/paramount-0.3.5.tar.gz]
 [2024-04-12 00:51:49] INFO root fetch - main [MainThread]: End processing [paramount]: success
 [2024-04-12 00:51:49] INFO root fetch - main [MainThread]: Store serial: [22727769]
+[2024-04-12 00:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727769]
+[2024-04-12 00:53:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 00:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openedx-events
+[2024-04-12 00:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toml-cli
+[2024-04-12 00:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recflows
+[2024-04-12 00:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: greenstream-config
+[2024-04-12 00:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-wallet-pay
+[2024-04-12 00:53:58] INFO root fetch - processPackages [greenstream-config]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-04-12 00:53:58] INFO root fetch - processPackages [toml-cli]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-12 00:53:58] INFO root fetch - processPackages [recflows]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 00:53:58] INFO root fetch - processPackages [openedx-events]: New version: [9.8.0] Old Version: [9.7.0]
+[2024-04-12 00:53:58] INFO root fetch - processPackages [telegram-wallet-pay]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 00:53:58] INFO root fetch - processPackages [greenstream-config]: Downloading https://files.pythonhosted.org/packages/2c/1f/bdfe36ef1545afefac3870db8669403aec7f0d2c915e78d9f027d461e5be/greenstream_config-2.9.2.tar.gz
+[2024-04-12 00:53:58] INFO root fetch - processPackages [toml-cli]: Downloading https://files.pythonhosted.org/packages/4c/8c/df898f8c1f267d7b843aa0d0fa6594a513f209b2f6107e87889cee15b7f3/toml_cli-0.6.0.tar.gz
+[2024-04-12 00:53:58] INFO root fetch - processPackages [recflows]: Downloading https://files.pythonhosted.org/packages/75/5a/4b52d3ff259c3f6b479f06d44538d510a7b56662950706ae95edf64f6df6/recflows-0.0.8.tar.gz
+[2024-04-12 00:53:58] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/e0/28/c21e8d6dfd32dcdb99a8ae24990f2ab5a0364f254df96e684ee01ed65e0e/openedx-events-9.7.0.tar.gz
+[2024-04-12 00:53:59] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/be/4c/88c1c70bbc88c0a25fe96b6ffcc9a000bc4de6fc533b1985c98b809f3fed/telegram_wallet_pay-0.0.2.tar.gz
+[2024-04-12 00:53:59] INFO root fetch - processPackages [toml-cli]: Downloading https://files.pythonhosted.org/packages/23/d8/178ee406bf75e76c62aa121c363f0857990eb3bc884f628c98f51da579ec/toml_cli-0.6.1.tar.gz
+[2024-04-12 00:53:59] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/38/22/a597a490e7299e3ec6080ad8c2e197245a2e4297c578983ff5a578b62f18/openedx-events-9.8.0.tar.gz
+[2024-04-12 00:53:59] INFO root fetch - processPackages [greenstream-config]: Downloading https://files.pythonhosted.org/packages/5c/00/15699e5352e585715f391261bc82f2d5738b2f9f965ac07ebfade56d30bb/greenstream_config-2.9.3.tar.gz
+[2024-04-12 00:53:59] INFO root fetch - processPackages [recflows]: Downloading https://files.pythonhosted.org/packages/b0/3a/5fe25ed6db3f6a0b1324bba20aef50aeeef1b71eceb228be123efb580bbe/recflows-0.0.9.tar.gz
+[2024-04-12 00:53:59] INFO root fetch - processPackages [toml-cli]: executing diffoscope
+[2024-04-12 00:53:59] INFO root fetch - processPackages [toml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toml_cli-0.6.0.tar.gz tmp/toml_cli-0.6.1.tar.gz --markdown 20240412/t/toml-cli/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-12 00:53:59] INFO root fetch - processPackages [openedx-events]: executing diffoscope
+[2024-04-12 00:53:59] INFO root fetch - processPackages [openedx-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-events-9.7.0.tar.gz tmp/openedx-events-9.8.0.tar.gz --markdown 20240412/o/openedx-events/9.7.0-9.8.0/README.md --exclude *.pyd
+[2024-04-12 00:53:59] INFO root fetch - processPackages [greenstream-config]: executing diffoscope
+[2024-04-12 00:53:59] INFO root fetch - processPackages [greenstream-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greenstream_config-2.9.2.tar.gz tmp/greenstream_config-2.9.3.tar.gz --markdown 20240412/g/greenstream-config/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-04-12 00:53:59] INFO root fetch - processPackages [recflows]: executing diffoscope
+[2024-04-12 00:53:59] INFO root fetch - processPackages [recflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recflows-0.0.8.tar.gz tmp/recflows-0.0.9.tar.gz --markdown 20240412/r/recflows/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 00:53:59] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/00/9c/cb3afc1e0a4863232558ece4e15cbfdef739a62d529fb02fb72990c4b204/telegram_wallet_pay-0.0.3.tar.gz
+[2024-04-12 00:53:59] INFO root fetch - processPackages [telegram-wallet-pay]: executing diffoscope
+[2024-04-12 00:53:59] INFO root fetch - processPackages [telegram-wallet-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_wallet_pay-0.0.2.tar.gz tmp/telegram_wallet_pay-0.0.3.tar.gz --markdown 20240412/t/telegram-wallet-pay/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 00:53:59] INFO root fetch - processPackages [toml-cli]: Remove: archive file [/home/abi/fetcher/tmp/toml_cli-0.6.0.tar.gz]
+[2024-04-12 00:53:59] INFO root fetch - processPackages [toml-cli]: Remove: archive file [/home/abi/fetcher/tmp/toml_cli-0.6.1.tar.gz]
+[2024-04-12 00:53:59] INFO root fetch - main [MainThread]: End processing [toml-cli]: success
+[2024-04-12 00:53:59] INFO root fetch - processPackages [greenstream-config]: Remove: archive file [/home/abi/fetcher/tmp/greenstream_config-2.9.2.tar.gz]
+[2024-04-12 00:53:59] INFO root fetch - processPackages [greenstream-config]: Remove: archive file [/home/abi/fetcher/tmp/greenstream_config-2.9.3.tar.gz]
+[2024-04-12 00:53:59] INFO root fetch - main [MainThread]: End processing [greenstream-config]: success
+[2024-04-12 00:54:00] INFO root fetch - processPackages [recflows]: Remove: archive file [/home/abi/fetcher/tmp/recflows-0.0.8.tar.gz]
+[2024-04-12 00:54:00] INFO root fetch - processPackages [recflows]: Remove: archive file [/home/abi/fetcher/tmp/recflows-0.0.9.tar.gz]
+[2024-04-12 00:54:00] INFO root fetch - main [MainThread]: End processing [recflows]: success
+[2024-04-12 00:54:00] INFO root fetch - processPackages [openedx-events]: Remove: archive file [/home/abi/fetcher/tmp/openedx-events-9.7.0.tar.gz]
+[2024-04-12 00:54:00] INFO root fetch - processPackages [openedx-events]: Remove: archive file [/home/abi/fetcher/tmp/openedx-events-9.8.0.tar.gz]
+[2024-04-12 00:54:00] INFO root fetch - main [MainThread]: End processing [openedx-events]: success
+[2024-04-12 00:54:00] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.0.2.tar.gz]
+[2024-04-12 00:54:00] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.0.3.tar.gz]
+[2024-04-12 00:54:00] INFO root fetch - main [MainThread]: End processing [telegram-wallet-pay]: success
+[2024-04-12 00:54:00] INFO root fetch - main [MainThread]: Store serial: [22727851]
