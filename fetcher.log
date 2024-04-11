@@ -1117,3 +1117,27 @@
 [2024-04-12 00:56:10] INFO root fetch - processPackages [wasmstore]: Remove: archive file [/home/abi/fetcher/tmp/wasmstore-0.3.0.tar.gz]
 [2024-04-12 00:56:10] INFO root fetch - main [MainThread]: End processing [wasmstore]: success
 [2024-04-12 00:56:10] INFO root fetch - main [MainThread]: Store serial: [22727864]
+[2024-04-12 00:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727864]
+[2024-04-12 00:58:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 00:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netdot
+[2024-04-12 00:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BatsaevAb
+[2024-04-12 00:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openedx-events
+[2024-04-12 00:58:19] INFO root fetch - processPackages [openedx-events]: New version: [9.8.0] Old Version: [9.7.0]
+[2024-04-12 00:58:20] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/e0/28/c21e8d6dfd32dcdb99a8ae24990f2ab5a0364f254df96e684ee01ed65e0e/openedx-events-9.7.0.tar.gz
+[2024-04-12 00:58:20] WARNING root fetch - processPackages [BatsaevAb]: Skipping, unable to determine old version
+[2024-04-12 00:58:20] INFO root fetch - main [MainThread]: End processing [BatsaevAb] error
+[2024-04-12 00:58:20] INFO root fetch - processPackages [netdot]: New version: [0.4.4] Old Version: [0.4.3rc1]
+[2024-04-12 00:58:20] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/38/22/a597a490e7299e3ec6080ad8c2e197245a2e4297c578983ff5a578b62f18/openedx-events-9.8.0.tar.gz
+[2024-04-12 00:58:20] INFO root fetch - processPackages [netdot]: Downloading https://files.pythonhosted.org/packages/7e/66/6cf96ea62a5bda69904f592dac501ea42ed94b7c4a8478159a144d76bf75/netdot-0.4.3rc1.tar.gz
+[2024-04-12 00:58:20] INFO root fetch - processPackages [openedx-events]: executing diffoscope
+[2024-04-12 00:58:20] INFO root fetch - processPackages [openedx-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-events-9.7.0.tar.gz tmp/openedx-events-9.8.0.tar.gz --markdown 20240412/o/openedx-events/9.7.0-9.8.0/README.md --exclude *.pyd
+[2024-04-12 00:58:20] INFO root fetch - processPackages [netdot]: Downloading https://files.pythonhosted.org/packages/65/b5/964b6b992a37ac9eb72ee242e92753dc4a8afc5aa3fe6b9b2e31b40cc831/netdot-0.4.4.tar.gz
+[2024-04-12 00:58:20] INFO root fetch - processPackages [netdot]: executing diffoscope
+[2024-04-12 00:58:20] INFO root fetch - processPackages [netdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdot-0.4.3rc1.tar.gz tmp/netdot-0.4.4.tar.gz --markdown 20240412/n/netdot/0.4.3rc1-0.4.4/README.md --exclude *.pyd
+[2024-04-12 00:58:21] INFO root fetch - processPackages [openedx-events]: Remove: archive file [/home/abi/fetcher/tmp/openedx-events-9.7.0.tar.gz]
+[2024-04-12 00:58:21] INFO root fetch - processPackages [openedx-events]: Remove: archive file [/home/abi/fetcher/tmp/openedx-events-9.8.0.tar.gz]
+[2024-04-12 00:58:21] INFO root fetch - main [MainThread]: End processing [openedx-events]: success
+[2024-04-12 00:58:23] INFO root fetch - processPackages [netdot]: Remove: archive file [/home/abi/fetcher/tmp/netdot-0.4.3rc1.tar.gz]
+[2024-04-12 00:58:23] INFO root fetch - processPackages [netdot]: Remove: archive file [/home/abi/fetcher/tmp/netdot-0.4.4.tar.gz]
+[2024-04-12 00:58:23] INFO root fetch - main [MainThread]: End processing [netdot]: success
+[2024-04-12 00:58:23] INFO root fetch - main [MainThread]: Store serial: [22727874]
