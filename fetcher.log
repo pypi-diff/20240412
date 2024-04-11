@@ -981,3 +981,24 @@
 [2024-04-12 00:45:10] INFO root fetch - processPackages [sshpyk]: Remove: archive file [/home/abi/fetcher/tmp/sshpyk-0.9.tar.gz]
 [2024-04-12 00:45:10] INFO root fetch - main [MainThread]: End processing [sshpyk]: success
 [2024-04-12 00:45:10] INFO root fetch - main [MainThread]: Store serial: [22727745]
+[2024-04-12 00:47:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727745]
+[2024-04-12 00:47:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openedx-filters
+[2024-04-12 00:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sshpyk
+[2024-04-12 00:47:19] INFO root fetch - processPackages [openedx-filters]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-12 00:47:19] INFO root fetch - processPackages [sshpyk]: New version: [0.9] Old Version: [0.11]
+[2024-04-12 00:47:19] INFO root fetch - processPackages [openedx-filters]: Downloading https://files.pythonhosted.org/packages/35/6a/54ab4ab5c60714c16914e2b8ab3c53a17a6d54ceaee235c1548893cd1cff/openedx-filters-1.6.0.tar.gz
+[2024-04-12 00:47:19] INFO root fetch - processPackages [sshpyk]: Downloading https://files.pythonhosted.org/packages/30/b8/43a65eeb53c2bafa58ba3d20fce08062b5474b77f14d4e614be101479322/sshpyk-0.11.tar.gz
+[2024-04-12 00:47:19] INFO root fetch - processPackages [openedx-filters]: Downloading https://files.pythonhosted.org/packages/df/97/bf5c41414eef6fa8f5530a47fbaeabecc791add597e5f0ff479d46f8c7e9/openedx-filters-1.7.0.tar.gz
+[2024-04-12 00:47:19] INFO root fetch - processPackages [openedx-filters]: executing diffoscope
+[2024-04-12 00:47:19] INFO root fetch - processPackages [openedx-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-filters-1.6.0.tar.gz tmp/openedx-filters-1.7.0.tar.gz --markdown 20240412/o/openedx-filters/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-12 00:47:19] INFO root fetch - processPackages [sshpyk]: Downloading https://files.pythonhosted.org/packages/42/da/83b7fea94119b014b80b9552224d22f24b5301b7f0334e3a46c51d86f0ea/sshpyk-0.9.tar.gz
+[2024-04-12 00:47:19] INFO root fetch - processPackages [sshpyk]: executing diffoscope
+[2024-04-12 00:47:19] INFO root fetch - processPackages [sshpyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshpyk-0.11.tar.gz tmp/sshpyk-0.9.tar.gz --markdown 20240412/s/sshpyk/0.11-0.9/README.md --exclude *.pyd
+[2024-04-12 00:47:20] INFO root fetch - processPackages [openedx-filters]: Remove: archive file [/home/abi/fetcher/tmp/openedx-filters-1.6.0.tar.gz]
+[2024-04-12 00:47:20] INFO root fetch - processPackages [openedx-filters]: Remove: archive file [/home/abi/fetcher/tmp/openedx-filters-1.7.0.tar.gz]
+[2024-04-12 00:47:20] INFO root fetch - main [MainThread]: End processing [openedx-filters]: success
+[2024-04-12 00:47:20] INFO root fetch - processPackages [sshpyk]: Remove: archive file [/home/abi/fetcher/tmp/sshpyk-0.11.tar.gz]
+[2024-04-12 00:47:20] INFO root fetch - processPackages [sshpyk]: Remove: archive file [/home/abi/fetcher/tmp/sshpyk-0.9.tar.gz]
+[2024-04-12 00:47:20] INFO root fetch - main [MainThread]: End processing [sshpyk]: success
+[2024-04-12 00:47:20] INFO root fetch - main [MainThread]: Store serial: [22727751]
