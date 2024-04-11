@@ -151,3 +151,90 @@
 [2024-04-12 00:04:17] INFO root fetch - processPackages [vegafusion-python-embed]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion_python_embed-1.6.7.tar.gz]
 [2024-04-12 00:04:17] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
 [2024-04-12 00:04:17] INFO root fetch - main [MainThread]: Store serial: [22727252]
+[2024-04-12 00:06:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727252]
+[2024-04-12 00:06:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: termpandas
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: livekit-plugins-elevenlabs
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vegafusion
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: livekit-plugins-google
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: livekit-plugins-nltk
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vegafusion-jupyter
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: livekit-plugins-openai
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: livekit-plugins-silero
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bpm-ai
+[2024-04-12 00:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lollms-client
+[2024-04-12 00:06:33] INFO root fetch - processPackages [lollms-client]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-12 00:06:33] INFO root fetch - processPackages [livekit-plugins-nltk]: New version: [0.4.dev0] Old Version: [0.2.0]
+[2024-04-12 00:06:33] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/c5/69/2fa532ecfd041fb123420be1293c53d2d5a96f5cbf98fe86e511e780047a/lollms_client-0.2.5.tar.gz
+[2024-04-12 00:06:33] INFO root fetch - processPackages [livekit-plugins-openai]: New version: [0.3.dev0] Old Version: [0.2.0]
+[2024-04-12 00:06:33] INFO root fetch - processPackages [vegafusion-jupyter]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-12 00:06:33] INFO root fetch - processPackages [vegafusion]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-12 00:06:33] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: New version: [0.3.dev0] Old Version: [0.2.0]
+[2024-04-12 00:06:33] INFO root fetch - processPackages [livekit-plugins-silero]: New version: [0.3.dev0] Old Version: [0.2.0]
+[2024-04-12 00:06:33] INFO root fetch - processPackages [bpm-ai]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-04-12 00:06:33] INFO root fetch - processPackages [livekit-plugins-google]: New version: [0.3.dev0] Old Version: [0.2.0]
+[2024-04-12 00:06:33] WARNING root fetch - processPackages [termpandas]: Skipping, unable to determine old version
+[2024-04-12 00:06:33] INFO root fetch - main [MainThread]: End processing [termpandas] error
+[2024-04-12 00:06:34] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/ca/d6/26cd14334fc57dcee4663578a1e93b8ee33ce4f01fb124ab735612c1c76c/vegafusion-1.6.6.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-nltk]: Downloading https://files.pythonhosted.org/packages/6e/a3/cf5642d8df19cbc67399344b11b00621737a6a5c4da5e35398a6c61be11b/livekit-plugins-nltk-0.2.0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/47/fe/52ba7a31eb8c48d6dc527eaf762db9acee2ece077c8bfaa0ecb6eac025b6/vegafusion-jupyter-1.6.6.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-openai]: Downloading https://files.pythonhosted.org/packages/e4/24/77d9cb25bb2e164436a3a0f5b7b1f9c39026e0fbec63e9bb50526c38c7d5/livekit-plugins-openai-0.2.0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/81/93/a8a6d4914c599df48b7233afe99b8709c7f0598301fa6fb5d7ab4c934f91/bpm_ai-1.4.1.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-silero]: Downloading https://files.pythonhosted.org/packages/40/6c/9b4d7b6e3b2eae9c5e5bef750eb0b88b75af7e47c34881ca73584e91df9e/livekit-plugins-silero-0.2.0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-google]: Downloading https://files.pythonhosted.org/packages/8a/a7/324deb4f9ae3723209607619b94bd107dc7c847fa1cb8b87bf38c2313eaa/livekit-plugins-google-0.2.0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Downloading https://files.pythonhosted.org/packages/da/fe/1b62133f771d96a4866b1b112605870ab5842289efd38358101b7b92927b/livekit-plugins-elevenlabs-0.2.0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/a4/aa/e105be6f92924c34915a96a0398332a1cd0f90a2d564bc5b1c4fc76382d8/lollms_client-0.2.6.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [lollms-client]: executing diffoscope
+[2024-04-12 00:06:34] INFO root fetch - processPackages [lollms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms_client-0.2.5.tar.gz tmp/lollms_client-0.2.6.tar.gz --markdown 20240412/l/lollms-client/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-12 00:06:34] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/60/a0/a0f41e66a2311335deb26458248d444d989b51c587f80eed6f32bbbe6dac/vegafusion-1.6.7.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-nltk]: Downloading https://files.pythonhosted.org/packages/e2/a7/8869f375ca58fdef5a3c5b6adb464e978140473f98828458c8ff58d14b36/livekit-plugins-nltk-0.4.dev0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-openai]: Downloading https://files.pythonhosted.org/packages/99/ce/1cd68334d3021f42bf2b609bad17ec160ef0d67953771d11608ce9f5d121/livekit-plugins-openai-0.3.dev0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-silero]: Downloading https://files.pythonhosted.org/packages/fe/3c/2988fda4aeb8d41498f291340df30dded1ef1f65a452a14130140259305f/livekit-plugins-silero-0.3.dev0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/41/16/6f5e11a2a3614fb4cd4b152abc5232eb9ca646807f253b06f21d61715d75/bpm_ai-1.5.0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-google]: Downloading https://files.pythonhosted.org/packages/2f/be/df0ec3f70f11551f7381b8a1bfaf8182228d2f047b8dfd8909f43d9ec9be/livekit-plugins-google-0.3.dev0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Downloading https://files.pythonhosted.org/packages/ad/e8/c130245ec19d05b3b4b0466df07bbb5c30d59d0348dcd29ce9ffedb59072/livekit-plugins-elevenlabs-0.3.dev0.tar.gz
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-nltk]: executing diffoscope
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-nltk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-nltk-0.2.0.tar.gz tmp/livekit-plugins-nltk-0.4.dev0.tar.gz --markdown 20240412/l/livekit-plugins-nltk/0.2.0-0.4.dev0/README.md --exclude *.pyd
+[2024-04-12 00:06:34] INFO root fetch - processPackages [vegafusion]: executing diffoscope
+[2024-04-12 00:06:34] INFO root fetch - processPackages [vegafusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-1.6.6.tar.gz tmp/vegafusion-1.6.7.tar.gz --markdown 20240412/v/vegafusion/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-openai]: executing diffoscope
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-openai-0.2.0.tar.gz tmp/livekit-plugins-openai-0.3.dev0.tar.gz --markdown 20240412/l/livekit-plugins-openai/0.2.0-0.3.dev0/README.md --exclude *.pyd
+[2024-04-12 00:06:34] INFO root fetch - processPackages [bpm-ai]: executing diffoscope
+[2024-04-12 00:06:34] INFO root fetch - processPackages [bpm-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai-1.4.1.tar.gz tmp/bpm_ai-1.5.0.tar.gz --markdown 20240412/b/bpm-ai/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-silero]: executing diffoscope
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-silero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-silero-0.2.0.tar.gz tmp/livekit-plugins-silero-0.3.dev0.tar.gz --markdown 20240412/l/livekit-plugins-silero/0.2.0-0.3.dev0/README.md --exclude *.pyd
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-google]: executing diffoscope
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-google-0.2.0.tar.gz tmp/livekit-plugins-google-0.3.dev0.tar.gz --markdown 20240412/l/livekit-plugins-google/0.2.0-0.3.dev0/README.md --exclude *.pyd
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: executing diffoscope
+[2024-04-12 00:06:34] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-elevenlabs-0.2.0.tar.gz tmp/livekit-plugins-elevenlabs-0.3.dev0.tar.gz --markdown 20240412/l/livekit-plugins-elevenlabs/0.2.0-0.3.dev0/README.md --exclude *.pyd
+[2024-04-12 00:06:34] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/ac/ea/89e190cf80ae18a6bbee20e881ca045c5785c63ae6ff4c2baaa063241b84/vegafusion-jupyter-1.6.7.tar.gz
+[2024-04-12 00:06:35] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.2.5.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.2.6.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - main [MainThread]: End processing [lollms-client]: success
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-nltk]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-nltk-0.2.0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-nltk]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-nltk-0.4.dev0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - main [MainThread]: End processing [livekit-plugins-nltk]: success
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-elevenlabs-0.2.0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-elevenlabs-0.3.dev0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - main [MainThread]: End processing [livekit-plugins-elevenlabs]: success
+[2024-04-12 00:06:35] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.4.1.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.5.0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - main [MainThread]: End processing [bpm-ai]: success
+[2024-04-12 00:06:35] INFO root fetch - processPackages [vegafusion-jupyter]: executing diffoscope
+[2024-04-12 00:06:35] INFO root fetch - processPackages [vegafusion-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-jupyter-1.6.6.tar.gz tmp/vegafusion-jupyter-1.6.7.tar.gz --markdown 20240412/v/vegafusion-jupyter/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-silero]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-silero-0.2.0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-silero]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-silero-0.3.dev0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - main [MainThread]: End processing [livekit-plugins-silero]: success
+[2024-04-12 00:06:35] INFO root fetch - processPackages [vegafusion]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-1.6.6.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - processPackages [vegafusion]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-1.6.7.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - main [MainThread]: End processing [vegafusion]: success
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-google]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-google-0.2.0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-google]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-google-0.3.dev0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - main [MainThread]: End processing [livekit-plugins-google]: success
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-openai]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-openai-0.2.0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - processPackages [livekit-plugins-openai]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-openai-0.3.dev0.tar.gz]
+[2024-04-12 00:06:35] INFO root fetch - main [MainThread]: End processing [livekit-plugins-openai]: success
+[2024-04-12 00:07:52] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.6.6.tar.gz]
+[2024-04-12 00:07:52] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.6.7.tar.gz]
+[2024-04-12 00:07:52] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
+[2024-04-12 00:07:52] INFO root fetch - main [MainThread]: Store serial: [22727281]
