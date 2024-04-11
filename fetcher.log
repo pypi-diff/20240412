@@ -1395,3 +1395,33 @@
 [2024-04-12 01:13:47] WARNING root fetch - processPackages [pytagi]: Skipping package: exceeds size limit 24554013>=10485760
 [2024-04-12 01:13:47] INFO root fetch - main [MainThread]: End processing [pytagi] error
 [2024-04-12 01:13:47] INFO root fetch - main [MainThread]: Store serial: [22727961]
+[2024-04-12 01:15:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727961]
+[2024-04-12 01:15:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 01:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abacusai
+[2024-04-12 01:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillory
+[2024-04-12 01:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llamaindex-py-client
+[2024-04-12 01:15:55] INFO root fetch - processPackages [pillory]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-12 01:15:55] INFO root fetch - processPackages [llamaindex-py-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 01:15:55] INFO root fetch - processPackages [abacusai]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-12 01:15:55] INFO root fetch - processPackages [llamaindex-py-client]: Downloading https://files.pythonhosted.org/packages/03/da/023e7878a5e42d1e4a9a7e43d6ae6c03de7dd631296fc9b55cf4f19e5dbd/llamaindex_py_client-0.1.8.tar.gz
+[2024-04-12 01:15:55] INFO root fetch - processPackages [pillory]: Downloading https://files.pythonhosted.org/packages/0d/4c/738836846e85d2c9fc84c19102ccba5e3ba77aa3c58e2691913169df8e7f/pillory-1.0.1.tar.gz
+[2024-04-12 01:15:55] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/ea/fc/9bd9bac34876a105cfd1a75ea219d9eee3652ed68f3db3aa758ed47dc2d8/abacusai-1.2.1.tar.gz
+[2024-04-12 01:15:56] INFO root fetch - processPackages [pillory]: Downloading https://files.pythonhosted.org/packages/c2/ef/bbfd5ef28729c2c4f256a1f7175b9af786f69bd4253ff7dc88f3cf95cce6/pillory-1.0.2.tar.gz
+[2024-04-12 01:15:56] INFO root fetch - processPackages [llamaindex-py-client]: Downloading https://files.pythonhosted.org/packages/9c/7a/2b02cc8224fefc04ea412ff2bd703e7b05856b63c07cbd5f5bc66a2d60d1/llamaindex_py_client-0.1.9.tar.gz
+[2024-04-12 01:15:56] INFO root fetch - processPackages [pillory]: executing diffoscope
+[2024-04-12 01:15:56] INFO root fetch - processPackages [pillory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillory-1.0.1.tar.gz tmp/pillory-1.0.2.tar.gz --markdown 20240412/p/pillory/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-12 01:15:56] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/9e/9a/a1b566b386d1c42daea3860f61790eb3aa0d11336fb5808a2322f0d3216b/abacusai-1.2.2.tar.gz
+[2024-04-12 01:15:56] INFO root fetch - processPackages [llamaindex-py-client]: executing diffoscope
+[2024-04-12 01:15:56] INFO root fetch - processPackages [llamaindex-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaindex_py_client-0.1.8.tar.gz tmp/llamaindex_py_client-0.1.9.tar.gz --markdown 20240412/l/llamaindex-py-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 01:15:56] INFO root fetch - processPackages [pillory]: Remove: archive file [/home/abi/fetcher/tmp/pillory-1.0.1.tar.gz]
+[2024-04-12 01:15:56] INFO root fetch - processPackages [pillory]: Remove: archive file [/home/abi/fetcher/tmp/pillory-1.0.2.tar.gz]
+[2024-04-12 01:15:56] INFO root fetch - main [MainThread]: End processing [pillory]: success
+[2024-04-12 01:15:57] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2024-04-12 01:15:57] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-1.2.1.tar.gz tmp/abacusai-1.2.2.tar.gz --markdown 20240412/a/abacusai/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-12 01:15:57] INFO root fetch - processPackages [llamaindex-py-client]: Remove: archive file [/home/abi/fetcher/tmp/llamaindex_py_client-0.1.8.tar.gz]
+[2024-04-12 01:15:57] INFO root fetch - processPackages [llamaindex-py-client]: Remove: archive file [/home/abi/fetcher/tmp/llamaindex_py_client-0.1.9.tar.gz]
+[2024-04-12 01:15:57] INFO root fetch - main [MainThread]: End processing [llamaindex-py-client]: success
+[2024-04-12 01:16:14] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.1.tar.gz]
+[2024-04-12 01:16:14] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.2.tar.gz]
+[2024-04-12 01:16:14] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2024-04-12 01:16:14] INFO root fetch - main [MainThread]: Store serial: [22727971]
