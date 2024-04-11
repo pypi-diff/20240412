@@ -368,3 +368,32 @@
 [2024-04-12 00:14:32] INFO root fetch - processPackages [selenium-testing-library]: Remove: archive file [/home/abi/fetcher/tmp/selenium_testing_library-2024.3.tar.gz]
 [2024-04-12 00:14:32] INFO root fetch - main [MainThread]: End processing [selenium-testing-library]: success
 [2024-04-12 00:14:32] INFO root fetch - main [MainThread]: Store serial: [22727410]
+[2024-04-12 00:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727410]
+[2024-04-12 00:16:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 00:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: l2m2
+[2024-04-12 00:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-preview
+[2024-04-12 00:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cuopt-sh-client
+[2024-04-12 00:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libera_utils
+[2024-04-12 00:16:42] INFO root fetch - processPackages [libera_utils]: New version: [2.3.0rc2] Old Version: [2.3.0rc1]
+[2024-04-12 00:16:42] WARNING root fetch - processPackages [l2m2]: Skipping, unable to determine old version
+[2024-04-12 00:16:42] INFO root fetch - main [MainThread]: End processing [l2m2] error
+[2024-04-12 00:16:42] INFO root fetch - processPackages [cuopt-sh-client]: New version: [24.3.6] Old Version: [24.3.5]
+[2024-04-12 00:16:42] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.997] Old Version: [0.1.991]
+[2024-04-12 00:16:42] INFO root fetch - processPackages [libera_utils]: Downloading https://files.pythonhosted.org/packages/62/b1/495c2050a8e0629cf80b894008c6e06d02723bf7bc663cefb94999cc5112/libera_utils-2.3.0rc1.tar.gz
+[2024-04-12 00:16:42] INFO root fetch - processPackages [cuopt-sh-client]: Downloading https://files.pythonhosted.org/packages/3d/db/efccc57f47e87fe51ad6554b0390de6a4d40c052d7178fbffe4c04c44dd2/cuopt_sh_client-24.3.5.tar.gz
+[2024-04-12 00:16:43] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/d8/f9/9bc5c5506192303d5e6d9c44bea6d148cfedd4d1d8eca48445106c6b7bf9/dve_lumipy_preview-0.1.991-py3-none-any.whl
+[2024-04-12 00:16:43] WARNING root fetch - processPackages [libera_utils]: Skipping package: exceeds size limit 31160620>=10485760
+[2024-04-12 00:16:43] INFO root fetch - main [MainThread]: End processing [libera_utils] error
+[2024-04-12 00:16:43] INFO root fetch - processPackages [cuopt-sh-client]: Downloading https://files.pythonhosted.org/packages/db/99/bc490efe2bf9dc4cf544b28703fb1980ab516c37cea36d590c41557e3f3b/cuopt_sh_client-24.3.6.tar.gz
+[2024-04-12 00:16:43] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/aa/be/884289a91b3c7f9dfbec6b7a1e9deb2e4674fd72a739284284b48143ccf0/dve_lumipy_preview-0.1.997-py3-none-any.whl
+[2024-04-12 00:16:43] INFO root fetch - processPackages [cuopt-sh-client]: executing diffoscope
+[2024-04-12 00:16:43] INFO root fetch - processPackages [cuopt-sh-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuopt_sh_client-24.3.5.tar.gz tmp/cuopt_sh_client-24.3.6.tar.gz --markdown 20240412/c/cuopt-sh-client/24.3.5-24.3.6/README.md --exclude *.pyd
+[2024-04-12 00:16:43] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2024-04-12 00:16:43] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.991-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.997-py3-none-any.whl.zip --markdown 20240412/d/dve-lumipy-preview/0.1.991-0.1.997/README.md --exclude *.pyd
+[2024-04-12 00:16:43] INFO root fetch - processPackages [cuopt-sh-client]: Remove: archive file [/home/abi/fetcher/tmp/cuopt_sh_client-24.3.5.tar.gz]
+[2024-04-12 00:16:43] INFO root fetch - processPackages [cuopt-sh-client]: Remove: archive file [/home/abi/fetcher/tmp/cuopt_sh_client-24.3.6.tar.gz]
+[2024-04-12 00:16:43] INFO root fetch - main [MainThread]: End processing [cuopt-sh-client]: success
+[2024-04-12 00:16:44] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.991-py3-none-any.whl.zip]
+[2024-04-12 00:16:44] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.997-py3-none-any.whl.zip]
+[2024-04-12 00:16:44] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2024-04-12 00:16:44] INFO root fetch - main [MainThread]: Store serial: [22727471]
