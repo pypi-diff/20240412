@@ -454,3 +454,54 @@
 [2024-04-12 00:18:58] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-12 00:18:58] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-12 00:18:58] INFO root fetch - main [MainThread]: Store serial: [22727521]
+[2024-04-12 00:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727521]
+[2024-04-12 00:21:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 00:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pan-os-python
+[2024-04-12 00:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cuxfilter-cu12
+[2024-04-12 00:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rms-pdsfile
+[2024-04-12 00:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ext4
+[2024-04-12 00:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: list-basculas
+[2024-04-12 00:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cuxfilter-cu11
+[2024-04-12 00:21:06] WARNING root fetch - processPackages [list-basculas]: Skipping, unable to determine old version
+[2024-04-12 00:21:06] INFO root fetch - main [MainThread]: End processing [list-basculas] error
+[2024-04-12 00:21:06] INFO root fetch - processPackages [cuxfilter-cu11]: New version: [24.4.1] Old Version: [24.2.0]
+[2024-04-12 00:21:07] INFO root fetch - processPackages [rms-pdsfile]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 00:21:07] INFO root fetch - processPackages [pan-os-python]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-12 00:21:07] INFO root fetch - processPackages [ext4]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-12 00:21:07] INFO root fetch - processPackages [cuxfilter-cu12]: New version: [24.4.1] Old Version: [24.2.0]
+[2024-04-12 00:21:07] INFO root fetch - processPackages [cuxfilter-cu11]: Downloading https://files.pythonhosted.org/packages/bc/fd/88d8aa519980dff317427b3905fb8b624cd596510c0004291b7df34f3500/cuxfilter-cu11-24.2.0.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [rms-pdsfile]: Downloading https://files.pythonhosted.org/packages/9d/3a/90a6d3d25ae24207e13e475f2bcd6c72ad4ac1029b74a7f5535c48cabbcd/rms-pdsfile-0.0.1.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [ext4]: Downloading https://files.pythonhosted.org/packages/7c/fd/4f068227175a54e6fa726f79b828b8321dec262fa71a170047ba18f702ba/ext4-1.0.1.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [pan-os-python]: Downloading https://files.pythonhosted.org/packages/b8/d5/059e04e20bb9d8f33f8b4d6eeb1a87858f573ad1d569f03b5fe1947dcde0/pan_os_python-1.8.1.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [cuxfilter-cu12]: Downloading https://files.pythonhosted.org/packages/8f/ca/ff719177ecbe34156e9a4cad65a1af588d4eb1d5c7323e1110835a544d2a/cuxfilter-cu12-24.2.0.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [cuxfilter-cu12]: Downloading https://files.pythonhosted.org/packages/84/d4/9d58ebba6622085ba308e014b3a4699a09be278ace13e84dbd53f82d27c9/cuxfilter_cu12-24.4.1.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [pan-os-python]: Downloading https://files.pythonhosted.org/packages/67/63/ab2b1fa7f20311aba8aff24ab90b5b95cba470a9e9319c200772e00bb36a/pan_os_python-1.9.0.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [ext4]: Downloading https://files.pythonhosted.org/packages/f2/e9/625c048676773aa9c7f0dbbc3e952c7bfdb89013dbeba3c0524179dc1e10/ext4-1.0.2.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [pan-os-python]: executing diffoscope
+[2024-04-12 00:21:07] INFO root fetch - processPackages [pan-os-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pan_os_python-1.8.1.tar.gz tmp/pan_os_python-1.9.0.tar.gz --markdown 20240412/p/pan-os-python/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-12 00:21:07] INFO root fetch - processPackages [cuxfilter-cu11]: Downloading https://files.pythonhosted.org/packages/b1/8e/f811c8dfff1b037fdd0f9885f6612f75dd50d19e76f6d22c3cfd5b93f0b2/cuxfilter_cu11-24.4.1.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [cuxfilter-cu12]: executing diffoscope
+[2024-04-12 00:21:07] INFO root fetch - processPackages [cuxfilter-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuxfilter-cu12-24.2.0.tar.gz tmp/cuxfilter_cu12-24.4.1.tar.gz --markdown 20240412/c/cuxfilter-cu12/24.2.0-24.4.1/README.md --exclude *.pyd
+[2024-04-12 00:21:07] INFO root fetch - processPackages [rms-pdsfile]: Downloading https://files.pythonhosted.org/packages/52/d5/b58a64265faa24fcedf2ea2b5938882b574f3d1ef48b7361bfe362866435/rms-pdsfile-0.0.2.tar.gz
+[2024-04-12 00:21:07] INFO root fetch - processPackages [ext4]: executing diffoscope
+[2024-04-12 00:21:07] INFO root fetch - processPackages [ext4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ext4-1.0.1.tar.gz tmp/ext4-1.0.2.tar.gz --markdown 20240412/e/ext4/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-12 00:21:07] INFO root fetch - processPackages [cuxfilter-cu11]: executing diffoscope
+[2024-04-12 00:21:07] INFO root fetch - processPackages [cuxfilter-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuxfilter-cu11-24.2.0.tar.gz tmp/cuxfilter_cu11-24.4.1.tar.gz --markdown 20240412/c/cuxfilter-cu11/24.2.0-24.4.1/README.md --exclude *.pyd
+[2024-04-12 00:21:08] INFO root fetch - processPackages [rms-pdsfile]: executing diffoscope
+[2024-04-12 00:21:08] INFO root fetch - processPackages [rms-pdsfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rms-pdsfile-0.0.1.tar.gz tmp/rms-pdsfile-0.0.2.tar.gz --markdown 20240412/r/rms-pdsfile/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 00:21:08] INFO root fetch - processPackages [cuxfilter-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuxfilter-cu12-24.2.0.tar.gz]
+[2024-04-12 00:21:08] INFO root fetch - processPackages [cuxfilter-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuxfilter_cu12-24.4.1.tar.gz]
+[2024-04-12 00:21:08] INFO root fetch - main [MainThread]: End processing [cuxfilter-cu12]: success
+[2024-04-12 00:21:08] INFO root fetch - processPackages [ext4]: Remove: archive file [/home/abi/fetcher/tmp/ext4-1.0.1.tar.gz]
+[2024-04-12 00:21:08] INFO root fetch - processPackages [ext4]: Remove: archive file [/home/abi/fetcher/tmp/ext4-1.0.2.tar.gz]
+[2024-04-12 00:21:08] INFO root fetch - main [MainThread]: End processing [ext4]: success
+[2024-04-12 00:21:08] INFO root fetch - processPackages [cuxfilter-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuxfilter-cu11-24.2.0.tar.gz]
+[2024-04-12 00:21:08] INFO root fetch - processPackages [cuxfilter-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuxfilter_cu11-24.4.1.tar.gz]
+[2024-04-12 00:21:08] INFO root fetch - main [MainThread]: End processing [cuxfilter-cu11]: success
+[2024-04-12 00:21:08] INFO root fetch - processPackages [pan-os-python]: Remove: archive file [/home/abi/fetcher/tmp/pan_os_python-1.8.1.tar.gz]
+[2024-04-12 00:21:08] INFO root fetch - processPackages [pan-os-python]: Remove: archive file [/home/abi/fetcher/tmp/pan_os_python-1.9.0.tar.gz]
+[2024-04-12 00:21:08] INFO root fetch - main [MainThread]: End processing [pan-os-python]: success
+[2024-04-12 00:21:09] INFO root fetch - processPackages [rms-pdsfile]: Remove: archive file [/home/abi/fetcher/tmp/rms-pdsfile-0.0.1.tar.gz]
+[2024-04-12 00:21:09] INFO root fetch - processPackages [rms-pdsfile]: Remove: archive file [/home/abi/fetcher/tmp/rms-pdsfile-0.0.2.tar.gz]
+[2024-04-12 00:21:09] INFO root fetch - main [MainThread]: End processing [rms-pdsfile]: success
+[2024-04-12 00:21:09] INFO root fetch - main [MainThread]: Store serial: [22727551]
