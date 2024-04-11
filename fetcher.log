@@ -397,3 +397,60 @@
 [2024-04-12 00:16:44] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.997-py3-none-any.whl.zip]
 [2024-04-12 00:16:44] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
 [2024-04-12 00:16:44] INFO root fetch - main [MainThread]: Store serial: [22727471]
+[2024-04-12 00:18:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727471]
+[2024-04-12 00:18:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 00:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cudf-cu12
+[2024-04-12 00:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2024-04-12 00:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: canalyst-candas
+[2024-04-12 00:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask-cudf-cu11
+[2024-04-12 00:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edq-canvas
+[2024-04-12 00:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-clob-client
+[2024-04-12 00:18:55] INFO root fetch - processPackages [edq-canvas]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 00:18:55] INFO root fetch - processPackages [dask-cudf-cu12]: New version: [24.4.0] Old Version: [24.2.2]
+[2024-04-12 00:18:55] INFO root fetch - processPackages [dask-cudf-cu11]: New version: [24.4.0] Old Version: [24.2.2]
+[2024-04-12 00:18:55] INFO root fetch - processPackages [canalyst-candas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 00:18:55] INFO root fetch - processPackages [py-clob-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-12 00:18:55] INFO root fetch - processPackages [dask-cudf-cu12]: Downloading https://files.pythonhosted.org/packages/fd/eb/fa1aef86492b09092244d68c7a7afccceacd8f63197148a7b75abf418891/dask-cudf-cu12-24.2.2.tar.gz
+[2024-04-12 00:18:55] INFO root fetch - processPackages [edq-canvas]: Downloading https://files.pythonhosted.org/packages/fd/00/4566a69182d23cb88291bb82052cf7f160995a61740be3b63f4805b17a80/edq-canvas-0.0.3.tar.gz
+[2024-04-12 00:18:55] INFO root fetch - processPackages [canalyst-candas]: Downloading https://files.pythonhosted.org/packages/c1/e3/19754970c2d67149b04bcd9afffca819f082b5f86b8176fc14db66f43f1e/canalyst_candas-0.0.8.tar.gz
+[2024-04-12 00:18:55] INFO root fetch - processPackages [dask-cudf-cu11]: Downloading https://files.pythonhosted.org/packages/44/62/9a27b62493500fe8b78d8432414efcb8249ca70ca6bf79af32a1c75003a5/dask-cudf-cu11-24.2.2.tar.gz
+[2024-04-12 00:18:55] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-12 00:18:55] INFO root fetch - processPackages [py-clob-client]: Downloading https://files.pythonhosted.org/packages/86/92/a6533377fe315e8abfcdd3bdc311cfaf6ec6b7ceb57a4a2b704a68c8496c/py_clob_client-0.8.0.tar.gz
+[2024-04-12 00:18:56] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu12]: Downloading https://files.pythonhosted.org/packages/8f/f6/a6af5a6bef467eec47387b11c133594fb6b4399dcca91cfbfa2f410ebc9e/dask_cudf_cu12-24.4.0.tar.gz
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu11]: Downloading https://files.pythonhosted.org/packages/6c/9b/d7763af2eeeaa708ec825759e02a8d1ddea0a315ff5c069800274993054b/dask_cudf_cu11-24.4.0.tar.gz
+[2024-04-12 00:18:56] INFO root fetch - processPackages [py-clob-client]: Downloading https://files.pythonhosted.org/packages/85/41/e2c5c9799536adbdad984faeeb42c8f33ba55ab84a84cae054f4a83e4700/py_clob_client-0.9.0.tar.gz
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu12]: executing diffoscope
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cudf-cu12-24.2.2.tar.gz tmp/dask_cudf_cu12-24.4.0.tar.gz --markdown 20240412/d/dask-cudf-cu12/24.2.2-24.4.0/README.md --exclude *.pyd
+[2024-04-12 00:18:56] INFO root fetch - processPackages [canalyst-candas]: Downloading https://files.pythonhosted.org/packages/69/56/0a0c2f01404d257606af36e115f691b9b706a36bfc0f3248512df2954a05/canalyst_candas-0.0.9.tar.gz
+[2024-04-12 00:18:56] INFO root fetch - processPackages [edq-canvas]: Downloading https://files.pythonhosted.org/packages/0d/6e/5ad7df078d02c4a01fbc263dd5e3b49b2a9a025b40f26c9af9423731149d/edq-canvas-0.0.4.tar.gz
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu11]: executing diffoscope
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cudf-cu11-24.2.2.tar.gz tmp/dask_cudf_cu11-24.4.0.tar.gz --markdown 20240412/d/dask-cudf-cu11/24.2.2-24.4.0/README.md --exclude *.pyd
+[2024-04-12 00:18:56] INFO root fetch - processPackages [py-clob-client]: executing diffoscope
+[2024-04-12 00:18:56] INFO root fetch - processPackages [py-clob-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_clob_client-0.8.0.tar.gz tmp/py_clob_client-0.9.0.tar.gz --markdown 20240412/p/py-clob-client/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-12 00:18:56] INFO root fetch - processPackages [canalyst-candas]: executing diffoscope
+[2024-04-12 00:18:56] INFO root fetch - processPackages [canalyst-candas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canalyst_candas-0.0.8.tar.gz tmp/canalyst_candas-0.0.9.tar.gz --markdown 20240412/c/canalyst-candas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 00:18:56] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-12 00:18:56] INFO root fetch - processPackages [edq-canvas]: executing diffoscope
+[2024-04-12 00:18:56] INFO root fetch - processPackages [edq-canvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edq-canvas-0.0.3.tar.gz tmp/edq-canvas-0.0.4.tar.gz --markdown 20240412/e/edq-canvas/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 00:18:56] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-12 00:18:56] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240412/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu12]: Remove: archive file [/home/abi/fetcher/tmp/dask-cudf-cu12-24.2.2.tar.gz]
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu12]: Remove: archive file [/home/abi/fetcher/tmp/dask_cudf_cu12-24.4.0.tar.gz]
+[2024-04-12 00:18:56] INFO root fetch - main [MainThread]: End processing [dask-cudf-cu12]: success
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu11]: Remove: archive file [/home/abi/fetcher/tmp/dask-cudf-cu11-24.2.2.tar.gz]
+[2024-04-12 00:18:56] INFO root fetch - processPackages [dask-cudf-cu11]: Remove: archive file [/home/abi/fetcher/tmp/dask_cudf_cu11-24.4.0.tar.gz]
+[2024-04-12 00:18:56] INFO root fetch - main [MainThread]: End processing [dask-cudf-cu11]: success
+[2024-04-12 00:18:57] INFO root fetch - processPackages [py-clob-client]: Remove: archive file [/home/abi/fetcher/tmp/py_clob_client-0.8.0.tar.gz]
+[2024-04-12 00:18:57] INFO root fetch - processPackages [py-clob-client]: Remove: archive file [/home/abi/fetcher/tmp/py_clob_client-0.9.0.tar.gz]
+[2024-04-12 00:18:57] INFO root fetch - main [MainThread]: End processing [py-clob-client]: success
+[2024-04-12 00:18:57] INFO root fetch - processPackages [canalyst-candas]: Remove: archive file [/home/abi/fetcher/tmp/canalyst_candas-0.0.8.tar.gz]
+[2024-04-12 00:18:57] INFO root fetch - processPackages [canalyst-candas]: Remove: archive file [/home/abi/fetcher/tmp/canalyst_candas-0.0.9.tar.gz]
+[2024-04-12 00:18:57] INFO root fetch - main [MainThread]: End processing [canalyst-candas]: success
+[2024-04-12 00:18:57] INFO root fetch - processPackages [edq-canvas]: Remove: archive file [/home/abi/fetcher/tmp/edq-canvas-0.0.3.tar.gz]
+[2024-04-12 00:18:57] INFO root fetch - processPackages [edq-canvas]: Remove: archive file [/home/abi/fetcher/tmp/edq-canvas-0.0.4.tar.gz]
+[2024-04-12 00:18:57] INFO root fetch - main [MainThread]: End processing [edq-canvas]: success
+[2024-04-12 00:18:58] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-12 00:18:58] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-12 00:18:58] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-12 00:18:58] INFO root fetch - main [MainThread]: Store serial: [22727521]
