@@ -2001,3 +2001,39 @@
 [2024-04-12 01:51:10] INFO root fetch - processPackages [pygerber]: Remove: archive file [/home/abi/fetcher/tmp/pygerber-2.3.0.tar.gz]
 [2024-04-12 01:51:10] INFO root fetch - main [MainThread]: End processing [pygerber]: success
 [2024-04-12 01:51:10] INFO root fetch - main [MainThread]: Store serial: [22728202]
+[2024-04-12 01:53:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728202]
+[2024-04-12 01:53:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 01:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-tagging-model
+[2024-04-12 01:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylaptoppred
+[2024-04-12 01:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: click-skeleton
+[2024-04-12 01:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-pdf-preview
+[2024-04-12 01:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prodpadlm-client
+[2024-04-12 01:53:19] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.4a1] Old Version: [0.1.4a0]
+[2024-04-12 01:53:19] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/da/f4/89c75f959583023de268a8951f5696e61884aca7d833bcbe29d2f2f0dbff/text_tagging_model-0.1.4a0.tar.gz
+[2024-04-12 01:53:19] WARNING root fetch - processPackages [pylaptoppred]: Skipping, unable to determine old version
+[2024-04-12 01:53:19] INFO root fetch - main [MainThread]: End processing [pylaptoppred] error
+[2024-04-12 01:53:19] INFO root fetch - processPackages [prodpadlm-client]: New version: [0.1.1.4] Old Version: [0.1.1.3.1]
+[2024-04-12 01:53:19] WARNING root fetch - processPackages [jupyterlab-pdf-preview]: Skipping, unable to determine old version
+[2024-04-12 01:53:19] INFO root fetch - main [MainThread]: End processing [jupyterlab-pdf-preview] error
+[2024-04-12 01:53:19] INFO root fetch - processPackages [click-skeleton]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-12 01:53:19] INFO root fetch - processPackages [click-skeleton]: Downloading https://files.pythonhosted.org/packages/53/73/523ac4ac3d69bb1008b8440f6ad8e19e009270538dd9795f1fd6c0af53b1/click-skeleton-0.9.tar.gz
+[2024-04-12 01:53:19] INFO root fetch - processPackages [prodpadlm-client]: Downloading https://files.pythonhosted.org/packages/da/b8/65baea40ba10055011e0926f065647dfac13e2bc0836ffb99c658d8ff1c6/prodpadlm_client-0.1.1.3.1.tar.gz
+[2024-04-12 01:53:19] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/74/be/9761407667cdf0adf64c3117f7f7db5f9d3592117902c33f8af2258871e1/text_tagging_model-0.1.4a1.tar.gz
+[2024-04-12 01:53:19] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-12 01:53:19] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.4a0.tar.gz tmp/text_tagging_model-0.1.4a1.tar.gz --markdown 20240412/t/text-tagging-model/0.1.4a0-0.1.4a1/README.md --exclude *.pyd
+[2024-04-12 01:53:19] INFO root fetch - processPackages [click-skeleton]: Downloading https://files.pythonhosted.org/packages/13/67/5dd232e08487bb692dd8322f8e7f203c568435875a41f1f63a9a610a955a/click-skeleton-0.9.1.tar.gz
+[2024-04-12 01:53:19] INFO root fetch - processPackages [prodpadlm-client]: Downloading https://files.pythonhosted.org/packages/ad/8a/918d369f3d9d47d90ad8838f7ea9e5f195b137d96bff1ea5528ed6c8fe01/prodpadlm_client-0.1.1.4.tar.gz
+[2024-04-12 01:53:19] INFO root fetch - processPackages [click-skeleton]: executing diffoscope
+[2024-04-12 01:53:19] INFO root fetch - processPackages [click-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click-skeleton-0.9.tar.gz tmp/click-skeleton-0.9.1.tar.gz --markdown 20240412/c/click-skeleton/0.9-0.9.1/README.md --exclude *.pyd
+[2024-04-12 01:53:20] INFO root fetch - processPackages [prodpadlm-client]: executing diffoscope
+[2024-04-12 01:53:20] INFO root fetch - processPackages [prodpadlm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodpadlm_client-0.1.1.3.1.tar.gz tmp/prodpadlm_client-0.1.1.4.tar.gz --markdown 20240412/p/prodpadlm-client/0.1.1.3.1-0.1.1.4/README.md --exclude *.pyd
+[2024-04-12 01:53:20] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.4a0.tar.gz]
+[2024-04-12 01:53:20] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.4a1.tar.gz]
+[2024-04-12 01:53:20] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-12 01:53:20] INFO root fetch - processPackages [click-skeleton]: Remove: archive file [/home/abi/fetcher/tmp/click-skeleton-0.9.tar.gz]
+[2024-04-12 01:53:20] INFO root fetch - processPackages [click-skeleton]: Remove: archive file [/home/abi/fetcher/tmp/click-skeleton-0.9.1.tar.gz]
+[2024-04-12 01:53:20] INFO root fetch - main [MainThread]: End processing [click-skeleton]: success
+[2024-04-12 01:53:20] INFO root fetch - processPackages [prodpadlm-client]: Remove: archive file [/home/abi/fetcher/tmp/prodpadlm_client-0.1.1.3.1.tar.gz]
+[2024-04-12 01:53:20] INFO root fetch - processPackages [prodpadlm-client]: Remove: archive file [/home/abi/fetcher/tmp/prodpadlm_client-0.1.1.4.tar.gz]
+[2024-04-12 01:53:20] INFO root fetch - main [MainThread]: End processing [prodpadlm-client]: success
+[2024-04-12 01:53:20] INFO root fetch - main [MainThread]: Store serial: [22728222]
