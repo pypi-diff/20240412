@@ -1168,3 +1168,33 @@
 [2024-04-12 01:02:44] INFO root fetch - processPackages [edq-canvas]: Remove: archive file [/home/abi/fetcher/tmp/edq-canvas-0.0.4.tar.gz]
 [2024-04-12 01:02:44] INFO root fetch - main [MainThread]: End processing [edq-canvas]: success
 [2024-04-12 01:02:44] INFO root fetch - main [MainThread]: Store serial: [22727883]
+[2024-04-12 01:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727883]
+[2024-04-12 01:04:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 01:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trinnov-altitude
+[2024-04-12 01:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AITracker
+[2024-04-12 01:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phidata
+[2024-04-12 01:04:53] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 01:04:53] INFO root fetch - processPackages [AITracker]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-12 01:04:53] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/e4/ad/169810413c21e2c593e82ea39ba4c92b32cca2d1928f2f133bdc2dd5774d/trinnov-altitude-0.1.8.tar.gz
+[2024-04-12 01:04:53] INFO root fetch - processPackages [phidata]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-12 01:04:53] INFO root fetch - processPackages [AITracker]: Downloading https://files.pythonhosted.org/packages/fa/a9/ffb2fba30b072aac52b2c2442e3c71f083da4819e0e257a219a1c1894a8e/AITracker-0.9.0.tar.gz
+[2024-04-12 01:04:53] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/76/2e/d188a8568df2fbd157a92850369057419ef690d42167df73acfde0838f4e/trinnov-altitude-0.1.9.tar.gz
+[2024-04-12 01:04:53] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/9a/24/afb3e8585b820976634b1dd732e5ec1f3562093b71b05a47e3bd6a870b75/phidata-2.3.8.tar.gz
+[2024-04-12 01:04:53] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-12 01:04:53] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.8.tar.gz tmp/trinnov-altitude-0.1.9.tar.gz --markdown 20240412/t/trinnov-altitude/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 01:04:53] INFO root fetch - processPackages [AITracker]: Downloading https://files.pythonhosted.org/packages/cb/a2/821fd8eba6977f0bf75f026b872abf97602337e4e6f5bc74a3d0795febbf/AITracker-0.9.1.tar.gz
+[2024-04-12 01:04:53] INFO root fetch - processPackages [AITracker]: executing diffoscope
+[2024-04-12 01:04:53] INFO root fetch - processPackages [AITracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AITracker-0.9.0.tar.gz tmp/AITracker-0.9.1.tar.gz --markdown 20240412/A/AITracker/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-12 01:04:54] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/51/63/c5ed33bf592cd65cdcb90c64ded88ab6bc7786db2184c64f6484d61e92d0/phidata-2.3.9.tar.gz
+[2024-04-12 01:04:54] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-04-12 01:04:54] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.3.8.tar.gz tmp/phidata-2.3.9.tar.gz --markdown 20240412/p/phidata/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-12 01:04:54] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.8.tar.gz]
+[2024-04-12 01:04:54] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.9.tar.gz]
+[2024-04-12 01:04:54] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-12 01:04:54] INFO root fetch - processPackages [AITracker]: Remove: archive file [/home/abi/fetcher/tmp/AITracker-0.9.0.tar.gz]
+[2024-04-12 01:04:54] INFO root fetch - processPackages [AITracker]: Remove: archive file [/home/abi/fetcher/tmp/AITracker-0.9.1.tar.gz]
+[2024-04-12 01:04:54] INFO root fetch - main [MainThread]: End processing [AITracker]: success
+[2024-04-12 01:04:55] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.8.tar.gz]
+[2024-04-12 01:04:55] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
+[2024-04-12 01:04:55] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-04-12 01:04:55] INFO root fetch - main [MainThread]: Store serial: [22727892]
