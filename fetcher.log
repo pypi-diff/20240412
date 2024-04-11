@@ -595,3 +595,42 @@
 [2024-04-12 00:25:30] INFO root fetch - processPackages [scikeras]: Remove: archive file [/home/abi/fetcher/tmp/scikeras-0.9.0.tar.gz]
 [2024-04-12 00:25:30] INFO root fetch - main [MainThread]: End processing [scikeras]: success
 [2024-04-12 00:25:30] INFO root fetch - main [MainThread]: Store serial: [22727585]
+[2024-04-12 00:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727585]
+[2024-04-12 00:27:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 00:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openedx-filters
+[2024-04-12 00:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wgd
+[2024-04-12 00:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stellrent-auth
+[2024-04-12 00:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dpd-lib
+[2024-04-12 00:27:38] INFO root fetch - processPackages [stellrent-auth]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 00:27:38] INFO root fetch - processPackages [dpd-lib]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-12 00:27:38] INFO root fetch - processPackages [openedx-filters]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-12 00:27:38] INFO root fetch - processPackages [stellrent-auth]: Downloading https://files.pythonhosted.org/packages/b9/81/f0ad291292e500d5416b680692dd16c3d54c9917c4d6da98fbea4f2f6fd3/stellrent-auth-0.0.2.tar.gz
+[2024-04-12 00:27:38] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/21/ff/6cde8f78321c8151a85a9693d5e7c5bd23eae1590242d55c3e53a6f8ec59/dpd_lib-0.0.9.tar.gz
+[2024-04-12 00:27:38] INFO root fetch - processPackages [wgd]: New version: [2.0.31] Old Version: [2.0.30]
+[2024-04-12 00:27:38] INFO root fetch - processPackages [openedx-filters]: Downloading https://files.pythonhosted.org/packages/35/6a/54ab4ab5c60714c16914e2b8ab3c53a17a6d54ceaee235c1548893cd1cff/openedx-filters-1.6.0.tar.gz
+[2024-04-12 00:27:38] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/24/03/01a15f2b39760d4f52720948243d94e6a7df4a8b8e1a6eaee61add22cf9d/dpd_lib-0.1.0.tar.gz
+[2024-04-12 00:27:38] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/a9/e1/72901648988ce0f4c9cb5c863f90b398358e735af32bd542eb050ee411cf/wgd-2.0.30.tar.gz
+[2024-04-12 00:27:39] INFO root fetch - processPackages [stellrent-auth]: Downloading https://files.pythonhosted.org/packages/84/eb/240223aa5e8ed7c22d334d8b7d8a432ade3d5fece85ca355dddd26ab3f62/stellrent-auth-0.0.3.tar.gz
+[2024-04-12 00:27:39] INFO root fetch - processPackages [dpd-lib]: executing diffoscope
+[2024-04-12 00:27:39] INFO root fetch - processPackages [dpd-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpd_lib-0.0.9.tar.gz tmp/dpd_lib-0.1.0.tar.gz --markdown 20240412/d/dpd-lib/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-12 00:27:39] INFO root fetch - processPackages [stellrent-auth]: executing diffoscope
+[2024-04-12 00:27:39] INFO root fetch - processPackages [stellrent-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellrent-auth-0.0.2.tar.gz tmp/stellrent-auth-0.0.3.tar.gz --markdown 20240412/s/stellrent-auth/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 00:27:39] INFO root fetch - processPackages [openedx-filters]: Downloading https://files.pythonhosted.org/packages/df/97/bf5c41414eef6fa8f5530a47fbaeabecc791add597e5f0ff479d46f8c7e9/openedx-filters-1.7.0.tar.gz
+[2024-04-12 00:27:39] INFO root fetch - processPackages [wgd]: Downloading https://files.pythonhosted.org/packages/55/55/4c2d72617c230c9978208dc915bb21ce3ed9563604c2c80de62fd447f533/wgd-2.0.31.tar.gz
+[2024-04-12 00:27:39] INFO root fetch - processPackages [openedx-filters]: executing diffoscope
+[2024-04-12 00:27:39] INFO root fetch - processPackages [openedx-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-filters-1.6.0.tar.gz tmp/openedx-filters-1.7.0.tar.gz --markdown 20240412/o/openedx-filters/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-12 00:27:39] INFO root fetch - processPackages [wgd]: executing diffoscope
+[2024-04-12 00:27:39] INFO root fetch - processPackages [wgd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgd-2.0.30.tar.gz tmp/wgd-2.0.31.tar.gz --markdown 20240412/w/wgd/2.0.30-2.0.31/README.md --exclude *.pyd
+[2024-04-12 00:27:39] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.0.9.tar.gz]
+[2024-04-12 00:27:39] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.1.0.tar.gz]
+[2024-04-12 00:27:39] INFO root fetch - main [MainThread]: End processing [dpd-lib]: success
+[2024-04-12 00:27:39] INFO root fetch - processPackages [stellrent-auth]: Remove: archive file [/home/abi/fetcher/tmp/stellrent-auth-0.0.2.tar.gz]
+[2024-04-12 00:27:39] INFO root fetch - processPackages [stellrent-auth]: Remove: archive file [/home/abi/fetcher/tmp/stellrent-auth-0.0.3.tar.gz]
+[2024-04-12 00:27:39] INFO root fetch - main [MainThread]: End processing [stellrent-auth]: success
+[2024-04-12 00:27:39] INFO root fetch - processPackages [openedx-filters]: Remove: archive file [/home/abi/fetcher/tmp/openedx-filters-1.6.0.tar.gz]
+[2024-04-12 00:27:39] INFO root fetch - processPackages [openedx-filters]: Remove: archive file [/home/abi/fetcher/tmp/openedx-filters-1.7.0.tar.gz]
+[2024-04-12 00:27:39] INFO root fetch - main [MainThread]: End processing [openedx-filters]: success
+[2024-04-12 00:27:40] INFO root fetch - processPackages [wgd]: Remove: archive file [/home/abi/fetcher/tmp/wgd-2.0.30.tar.gz]
+[2024-04-12 00:27:40] INFO root fetch - processPackages [wgd]: Remove: archive file [/home/abi/fetcher/tmp/wgd-2.0.31.tar.gz]
+[2024-04-12 00:27:40] INFO root fetch - main [MainThread]: End processing [wgd]: success
+[2024-04-12 00:27:40] INFO root fetch - main [MainThread]: Store serial: [22727597]
