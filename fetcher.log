@@ -1713,3 +1713,20 @@
 [2024-04-12 01:29:25] INFO root fetch - processPackages [xian-py]: Remove: archive file [/home/abi/fetcher/tmp/xian_py-0.1.5.tar.gz]
 [2024-04-12 01:29:25] INFO root fetch - main [MainThread]: End processing [xian-py]: success
 [2024-04-12 01:29:25] INFO root fetch - main [MainThread]: Store serial: [22728074]
+[2024-04-12 01:31:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728074]
+[2024-04-12 01:31:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 01:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipl-pipeline-py-common
+[2024-04-12 01:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlmesh
+[2024-04-12 01:31:33] INFO root fetch - processPackages [ipl-pipeline-py-common]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-12 01:31:33] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.85.0]
+[2024-04-12 01:31:33] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/f4/11/b3446b51ee9b74132cb390b002b892e01412d649b2e41f964ce9f460a423/ipl_pipeline_py_common-0.6.1.tar.gz
+[2024-04-12 01:31:33] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/d7/27/02533a9fcf6bb6f4dbb1a3df347855dcf9ea818f54e3555356a08e820aec/sqlmesh-0.85.0.tar.gz
+[2024-04-12 01:31:34] WARNING root fetch - processPackages [sqlmesh]: Skipping package: exceeds size limit 14321556>=10485760
+[2024-04-12 01:31:34] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2024-04-12 01:31:34] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/e0/0b/f5480ae286b4b9b470ae1d6a68a96def7c46a1eb5e547866718ba79f78b3/ipl_pipeline_py_common-0.7.0.tar.gz
+[2024-04-12 01:31:34] INFO root fetch - processPackages [ipl-pipeline-py-common]: executing diffoscope
+[2024-04-12 01:31:34] INFO root fetch - processPackages [ipl-pipeline-py-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipl_pipeline_py_common-0.6.1.tar.gz tmp/ipl_pipeline_py_common-0.7.0.tar.gz --markdown 20240412/i/ipl-pipeline-py-common/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-12 01:31:34] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.6.1.tar.gz]
+[2024-04-12 01:31:34] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.7.0.tar.gz]
+[2024-04-12 01:31:34] INFO root fetch - main [MainThread]: End processing [ipl-pipeline-py-common]: success
+[2024-04-12 01:31:34] INFO root fetch - main [MainThread]: Store serial: [22728080]
