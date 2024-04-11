@@ -1255,3 +1255,69 @@
 [2024-04-12 01:07:06] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240411.tar.gz]
 [2024-04-12 01:07:06] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-04-12 01:07:06] INFO root fetch - main [MainThread]: Store serial: [22727910]
+[2024-04-12 01:09:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727910]
+[2024-04-12 01:09:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 01:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signal-application-python-sdk
+[2024-04-12 01:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-grasshopper-radiance
+[2024-04-12 01:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stripe
+[2024-04-12 01:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylibcugraph-cu11
+[2024-04-12 01:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysros
+[2024-04-12 01:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-grasshopper
+[2024-04-12 01:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AITracker
+[2024-04-12 01:09:15] INFO root fetch - processPackages [AITracker]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-12 01:09:15] INFO root fetch - processPackages [stripe]: New version: [9.0.0] Old Version: [8.9.0b1]
+[2024-04-12 01:09:15] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.8.7] Old Version: [1.8.6]
+[2024-04-12 01:09:15] INFO root fetch - processPackages [pylibcugraph-cu11]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 01:09:15] INFO root fetch - processPackages [signal-application-python-sdk]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-12 01:09:15] INFO root fetch - processPackages [AITracker]: Downloading https://files.pythonhosted.org/packages/cb/a2/821fd8eba6977f0bf75f026b872abf97602337e4e6f5bc74a3d0795febbf/AITracker-0.9.1.tar.gz
+[2024-04-12 01:09:15] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-12 01:09:15] INFO root fetch - processPackages [pysros]: New version: [24.3.1] Old Version: [23.7.2]
+[2024-04-12 01:09:15] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/0b/4d/6fd857cc97f5d31be2005ccc222b282e450e192ecea871a7d2362d18372b/stripe-8.9.0b1.tar.gz
+[2024-04-12 01:09:15] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/2e/56/ca68e965f431752ecf9505af06fb91936257a22a96480104e532df993c85/lbt-grasshopper-1.8.6.tar.gz
+[2024-04-12 01:09:15] INFO root fetch - processPackages [pylibcugraph-cu11]: Downloading https://files.pythonhosted.org/packages/80/aa/378733c6013fb2008e245882ce55c92314d4f893637676eed436bd244982/pylibcugraph-cu11-24.2.0.tar.gz
+[2024-04-12 01:09:15] INFO root fetch - processPackages [signal-application-python-sdk]: Downloading https://files.pythonhosted.org/packages/82/4f/e5ac0d415a90ee38881ddbabac592641acca134d9bda4202ce368cbcbd02/signal-application-python-sdk-3.0.0.tar.gz
+[2024-04-12 01:09:15] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Downloading https://files.pythonhosted.org/packages/c5/57/e62f02310363fe5e170d0080379047075c89078b9a0f26010d29334fc7a7/honeybee-grasshopper-radiance-1.9.4.tar.gz
+[2024-04-12 01:09:15] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/07/40/02db358eacb93e5e4914d841120a65d04da1faa230c1148e773070930d0f/pysros-23.7.2.tar.gz
+[2024-04-12 01:09:15] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/ff/19/e3f86098cee01427710ea2cc449661eb0436e972bbc9b97b972b392c8489/lbt-grasshopper-1.8.7.tar.gz
+[2024-04-12 01:09:15] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/a3/55/27d853529ef13521c1146794e51b7c73dd00f6147d76e6ad766b5c7bcf4f/stripe-9.0.0.tar.gz
+[2024-04-12 01:09:15] INFO root fetch - processPackages [AITracker]: Downloading https://files.pythonhosted.org/packages/14/58/e84d6bf17a71beb01328b5e6108e968eca8e37caff7f1b2ea522666df049/AITracker-0.9.2.tar.gz
+[2024-04-12 01:09:16] INFO root fetch - processPackages [pylibcugraph-cu11]: Downloading https://files.pythonhosted.org/packages/19/46/50e3b7d4434274ad6b658f2c434de28ac1ec878492b0b4dd0b2170bd8a69/pylibcugraph_cu11-24.4.0.tar.gz
+[2024-04-12 01:09:16] INFO root fetch - processPackages [AITracker]: executing diffoscope
+[2024-04-12 01:09:16] INFO root fetch - processPackages [AITracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AITracker-0.9.1.tar.gz tmp/AITracker-0.9.2.tar.gz --markdown 20240412/A/AITracker/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-12 01:09:16] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2024-04-12 01:09:16] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.8.6.tar.gz tmp/lbt-grasshopper-1.8.7.tar.gz --markdown 20240412/l/lbt-grasshopper/1.8.6-1.8.7/README.md --exclude *.pyd
+[2024-04-12 01:09:16] INFO root fetch - processPackages [signal-application-python-sdk]: Downloading https://files.pythonhosted.org/packages/6c/f6/a2581d7962476c7434f85c38cbaed41793c4aeaa7874f52d6592eef3bf37/signal-application-python-sdk-3.1.0.tar.gz
+[2024-04-12 01:09:16] INFO root fetch - processPackages [pylibcugraph-cu11]: executing diffoscope
+[2024-04-12 01:09:16] INFO root fetch - processPackages [pylibcugraph-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibcugraph-cu11-24.2.0.tar.gz tmp/pylibcugraph_cu11-24.4.0.tar.gz --markdown 20240412/p/pylibcugraph-cu11/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 01:09:16] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-04-12 01:09:16] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-8.9.0b1.tar.gz tmp/stripe-9.0.0.tar.gz --markdown 20240412/s/stripe/8.9.0b1-9.0.0/README.md --exclude *.pyd
+[2024-04-12 01:09:16] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/5a/4a/00dcf8165b2100385ad624e831fe8c6f18bb3d08715b0d0fefbb264b9d44/pysros-24.3.1.tar.gz
+[2024-04-12 01:09:16] INFO root fetch - processPackages [signal-application-python-sdk]: executing diffoscope
+[2024-04-12 01:09:16] INFO root fetch - processPackages [signal-application-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal-application-python-sdk-3.0.0.tar.gz tmp/signal-application-python-sdk-3.1.0.tar.gz --markdown 20240412/s/signal-application-python-sdk/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-04-12 01:09:16] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Downloading https://files.pythonhosted.org/packages/98/2b/58d14159864fadd0311230f7a15bbc845650cf115c191c0830bfe73c4035/honeybee-grasshopper-radiance-1.9.5.tar.gz
+[2024-04-12 01:09:16] INFO root fetch - processPackages [pysros]: executing diffoscope
+[2024-04-12 01:09:16] INFO root fetch - processPackages [pysros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysros-23.7.2.tar.gz tmp/pysros-24.3.1.tar.gz --markdown 20240412/p/pysros/23.7.2-24.3.1/README.md --exclude *.pyd
+[2024-04-12 01:09:16] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: executing diffoscope
+[2024-04-12 01:09:16] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-radiance-1.9.4.tar.gz tmp/honeybee-grasshopper-radiance-1.9.5.tar.gz --markdown 20240412/h/honeybee-grasshopper-radiance/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-12 01:09:16] INFO root fetch - processPackages [pylibcugraph-cu11]: Remove: archive file [/home/abi/fetcher/tmp/pylibcugraph-cu11-24.2.0.tar.gz]
+[2024-04-12 01:09:16] INFO root fetch - processPackages [pylibcugraph-cu11]: Remove: archive file [/home/abi/fetcher/tmp/pylibcugraph_cu11-24.4.0.tar.gz]
+[2024-04-12 01:09:16] INFO root fetch - main [MainThread]: End processing [pylibcugraph-cu11]: success
+[2024-04-12 01:09:16] INFO root fetch - processPackages [AITracker]: Remove: archive file [/home/abi/fetcher/tmp/AITracker-0.9.1.tar.gz]
+[2024-04-12 01:09:16] INFO root fetch - processPackages [AITracker]: Remove: archive file [/home/abi/fetcher/tmp/AITracker-0.9.2.tar.gz]
+[2024-04-12 01:09:16] INFO root fetch - main [MainThread]: End processing [AITracker]: success
+[2024-04-12 01:09:16] INFO root fetch - processPackages [signal-application-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/signal-application-python-sdk-3.0.0.tar.gz]
+[2024-04-12 01:09:16] INFO root fetch - processPackages [signal-application-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/signal-application-python-sdk-3.1.0.tar.gz]
+[2024-04-12 01:09:16] INFO root fetch - main [MainThread]: End processing [signal-application-python-sdk]: success
+[2024-04-12 01:09:17] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.6.tar.gz]
+[2024-04-12 01:09:17] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.7.tar.gz]
+[2024-04-12 01:09:17] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2024-04-12 01:09:17] INFO root fetch - processPackages [pysros]: Remove: archive file [/home/abi/fetcher/tmp/pysros-23.7.2.tar.gz]
+[2024-04-12 01:09:17] INFO root fetch - processPackages [pysros]: Remove: archive file [/home/abi/fetcher/tmp/pysros-24.3.1.tar.gz]
+[2024-04-12 01:09:17] INFO root fetch - main [MainThread]: End processing [pysros]: success
+[2024-04-12 01:09:17] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-radiance-1.9.4.tar.gz]
+[2024-04-12 01:09:17] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-radiance-1.9.5.tar.gz]
+[2024-04-12 01:09:17] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-radiance]: success
+[2024-04-12 01:09:23] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-8.9.0b1.tar.gz]
+[2024-04-12 01:09:23] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.0.0.tar.gz]
+[2024-04-12 01:09:23] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-04-12 01:09:23] INFO root fetch - main [MainThread]: Store serial: [22727927]
