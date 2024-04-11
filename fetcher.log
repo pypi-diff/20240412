@@ -1804,3 +1804,50 @@
 [2024-04-12 01:40:17] INFO root fetch - processPackages [ktpanda-modules]: Remove: archive file [/home/abi/fetcher/tmp/ktpanda_modules-1.0.9-py3-none-any.whl.zip]
 [2024-04-12 01:40:17] INFO root fetch - main [MainThread]: End processing [ktpanda-modules]: success
 [2024-04-12 01:40:17] INFO root fetch - main [MainThread]: Store serial: [22728106]
+[2024-04-12 01:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728106]
+[2024-04-12 01:42:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiortm
+[2024-04-12 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thirdai
+[2024-04-12 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gloe
+[2024-04-12 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-rag
+[2024-04-12 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atopile
+[2024-04-12 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: replit-river
+[2024-04-12 01:42:25] INFO root fetch - processPackages [replit-river]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-12 01:42:25] INFO root fetch - processPackages [atopile]: New version: [0.3.0.dev0] Old Version: [0.2.9]
+[2024-04-12 01:42:25] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/15/f3/4c5541b14dbb3cb3ed0839f28ed6cc392d3828c9f27ba342e00fb9f7d72c/replit_river-0.1.2.tar.gz
+[2024-04-12 01:42:25] INFO root fetch - processPackages [aiortm]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-12 01:42:25] INFO root fetch - processPackages [azureml-rag]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-12 01:42:25] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-12 01:42:25] WARNING root fetch - processPackages [gloe]: Skipping, unable to determine old version
+[2024-04-12 01:42:25] INFO root fetch - main [MainThread]: End processing [gloe] error
+[2024-04-12 01:42:26] INFO root fetch - processPackages [atopile]: Downloading https://files.pythonhosted.org/packages/b9/4b/f9ec536fd464d0e26a65a2027efe19630c4f5dbd38d7329e74df46ff0a91/atopile-0.2.9.tar.gz
+[2024-04-12 01:42:26] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/cd/6b/d377d688c115fe0dca01efbe91a0e27be6b61358d1240f8ffd8e690e2d90/azureml_rag-0.2.8-py3-none-any.whl
+[2024-04-12 01:42:26] INFO root fetch - processPackages [aiortm]: Downloading https://files.pythonhosted.org/packages/28/fe/31a3befb4fd026246714b56390b324ab0ad54574a9878a61263d046ae101/aiortm-0.8.8.tar.gz
+[2024-04-12 01:42:26] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2024-04-12 01:42:26] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/cb/25/746360f9a73c832797371dfef08902b2ab5ba29b54d6b92c21c361013b39/replit_river-0.1.3.tar.gz
+[2024-04-12 01:42:26] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-12 01:42:26] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.2.tar.gz tmp/replit_river-0.1.3.tar.gz --markdown 20240412/r/replit-river/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-12 01:42:26] INFO root fetch - processPackages [aiortm]: Downloading https://files.pythonhosted.org/packages/67/8f/1797657d16c5c6ce2b05695ca5cb6c0ed2873d29dfe48fc904df2a9a6a0e/aiortm-0.8.9.tar.gz
+[2024-04-12 01:42:26] INFO root fetch - processPackages [aiortm]: executing diffoscope
+[2024-04-12 01:42:26] INFO root fetch - processPackages [aiortm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiortm-0.8.8.tar.gz tmp/aiortm-0.8.9.tar.gz --markdown 20240412/a/aiortm/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-12 01:42:26] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/f3/84/b836de2d4c9aec3f94fbe80a1cf0f12b9999277127ca6b03bf9333080769/azureml_rag-0.2.9-py3-none-any.whl
+[2024-04-12 01:42:26] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2024-04-12 01:42:26] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.2.tar.gz]
+[2024-04-12 01:42:26] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.3.tar.gz]
+[2024-04-12 01:42:26] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-12 01:42:26] INFO root fetch - processPackages [azureml-rag]: executing diffoscope
+[2024-04-12 01:42:26] INFO root fetch - processPackages [azureml-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rag-0.2.8-py3-none-any.whl.zip tmp/azureml_rag-0.2.9-py3-none-any.whl.zip --markdown 20240412/a/azureml-rag/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-12 01:42:27] INFO root fetch - processPackages [aiortm]: Remove: archive file [/home/abi/fetcher/tmp/aiortm-0.8.8.tar.gz]
+[2024-04-12 01:42:27] INFO root fetch - processPackages [aiortm]: Remove: archive file [/home/abi/fetcher/tmp/aiortm-0.8.9.tar.gz]
+[2024-04-12 01:42:27] INFO root fetch - main [MainThread]: End processing [aiortm]: success
+[2024-04-12 01:42:27] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-04-12 01:42:27] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20240412/t/thirdai/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-12 01:42:27] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.8-py3-none-any.whl.zip]
+[2024-04-12 01:42:27] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
+[2024-04-12 01:42:27] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
+[2024-04-12 01:42:27] WARNING root fetch - processPackages [atopile]: Skipping package: exceeds size limit 25663075>=10485760
+[2024-04-12 01:42:27] INFO root fetch - main [MainThread]: End processing [atopile] error
+[2024-04-12 01:42:28] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 01:42:28] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 01:42:28] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-04-12 01:42:28] INFO root fetch - main [MainThread]: Store serial: [22728137]
