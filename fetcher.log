@@ -1,0 +1,93 @@
+[2024-04-12 00:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727195]
+[2024-04-12 00:01:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web3
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypi-tdb
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volts
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mixedbread-ai
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remarkable-update-fuse
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clip-util
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: integral_deid
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyplotlib
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oakvar
+[2024-04-12 00:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easyeda2ato
+[2024-04-12 00:01:38] INFO root fetch - processPackages [volts]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [easyeda2ato]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [remarkable-update-fuse]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [clip-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [integral_deid]: New version: [2024.4.17] Old Version: [2024.4.16]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [oakvar]: New version: [2.9.94] Old Version: [2.9.93]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [web3]: New version: [7.0.0b4] Old Version: [7.0.0b3]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [volts]: Downloading https://files.pythonhosted.org/packages/6b/1c/cf2d29fc6f17c3bfbb6726353d068e9a719939bac97e817d571af1938118/volts-1.0.8.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [easyeda2ato]: Downloading https://files.pythonhosted.org/packages/1c/0c/daa5d49b52dc1e12a27dcbb83f00f9ad8c981b01f8ff0c73fedd0dd755c9/easyeda2ato-0.2.3.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [remarkable-update-fuse]: Downloading https://files.pythonhosted.org/packages/88/1a/d9f97cd053a9a72f65db43243bda2d1b837f31ae3f119d3fa9b9bcaed9ef/remarkable_update_fuse-1.0.4.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [web3]: Downloading https://files.pythonhosted.org/packages/8d/ac/c1ef327c23e77a2a037e20de4471f3c63e08734077458b43512e34ae6d31/web3-7.0.0b3.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [mixedbread-ai]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [pypi-tdb]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 00:01:38] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/b1/c1/7dd704cc9b475f2399d421a34916343f8b0fbe82216e145e9883ad9e3d97/oakvar-2.9.93.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [integral_deid]: Downloading https://files.pythonhosted.org/packages/98/98/88df8c0189dc010960728ec2053a893d1630c7f21a6804c83f637828dcfb/integral_deid-2024.4.16.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [mixedbread-ai]: Downloading https://files.pythonhosted.org/packages/f3/e2/b38a4f4fe1b99cb7932a0543401e42b3b40a3a8b90903849ccd08e17e432/mixedbread_ai-2.1.1.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [pypi-tdb]: Downloading https://files.pythonhosted.org/packages/05/66/18a7f06930ff0886d762ecc981782c67d752cb05c524930ba2dfe9709c5f/pypi_tdb-0.0.5.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [remarkable-update-fuse]: Downloading https://files.pythonhosted.org/packages/89/0e/5a79409048918eac1ef9bb77eb631c536de2edb92d1dcc2ac86fb0901a91/remarkable_update_fuse-1.0.5.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [volts]: Downloading https://files.pythonhosted.org/packages/ec/04/b4c45f7d17a6ee2e5dd6932cb6acab6c2c021ff20e2e7b7e779b48f375b5/volts-1.0.9.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/62/b3/1dadedcd87d131bf2409d1b99b98cfe912a716ec0c14a1de749fc90c6d1c/clip-util-0.1.8.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [web3]: Downloading https://files.pythonhosted.org/packages/38/01/fb3039a2f20f818d348ea3a0ffd977b5c1698c00278400505ed88db083d3/web3-7.0.0b4.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [remarkable-update-fuse]: executing diffoscope
+[2024-04-12 00:01:38] INFO root fetch - processPackages [remarkable-update-fuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remarkable_update_fuse-1.0.4.tar.gz tmp/remarkable_update_fuse-1.0.5.tar.gz --markdown 20240412/r/remarkable-update-fuse/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-12 00:01:38] INFO root fetch - processPackages [easyeda2ato]: Downloading https://files.pythonhosted.org/packages/6a/7a/263752fd7eaf094467100c4e67dfc8364b04a323ae43ce1348e859910a60/easyeda2ato-0.2.4.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [volts]: executing diffoscope
+[2024-04-12 00:01:38] INFO root fetch - processPackages [volts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volts-1.0.8.tar.gz tmp/volts-1.0.9.tar.gz --markdown 20240412/v/volts/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 00:01:38] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-12 00:01:38] INFO root fetch - processPackages [integral_deid]: Downloading https://files.pythonhosted.org/packages/ab/c6/78e7d82bca6709e87c5f3f6350b3f775ac8fee139b8caab5e2ab9bb44028/integral_deid-2024.4.17.tar.gz
+[2024-04-12 00:01:39] INFO root fetch - processPackages [mixedbread-ai]: Downloading https://files.pythonhosted.org/packages/70/57/0d666a2b3fec35d67fd781f6c2443e79e7c0973bdc6353643d8d0d977b92/mixedbread_ai-2.2.0.tar.gz
+[2024-04-12 00:01:39] INFO root fetch - processPackages [easyeda2ato]: executing diffoscope
+[2024-04-12 00:01:39] INFO root fetch - processPackages [easyeda2ato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyeda2ato-0.2.3.tar.gz tmp/easyeda2ato-0.2.4.tar.gz --markdown 20240412/e/easyeda2ato/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-12 00:01:39] INFO root fetch - processPackages [pypi-tdb]: Downloading https://files.pythonhosted.org/packages/52/6f/a36128529e9c1cd9088e79e35a281cf2e3db0723ca2b5b16c68951fac492/pypi_tdb-0.0.6.tar.gz
+[2024-04-12 00:01:39] INFO root fetch - processPackages [integral_deid]: executing diffoscope
+[2024-04-12 00:01:39] INFO root fetch - processPackages [integral_deid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integral_deid-2024.4.16.tar.gz tmp/integral_deid-2024.4.17.tar.gz --markdown 20240412/i/integral_deid/2024.4.16-2024.4.17/README.md --exclude *.pyd
+[2024-04-12 00:01:39] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/41/bb/9082a814e9fb8fa4545c7852a27a82fbfb2c177a9cb11dcca70a065c5bd8/clip-util-0.1.9.tar.gz
+[2024-04-12 00:01:39] INFO root fetch - processPackages [mixedbread-ai]: executing diffoscope
+[2024-04-12 00:01:39] INFO root fetch - processPackages [mixedbread-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixedbread_ai-2.1.1.tar.gz tmp/mixedbread_ai-2.2.0.tar.gz --markdown 20240412/m/mixedbread-ai/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-04-12 00:01:39] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-12 00:01:39] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240412/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 00:01:39] INFO root fetch - processPackages [web3]: executing diffoscope
+[2024-04-12 00:01:39] INFO root fetch - processPackages [web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-7.0.0b3.tar.gz tmp/web3-7.0.0b4.tar.gz --markdown 20240412/w/web3/7.0.0b3-7.0.0b4/README.md --exclude *.pyd
+[2024-04-12 00:01:39] INFO root fetch - processPackages [pypi-tdb]: executing diffoscope
+[2024-04-12 00:01:39] INFO root fetch - processPackages [pypi-tdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_tdb-0.0.5.tar.gz tmp/pypi_tdb-0.0.6.tar.gz --markdown 20240412/p/pypi-tdb/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 00:01:39] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/8e/a3/daab8d3439a4fab8fa3c6638401050568993ca43415453a0a66d28abb9a6/oakvar-2.9.94.tar.gz
+[2024-04-12 00:01:39] INFO root fetch - processPackages [clip-util]: executing diffoscope
+[2024-04-12 00:01:39] INFO root fetch - processPackages [clip-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clip-util-0.1.8.tar.gz tmp/clip-util-0.1.9.tar.gz --markdown 20240412/c/clip-util/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 00:01:40] INFO root fetch - processPackages [remarkable-update-fuse]: Remove: archive file [/home/abi/fetcher/tmp/remarkable_update_fuse-1.0.4.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - processPackages [remarkable-update-fuse]: Remove: archive file [/home/abi/fetcher/tmp/remarkable_update_fuse-1.0.5.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - main [MainThread]: End processing [remarkable-update-fuse]: success
+[2024-04-12 00:01:40] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.8.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.9.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - main [MainThread]: End processing [clip-util]: success
+[2024-04-12 00:01:40] INFO root fetch - processPackages [easyeda2ato]: Remove: archive file [/home/abi/fetcher/tmp/easyeda2ato-0.2.3.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - processPackages [easyeda2ato]: Remove: archive file [/home/abi/fetcher/tmp/easyeda2ato-0.2.4.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - main [MainThread]: End processing [easyeda2ato]: success
+[2024-04-12 00:01:40] INFO root fetch - processPackages [integral_deid]: Remove: archive file [/home/abi/fetcher/tmp/integral_deid-2024.4.16.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - processPackages [integral_deid]: Remove: archive file [/home/abi/fetcher/tmp/integral_deid-2024.4.17.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - main [MainThread]: End processing [integral_deid]: success
+[2024-04-12 00:01:40] INFO root fetch - processPackages [mixedbread-ai]: Remove: archive file [/home/abi/fetcher/tmp/mixedbread_ai-2.1.1.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - processPackages [mixedbread-ai]: Remove: archive file [/home/abi/fetcher/tmp/mixedbread_ai-2.2.0.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - main [MainThread]: End processing [mixedbread-ai]: success
+[2024-04-12 00:01:40] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-12 00:01:40] INFO root fetch - processPackages [pypi-tdb]: Remove: archive file [/home/abi/fetcher/tmp/pypi_tdb-0.0.5.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - processPackages [pypi-tdb]: Remove: archive file [/home/abi/fetcher/tmp/pypi_tdb-0.0.6.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - main [MainThread]: End processing [pypi-tdb]: success
+[2024-04-12 00:01:40] INFO root fetch - processPackages [volts]: Remove: archive file [/home/abi/fetcher/tmp/volts-1.0.8.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - processPackages [volts]: Remove: archive file [/home/abi/fetcher/tmp/volts-1.0.9.tar.gz]
+[2024-04-12 00:01:40] INFO root fetch - main [MainThread]: End processing [volts]: success
+[2024-04-12 00:01:41] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-04-12 00:01:41] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.93.tar.gz tmp/oakvar-2.9.94.tar.gz --markdown 20240412/o/oakvar/2.9.93-2.9.94/README.md --exclude *.pyd
+[2024-04-12 00:01:43] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.93.tar.gz]
+[2024-04-12 00:01:43] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.94.tar.gz]
+[2024-04-12 00:01:43] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-04-12 00:01:44] INFO root fetch - processPackages [web3]: Remove: archive file [/home/abi/fetcher/tmp/web3-7.0.0b3.tar.gz]
+[2024-04-12 00:01:44] INFO root fetch - processPackages [web3]: Remove: archive file [/home/abi/fetcher/tmp/web3-7.0.0b4.tar.gz]
+[2024-04-12 00:01:44] INFO root fetch - main [MainThread]: End processing [web3]: success
+[2024-04-12 00:01:44] INFO root fetch - main [MainThread]: Store serial: [22727227]
