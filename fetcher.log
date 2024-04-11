@@ -1425,3 +1425,42 @@
 [2024-04-12 01:16:14] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.2.2.tar.gz]
 [2024-04-12 01:16:14] INFO root fetch - main [MainThread]: End processing [abacusai]: success
 [2024-04-12 01:16:14] INFO root fetch - main [MainThread]: Store serial: [22727971]
+[2024-04-12 01:18:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727971]
+[2024-04-12 01:18:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: replit-river
+[2024-04-12 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pve-cli
+[2024-04-12 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2024-04-12 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seleniumbase
+[2024-04-12 01:18:28] INFO root fetch - processPackages [replit-river]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-12 01:18:28] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-12 01:18:28] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/8a/9d/872409f4b55b2f7a1d4e054cd1df6d186d81e3dd1a02d4ef6cee776b4b1e/replit_river-0.1.1.tar.gz
+[2024-04-12 01:18:28] INFO root fetch - processPackages [pve-cli]: New version: [0.4.1] Old Version: [0.4.0a0]
+[2024-04-12 01:18:28] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-12 01:18:28] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-12 01:18:28] INFO root fetch - processPackages [pve-cli]: Downloading https://files.pythonhosted.org/packages/77/c4/e5f3652be9e0d8bcde311856cdbc17a7e903b41febea59844a363b49d8f7/pve_cli-0.4.0a0.tar.gz
+[2024-04-12 01:18:28] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/15/f3/4c5541b14dbb3cb3ed0839f28ed6cc392d3828c9f27ba342e00fb9f7d72c/replit_river-0.1.2.tar.gz
+[2024-04-12 01:18:29] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-12 01:18:29] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.1.tar.gz tmp/replit_river-0.1.2.tar.gz --markdown 20240412/r/replit-river/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-12 01:18:29] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-12 01:18:29] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2024-04-12 01:18:29] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-12 01:18:29] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240412/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-04-12 01:18:29] INFO root fetch - processPackages [pve-cli]: Downloading https://files.pythonhosted.org/packages/d0/0a/697ff8e55df148795d586a51cb5047006410d3c41e6dbdda5b4afaeddf07/pve_cli-0.4.1.tar.gz
+[2024-04-12 01:18:29] INFO root fetch - processPackages [pve-cli]: executing diffoscope
+[2024-04-12 01:18:29] INFO root fetch - processPackages [pve-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pve_cli-0.4.0a0.tar.gz tmp/pve_cli-0.4.1.tar.gz --markdown 20240412/p/pve-cli/0.4.0a0-0.4.1/README.md --exclude *.pyd
+[2024-04-12 01:18:29] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2024-04-12 01:18:29] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.1.tar.gz]
+[2024-04-12 01:18:29] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.2.tar.gz]
+[2024-04-12 01:18:29] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-12 01:18:29] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2024-04-12 01:18:29] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20240412/s/seleniumbase/4.9.8-4.9.9/README.md --exclude *.pyd
+[2024-04-12 01:18:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-12 01:18:29] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-12 01:18:29] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-12 01:18:30] INFO root fetch - processPackages [pve-cli]: Remove: archive file [/home/abi/fetcher/tmp/pve_cli-0.4.0a0.tar.gz]
+[2024-04-12 01:18:30] INFO root fetch - processPackages [pve-cli]: Remove: archive file [/home/abi/fetcher/tmp/pve_cli-0.4.1.tar.gz]
+[2024-04-12 01:18:30] INFO root fetch - main [MainThread]: End processing [pve-cli]: success
+[2024-04-12 01:18:30] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2024-04-12 01:18:30] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2024-04-12 01:18:30] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2024-04-12 01:18:30] INFO root fetch - main [MainThread]: Store serial: [22727983]
