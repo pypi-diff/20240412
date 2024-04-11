@@ -296,3 +296,60 @@
 [2024-04-12 00:10:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
 [2024-04-12 00:10:10] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-04-12 00:10:10] INFO root fetch - main [MainThread]: Store serial: [22727302]
+[2024-04-12 00:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22727302]
+[2024-04-12 00:12:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 00:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbrlabs-pulumi-eks
+[2024-04-12 00:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-tagging-model
+[2024-04-12 00:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mov-cli-films
+[2024-04-12 00:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoanki
+[2024-04-12 00:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kkpyai
+[2024-04-12 00:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-twingate
+[2024-04-12 00:12:19] INFO root fetch - processPackages [pulumi-twingate]: New version: [3.0.0.dev0] Old Version: [2.1.2.dev0]
+[2024-04-12 00:12:19] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.2a9] Old Version: [0.1.2a8]
+[2024-04-12 00:12:19] INFO root fetch - processPackages [kkpyai]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-12 00:12:19] INFO root fetch - processPackages [mov-cli-films]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-12 00:12:19] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/fe/81/126a74e697ecb5dd9eccdfffb93bc6612350824ad9c39b32e9d34419b765/kkpyai-0.5.0.tar.gz
+[2024-04-12 00:12:19] INFO root fetch - processPackages [autoanki]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-12 00:12:19] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.9.1a1707243566] Old Version: [0.9.0]
+[2024-04-12 00:12:19] INFO root fetch - processPackages [pulumi-twingate]: Downloading https://files.pythonhosted.org/packages/84/51/9c1cb57508579238e67e91266dbc827ffca5c136cc47b245e315e3119634/pulumi_twingate-2.1.2.dev0.tar.gz
+[2024-04-12 00:12:19] INFO root fetch - processPackages [mov-cli-films]: Downloading https://files.pythonhosted.org/packages/7a/6a/124c6792182cda8395c60668c6ae12b934fbbcbd1538877618aa1550fe80/mov-cli-films-1.3.8.tar.gz
+[2024-04-12 00:12:19] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/d2/aa/0b7718418e5af94a759f9103a1ce4e95aab5b43bd9cc6982841ef69b5495/text_tagging_model-0.1.2a8.tar.gz
+[2024-04-12 00:12:20] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/b1/6f/3b6b7d6163528c6dd2a4cce4fd8fa1d57aa20bf183dca5f15512db5a6d35/autoanki-1.1.7.tar.gz
+[2024-04-12 00:12:20] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/21/d7/aef8d104afe3ce2ea7de7a0d57a6fe58ed7d3eda4674da284fbeaea82f93/lbrlabs_pulumi_eks-0.9.0.tar.gz
+[2024-04-12 00:12:20] INFO root fetch - processPackages [pulumi-twingate]: Downloading https://files.pythonhosted.org/packages/b5/4e/2bf7a1a5fb29a6065dd5c0a2d15b7a8b759c1e05663f579ad8dcf1dac9d2/pulumi_twingate-3.0.0.dev0.tar.gz
+[2024-04-12 00:12:20] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/ae/ee/90f07f7f23d035c4a1891a43729ffadb5f0a822ff1990e448aafcf65e330/text_tagging_model-0.1.2a9.tar.gz
+[2024-04-12 00:12:20] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/97/0a/bcc7a4e14d0d7a7813899a92d596e9525406f10557911faa6996cf9d7328/kkpyai-0.5.1.tar.gz
+[2024-04-12 00:12:20] INFO root fetch - processPackages [mov-cli-films]: Downloading https://files.pythonhosted.org/packages/76/73/1b809a5d55a456a5648d3bb637ae39fe18dcab83ebc1792de359eb962fed/mov-cli-films-1.3.9.tar.gz
+[2024-04-12 00:12:20] INFO root fetch - processPackages [pulumi-twingate]: executing diffoscope
+[2024-04-12 00:12:20] INFO root fetch - processPackages [pulumi-twingate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_twingate-2.1.2.dev0.tar.gz tmp/pulumi_twingate-3.0.0.dev0.tar.gz --markdown 20240412/p/pulumi-twingate/2.1.2.dev0-3.0.0.dev0/README.md --exclude *.pyd
+[2024-04-12 00:12:20] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-12 00:12:20] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.2a8.tar.gz tmp/text_tagging_model-0.1.2a9.tar.gz --markdown 20240412/t/text-tagging-model/0.1.2a8-0.1.2a9/README.md --exclude *.pyd
+[2024-04-12 00:12:20] INFO root fetch - processPackages [kkpyai]: executing diffoscope
+[2024-04-12 00:12:20] INFO root fetch - processPackages [kkpyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyai-0.5.0.tar.gz tmp/kkpyai-0.5.1.tar.gz --markdown 20240412/k/kkpyai/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-12 00:12:20] INFO root fetch - processPackages [mov-cli-films]: executing diffoscope
+[2024-04-12 00:12:20] INFO root fetch - processPackages [mov-cli-films]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-films-1.3.8.tar.gz tmp/mov-cli-films-1.3.9.tar.gz --markdown 20240412/m/mov-cli-films/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-12 00:12:20] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/d5/0e/60b09d5429296cf428821fdfa9d680d241c19dfcc60366a782d5878fce6b/autoanki-1.1.8.tar.gz
+[2024-04-12 00:12:20] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/f3/44/61d0eab4adc9a0cce0c9886829dc5f49c1c49864fc2a85eb3d49ce88bb30/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz
+[2024-04-12 00:12:20] INFO root fetch - processPackages [autoanki]: executing diffoscope
+[2024-04-12 00:12:20] INFO root fetch - processPackages [autoanki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoanki-1.1.7.tar.gz tmp/autoanki-1.1.8.tar.gz --markdown 20240412/a/autoanki/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-12 00:12:20] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2024-04-12 00:12:20] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz --markdown 20240412/l/lbrlabs-pulumi-eks/0.9.0-0.9.1a1707243566/README.md --exclude *.pyd
+[2024-04-12 00:12:21] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.5.0.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.5.1.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
+[2024-04-12 00:12:21] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a8.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.2a9.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-12 00:12:21] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.8.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - processPackages [mov-cli-films]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-films-1.3.9.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - main [MainThread]: End processing [mov-cli-films]: success
+[2024-04-12 00:12:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2024-04-12 00:12:21] INFO root fetch - processPackages [pulumi-twingate]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_twingate-2.1.2.dev0.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - processPackages [pulumi-twingate]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_twingate-3.0.0.dev0.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - main [MainThread]: End processing [pulumi-twingate]: success
+[2024-04-12 00:12:21] INFO root fetch - processPackages [autoanki]: Remove: archive file [/home/abi/fetcher/tmp/autoanki-1.1.7.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - processPackages [autoanki]: Remove: archive file [/home/abi/fetcher/tmp/autoanki-1.1.8.tar.gz]
+[2024-04-12 00:12:21] INFO root fetch - main [MainThread]: End processing [autoanki]: success
+[2024-04-12 00:12:21] INFO root fetch - main [MainThread]: Store serial: [22727318]
