@@ -1963,3 +1963,41 @@
 [2024-04-12 01:48:59] INFO root fetch - processPackages [Django-Person-Client]: Remove: archive file [/home/abi/fetcher/tmp/Django-Person-Client-1.0.1.tar.gz]
 [2024-04-12 01:48:59] INFO root fetch - main [MainThread]: End processing [Django-Person-Client]: success
 [2024-04-12 01:48:59] INFO root fetch - main [MainThread]: Store serial: [22728186]
+[2024-04-12 01:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728186]
+[2024-04-12 01:51:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygerber
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-open-warning
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dissect.target
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: octodns-route53
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipl-pipeline-py-common
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ipl-pipeline-py-common]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-12 01:51:08] INFO root fetch - processPackages [dissect.target]: New version: [3.9] Old Version: [3.8]
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/e0/0b/f5480ae286b4b9b470ae1d6a68a96def7c46a1eb5e547866718ba79f78b3/ipl_pipeline_py_common-0.7.0.tar.gz
+[2024-04-12 01:51:08] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/fd/85/dee67cb24b471b811af4e5b31762f8244b20913dcc98ec76ec5b921e9a68/dissect.target-3.8.tar.gz
+[2024-04-12 01:51:08] WARNING root fetch - processPackages [jupyterlab-open-warning]: Skipping, unable to determine old version
+[2024-04-12 01:51:08] INFO root fetch - main [MainThread]: End processing [jupyterlab-open-warning] error
+[2024-04-12 01:51:08] INFO root fetch - processPackages [pygerber]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-04-12 01:51:08] INFO root fetch - processPackages [octodns-route53]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 01:51:08] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63551809>=10485760
+[2024-04-12 01:51:08] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2024-04-12 01:51:08] INFO root fetch - processPackages [pygerber]: Downloading https://files.pythonhosted.org/packages/52/bd/a515fff41d4f356659213e52b9b340783142d2610504d79eabd995276c34/pygerber-2.2.1.tar.gz
+[2024-04-12 01:51:08] INFO root fetch - processPackages [octodns-route53]: Downloading https://files.pythonhosted.org/packages/1b/73/1b940b0cef5440ec7bcfa547af9cedd47c035c16615db7484ef3965dbedc/octodns-route53-0.0.6.tar.gz
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/12/18/81da906b7f99c05350a46ce589c5ff55019911cb1620b478b431c7a269f7/ipl_pipeline_py_common-0.7.1.tar.gz
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ipl-pipeline-py-common]: executing diffoscope
+[2024-04-12 01:51:08] INFO root fetch - processPackages [ipl-pipeline-py-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipl_pipeline_py_common-0.7.0.tar.gz tmp/ipl_pipeline_py_common-0.7.1.tar.gz --markdown 20240412/i/ipl-pipeline-py-common/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-12 01:51:09] INFO root fetch - processPackages [pygerber]: Downloading https://files.pythonhosted.org/packages/64/7d/ffa1c279b5b62fc627a0e3589da6df6e14a4bbefc16b4773556e674f8cb0/pygerber-2.3.0.tar.gz
+[2024-04-12 01:51:09] INFO root fetch - processPackages [octodns-route53]: Downloading https://files.pythonhosted.org/packages/fb/2f/e3b31d2b0468c5eb3ab5020d26779a7e5c46133d6573e3467d96a71181d3/octodns-route53-0.0.7.tar.gz
+[2024-04-12 01:51:09] INFO root fetch - processPackages [pygerber]: executing diffoscope
+[2024-04-12 01:51:09] INFO root fetch - processPackages [pygerber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygerber-2.2.1.tar.gz tmp/pygerber-2.3.0.tar.gz --markdown 20240412/p/pygerber/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-04-12 01:51:09] INFO root fetch - processPackages [octodns-route53]: executing diffoscope
+[2024-04-12 01:51:09] INFO root fetch - processPackages [octodns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octodns-route53-0.0.6.tar.gz tmp/octodns-route53-0.0.7.tar.gz --markdown 20240412/o/octodns-route53/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 01:51:09] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.7.0.tar.gz]
+[2024-04-12 01:51:09] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.7.1.tar.gz]
+[2024-04-12 01:51:09] INFO root fetch - main [MainThread]: End processing [ipl-pipeline-py-common]: success
+[2024-04-12 01:51:10] INFO root fetch - processPackages [octodns-route53]: Remove: archive file [/home/abi/fetcher/tmp/octodns-route53-0.0.6.tar.gz]
+[2024-04-12 01:51:10] INFO root fetch - processPackages [octodns-route53]: Remove: archive file [/home/abi/fetcher/tmp/octodns-route53-0.0.7.tar.gz]
+[2024-04-12 01:51:10] INFO root fetch - main [MainThread]: End processing [octodns-route53]: success
+[2024-04-12 01:51:10] INFO root fetch - processPackages [pygerber]: Remove: archive file [/home/abi/fetcher/tmp/pygerber-2.2.1.tar.gz]
+[2024-04-12 01:51:10] INFO root fetch - processPackages [pygerber]: Remove: archive file [/home/abi/fetcher/tmp/pygerber-2.3.0.tar.gz]
+[2024-04-12 01:51:10] INFO root fetch - main [MainThread]: End processing [pygerber]: success
+[2024-04-12 01:51:10] INFO root fetch - main [MainThread]: Store serial: [22728202]
