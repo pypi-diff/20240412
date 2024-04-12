@@ -13963,3 +13963,33 @@
 [2024-04-12 06:50:43] INFO root fetch - processPackages [pygeonlp]: Remove: archive file [/home/abi/fetcher/tmp/pygeonlp-1.2.2rc1.tar.gz]
 [2024-04-12 06:50:43] INFO root fetch - main [MainThread]: End processing [pygeonlp]: success
 [2024-04-12 06:50:43] INFO root fetch - main [MainThread]: Store serial: [22732797]
+[2024-04-12 06:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732797]
+[2024-04-12 06:52:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 06:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-devkit
+[2024-04-12 06:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kBmc
+[2024-04-12 06:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kmport
+[2024-04-12 06:52:52] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-12 06:52:52] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/51/97/0ed66b947eb7371ed3f33d9501745d4bbc9b06a5cd25a6e7a6a6e7869fda/omnata_plugin_devkit-0.3.8.tar.gz
+[2024-04-12 06:52:52] INFO root fetch - processPackages [kBmc]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-12 06:52:52] INFO root fetch - processPackages [kmport]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-12 06:52:52] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/05/26/00acb43f53fad72d614350962a4ab46ad393fce6583ee75c5dedc01385c8/omnata_plugin_devkit-0.3.9.tar.gz
+[2024-04-12 06:52:52] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/cd/f5/87d66b35a67a40be6e903787b5ba54ffbc5e97e4c2f17b98206d75628d35/kBmc-2.3.8.tar.gz
+[2024-04-12 06:52:52] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2024-04-12 06:52:52] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.3.8.tar.gz tmp/omnata_plugin_devkit-0.3.9.tar.gz --markdown 20240412/o/omnata-plugin-devkit/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-12 06:52:52] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/3a/e4/ae5895b32282b73cf8867df9181f67ead01e5295f99e0bbd424abdb30b66/kmport-2.1.6.tar.gz
+[2024-04-12 06:52:53] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/b1/30/0a67c9ac9962ec52f20324b37d89b824d3b4caa5963bd919ddb2b19ac530/kBmc-2.3.9.tar.gz
+[2024-04-12 06:52:53] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2024-04-12 06:52:53] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.3.8.tar.gz tmp/kBmc-2.3.9.tar.gz --markdown 20240412/k/kBmc/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-12 06:52:53] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/8b/bc/c499e6a93daffa46969e904d23c07978ab20b869522093d56d63a61a4d00/kmport-2.1.7.tar.gz
+[2024-04-12 06:52:53] INFO root fetch - processPackages [kmport]: executing diffoscope
+[2024-04-12 06:52:53] INFO root fetch - processPackages [kmport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmport-2.1.6.tar.gz tmp/kmport-2.1.7.tar.gz --markdown 20240412/k/kmport/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-04-12 06:52:53] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.8.tar.gz]
+[2024-04-12 06:52:53] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.3.9.tar.gz]
+[2024-04-12 06:52:53] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2024-04-12 06:52:53] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.8.tar.gz]
+[2024-04-12 06:52:53] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.9.tar.gz]
+[2024-04-12 06:52:53] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2024-04-12 06:52:54] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.6.tar.gz]
+[2024-04-12 06:52:54] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.7.tar.gz]
+[2024-04-12 06:52:54] INFO root fetch - main [MainThread]: End processing [kmport]: success
+[2024-04-12 06:52:54] INFO root fetch - main [MainThread]: Store serial: [22732808]
