@@ -15377,3 +15377,78 @@
 [2024-04-12 08:16:34] INFO root fetch - processPackages [actipy]: Remove: archive file [/home/abi/fetcher/tmp/actipy-3.0.6.tar.gz]
 [2024-04-12 08:16:34] INFO root fetch - main [MainThread]: End processing [actipy]: success
 [2024-04-12 08:16:34] INFO root fetch - main [MainThread]: Store serial: [22733378]
+[2024-04-12 08:18:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733378]
+[2024-04-12 08:18:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YanSH
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mecord-cli
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ynab-api-import
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-awscdk-resolver
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leeselab-project-creator
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LightZero
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aioxdl
+[2024-04-12 08:18:44] INFO root fetch - processPackages [YanSH]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-12 08:18:44] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-12 08:18:44] INFO root fetch - processPackages [aioxdl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 08:18:44] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.9] Old Version: [0.0.82]
+[2024-04-12 08:18:44] INFO root fetch - processPackages [YanSH]: Downloading https://files.pythonhosted.org/packages/1c/2d/b0d8a1e96e29add42f71bfb625ca0834d6e079b86c10406fe00676fc2959/YanSH-0.1.1.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-12 08:18:44] INFO root fetch - processPackages [LightZero]: New version: [0.0.5] Old Version: [0.0.2]
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ynab-api-import]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-12 08:18:44] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/9b/62/d33ead1d28fd4d8040f57aaa4fed666a29ea346a45d5829cd2676f02d536/aioxdl-0.0.8.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [leeselab-project-creator]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-12 08:18:44] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/44/c4/5037f20d40f99a18e06072eac97c9f4951ce99004cd310bd1cf87049ed57/cdk8s-awscdk-resolver-0.0.82.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-12 08:18:44] INFO root fetch - processPackages [ynab-api-import]: Downloading https://files.pythonhosted.org/packages/5a/fb/04245d36b982f6441ef9ec1499ca9450fd15ec461bb64cd0472f86fb2de6/ynab_api_import-1.0.0.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [leeselab-project-creator]: Downloading https://files.pythonhosted.org/packages/60/72/9905250b554c5b56d1cd14da00f4f0066f49347f17d0f3b6d0e11c1a9a15/leeselab-project-creator-1.0.0.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [LightZero]: Downloading https://files.pythonhosted.org/packages/8d/2e/fea21db7e933a216d4ef384f1cf8c848afb2abc51d1c4cea81de3d108040/LightZero-0.0.2.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/a0/cc/83fc2b3fa07285f5c127a79f4aac2d73fd70fdd8fdc6a9006a15a1c2e34d/aioxdl-0.0.9.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [YanSH]: Downloading https://files.pythonhosted.org/packages/90/07/db61eec0659c78b498d7ff458e5f4c29a57055783fd4f3a42df1b0d23a15/YanSH-0.1.2.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-12 08:18:44] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-12 08:18:44] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-04-12 08:18:44] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.8.tar.gz tmp/aioxdl-0.0.9.tar.gz --markdown 20240412/a/aioxdl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 08:18:45] INFO root fetch - processPackages [YanSH]: executing diffoscope
+[2024-04-12 08:18:45] INFO root fetch - processPackages [YanSH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YanSH-0.1.1.tar.gz tmp/YanSH-0.1.2.tar.gz --markdown 20240412/Y/YanSH/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-12 08:18:45] INFO root fetch - processPackages [ynab-api-import]: Downloading https://files.pythonhosted.org/packages/17/b1/82e171dd0334236092528d261c046f2aecfa71cc7165531df24bcdedcd93/ynab_api_import-1.1.0.tar.gz
+[2024-04-12 08:18:45] INFO root fetch - processPackages [leeselab-project-creator]: Downloading https://files.pythonhosted.org/packages/91/66/cb5717bb881b3b2d3b0b4bf0764f2aebdb055cb6acdd831f305d5e94dee2/leeselab-project-creator-1.1.0.tar.gz
+[2024-04-12 08:18:45] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-12 08:18:45] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240412/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-12 08:18:45] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-04-12 08:18:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-12 08:18:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.82.tar.gz tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz --markdown 20240412/c/cdk8s-awscdk-resolver/0.0.82-0.0.9/README.md --exclude *.pyd
+[2024-04-12 08:18:45] INFO root fetch - processPackages [LightZero]: Downloading https://files.pythonhosted.org/packages/50/8c/faf6628225568de3b712a53258b2be56cbf01da852cb7c02f879f5c4e02c/LightZero-0.0.5.tar.gz
+[2024-04-12 08:18:45] INFO root fetch - processPackages [ynab-api-import]: executing diffoscope
+[2024-04-12 08:18:45] INFO root fetch - processPackages [ynab-api-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ynab_api_import-1.0.0.tar.gz tmp/ynab_api_import-1.1.0.tar.gz --markdown 20240412/y/ynab-api-import/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-12 08:18:45] INFO root fetch - processPackages [leeselab-project-creator]: executing diffoscope
+[2024-04-12 08:18:45] INFO root fetch - processPackages [leeselab-project-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leeselab-project-creator-1.0.0.tar.gz tmp/leeselab-project-creator-1.1.0.tar.gz --markdown 20240412/l/leeselab-project-creator/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-12 08:18:45] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-04-12 08:18:45] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240412/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-12 08:18:45] INFO root fetch - processPackages [LightZero]: executing diffoscope
+[2024-04-12 08:18:45] INFO root fetch - processPackages [LightZero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LightZero-0.0.2.tar.gz tmp/LightZero-0.0.5.tar.gz --markdown 20240412/L/LightZero/0.0.2-0.0.5/README.md --exclude *.pyd
+[2024-04-12 08:18:45] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.8.tar.gz]
+[2024-04-12 08:18:45] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.9.tar.gz]
+[2024-04-12 08:18:45] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-04-12 08:18:45] INFO root fetch - processPackages [YanSH]: Remove: archive file [/home/abi/fetcher/tmp/YanSH-0.1.1.tar.gz]
+[2024-04-12 08:18:45] INFO root fetch - processPackages [YanSH]: Remove: archive file [/home/abi/fetcher/tmp/YanSH-0.1.2.tar.gz]
+[2024-04-12 08:18:45] INFO root fetch - main [MainThread]: End processing [YanSH]: success
+[2024-04-12 08:18:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.82.tar.gz]
+[2024-04-12 08:18:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-12 08:18:45] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-12 08:18:46] INFO root fetch - processPackages [ynab-api-import]: Remove: archive file [/home/abi/fetcher/tmp/ynab_api_import-1.0.0.tar.gz]
+[2024-04-12 08:18:46] INFO root fetch - processPackages [ynab-api-import]: Remove: archive file [/home/abi/fetcher/tmp/ynab_api_import-1.1.0.tar.gz]
+[2024-04-12 08:18:46] INFO root fetch - main [MainThread]: End processing [ynab-api-import]: success
+[2024-04-12 08:18:46] INFO root fetch - processPackages [leeselab-project-creator]: Remove: archive file [/home/abi/fetcher/tmp/leeselab-project-creator-1.0.0.tar.gz]
+[2024-04-12 08:18:46] INFO root fetch - processPackages [leeselab-project-creator]: Remove: archive file [/home/abi/fetcher/tmp/leeselab-project-creator-1.1.0.tar.gz]
+[2024-04-12 08:18:46] INFO root fetch - main [MainThread]: End processing [leeselab-project-creator]: success
+[2024-04-12 08:18:46] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-04-12 08:18:46] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-04-12 08:18:46] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-04-12 08:18:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-12 08:18:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-12 08:18:47] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-12 08:18:47] INFO root fetch - processPackages [LightZero]: Remove: archive file [/home/abi/fetcher/tmp/LightZero-0.0.2.tar.gz]
+[2024-04-12 08:18:47] INFO root fetch - processPackages [LightZero]: Remove: archive file [/home/abi/fetcher/tmp/LightZero-0.0.5.tar.gz]
+[2024-04-12 08:18:47] INFO root fetch - main [MainThread]: End processing [LightZero]: success
+[2024-04-12 08:18:47] INFO root fetch - main [MainThread]: Store serial: [22733401]
