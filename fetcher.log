@@ -13687,3 +13687,33 @@
 [2024-04-12 06:35:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20240411.0-py3-none-any.whl.zip]
 [2024-04-12 06:35:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
 [2024-04-12 06:35:27] INFO root fetch - main [MainThread]: Store serial: [22732719]
+[2024-04-12 06:37:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732719]
+[2024-04-12 06:37:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mns-common
+[2024-04-12 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiderx
+[2024-04-12 06:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaskit
+[2024-04-12 06:37:37] INFO root fetch - processPackages [pyaskit]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-12 06:37:37] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2024-04-12 06:37:37] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.4.3] Old Version: [1.0.7.4.2]
+[2024-04-12 06:37:37] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2024-04-12 06:37:37] INFO root fetch - processPackages [pyaskit]: Downloading https://files.pythonhosted.org/packages/fa/09/49e19fca17616d3e711652c67cb58059b3c032598f2638619a49ff86e996/pyaskit-1.4.1.tar.gz
+[2024-04-12 06:37:38] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/11/05/ad30ea813b2dcefe5be056f43469786c4a40e8b29ff76d0fddfea7ebaa20/mns_common-1.0.7.4.2.tar.gz
+[2024-04-12 06:37:38] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/bb/46/4e97a57d768c0c162757f4535b3da7746ba4af0bc15ae3b4360b15925331/mns_common-1.0.7.4.3.tar.gz
+[2024-04-12 06:37:38] INFO root fetch - processPackages [pyaskit]: Downloading https://files.pythonhosted.org/packages/9f/e1/3b3fc6b191db0d3267944e5bfea2837d0568508ef3c4c0d3b291c82349db/pyaskit-1.4.2.tar.gz
+[2024-04-12 06:37:38] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2024-04-12 06:37:38] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-12 06:37:38] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.4.2.tar.gz tmp/mns_common-1.0.7.4.3.tar.gz --markdown 20240412/m/mns-common/1.0.7.4.2-1.0.7.4.3/README.md --exclude *.pyd
+[2024-04-12 06:37:38] INFO root fetch - processPackages [pyaskit]: executing diffoscope
+[2024-04-12 06:37:38] INFO root fetch - processPackages [pyaskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaskit-1.4.1.tar.gz tmp/pyaskit-1.4.2.tar.gz --markdown 20240412/p/pyaskit/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-12 06:37:38] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2024-04-12 06:37:38] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20240412/s/spiderx/1.8.2-1.8.9/README.md --exclude *.pyd
+[2024-04-12 06:37:39] INFO root fetch - processPackages [pyaskit]: Remove: archive file [/home/abi/fetcher/tmp/pyaskit-1.4.1.tar.gz]
+[2024-04-12 06:37:39] INFO root fetch - processPackages [pyaskit]: Remove: archive file [/home/abi/fetcher/tmp/pyaskit-1.4.2.tar.gz]
+[2024-04-12 06:37:39] INFO root fetch - main [MainThread]: End processing [pyaskit]: success
+[2024-04-12 06:37:39] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.2.tar.gz]
+[2024-04-12 06:37:39] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.3.tar.gz]
+[2024-04-12 06:37:39] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-12 06:37:39] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2024-04-12 06:37:39] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2024-04-12 06:37:39] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2024-04-12 06:37:39] INFO root fetch - main [MainThread]: Store serial: [22732727]
