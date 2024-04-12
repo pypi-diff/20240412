@@ -15844,3 +15844,24 @@
 [2024-04-12 08:40:39] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.6.0.tar.gz]
 [2024-04-12 08:40:39] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
 [2024-04-12 08:40:39] INFO root fetch - main [MainThread]: Store serial: [22733575]
+[2024-04-12 08:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733575]
+[2024-04-12 08:42:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 08:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zebrazoom
+[2024-04-12 08:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-identity
+[2024-04-12 08:42:47] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2024-04-12 08:42:47] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-12 08:42:48] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2024-04-12 08:42:48] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-12 08:42:48] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-12 08:42:48] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-12 08:42:48] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240412/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-12 08:42:48] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2024-04-12 08:42:49] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-12 08:42:49] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-12 08:42:49] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-12 08:42:52] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2024-04-12 08:42:52] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20240412/z/zebrazoom/1.8-1.9/README.md --exclude *.pyd
+[2024-04-12 08:42:53] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2024-04-12 08:42:53] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2024-04-12 08:42:53] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2024-04-12 08:42:53] INFO root fetch - main [MainThread]: Store serial: [22733581]
