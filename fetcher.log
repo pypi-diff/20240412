@@ -13993,3 +13993,24 @@
 [2024-04-12 06:52:54] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.7.tar.gz]
 [2024-04-12 06:52:54] INFO root fetch - main [MainThread]: End processing [kmport]: success
 [2024-04-12 06:52:54] INFO root fetch - main [MainThread]: Store serial: [22732808]
+[2024-04-12 06:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732808]
+[2024-04-12 06:55:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 06:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioxdl
+[2024-04-12 06:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuanwi02
+[2024-04-12 06:55:04] INFO root fetch - processPackages [aioxdl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 06:55:05] INFO root fetch - processPackages [neuanwi02]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-12 06:55:05] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/9b/62/d33ead1d28fd4d8040f57aaa4fed666a29ea346a45d5829cd2676f02d536/aioxdl-0.0.8.tar.gz
+[2024-04-12 06:55:05] INFO root fetch - processPackages [neuanwi02]: Downloading https://files.pythonhosted.org/packages/bb/ab/0b99f35cbd37224b5b8057565ad881ece209d7709f7c696b837c4fb8c879/neuanwi02-0.0.1-py3-none-any.whl
+[2024-04-12 06:55:05] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/a0/cc/83fc2b3fa07285f5c127a79f4aac2d73fd70fdd8fdc6a9006a15a1c2e34d/aioxdl-0.0.9.tar.gz
+[2024-04-12 06:55:05] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-04-12 06:55:05] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.8.tar.gz tmp/aioxdl-0.0.9.tar.gz --markdown 20240412/a/aioxdl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 06:55:05] INFO root fetch - processPackages [neuanwi02]: Downloading https://files.pythonhosted.org/packages/46/40/25a274c923fa84df9cd61cca556abf073c9771fcf927283d46a7f8ac8e6a/neuanwi02-0.0.3-py3-none-any.whl
+[2024-04-12 06:55:05] INFO root fetch - processPackages [neuanwi02]: executing diffoscope
+[2024-04-12 06:55:05] INFO root fetch - processPackages [neuanwi02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuanwi02-0.0.1-py3-none-any.whl.zip tmp/neuanwi02-0.0.3-py3-none-any.whl.zip --markdown 20240412/n/neuanwi02/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-12 06:55:06] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.8.tar.gz]
+[2024-04-12 06:55:06] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.9.tar.gz]
+[2024-04-12 06:55:06] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-04-12 06:55:06] INFO root fetch - processPackages [neuanwi02]: Remove: archive file [/home/abi/fetcher/tmp/neuanwi02-0.0.1-py3-none-any.whl.zip]
+[2024-04-12 06:55:06] INFO root fetch - processPackages [neuanwi02]: Remove: archive file [/home/abi/fetcher/tmp/neuanwi02-0.0.3-py3-none-any.whl.zip]
+[2024-04-12 06:55:06] INFO root fetch - main [MainThread]: End processing [neuanwi02]: success
+[2024-04-12 06:55:06] INFO root fetch - main [MainThread]: Store serial: [22732817]
