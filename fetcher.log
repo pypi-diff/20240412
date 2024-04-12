@@ -14672,3 +14672,33 @@
 [2024-04-12 07:37:06] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240411-cp311-cp311-manylinux2014_x86_64.whl.zip]
 [2024-04-12 07:37:06] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-04-12 07:37:06] INFO root fetch - main [MainThread]: Store serial: [22733096]
+[2024-04-12 07:39:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733096]
+[2024-04-12 07:39:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 07:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monterey
+[2024-04-12 07:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dawnai
+[2024-04-12 07:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atom-tools
+[2024-04-12 07:39:21] INFO root fetch - processPackages [monterey]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 07:39:21] INFO root fetch - processPackages [dawnai]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-12 07:39:21] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/c4/7f/2bf521c29ab67ee574ba14b9e4427feac26b15835a21cbe07820aa6783b7/monterey-0.0.3.tar.gz
+[2024-04-12 07:39:21] INFO root fetch - processPackages [atom-tools]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-12 07:39:21] INFO root fetch - processPackages [atom-tools]: Downloading https://files.pythonhosted.org/packages/43/08/37fb723957513efaa269e624bc90285b64298792119a1ab16bd3cdda3906/atom-tools-0.5.3.tar.gz
+[2024-04-12 07:39:21] INFO root fetch - processPackages [dawnai]: Downloading https://files.pythonhosted.org/packages/62/0b/dffd8ea2962278837828bc93ae2bd8f995eda2cbcc9399874dc0b53e1981/dawnai-0.0.4.tar.gz
+[2024-04-12 07:39:21] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/64/62/38e2a3e60a47f091a9c1a3ff9f2be8ee36df0d77cb0e0dcd83e63e6ace3e/monterey-0.0.4.tar.gz
+[2024-04-12 07:39:21] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 07:39:21] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.3.tar.gz tmp/monterey-0.0.4.tar.gz --markdown 20240412/m/monterey/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 07:39:21] INFO root fetch - processPackages [dawnai]: Downloading https://files.pythonhosted.org/packages/d7/a3/d3b735b5d9b498c4bb07782f228872ce7250d75cfe751e0e7dbfb6de5e91/dawnai-0.0.5.tar.gz
+[2024-04-12 07:39:21] INFO root fetch - processPackages [atom-tools]: Downloading https://files.pythonhosted.org/packages/be/ee/fd00bc34158a7afd9e8dae47604c07b55f29cdc00a12e709aa0bf114402b/atom-tools-0.5.4.tar.gz
+[2024-04-12 07:39:22] INFO root fetch - processPackages [dawnai]: executing diffoscope
+[2024-04-12 07:39:22] INFO root fetch - processPackages [dawnai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dawnai-0.0.4.tar.gz tmp/dawnai-0.0.5.tar.gz --markdown 20240412/d/dawnai/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-12 07:39:22] INFO root fetch - processPackages [atom-tools]: executing diffoscope
+[2024-04-12 07:39:22] INFO root fetch - processPackages [atom-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atom-tools-0.5.3.tar.gz tmp/atom-tools-0.5.4.tar.gz --markdown 20240412/a/atom-tools/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-12 07:39:22] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.3.tar.gz]
+[2024-04-12 07:39:22] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.4.tar.gz]
+[2024-04-12 07:39:22] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 07:39:22] INFO root fetch - processPackages [dawnai]: Remove: archive file [/home/abi/fetcher/tmp/dawnai-0.0.4.tar.gz]
+[2024-04-12 07:39:22] INFO root fetch - processPackages [dawnai]: Remove: archive file [/home/abi/fetcher/tmp/dawnai-0.0.5.tar.gz]
+[2024-04-12 07:39:22] INFO root fetch - main [MainThread]: End processing [dawnai]: success
+[2024-04-12 07:39:22] INFO root fetch - processPackages [atom-tools]: Remove: archive file [/home/abi/fetcher/tmp/atom-tools-0.5.3.tar.gz]
+[2024-04-12 07:39:22] INFO root fetch - processPackages [atom-tools]: Remove: archive file [/home/abi/fetcher/tmp/atom-tools-0.5.4.tar.gz]
+[2024-04-12 07:39:22] INFO root fetch - main [MainThread]: End processing [atom-tools]: success
+[2024-04-12 07:39:22] INFO root fetch - main [MainThread]: Store serial: [22733111]
