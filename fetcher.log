@@ -17122,3 +17122,33 @@
 [2024-04-12 09:38:58] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
 [2024-04-12 09:38:58] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-12 09:38:58] INFO root fetch - main [MainThread]: Store serial: [22734275]
+[2024-04-12 09:41:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734275]
+[2024-04-12 09:41:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 09:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytiqs
+[2024-04-12 09:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-edgar-api
+[2024-04-12 09:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molgenis-emx2-staging-migrator
+[2024-04-12 09:41:08] INFO root fetch - processPackages [pytiqs]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-12 09:41:08] INFO root fetch - processPackages [py-edgar-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-12 09:41:08] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: New version: [8.213.11.dev1692184266583] Old Version: [10.50.2]
+[2024-04-12 09:41:08] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/f3/46/22d57a23da5d2509c1c0d974e5dac6bb93f4934ad1ccf27248c980bdd687/pytiqs-1.0.5.tar.gz
+[2024-04-12 09:41:08] INFO root fetch - processPackages [py-edgar-api]: Downloading https://files.pythonhosted.org/packages/4d/f1/951c2650f0afb6b0aacf79631c396e9addb79e3b61ddff2a43899aaaa123/py_edgar_api-0.1.2.tar.gz
+[2024-04-12 09:41:08] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Downloading https://files.pythonhosted.org/packages/ea/07/0d98cca1ee5fbfeaafe6e3cb200495afa86a3976dcc80f02d923d1f069e0/molgenis-emx2-staging-migrator-10.50.2.tar.gz
+[2024-04-12 09:41:08] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/f7/e2/15b06235636789677696bb4ddc540ee3c5aefc78e8b26a240551ae7bb0dd/pytiqs-1.0.6.tar.gz
+[2024-04-12 09:41:08] INFO root fetch - processPackages [py-edgar-api]: Downloading https://files.pythonhosted.org/packages/8c/47/3935ebadf5e841d8e8b01e22215c39595fe152314634ba716bed25c86667/py_edgar_api-0.1.3.tar.gz
+[2024-04-12 09:41:08] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Downloading https://files.pythonhosted.org/packages/5b/83/40c65a3790a8bef0c1dc624ce1ac3d02f7b7a13c7879a836fae7c2e3df81/molgenis_emx2_staging-migrator-8.213.11.dev1692184266583.tar.gz
+[2024-04-12 09:41:08] INFO root fetch - processPackages [pytiqs]: executing diffoscope
+[2024-04-12 09:41:08] INFO root fetch - processPackages [pytiqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiqs-1.0.5.tar.gz tmp/pytiqs-1.0.6.tar.gz --markdown 20240412/p/pytiqs/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-12 09:41:08] INFO root fetch - processPackages [py-edgar-api]: executing diffoscope
+[2024-04-12 09:41:08] INFO root fetch - processPackages [py-edgar-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_edgar_api-0.1.2.tar.gz tmp/py_edgar_api-0.1.3.tar.gz --markdown 20240412/p/py-edgar-api/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-12 09:41:08] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: executing diffoscope
+[2024-04-12 09:41:08] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis-emx2-staging-migrator-10.50.2.tar.gz tmp/molgenis_emx2_staging-migrator-8.213.11.dev1692184266583.tar.gz --markdown 20240412/m/molgenis-emx2-staging-migrator/10.50.2-8.213.11.dev1692184266583/README.md --exclude *.pyd
+[2024-04-12 09:41:09] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.5.tar.gz]
+[2024-04-12 09:41:09] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.6.tar.gz]
+[2024-04-12 09:41:09] INFO root fetch - main [MainThread]: End processing [pytiqs]: success
+[2024-04-12 09:41:09] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-emx2-staging-migrator-10.50.2.tar.gz]
+[2024-04-12 09:41:09] INFO root fetch - processPackages [molgenis-emx2-staging-migrator]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_staging-migrator-8.213.11.dev1692184266583.tar.gz]
+[2024-04-12 09:41:09] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-staging-migrator]: success
+[2024-04-12 09:41:09] INFO root fetch - processPackages [py-edgar-api]: Remove: archive file [/home/abi/fetcher/tmp/py_edgar_api-0.1.2.tar.gz]
+[2024-04-12 09:41:09] INFO root fetch - processPackages [py-edgar-api]: Remove: archive file [/home/abi/fetcher/tmp/py_edgar_api-0.1.3.tar.gz]
+[2024-04-12 09:41:09] INFO root fetch - main [MainThread]: End processing [py-edgar-api]: success
+[2024-04-12 09:41:09] INFO root fetch - main [MainThread]: Store serial: [22734294]
