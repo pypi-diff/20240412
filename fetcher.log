@@ -15452,3 +15452,52 @@
 [2024-04-12 08:18:47] INFO root fetch - processPackages [LightZero]: Remove: archive file [/home/abi/fetcher/tmp/LightZero-0.0.5.tar.gz]
 [2024-04-12 08:18:47] INFO root fetch - main [MainThread]: End processing [LightZero]: success
 [2024-04-12 08:18:47] INFO root fetch - main [MainThread]: Store serial: [22733401]
+[2024-04-12 08:20:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733401]
+[2024-04-12 08:20:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 08:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mxcubecore
+[2024-04-12 08:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kytest
+[2024-04-12 08:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CriminAI
+[2024-04-12 08:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykrotik
+[2024-04-12 08:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thanosql
+[2024-04-12 08:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mms-client
+[2024-04-12 08:20:57] INFO root fetch - processPackages [CriminAI]: New version: [1.0.0] Old Version: [0.1.7]
+[2024-04-12 08:20:57] INFO root fetch - processPackages [mms-client]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-12 08:20:57] INFO root fetch - processPackages [thanosql]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-12 08:20:57] INFO root fetch - processPackages [pykrotik]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 08:20:57] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/c2/75/98f0663d2066d117f7755d8c71387c7cb27e40211493ad8b1d1baa43ff55/mms_client-1.0.6.tar.gz
+[2024-04-12 08:20:57] INFO root fetch - processPackages [mxcubecore]: New version: [1.92.0] Old Version: [1.91.0]
+[2024-04-12 08:20:57] INFO root fetch - processPackages [kytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 08:20:57] INFO root fetch - processPackages [thanosql]: Downloading https://files.pythonhosted.org/packages/2c/c7/36ab4488a960d356d93bf900915c7d1e6c0550a10bd4fc3db21bf329cc4b/thanosql-0.1.0.tar.gz
+[2024-04-12 08:20:57] INFO root fetch - processPackages [pykrotik]: Downloading https://files.pythonhosted.org/packages/93/71/d73041237bebb58e031776176620b918a3d83f5fc06b6d0fc340919dde7b/pykrotik-0.0.3.tar.gz
+[2024-04-12 08:20:58] INFO root fetch - processPackages [CriminAI]: Downloading https://files.pythonhosted.org/packages/7a/ed/7896acd97c33b41fd906f558da035b11f084a72c67d1dd681cf40f49eb3f/CriminAI-0.1.7.tar.gz
+[2024-04-12 08:20:58] WARNING root fetch - processPackages [CriminAI]: Skipping package: exceeds size limit 17009193>=10485760
+[2024-04-12 08:20:58] INFO root fetch - main [MainThread]: End processing [CriminAI] error
+[2024-04-12 08:20:58] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/43/24/a803aa9b074a29f83f9566b30e25e99cd4ad82498f57777ee44750556d34/mxcubecore-1.91.0.tar.gz
+[2024-04-12 08:20:58] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/38/b4/85e915d95e6d8ae6caae685be018b54adaadfcc88094c4b9a766af3f139c/kytest-0.0.8.tar.gz
+[2024-04-12 08:20:58] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/7f/e0/aa246a18dbb020b6312c0e66d58b67c30f33e71757dd98fe4d247b2e2a40/mms_client-1.1.0.tar.gz
+[2024-04-12 08:20:58] INFO root fetch - processPackages [thanosql]: Downloading https://files.pythonhosted.org/packages/02/d2/731b2759099667bd61fb20acce9b3c82c6cc6e5f6d15434bd46174a5c889/thanosql-0.2.0.tar.gz
+[2024-04-12 08:20:58] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 30976161>=10485760
+[2024-04-12 08:20:58] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2024-04-12 08:20:58] INFO root fetch - processPackages [mms-client]: executing diffoscope
+[2024-04-12 08:20:58] INFO root fetch - processPackages [mms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_client-1.0.6.tar.gz tmp/mms_client-1.1.0.tar.gz --markdown 20240412/m/mms-client/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-04-12 08:20:58] INFO root fetch - processPackages [thanosql]: executing diffoscope
+[2024-04-12 08:20:58] INFO root fetch - processPackages [thanosql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thanosql-0.1.0.tar.gz tmp/thanosql-0.2.0.tar.gz --markdown 20240412/t/thanosql/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-12 08:20:58] INFO root fetch - processPackages [pykrotik]: Downloading https://files.pythonhosted.org/packages/22/1f/cb06c694e19e7f93abc82c26deef013c0b785df7ee5b24d0abb61372d53c/pykrotik-0.0.4.tar.gz
+[2024-04-12 08:20:58] INFO root fetch - processPackages [pykrotik]: executing diffoscope
+[2024-04-12 08:20:58] INFO root fetch - processPackages [pykrotik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykrotik-0.0.3.tar.gz tmp/pykrotik-0.0.4.tar.gz --markdown 20240412/p/pykrotik/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 08:20:58] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/36/f4/c3ebb11b933fe50ea919d941f19fdd760121247aa33dcca464e43242fc1c/kytest-0.0.9.tar.gz
+[2024-04-12 08:20:58] INFO root fetch - processPackages [thanosql]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-0.1.0.tar.gz]
+[2024-04-12 08:20:58] INFO root fetch - processPackages [thanosql]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-0.2.0.tar.gz]
+[2024-04-12 08:20:58] INFO root fetch - main [MainThread]: End processing [thanosql]: success
+[2024-04-12 08:20:59] INFO root fetch - processPackages [pykrotik]: Remove: archive file [/home/abi/fetcher/tmp/pykrotik-0.0.3.tar.gz]
+[2024-04-12 08:20:59] INFO root fetch - processPackages [pykrotik]: Remove: archive file [/home/abi/fetcher/tmp/pykrotik-0.0.4.tar.gz]
+[2024-04-12 08:20:59] INFO root fetch - main [MainThread]: End processing [pykrotik]: success
+[2024-04-12 08:20:59] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.0.6.tar.gz]
+[2024-04-12 08:20:59] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.1.0.tar.gz]
+[2024-04-12 08:20:59] INFO root fetch - main [MainThread]: End processing [mms-client]: success
+[2024-04-12 08:20:59] INFO root fetch - processPackages [kytest]: executing diffoscope
+[2024-04-12 08:20:59] INFO root fetch - processPackages [kytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kytest-0.0.8.tar.gz tmp/kytest-0.0.9.tar.gz --markdown 20240412/k/kytest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 08:21:00] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.8.tar.gz]
+[2024-04-12 08:21:00] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.9.tar.gz]
+[2024-04-12 08:21:00] INFO root fetch - main [MainThread]: End processing [kytest]: success
+[2024-04-12 08:21:00] INFO root fetch - main [MainThread]: Store serial: [22733419]
