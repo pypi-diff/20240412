@@ -11109,3 +11109,10 @@
 [2024-04-12 03:45:28] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.9.tar.gz]
 [2024-04-12 03:45:28] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
 [2024-04-12 03:45:28] INFO root fetch - main [MainThread]: Store serial: [22731505]
+[2024-04-12 03:47:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731505]
+[2024-04-12 03:47:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-12 03:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dialog-lib
+[2024-04-12 03:47:36] INFO root fetch - processPackages [dialog-lib]: New version: [0.0.1.1a0] Old Version: [0.0.1.0]
+[2024-04-12 03:47:36] ERROR root fetch - processPackages [dialog-lib]: Unable to fetch info: No such project/version 'dialog-lib' 0.0.1.0
+[2024-04-12 03:47:36] INFO root fetch - main [MainThread]: End processing [dialog-lib] error
+[2024-04-12 03:47:36] INFO root fetch - main [MainThread]: Store serial: [22731509]
