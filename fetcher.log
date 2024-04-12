@@ -2853,3 +2853,88 @@
 [2024-04-12 02:24:47] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-9.7.0.tar.gz]
 [2024-04-12 02:24:47] INFO root fetch - main [MainThread]: End processing [spellbot]: success
 [2024-04-12 02:24:47] INFO root fetch - main [MainThread]: Store serial: [22728568]
+[2024-04-12 02:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728568]
+[2024-04-12 02:26:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sharded-google-photos
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenGeode-core
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-serverless-clamscan
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cuproj-cu11
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trace-attributes
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: barbara-updater
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-ecs-service-extensions
+[2024-04-12 02:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: weave
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [sharded-google-photos]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cuproj-cu11]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [barbara-updater]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [trace-attributes]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.18.3rc1]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [weave]: New version: [0.50.1] Old Version: [0.50.0]
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cuproj-cu11]: Downloading https://files.pythonhosted.org/packages/4e/86/ab7ffd9dcc39d6f49cdd087116f8bab8da33530c47853858ae6458a812ec/cuproj-cu11-24.2.0.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [sharded-google-photos]: Downloading https://files.pythonhosted.org/packages/e2/9a/2bbe86d083695ac6c694f1558b9f8b4ec369a960094426feca98cc698e8d/sharded_google_photos-0.2.1.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/1e/90/74b7e4574ffcc661df330fae415d85a9beb6bbc7cda3796494b4405d6070/trace-attributes-1.0.8.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/b6/3e/811b284595dbbbe643df365fe012efb4394594a7c6005e78c3e44395df57/OpenGeode_core-14.18.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-12 02:26:56] INFO root fetch - processPackages [barbara-updater]: Downloading https://files.pythonhosted.org/packages/69/b4/fea46ebb605d72b1e00fa5fb9af4a4555cea4349c82b8dc84cba3e73fd07/barbara_updater-3.2.0.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [weave]: Downloading https://files.pythonhosted.org/packages/0d/55/467ccc0a3ae08521551c486f8044c103ce94b8ba30b89246306499050f4b/weave-0.50.0.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-12 02:26:56] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11716690>=10485760
+[2024-04-12 02:26:56] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-04-12 02:26:56] WARNING root fetch - processPackages [weave]: Skipping package: exceeds size limit 28141282>=10485760
+[2024-04-12 02:26:56] INFO root fetch - main [MainThread]: End processing [weave] error
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240412/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240412/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-12 02:26:56] INFO root fetch - processPackages [sharded-google-photos]: Downloading https://files.pythonhosted.org/packages/02/53/881f0ea746e32f9abceb0d74f2bb7928b4608fd3220cd2325c79b7b5ca99/sharded_google_photos-0.2.2.tar.gz
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240412/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-04-12 02:26:56] INFO root fetch - processPackages [cuproj-cu11]: Downloading https://files.pythonhosted.org/packages/ce/18/1676526dfe9f003fdb83b0a06f0f008be644680b92886a2b23f1ececc49f/cuproj_cu11-24.4.0.tar.gz
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240412/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-04-12 02:26:57] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/9f/67/9cb8e2c92791a6e07f7ac6e1651f1abcc16a82196a21da9eb5e10f1bd0dd/trace-attributes-1.0.9.tar.gz
+[2024-04-12 02:26:57] INFO root fetch - processPackages [barbara-updater]: Downloading https://files.pythonhosted.org/packages/f1/f9/13a31ceccf624f713f744fade1bcf6b02e8029a477631c12f98f6faf921f/barbara_updater-3.3.0.tar.gz
+[2024-04-12 02:26:57] INFO root fetch - processPackages [sharded-google-photos]: executing diffoscope
+[2024-04-12 02:26:57] INFO root fetch - processPackages [sharded-google-photos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharded_google_photos-0.2.1.tar.gz tmp/sharded_google_photos-0.2.2.tar.gz --markdown 20240412/s/sharded-google-photos/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-12 02:26:57] INFO root fetch - processPackages [trace-attributes]: executing diffoscope
+[2024-04-12 02:26:57] INFO root fetch - processPackages [trace-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trace-attributes-1.0.8.tar.gz tmp/trace-attributes-1.0.9.tar.gz --markdown 20240412/t/trace-attributes/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cuproj-cu11]: executing diffoscope
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cuproj-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuproj-cu11-24.2.0.tar.gz tmp/cuproj_cu11-24.4.0.tar.gz --markdown 20240412/c/cuproj-cu11/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:26:57] INFO root fetch - processPackages [barbara-updater]: executing diffoscope
+[2024-04-12 02:26:57] INFO root fetch - processPackages [barbara-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbara_updater-3.2.0.tar.gz tmp/barbara_updater-3.3.0.tar.gz --markdown 20240412/b/barbara-updater/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-12 02:26:57] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.8.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.9.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - main [MainThread]: End processing [trace-attributes]: success
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cuproj-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuproj-cu11-24.2.0.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - processPackages [cuproj-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuproj_cu11-24.4.0.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - main [MainThread]: End processing [cuproj-cu11]: success
+[2024-04-12 02:26:57] INFO root fetch - processPackages [sharded-google-photos]: Remove: archive file [/home/abi/fetcher/tmp/sharded_google_photos-0.2.1.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - processPackages [sharded-google-photos]: Remove: archive file [/home/abi/fetcher/tmp/sharded_google_photos-0.2.2.tar.gz]
+[2024-04-12 02:26:57] INFO root fetch - main [MainThread]: End processing [sharded-google-photos]: success
+[2024-04-12 02:26:58] INFO root fetch - processPackages [barbara-updater]: Remove: archive file [/home/abi/fetcher/tmp/barbara_updater-3.2.0.tar.gz]
+[2024-04-12 02:26:58] INFO root fetch - processPackages [barbara-updater]: Remove: archive file [/home/abi/fetcher/tmp/barbara_updater-3.3.0.tar.gz]
+[2024-04-12 02:26:58] INFO root fetch - main [MainThread]: End processing [barbara-updater]: success
+[2024-04-12 02:26:58] INFO root fetch - main [MainThread]: Store serial: [22728600]
