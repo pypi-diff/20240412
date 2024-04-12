@@ -11954,3 +11954,59 @@
 [2024-04-12 04:41:58] INFO root fetch - processPackages [odoo-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_loan-16.0.1.0.4.3-py3-none-any.whl.zip]
 [2024-04-12 04:41:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-loan]: success
 [2024-04-12 04:41:58] INFO root fetch - main [MainThread]: Store serial: [22731930]
+[2024-04-12 04:44:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731930]
+[2024-04-12 04:44:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 04:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FinRL
+[2024-04-12 04:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bestnlp
+[2024-04-12 04:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tldr-news
+[2024-04-12 04:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RumboVeta1
+[2024-04-12 04:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lama2923
+[2024-04-12 04:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-space-toolkit-astrodynamics
+[2024-04-12 04:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smaht-submitr
+[2024-04-12 04:44:07] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: New version: [9.1.2] Old Version: [9.1.1]
+[2024-04-12 04:44:07] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-12 04:44:07] INFO root fetch - processPackages [bestnlp]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 04:44:07] INFO root fetch - processPackages [FinRL]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-12 04:44:07] INFO root fetch - processPackages [lama2923]: New version: [0.4] Old Version: [0.3]
+[2024-04-12 04:44:07] WARNING root fetch - processPackages [RumboVeta1]: Skipping, unable to determine old version
+[2024-04-12 04:44:07] INFO root fetch - main [MainThread]: End processing [RumboVeta1] error
+[2024-04-12 04:44:07] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/b9/12/9e0bee3bd4296679af4e3b4ee5d2e30ba843e10f525a30e91e652646b074/open_space_toolkit_astrodynamics-9.1.1-py39-none-manylinux2014_x86_64.whl
+[2024-04-12 04:44:07] INFO root fetch - processPackages [tldr-news]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-12 04:44:07] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-12 04:44:07] WARNING root fetch - processPackages [open-space-toolkit-astrodynamics]: Skipping package: exceeds size limit 27366073>=10485760
+[2024-04-12 04:44:07] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-astrodynamics] error
+[2024-04-12 04:44:07] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/5e/2e/c740c0acb4333868fbedbf896181fa5664bc3ec23038a0717c88f805438c/bestnlp-1.0.8-py3-none-any.whl
+[2024-04-12 04:44:07] INFO root fetch - processPackages [FinRL]: Downloading https://files.pythonhosted.org/packages/65/22/94fd5875e26f5bc79cc1d3250f200843052c423dd4c604cf3362d5178388/finrl-0.3.6.tar.gz
+[2024-04-12 04:44:07] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/49/9c/88ac46ed5d20881097058fdb0316408f6550b77dc2046ef808d5684a50c2/lama2923-0.3.tar.gz
+[2024-04-12 04:44:07] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-12 04:44:07] INFO root fetch - processPackages [tldr-news]: Downloading https://files.pythonhosted.org/packages/56/d8/d3e68fad87e5b45a985d313a50e8b51892abc91f8dede70fa61f3683bcce/tldr_news-0.2.8.tar.gz
+[2024-04-12 04:44:07] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-12 04:44:07] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240412/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-12 04:44:07] INFO root fetch - processPackages [FinRL]: Downloading https://files.pythonhosted.org/packages/37/08/344006a3ac88293c9fa2a8f3e4ab02c1d9c6f42f39dea7b63cb8b71cf484/FinRL-0.3.7.tar.gz
+[2024-04-12 04:44:07] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/dc/1c/524575142e355bcdc09a4e4d797208a5267f9d3ed8788ca07daa3bd40b06/lama2923-0.4.tar.gz
+[2024-04-12 04:44:07] INFO root fetch - processPackages [tldr-news]: Downloading https://files.pythonhosted.org/packages/b1/80/c96a61c2b0ae4d9b25a582d2640dda73017e70f41132190e4208184657ca/tldr_news-0.2.9.tar.gz
+[2024-04-12 04:44:07] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/ef/e6/30f27d39bcb93de978ae18ba43e3e8dcbae798ac14077d4ae4d03ec12083/bestnlp-1.0.9-py3-none-any.whl
+[2024-04-12 04:44:07] INFO root fetch - processPackages [FinRL]: executing diffoscope
+[2024-04-12 04:44:07] INFO root fetch - processPackages [FinRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finrl-0.3.6.tar.gz tmp/FinRL-0.3.7.tar.gz --markdown 20240412/F/FinRL/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-12 04:44:07] INFO root fetch - processPackages [tldr-news]: executing diffoscope
+[2024-04-12 04:44:07] INFO root fetch - processPackages [tldr-news]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldr_news-0.2.8.tar.gz tmp/tldr_news-0.2.9.tar.gz --markdown 20240412/t/tldr-news/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-12 04:44:07] INFO root fetch - processPackages [lama2923]: executing diffoscope
+[2024-04-12 04:44:07] INFO root fetch - processPackages [lama2923]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama2923-0.3.tar.gz tmp/lama2923-0.4.tar.gz --markdown 20240412/l/lama2923/0.3-0.4/README.md --exclude *.pyd
+[2024-04-12 04:44:08] INFO root fetch - processPackages [bestnlp]: executing diffoscope
+[2024-04-12 04:44:08] INFO root fetch - processPackages [bestnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestnlp-1.0.8-py3-none-any.whl.zip tmp/bestnlp-1.0.9-py3-none-any.whl.zip --markdown 20240412/b/bestnlp/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 04:44:08] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-12 04:44:08] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-12 04:44:08] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-12 04:44:08] INFO root fetch - processPackages [tldr-news]: Remove: archive file [/home/abi/fetcher/tmp/tldr_news-0.2.8.tar.gz]
+[2024-04-12 04:44:08] INFO root fetch - processPackages [tldr-news]: Remove: archive file [/home/abi/fetcher/tmp/tldr_news-0.2.9.tar.gz]
+[2024-04-12 04:44:08] INFO root fetch - main [MainThread]: End processing [tldr-news]: success
+[2024-04-12 04:44:08] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-0.3.tar.gz]
+[2024-04-12 04:44:08] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-0.4.tar.gz]
+[2024-04-12 04:44:08] INFO root fetch - main [MainThread]: End processing [lama2923]: success
+[2024-04-12 04:44:08] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.8-py3-none-any.whl.zip]
+[2024-04-12 04:44:08] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.9-py3-none-any.whl.zip]
+[2024-04-12 04:44:08] INFO root fetch - main [MainThread]: End processing [bestnlp]: success
+[2024-04-12 04:44:08] INFO root fetch - processPackages [FinRL]: Remove: archive file [/home/abi/fetcher/tmp/finrl-0.3.6.tar.gz]
+[2024-04-12 04:44:08] INFO root fetch - processPackages [FinRL]: Remove: archive file [/home/abi/fetcher/tmp/FinRL-0.3.7.tar.gz]
+[2024-04-12 04:44:08] INFO root fetch - main [MainThread]: End processing [FinRL]: success
+[2024-04-12 04:44:08] INFO root fetch - main [MainThread]: Store serial: [22731959]
