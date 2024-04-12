@@ -14160,3 +14160,33 @@
 [2024-04-12 07:10:18] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.38.tar.gz]
 [2024-04-12 07:10:18] INFO root fetch - main [MainThread]: End processing [PheTK]: success
 [2024-04-12 07:10:18] INFO root fetch - main [MainThread]: Store serial: [22732878]
+[2024-04-12 07:12:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732878]
+[2024-04-12 07:12:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 07:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liminal-sdk-python
+[2024-04-12 07:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuanwi02
+[2024-04-12 07:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: betterspread
+[2024-04-12 07:12:27] INFO root fetch - processPackages [neuanwi02]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-12 07:12:27] INFO root fetch - processPackages [neuanwi02]: Downloading https://files.pythonhosted.org/packages/bb/ab/0b99f35cbd37224b5b8057565ad881ece209d7709f7c696b837c4fb8c879/neuanwi02-0.0.1-py3-none-any.whl
+[2024-04-12 07:12:27] INFO root fetch - processPackages [liminal-sdk-python]: New version: [2024.4.3] Old Version: [2024.4.0]
+[2024-04-12 07:12:27] INFO root fetch - processPackages [betterspread]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-12 07:12:27] INFO root fetch - processPackages [liminal-sdk-python]: Downloading https://files.pythonhosted.org/packages/b1/9d/0efce9488f6740ec6fe127c0650d59139ba5a4c0120656e24bb2de3c9e4f/liminal_sdk_python-2024.4.0.tar.gz
+[2024-04-12 07:12:27] INFO root fetch - processPackages [neuanwi02]: Downloading https://files.pythonhosted.org/packages/46/40/25a274c923fa84df9cd61cca556abf073c9771fcf927283d46a7f8ac8e6a/neuanwi02-0.0.3-py3-none-any.whl
+[2024-04-12 07:12:27] INFO root fetch - processPackages [betterspread]: Downloading https://files.pythonhosted.org/packages/98/82/01b303abf13c729e9608f53a5db7dbc8fa8b955bd5e54af6e13073855635/betterspread-0.2.1.tar.gz
+[2024-04-12 07:12:27] INFO root fetch - processPackages [neuanwi02]: executing diffoscope
+[2024-04-12 07:12:27] INFO root fetch - processPackages [neuanwi02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuanwi02-0.0.1-py3-none-any.whl.zip tmp/neuanwi02-0.0.3-py3-none-any.whl.zip --markdown 20240412/n/neuanwi02/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-12 07:12:27] INFO root fetch - processPackages [betterspread]: Downloading https://files.pythonhosted.org/packages/11/5b/a6705cf0b34f865a0a24ea22215d5c51c79c60076efabe555ad03b6d2449/betterspread-0.2.2.tar.gz
+[2024-04-12 07:12:27] INFO root fetch - processPackages [liminal-sdk-python]: Downloading https://files.pythonhosted.org/packages/57/ae/c67bda068aa26bb5a57c414a54ff659b2fe4b7f91e80d19463d6bfb7d2e8/liminal_sdk_python-2024.4.3.tar.gz
+[2024-04-12 07:12:27] INFO root fetch - processPackages [liminal-sdk-python]: executing diffoscope
+[2024-04-12 07:12:27] INFO root fetch - processPackages [liminal-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liminal_sdk_python-2024.4.0.tar.gz tmp/liminal_sdk_python-2024.4.3.tar.gz --markdown 20240412/l/liminal-sdk-python/2024.4.0-2024.4.3/README.md --exclude *.pyd
+[2024-04-12 07:12:28] INFO root fetch - processPackages [betterspread]: executing diffoscope
+[2024-04-12 07:12:28] INFO root fetch - processPackages [betterspread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterspread-0.2.1.tar.gz tmp/betterspread-0.2.2.tar.gz --markdown 20240412/b/betterspread/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-12 07:12:28] INFO root fetch - processPackages [neuanwi02]: Remove: archive file [/home/abi/fetcher/tmp/neuanwi02-0.0.1-py3-none-any.whl.zip]
+[2024-04-12 07:12:28] INFO root fetch - processPackages [neuanwi02]: Remove: archive file [/home/abi/fetcher/tmp/neuanwi02-0.0.3-py3-none-any.whl.zip]
+[2024-04-12 07:12:28] INFO root fetch - main [MainThread]: End processing [neuanwi02]: success
+[2024-04-12 07:12:28] INFO root fetch - processPackages [betterspread]: Remove: archive file [/home/abi/fetcher/tmp/betterspread-0.2.1.tar.gz]
+[2024-04-12 07:12:28] INFO root fetch - processPackages [betterspread]: Remove: archive file [/home/abi/fetcher/tmp/betterspread-0.2.2.tar.gz]
+[2024-04-12 07:12:28] INFO root fetch - main [MainThread]: End processing [betterspread]: success
+[2024-04-12 07:12:28] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.4.0.tar.gz]
+[2024-04-12 07:12:28] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.4.3.tar.gz]
+[2024-04-12 07:12:28] INFO root fetch - main [MainThread]: End processing [liminal-sdk-python]: success
+[2024-04-12 07:12:28] INFO root fetch - main [MainThread]: Store serial: [22732886]
