@@ -11699,3 +11699,33 @@
 [2024-04-12 04:21:22] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.15.0.20240411.tar.gz]
 [2024-04-12 04:21:22] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
 [2024-04-12 04:21:22] INFO root fetch - main [MainThread]: Store serial: [22731828]
+[2024-04-12 04:23:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731828]
+[2024-04-12 04:23:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 04:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-04-12 04:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: couchers
+[2024-04-12 04:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vjer
+[2024-04-12 04:23:31] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240411] Old Version: [1.2.20240410]
+[2024-04-12 04:23:31] INFO root fetch - processPackages [vjer]: New version: [32.1.0] Old Version: [32.0.0]
+[2024-04-12 04:23:31] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/8f/29/e576dda3eca115901491ba175876684f8af98723b55205e9e23aa142641c/iam_actions-1.2.20240410.tar.gz
+[2024-04-12 04:23:31] INFO root fetch - processPackages [couchers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 04:23:31] INFO root fetch - processPackages [couchers]: Downloading https://files.pythonhosted.org/packages/0b/e5/154ca0e20101fede7d9e8b48f838c58cdf59156edc59baac5521456df8a4/couchers-0.0.8.tar.gz
+[2024-04-12 04:23:31] INFO root fetch - processPackages [vjer]: Downloading https://files.pythonhosted.org/packages/f8/0d/8d4e80323b236789b4f43e23120401286c1b6bca7f0c030f3efc149347b1/vjer-32.0.0.tar.gz
+[2024-04-12 04:23:31] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/0d/0a/4d2a86ac7c78f9c02e4c7bd63f99cc0e2d2e4233637f14f67ac33bbaba67/iam_actions-1.2.20240411.tar.gz
+[2024-04-12 04:23:32] INFO root fetch - processPackages [vjer]: Downloading https://files.pythonhosted.org/packages/20/cf/d56364b3f51e4ee1345c7355a321d8271ae0ca2f18d96f4fd1512bc1497c/vjer-32.1.0.tar.gz
+[2024-04-12 04:23:32] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-12 04:23:32] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240410.tar.gz tmp/iam_actions-1.2.20240411.tar.gz --markdown 20240412/i/iam-actions/1.2.20240410-1.2.20240411/README.md --exclude *.pyd
+[2024-04-12 04:23:32] INFO root fetch - processPackages [vjer]: executing diffoscope
+[2024-04-12 04:23:32] INFO root fetch - processPackages [vjer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vjer-32.0.0.tar.gz tmp/vjer-32.1.0.tar.gz --markdown 20240412/v/vjer/32.0.0-32.1.0/README.md --exclude *.pyd
+[2024-04-12 04:23:32] INFO root fetch - processPackages [couchers]: Downloading https://files.pythonhosted.org/packages/56/fa/ec2e4959fbaf80fee4008a3d0387628331f0396a27b21049229fd98efd76/couchers-0.0.9.tar.gz
+[2024-04-12 04:23:32] INFO root fetch - processPackages [couchers]: executing diffoscope
+[2024-04-12 04:23:32] INFO root fetch - processPackages [couchers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchers-0.0.8.tar.gz tmp/couchers-0.0.9.tar.gz --markdown 20240412/c/couchers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 04:23:32] INFO root fetch - processPackages [vjer]: Remove: archive file [/home/abi/fetcher/tmp/vjer-32.0.0.tar.gz]
+[2024-04-12 04:23:32] INFO root fetch - processPackages [vjer]: Remove: archive file [/home/abi/fetcher/tmp/vjer-32.1.0.tar.gz]
+[2024-04-12 04:23:32] INFO root fetch - main [MainThread]: End processing [vjer]: success
+[2024-04-12 04:23:33] INFO root fetch - processPackages [couchers]: Remove: archive file [/home/abi/fetcher/tmp/couchers-0.0.8.tar.gz]
+[2024-04-12 04:23:33] INFO root fetch - processPackages [couchers]: Remove: archive file [/home/abi/fetcher/tmp/couchers-0.0.9.tar.gz]
+[2024-04-12 04:23:33] INFO root fetch - main [MainThread]: End processing [couchers]: success
+[2024-04-12 04:23:36] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240410.tar.gz]
+[2024-04-12 04:23:36] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240411.tar.gz]
+[2024-04-12 04:23:36] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-12 04:23:36] INFO root fetch - main [MainThread]: Store serial: [22731837]
