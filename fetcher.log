@@ -13517,3 +13517,36 @@
 [2024-04-12 06:20:14] INFO root fetch - processPackages [moby-distribution]: Remove: archive file [/home/abi/fetcher/tmp/moby_distribution-0.8.2.tar.gz]
 [2024-04-12 06:20:14] INFO root fetch - main [MainThread]: End processing [moby-distribution]: success
 [2024-04-12 06:20:14] INFO root fetch - main [MainThread]: Store serial: [22732628]
+[2024-04-12 06:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732628]
+[2024-04-12 06:22:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 06:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dialog-workflow-local
+[2024-04-12 06:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jijzept
+[2024-04-12 06:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnuniversitymap
+[2024-04-12 06:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ignutils
+[2024-04-12 06:22:24] INFO root fetch - processPackages [ignutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 06:22:24] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.94] Old Version: [0.0.93]
+[2024-04-12 06:22:24] WARNING root fetch - processPackages [cnuniversitymap]: Skipping, unable to determine old version
+[2024-04-12 06:22:24] INFO root fetch - main [MainThread]: End processing [cnuniversitymap] error
+[2024-04-12 06:22:24] INFO root fetch - processPackages [ignutils]: Downloading https://files.pythonhosted.org/packages/fa/0b/72d08375115d8fcbb910d6d6184e6b50d48f9b56e0f29019d8c83f83618f/ignutils-0.0.3.tar.gz
+[2024-04-12 06:22:24] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/f5/81/1bd5371931cd795e89bfd514ac3a0d75a4fda0ab543609c31cb05c10f896/dialog-workflow-local-0.0.93.tar.gz
+[2024-04-12 06:22:24] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/76/78/eeccb8f1b8c83259704e9dc5773900e12a901185ef848ba1f3cc7630c40c/dialog-workflow-local-0.0.94.tar.gz
+[2024-04-12 06:22:24] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2024-04-12 06:22:24] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog-workflow-local-0.0.93.tar.gz tmp/dialog-workflow-local-0.0.94.tar.gz --markdown 20240412/d/dialog-workflow-local/0.0.93-0.0.94/README.md --exclude *.pyd
+[2024-04-12 06:22:24] INFO root fetch - processPackages [ignutils]: Downloading https://files.pythonhosted.org/packages/26/cd/4896a2d9ccedc1989fbe588dfa666c03be446d6d87f8691c9fa8e0590a66/ignutils-0.0.4.tar.gz
+[2024-04-12 06:22:25] INFO root fetch - processPackages [ignutils]: executing diffoscope
+[2024-04-12 06:22:25] INFO root fetch - processPackages [ignutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignutils-0.0.3.tar.gz tmp/ignutils-0.0.4.tar.gz --markdown 20240412/i/ignutils/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 06:22:25] INFO root fetch - processPackages [jijzept]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-12 06:22:25] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/72/fb/9a52fe090892437248f15fb11b3c8ee874329278b8f5ee8d6169e88dc0a6/jijzept-1.9.1-cp39-cp39-win_amd64.whl
+[2024-04-12 06:22:25] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog-workflow-local-0.0.93.tar.gz]
+[2024-04-12 06:22:25] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog-workflow-local-0.0.94.tar.gz]
+[2024-04-12 06:22:25] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2024-04-12 06:22:25] INFO root fetch - processPackages [ignutils]: Remove: archive file [/home/abi/fetcher/tmp/ignutils-0.0.3.tar.gz]
+[2024-04-12 06:22:25] INFO root fetch - processPackages [ignutils]: Remove: archive file [/home/abi/fetcher/tmp/ignutils-0.0.4.tar.gz]
+[2024-04-12 06:22:25] INFO root fetch - main [MainThread]: End processing [ignutils]: success
+[2024-04-12 06:22:25] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/a1/bc/e2438f5f8452cd4acef7ef12bfa56f583f3dfd05881f00d6bb416d64ba72/jijzept-1.9.2-cp39-cp39-win_amd64.whl
+[2024-04-12 06:22:25] INFO root fetch - processPackages [jijzept]: executing diffoscope
+[2024-04-12 06:22:25] INFO root fetch - processPackages [jijzept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240412/j/jijzept/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-12 06:22:26] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 06:22:26] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 06:22:26] INFO root fetch - main [MainThread]: End processing [jijzept]: success
+[2024-04-12 06:22:26] INFO root fetch - main [MainThread]: Store serial: [22732654]
