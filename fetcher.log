@@ -21800,3 +21800,117 @@
 [2024-04-12 11:54:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ims]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ims-3.0.999.tar.gz]
 [2024-04-12 11:54:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ims]: success
 [2024-04-12 11:54:04] INFO root fetch - main [MainThread]: Store serial: [22736340]
+[2024-04-12 11:56:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22736340]
+[2024-04-12 11:56:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tripp
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtrafactor
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-iot
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-iotcloud
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-iotexplorer
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hearthstone
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-iottid
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-iotvideo
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autoai-libs
+[2024-04-12 11:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-iotvideoindustry
+[2024-04-12 11:56:13] INFO root fetch - processPackages [tripp]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-12 11:56:13] WARNING root fetch - processPackages [rtrafactor]: Skipping, unable to determine old version
+[2024-04-12 11:56:13] INFO root fetch - processPackages [rtrafactor]: Start processing: tencentcloud-sdk-python-irp
+[2024-04-12 11:56:13] INFO root fetch - main [MainThread]: End processing [rtrafactor] error
+[2024-04-12 11:56:13] INFO root fetch - processPackages [tencentcloud-sdk-python-iot]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:56:13] INFO root fetch - processPackages [autoai-libs]: New version: [2.0.0] Old Version: [1.17.3]
+[2024-04-12 11:56:13] INFO root fetch - processPackages [hearthstone]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-04-12 11:56:13] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:56:13] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:56:13] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:56:13] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:56:13] INFO root fetch - processPackages [tencentcloud-sdk-python-iotcloud]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:56:13] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:56:13] INFO root fetch - processPackages [tripp]: Downloading https://files.pythonhosted.org/packages/a3/12/a3d276d0ca02b43894d9f9700b9cd5b6245aefb7b211c3c0f05a330b0f14/tripp-0.1.7.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [autoai-libs]: Downloading https://files.pythonhosted.org/packages/cf/b8/8ff644f38c7dae3fb57ee9a271cc5f07168988f580bd18e238e52d873422/autoai_libs-1.17.3-136-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iot]: Downloading https://files.pythonhosted.org/packages/d6/a0/b63c306e490b5419d50883b03546933a952b3bff409e54c8e5d96e33bbdb/tencentcloud-sdk-python-iot-3.0.998.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Downloading https://files.pythonhosted.org/packages/39/d8/00a77d78061f82dab0e7261e9d7b78692d04e1972a458e799890e984093b/tencentcloud-sdk-python-iotvideo-3.0.998.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/70/b4/a5f4f7a25fbf87d7853a08dc4e9d9c5a6f9a3455e3a76a5f818822d7adb3/hearthstone-8.0.0.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Downloading https://files.pythonhosted.org/packages/83/b8/ebd291f7e4a69e857e38933d4a9a85357621c56db1d31f727e0e5ad84eca/tencentcloud-sdk-python-iotexplorer-3.0.998.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotcloud]: Downloading https://files.pythonhosted.org/packages/4d/19/124d2e836fa23faa18479c71f700246888fc2887790173ffae28b599024c/tencentcloud-sdk-python-iotcloud-3.0.998.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Downloading https://files.pythonhosted.org/packages/a7/88/61936247783b1e9bf146a2cf39468c8c97e83bb3284086a9f6af90752c1a/tencentcloud-sdk-python-iottid-3.0.998.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Downloading https://files.pythonhosted.org/packages/af/44/fc549e2fad6f2f433caf020f38909bbdba315ee6b544538eab98d7a3bf3b/tencentcloud-sdk-python-iotvideoindustry-3.0.998.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/3a/94/be57051f224cab8dde8ba59206901af18ca82982597b3bb815faffae580c/tencentcloud-sdk-python-irp-3.0.998.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tripp]: Downloading https://files.pythonhosted.org/packages/9d/0e/5955f1c46eb3e189f3c0c075656d2831c3e9a8120383338486d368a8efa0/tripp-0.1.8.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Downloading https://files.pythonhosted.org/packages/57/fb/d936f403c77e9c52b0c58a9153fd68fe03320460ea9055f53928b39dfb34/tencentcloud-sdk-python-iottid-3.0.999.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iot]: Downloading https://files.pythonhosted.org/packages/45/22/2722750656ed56e4dab6116d3258b75071e6396b323828e37288c476d7b5/tencentcloud-sdk-python-iot-3.0.999.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Downloading https://files.pythonhosted.org/packages/4d/c9/04468a942f64a0d005575a43bee3399d0ed8be320ef8b83423f805b468f0/tencentcloud-sdk-python-iotvideo-3.0.999.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/9e/ab/b320afc7d0f320ac5a3cd3c0c167433f6a9d6268e7ad702c81ffd7c20968/hearthstone-9.0.0.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tripp]: executing diffoscope
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tripp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tripp-0.1.7.tar.gz tmp/tripp-0.1.8.tar.gz --markdown 20240412/t/tripp/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Downloading https://files.pythonhosted.org/packages/a7/4d/2f7d7838507385727b95705c85ca6e0ea305ffee11888e13b1d28f5d038c/tencentcloud-sdk-python-iotvideoindustry-3.0.999.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/b6/2a/3459ece93ae8ba8ecbd53f67e1059d8cb69fdabd952d9c68a4ddbe108bf6/tencentcloud-sdk-python-irp-3.0.999.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotcloud]: Downloading https://files.pythonhosted.org/packages/73/8f/a1454eb8bbf801164c33e976891a2436df3f80cf612eaa510d9420663790/tencentcloud-sdk-python-iotcloud-3.0.999.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Downloading https://files.pythonhosted.org/packages/cb/21/77f1ffa854a033b45fc15846d218fa1a7d6c3996f6cc80a54881e35ef025/tencentcloud-sdk-python-iotexplorer-3.0.999.tar.gz
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iot]: executing diffoscope
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iot-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iot-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-iot/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: executing diffoscope
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iottid-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iottid-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-iottid/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: executing diffoscope
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideo-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iotvideo-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-iotvideo/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:56:14] INFO root fetch - processPackages [hearthstone]: executing diffoscope
+[2024-04-12 11:56:14] INFO root fetch - processPackages [hearthstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hearthstone-8.0.0.tar.gz tmp/hearthstone-9.0.0.tar.gz --markdown 20240412/h/hearthstone/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: executing diffoscope
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-irp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-irp-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-irp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: executing diffoscope
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-iotvideoindustry/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: executing diffoscope
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotexplorer-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iotexplorer-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-iotexplorer/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotcloud]: executing diffoscope
+[2024-04-12 11:56:14] INFO root fetch - processPackages [tencentcloud-sdk-python-iotcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotcloud-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iotcloud-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-iotcloud/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:56:15] INFO root fetch - processPackages [autoai-libs]: Downloading https://files.pythonhosted.org/packages/1a/80/076edc3e4b68834ffeb929779d8ed1abf65877bcfacec31b5e63364a4ef0/autoai_libs-2.0.0-134-cp311-cp311-win_amd64.whl
+[2024-04-12 11:56:15] INFO root fetch - processPackages [autoai-libs]: executing diffoscope
+[2024-04-12 11:56:15] INFO root fetch - processPackages [autoai-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoai_libs-1.17.3-136-cp310-cp310-macosx_10_9_x86_64.whl.zip tmp/autoai_libs-2.0.0-134-cp311-cp311-win_amd64.whl.zip --markdown 20240412/a/autoai-libs/1.17.3-2.0.0/README.md --exclude *.pyd
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tripp]: Remove: archive file [/home/abi/fetcher/tmp/tripp-0.1.7.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tripp]: Remove: archive file [/home/abi/fetcher/tmp/tripp-0.1.8.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tripp]: Start processing: tencentcloud-sdk-python-iss
+[2024-04-12 11:56:15] INFO root fetch - main [MainThread]: End processing [tripp]: success
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iot]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iot-3.0.998.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iot]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iot-3.0.999.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iot]: Start processing: tencentcloud-sdk-python-ivld
+[2024-04-12 11:56:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iot]: success
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideo-3.0.998.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideo-3.0.999.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideo]: success
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iottid-3.0.998.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iottid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iottid-3.0.999.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iottid]: success
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.998.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.999.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-irp]: success
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.998.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.999.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideoindustry]: success
+[2024-04-12 11:56:15] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-8.0.0.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-9.0.0.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - main [MainThread]: End processing [hearthstone]: success
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Downloading https://files.pythonhosted.org/packages/49/cc/43cbdb48e3887dd1f5d70e68797f3fcefeaded015f56e2c4e4d8c077a7ee/tencentcloud-sdk-python-iss-3.0.998.tar.gz
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iotcloud]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotcloud-3.0.998.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iotcloud]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotcloud-3.0.999.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotcloud]: success
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotexplorer-3.0.998.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotexplorer-3.0.999.tar.gz]
+[2024-04-12 11:56:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotexplorer]: success
+[2024-04-12 11:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Downloading https://files.pythonhosted.org/packages/54/88/66a62776c14a945d98f689302b15365a53a470a7478775a78f22f7ab0b7b/tencentcloud-sdk-python-ivld-3.0.998.tar.gz
+[2024-04-12 11:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Downloading https://files.pythonhosted.org/packages/cd/9c/b14ae7ca2d8d7b02f14526e879aa4d2be3f0c566a4a76461782f400b539f/tencentcloud-sdk-python-iss-3.0.999.tar.gz
+[2024-04-12 11:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: executing diffoscope
+[2024-04-12 11:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iss-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-iss/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:56:16] INFO root fetch - processPackages [autoai-libs]: Remove: archive file [/home/abi/fetcher/tmp/autoai_libs-1.17.3-136-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-04-12 11:56:16] INFO root fetch - processPackages [autoai-libs]: Remove: archive file [/home/abi/fetcher/tmp/autoai_libs-2.0.0-134-cp311-cp311-win_amd64.whl.zip]
+[2024-04-12 11:56:16] INFO root fetch - main [MainThread]: End processing [autoai-libs]: success
+[2024-04-12 11:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Downloading https://files.pythonhosted.org/packages/60/62/24e25761cd8be766573139a3004359100c14a4f335d28a31dbe1e6d7addd/tencentcloud-sdk-python-ivld-3.0.999.tar.gz
+[2024-04-12 11:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: executing diffoscope
+[2024-04-12 11:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ivld-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ivld-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-ivld/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iss-3.0.998.tar.gz]
+[2024-04-12 11:56:16] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iss-3.0.999.tar.gz]
+[2024-04-12 11:56:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iss]: success
+[2024-04-12 11:56:17] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ivld-3.0.998.tar.gz]
+[2024-04-12 11:56:17] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ivld-3.0.999.tar.gz]
+[2024-04-12 11:56:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ivld]: success
+[2024-04-12 11:56:17] INFO root fetch - main [MainThread]: Store serial: [22736384]
