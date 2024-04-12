@@ -16704,3 +16704,66 @@
 [2024-04-12 09:25:45] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.2.0a0.tar.gz]
 [2024-04-12 09:25:45] INFO root fetch - main [MainThread]: End processing [notebook]: success
 [2024-04-12 09:25:45] INFO root fetch - main [MainThread]: Store serial: [22734045]
+[2024-04-12 09:27:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734045]
+[2024-04-12 09:27:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 09:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vagrant-creator
+[2024-04-12 09:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OSS-Class
+[2024-04-12 09:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pldag
+[2024-04-12 09:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pozalabs-miditoolkit
+[2024-04-12 09:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vjepa-encoder
+[2024-04-12 09:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AgentBruno
+[2024-04-12 09:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: joo
+[2024-04-12 09:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datumaro
+[2024-04-12 09:27:55] INFO root fetch - processPackages [pldag]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-12 09:27:55] WARNING root fetch - processPackages [vagrant-creator]: Skipping, unable to determine old version
+[2024-04-12 09:27:55] INFO root fetch - main [MainThread]: End processing [vagrant-creator] error
+[2024-04-12 09:27:55] INFO root fetch - processPackages [joo]: New version: [0.1.0.140] Old Version: [0.1.0.139]
+[2024-04-12 09:27:55] WARNING root fetch - processPackages [vjepa-encoder]: Skipping, unable to determine old version
+[2024-04-12 09:27:55] INFO root fetch - main [MainThread]: End processing [vjepa-encoder] error
+[2024-04-12 09:27:55] INFO root fetch - processPackages [AgentBruno]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 09:27:55] INFO root fetch - processPackages [OSS-Class]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 09:27:55] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/82/61/170756484b9beebb3266d001866b1f3774872a96880bad798674bdf1074f/pldag-0.5.0.tar.gz
+[2024-04-12 09:27:55] INFO root fetch - processPackages [pozalabs-miditoolkit]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-12 09:27:55] INFO root fetch - processPackages [joo]: Downloading https://files.pythonhosted.org/packages/ce/2c/e7f8fca29e2daff68b6b58b7dfb5319a0214791de38bbfdbbe3d6a36b0b7/joo-0.1.0.139.tar.gz
+[2024-04-12 09:27:55] INFO root fetch - processPackages [OSS-Class]: Downloading https://files.pythonhosted.org/packages/63/be/857cb2a87547355aecdea6180a7090fdd5f82114f9176d0779a1df2860f9/OSS_Class-0.0.2-py3-none-any.whl
+[2024-04-12 09:27:55] INFO root fetch - processPackages [AgentBruno]: Downloading https://files.pythonhosted.org/packages/50/8f/886f7d684cd5bb9922f4f5bf1b2727056b1c3495eb372c88946f1f99e2e1/AgentBruno-0.0.2-py3-none-any.whl
+[2024-04-12 09:27:55] INFO root fetch - processPackages [datumaro]: New version: [1.6.0rc1] Old Version: [1.6.0rc0]
+[2024-04-12 09:27:55] INFO root fetch - processPackages [pozalabs-miditoolkit]: Downloading https://files.pythonhosted.org/packages/50/68/b108687113554532b8ad63e31c5311314ae18a0f36eab5a458991affb0b1/pozalabs-miditoolkit-1.1.0.tar.gz
+[2024-04-12 09:27:55] INFO root fetch - processPackages [AgentBruno]: Downloading https://files.pythonhosted.org/packages/59/da/79d988a905de7df656c393084180ccc746c6f5b136a34338c9c4f8dcc997/AgentBruno-0.0.3-py3-none-any.whl
+[2024-04-12 09:27:55] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/89/e8/fa91feee60936b28ffd1274afa2d090c7145cd1856449d0ab18471c64326/pldag-0.5.1.tar.gz
+[2024-04-12 09:27:55] INFO root fetch - processPackages [OSS-Class]: Downloading https://files.pythonhosted.org/packages/d1/42/96f6312279539b94c367359e977206c5deed8d123ee855d40f6411622948/OSS_Class-0.0.3-py3-none-any.whl
+[2024-04-12 09:27:55] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/12/ac/f9cad64be4914821b67b1e1c9ab34600b6b4c2e09f548b1ded544d41b3b9/datumaro-1.6.0rc0.tar.gz
+[2024-04-12 09:27:55] INFO root fetch - processPackages [joo]: Downloading https://files.pythonhosted.org/packages/ba/1a/3386bff582bb585faacb6d7ff094830235ed1548a944d1368c75fd20976e/joo-0.1.0.140.tar.gz
+[2024-04-12 09:27:55] INFO root fetch - processPackages [AgentBruno]: executing diffoscope
+[2024-04-12 09:27:55] INFO root fetch - processPackages [AgentBruno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AgentBruno-0.0.2-py3-none-any.whl.zip tmp/AgentBruno-0.0.3-py3-none-any.whl.zip --markdown 20240412/A/AgentBruno/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 09:27:55] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-04-12 09:27:55] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.5.0.tar.gz tmp/pldag-0.5.1.tar.gz --markdown 20240412/p/pldag/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-12 09:27:55] INFO root fetch - processPackages [OSS-Class]: executing diffoscope
+[2024-04-12 09:27:55] INFO root fetch - processPackages [OSS-Class]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OSS_Class-0.0.2-py3-none-any.whl.zip tmp/OSS_Class-0.0.3-py3-none-any.whl.zip --markdown 20240412/O/OSS-Class/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 09:27:55] INFO root fetch - processPackages [joo]: executing diffoscope
+[2024-04-12 09:27:55] INFO root fetch - processPackages [joo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joo-0.1.0.139.tar.gz tmp/joo-0.1.0.140.tar.gz --markdown 20240412/j/joo/0.1.0.139-0.1.0.140/README.md --exclude *.pyd
+[2024-04-12 09:27:55] INFO root fetch - processPackages [pozalabs-miditoolkit]: Downloading https://files.pythonhosted.org/packages/dc/c6/8913a40ae0e0ec8e513c64764dcb96c0ec5a4cd0bc7bf0eae879a0c73cd0/pozalabs-miditoolkit-1.1.1.tar.gz
+[2024-04-12 09:27:56] INFO root fetch - processPackages [pozalabs-miditoolkit]: executing diffoscope
+[2024-04-12 09:27:56] INFO root fetch - processPackages [pozalabs-miditoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-miditoolkit-1.1.0.tar.gz tmp/pozalabs-miditoolkit-1.1.1.tar.gz --markdown 20240412/p/pozalabs-miditoolkit/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-12 09:27:56] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/39/66/6326718eb0146743e6d525cb100ea966a473382f4f45cd6a8babd48b63cc/datumaro-1.6.0rc1.tar.gz
+[2024-04-12 09:27:56] INFO root fetch - processPackages [AgentBruno]: Remove: archive file [/home/abi/fetcher/tmp/AgentBruno-0.0.2-py3-none-any.whl.zip]
+[2024-04-12 09:27:56] INFO root fetch - processPackages [AgentBruno]: Remove: archive file [/home/abi/fetcher/tmp/AgentBruno-0.0.3-py3-none-any.whl.zip]
+[2024-04-12 09:27:56] INFO root fetch - main [MainThread]: End processing [AgentBruno]: success
+[2024-04-12 09:27:56] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2024-04-12 09:27:56] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.6.0rc0.tar.gz tmp/datumaro-1.6.0rc1.tar.gz --markdown 20240412/d/datumaro/1.6.0rc0-1.6.0rc1/README.md --exclude *.pyd
+[2024-04-12 09:27:56] INFO root fetch - processPackages [OSS-Class]: Remove: archive file [/home/abi/fetcher/tmp/OSS_Class-0.0.2-py3-none-any.whl.zip]
+[2024-04-12 09:27:56] INFO root fetch - processPackages [OSS-Class]: Remove: archive file [/home/abi/fetcher/tmp/OSS_Class-0.0.3-py3-none-any.whl.zip]
+[2024-04-12 09:27:56] INFO root fetch - main [MainThread]: End processing [OSS-Class]: success
+[2024-04-12 09:27:56] INFO root fetch - processPackages [joo]: Remove: archive file [/home/abi/fetcher/tmp/joo-0.1.0.139.tar.gz]
+[2024-04-12 09:27:56] INFO root fetch - processPackages [joo]: Remove: archive file [/home/abi/fetcher/tmp/joo-0.1.0.140.tar.gz]
+[2024-04-12 09:27:56] INFO root fetch - main [MainThread]: End processing [joo]: success
+[2024-04-12 09:27:56] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.5.0.tar.gz]
+[2024-04-12 09:27:56] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.5.1.tar.gz]
+[2024-04-12 09:27:56] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-04-12 09:27:56] INFO root fetch - processPackages [pozalabs-miditoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-miditoolkit-1.1.0.tar.gz]
+[2024-04-12 09:27:56] INFO root fetch - processPackages [pozalabs-miditoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-miditoolkit-1.1.1.tar.gz]
+[2024-04-12 09:27:56] INFO root fetch - main [MainThread]: End processing [pozalabs-miditoolkit]: success
+[2024-04-12 09:27:58] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.0rc0.tar.gz]
+[2024-04-12 09:27:58] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.0rc1.tar.gz]
+[2024-04-12 09:27:58] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2024-04-12 09:27:58] INFO root fetch - main [MainThread]: Store serial: [22734092]
