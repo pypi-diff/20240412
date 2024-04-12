@@ -15907,3 +15907,51 @@
 [2024-04-12 08:45:03] INFO root fetch - processPackages [sdata]: Remove: archive file [/home/abi/fetcher/tmp/sdata-0.8.4.tar.gz]
 [2024-04-12 08:45:03] INFO root fetch - main [MainThread]: End processing [sdata]: success
 [2024-04-12 08:45:03] INFO root fetch - main [MainThread]: Store serial: [22733595]
+[2024-04-12 08:47:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733595]
+[2024-04-12 08:47:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antiCPy
+[2024-04-12 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vagrant-file-generator
+[2024-04-12 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-collector
+[2024-04-12 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redis-async-client
+[2024-04-12 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invoicing-pdf-2024-04-11
+[2024-04-12 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2024-04-12 08:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gptify
+[2024-04-12 08:47:12] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-12 08:47:13] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-12 08:47:13] WARNING root fetch - processPackages [gptify]: Skipping, unable to determine old version
+[2024-04-12 08:47:13] INFO root fetch - main [MainThread]: End processing [gptify] error
+[2024-04-12 08:47:13] WARNING root fetch - processPackages [vagrant-file-generator]: Skipping, unable to determine old version
+[2024-04-12 08:47:13] INFO root fetch - main [MainThread]: End processing [vagrant-file-generator] error
+[2024-04-12 08:47:13] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/49/31/bc12e63988db9521f0aabf9d981fe56d4def3ac9a391dca6e425dafd6049/telegram_collector-0.2.1.tar.gz
+[2024-04-12 08:47:13] INFO root fetch - processPackages [antiCPy]: New version: [0.0.8.post1] Old Version: [0.0.8]
+[2024-04-12 08:47:13] INFO root fetch - processPackages [redis-async-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-12 08:47:13] ERROR root fetch - processPackages [invoicing-pdf-2024-04-11]: Unable to get metadata: No such project 'invoicing-pdf-2024-04-11'
+[2024-04-12 08:47:13] INFO root fetch - main [MainThread]: End processing [invoicing-pdf-2024-04-11] error
+[2024-04-12 08:47:13] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-12 08:47:13] INFO root fetch - processPackages [antiCPy]: Downloading https://files.pythonhosted.org/packages/bc/28/f2b02e1491005acf94bad72ed8690a1a03dd8ab38d1353bba98c67bf068e/antiCPy-0.0.8.tar.gz
+[2024-04-12 08:47:13] INFO root fetch - processPackages [redis-async-client]: Downloading https://files.pythonhosted.org/packages/6b/73/09b52446674e30c04f498bbbaeae415509baedb0f69e7910d0b4b8ac0a02/redis_async_client-0.1.4.tar.gz
+[2024-04-12 08:47:13] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/5e/89/0c732226efcfe1a3f20f80808161619fe847e33ab2671b962c2482069cdb/telegram_collector-0.2.2.tar.gz
+[2024-04-12 08:47:13] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-12 08:47:13] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-12 08:47:13] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.1.tar.gz tmp/telegram_collector-0.2.2.tar.gz --markdown 20240412/t/telegram-collector/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-12 08:47:13] INFO root fetch - processPackages [redis-async-client]: Downloading https://files.pythonhosted.org/packages/54/cc/8b17d03f28998b1470e6e774f4a5edd3faa3aa52f7be7ce56f7e488543ed/redis_async_client-0.1.5.tar.gz
+[2024-04-12 08:47:13] INFO root fetch - processPackages [antiCPy]: Downloading https://files.pythonhosted.org/packages/37/3b/607d3f70719d6eac4e6e83bc1348e996998bc20d51bcf66ba3c2ed762d38/antiCPy-0.0.8.post1.tar.gz
+[2024-04-12 08:47:13] INFO root fetch - processPackages [redis-async-client]: executing diffoscope
+[2024-04-12 08:47:13] INFO root fetch - processPackages [redis-async-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_async_client-0.1.4.tar.gz tmp/redis_async_client-0.1.5.tar.gz --markdown 20240412/r/redis-async-client/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-12 08:47:13] INFO root fetch - processPackages [antiCPy]: executing diffoscope
+[2024-04-12 08:47:13] INFO root fetch - processPackages [antiCPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antiCPy-0.0.8.tar.gz tmp/antiCPy-0.0.8.post1.tar.gz --markdown 20240412/a/antiCPy/0.0.8-0.0.8.post1/README.md --exclude *.pyd
+[2024-04-12 08:47:13] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-12 08:47:13] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240412/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-12 08:47:14] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.1.tar.gz]
+[2024-04-12 08:47:14] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.2.tar.gz]
+[2024-04-12 08:47:14] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-12 08:47:14] INFO root fetch - processPackages [redis-async-client]: Remove: archive file [/home/abi/fetcher/tmp/redis_async_client-0.1.4.tar.gz]
+[2024-04-12 08:47:14] INFO root fetch - processPackages [redis-async-client]: Remove: archive file [/home/abi/fetcher/tmp/redis_async_client-0.1.5.tar.gz]
+[2024-04-12 08:47:14] INFO root fetch - main [MainThread]: End processing [redis-async-client]: success
+[2024-04-12 08:47:14] INFO root fetch - processPackages [antiCPy]: Remove: archive file [/home/abi/fetcher/tmp/antiCPy-0.0.8.tar.gz]
+[2024-04-12 08:47:14] INFO root fetch - processPackages [antiCPy]: Remove: archive file [/home/abi/fetcher/tmp/antiCPy-0.0.8.post1.tar.gz]
+[2024-04-12 08:47:14] INFO root fetch - main [MainThread]: End processing [antiCPy]: success
+[2024-04-12 08:47:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-12 08:47:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-12 08:47:15] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-12 08:47:15] INFO root fetch - main [MainThread]: Store serial: [22733617]
