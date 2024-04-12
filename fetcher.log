@@ -18566,3 +18566,45 @@
 [2024-04-12 10:35:42] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1485-py3-none-any.whl.zip]
 [2024-04-12 10:35:42] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-12 10:35:42] INFO root fetch - main [MainThread]: Store serial: [22734947]
+[2024-04-12 10:37:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734947]
+[2024-04-12 10:37:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m9s-account-banking-import-hibiscus
+[2024-04-12 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-genesiscloud
+[2024-04-12 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioxdl
+[2024-04-12 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdm
+[2024-04-12 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ichandbook
+[2024-04-12 10:37:53] INFO root fetch - processPackages [pulumi-genesiscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 10:37:53] INFO root fetch - processPackages [m9s-account-banking-import-hibiscus]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-04-12 10:37:53] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/7b/eb/c1987063b7330a56617c62d967ff70d44c2fde9e6c027effd7bd05f44cfc/pulumi_genesiscloud-0.0.8.tar.gz
+[2024-04-12 10:37:53] INFO root fetch - processPackages [aioxdl]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-04-12 10:37:53] INFO root fetch - processPackages [pdm]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-04-12 10:37:53] WARNING root fetch - processPackages [ichandbook]: Skipping, unable to determine old version
+[2024-04-12 10:37:53] INFO root fetch - main [MainThread]: End processing [ichandbook] error
+[2024-04-12 10:37:54] INFO root fetch - processPackages [m9s-account-banking-import-hibiscus]: Downloading https://files.pythonhosted.org/packages/59/1a/11bf731ef6805b5e4216dd5b28d008fdae92067a75bd5fc689deba2e2e4d/m9s_account_banking_import_hibiscus-7.0.0.tar.gz
+[2024-04-12 10:37:54] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/2f/03/b3437681a2570b6575ecb6b3694c1e14b9237876c4207eca6a0a682cd19c/aioxdl-0.0.12.tar.gz
+[2024-04-12 10:37:54] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/0c/1a/5475da7e816fa32e8a94e4df657d8ccb44643257d1d0c307e8e6d420a583/pdm-2.9.2.tar.gz
+[2024-04-12 10:37:54] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/85/48/c33e3e8789275770f6ecf59b3f8ba30057d291ef8fff95f7d0077bb2638c/pulumi_genesiscloud-0.0.9.tar.gz
+[2024-04-12 10:37:54] INFO root fetch - processPackages [pulumi-genesiscloud]: executing diffoscope
+[2024-04-12 10:37:54] INFO root fetch - processPackages [pulumi-genesiscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_genesiscloud-0.0.8.tar.gz tmp/pulumi_genesiscloud-0.0.9.tar.gz --markdown 20240412/p/pulumi-genesiscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 10:37:54] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/ca/79/7adb41a575d4c66eac61636c4902fffee9cef4aac4d72eb33afb253f2a08/aioxdl-0.0.13.tar.gz
+[2024-04-12 10:37:54] INFO root fetch - processPackages [m9s-account-banking-import-hibiscus]: Downloading https://files.pythonhosted.org/packages/55/46/716d7876b6d046a4af97114520694ee02c27281c2ea5a576fc82d902a1bc/m9s_account_banking_import_hibiscus-7.0.1.tar.gz
+[2024-04-12 10:37:54] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-04-12 10:37:54] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.12.tar.gz tmp/aioxdl-0.0.13.tar.gz --markdown 20240412/a/aioxdl/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-04-12 10:37:54] INFO root fetch - processPackages [m9s-account-banking-import-hibiscus]: executing diffoscope
+[2024-04-12 10:37:54] INFO root fetch - processPackages [m9s-account-banking-import-hibiscus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_account_banking_import_hibiscus-7.0.0.tar.gz tmp/m9s_account_banking_import_hibiscus-7.0.1.tar.gz --markdown 20240412/m/m9s-account-banking-import-hibiscus/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-04-12 10:37:54] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/58/fd/b081937c283502be42efdf7ae4d7c7f8014c57bd74dbc7f9b629f44d22a2/pdm-2.9.3.tar.gz
+[2024-04-12 10:37:54] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.8.tar.gz]
+[2024-04-12 10:37:54] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
+[2024-04-12 10:37:54] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
+[2024-04-12 10:37:54] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2024-04-12 10:37:54] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.9.2.tar.gz tmp/pdm-2.9.3.tar.gz --markdown 20240412/p/pdm/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-04-12 10:37:55] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.12.tar.gz]
+[2024-04-12 10:37:55] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.13.tar.gz]
+[2024-04-12 10:37:55] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-04-12 10:37:55] INFO root fetch - processPackages [m9s-account-banking-import-hibiscus]: Remove: archive file [/home/abi/fetcher/tmp/m9s_account_banking_import_hibiscus-7.0.0.tar.gz]
+[2024-04-12 10:37:55] INFO root fetch - processPackages [m9s-account-banking-import-hibiscus]: Remove: archive file [/home/abi/fetcher/tmp/m9s_account_banking_import_hibiscus-7.0.1.tar.gz]
+[2024-04-12 10:37:55] INFO root fetch - main [MainThread]: End processing [m9s-account-banking-import-hibiscus]: success
+[2024-04-12 10:37:56] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.2.tar.gz]
+[2024-04-12 10:37:56] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.3.tar.gz]
+[2024-04-12 10:37:56] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2024-04-12 10:37:56] INFO root fetch - main [MainThread]: Store serial: [22734965]
