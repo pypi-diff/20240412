@@ -11603,3 +11603,24 @@
 [2024-04-12 04:13:46] INFO root fetch - processPackages [fastapi-cdn-host]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cdn_host-0.4.1.tar.gz]
 [2024-04-12 04:13:46] INFO root fetch - main [MainThread]: End processing [fastapi-cdn-host]: success
 [2024-04-12 04:13:46] INFO root fetch - main [MainThread]: Store serial: [22731784]
+[2024-04-12 04:15:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731784]
+[2024-04-12 04:15:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 04:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wandb-core
+[2024-04-12 04:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ktianc
+[2024-04-12 04:15:55] INFO root fetch - processPackages [ktianc]: New version: [0.3.0] Old Version: [0.1.1]
+[2024-04-12 04:15:55] INFO root fetch - processPackages [ktianc]: Downloading https://files.pythonhosted.org/packages/c9/48/7edbb06c2d374b24e4d0be9f5ec0352ad48f3ec91abdd6e5089f6ef67435/ktianc-0.1.1.tar.gz
+[2024-04-12 04:15:55] INFO root fetch - processPackages [wandb-core]: New version: [0.17.0b9] Old Version: [0.17.0b8]
+[2024-04-12 04:15:56] INFO root fetch - processPackages [ktianc]: Downloading https://files.pythonhosted.org/packages/f7/02/0bd4da9b5cae9d9da117184c54f045a3804ded6be82cb42057828ca40f3a/ktianc-0.3.0.tar.gz
+[2024-04-12 04:15:56] INFO root fetch - processPackages [wandb-core]: Downloading https://files.pythonhosted.org/packages/84/e6/9d946adfd3829bbf81650b366ecb745470916ef6a5cb6a7e14aedcc993cf/wandb_core-0.17.0b8-py3-none-win_amd64.whl
+[2024-04-12 04:15:56] INFO root fetch - processPackages [ktianc]: executing diffoscope
+[2024-04-12 04:15:56] INFO root fetch - processPackages [ktianc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktianc-0.1.1.tar.gz tmp/ktianc-0.3.0.tar.gz --markdown 20240412/k/ktianc/0.1.1-0.3.0/README.md --exclude *.pyd
+[2024-04-12 04:15:56] INFO root fetch - processPackages [wandb-core]: Downloading https://files.pythonhosted.org/packages/67/ac/29980856ee92ffc0a235e62c9d0fe3d1cf071ffa874676309ee9c7557a0e/wandb_core-0.17.0b9-py3-none-win_amd64.whl
+[2024-04-12 04:15:56] INFO root fetch - processPackages [ktianc]: Remove: archive file [/home/abi/fetcher/tmp/ktianc-0.1.1.tar.gz]
+[2024-04-12 04:15:56] INFO root fetch - processPackages [ktianc]: Remove: archive file [/home/abi/fetcher/tmp/ktianc-0.3.0.tar.gz]
+[2024-04-12 04:15:56] INFO root fetch - main [MainThread]: End processing [ktianc]: success
+[2024-04-12 04:15:56] INFO root fetch - processPackages [wandb-core]: executing diffoscope
+[2024-04-12 04:15:56] INFO root fetch - processPackages [wandb-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wandb_core-0.17.0b8-py3-none-win_amd64.whl.zip tmp/wandb_core-0.17.0b9-py3-none-win_amd64.whl.zip --markdown 20240412/w/wandb-core/0.17.0b8-0.17.0b9/README.md --exclude *.pyd
+[2024-04-12 04:16:41] INFO root fetch - processPackages [wandb-core]: Remove: archive file [/home/abi/fetcher/tmp/wandb_core-0.17.0b8-py3-none-win_amd64.whl.zip]
+[2024-04-12 04:16:41] INFO root fetch - processPackages [wandb-core]: Remove: archive file [/home/abi/fetcher/tmp/wandb_core-0.17.0b9-py3-none-win_amd64.whl.zip]
+[2024-04-12 04:16:41] INFO root fetch - main [MainThread]: End processing [wandb-core]: success
+[2024-04-12 04:16:41] INFO root fetch - main [MainThread]: Store serial: [22731796]
