@@ -12732,3 +12732,24 @@
 [2024-04-12 05:23:52] INFO root fetch - processPackages [volts]: Remove: archive file [/home/abi/fetcher/tmp/volts-1.0.9.tar.gz]
 [2024-04-12 05:23:52] INFO root fetch - main [MainThread]: End processing [volts]: success
 [2024-04-12 05:23:52] INFO root fetch - main [MainThread]: Store serial: [22732295]
+[2024-04-12 05:25:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732295]
+[2024-04-12 05:26:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 05:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: knewkarma
+[2024-04-12 05:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tccli
+[2024-04-12 05:26:01] INFO root fetch - processPackages [knewkarma]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-12 05:26:01] INFO root fetch - processPackages [tccli]: New version: [3.0.999.1] Old Version: [3.0.998.1]
+[2024-04-12 05:26:01] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/4b/45/a3b0e2cc7f86f87ffa99bd6f833796de67aee82386f88a6d4a85073532e9/tccli-3.0.998.1.tar.gz
+[2024-04-12 05:26:01] INFO root fetch - processPackages [knewkarma]: Downloading https://files.pythonhosted.org/packages/60/97/b1fc958f7c911d3ffa873c334497f9207e57507bc127f69bf13e14b8b8fa/knewkarma-4.0.0.tar.gz
+[2024-04-12 05:26:02] INFO root fetch - processPackages [knewkarma]: Downloading https://files.pythonhosted.org/packages/c0/0f/7ffc7aafcf1d080db6bbc9d926c98bcb3b3614535e3b9323123cb67dbb33/knewkarma-4.1.0.tar.gz
+[2024-04-12 05:26:02] INFO root fetch - processPackages [knewkarma]: executing diffoscope
+[2024-04-12 05:26:02] INFO root fetch - processPackages [knewkarma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knewkarma-4.0.0.tar.gz tmp/knewkarma-4.1.0.tar.gz --markdown 20240412/k/knewkarma/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-12 05:26:02] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/06/41/78d3ee9b2ead17ab0876618d203995653100fb27e524f51810d16df1bc97/tccli-3.0.999.1.tar.gz
+[2024-04-12 05:26:02] INFO root fetch - processPackages [knewkarma]: Remove: archive file [/home/abi/fetcher/tmp/knewkarma-4.0.0.tar.gz]
+[2024-04-12 05:26:02] INFO root fetch - processPackages [knewkarma]: Remove: archive file [/home/abi/fetcher/tmp/knewkarma-4.1.0.tar.gz]
+[2024-04-12 05:26:02] INFO root fetch - main [MainThread]: End processing [knewkarma]: success
+[2024-04-12 05:26:03] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2024-04-12 05:26:03] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.998.1.tar.gz tmp/tccli-3.0.999.1.tar.gz --markdown 20240412/t/tccli/3.0.998.1-3.0.999.1/README.md --exclude *.pyd
+[2024-04-12 05:27:20] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.998.1.tar.gz]
+[2024-04-12 05:27:20] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
+[2024-04-12 05:27:20] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2024-04-12 05:27:20] INFO root fetch - main [MainThread]: Store serial: [22732301]
