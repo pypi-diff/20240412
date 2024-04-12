@@ -17051,3 +17051,74 @@
 [2024-04-12 09:36:46] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.7rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-12 09:36:46] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2024-04-12 09:36:46] INFO root fetch - main [MainThread]: Store serial: [22734243]
+[2024-04-12 09:38:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734243]
+[2024-04-12 09:38:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 09:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vedro-replay
+[2024-04-12 09:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygpt-net
+[2024-04-12 09:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: introspection
+[2024-04-12 09:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peptdeep
+[2024-04-12 09:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lalsuite
+[2024-04-12 09:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MyLLM
+[2024-04-12 09:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydantic_numpy
+[2024-04-12 09:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minimax-client
+[2024-04-12 09:38:55] INFO root fetch - processPackages [minimax-client]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-12 09:38:55] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-12 09:38:55] INFO root fetch - processPackages [introspection]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-12 09:38:55] INFO root fetch - processPackages [vedro-replay]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-12 09:38:55] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/41/0e/5133a053a1b7e6253a1753ff2db0d038fe06737badcbfdf8617675e4f7fa/minimax_client-0.5.0.tar.gz
+[2024-04-12 09:38:55] INFO root fetch - processPackages [pydantic_numpy]: New version: [5.0.0] Old Version: [4.2.0]
+[2024-04-12 09:38:55] INFO root fetch - processPackages [peptdeep]: New version: [1.1.9] Old Version: [1.1.7]
+[2024-04-12 09:38:55] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-12 09:38:55] INFO root fetch - processPackages [MyLLM]: New version: [4.8.3] Old Version: [4.8.2]
+[2024-04-12 09:38:55] INFO root fetch - processPackages [introspection]: Downloading https://files.pythonhosted.org/packages/2e/5c/f7741eb46f69fb7f59dcf363561279fee77bb782a943c568e9a4e6d4ee98/introspection-1.7.8.tar.gz
+[2024-04-12 09:38:55] INFO root fetch - processPackages [vedro-replay]: Downloading https://files.pythonhosted.org/packages/1f/b0/afa334b5e941ec237ddbdfc91ad1318697556c34b1b71babc21ca5452a2b/vedro-replay-1.0.0.tar.gz
+[2024-04-12 09:38:55] INFO root fetch - processPackages [peptdeep]: Downloading https://files.pythonhosted.org/packages/45/a4/81c890583ae4ea937babf75f8e717fac305e2c0daef970077c295ed6e47c/peptdeep-1.1.7.tar.gz
+[2024-04-12 09:38:55] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/d8/64/75a9bb3fd719f023189d408cea1733e440092b3c7a721b846392336af62c/myllm-4.8.2.tar.gz
+[2024-04-12 09:38:55] INFO root fetch - processPackages [pydantic_numpy]: Downloading https://files.pythonhosted.org/packages/81/54/0389db57ac9afd6d4988bdab56b53707bfa9a12726ce5b45cda2903c4903/pydantic_numpy-4.2.0.tar.gz
+[2024-04-12 09:38:55] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/45/72/2a7de2edb0afe61ea4d42bbffaccd55c65ea867069619c842d81f11fcf27/minimax_client-0.5.1.tar.gz
+[2024-04-12 09:38:55] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-12 09:38:56] INFO root fetch - processPackages [minimax-client]: executing diffoscope
+[2024-04-12 09:38:56] INFO root fetch - processPackages [minimax-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minimax_client-0.5.0.tar.gz tmp/minimax_client-0.5.1.tar.gz --markdown 20240412/m/minimax-client/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-12 09:38:56] INFO root fetch - processPackages [vedro-replay]: Downloading https://files.pythonhosted.org/packages/e7/68/cd61321b11f74fa65a0d81557dbc1a75686ab668047188ab8b9cea5162df/vedro-replay-1.1.0.tar.gz
+[2024-04-12 09:38:56] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/a1/b2/896c7c627398be05392f8f7db5661043a36cc09025d120030f77826d03df/myllm-4.8.3.tar.gz
+[2024-04-12 09:38:56] INFO root fetch - processPackages [pydantic_numpy]: Downloading https://files.pythonhosted.org/packages/b3/46/e6456eaf190d5c60b2d8c18ac755a67baed5063bae0031ddab66515112a0/pydantic_numpy-5.0.0.tar.gz
+[2024-04-12 09:38:56] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-12 09:38:56] INFO root fetch - processPackages [peptdeep]: Downloading https://files.pythonhosted.org/packages/e5/87/dbdabb0c6ef018972a789e7038e8003260201381c729dc3c93f218e84bf5/peptdeep-1.1.9.tar.gz
+[2024-04-12 09:38:56] INFO root fetch - processPackages [introspection]: Downloading https://files.pythonhosted.org/packages/b2/32/c8c9a419b65a33ae69727689679ae2ff57983a962d052b8bc97414496833/introspection-1.7.9.tar.gz
+[2024-04-12 09:38:56] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-12 09:38:56] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240412/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-12 09:38:56] INFO root fetch - processPackages [vedro-replay]: executing diffoscope
+[2024-04-12 09:38:56] INFO root fetch - processPackages [vedro-replay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedro-replay-1.0.0.tar.gz tmp/vedro-replay-1.1.0.tar.gz --markdown 20240412/v/vedro-replay/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-12 09:38:56] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-12 09:38:56] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.2.tar.gz tmp/myllm-4.8.3.tar.gz --markdown 20240412/M/MyLLM/4.8.2-4.8.3/README.md --exclude *.pyd
+[2024-04-12 09:38:56] INFO root fetch - processPackages [pydantic_numpy]: executing diffoscope
+[2024-04-12 09:38:56] INFO root fetch - processPackages [pydantic_numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_numpy-4.2.0.tar.gz tmp/pydantic_numpy-5.0.0.tar.gz --markdown 20240412/p/pydantic_numpy/4.2.0-5.0.0/README.md --exclude *.pyd
+[2024-04-12 09:38:56] INFO root fetch - processPackages [peptdeep]: executing diffoscope
+[2024-04-12 09:38:56] INFO root fetch - processPackages [peptdeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peptdeep-1.1.7.tar.gz tmp/peptdeep-1.1.9.tar.gz --markdown 20240412/p/peptdeep/1.1.7-1.1.9/README.md --exclude *.pyd
+[2024-04-12 09:38:56] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 09:38:56] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-12 09:38:56] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-12 09:38:56] INFO root fetch - processPackages [introspection]: executing diffoscope
+[2024-04-12 09:38:56] INFO root fetch - processPackages [introspection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/introspection-1.7.8.tar.gz tmp/introspection-1.7.9.tar.gz --markdown 20240412/i/introspection/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-12 09:38:56] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.5.0.tar.gz]
+[2024-04-12 09:38:56] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.5.1.tar.gz]
+[2024-04-12 09:38:56] INFO root fetch - main [MainThread]: End processing [minimax-client]: success
+[2024-04-12 09:38:56] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.2.tar.gz]
+[2024-04-12 09:38:56] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.3.tar.gz]
+[2024-04-12 09:38:56] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-12 09:38:57] INFO root fetch - processPackages [vedro-replay]: Remove: archive file [/home/abi/fetcher/tmp/vedro-replay-1.0.0.tar.gz]
+[2024-04-12 09:38:57] INFO root fetch - processPackages [vedro-replay]: Remove: archive file [/home/abi/fetcher/tmp/vedro-replay-1.1.0.tar.gz]
+[2024-04-12 09:38:57] INFO root fetch - main [MainThread]: End processing [vedro-replay]: success
+[2024-04-12 09:38:57] INFO root fetch - processPackages [pydantic_numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-4.2.0.tar.gz]
+[2024-04-12 09:38:57] INFO root fetch - processPackages [pydantic_numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-5.0.0.tar.gz]
+[2024-04-12 09:38:57] INFO root fetch - main [MainThread]: End processing [pydantic_numpy]: success
+[2024-04-12 09:38:57] INFO root fetch - processPackages [peptdeep]: Remove: archive file [/home/abi/fetcher/tmp/peptdeep-1.1.7.tar.gz]
+[2024-04-12 09:38:57] INFO root fetch - processPackages [peptdeep]: Remove: archive file [/home/abi/fetcher/tmp/peptdeep-1.1.9.tar.gz]
+[2024-04-12 09:38:57] INFO root fetch - main [MainThread]: End processing [peptdeep]: success
+[2024-04-12 09:38:57] INFO root fetch - processPackages [introspection]: Remove: archive file [/home/abi/fetcher/tmp/introspection-1.7.8.tar.gz]
+[2024-04-12 09:38:57] INFO root fetch - processPackages [introspection]: Remove: archive file [/home/abi/fetcher/tmp/introspection-1.7.9.tar.gz]
+[2024-04-12 09:38:57] INFO root fetch - main [MainThread]: End processing [introspection]: success
+[2024-04-12 09:38:58] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-12 09:38:58] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-12 09:38:58] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-12 09:38:58] INFO root fetch - main [MainThread]: Store serial: [22734275]
