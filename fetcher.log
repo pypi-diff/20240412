@@ -16277,3 +16277,56 @@
 [2024-04-12 09:05:04] INFO root fetch - processPackages [tues]: Remove: archive file [/home/abi/fetcher/tmp/tues-3.1.2.tar.gz]
 [2024-04-12 09:05:04] INFO root fetch - main [MainThread]: End processing [tues]: success
 [2024-04-12 09:05:04] INFO root fetch - main [MainThread]: Store serial: [22733765]
+[2024-04-12 09:07:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733765]
+[2024-04-12 09:07:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 09:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-datahub
+[2024-04-12 09:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-calendards
+[2024-04-12 09:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub-airflow-plugin
+[2024-04-12 09:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: treadtools
+[2024-04-12 09:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-modalds
+[2024-04-12 09:07:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CriminAI
+[2024-04-12 09:07:14] INFO root fetch - processPackages [CriminAI]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-modalds]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-calendards]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-12 09:07:15] INFO root fetch - processPackages [treadtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 09:07:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-12 09:07:15] INFO root fetch - processPackages [CriminAI]: Downloading https://files.pythonhosted.org/packages/16/9d/a8530b8be28da260f795d51356896d4965d4706d17d5226ca02d66f5ab3e/CriminAI-1.0.1.tar.gz
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-calendards]: Downloading https://files.pythonhosted.org/packages/f2/6e/20067ecf04c2b19bf3267c4002f5a457f87cd1602a446a1ac230b7f8b778/django_calendards-0.4.0.tar.gz
+[2024-04-12 09:07:15] WARNING root fetch - processPackages [CriminAI]: Skipping package: exceeds size limit 24822533>=10485760
+[2024-04-12 09:07:15] INFO root fetch - main [MainThread]: End processing [CriminAI] error
+[2024-04-12 09:07:15] INFO root fetch - processPackages [treadtools]: Downloading https://files.pythonhosted.org/packages/ab/97/00a48c0b6b16dd47a5c2cc1c4cb9185b9c4928a9d114ad707556b2ec21f6/treadtools-0.0.8-py3-none-any.whl
+[2024-04-12 09:07:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-modalds]: Downloading https://files.pythonhosted.org/packages/2e/27/6aa35e5f1889ab1531f5a6944e9c62883f90dcd6d39676f295a5dd62703b/django_modalds-0.1.0.tar.gz
+[2024-04-12 09:07:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-modalds]: Downloading https://files.pythonhosted.org/packages/c8/0e/46ac525cec56fe11bc41185ddb499e721a0515092cc580d71018a454bc54/django_modalds-0.1.1.tar.gz
+[2024-04-12 09:07:15] INFO root fetch - processPackages [treadtools]: Downloading https://files.pythonhosted.org/packages/aa/f9/dc50dbf432cff6310ee8284997c73fa5e0900079055b50ca6ef7cdeee54d/treadtools-0.0.9-py3-none-any.whl
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-calendards]: Downloading https://files.pythonhosted.org/packages/7d/fa/cd28dcb478001592f455626881f2174bb01007861314331ee96947496443/django_calendards-0.4.1.tar.gz
+[2024-04-12 09:07:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-04-12 09:07:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240412/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-modalds]: executing diffoscope
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-modalds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_modalds-0.1.0.tar.gz tmp/django_modalds-0.1.1.tar.gz --markdown 20240412/d/django-modalds/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 09:07:15] INFO root fetch - processPackages [treadtools]: executing diffoscope
+[2024-04-12 09:07:15] INFO root fetch - processPackages [treadtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treadtools-0.0.8-py3-none-any.whl.zip tmp/treadtools-0.0.9-py3-none-any.whl.zip --markdown 20240412/t/treadtools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-calendards]: executing diffoscope
+[2024-04-12 09:07:15] INFO root fetch - processPackages [django-calendards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_calendards-0.4.0.tar.gz tmp/django_calendards-0.4.1.tar.gz --markdown 20240412/d/django-calendards/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-12 09:07:16] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-04-12 09:07:16] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-04-12 09:07:16] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-04-12 09:07:16] INFO root fetch - processPackages [django-modalds]: Remove: archive file [/home/abi/fetcher/tmp/django_modalds-0.1.0.tar.gz]
+[2024-04-12 09:07:16] INFO root fetch - processPackages [django-modalds]: Remove: archive file [/home/abi/fetcher/tmp/django_modalds-0.1.1.tar.gz]
+[2024-04-12 09:07:16] INFO root fetch - main [MainThread]: End processing [django-modalds]: success
+[2024-04-12 09:07:16] INFO root fetch - processPackages [treadtools]: Remove: archive file [/home/abi/fetcher/tmp/treadtools-0.0.8-py3-none-any.whl.zip]
+[2024-04-12 09:07:16] INFO root fetch - processPackages [treadtools]: Remove: archive file [/home/abi/fetcher/tmp/treadtools-0.0.9-py3-none-any.whl.zip]
+[2024-04-12 09:07:16] INFO root fetch - main [MainThread]: End processing [treadtools]: success
+[2024-04-12 09:07:16] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-12 09:07:16] INFO root fetch - processPackages [django-calendards]: Remove: archive file [/home/abi/fetcher/tmp/django_calendards-0.4.0.tar.gz]
+[2024-04-12 09:07:16] INFO root fetch - processPackages [django-calendards]: Remove: archive file [/home/abi/fetcher/tmp/django_calendards-0.4.1.tar.gz]
+[2024-04-12 09:07:16] INFO root fetch - main [MainThread]: End processing [django-calendards]: success
+[2024-04-12 09:07:17] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-04-12 09:07:18] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-04-12 09:07:18] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-04-12 09:07:18] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240412/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-04-12 09:07:20] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-04-12 09:07:20] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-04-12 09:07:20] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-04-12 09:07:20] INFO root fetch - main [MainThread]: Store serial: [22733781]
