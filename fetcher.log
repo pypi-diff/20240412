@@ -13258,3 +13258,33 @@
 [2024-04-12 05:58:28] INFO root fetch - processPackages [alibabacloud-tingwu20230930-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tingwu20230930_py2-2.0.8.tar.gz]
 [2024-04-12 05:58:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-tingwu20230930-py2]: success
 [2024-04-12 05:58:28] INFO root fetch - main [MainThread]: Store serial: [22732483]
+[2024-04-12 06:00:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732483]
+[2024-04-12 06:00:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 06:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mixician
+[2024-04-12 06:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dialog-workflow-local
+[2024-04-12 06:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyqyweixin
+[2024-04-12 06:00:37] INFO root fetch - processPackages [lazyqyweixin]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-12 06:00:37] INFO root fetch - processPackages [lazyqyweixin]: Downloading https://files.pythonhosted.org/packages/c2/e4/f759d5ae9aeb951dc98e054881a95097dc7bb9ad7d738be0c242769b7135/lazyqyweixin-0.0.7.tar.gz
+[2024-04-12 06:00:37] INFO root fetch - processPackages [mixician]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 06:00:37] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.94] Old Version: [0.0.93]
+[2024-04-12 06:00:37] INFO root fetch - processPackages [mixician]: Downloading https://files.pythonhosted.org/packages/38/2d/9eb7b40ce2a668a3365e81713ef09b26fc4172c35245ab2e3cbf5dd81bfc/mixician-0.1.8.tar.gz
+[2024-04-12 06:00:37] INFO root fetch - processPackages [lazyqyweixin]: Downloading https://files.pythonhosted.org/packages/d4/ae/e7f9beee3c37e4ff5e311acd74c83899f9f6db5e52574e013de00c008191/lazyqyweixin-0.0.8.tar.gz
+[2024-04-12 06:00:37] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/f5/81/1bd5371931cd795e89bfd514ac3a0d75a4fda0ab543609c31cb05c10f896/dialog-workflow-local-0.0.93.tar.gz
+[2024-04-12 06:00:37] INFO root fetch - processPackages [lazyqyweixin]: executing diffoscope
+[2024-04-12 06:00:37] INFO root fetch - processPackages [lazyqyweixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqyweixin-0.0.7.tar.gz tmp/lazyqyweixin-0.0.8.tar.gz --markdown 20240412/l/lazyqyweixin/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-12 06:00:37] INFO root fetch - processPackages [mixician]: Downloading https://files.pythonhosted.org/packages/fc/01/645efc813c546ed84a26dcc436a5494dc8c8c763c58ba4624693cd8b67a7/mixician-0.1.9.tar.gz
+[2024-04-12 06:00:37] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/76/78/eeccb8f1b8c83259704e9dc5773900e12a901185ef848ba1f3cc7630c40c/dialog-workflow-local-0.0.94.tar.gz
+[2024-04-12 06:00:37] INFO root fetch - processPackages [mixician]: executing diffoscope
+[2024-04-12 06:00:37] INFO root fetch - processPackages [mixician]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixician-0.1.8.tar.gz tmp/mixician-0.1.9.tar.gz --markdown 20240412/m/mixician/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 06:00:38] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2024-04-12 06:00:38] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog-workflow-local-0.0.93.tar.gz tmp/dialog-workflow-local-0.0.94.tar.gz --markdown 20240412/d/dialog-workflow-local/0.0.93-0.0.94/README.md --exclude *.pyd
+[2024-04-12 06:00:38] INFO root fetch - processPackages [lazyqyweixin]: Remove: archive file [/home/abi/fetcher/tmp/lazyqyweixin-0.0.7.tar.gz]
+[2024-04-12 06:00:38] INFO root fetch - processPackages [lazyqyweixin]: Remove: archive file [/home/abi/fetcher/tmp/lazyqyweixin-0.0.8.tar.gz]
+[2024-04-12 06:00:38] INFO root fetch - main [MainThread]: End processing [lazyqyweixin]: success
+[2024-04-12 06:00:38] INFO root fetch - processPackages [mixician]: Remove: archive file [/home/abi/fetcher/tmp/mixician-0.1.8.tar.gz]
+[2024-04-12 06:00:38] INFO root fetch - processPackages [mixician]: Remove: archive file [/home/abi/fetcher/tmp/mixician-0.1.9.tar.gz]
+[2024-04-12 06:00:38] INFO root fetch - main [MainThread]: End processing [mixician]: success
+[2024-04-12 06:00:38] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog-workflow-local-0.0.93.tar.gz]
+[2024-04-12 06:00:38] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog-workflow-local-0.0.94.tar.gz]
+[2024-04-12 06:00:38] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2024-04-12 06:00:38] INFO root fetch - main [MainThread]: Store serial: [22732497]
