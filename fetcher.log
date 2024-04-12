@@ -13930,3 +13930,36 @@
 [2024-04-12 06:48:32] INFO root fetch - processPackages [cs.queues]: Remove: archive file [/home/abi/fetcher/tmp/cs.queues-20240412.tar.gz]
 [2024-04-12 06:48:32] INFO root fetch - main [MainThread]: End processing [cs.queues]: success
 [2024-04-12 06:48:32] INFO root fetch - main [MainThread]: Store serial: [22732785]
+[2024-04-12 06:50:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732785]
+[2024-04-12 06:50:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-04-12 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cogencis-data-api
+[2024-04-12 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trace-attributes
+[2024-04-12 06:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygeonlp
+[2024-04-12 06:50:40] INFO root fetch - processPackages [trace-attributes]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 06:50:40] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-12 06:50:40] WARNING root fetch - processPackages [cogencis-data-api]: Skipping, unable to determine old version
+[2024-04-12 06:50:40] INFO root fetch - main [MainThread]: End processing [cogencis-data-api] error
+[2024-04-12 06:50:40] INFO root fetch - processPackages [pygeonlp]: New version: [1.2.2rc1] Old Version: [1.2.2.post1]
+[2024-04-12 06:50:40] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/1e/90/74b7e4574ffcc661df330fae415d85a9beb6bbc7cda3796494b4405d6070/trace-attributes-1.0.8.tar.gz
+[2024-04-12 06:50:40] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-12 06:50:41] INFO root fetch - processPackages [pygeonlp]: Downloading https://files.pythonhosted.org/packages/cb/59/7bf9fd6de70698aa13b04346c5e0c3c388f666a59e016ba91de44cef3af7/pygeonlp-1.2.2.post1.tar.gz
+[2024-04-12 06:50:41] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-12 06:50:41] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/9f/67/9cb8e2c92791a6e07f7ac6e1651f1abcc16a82196a21da9eb5e10f1bd0dd/trace-attributes-1.0.9.tar.gz
+[2024-04-12 06:50:41] INFO root fetch - processPackages [trace-attributes]: executing diffoscope
+[2024-04-12 06:50:41] INFO root fetch - processPackages [trace-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trace-attributes-1.0.8.tar.gz tmp/trace-attributes-1.0.9.tar.gz --markdown 20240412/t/trace-attributes/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 06:50:41] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-12 06:50:41] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240412/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-12 06:50:41] INFO root fetch - processPackages [pygeonlp]: Downloading https://files.pythonhosted.org/packages/08/df/3c9632b882621dce220d8504821f4023f90c094cf8f40c48c2bb64db9976/pygeonlp-1.2.2rc1.tar.gz
+[2024-04-12 06:50:41] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-12 06:50:41] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-12 06:50:41] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-12 06:50:41] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.8.tar.gz]
+[2024-04-12 06:50:41] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-1.0.9.tar.gz]
+[2024-04-12 06:50:41] INFO root fetch - main [MainThread]: End processing [trace-attributes]: success
+[2024-04-12 06:50:42] INFO root fetch - processPackages [pygeonlp]: executing diffoscope
+[2024-04-12 06:50:42] INFO root fetch - processPackages [pygeonlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeonlp-1.2.2.post1.tar.gz tmp/pygeonlp-1.2.2rc1.tar.gz --markdown 20240412/p/pygeonlp/1.2.2.post1-1.2.2rc1/README.md --exclude *.pyd
+[2024-04-12 06:50:43] INFO root fetch - processPackages [pygeonlp]: Remove: archive file [/home/abi/fetcher/tmp/pygeonlp-1.2.2.post1.tar.gz]
+[2024-04-12 06:50:43] INFO root fetch - processPackages [pygeonlp]: Remove: archive file [/home/abi/fetcher/tmp/pygeonlp-1.2.2rc1.tar.gz]
+[2024-04-12 06:50:43] INFO root fetch - main [MainThread]: End processing [pygeonlp]: success
+[2024-04-12 06:50:43] INFO root fetch - main [MainThread]: Store serial: [22732797]
