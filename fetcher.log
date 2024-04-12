@@ -15865,3 +15865,45 @@
 [2024-04-12 08:42:53] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
 [2024-04-12 08:42:53] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
 [2024-04-12 08:42:53] INFO root fetch - main [MainThread]: Store serial: [22733581]
+[2024-04-12 08:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733581]
+[2024-04-12 08:45:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 08:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeharvest
+[2024-04-12 08:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcmds
+[2024-04-12 08:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sentry
+[2024-04-12 08:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vagrant-file-generator-v0.3
+[2024-04-12 08:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdata
+[2024-04-12 08:45:02] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-12 08:45:02] INFO root fetch - processPackages [homeharvest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-12 08:45:02] WARNING root fetch - processPackages [vagrant-file-generator-v0.3]: Skipping, unable to determine old version
+[2024-04-12 08:45:02] INFO root fetch - main [MainThread]: End processing [vagrant-file-generator-v0.3] error
+[2024-04-12 08:45:02] INFO root fetch - processPackages [sdata]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-12 08:45:02] INFO root fetch - processPackages [odoo-addon-sentry]: New version: [16.0.3.0.2] Old Version: [16.0.3.0.1.2]
+[2024-04-12 08:45:02] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2024-04-12 08:45:02] INFO root fetch - processPackages [homeharvest]: Downloading https://files.pythonhosted.org/packages/ee/35/82f17de156d1492ba0d7f70a81ed3e1f7ab03e7c2ff18bdee5221afa91e5/homeharvest-0.3.8.tar.gz
+[2024-04-12 08:45:02] INFO root fetch - processPackages [odoo-addon-sentry]: Downloading https://files.pythonhosted.org/packages/a8/21/1dcc143edd588d63c19b1824b06625ed30cb83d528934c33d5e0ff01225d/odoo_addon_sentry-16.0.3.0.1.2-py3-none-any.whl
+[2024-04-12 08:45:02] INFO root fetch - processPackages [sdata]: Downloading https://files.pythonhosted.org/packages/15/0e/93ae6b61a7d177fa76e0c03e3b4c19b879c6c21b014e3a1ac73aa146e1ff/sdata-0.8.3.tar.gz
+[2024-04-12 08:45:02] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-04-12 08:45:02] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-04-12 08:45:02] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240412/z/zcmds/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-12 08:45:02] INFO root fetch - processPackages [homeharvest]: Downloading https://files.pythonhosted.org/packages/14/3a/bcc101a19e2e5e446203d0d2bd533ee0645cf7ab9697bb8e9dc45c839790/homeharvest-0.3.9.tar.gz
+[2024-04-12 08:45:02] INFO root fetch - processPackages [odoo-addon-sentry]: Downloading https://files.pythonhosted.org/packages/4b/49/26ff75da3427c8031742ed53afec140ac5b64e5abbb1e56839e9a5908005/odoo_addon_sentry-16.0.3.0.2-py3-none-any.whl
+[2024-04-12 08:45:03] INFO root fetch - processPackages [homeharvest]: executing diffoscope
+[2024-04-12 08:45:03] INFO root fetch - processPackages [homeharvest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeharvest-0.3.8.tar.gz tmp/homeharvest-0.3.9.tar.gz --markdown 20240412/h/homeharvest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-12 08:45:03] INFO root fetch - processPackages [sdata]: Downloading https://files.pythonhosted.org/packages/e9/80/07777becd9a951d86abb05fb8bec41444acce6af9a1e40fbf4ed82c78755/sdata-0.8.4.tar.gz
+[2024-04-12 08:45:03] INFO root fetch - processPackages [odoo-addon-sentry]: executing diffoscope
+[2024-04-12 08:45:03] INFO root fetch - processPackages [odoo-addon-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sentry-16.0.3.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_sentry-16.0.3.0.2-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-sentry/16.0.3.0.1.2-16.0.3.0.2/README.md --exclude *.pyd
+[2024-04-12 08:45:03] INFO root fetch - processPackages [sdata]: executing diffoscope
+[2024-04-12 08:45:03] INFO root fetch - processPackages [sdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdata-0.8.3.tar.gz tmp/sdata-0.8.4.tar.gz --markdown 20240412/s/sdata/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-12 08:45:03] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2024-04-12 08:45:03] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-04-12 08:45:03] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-04-12 08:45:03] INFO root fetch - processPackages [homeharvest]: Remove: archive file [/home/abi/fetcher/tmp/homeharvest-0.3.8.tar.gz]
+[2024-04-12 08:45:03] INFO root fetch - processPackages [homeharvest]: Remove: archive file [/home/abi/fetcher/tmp/homeharvest-0.3.9.tar.gz]
+[2024-04-12 08:45:03] INFO root fetch - main [MainThread]: End processing [homeharvest]: success
+[2024-04-12 08:45:03] INFO root fetch - processPackages [odoo-addon-sentry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sentry-16.0.3.0.1.2-py3-none-any.whl.zip]
+[2024-04-12 08:45:03] INFO root fetch - processPackages [odoo-addon-sentry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sentry-16.0.3.0.2-py3-none-any.whl.zip]
+[2024-04-12 08:45:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-sentry]: success
+[2024-04-12 08:45:03] INFO root fetch - processPackages [sdata]: Remove: archive file [/home/abi/fetcher/tmp/sdata-0.8.3.tar.gz]
+[2024-04-12 08:45:03] INFO root fetch - processPackages [sdata]: Remove: archive file [/home/abi/fetcher/tmp/sdata-0.8.4.tar.gz]
+[2024-04-12 08:45:03] INFO root fetch - main [MainThread]: End processing [sdata]: success
+[2024-04-12 08:45:03] INFO root fetch - main [MainThread]: Store serial: [22733595]
