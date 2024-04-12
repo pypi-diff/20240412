@@ -17436,3 +17436,52 @@
 [2024-04-12 09:54:17] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.6.tar.gz]
 [2024-04-12 09:54:17] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
 [2024-04-12 09:54:17] INFO root fetch - main [MainThread]: Store serial: [22734389]
+[2024-04-12 09:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734389]
+[2024-04-12 09:56:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fgo-api-types
+[2024-04-12 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqqq-cli
+[2024-04-12 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metasdk
+[2024-04-12 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenVisus
+[2024-04-12 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zeroset
+[2024-04-12 09:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenVisusNoGui
+[2024-04-12 09:56:26] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 09:56:26] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/08/33/8855e6d5b38eafac7c7319259343811f3a791d12bdba4e8f32d9ffce92d9/pyqqq_cli-0.1.8.tar.gz
+[2024-04-12 09:56:26] INFO root fetch - processPackages [zeroset]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 09:56:26] INFO root fetch - processPackages [metasdk]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-12 09:56:26] INFO root fetch - processPackages [fgo-api-types]: New version: [2024.4.6.2.22.3] Old Version: [2024.4.12.7.54.11]
+[2024-04-12 09:56:26] INFO root fetch - processPackages [OpenVisusNoGui]: New version: [2.2.81.3] Old Version: [2.2.81.2]
+[2024-04-12 09:56:26] INFO root fetch - processPackages [OpenVisus]: New version: [2.2.99] Old Version: [2.2.97]
+[2024-04-12 09:56:27] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/c2/c2/c175003e563333b34578e3b5ca53b4e005dab2fd260cf9390d4383b3d6e4/pyqqq_cli-0.1.9.tar.gz
+[2024-04-12 09:56:27] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/1f/62/b8252ac5916ff4f8d9b9f7e32ee3f421c22817390c2387672950e64de7bb/fgo_api_types-2024.4.12.7.54.11.tar.gz
+[2024-04-12 09:56:27] INFO root fetch - processPackages [zeroset]: Downloading https://files.pythonhosted.org/packages/f1/e9/b34c58ea7f70d2afbd1d53ac36fd8607579fe022aaa3f1411e46090513fd/zeroset-0.0.2.tar.gz
+[2024-04-12 09:56:27] INFO root fetch - processPackages [metasdk]: Downloading https://files.pythonhosted.org/packages/86/52/371ab472a5ace77fc1f012366cb20c5d660c5926f9d0c23d3eb1642ace0a/metasdk-1.7.8.tar.gz
+[2024-04-12 09:56:27] INFO root fetch - processPackages [OpenVisusNoGui]: Downloading https://files.pythonhosted.org/packages/01/01/94a0a931d4e47eca67676baf8be7831d3b184723537c90065ffa80c5fb77/OpenVisusNoGui-2.2.81.2-cp38-none-manylinux2010_x86_64.whl
+[2024-04-12 09:56:27] INFO root fetch - processPackages [OpenVisus]: Downloading https://files.pythonhosted.org/packages/ed/58/84763e7f5fb90af81efa4632d3f97d04c81edb451f9e5ea79a27a3799ef8/OpenVisus-2.2.97-cp39-none-win_amd64.whl
+[2024-04-12 09:56:27] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-04-12 09:56:27] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.1.8.tar.gz tmp/pyqqq_cli-0.1.9.tar.gz --markdown 20240412/p/pyqqq-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 09:56:27] INFO root fetch - processPackages [zeroset]: Downloading https://files.pythonhosted.org/packages/ff/2d/40eacb38514783acac9295214a45e717983e8c1ee1b9ea1883f301146cad/zeroset-0.0.3.tar.gz
+[2024-04-12 09:56:27] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/b9/41/3dbb26f0f980c564a1e8ae75299afc724991934ffaf1a8a59ab70aafb784/fgo_api_types-2024.4.6.2.22.3.tar.gz
+[2024-04-12 09:56:27] INFO root fetch - processPackages [metasdk]: Downloading https://files.pythonhosted.org/packages/0d/fa/692ac652414508153350aa3d3984f43cfbfb7c26a31af4e643d142d6eaaa/metasdk-1.7.9.tar.gz
+[2024-04-12 09:56:27] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2024-04-12 09:56:27] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2024.4.12.7.54.11.tar.gz tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz --markdown 20240412/f/fgo-api-types/2024.4.12.7.54.11-2024.4.6.2.22.3/README.md --exclude *.pyd
+[2024-04-12 09:56:27] INFO root fetch - processPackages [zeroset]: executing diffoscope
+[2024-04-12 09:56:27] INFO root fetch - processPackages [zeroset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroset-0.0.2.tar.gz tmp/zeroset-0.0.3.tar.gz --markdown 20240412/z/zeroset/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 09:56:27] INFO root fetch - processPackages [metasdk]: executing diffoscope
+[2024-04-12 09:56:27] INFO root fetch - processPackages [metasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasdk-1.7.8.tar.gz tmp/metasdk-1.7.9.tar.gz --markdown 20240412/m/metasdk/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-12 09:56:27] WARNING root fetch - processPackages [OpenVisus]: Skipping package: exceeds size limit 44428616>=10485760
+[2024-04-12 09:56:27] INFO root fetch - main [MainThread]: End processing [OpenVisus] error
+[2024-04-12 09:56:27] WARNING root fetch - processPackages [OpenVisusNoGui]: Skipping package: exceeds size limit 32744688>=10485760
+[2024-04-12 09:56:27] INFO root fetch - main [MainThread]: End processing [OpenVisusNoGui] error
+[2024-04-12 09:56:27] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.1.8.tar.gz]
+[2024-04-12 09:56:27] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.1.9.tar.gz]
+[2024-04-12 09:56:27] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-04-12 09:56:28] INFO root fetch - processPackages [metasdk]: Remove: archive file [/home/abi/fetcher/tmp/metasdk-1.7.8.tar.gz]
+[2024-04-12 09:56:28] INFO root fetch - processPackages [metasdk]: Remove: archive file [/home/abi/fetcher/tmp/metasdk-1.7.9.tar.gz]
+[2024-04-12 09:56:28] INFO root fetch - main [MainThread]: End processing [metasdk]: success
+[2024-04-12 09:56:28] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.12.7.54.11.tar.gz]
+[2024-04-12 09:56:28] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
+[2024-04-12 09:56:28] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2024-04-12 09:56:28] INFO root fetch - processPackages [zeroset]: Remove: archive file [/home/abi/fetcher/tmp/zeroset-0.0.2.tar.gz]
+[2024-04-12 09:56:28] INFO root fetch - processPackages [zeroset]: Remove: archive file [/home/abi/fetcher/tmp/zeroset-0.0.3.tar.gz]
+[2024-04-12 09:56:28] INFO root fetch - main [MainThread]: End processing [zeroset]: success
+[2024-04-12 09:56:28] INFO root fetch - main [MainThread]: Store serial: [22734415]
