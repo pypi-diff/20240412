@@ -19151,3 +19151,87 @@
 [2024-04-12 10:56:57] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-12 10:56:57] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-12 10:56:57] INFO root fetch - main [MainThread]: Store serial: [22735269]
+[2024-04-12 10:59:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735269]
+[2024-04-12 10:59:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-12 10:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: altvmasterlist
+[2024-04-12 10:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cowbase
+[2024-04-12 10:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maginator
+[2024-04-12 10:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DifferentialAlgebra
+[2024-04-12 10:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FrameStory
+[2024-04-12 10:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenFisca-France
+[2024-04-12 10:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quantify-core
+[2024-04-12 10:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udata-front
+[2024-04-12 10:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acetone-nnet
+[2024-04-12 10:59:08] INFO root fetch - processPackages [acetone-nnet]: New version: [0.0.1.2.1] Old Version: [0.0.1.2]
+[2024-04-12 10:59:08] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-12 10:59:08] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2024-04-12 10:59:08] INFO root fetch - processPackages [altvmasterlist]: New version: [3.1.0] Old Version: [3.0.9]
+[2024-04-12 10:59:08] INFO root fetch - processPackages [cowbase]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-12 10:59:08] INFO root fetch - processPackages [maginator]: New version: [0.1.8] Old Version: [0.1.20]
+[2024-04-12 10:59:08] INFO root fetch - processPackages [DifferentialAlgebra]: New version: [4.1] Old Version: [4.0]
+[2024-04-12 10:59:08] INFO root fetch - processPackages [quantify-core]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-12 10:59:08] INFO root fetch - processPackages [FrameStory]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-12 10:59:08] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-12 10:59:08] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2024-04-12 10:59:08] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/9b/84/19bdf861d4cc1bc80e868efc43296096459294de00398518b6790ac4b835/acetone-nnet-0.0.1.2.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [altvmasterlist]: Downloading https://files.pythonhosted.org/packages/b2/ba/4b6b04c015768d371fda25d6eb383f03906a566acb78f812ead4791198a9/altvmasterlist-3.0.9.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [cowbase]: Downloading https://files.pythonhosted.org/packages/e1/38/4bee8e16650142bf8e9b549daa2721363e831cb9c7a09c5d9f477f21c306/cowbase-1.0.0.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [maginator]: Downloading https://files.pythonhosted.org/packages/db/be/89e247ebfc09de9774f240da16fdabc55260117c404371245cfb552a7f9d/maginator-0.1.20.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [DifferentialAlgebra]: Downloading https://files.pythonhosted.org/packages/c5/e2/f3076a6fa3bfc1c0122bc8e659863c2e6cc31f9dafb9869fa97407456e85/DifferentialAlgebra-4.0.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [quantify-core]: Downloading https://files.pythonhosted.org/packages/99/35/6b2668b368a38a2309dec0830ec41da9e302e1b21b3d5f3b64b482842a0e/quantify-core-0.7.4.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [FrameStory]: Downloading https://files.pythonhosted.org/packages/40/41/46d8ad879ff08c7cbbcc1c25cdf02020554e7d9d44585f1567d6d122ca33/FrameStory-0.1.3.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2024-04-12 10:59:08] INFO root fetch - processPackages [cowbase]: Downloading https://files.pythonhosted.org/packages/1e/d7/4b2bdbffc3f78f955878f66ae3b900f4ed1ad4ddcd8cb123c4bb22b7e971/cowbase-1.0.1.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/2a/38/d5df9d34d265d706976086e14148f4196687922b3dd50650551737a34489/acetone-nnet-0.0.1.2.1.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [altvmasterlist]: Downloading https://files.pythonhosted.org/packages/b4/08/75464b6cc6886578e8746d119eccfa6835553b40765d3672d69ac5611027/altvmasterlist-3.1.0.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-12 10:59:08] INFO root fetch - processPackages [maginator]: Downloading https://files.pythonhosted.org/packages/b2/0e/e9f8fab4868fdbeac8e0d4e20739b76094430d0359620da63f5fae1ebb9d/maginator-0.1.8.tar.gz
+[2024-04-12 10:59:08] INFO root fetch - processPackages [FrameStory]: Downloading https://files.pythonhosted.org/packages/db/e0/87521bd2e46f13300d4f4d54d3415784c26a94d3f092c664b13c02d96972/FrameStory-0.1.4.tar.gz
+[2024-04-12 10:59:09] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-12 10:59:09] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone-nnet-0.0.1.2.tar.gz tmp/acetone-nnet-0.0.1.2.1.tar.gz --markdown 20240412/a/acetone-nnet/0.0.1.2-0.0.1.2.1/README.md --exclude *.pyd
+[2024-04-12 10:59:09] INFO root fetch - processPackages [cowbase]: executing diffoscope
+[2024-04-12 10:59:09] INFO root fetch - processPackages [cowbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cowbase-1.0.0.tar.gz tmp/cowbase-1.0.1.tar.gz --markdown 20240412/c/cowbase/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-12 10:59:09] INFO root fetch - processPackages [FrameStory]: executing diffoscope
+[2024-04-12 10:59:09] INFO root fetch - processPackages [FrameStory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FrameStory-0.1.3.tar.gz tmp/FrameStory-0.1.4.tar.gz --markdown 20240412/F/FrameStory/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-12 10:59:09] INFO root fetch - processPackages [DifferentialAlgebra]: Downloading https://files.pythonhosted.org/packages/82/1e/9956d3c46d4475b9c94e92bf673e8bc8d99ca2009600f658ee5054b794c1/DifferentialAlgebra-4.1.tar.gz
+[2024-04-12 10:59:09] INFO root fetch - processPackages [altvmasterlist]: executing diffoscope
+[2024-04-12 10:59:09] INFO root fetch - processPackages [altvmasterlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altvmasterlist-3.0.9.tar.gz tmp/altvmasterlist-3.1.0.tar.gz --markdown 20240412/a/altvmasterlist/3.0.9-3.1.0/README.md --exclude *.pyd
+[2024-04-12 10:59:09] INFO root fetch - processPackages [maginator]: executing diffoscope
+[2024-04-12 10:59:09] INFO root fetch - processPackages [maginator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maginator-0.1.20.tar.gz tmp/maginator-0.1.8.tar.gz --markdown 20240412/m/maginator/0.1.20-0.1.8/README.md --exclude *.pyd
+[2024-04-12 10:59:09] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-12 10:59:09] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240412/u/udata-front/3.5.5a1-3.5.5a117434/README.md --exclude *.pyd
+[2024-04-12 10:59:09] INFO root fetch - processPackages [quantify-core]: Downloading https://files.pythonhosted.org/packages/56/d8/bf6641697a6729bcacec99a0ee4fa2d65afc8f35d4b12c59d6637a83981d/quantify-core-0.7.5.tar.gz
+[2024-04-12 10:59:09] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2024-04-12 10:59:09] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20240412/O/OpenFisca-France/99.0.0-99.0.1/README.md --exclude *.pyd
+[2024-04-12 10:59:09] INFO root fetch - processPackages [DifferentialAlgebra]: executing diffoscope
+[2024-04-12 10:59:09] INFO root fetch - processPackages [DifferentialAlgebra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DifferentialAlgebra-4.0.tar.gz tmp/DifferentialAlgebra-4.1.tar.gz --markdown 20240412/D/DifferentialAlgebra/4.0-4.1/README.md --exclude *.pyd
+[2024-04-12 10:59:09] INFO root fetch - processPackages [quantify-core]: executing diffoscope
+[2024-04-12 10:59:09] INFO root fetch - processPackages [quantify-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantify-core-0.7.4.tar.gz tmp/quantify-core-0.7.5.tar.gz --markdown 20240412/q/quantify-core/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-12 10:59:09] INFO root fetch - processPackages [FrameStory]: Remove: archive file [/home/abi/fetcher/tmp/FrameStory-0.1.3.tar.gz]
+[2024-04-12 10:59:09] INFO root fetch - processPackages [FrameStory]: Remove: archive file [/home/abi/fetcher/tmp/FrameStory-0.1.4.tar.gz]
+[2024-04-12 10:59:09] INFO root fetch - main [MainThread]: End processing [FrameStory]: success
+[2024-04-12 10:59:09] INFO root fetch - processPackages [altvmasterlist]: Remove: archive file [/home/abi/fetcher/tmp/altvmasterlist-3.0.9.tar.gz]
+[2024-04-12 10:59:09] INFO root fetch - processPackages [altvmasterlist]: Remove: archive file [/home/abi/fetcher/tmp/altvmasterlist-3.1.0.tar.gz]
+[2024-04-12 10:59:09] INFO root fetch - main [MainThread]: End processing [altvmasterlist]: success
+[2024-04-12 10:59:10] INFO root fetch - processPackages [cowbase]: Remove: archive file [/home/abi/fetcher/tmp/cowbase-1.0.0.tar.gz]
+[2024-04-12 10:59:10] INFO root fetch - processPackages [cowbase]: Remove: archive file [/home/abi/fetcher/tmp/cowbase-1.0.1.tar.gz]
+[2024-04-12 10:59:10] INFO root fetch - main [MainThread]: End processing [cowbase]: success
+[2024-04-12 10:59:10] INFO root fetch - processPackages [maginator]: Remove: archive file [/home/abi/fetcher/tmp/maginator-0.1.20.tar.gz]
+[2024-04-12 10:59:10] INFO root fetch - processPackages [maginator]: Remove: archive file [/home/abi/fetcher/tmp/maginator-0.1.8.tar.gz]
+[2024-04-12 10:59:10] INFO root fetch - main [MainThread]: End processing [maginator]: success
+[2024-04-12 10:59:10] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.1.2.tar.gz]
+[2024-04-12 10:59:10] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.1.2.1.tar.gz]
+[2024-04-12 10:59:10] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-12 10:59:11] INFO root fetch - processPackages [quantify-core]: Remove: archive file [/home/abi/fetcher/tmp/quantify-core-0.7.4.tar.gz]
+[2024-04-12 10:59:11] INFO root fetch - processPackages [quantify-core]: Remove: archive file [/home/abi/fetcher/tmp/quantify-core-0.7.5.tar.gz]
+[2024-04-12 10:59:11] INFO root fetch - main [MainThread]: End processing [quantify-core]: success
+[2024-04-12 10:59:15] INFO root fetch - processPackages [DifferentialAlgebra]: Remove: archive file [/home/abi/fetcher/tmp/DifferentialAlgebra-4.0.tar.gz]
+[2024-04-12 10:59:15] INFO root fetch - processPackages [DifferentialAlgebra]: Remove: archive file [/home/abi/fetcher/tmp/DifferentialAlgebra-4.1.tar.gz]
+[2024-04-12 10:59:15] INFO root fetch - main [MainThread]: End processing [DifferentialAlgebra]: success
+[2024-04-12 10:59:18] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2024-04-12 10:59:18] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2024-04-12 10:59:18] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2024-04-12 11:00:23] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip]
+[2024-04-12 11:00:23] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-12 11:00:23] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-12 11:00:23] INFO root fetch - main [MainThread]: Store serial: [22735299]
