@@ -15630,3 +15630,96 @@
 [2024-04-12 08:29:42] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-12 08:29:42] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-12 08:29:42] INFO root fetch - main [MainThread]: Store serial: [22733485]
+[2024-04-12 08:31:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733485]
+[2024-04-12 08:31:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composio-core
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-langchain
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-crewai
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htagui
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deep-utils
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vidsrc-search
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-autogen
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartschool
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weld-deps
+[2024-04-12 08:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logrepl
+[2024-04-12 08:31:51] INFO root fetch - processPackages [composio-crewai]: New version: [0.1.88] Old Version: [0.1.87]
+[2024-04-12 08:31:51] INFO root fetch - processPackages [composio-core]: New version: [0.1.88] Old Version: [0.1.87]
+[2024-04-12 08:31:51] INFO root fetch - processPackages [composio-langchain]: New version: [0.1.88] Old Version: [0.1.87]
+[2024-04-12 08:31:51] INFO root fetch - processPackages [vidsrc-search]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-12 08:31:51] INFO root fetch - processPackages [composio-autogen]: New version: [0.1.88] Old Version: [0.1.87]
+[2024-04-12 08:31:51] INFO root fetch - processPackages [weld-deps]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 08:31:51] INFO root fetch - processPackages [logrepl]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-12 08:31:51] INFO root fetch - processPackages [htagui]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-04-12 08:31:52] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/50/1a/31962960d7ca81bd222f39a1d131746f143265ca65b4e77416d6e477c10c/weld_deps-0.3.0.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [smartschool]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/b1/a0/64f090069c0ea3637f165e24145d8b5c9c6a57a3bdeea23923913f40940c/composio_crewai-0.1.87.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [deep-utils]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/be/e7/eabd9e3c5068aa579827339f540a932a0e062b49dbfaa56c814863e4e201/composio_langchain-0.1.87.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/59/88/8d76342b393c1a94098c4f795f8c8caa6f9eb89ccee109aeb9b54c232cac/composio_core-0.1.87.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/18/8e/c1319c9400cd7c1ff7ab94166d09e4fdcfad9e285b948bdb71670d29bc8a/htagui-0.0.3.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [vidsrc-search]: Downloading https://files.pythonhosted.org/packages/74/6b/91c876ae0083b8adb0f8d0351990de8fe55dd80c21630217d8c466cddfdf/vidsrc-search-0.1.5.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/f9/fb/f71037d511d26be80901669701a0f3854ada46dc9ad22a9c3c29722fa0e3/composio_autogen-0.1.87.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [logrepl]: Downloading https://files.pythonhosted.org/packages/b8/49/13641263f6e5d7f734909fed00a4e876019b2587b6952dc52f193c464453/logrepl-0.2.3.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [smartschool]: Downloading https://files.pythonhosted.org/packages/fe/06/c79eb576abd3e0351bf22058e08ab3345ff5fbd99a5a9379f53e63329f93/smartschool-0.1.9.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [deep-utils]: Downloading https://files.pythonhosted.org/packages/49/68/f6e5c4226abe4bc6dd3b14531abddd5374e59fc2ce1832907d93f2855935/deep_utils-1.3.8.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/e8/24/64bd33dafc7e48f49f614e04dd97a54abe62315f42f3f5666c8ed0c119d8/weld_deps-0.3.1.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [vidsrc-search]: Downloading https://files.pythonhosted.org/packages/62/63/6ff340dfb054af2c3fe24284a154879e3017a23f17b99a06c5609b2f3ae6/vidsrc-search-0.2.0.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/7f/67/517f006204f5a78146efb0b10250188caae0c6e5100a3dea8205d97bbddf/composio_crewai-0.1.88.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d4/4b/c7a6c881819b77a4fdd55df8c912bf078c8542492179ea2d4fee8465eebd/composio_langchain-0.1.88.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/25/c3/71ded6595b9b385bf54eee90c56c7bd04b04c0537e60e37585cfb7757f8c/composio_core-0.1.88.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/74/03/a6d57dc2251f3d23728dec89cd4aa2e84b6bdd482566b5b4f49cd799401c/htagui-0.1.0.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/86/a9/364b29f32fee0b2cc8693135adfdd238e7033c2ac19db76170f4b01329c4/composio_autogen-0.1.88.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [logrepl]: Downloading https://files.pythonhosted.org/packages/54/0a/d7e9d1114b04702335283e9fda21edc7069c8026eeaf15e647703e4f64f9/logrepl-0.2.4.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [weld-deps]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [weld-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weld_deps-0.3.0.tar.gz tmp/weld_deps-0.3.1.tar.gz --markdown 20240412/w/weld-deps/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-12 08:31:52] INFO root fetch - processPackages [vidsrc-search]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [vidsrc-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidsrc-search-0.1.5.tar.gz tmp/vidsrc-search-0.2.0.tar.gz --markdown 20240412/v/vidsrc-search/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.1.87.tar.gz tmp/composio_crewai-0.1.88.tar.gz --markdown 20240412/c/composio-crewai/0.1.87-0.1.88/README.md --exclude *.pyd
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.1.87.tar.gz tmp/composio_langchain-0.1.88.tar.gz --markdown 20240412/c/composio-langchain/0.1.87-0.1.88/README.md --exclude *.pyd
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.1.87.tar.gz tmp/composio_core-0.1.88.tar.gz --markdown 20240412/c/composio-core/0.1.87-0.1.88/README.md --exclude *.pyd
+[2024-04-12 08:31:52] INFO root fetch - processPackages [htagui]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [htagui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagui-0.0.3.tar.gz tmp/htagui-0.1.0.tar.gz --markdown 20240412/h/htagui/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.1.87.tar.gz tmp/composio_autogen-0.1.88.tar.gz --markdown 20240412/c/composio-autogen/0.1.87-0.1.88/README.md --exclude *.pyd
+[2024-04-12 08:31:52] INFO root fetch - processPackages [smartschool]: Downloading https://files.pythonhosted.org/packages/ac/87/149629d5fb0a8a190cfd70d9df1ae34aabd41f87eae76b57012df1f17878/smartschool-0.2.0.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [logrepl]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [logrepl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logrepl-0.2.3.tar.gz tmp/logrepl-0.2.4.tar.gz --markdown 20240412/l/logrepl/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-12 08:31:52] INFO root fetch - processPackages [deep-utils]: Downloading https://files.pythonhosted.org/packages/e0/06/728eb7458cfb1b26de44010d59bef94cd9a590a00dac7dda13e3777e437c/deep_utils-1.3.9.tar.gz
+[2024-04-12 08:31:52] INFO root fetch - processPackages [smartschool]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [smartschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartschool-0.1.9.tar.gz tmp/smartschool-0.2.0.tar.gz --markdown 20240412/s/smartschool/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-12 08:31:52] INFO root fetch - processPackages [deep-utils]: executing diffoscope
+[2024-04-12 08:31:52] INFO root fetch - processPackages [deep-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_utils-1.3.8.tar.gz tmp/deep_utils-1.3.9.tar.gz --markdown 20240412/d/deep-utils/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-12 08:31:53] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.1.87.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.1.88.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-12 08:31:53] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.1.87.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.1.88.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-12 08:31:53] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.1.87.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.1.88.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-12 08:31:53] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.3.0.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.3.1.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
+[2024-04-12 08:31:53] INFO root fetch - processPackages [vidsrc-search]: Remove: archive file [/home/abi/fetcher/tmp/vidsrc-search-0.1.5.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - processPackages [vidsrc-search]: Remove: archive file [/home/abi/fetcher/tmp/vidsrc-search-0.2.0.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - main [MainThread]: End processing [vidsrc-search]: success
+[2024-04-12 08:31:53] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.1.87.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.1.88.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-12 08:31:53] INFO root fetch - processPackages [logrepl]: Remove: archive file [/home/abi/fetcher/tmp/logrepl-0.2.3.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - processPackages [logrepl]: Remove: archive file [/home/abi/fetcher/tmp/logrepl-0.2.4.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - main [MainThread]: End processing [logrepl]: success
+[2024-04-12 08:31:53] INFO root fetch - processPackages [smartschool]: Remove: archive file [/home/abi/fetcher/tmp/smartschool-0.1.9.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - processPackages [smartschool]: Remove: archive file [/home/abi/fetcher/tmp/smartschool-0.2.0.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - main [MainThread]: End processing [smartschool]: success
+[2024-04-12 08:31:53] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.0.3.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.1.0.tar.gz]
+[2024-04-12 08:31:53] INFO root fetch - main [MainThread]: End processing [htagui]: success
+[2024-04-12 08:31:54] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.8.tar.gz]
+[2024-04-12 08:31:54] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.9.tar.gz]
+[2024-04-12 08:31:54] INFO root fetch - main [MainThread]: End processing [deep-utils]: success
+[2024-04-12 08:31:54] INFO root fetch - main [MainThread]: Store serial: [22733516]
