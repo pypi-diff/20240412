@@ -18282,3 +18282,24 @@
 [2024-04-12 10:25:25] INFO root fetch - processPackages [iturtle]: Remove: archive file [/home/abi/fetcher/tmp/iturtle-0.8.6-py2.py3-none-any.whl.zip]
 [2024-04-12 10:25:25] INFO root fetch - main [MainThread]: End processing [iturtle]: success
 [2024-04-12 10:25:25] INFO root fetch - main [MainThread]: Store serial: [22734820]
+[2024-04-12 10:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734820]
+[2024-04-12 10:27:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 10:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-dash-components
+[2024-04-12 10:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlx-graphs
+[2024-04-12 10:27:36] INFO root fetch - processPackages [ssb-dash-components]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-12 10:27:36] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/c7/96/e07855a68dfd8fad0de913214c37f36448bf551040b3d84818acbd0dce6b/ssb_dash_components-0.6.1.tar.gz
+[2024-04-12 10:27:36] INFO root fetch - processPackages [mlx-graphs]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 10:27:37] INFO root fetch - processPackages [mlx-graphs]: Downloading https://files.pythonhosted.org/packages/d8/11/96d4181440fbe3fc7eb9c814147d8216211ccd7838881a2fcfd496852df4/mlx-graphs-0.0.5.tar.gz
+[2024-04-12 10:27:37] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/13/59/befebcc36691c45386f00aae5ecb3994add7243a4e71e3bc0f41fb176bec/ssb_dash_components-0.7.0.tar.gz
+[2024-04-12 10:27:37] INFO root fetch - processPackages [ssb-dash-components]: executing diffoscope
+[2024-04-12 10:27:37] INFO root fetch - processPackages [ssb-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_dash_components-0.6.1.tar.gz tmp/ssb_dash_components-0.7.0.tar.gz --markdown 20240412/s/ssb-dash-components/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-12 10:27:37] INFO root fetch - processPackages [mlx-graphs]: Downloading https://files.pythonhosted.org/packages/54/41/8c68ea4e3c82741197f4ecfe7c81c094aeac9ecbe7a8d0e8f8b969c9c6d6/mlx-graphs-0.0.6.tar.gz
+[2024-04-12 10:27:37] INFO root fetch - processPackages [mlx-graphs]: executing diffoscope
+[2024-04-12 10:27:37] INFO root fetch - processPackages [mlx-graphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx-graphs-0.0.5.tar.gz tmp/mlx-graphs-0.0.6.tar.gz --markdown 20240412/m/mlx-graphs/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 10:27:38] INFO root fetch - processPackages [mlx-graphs]: Remove: archive file [/home/abi/fetcher/tmp/mlx-graphs-0.0.5.tar.gz]
+[2024-04-12 10:27:38] INFO root fetch - processPackages [mlx-graphs]: Remove: archive file [/home/abi/fetcher/tmp/mlx-graphs-0.0.6.tar.gz]
+[2024-04-12 10:27:38] INFO root fetch - main [MainThread]: End processing [mlx-graphs]: success
+[2024-04-12 10:27:39] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.6.1.tar.gz]
+[2024-04-12 10:27:39] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.7.0.tar.gz]
+[2024-04-12 10:27:39] INFO root fetch - main [MainThread]: End processing [ssb-dash-components]: success
+[2024-04-12 10:27:39] INFO root fetch - main [MainThread]: Store serial: [22734844]
