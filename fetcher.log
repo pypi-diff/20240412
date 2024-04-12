@@ -19034,3 +19034,42 @@
 [2024-04-12 10:51:20] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
 [2024-04-12 10:51:20] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
 [2024-04-12 10:51:20] INFO root fetch - main [MainThread]: Store serial: [22735219]
+[2024-04-12 10:53:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735219]
+[2024-04-12 10:53:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 10:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fractal-server
+[2024-04-12 10:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrkutil
+[2024-04-12 10:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dinamis-sdk
+[2024-04-12 10:53:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyra
+[2024-04-12 10:53:31] INFO root fetch - processPackages [tinyra]: New version: [0.3.3rc1] Old Version: [0.3.2rc1]
+[2024-04-12 10:53:31] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-12 10:53:31] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a5] Old Version: [2.0.0a4]
+[2024-04-12 10:53:31] INFO root fetch - processPackages [tinyra]: Downloading https://files.pythonhosted.org/packages/5a/e0/439f560c560a41d1088c064cff3f3c1168c04e936a63060bfdbb6269e518/tinyra-0.3.2rc1.tar.gz
+[2024-04-12 10:53:31] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/0e/97/350b438f5e021961369ca3a60e4700eed1a33466e699ebfa3187acc545de/dinamis-sdk-0.1.0.tar.gz
+[2024-04-12 10:53:31] INFO root fetch - processPackages [mrkutil]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-12 10:53:31] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/41/c2/72564ac788d290f8b14cc5b205b06ccca0af04c3c62e6ec603939d170ca6/fractal_server-2.0.0a4.tar.gz
+[2024-04-12 10:53:31] INFO root fetch - processPackages [tinyra]: Downloading https://files.pythonhosted.org/packages/39/f0/03a28b0cbbf15e13390abf54a4ea3a001460eab1512ac458ed8120bc8485/tinyra-0.3.3rc1.tar.gz
+[2024-04-12 10:53:31] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/51/43/dc88ae4811229db5f834ea314ad3e2aeefd466ad757e0067792b002d6586/dinamis-sdk-0.1.2.tar.gz
+[2024-04-12 10:53:31] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/8d/c2/a606533e6b526e4f4a47a8a02f4f414770d99d2e5f815bd59c81c97faacb/mrkutil-1.2.0.tar.gz
+[2024-04-12 10:53:31] INFO root fetch - processPackages [tinyra]: executing diffoscope
+[2024-04-12 10:53:31] INFO root fetch - processPackages [tinyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyra-0.3.2rc1.tar.gz tmp/tinyra-0.3.3rc1.tar.gz --markdown 20240412/t/tinyra/0.3.2rc1-0.3.3rc1/README.md --exclude *.pyd
+[2024-04-12 10:53:31] INFO root fetch - processPackages [dinamis-sdk]: executing diffoscope
+[2024-04-12 10:53:31] INFO root fetch - processPackages [dinamis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinamis-sdk-0.1.0.tar.gz tmp/dinamis-sdk-0.1.2.tar.gz --markdown 20240412/d/dinamis-sdk/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-04-12 10:53:31] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/75/4f/f78cfaff9c9867bb91a1af4091e56c33c57c4dd5537eee040def1a377e44/mrkutil-1.2.1.tar.gz
+[2024-04-12 10:53:31] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/48/eb/3690aaaed4dfdb91cfedbe6c355bdb00656ce58e8fce4f4f06bb1ee777d8/fractal_server-2.0.0a5.tar.gz
+[2024-04-12 10:53:31] INFO root fetch - processPackages [mrkutil]: executing diffoscope
+[2024-04-12 10:53:31] INFO root fetch - processPackages [mrkutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrkutil-1.2.0.tar.gz tmp/mrkutil-1.2.1.tar.gz --markdown 20240412/m/mrkutil/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-12 10:53:31] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-12 10:53:31] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a4.tar.gz tmp/fractal_server-2.0.0a5.tar.gz --markdown 20240412/f/fractal-server/2.0.0a4-2.0.0a5/README.md --exclude *.pyd
+[2024-04-12 10:53:32] INFO root fetch - processPackages [tinyra]: Remove: archive file [/home/abi/fetcher/tmp/tinyra-0.3.2rc1.tar.gz]
+[2024-04-12 10:53:32] INFO root fetch - processPackages [tinyra]: Remove: archive file [/home/abi/fetcher/tmp/tinyra-0.3.3rc1.tar.gz]
+[2024-04-12 10:53:32] INFO root fetch - main [MainThread]: End processing [tinyra]: success
+[2024-04-12 10:53:32] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.1.0.tar.gz]
+[2024-04-12 10:53:32] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.1.2.tar.gz]
+[2024-04-12 10:53:32] INFO root fetch - main [MainThread]: End processing [dinamis-sdk]: success
+[2024-04-12 10:53:32] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.2.0.tar.gz]
+[2024-04-12 10:53:32] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.2.1.tar.gz]
+[2024-04-12 10:53:32] INFO root fetch - main [MainThread]: End processing [mrkutil]: success
+[2024-04-12 10:53:32] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a4.tar.gz]
+[2024-04-12 10:53:32] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a5.tar.gz]
+[2024-04-12 10:53:32] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-12 10:53:32] INFO root fetch - main [MainThread]: Store serial: [22735237]
