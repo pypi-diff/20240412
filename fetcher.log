@@ -19848,3 +19848,45 @@
 [2024-04-12 11:18:12] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-04-12 11:18:12] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-04-12 11:18:12] INFO root fetch - main [MainThread]: Store serial: [22735522]
+[2024-04-12 11:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735522]
+[2024-04-12 11:20:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 11:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Orange3-Tools
+[2024-04-12 11:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iii-api-helper
+[2024-04-12 11:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imap-box-up
+[2024-04-12 11:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-04-12 11:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reComputer
+[2024-04-12 11:20:21] INFO root fetch - processPackages [imap-box-up]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 11:20:21] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240411111228] Old Version: [3.3.1.dev20240411090226]
+[2024-04-12 11:20:21] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/e4/e7/aca02682020d9742d5aff47b4da3382437ab55c8430f0564755dcaf22d0d/imap_box_up-0.0.1.tar.gz
+[2024-04-12 11:20:21] INFO root fetch - processPackages [Orange3-Tools]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-12 11:20:21] WARNING root fetch - processPackages [reComputer]: Skipping, unable to determine old version
+[2024-04-12 11:20:21] INFO root fetch - main [MainThread]: End processing [reComputer] error
+[2024-04-12 11:20:21] INFO root fetch - processPackages [iii-api-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 11:20:21] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c2/44/afa77d2dc97e9802e35091d89cb6924e2f518b5e88a414fd99d7b867edb5/localstack-core-3.3.1.dev20240411090226.tar.gz
+[2024-04-12 11:20:22] INFO root fetch - processPackages [Orange3-Tools]: Downloading https://files.pythonhosted.org/packages/2d/d9/149225db131fa4f9c368dbd7d1734f1788727222526b87060f091dfdd1f1/Orange3-Tools-0.0.7.tar.gz
+[2024-04-12 11:20:22] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/95/4b/4af32d0b33e15c82ddd9e40750a0d118d58b4e8c214103479dcb652e31e8/imap_box_up-0.0.2.tar.gz
+[2024-04-12 11:20:22] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/2b/87/3ec24f67ddcf117569f64f40bbe99c9884baf3eadf42eb930622e1c2b35e/iii_api_helper-0.0.8.tar.gz
+[2024-04-12 11:20:22] INFO root fetch - processPackages [imap-box-up]: executing diffoscope
+[2024-04-12 11:20:22] INFO root fetch - processPackages [imap-box-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_box_up-0.0.1.tar.gz tmp/imap_box_up-0.0.2.tar.gz --markdown 20240412/i/imap-box-up/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 11:20:22] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e5/d8/08a244a54bcf31ed77873efe57707684b564e6a7d7cf0492a63bb2c1b979/localstack-core-3.3.1.dev20240411111228.tar.gz
+[2024-04-12 11:20:22] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/df/39/db373f60207c61e8415caed9d0d292767f5c23097ed67d6dd7bd7cf9a6f5/iii_api_helper-0.0.9.tar.gz
+[2024-04-12 11:20:22] INFO root fetch - processPackages [Orange3-Tools]: Downloading https://files.pythonhosted.org/packages/ae/6c/7d56e93958da28d0c33cf510580668a8342112dc2f7a1c0a37fae252fc82/Orange3-Tools-0.0.8.tar.gz
+[2024-04-12 11:20:22] INFO root fetch - processPackages [iii-api-helper]: executing diffoscope
+[2024-04-12 11:20:22] INFO root fetch - processPackages [iii-api-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iii_api_helper-0.0.8.tar.gz tmp/iii_api_helper-0.0.9.tar.gz --markdown 20240412/i/iii-api-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 11:20:22] INFO root fetch - processPackages [Orange3-Tools]: executing diffoscope
+[2024-04-12 11:20:22] INFO root fetch - processPackages [Orange3-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orange3-Tools-0.0.7.tar.gz tmp/Orange3-Tools-0.0.8.tar.gz --markdown 20240412/O/Orange3-Tools/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-12 11:20:22] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-12 11:20:22] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240411090226.tar.gz tmp/localstack-core-3.3.1.dev20240411111228.tar.gz --markdown 20240412/l/localstack-core/3.3.1.dev20240411090226-3.3.1.dev20240411111228/README.md --exclude *.pyd
+[2024-04-12 11:20:22] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.1.tar.gz]
+[2024-04-12 11:20:22] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.2.tar.gz]
+[2024-04-12 11:20:22] INFO root fetch - main [MainThread]: End processing [imap-box-up]: success
+[2024-04-12 11:20:23] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.8.tar.gz]
+[2024-04-12 11:20:23] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.9.tar.gz]
+[2024-04-12 11:20:23] INFO root fetch - main [MainThread]: End processing [iii-api-helper]: success
+[2024-04-12 11:20:23] INFO root fetch - processPackages [Orange3-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-Tools-0.0.7.tar.gz]
+[2024-04-12 11:20:23] INFO root fetch - processPackages [Orange3-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-Tools-0.0.8.tar.gz]
+[2024-04-12 11:20:23] INFO root fetch - main [MainThread]: End processing [Orange3-Tools]: success
+[2024-04-12 11:20:26] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240411090226.tar.gz]
+[2024-04-12 11:20:26] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240411111228.tar.gz]
+[2024-04-12 11:20:26] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-12 11:20:26] INFO root fetch - main [MainThread]: Store serial: [22735538]
