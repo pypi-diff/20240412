@@ -15308,3 +15308,72 @@
 [2024-04-12 08:14:18] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.7.tar.gz]
 [2024-04-12 08:14:18] INFO root fetch - main [MainThread]: End processing [pymatgen]: success
 [2024-04-12 08:14:18] INFO root fetch - main [MainThread]: Store serial: [22733354]
+[2024-04-12 08:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733354]
+[2024-04-12 08:16:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcsecond
+[2024-04-12 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nakamon
+[2024-04-12 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monterey
+[2024-04-12 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: actipy
+[2024-04-12 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: STC7-0
+[2024-04-12 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weld-deps
+[2024-04-12 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2024-04-12 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: YanSH
+[2024-04-12 08:16:28] INFO root fetch - processPackages [weld-deps]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-12 08:16:28] INFO root fetch - processPackages [monterey]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 08:16:28] INFO root fetch - processPackages [YanSH]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 08:16:28] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/ef/eb/98fb549d68efed5cd303f03d482161b63ef76cd6a07d673e6140810906a5/monterey-0.0.6.tar.gz
+[2024-04-12 08:16:28] INFO root fetch - processPackages [arcsecond]: New version: [3.1.0] Old Version: [3.0.3]
+[2024-04-12 08:16:28] INFO root fetch - processPackages [actipy]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-04-12 08:16:28] INFO root fetch - processPackages [nakamon]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-04-12 08:16:28] WARNING root fetch - processPackages [STC7-0]: Skipping, unable to determine old version
+[2024-04-12 08:16:28] INFO root fetch - main [MainThread]: End processing [STC7-0] error
+[2024-04-12 08:16:28] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20240411.0] Old Version: [16.0.20240328.0]
+[2024-04-12 08:16:28] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/9b/04/3810b1e7c9ed5a4726bf03c8cde14a2abcfb1f09fea40ef598d42656628f/weld_deps-0.1.0.tar.gz
+[2024-04-12 08:16:28] INFO root fetch - processPackages [YanSH]: Downloading https://files.pythonhosted.org/packages/b5/11/897f732282571b6fe2a39684b2bf8b3e32a13af38b785170418e46767664/YanSH-0.1.0.tar.gz
+[2024-04-12 08:16:28] INFO root fetch - processPackages [arcsecond]: Downloading https://files.pythonhosted.org/packages/1e/69/cd80396a7da1a45d8b10bb6f66012f5cd16a26cf8e534fbc856894cd0187/arcsecond-3.0.3.tar.gz
+[2024-04-12 08:16:28] INFO root fetch - processPackages [actipy]: Downloading https://files.pythonhosted.org/packages/8b/b7/4583892a03c7a1b783551703c0fc3dfc46efc653ced6fbc8f389ead19dcf/actipy-3.0.5.tar.gz
+[2024-04-12 08:16:28] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/80/e4/c8ed9c97fd6d91554402784249f24d016c6b61dcc9e92dbab047a775c475/nakamon-0.1.0a4.tar.gz
+[2024-04-12 08:16:28] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/86/a7/e5a0d8b3c406c4254a829cac4c2300dd7b5bfd98508dbd17a31ba640ab75/odoo_addons_oca_stock_logistics_workflow-16.0.20240328.0-py3-none-any.whl
+[2024-04-12 08:16:28] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/66/9d/32bbd369d2ec4c849265b295cdb52988b2a3d5e0dbf59ad632dfe01c35ed/monterey-0.0.7.tar.gz
+[2024-04-12 08:16:28] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 08:16:28] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.6.tar.gz tmp/monterey-0.0.7.tar.gz --markdown 20240412/m/monterey/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 08:16:29] INFO root fetch - processPackages [arcsecond]: Downloading https://files.pythonhosted.org/packages/fb/32/8e478352e10fa52c1b14c14d0701ed6bb89283d1bfdb2d47bfb9567e8191/arcsecond-3.1.0.tar.gz
+[2024-04-12 08:16:29] INFO root fetch - processPackages [YanSH]: Downloading https://files.pythonhosted.org/packages/1c/2d/b0d8a1e96e29add42f71bfb625ca0834d6e079b86c10406fe00676fc2959/YanSH-0.1.1.tar.gz
+[2024-04-12 08:16:29] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/97/53/24a6b4f14c8cf3881cafabb21d96a6950f5a5e7af9e140e90a08b62d4309/weld_deps-0.2.0.tar.gz
+[2024-04-12 08:16:29] INFO root fetch - processPackages [nakamon]: Downloading https://files.pythonhosted.org/packages/b4/35/2a87d9f772c3773be0953e453fd6cb509cfac4bee1b9574749ac1e2d86d8/nakamon-0.1.0a5.tar.gz
+[2024-04-12 08:16:29] INFO root fetch - processPackages [arcsecond]: executing diffoscope
+[2024-04-12 08:16:29] INFO root fetch - processPackages [arcsecond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcsecond-3.0.3.tar.gz tmp/arcsecond-3.1.0.tar.gz --markdown 20240412/a/arcsecond/3.0.3-3.1.0/README.md --exclude *.pyd
+[2024-04-12 08:16:29] INFO root fetch - processPackages [actipy]: Downloading https://files.pythonhosted.org/packages/04/3b/a553cb97d3510e1fbcce59161ff8dddb834b52c0b64597476b8097c9e676/actipy-3.0.6.tar.gz
+[2024-04-12 08:16:29] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/f0/75/85c1ae938353fcedad938dcec41e82a784e3566d7e1753a2c22413ef6ea4/odoo_addons_oca_stock_logistics_workflow-16.0.20240411.0-py3-none-any.whl
+[2024-04-12 08:16:29] INFO root fetch - processPackages [weld-deps]: executing diffoscope
+[2024-04-12 08:16:29] INFO root fetch - processPackages [weld-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weld_deps-0.1.0.tar.gz tmp/weld_deps-0.2.0.tar.gz --markdown 20240412/w/weld-deps/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-12 08:16:29] INFO root fetch - processPackages [YanSH]: executing diffoscope
+[2024-04-12 08:16:29] INFO root fetch - processPackages [YanSH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YanSH-0.1.0.tar.gz tmp/YanSH-0.1.1.tar.gz --markdown 20240412/Y/YanSH/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 08:16:29] INFO root fetch - processPackages [nakamon]: executing diffoscope
+[2024-04-12 08:16:29] INFO root fetch - processPackages [nakamon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nakamon-0.1.0a4.tar.gz tmp/nakamon-0.1.0a5.tar.gz --markdown 20240412/n/nakamon/0.1.0a4-0.1.0a5/README.md --exclude *.pyd
+[2024-04-12 08:16:29] INFO root fetch - processPackages [actipy]: executing diffoscope
+[2024-04-12 08:16:29] INFO root fetch - processPackages [actipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actipy-3.0.5.tar.gz tmp/actipy-3.0.6.tar.gz --markdown 20240412/a/actipy/3.0.5-3.0.6/README.md --exclude *.pyd
+[2024-04-12 08:16:29] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2024-04-12 08:16:29] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240328.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240411.0-py3-none-any.whl.zip --markdown 20240412/o/odoo-addons-oca-stock-logistics-workflow/16.0.20240328.0-16.0.20240411.0/README.md --exclude *.pyd
+[2024-04-12 08:16:29] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.6.tar.gz]
+[2024-04-12 08:16:29] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.7.tar.gz]
+[2024-04-12 08:16:29] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 08:16:29] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a4.tar.gz]
+[2024-04-12 08:16:29] INFO root fetch - processPackages [nakamon]: Remove: archive file [/home/abi/fetcher/tmp/nakamon-0.1.0a5.tar.gz]
+[2024-04-12 08:16:29] INFO root fetch - main [MainThread]: End processing [nakamon]: success
+[2024-04-12 08:16:30] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240328.0-py3-none-any.whl.zip]
+[2024-04-12 08:16:30] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240411.0-py3-none-any.whl.zip]
+[2024-04-12 08:16:30] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2024-04-12 08:16:30] INFO root fetch - processPackages [YanSH]: Remove: archive file [/home/abi/fetcher/tmp/YanSH-0.1.0.tar.gz]
+[2024-04-12 08:16:30] INFO root fetch - processPackages [YanSH]: Remove: archive file [/home/abi/fetcher/tmp/YanSH-0.1.1.tar.gz]
+[2024-04-12 08:16:30] INFO root fetch - main [MainThread]: End processing [YanSH]: success
+[2024-04-12 08:16:30] INFO root fetch - processPackages [arcsecond]: Remove: archive file [/home/abi/fetcher/tmp/arcsecond-3.0.3.tar.gz]
+[2024-04-12 08:16:30] INFO root fetch - processPackages [arcsecond]: Remove: archive file [/home/abi/fetcher/tmp/arcsecond-3.1.0.tar.gz]
+[2024-04-12 08:16:30] INFO root fetch - main [MainThread]: End processing [arcsecond]: success
+[2024-04-12 08:16:30] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.1.0.tar.gz]
+[2024-04-12 08:16:30] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.2.0.tar.gz]
+[2024-04-12 08:16:30] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
+[2024-04-12 08:16:34] INFO root fetch - processPackages [actipy]: Remove: archive file [/home/abi/fetcher/tmp/actipy-3.0.5.tar.gz]
+[2024-04-12 08:16:34] INFO root fetch - processPackages [actipy]: Remove: archive file [/home/abi/fetcher/tmp/actipy-3.0.6.tar.gz]
+[2024-04-12 08:16:34] INFO root fetch - main [MainThread]: End processing [actipy]: success
+[2024-04-12 08:16:34] INFO root fetch - main [MainThread]: Store serial: [22733378]
