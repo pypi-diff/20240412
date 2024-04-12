@@ -3052,3 +3052,45 @@
 [2024-04-12 02:31:23] INFO root fetch - processPackages [cuspatial-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuspatial_cu12-24.4.0.tar.gz]
 [2024-04-12 02:31:23] INFO root fetch - main [MainThread]: End processing [cuspatial-cu12]: success
 [2024-04-12 02:31:23] INFO root fetch - main [MainThread]: Store serial: [22728641]
+[2024-04-12 02:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728641]
+[2024-04-12 02:33:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 02:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trinnov-altitude
+[2024-04-12 02:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyeda2ato
+[2024-04-12 02:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynyairbnb
+[2024-04-12 02:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qbraid-core
+[2024-04-12 02:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flipt
+[2024-04-12 02:33:31] INFO root fetch - processPackages [qbraid-core]: New version: [0.1.2.dev1] Old Version: [0.1.2.dev0]
+[2024-04-12 02:33:31] INFO root fetch - processPackages [easyeda2ato]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-12 02:33:31] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 02:33:31] INFO root fetch - processPackages [flipt]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-12 02:33:31] INFO root fetch - processPackages [easyeda2ato]: Downloading https://files.pythonhosted.org/packages/6a/7a/263752fd7eaf094467100c4e67dfc8364b04a323ae43ce1348e859910a60/easyeda2ato-0.2.4.tar.gz
+[2024-04-12 02:33:31] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/e4/ad/169810413c21e2c593e82ea39ba4c92b32cca2d1928f2f133bdc2dd5774d/trinnov-altitude-0.1.8.tar.gz
+[2024-04-12 02:33:31] WARNING root fetch - processPackages [pynyairbnb]: Skipping, unable to determine old version
+[2024-04-12 02:33:31] INFO root fetch - main [MainThread]: End processing [pynyairbnb] error
+[2024-04-12 02:33:31] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/6a/82/0bb7a08424a70804b8aac9b467720d6bd5dd5f4359da517285ad69a49fc0/qbraid-core-0.1.2.dev0.tar.gz
+[2024-04-12 02:33:31] INFO root fetch - processPackages [flipt]: Downloading https://files.pythonhosted.org/packages/e9/58/eea245f64629e68375d0e0530b23dd3a2d3677abd9d31ee215e38a6392e6/flipt-1.3.0.tar.gz
+[2024-04-12 02:33:31] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/76/2e/d188a8568df2fbd157a92850369057419ef690d42167df73acfde0838f4e/trinnov-altitude-0.1.9.tar.gz
+[2024-04-12 02:33:32] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-12 02:33:32] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.8.tar.gz tmp/trinnov-altitude-0.1.9.tar.gz --markdown 20240412/t/trinnov-altitude/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 02:33:32] INFO root fetch - processPackages [easyeda2ato]: Downloading https://files.pythonhosted.org/packages/83/50/3566788965d7d44f0bef6222b268fc621361cc104182a46bb036db86d626/easyeda2ato-0.2.5-py3-none-any.whl
+[2024-04-12 02:33:32] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/d8/65/b32ccd3851b6d87b1d7f3a8054da0a2d2397c3ce2e69eefb6b0c6f2d8e98/qbraid-core-0.1.2.dev1.tar.gz
+[2024-04-12 02:33:32] INFO root fetch - processPackages [easyeda2ato]: executing diffoscope
+[2024-04-12 02:33:32] INFO root fetch - processPackages [easyeda2ato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyeda2ato-0.2.4.tar.gz tmp/easyeda2ato-0.2.5-py3-none-any.whl.zip --markdown 20240412/e/easyeda2ato/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-12 02:33:32] INFO root fetch - processPackages [flipt]: Downloading https://files.pythonhosted.org/packages/1d/23/fb86635671806543259f0a6c9eab05c63974e032712cf056efbc6e97cb2e/flipt-1.4.0.tar.gz
+[2024-04-12 02:33:32] INFO root fetch - processPackages [qbraid-core]: executing diffoscope
+[2024-04-12 02:33:32] INFO root fetch - processPackages [qbraid-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-core-0.1.2.dev0.tar.gz tmp/qbraid-core-0.1.2.dev1.tar.gz --markdown 20240412/q/qbraid-core/0.1.2.dev0-0.1.2.dev1/README.md --exclude *.pyd
+[2024-04-12 02:33:32] INFO root fetch - processPackages [flipt]: executing diffoscope
+[2024-04-12 02:33:32] INFO root fetch - processPackages [flipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flipt-1.3.0.tar.gz tmp/flipt-1.4.0.tar.gz --markdown 20240412/f/flipt/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-12 02:33:32] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.8.tar.gz]
+[2024-04-12 02:33:32] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.9.tar.gz]
+[2024-04-12 02:33:32] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-12 02:33:32] INFO root fetch - processPackages [easyeda2ato]: Remove: archive file [/home/abi/fetcher/tmp/easyeda2ato-0.2.4.tar.gz]
+[2024-04-12 02:33:32] INFO root fetch - processPackages [easyeda2ato]: Remove: archive file [/home/abi/fetcher/tmp/easyeda2ato-0.2.5-py3-none-any.whl.zip]
+[2024-04-12 02:33:32] INFO root fetch - main [MainThread]: End processing [easyeda2ato]: success
+[2024-04-12 02:33:32] INFO root fetch - processPackages [flipt]: Remove: archive file [/home/abi/fetcher/tmp/flipt-1.3.0.tar.gz]
+[2024-04-12 02:33:32] INFO root fetch - processPackages [flipt]: Remove: archive file [/home/abi/fetcher/tmp/flipt-1.4.0.tar.gz]
+[2024-04-12 02:33:32] INFO root fetch - main [MainThread]: End processing [flipt]: success
+[2024-04-12 02:33:32] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.2.dev0.tar.gz]
+[2024-04-12 02:33:32] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.2.dev1.tar.gz]
+[2024-04-12 02:33:32] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
+[2024-04-12 02:33:33] INFO root fetch - main [MainThread]: Store serial: [22728659]
