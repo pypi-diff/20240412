@@ -14435,3 +14435,33 @@
 [2024-04-12 07:21:22] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-12 07:21:22] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-04-12 07:21:22] INFO root fetch - main [MainThread]: Store serial: [22733004]
+[2024-04-12 07:23:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733004]
+[2024-04-12 07:23:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 07:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: octoflow
+[2024-04-12 07:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs.fs
+[2024-04-12 07:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: refvars
+[2024-04-12 07:23:31] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 07:23:31] INFO root fetch - processPackages [cs.fs]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 07:23:31] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-04-12 07:23:31] INFO root fetch - processPackages [refvars]: New version: [0.6] Old Version: [0.5]
+[2024-04-12 07:23:31] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-04-12 07:23:31] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/5a/3a/3981b75df6c6448687dcac459afe492e2b67479bdfdef2ced25051b94f39/refvars-0.5-py3-none-any.whl
+[2024-04-12 07:23:32] INFO root fetch - processPackages [cs.fs]: Downloading https://files.pythonhosted.org/packages/ec/0a/3dfc607ec3a8b1e61cb10026b1c9350d1d38ed01c4a589dfa3dacfc8a897/cs.fs-20240316.tar.gz
+[2024-04-12 07:23:32] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-04-12 07:23:32] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240412/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 07:23:32] INFO root fetch - processPackages [refvars]: Downloading https://files.pythonhosted.org/packages/d4/91/65f6cb985945e4db520fa4bab1c72c8351a10093430c4af90cc56b28c4e2/refvars-0.6-py3-none-any.whl
+[2024-04-12 07:23:32] INFO root fetch - processPackages [cs.fs]: Downloading https://files.pythonhosted.org/packages/ce/30/df0941382bbcfd14ea8b9042b6c4b037c7f8f6195233b13874bc50511419/cs.fs-20240412.tar.gz
+[2024-04-12 07:23:32] INFO root fetch - processPackages [cs.fs]: executing diffoscope
+[2024-04-12 07:23:32] INFO root fetch - processPackages [cs.fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.fs-20240316.tar.gz tmp/cs.fs-20240412.tar.gz --markdown 20240412/c/cs.fs/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 07:23:32] INFO root fetch - processPackages [refvars]: executing diffoscope
+[2024-04-12 07:23:32] INFO root fetch - processPackages [refvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refvars-0.5-py3-none-any.whl.zip tmp/refvars-0.6-py3-none-any.whl.zip --markdown 20240412/r/refvars/0.5-0.6/README.md --exclude *.pyd
+[2024-04-12 07:23:32] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-04-12 07:23:32] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-04-12 07:23:32] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-04-12 07:23:33] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.5-py3-none-any.whl.zip]
+[2024-04-12 07:23:33] INFO root fetch - processPackages [refvars]: Remove: archive file [/home/abi/fetcher/tmp/refvars-0.6-py3-none-any.whl.zip]
+[2024-04-12 07:23:33] INFO root fetch - main [MainThread]: End processing [refvars]: success
+[2024-04-12 07:23:33] INFO root fetch - processPackages [cs.fs]: Remove: archive file [/home/abi/fetcher/tmp/cs.fs-20240316.tar.gz]
+[2024-04-12 07:23:33] INFO root fetch - processPackages [cs.fs]: Remove: archive file [/home/abi/fetcher/tmp/cs.fs-20240412.tar.gz]
+[2024-04-12 07:23:33] INFO root fetch - main [MainThread]: End processing [cs.fs]: success
+[2024-04-12 07:23:33] INFO root fetch - main [MainThread]: Store serial: [22733012]
