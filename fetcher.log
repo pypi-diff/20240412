@@ -12165,3 +12165,51 @@
 [2024-04-12 04:57:14] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.1-py3-none-any.whl.zip]
 [2024-04-12 04:57:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
 [2024-04-12 04:57:14] INFO root fetch - main [MainThread]: Store serial: [22732020]
+[2024-04-12 04:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732020]
+[2024-04-12 04:59:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycityagent
+[2024-04-12 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octoflow
+[2024-04-12 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastode
+[2024-04-12 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DBService
+[2024-04-12 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gctree
+[2024-04-12 04:59:22] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 04:59:23] INFO root fetch - processPackages [gctree]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-04-12 04:59:23] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [pycityagent]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-12 04:59:23] INFO root fetch - processPackages [DBService]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-12 04:59:23] INFO root fetch - processPackages [fastode]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-12 04:59:23] INFO root fetch - processPackages [gctree]: Downloading https://files.pythonhosted.org/packages/58/f7/792bf3a51bf36f485752a4a762d7a08b5958f0432703b4ed826d962f39ee/gctree-4.2.0.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/dc/da/fab422da9dffafbebeb3119cf5aca61ed8f23ca2a13c4d4f04191ca0c63e/pycityagent-1.1.2.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [DBService]: Downloading https://files.pythonhosted.org/packages/2f/14/b7367851f9481933866f2183a3a97bc109553de770434b4eeda5d9862e98/dbservice-2.1.2.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [fastode]: Downloading https://files.pythonhosted.org/packages/bf/7a/e9e11d36bed3f4d73ec5d0dcd86e3765e89854358de2be2e9970dce85894/fastode-0.1.2.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-04-12 04:59:23] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240412/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 04:59:23] INFO root fetch - processPackages [gctree]: Downloading https://files.pythonhosted.org/packages/18/31/cc0d0d290542e4b961520e95f91c9c286b9616703e443adf82c89f339fd2/gctree-4.2.1.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [DBService]: Downloading https://files.pythonhosted.org/packages/5c/6a/91e4e7ac10af4f5a067b772d8849eb820814f511a2c84597927c03f3fe9e/dbservice-2.1.3.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/cb/f3/ebf270604dadf55629eaebf75216132c2590e0ff15c3a0686c0953d0ccc4/pycityagent-1.1.3.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [fastode]: Downloading https://files.pythonhosted.org/packages/37/54/c77a1ed03db55496618a9c73347852cf673414b4c20277ab73adee54f45f/fastode-0.1.3.tar.gz
+[2024-04-12 04:59:23] INFO root fetch - processPackages [DBService]: executing diffoscope
+[2024-04-12 04:59:23] INFO root fetch - processPackages [DBService]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbservice-2.1.2.tar.gz tmp/dbservice-2.1.3.tar.gz --markdown 20240412/D/DBService/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-12 04:59:23] INFO root fetch - processPackages [pycityagent]: executing diffoscope
+[2024-04-12 04:59:23] INFO root fetch - processPackages [pycityagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycityagent-1.1.2.tar.gz tmp/pycityagent-1.1.3.tar.gz --markdown 20240412/p/pycityagent/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-12 04:59:23] INFO root fetch - processPackages [gctree]: executing diffoscope
+[2024-04-12 04:59:23] INFO root fetch - processPackages [gctree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gctree-4.2.0.tar.gz tmp/gctree-4.2.1.tar.gz --markdown 20240412/g/gctree/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-04-12 04:59:23] INFO root fetch - processPackages [fastode]: executing diffoscope
+[2024-04-12 04:59:23] INFO root fetch - processPackages [fastode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastode-0.1.2.tar.gz tmp/fastode-0.1.3.tar.gz --markdown 20240412/f/fastode/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-12 04:59:24] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-04-12 04:59:24] INFO root fetch - processPackages [DBService]: Remove: archive file [/home/abi/fetcher/tmp/dbservice-2.1.2.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - processPackages [DBService]: Remove: archive file [/home/abi/fetcher/tmp/dbservice-2.1.3.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - main [MainThread]: End processing [DBService]: success
+[2024-04-12 04:59:24] INFO root fetch - processPackages [fastode]: Remove: archive file [/home/abi/fetcher/tmp/fastode-0.1.2.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - processPackages [fastode]: Remove: archive file [/home/abi/fetcher/tmp/fastode-0.1.3.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - main [MainThread]: End processing [fastode]: success
+[2024-04-12 04:59:24] INFO root fetch - processPackages [gctree]: Remove: archive file [/home/abi/fetcher/tmp/gctree-4.2.0.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - processPackages [gctree]: Remove: archive file [/home/abi/fetcher/tmp/gctree-4.2.1.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - main [MainThread]: End processing [gctree]: success
+[2024-04-12 04:59:24] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.2.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.3.tar.gz]
+[2024-04-12 04:59:24] INFO root fetch - main [MainThread]: End processing [pycityagent]: success
+[2024-04-12 04:59:24] INFO root fetch - main [MainThread]: Store serial: [22732061]
