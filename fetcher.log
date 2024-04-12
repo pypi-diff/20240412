@@ -11323,3 +11323,45 @@
 [2024-04-12 03:56:19] INFO root fetch - processPackages [openaichatlib]: Remove: archive file [/home/abi/fetcher/tmp/openaichatlib-1.0.5.tar.gz]
 [2024-04-12 03:56:19] INFO root fetch - main [MainThread]: End processing [openaichatlib]: success
 [2024-04-12 03:56:19] INFO root fetch - main [MainThread]: Store serial: [22731591]
+[2024-04-12 03:58:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731591]
+[2024-04-12 03:58:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 03:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaggle
+[2024-04-12 03:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-tagging-model
+[2024-04-12 03:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-honeybee
+[2024-04-12 03:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-dragonfly
+[2024-04-12 03:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cuvs-cu12
+[2024-04-12 03:58:28] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.4a5] Old Version: [0.1.4a4]
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-12 03:58:28] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/82/55/cb00da342f3d1ec95377f627dee88c5486036c799530ee02503272401b70/text_tagging_model-0.1.4a4.tar.gz
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-12 03:58:28] INFO root fetch - processPackages [kaggle]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-12 03:58:28] ERROR root fetch - processPackages [cuvs-cu12]: Unable to get metadata: No such project 'cuvs-cu12'
+[2024-04-12 03:58:28] INFO root fetch - main [MainThread]: End processing [cuvs-cu12] error
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-04-12 03:58:28] INFO root fetch - processPackages [kaggle]: Downloading https://files.pythonhosted.org/packages/d8/24/e0300e0be3943a7d667552352dbd3985c1338210c31855993e73c434b8ae/kaggle-1.6.8.tar.gz
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-12 03:58:28] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/48/bf/95aa658a5da1080014b9cfb98ade635819de2fc61908ca62d292e683cf1f/text_tagging_model-0.1.4a5.tar.gz
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240412/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-12 03:58:28] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240412/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-12 03:58:28] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-12 03:58:28] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.4a4.tar.gz tmp/text_tagging_model-0.1.4a5.tar.gz --markdown 20240412/t/text-tagging-model/0.1.4a4-0.1.4a5/README.md --exclude *.pyd
+[2024-04-12 03:58:28] INFO root fetch - processPackages [kaggle]: Downloading https://files.pythonhosted.org/packages/95/06/00bc695e4270dc477f7b9bc8f595acf909ea72272a05fe10f5547905cdcf/kaggle-1.6.9.tar.gz
+[2024-04-12 03:58:28] INFO root fetch - processPackages [kaggle]: executing diffoscope
+[2024-04-12 03:58:28] INFO root fetch - processPackages [kaggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaggle-1.6.8.tar.gz tmp/kaggle-1.6.9.tar.gz --markdown 20240412/k/kaggle/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-12 03:58:29] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-04-12 03:58:29] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-04-12 03:58:29] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-04-12 03:58:29] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.4a4.tar.gz]
+[2024-04-12 03:58:29] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.4a5.tar.gz]
+[2024-04-12 03:58:29] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-12 03:58:29] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-12 03:58:29] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-12 03:58:29] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-12 03:58:29] INFO root fetch - processPackages [kaggle]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-1.6.8.tar.gz]
+[2024-04-12 03:58:29] INFO root fetch - processPackages [kaggle]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-1.6.9.tar.gz]
+[2024-04-12 03:58:29] INFO root fetch - main [MainThread]: End processing [kaggle]: success
+[2024-04-12 03:58:29] INFO root fetch - main [MainThread]: Store serial: [22731606]
