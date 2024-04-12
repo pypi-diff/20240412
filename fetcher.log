@@ -3395,3 +3395,36 @@
 [2024-04-12 02:54:32] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-1.0.6.tar.gz]
 [2024-04-12 02:54:32] INFO root fetch - main [MainThread]: End processing [freedownload]: success
 [2024-04-12 02:54:32] INFO root fetch - main [MainThread]: Store serial: [22728819]
+[2024-04-12 02:56:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728819]
+[2024-04-12 02:56:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 02:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firecrawl-py
+[2024-04-12 02:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pigeonsai
+[2024-04-12 02:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vnpy-rohon
+[2024-04-12 02:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aerospace-chatbot
+[2024-04-12 02:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gen-data
+[2024-04-12 02:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqldev
+[2024-04-12 02:56:41] WARNING root fetch - processPackages [sqldev]: Skipping, unable to determine old version
+[2024-04-12 02:56:41] INFO root fetch - main [MainThread]: End processing [sqldev] error
+[2024-04-12 02:56:41] WARNING root fetch - processPackages [aerospace-chatbot]: Skipping, unable to determine old version
+[2024-04-12 02:56:41] INFO root fetch - main [MainThread]: End processing [aerospace-chatbot] error
+[2024-04-12 02:56:42] WARNING root fetch - processPackages [gen-data]: Skipping, unable to determine old version
+[2024-04-12 02:56:42] INFO root fetch - main [MainThread]: End processing [gen-data] error
+[2024-04-12 02:56:42] WARNING root fetch - processPackages [firecrawl-py]: Skipping, unable to determine old version
+[2024-04-12 02:56:42] INFO root fetch - main [MainThread]: End processing [firecrawl-py] error
+[2024-04-12 02:56:42] INFO root fetch - processPackages [vnpy-rohon]: New version: [6.5.1.8] Old Version: [6.5.1.7]
+[2024-04-12 02:56:42] INFO root fetch - processPackages [pigeonsai]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-12 02:56:42] INFO root fetch - processPackages [vnpy-rohon]: Downloading https://files.pythonhosted.org/packages/2c/49/b9796d1128d8c3d3569567dd65242082852197c81daed707904e21cddf6d/vnpy_rohon-6.5.1.7.tar.gz
+[2024-04-12 02:56:42] INFO root fetch - processPackages [pigeonsai]: Downloading https://files.pythonhosted.org/packages/0d/8c/9e728bb0ce6c4ecae57500e497064f134bcb7acd291f15ae29d6c0a598ca/pigeonsai-1.0.5.tar.gz
+[2024-04-12 02:56:42] INFO root fetch - processPackages [pigeonsai]: Downloading https://files.pythonhosted.org/packages/f9/91/db39440c109782fdfb814f0cccda3741024272b910234bac1684a9f76b12/pigeonsai-1.0.6.tar.gz
+[2024-04-12 02:56:42] INFO root fetch - processPackages [pigeonsai]: executing diffoscope
+[2024-04-12 02:56:42] INFO root fetch - processPackages [pigeonsai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonsai-1.0.5.tar.gz tmp/pigeonsai-1.0.6.tar.gz --markdown 20240412/p/pigeonsai/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-12 02:56:43] INFO root fetch - processPackages [vnpy-rohon]: Downloading https://files.pythonhosted.org/packages/3c/8f/477be213e780038ec0d895a678e1e6a80b76c3de73e29a781796b5aff199/vnpy_rohon-6.5.1.8.tar.gz
+[2024-04-12 02:56:43] INFO root fetch - processPackages [pigeonsai]: Remove: archive file [/home/abi/fetcher/tmp/pigeonsai-1.0.5.tar.gz]
+[2024-04-12 02:56:43] INFO root fetch - processPackages [pigeonsai]: Remove: archive file [/home/abi/fetcher/tmp/pigeonsai-1.0.6.tar.gz]
+[2024-04-12 02:56:43] INFO root fetch - main [MainThread]: End processing [pigeonsai]: success
+[2024-04-12 02:56:43] INFO root fetch - processPackages [vnpy-rohon]: executing diffoscope
+[2024-04-12 02:56:43] INFO root fetch - processPackages [vnpy-rohon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_rohon-6.5.1.7.tar.gz tmp/vnpy_rohon-6.5.1.8.tar.gz --markdown 20240412/v/vnpy-rohon/6.5.1.7-6.5.1.8/README.md --exclude *.pyd
+[2024-04-12 02:56:49] INFO root fetch - processPackages [vnpy-rohon]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_rohon-6.5.1.7.tar.gz]
+[2024-04-12 02:56:49] INFO root fetch - processPackages [vnpy-rohon]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_rohon-6.5.1.8.tar.gz]
+[2024-04-12 02:56:49] INFO root fetch - main [MainThread]: End processing [vnpy-rohon]: success
+[2024-04-12 02:56:49] INFO root fetch - main [MainThread]: Store serial: [22728840]
