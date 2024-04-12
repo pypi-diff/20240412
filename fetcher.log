@@ -19286,3 +19286,90 @@
 [2024-04-12 11:02:34] INFO root fetch - processPackages [tinyra]: Remove: archive file [/home/abi/fetcher/tmp/tinyra-0.3.3rc2.tar.gz]
 [2024-04-12 11:02:34] INFO root fetch - main [MainThread]: End processing [tinyra]: success
 [2024-04-12 11:02:34] INFO root fetch - main [MainThread]: Store serial: [22735319]
+[2024-04-12 11:04:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735319]
+[2024-04-12 11:04:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openxlab
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyzamzar
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eezo
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioxdl
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bbrc-pyxnat
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m3-gar
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OSBModelValidation
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imap-box-up
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dinamis-sdk
+[2024-04-12 11:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.common
+[2024-04-12 11:04:43] WARNING root fetch - processPackages [pyzamzar]: Skipping, unable to determine old version
+[2024-04-12 11:04:43] INFO root fetch - main [MainThread]: End processing [pyzamzar] error
+[2024-04-12 11:04:43] INFO root fetch - processPackages [aioxdl]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-04-12 11:04:43] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-12 11:04:43] INFO root fetch - processPackages [m3-gar]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-12 11:04:43] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.0b20240411] Old Version: [1.1.0b20240410]
+[2024-04-12 11:04:43] INFO root fetch - processPackages [openxlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 11:04:43] INFO root fetch - processPackages [eezo]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-12 11:04:43] INFO root fetch - processPackages [imap-box-up]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 11:04:43] INFO root fetch - processPackages [bbrc-pyxnat]: New version: [1.6.3.dev1] Old Version: [1.6.2]
+[2024-04-12 11:04:43] INFO root fetch - processPackages [OSBModelValidation]: New version: [0.2.19] Old Version: [0.2.18]
+[2024-04-12 11:04:43] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/82/c5/c0226478e0a4911853335a789765c4b0ebe2533108d4c20ca4ab6e5463a1/dinamis-sdk-0.0.9.tar.gz
+[2024-04-12 11:04:43] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/2f/03/b3437681a2570b6575ecb6b3694c1e14b9237876c4207eca6a0a682cd19c/aioxdl-0.0.12.tar.gz
+[2024-04-12 11:04:43] INFO root fetch - processPackages [m3-gar]: Downloading https://files.pythonhosted.org/packages/9c/c2/c765952f58aa08390bf179a4ff03fe88352830b23015f1e0ae2d231e72b6/m3-gar-1.0.9.tar.gz
+[2024-04-12 11:04:43] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/c1/33/2766cbcb10985fa6f59c2e4c106907a4ead497b4bdb3f776f44a6d44ab0b/autogluon.common-1.1.0b20240410.tar.gz
+[2024-04-12 11:04:43] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/e4/e7/aca02682020d9742d5aff47b4da3382437ab55c8430f0564755dcaf22d0d/imap_box_up-0.0.1.tar.gz
+[2024-04-12 11:04:43] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/15/30/be441387afb790b5918a8734ea88959308fed6671e1c66c27dd9f26eb28c/openxlab-0.0.8.tar.gz
+[2024-04-12 11:04:43] INFO root fetch - processPackages [eezo]: Downloading https://files.pythonhosted.org/packages/00/b3/ad78e7572e0d0bf60284daa2c25cf7f4cd80e2bc16406486219772bf048b/eezo-0.1.8.tar.gz
+[2024-04-12 11:04:43] INFO root fetch - processPackages [OSBModelValidation]: Downloading https://files.pythonhosted.org/packages/39/2d/4a94a0d016ee64c99f61cf21ef5b06501cc9ab8cfcb4cbe0b75fd473428a/OSBModelValidation-0.2.18.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [bbrc-pyxnat]: Downloading https://files.pythonhosted.org/packages/7e/8c/def7b9b53692e753d45773afe84044db02787e9f07bcf49df732757abbc5/bbrc-pyxnat-1.6.2.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/0e/97/350b438f5e021961369ca3a60e4700eed1a33466e699ebfa3187acc545de/dinamis-sdk-0.1.0.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/ca/79/7adb41a575d4c66eac61636c4902fffee9cef4aac4d72eb33afb253f2a08/aioxdl-0.0.13.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [m3-gar]: Downloading https://files.pythonhosted.org/packages/a5/2f/7d2706b3a426e8f2296e9f1e0e605286867a6c97317a0df2153853f4c051/m3-gar-1.1.0.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/03/0d/422819f5e207a45b747e96da116f2c86f5bf6a4b95b6c5e3aa3b4e9dc0f0/autogluon.common-1.1.0b20240411.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [m3-gar]: executing diffoscope
+[2024-04-12 11:04:44] INFO root fetch - processPackages [m3-gar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-gar-1.0.9.tar.gz tmp/m3-gar-1.1.0.tar.gz --markdown 20240412/m/m3-gar/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-12 11:04:44] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-04-12 11:04:44] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.12.tar.gz tmp/aioxdl-0.0.13.tar.gz --markdown 20240412/a/aioxdl/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-04-12 11:04:44] INFO root fetch - processPackages [dinamis-sdk]: executing diffoscope
+[2024-04-12 11:04:44] INFO root fetch - processPackages [dinamis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinamis-sdk-0.0.9.tar.gz tmp/dinamis-sdk-0.1.0.tar.gz --markdown 20240412/d/dinamis-sdk/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-12 11:04:44] INFO root fetch - processPackages [eezo]: Downloading https://files.pythonhosted.org/packages/4b/05/d8578794c6ef258228ba36d2af494a860a87e7ae0e7084c21be19285e39a/eezo-0.2.0.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/6a/1d/5228aeb4ea0ccbdd809515190411e99f89a35bd35fc8834087f7052355b5/openxlab-0.0.9.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/95/4b/4af32d0b33e15c82ddd9e40750a0d118d58b4e8c214103479dcb652e31e8/imap_box_up-0.0.2.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [OSBModelValidation]: Downloading https://files.pythonhosted.org/packages/b0/07/bbfd33329f082e603d6061a80a70b99c52c3ad18c0a4186538b0ae143e16/OSBModelValidation-0.2.19.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-12 11:04:44] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.0b20240410.tar.gz tmp/autogluon.common-1.1.0b20240411.tar.gz --markdown 20240412/a/autogluon.common/1.1.0b20240410-1.1.0b20240411/README.md --exclude *.pyd
+[2024-04-12 11:04:44] INFO root fetch - processPackages [bbrc-pyxnat]: Downloading https://files.pythonhosted.org/packages/d3/6d/9220183eb1241a2521b66f755fc6b5a160c03d88561c9d8cde1fb314ab34/bbrc-pyxnat-1.6.3.dev1.tar.gz
+[2024-04-12 11:04:44] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2024-04-12 11:04:44] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.8.tar.gz tmp/openxlab-0.0.9.tar.gz --markdown 20240412/o/openxlab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 11:04:44] INFO root fetch - processPackages [eezo]: executing diffoscope
+[2024-04-12 11:04:44] INFO root fetch - processPackages [eezo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eezo-0.1.8.tar.gz tmp/eezo-0.2.0.tar.gz --markdown 20240412/e/eezo/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-04-12 11:04:44] INFO root fetch - processPackages [bbrc-pyxnat]: executing diffoscope
+[2024-04-12 11:04:44] INFO root fetch - processPackages [imap-box-up]: executing diffoscope
+[2024-04-12 11:04:44] INFO root fetch - processPackages [bbrc-pyxnat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrc-pyxnat-1.6.2.tar.gz tmp/bbrc-pyxnat-1.6.3.dev1.tar.gz --markdown 20240412/b/bbrc-pyxnat/1.6.2-1.6.3.dev1/README.md --exclude *.pyd
+[2024-04-12 11:04:44] INFO root fetch - processPackages [imap-box-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_box_up-0.0.1.tar.gz tmp/imap_box_up-0.0.2.tar.gz --markdown 20240412/i/imap-box-up/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 11:04:44] INFO root fetch - processPackages [OSBModelValidation]: executing diffoscope
+[2024-04-12 11:04:44] INFO root fetch - processPackages [OSBModelValidation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OSBModelValidation-0.2.18.tar.gz tmp/OSBModelValidation-0.2.19.tar.gz --markdown 20240412/O/OSBModelValidation/0.2.18-0.2.19/README.md --exclude *.pyd
+[2024-04-12 11:04:45] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.12.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.13.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-04-12 11:04:45] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.0.9.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.1.0.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [dinamis-sdk]: success
+[2024-04-12 11:04:45] INFO root fetch - processPackages [eezo]: Remove: archive file [/home/abi/fetcher/tmp/eezo-0.1.8.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - processPackages [eezo]: Remove: archive file [/home/abi/fetcher/tmp/eezo-0.2.0.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [eezo]: success
+[2024-04-12 11:04:45] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240410.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240411.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-12 11:04:45] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.8.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.9.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2024-04-12 11:04:45] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.1.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.2.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [imap-box-up]: success
+[2024-04-12 11:04:45] INFO root fetch - processPackages [m3-gar]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-1.0.9.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - processPackages [m3-gar]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-1.1.0.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [m3-gar]: success
+[2024-04-12 11:04:45] INFO root fetch - processPackages [bbrc-pyxnat]: Remove: archive file [/home/abi/fetcher/tmp/bbrc-pyxnat-1.6.2.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - processPackages [bbrc-pyxnat]: Remove: archive file [/home/abi/fetcher/tmp/bbrc-pyxnat-1.6.3.dev1.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [bbrc-pyxnat]: success
+[2024-04-12 11:04:45] INFO root fetch - processPackages [OSBModelValidation]: Remove: archive file [/home/abi/fetcher/tmp/OSBModelValidation-0.2.18.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - processPackages [OSBModelValidation]: Remove: archive file [/home/abi/fetcher/tmp/OSBModelValidation-0.2.19.tar.gz]
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [OSBModelValidation]: success
+[2024-04-12 11:04:45] INFO root fetch - main [MainThread]: Store serial: [22735353]
