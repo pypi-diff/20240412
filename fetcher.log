@@ -3428,3 +3428,47 @@
 [2024-04-12 02:56:49] INFO root fetch - processPackages [vnpy-rohon]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_rohon-6.5.1.8.tar.gz]
 [2024-04-12 02:56:49] INFO root fetch - main [MainThread]: End processing [vnpy-rohon]: success
 [2024-04-12 02:56:49] INFO root fetch - main [MainThread]: Store serial: [22728840]
+[2024-04-12 02:58:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728840]
+[2024-04-12 02:59:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gen3-tracker
+[2024-04-12 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lama2923
+[2024-04-12 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-inventory
+[2024-04-12 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-space-toolkit-mathematics
+[2024-04-12 02:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vulcan-logger
+[2024-04-12 02:59:00] INFO root fetch - processPackages [gen3-tracker]: New version: [0.0.3rc2] Old Version: [0.0.3rc1]
+[2024-04-12 02:59:00] INFO root fetch - processPackages [lama2923]: New version: [0.2] Old Version: [0.1]
+[2024-04-12 02:59:00] INFO root fetch - processPackages [vulcan-logger]: New version: [1.5.6] Old Version: [1.5.5]
+[2024-04-12 02:59:00] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/ef/b0/a392e443bb44fc96ee876f86a82c21c18cc9c1a44b9717c25dcae4c94c30/gen3_tracker-0.0.3rc1.tar.gz
+[2024-04-12 02:59:00] INFO root fetch - processPackages [vulcan-logger]: Downloading https://files.pythonhosted.org/packages/c5/a3/47bde24cafcff7aec9a646073af10b4fc74095c0a0762e8a4c9b1f9f0a52/vulcan-logger-1.5.5.tar.gz
+[2024-04-12 02:59:00] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/91/c7/3d705410235cc6a8a1b992d91f8d3cdcaa9913726bed415cdacf05c8caf6/lama2923-0.1.tar.gz
+[2024-04-12 02:59:01] INFO root fetch - processPackages [vulcan-logger]: Downloading https://files.pythonhosted.org/packages/e8/ff/1417fa313b56c45c8e8d0b6b0631ef9bcde0e24e09e21b448dd8a4c34e06/vulcan-logger-1.5.6.tar.gz
+[2024-04-12 02:59:01] INFO root fetch - processPackages [open-space-toolkit-mathematics]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-12 02:59:01] INFO root fetch - processPackages [vulcan-logger]: executing diffoscope
+[2024-04-12 02:59:01] INFO root fetch - processPackages [vulcan-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-logger-1.5.5.tar.gz tmp/vulcan-logger-1.5.6.tar.gz --markdown 20240412/v/vulcan-logger/1.5.5-1.5.6/README.md --exclude *.pyd
+[2024-04-12 02:59:01] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/fd/8c/f51f8129bb130466c90a79202906c187fd1b7054f7a3b8d303d48f579d79/gen3_tracker-0.0.3rc2.tar.gz
+[2024-04-12 02:59:01] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/4d/c8/31e4de3b8447106138c2a6e668b84c48a1b610918bc8838f4c2ae624b856/lama2923-0.2.tar.gz
+[2024-04-12 02:59:01] INFO root fetch - processPackages [gen3-tracker]: executing diffoscope
+[2024-04-12 02:59:01] INFO root fetch - processPackages [gen3-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_tracker-0.0.3rc1.tar.gz tmp/gen3_tracker-0.0.3rc2.tar.gz --markdown 20240412/g/gen3-tracker/0.0.3rc1-0.0.3rc2/README.md --exclude *.pyd
+[2024-04-12 02:59:01] INFO root fetch - processPackages [lama2923]: executing diffoscope
+[2024-04-12 02:59:01] INFO root fetch - processPackages [lama2923]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama2923-0.1.tar.gz tmp/lama2923-0.2.tar.gz --markdown 20240412/l/lama2923/0.1-0.2/README.md --exclude *.pyd
+[2024-04-12 02:59:01] INFO root fetch - processPackages [open-space-toolkit-mathematics]: Downloading https://files.pythonhosted.org/packages/87/9a/e51441037ece427fd586b52777159ddf2451697edfa905768f961cb8edf8/open_space_toolkit_mathematics-3.0.1-py39-none-manylinux2014_x86_64.whl
+[2024-04-12 02:59:01] WARNING root fetch - processPackages [open-space-toolkit-mathematics]: Skipping package: exceeds size limit 25713593>=10485760
+[2024-04-12 02:59:01] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-mathematics] error
+[2024-04-12 02:59:01] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-12 02:59:01] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-04-12 02:59:01] INFO root fetch - processPackages [vulcan-logger]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-logger-1.5.5.tar.gz]
+[2024-04-12 02:59:01] INFO root fetch - processPackages [vulcan-logger]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-logger-1.5.6.tar.gz]
+[2024-04-12 02:59:01] INFO root fetch - main [MainThread]: End processing [vulcan-logger]: success
+[2024-04-12 02:59:01] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-0.1.tar.gz]
+[2024-04-12 02:59:01] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-0.2.tar.gz]
+[2024-04-12 02:59:01] INFO root fetch - main [MainThread]: End processing [lama2923]: success
+[2024-04-12 02:59:02] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.3rc1.tar.gz]
+[2024-04-12 02:59:02] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.3rc2.tar.gz]
+[2024-04-12 02:59:02] INFO root fetch - main [MainThread]: End processing [gen3-tracker]: success
+[2024-04-12 02:59:02] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-04-12 02:59:02] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-04-12 02:59:02] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240412/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-12 02:59:02] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-04-12 02:59:02] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-04-12 02:59:02] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-04-12 02:59:02] INFO root fetch - main [MainThread]: Store serial: [22728856]
