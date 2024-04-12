@@ -3094,3 +3094,36 @@
 [2024-04-12 02:33:32] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.2.dev1.tar.gz]
 [2024-04-12 02:33:32] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
 [2024-04-12 02:33:33] INFO root fetch - main [MainThread]: Store serial: [22728659]
+[2024-04-12 02:35:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728659]
+[2024-04-12 02:35:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 02:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-hub
+[2024-04-12 02:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: determined
+[2024-04-12 02:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maraboupy
+[2024-04-12 02:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqldev
+[2024-04-12 02:35:41] INFO root fetch - processPackages [determined]: New version: [0.31.0rc3] Old Version: [0.31.0rc2]
+[2024-04-12 02:35:41] INFO root fetch - processPackages [model-hub]: New version: [0.31.0rc3] Old Version: [0.31.0rc2]
+[2024-04-12 02:35:41] WARNING root fetch - processPackages [sqldev]: Skipping, unable to determine old version
+[2024-04-12 02:35:41] INFO root fetch - main [MainThread]: End processing [sqldev] error
+[2024-04-12 02:35:41] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/2a/b4/1deb0a763e71c0b4d3557d83cf844b9182761030af703bc141a122af38a0/determined-0.31.0rc2-py3-none-any.whl
+[2024-04-12 02:35:41] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/b6/4a/43681052e5b4daf4cd2ea332fc9dd06b7ff5579cd00ce6ce68984bf81dc8/model_hub-0.31.0rc2-py3-none-any.whl
+[2024-04-12 02:35:41] INFO root fetch - processPackages [maraboupy]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-12 02:35:42] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/f1/4a/91d22e0f2c59687ca47bb90f642be0f96023e70faa7bf6ffeb54148da1f6/model_hub-0.31.0rc3-py3-none-any.whl
+[2024-04-12 02:35:42] INFO root fetch - processPackages [maraboupy]: Downloading https://files.pythonhosted.org/packages/53/f9/a6fe50a60a998e407668a149058c5cfd9eb1c2375adeb2c9528a0983b85d/maraboupy-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 02:35:42] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/02/28/f99a5fd1df2636e44a40a5b84c94e2e5bdf9c106fe762991c25dc39059bc/determined-0.31.0rc3-py3-none-any.whl
+[2024-04-12 02:35:42] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2024-04-12 02:35:42] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.31.0rc2-py3-none-any.whl.zip tmp/model_hub-0.31.0rc3-py3-none-any.whl.zip --markdown 20240412/m/model-hub/0.31.0rc2-0.31.0rc3/README.md --exclude *.pyd
+[2024-04-12 02:35:42] INFO root fetch - processPackages [determined]: executing diffoscope
+[2024-04-12 02:35:42] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.31.0rc2-py3-none-any.whl.zip tmp/determined-0.31.0rc3-py3-none-any.whl.zip --markdown 20240412/d/determined/0.31.0rc2-0.31.0rc3/README.md --exclude *.pyd
+[2024-04-12 02:35:42] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc2-py3-none-any.whl.zip]
+[2024-04-12 02:35:42] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc3-py3-none-any.whl.zip]
+[2024-04-12 02:35:42] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2024-04-12 02:35:42] INFO root fetch - processPackages [maraboupy]: Downloading https://files.pythonhosted.org/packages/45/dd/6579f33498e35fdc56a042492d8b75f7aa674773008ab2921e37ba2043ad/maraboupy-2.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 02:35:43] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc2-py3-none-any.whl.zip]
+[2024-04-12 02:35:43] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc3-py3-none-any.whl.zip]
+[2024-04-12 02:35:43] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2024-04-12 02:35:49] INFO root fetch - processPackages [maraboupy]: executing diffoscope
+[2024-04-12 02:35:49] INFO root fetch - processPackages [maraboupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maraboupy-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/maraboupy-2.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240412/m/maraboupy/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-04-12 02:36:10] INFO root fetch - processPackages [maraboupy]: Remove: archive file [/home/abi/fetcher/tmp/maraboupy-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 02:36:10] INFO root fetch - processPackages [maraboupy]: Remove: archive file [/home/abi/fetcher/tmp/maraboupy-2.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 02:36:10] INFO root fetch - main [MainThread]: End processing [maraboupy]: success
+[2024-04-12 02:36:10] INFO root fetch - main [MainThread]: Store serial: [22728678]
