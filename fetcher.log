@@ -15975,3 +15975,33 @@
 [2024-04-12 08:49:25] INFO root fetch - processPackages [h5io-browser]: Remove: archive file [/home/abi/fetcher/tmp/h5io_browser-0.0.9.tar.gz]
 [2024-04-12 08:49:25] INFO root fetch - main [MainThread]: End processing [h5io-browser]: success
 [2024-04-12 08:49:25] INFO root fetch - main [MainThread]: Store serial: [22733631]
+[2024-04-12 08:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733631]
+[2024-04-12 08:51:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 08:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgspot
+[2024-04-12 08:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isystem.connect
+[2024-04-12 08:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edit-distance-correction
+[2024-04-12 08:51:34] INFO root fetch - processPackages [pgspot]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-12 08:51:34] INFO root fetch - processPackages [edit-distance-correction]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-12 08:51:34] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2024-04-12 08:51:34] INFO root fetch - processPackages [edit-distance-correction]: Downloading https://files.pythonhosted.org/packages/db/aa/c7329fabf14e85d5aba68a6f850637c8f086adad8a05fdbbe047c925f75c/edit_distance_correction-1.1.3-py3-none-any.whl
+[2024-04-12 08:51:34] INFO root fetch - processPackages [pgspot]: Downloading https://files.pythonhosted.org/packages/d2/04/7f20f8576928e7443ea9ce09230f573037880c91c6ff8b361203a6dba2d0/pgspot-0.7.0.tar.gz
+[2024-04-12 08:51:35] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2024-04-12 08:51:35] INFO root fetch - processPackages [pgspot]: Downloading https://files.pythonhosted.org/packages/e8/4b/332d6189b0820170020522e518ad6f0ed581187634f7bd29878e99dc2d9d/pgspot-0.7.1.tar.gz
+[2024-04-12 08:51:35] INFO root fetch - processPackages [edit-distance-correction]: Downloading https://files.pythonhosted.org/packages/85/b4/7b5f08c14e451796cc252a45a95fdf8d3258db5481dbdd79c421e630af0e/edit_distance_correction-1.1.4-py3-none-any.whl
+[2024-04-12 08:51:35] INFO root fetch - processPackages [pgspot]: executing diffoscope
+[2024-04-12 08:51:35] INFO root fetch - processPackages [pgspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgspot-0.7.0.tar.gz tmp/pgspot-0.7.1.tar.gz --markdown 20240412/p/pgspot/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-12 08:51:35] INFO root fetch - processPackages [edit-distance-correction]: executing diffoscope
+[2024-04-12 08:51:35] INFO root fetch - processPackages [edit-distance-correction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edit_distance_correction-1.1.3-py3-none-any.whl.zip tmp/edit_distance_correction-1.1.4-py3-none-any.whl.zip --markdown 20240412/e/edit-distance-correction/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-12 08:51:35] INFO root fetch - processPackages [pgspot]: Remove: archive file [/home/abi/fetcher/tmp/pgspot-0.7.0.tar.gz]
+[2024-04-12 08:51:35] INFO root fetch - processPackages [pgspot]: Remove: archive file [/home/abi/fetcher/tmp/pgspot-0.7.1.tar.gz]
+[2024-04-12 08:51:35] INFO root fetch - main [MainThread]: End processing [pgspot]: success
+[2024-04-12 08:51:36] INFO root fetch - processPackages [edit-distance-correction]: Remove: archive file [/home/abi/fetcher/tmp/edit_distance_correction-1.1.3-py3-none-any.whl.zip]
+[2024-04-12 08:51:36] INFO root fetch - processPackages [edit-distance-correction]: Remove: archive file [/home/abi/fetcher/tmp/edit_distance_correction-1.1.4-py3-none-any.whl.zip]
+[2024-04-12 08:51:36] INFO root fetch - main [MainThread]: End processing [edit-distance-correction]: success
+[2024-04-12 08:51:36] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2024-04-12 08:51:37] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2024-04-12 08:51:37] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20240412/i/isystem.connect/9.21.98.0-9.21.99.0/README.md --exclude *.pyd
+[2024-04-12 08:51:38] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2024-04-12 08:51:38] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2024-04-12 08:51:38] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2024-04-12 08:51:38] INFO root fetch - main [MainThread]: Store serial: [22733644]
