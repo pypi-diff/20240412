@@ -14055,3 +14055,24 @@
 [2024-04-12 06:59:23] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.8.0.tar.gz]
 [2024-04-12 06:59:23] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-04-12 06:59:23] INFO root fetch - main [MainThread]: Store serial: [22732828]
+[2024-04-12 07:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732828]
+[2024-04-12 07:01:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 07:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prancer-basic
+[2024-04-12 07:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs.upd
+[2024-04-12 07:01:32] INFO root fetch - processPackages [prancer-basic]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-12 07:01:33] INFO root fetch - processPackages [cs.upd]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 07:01:33] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/aa/84/af1ed8d4187effa46448e60b5065a2834fb3ee3b62dfba8b6f591cde32c4/prancer-basic-3.0.8.tar.gz
+[2024-04-12 07:01:33] INFO root fetch - processPackages [cs.upd]: Downloading https://files.pythonhosted.org/packages/2a/b5/7ac618b5b88c455271df24b03e932e680dae6eb04d19512f289ae74f11af/cs.upd-20240316.tar.gz
+[2024-04-12 07:01:33] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/1a/53/0b31884948dd5646a62eca133c035534fdab1adf7e4f48f95a30f17f39ae/prancer-basic-3.0.9.tar.gz
+[2024-04-12 07:01:33] INFO root fetch - processPackages [cs.upd]: Downloading https://files.pythonhosted.org/packages/a4/53/15cfc9c87d68107b08f00b018e01edc5f54a1fcf976574d12f23183fea9e/cs.upd-20240412.tar.gz
+[2024-04-12 07:01:33] INFO root fetch - processPackages [prancer-basic]: executing diffoscope
+[2024-04-12 07:01:33] INFO root fetch - processPackages [prancer-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prancer-basic-3.0.8.tar.gz tmp/prancer-basic-3.0.9.tar.gz --markdown 20240412/p/prancer-basic/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-12 07:01:33] INFO root fetch - processPackages [cs.upd]: executing diffoscope
+[2024-04-12 07:01:33] INFO root fetch - processPackages [cs.upd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.upd-20240316.tar.gz tmp/cs.upd-20240412.tar.gz --markdown 20240412/c/cs.upd/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 07:01:34] INFO root fetch - processPackages [cs.upd]: Remove: archive file [/home/abi/fetcher/tmp/cs.upd-20240316.tar.gz]
+[2024-04-12 07:01:34] INFO root fetch - processPackages [cs.upd]: Remove: archive file [/home/abi/fetcher/tmp/cs.upd-20240412.tar.gz]
+[2024-04-12 07:01:34] INFO root fetch - main [MainThread]: End processing [cs.upd]: success
+[2024-04-12 07:01:34] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.8.tar.gz]
+[2024-04-12 07:01:34] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.9.tar.gz]
+[2024-04-12 07:01:34] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
+[2024-04-12 07:01:34] INFO root fetch - main [MainThread]: Store serial: [22732839]
