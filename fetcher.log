@@ -11001,3 +11001,33 @@
 [2024-04-12 03:36:44] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
 [2024-04-12 03:36:44] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
 [2024-04-12 03:36:44] INFO root fetch - main [MainThread]: Store serial: [22731427]
+[2024-04-12 03:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731427]
+[2024-04-12 03:38:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 03:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vectara-cli
+[2024-04-12 03:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: donetools
+[2024-04-12 03:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: delay-finder
+[2024-04-12 03:38:53] INFO root fetch - processPackages [delay-finder]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-12 03:38:53] INFO root fetch - processPackages [donetools]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 03:38:54] INFO root fetch - processPackages [delay-finder]: Downloading https://files.pythonhosted.org/packages/01/e6/55bd1e80e01ceaa8477ccd4fc9b3fe7558f315a5cde83280c9c2a297a3a8/delay_finder-0.1.0.tar.gz
+[2024-04-12 03:38:54] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/31/e9/85b739ec1bd216dba789c598b5db3c1fe37dc0603f3b056fff2d1908973b/donetools-0.0.6.tar.gz
+[2024-04-12 03:38:54] INFO root fetch - processPackages [delay-finder]: Downloading https://files.pythonhosted.org/packages/eb/19/d348350d0749f3887b0a2aab9e38eb8b7ad84be386f7745af41b5afba1a6/delay_finder-1.0.0.tar.gz
+[2024-04-12 03:38:54] INFO root fetch - processPackages [delay-finder]: executing diffoscope
+[2024-04-12 03:38:54] INFO root fetch - processPackages [delay-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delay_finder-0.1.0.tar.gz tmp/delay_finder-1.0.0.tar.gz --markdown 20240412/d/delay-finder/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-04-12 03:38:54] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/85/e38dc18cb5f20f9801a0d4e90bb3e62e26937a0da9b47cecd121ddc188d6/donetools-0.0.7.tar.gz
+[2024-04-12 03:38:54] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-12 03:38:54] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.6.tar.gz tmp/donetools-0.0.7.tar.gz --markdown 20240412/d/donetools/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 03:38:54] INFO root fetch - processPackages [vectara-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 03:38:54] INFO root fetch - processPackages [vectara-cli]: Downloading https://files.pythonhosted.org/packages/2c/ee/38034782be8ce22c0047bcd128a8070a942598181089e251ad6a5806d92a/vectara-cli-0.1.8.tar.gz
+[2024-04-12 03:38:54] INFO root fetch - processPackages [delay-finder]: Remove: archive file [/home/abi/fetcher/tmp/delay_finder-0.1.0.tar.gz]
+[2024-04-12 03:38:54] INFO root fetch - processPackages [delay-finder]: Remove: archive file [/home/abi/fetcher/tmp/delay_finder-1.0.0.tar.gz]
+[2024-04-12 03:38:54] INFO root fetch - main [MainThread]: End processing [delay-finder]: success
+[2024-04-12 03:38:55] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.6.tar.gz]
+[2024-04-12 03:38:55] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.7.tar.gz]
+[2024-04-12 03:38:55] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-12 03:38:55] INFO root fetch - processPackages [vectara-cli]: Downloading https://files.pythonhosted.org/packages/0a/a8/ecbeeefe05fb43a1b2dd6785e1bb1218f907a8ff5b7fec7cb2f57c206166/vectara-cli-0.1.9.tar.gz
+[2024-04-12 03:38:55] INFO root fetch - processPackages [vectara-cli]: executing diffoscope
+[2024-04-12 03:38:55] INFO root fetch - processPackages [vectara-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-cli-0.1.8.tar.gz tmp/vectara-cli-0.1.9.tar.gz --markdown 20240412/v/vectara-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 03:38:55] INFO root fetch - processPackages [vectara-cli]: Remove: archive file [/home/abi/fetcher/tmp/vectara-cli-0.1.8.tar.gz]
+[2024-04-12 03:38:55] INFO root fetch - processPackages [vectara-cli]: Remove: archive file [/home/abi/fetcher/tmp/vectara-cli-0.1.9.tar.gz]
+[2024-04-12 03:38:55] INFO root fetch - main [MainThread]: End processing [vectara-cli]: success
+[2024-04-12 03:38:55] INFO root fetch - main [MainThread]: Store serial: [22731436]
