@@ -14076,3 +14076,15 @@
 [2024-04-12 07:01:34] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.9.tar.gz]
 [2024-04-12 07:01:34] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
 [2024-04-12 07:01:34] INFO root fetch - main [MainThread]: Store serial: [22732839]
+[2024-04-12 07:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732839]
+[2024-04-12 07:03:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-12 07:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superb-ai-curate
+[2024-04-12 07:03:43] INFO root fetch - processPackages [superb-ai-curate]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-12 07:03:43] INFO root fetch - processPackages [superb-ai-curate]: Downloading https://files.pythonhosted.org/packages/74/b6/3b649730ea98a76de8d42f63a7cedf79a51a1d6f72f0488c70c08a1a0f88/superb_ai_curate-1.2.1.tar.gz
+[2024-04-12 07:03:44] INFO root fetch - processPackages [superb-ai-curate]: Downloading https://files.pythonhosted.org/packages/02/4a/11d0330948a716c11e65727d26ad5285f9f7c96e9a2b2aa04eaaaa169821/superb_ai_curate-1.2.2.tar.gz
+[2024-04-12 07:03:44] INFO root fetch - processPackages [superb-ai-curate]: executing diffoscope
+[2024-04-12 07:03:44] INFO root fetch - processPackages [superb-ai-curate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb_ai_curate-1.2.1.tar.gz tmp/superb_ai_curate-1.2.2.tar.gz --markdown 20240412/s/superb-ai-curate/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-12 07:03:44] INFO root fetch - processPackages [superb-ai-curate]: Remove: archive file [/home/abi/fetcher/tmp/superb_ai_curate-1.2.1.tar.gz]
+[2024-04-12 07:03:44] INFO root fetch - processPackages [superb-ai-curate]: Remove: archive file [/home/abi/fetcher/tmp/superb_ai_curate-1.2.2.tar.gz]
+[2024-04-12 07:03:44] INFO root fetch - main [MainThread]: End processing [superb-ai-curate]: success
+[2024-04-12 07:03:44] INFO root fetch - main [MainThread]: Store serial: [22732843]
