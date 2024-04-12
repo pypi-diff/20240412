@@ -12129,3 +12129,39 @@
 [2024-04-12 04:55:02] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl.zip]
 [2024-04-12 04:55:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
 [2024-04-12 04:55:02] INFO root fetch - main [MainThread]: Store serial: [22732003]
+[2024-04-12 04:57:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732003]
+[2024-04-12 04:57:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 04:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: octoflow
+[2024-04-12 04:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zg-crawl-tools
+[2024-04-12 04:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kwe
+[2024-04-12 04:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-payment-order
+[2024-04-12 04:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: small-gicp
+[2024-04-12 04:57:11] INFO root fetch - processPackages [kwe]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 04:57:11] WARNING root fetch - processPackages [small-gicp]: Skipping, unable to determine old version
+[2024-04-12 04:57:11] INFO root fetch - main [MainThread]: End processing [small-gicp] error
+[2024-04-12 04:57:11] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [17.0.1.1.0.1] Old Version: [17.0.1.1.0]
+[2024-04-12 04:57:11] INFO root fetch - processPackages [octoflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 04:57:12] WARNING root fetch - processPackages [zg-crawl-tools]: Skipping, unable to determine old version
+[2024-04-12 04:57:12] INFO root fetch - main [MainThread]: End processing [zg-crawl-tools] error
+[2024-04-12 04:57:12] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/32/dc/6c44e00c62fc15ce6fa3695ba3e8b724e71a124aad8ef26248d51a25892e/odoo_addon_account_payment_order-17.0.1.1.0-py3-none-any.whl
+[2024-04-12 04:57:12] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/c8/b8/8b02533591eba6fe21c3bbb37015e9127b3e41616cf1c0134d81c725e3e8/octoflow-0.0.8.tar.gz
+[2024-04-12 04:57:12] INFO root fetch - processPackages [kwe]: Downloading https://files.pythonhosted.org/packages/11/4b/24b77d8211b81b1db2e0858930754c7759f16f0364bf9678b249acbd8715/kwe-0.1.0.tar.gz
+[2024-04-12 04:57:12] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/8c/7c/0369b88658b21011ce4f133e4e41a8f8eb23e3675a7f6d94183f4d22e587/octoflow-0.0.9.tar.gz
+[2024-04-12 04:57:12] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-04-12 04:57:12] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.0.8.tar.gz tmp/octoflow-0.0.9.tar.gz --markdown 20240412/o/octoflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 04:57:12] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/b2/6b/453ccfa622907a004c2381a020c18cb7fe4c1a300d336d1169ab766e8621/odoo_addon_account_payment_order-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-12 04:57:12] INFO root fetch - processPackages [kwe]: Downloading https://files.pythonhosted.org/packages/2c/10/18ffb531d37a63341bd3539bf56e2fe38d2d6db571962dbfd8312c4a49ff/kwe-0.1.1.tar.gz
+[2024-04-12 04:57:12] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2024-04-12 04:57:12] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-17.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-account-payment-order/17.0.1.1.0-17.0.1.1.0.1/README.md --exclude *.pyd
+[2024-04-12 04:57:12] INFO root fetch - processPackages [kwe]: executing diffoscope
+[2024-04-12 04:57:12] INFO root fetch - processPackages [kwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwe-0.1.0.tar.gz tmp/kwe-0.1.1.tar.gz --markdown 20240412/k/kwe/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 04:57:13] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.8.tar.gz]
+[2024-04-12 04:57:13] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.0.9.tar.gz]
+[2024-04-12 04:57:13] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-04-12 04:57:13] INFO root fetch - processPackages [kwe]: Remove: archive file [/home/abi/fetcher/tmp/kwe-0.1.0.tar.gz]
+[2024-04-12 04:57:13] INFO root fetch - processPackages [kwe]: Remove: archive file [/home/abi/fetcher/tmp/kwe-0.1.1.tar.gz]
+[2024-04-12 04:57:13] INFO root fetch - main [MainThread]: End processing [kwe]: success
+[2024-04-12 04:57:14] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-12 04:57:14] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-12 04:57:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2024-04-12 04:57:14] INFO root fetch - main [MainThread]: Store serial: [22732020]
