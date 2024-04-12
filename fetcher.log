@@ -2214,3 +2214,51 @@
 [2024-04-12 02:04:25] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240411.406.tar.gz]
 [2024-04-12 02:04:25] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-12 02:04:25] INFO root fetch - main [MainThread]: Store serial: [22728282]
+[2024-04-12 02:06:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728282]
+[2024-04-12 02:06:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 02:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langsmith
+[2024-04-12 02:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2024-04-12 02:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gen3-tracker
+[2024-04-12 02:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxscript
+[2024-04-12 02:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxutils-nightly
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240411] Old Version: [0.0.8.dev20240410]
+[2024-04-12 02:06:34] INFO root fetch - processPackages [langsmith]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 02:06:34] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240411] Old Version: [0.1.0.dev20240410]
+[2024-04-12 02:06:34] INFO root fetch - processPackages [gen3-tracker]: New version: [0.0.3rc1] Old Version: [0.0.2rc9]
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/32/fb/d337786df2de3ec9fca39d5c44ca3fca0f0cc98f18dde088de5a22ab911f/jaxutils-nightly-0.0.8.dev20240410.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/3f/01/93a91da2527bbaa6155f9398417eeff6507ddada0f417560a67e20801455/langsmith-0.1.8.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/00/43/0e40e057115b1ce5f84dcccd29e6a3d4dae8d72df03ae3ec79f13edd057e/onnxscript-0.1.0.dev20240410.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/a5/e3/f4a38692501057b03e20276e198339744ffe0fb0b320c907aabb66dfabaf/gen3_tracker-0.0.2rc9.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240412/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/0f/2c/9b674055a29598e6704563051b1833e330cb038b7aae2b1012514ea53c2b/jaxutils-nightly-0.0.8.dev20240411.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/2f/bd/ae357eeb7736dd31ff704bfdb05c856cd78d6ebcb126b850c2bcdb5830ae/langsmith-0.1.9.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/0f/06/1026fb19759448a5b0358f0e9327d68c28a65d9e3481d18ff294c494834f/onnxscript-0.1.0.dev20240411.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/ef/b0/a392e443bb44fc96ee876f86a82c21c18cc9c1a44b9717c25dcae4c94c30/gen3_tracker-0.0.3rc1.tar.gz
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-12 02:06:34] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240410.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240411.tar.gz --markdown 20240412/j/jaxutils-nightly/0.0.8.dev20240410-0.0.8.dev20240411/README.md --exclude *.pyd
+[2024-04-12 02:06:34] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2024-04-12 02:06:34] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.1.8.tar.gz tmp/langsmith-0.1.9.tar.gz --markdown 20240412/l/langsmith/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 02:06:34] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-12 02:06:34] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240410.tar.gz tmp/onnxscript-0.1.0.dev20240411.tar.gz --markdown 20240412/o/onnxscript/0.1.0.dev20240410-0.1.0.dev20240411/README.md --exclude *.pyd
+[2024-04-12 02:06:34] INFO root fetch - processPackages [gen3-tracker]: executing diffoscope
+[2024-04-12 02:06:34] INFO root fetch - processPackages [gen3-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_tracker-0.0.2rc9.tar.gz tmp/gen3_tracker-0.0.3rc1.tar.gz --markdown 20240412/g/gen3-tracker/0.0.2rc9-0.0.3rc1/README.md --exclude *.pyd
+[2024-04-12 02:06:35] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-12 02:06:35] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240410.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240411.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-12 02:06:35] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.8.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.9.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2024-04-12 02:06:35] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.2rc9.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.3rc1.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - main [MainThread]: End processing [gen3-tracker]: success
+[2024-04-12 02:06:35] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240410.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240411.tar.gz]
+[2024-04-12 02:06:35] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-12 02:06:35] INFO root fetch - main [MainThread]: Store serial: [22728295]
