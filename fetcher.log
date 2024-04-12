@@ -12702,3 +12702,33 @@
 [2024-04-12 05:21:41] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.1.dev2024041103.tar.gz]
 [2024-04-12 05:21:41] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-04-12 05:21:41] INFO root fetch - main [MainThread]: Store serial: [22732286]
+[2024-04-12 05:23:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732286]
+[2024-04-12 05:23:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volts
+[2024-04-12 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: publicsuffixlist
+[2024-04-12 05:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasette-cors
+[2024-04-12 05:23:50] INFO root fetch - processPackages [volts]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 05:23:50] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-12 05:23:51] INFO root fetch - processPackages [datasette-cors]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-12 05:23:51] INFO root fetch - processPackages [volts]: Downloading https://files.pythonhosted.org/packages/6b/1c/cf2d29fc6f17c3bfbb6726353d068e9a719939bac97e817d571af1938118/volts-1.0.8.tar.gz
+[2024-04-12 05:23:51] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2024-04-12 05:23:51] INFO root fetch - processPackages [datasette-cors]: Downloading https://files.pythonhosted.org/packages/f8/aa/ff1596766fbaad9135493bc17a71a9f7e43e82b0cd7506ead7531e9cb406/datasette-cors-1.0.tar.gz
+[2024-04-12 05:23:51] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2024-04-12 05:23:51] INFO root fetch - processPackages [volts]: Downloading https://files.pythonhosted.org/packages/ec/04/b4c45f7d17a6ee2e5dd6932cb6acab6c2c021ff20e2e7b7e779b48f375b5/volts-1.0.9.tar.gz
+[2024-04-12 05:23:51] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2024-04-12 05:23:51] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20240412/p/publicsuffixlist/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-12 05:23:51] INFO root fetch - processPackages [volts]: executing diffoscope
+[2024-04-12 05:23:51] INFO root fetch - processPackages [volts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volts-1.0.8.tar.gz tmp/volts-1.0.9.tar.gz --markdown 20240412/v/volts/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 05:23:51] INFO root fetch - processPackages [datasette-cors]: Downloading https://files.pythonhosted.org/packages/25/07/55f754a104eddba0d3080a50a2c96d75c6851d65db29f6fcd1b244fb8512/datasette-cors-1.0.1.tar.gz
+[2024-04-12 05:23:51] INFO root fetch - processPackages [datasette-cors]: executing diffoscope
+[2024-04-12 05:23:51] INFO root fetch - processPackages [datasette-cors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-cors-1.0.tar.gz tmp/datasette-cors-1.0.1.tar.gz --markdown 20240412/d/datasette-cors/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-12 05:23:52] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2024-04-12 05:23:52] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2024-04-12 05:23:52] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2024-04-12 05:23:52] INFO root fetch - processPackages [datasette-cors]: Remove: archive file [/home/abi/fetcher/tmp/datasette-cors-1.0.tar.gz]
+[2024-04-12 05:23:52] INFO root fetch - processPackages [datasette-cors]: Remove: archive file [/home/abi/fetcher/tmp/datasette-cors-1.0.1.tar.gz]
+[2024-04-12 05:23:52] INFO root fetch - main [MainThread]: End processing [datasette-cors]: success
+[2024-04-12 05:23:52] INFO root fetch - processPackages [volts]: Remove: archive file [/home/abi/fetcher/tmp/volts-1.0.8.tar.gz]
+[2024-04-12 05:23:52] INFO root fetch - processPackages [volts]: Remove: archive file [/home/abi/fetcher/tmp/volts-1.0.9.tar.gz]
+[2024-04-12 05:23:52] INFO root fetch - main [MainThread]: End processing [volts]: success
+[2024-04-12 05:23:52] INFO root fetch - main [MainThread]: Store serial: [22732295]
