@@ -16251,3 +16251,29 @@
 [2024-04-12 09:02:49] INFO root fetch - processPackages [nurikit]: Remove: archive file [/home/abi/fetcher/tmp/nurikit-0.1.0a3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-12 09:02:49] INFO root fetch - main [MainThread]: End processing [nurikit]: success
 [2024-04-12 09:02:49] INFO root fetch - main [MainThread]: Store serial: [22733756]
+[2024-04-12 09:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733756]
+[2024-04-12 09:05:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 09:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-analytics-simple
+[2024-04-12 09:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tues
+[2024-04-12 09:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: butler-connect
+[2024-04-12 09:05:03] INFO root fetch - processPackages [django-analytics-simple]: New version: [2024.0.6] Old Version: [2024.0.5]
+[2024-04-12 09:05:03] INFO root fetch - processPackages [butler-connect]: New version: [0.9.0b0] Old Version: [0.9.0]
+[2024-04-12 09:05:03] INFO root fetch - processPackages [django-analytics-simple]: Downloading https://files.pythonhosted.org/packages/a0/3f/caaa90f14c7b1986a8bc6ea19570fb77ffecb7b298ea7ac45a2ea8d796bb/django_analytics_simple-2024.0.5.tar.gz
+[2024-04-12 09:05:03] INFO root fetch - processPackages [tues]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-04-12 09:05:03] WARNING root fetch - processPackages [django-analytics-simple]: Skipping package: exceeds size limit 25921159>=10485760
+[2024-04-12 09:05:03] INFO root fetch - main [MainThread]: End processing [django-analytics-simple] error
+[2024-04-12 09:05:03] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/4e/28/c9767bc4d66934784c17588f09e88765c8dd4f4bcb958168beab5502d41f/butler-connect-0.9.0.tar.gz
+[2024-04-12 09:05:03] INFO root fetch - processPackages [tues]: Downloading https://files.pythonhosted.org/packages/fa/c4/c996bfdb04d47119ef1434541bc19b8bfc580e57e014464f4d9502ca4330/tues-3.1.1.tar.gz
+[2024-04-12 09:05:04] INFO root fetch - processPackages [butler-connect]: Downloading https://files.pythonhosted.org/packages/c0/69/893df109102de293111c2d2af6b908b83dc04d440e909aa213fa8bc11c8b/butler-connect-0.9.0b0.tar.gz
+[2024-04-12 09:05:04] INFO root fetch - processPackages [tues]: Downloading https://files.pythonhosted.org/packages/db/10/d7e698eb44f1997f8ee7444bc391c07087074d0d5e9aba4ba02b7745bc14/tues-3.1.2.tar.gz
+[2024-04-12 09:05:04] INFO root fetch - processPackages [butler-connect]: executing diffoscope
+[2024-04-12 09:05:04] INFO root fetch - processPackages [butler-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butler-connect-0.9.0.tar.gz tmp/butler-connect-0.9.0b0.tar.gz --markdown 20240412/b/butler-connect/0.9.0-0.9.0b0/README.md --exclude *.pyd
+[2024-04-12 09:05:04] INFO root fetch - processPackages [tues]: executing diffoscope
+[2024-04-12 09:05:04] INFO root fetch - processPackages [tues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tues-3.1.1.tar.gz tmp/tues-3.1.2.tar.gz --markdown 20240412/t/tues/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-04-12 09:05:04] INFO root fetch - processPackages [butler-connect]: Remove: archive file [/home/abi/fetcher/tmp/butler-connect-0.9.0.tar.gz]
+[2024-04-12 09:05:04] INFO root fetch - processPackages [butler-connect]: Remove: archive file [/home/abi/fetcher/tmp/butler-connect-0.9.0b0.tar.gz]
+[2024-04-12 09:05:04] INFO root fetch - main [MainThread]: End processing [butler-connect]: success
+[2024-04-12 09:05:04] INFO root fetch - processPackages [tues]: Remove: archive file [/home/abi/fetcher/tmp/tues-3.1.1.tar.gz]
+[2024-04-12 09:05:04] INFO root fetch - processPackages [tues]: Remove: archive file [/home/abi/fetcher/tmp/tues-3.1.2.tar.gz]
+[2024-04-12 09:05:04] INFO root fetch - main [MainThread]: End processing [tues]: success
+[2024-04-12 09:05:04] INFO root fetch - main [MainThread]: Store serial: [22733765]
