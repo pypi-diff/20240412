@@ -11915,3 +11915,42 @@
 [2024-04-12 04:39:47] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2024-04-12 04:39:47] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2024-04-12 04:39:47] INFO root fetch - main [MainThread]: Store serial: [22731897]
+[2024-04-12 04:41:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731897]
+[2024-04-12 04:41:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 04:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicing
+[2024-04-12 04:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-loan
+[2024-04-12 04:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs.pfx
+[2024-04-12 04:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: growthbook
+[2024-04-12 04:41:56] INFO root fetch - processPackages [cs.pfx]: New version: [20240412] Old Version: [20240326]
+[2024-04-12 04:41:56] INFO root fetch - processPackages [servicing]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 04:41:56] INFO root fetch - processPackages [odoo-addon-account-loan]: New version: [16.0.1.0.4.3] Old Version: [16.0.1.0.4.2]
+[2024-04-12 04:41:56] INFO root fetch - processPackages [growthbook]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-12 04:41:56] INFO root fetch - processPackages [growthbook]: Downloading https://files.pythonhosted.org/packages/d4/99/459f1ca00b27a16156ed62b00d548cd692abb4ad78b949143888ebeda43c/growthbook-1.0.0.tar.gz
+[2024-04-12 04:41:56] INFO root fetch - processPackages [cs.pfx]: Downloading https://files.pythonhosted.org/packages/d0/71/14fe2d5d3cb16a66f0ed6e2af0877d1525c8a41893004718eb1d23593833/cs.pfx-20240326.tar.gz
+[2024-04-12 04:41:56] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/15/fa/0225c4c52d3d7851c9ababd758bf446aff970e8271bfc14338c39d85ecc6/servicing-0.0.1.tar.gz
+[2024-04-12 04:41:56] INFO root fetch - processPackages [odoo-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/06/f8/ed9edaaae35058c3d42934391eba843ce53e5ac64bee92eddbc8912946fa/odoo_addon_account_loan-16.0.1.0.4.2-py3-none-any.whl
+[2024-04-12 04:41:57] INFO root fetch - processPackages [growthbook]: Downloading https://files.pythonhosted.org/packages/51/3b/7c6e46d290cb3a806b5537caae2d62245370b068b5fc24874ecd2acc032e/growthbook-1.1.0.tar.gz
+[2024-04-12 04:41:57] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/e4/29/4839ea37b47095ae14006be2eb03f5617b11dce2a3b1fe1b8c396063a76c/servicing-0.0.2.tar.gz
+[2024-04-12 04:41:57] INFO root fetch - processPackages [cs.pfx]: Downloading https://files.pythonhosted.org/packages/bd/db/c64d466b65199c0f7d39e593703e24b2907968a0e27ea210361f12531afd/cs.pfx-20240412.tar.gz
+[2024-04-12 04:41:57] INFO root fetch - processPackages [growthbook]: executing diffoscope
+[2024-04-12 04:41:57] INFO root fetch - processPackages [growthbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/growthbook-1.0.0.tar.gz tmp/growthbook-1.1.0.tar.gz --markdown 20240412/g/growthbook/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-12 04:41:57] INFO root fetch - processPackages [odoo-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/4f/83/9f66359a554279a11440cb3c148d999617412032309ed37f83d1af08ac00/odoo_addon_account_loan-16.0.1.0.4.3-py3-none-any.whl
+[2024-04-12 04:41:57] INFO root fetch - processPackages [servicing]: executing diffoscope
+[2024-04-12 04:41:57] INFO root fetch - processPackages [servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicing-0.0.1.tar.gz tmp/servicing-0.0.2.tar.gz --markdown 20240412/s/servicing/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 04:41:57] INFO root fetch - processPackages [cs.pfx]: executing diffoscope
+[2024-04-12 04:41:57] INFO root fetch - processPackages [cs.pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.pfx-20240326.tar.gz tmp/cs.pfx-20240412.tar.gz --markdown 20240412/c/cs.pfx/20240326-20240412/README.md --exclude *.pyd
+[2024-04-12 04:41:57] INFO root fetch - processPackages [odoo-addon-account-loan]: executing diffoscope
+[2024-04-12 04:41:57] INFO root fetch - processPackages [odoo-addon-account-loan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_loan-16.0.1.0.4.2-py3-none-any.whl.zip tmp/odoo_addon_account_loan-16.0.1.0.4.3-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-account-loan/16.0.1.0.4.2-16.0.1.0.4.3/README.md --exclude *.pyd
+[2024-04-12 04:41:57] INFO root fetch - processPackages [growthbook]: Remove: archive file [/home/abi/fetcher/tmp/growthbook-1.0.0.tar.gz]
+[2024-04-12 04:41:57] INFO root fetch - processPackages [growthbook]: Remove: archive file [/home/abi/fetcher/tmp/growthbook-1.1.0.tar.gz]
+[2024-04-12 04:41:57] INFO root fetch - main [MainThread]: End processing [growthbook]: success
+[2024-04-12 04:41:57] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.1.tar.gz]
+[2024-04-12 04:41:57] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.2.tar.gz]
+[2024-04-12 04:41:57] INFO root fetch - main [MainThread]: End processing [servicing]: success
+[2024-04-12 04:41:57] INFO root fetch - processPackages [cs.pfx]: Remove: archive file [/home/abi/fetcher/tmp/cs.pfx-20240326.tar.gz]
+[2024-04-12 04:41:57] INFO root fetch - processPackages [cs.pfx]: Remove: archive file [/home/abi/fetcher/tmp/cs.pfx-20240412.tar.gz]
+[2024-04-12 04:41:57] INFO root fetch - main [MainThread]: End processing [cs.pfx]: success
+[2024-04-12 04:41:58] INFO root fetch - processPackages [odoo-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_loan-16.0.1.0.4.2-py3-none-any.whl.zip]
+[2024-04-12 04:41:58] INFO root fetch - processPackages [odoo-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_loan-16.0.1.0.4.3-py3-none-any.whl.zip]
+[2024-04-12 04:41:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-loan]: success
+[2024-04-12 04:41:58] INFO root fetch - main [MainThread]: Store serial: [22731930]
