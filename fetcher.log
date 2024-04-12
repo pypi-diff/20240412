@@ -3127,3 +3127,54 @@
 [2024-04-12 02:36:10] INFO root fetch - processPackages [maraboupy]: Remove: archive file [/home/abi/fetcher/tmp/maraboupy-2.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-12 02:36:10] INFO root fetch - main [MainThread]: End processing [maraboupy]: success
 [2024-04-12 02:36:10] INFO root fetch - main [MainThread]: Store serial: [22728678]
+[2024-04-12 02:38:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728678]
+[2024-04-12 02:38:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 02:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: num-enumerator
+[2024-04-12 02:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2024-04-12 02:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jemma
+[2024-04-12 02:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cuspatial-cu11
+[2024-04-12 02:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyAibote
+[2024-04-12 02:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cfbd-json-py
+[2024-04-12 02:38:23] INFO root fetch - processPackages [jemma]: New version: [0.1.4200] Old Version: [0.1.420]
+[2024-04-12 02:38:23] INFO root fetch - processPackages [PyAibote]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-12 02:38:23] WARNING root fetch - processPackages [num-enumerator]: Skipping, unable to determine old version
+[2024-04-12 02:38:23] INFO root fetch - main [MainThread]: End processing [num-enumerator] error
+[2024-04-12 02:38:23] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-12 02:38:23] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/56/7a/ebed3dec7e9476f79c3da2c0e34aad99730ada2893da2f8e87cf9d76f5b8/jemma-0.1.420.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [cuspatial-cu11]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:38:23] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/80/70/8a79f4cb2978b8faddaac6c1cb5baa386fc20f84a1d1b5d462d93f0c401d/PyAibote-1.3.8.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [cfbd-json-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-12 02:38:23] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [cuspatial-cu11]: Downloading https://files.pythonhosted.org/packages/72/84/7d61227b619734d28c939f9b4b86a2a23143a36e9579a32998b30ec72752/cuspatial-cu11-24.2.0.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [cfbd-json-py]: Downloading https://files.pythonhosted.org/packages/13/bd/5009ea9c2dbee253f7202eb9e95581428c052ffd806abb9aa2850f3384e2/cfbd_json_py-0.1.1.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/d9/63/51ec556f3f0370b05808408de880483a939b0a2fbbb9cc0e33cbd2415477/jemma-0.1.4200.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/5c/7c/21f386f62fec8c96c4a1c953a4f15e69a0b4f1f6adb48216ef8949a377ac/PyAibote-1.3.9.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-12 02:38:23] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.420.tar.gz tmp/jemma-0.1.4200.tar.gz --markdown 20240412/j/jemma/0.1.420-0.1.4200/README.md --exclude *.pyd
+[2024-04-12 02:38:23] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-12 02:38:23] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240412/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-12 02:38:23] INFO root fetch - processPackages [PyAibote]: executing diffoscope
+[2024-04-12 02:38:23] INFO root fetch - processPackages [PyAibote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAibote-1.3.8.tar.gz tmp/PyAibote-1.3.9.tar.gz --markdown 20240412/P/PyAibote/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-12 02:38:23] INFO root fetch - processPackages [cuspatial-cu11]: Downloading https://files.pythonhosted.org/packages/be/79/fb1a9f63b9c8015a618df3c528ebe4a357a7eaee9b29cd191e656df10f8a/cuspatial_cu11-24.4.0.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [cfbd-json-py]: Downloading https://files.pythonhosted.org/packages/6c/45/937e29c0976c131d4b4b6482f2462f7407df2d64b7c9686367d43049cdaa/cfbd_json_py-0.1.2.tar.gz
+[2024-04-12 02:38:23] INFO root fetch - processPackages [cuspatial-cu11]: executing diffoscope
+[2024-04-12 02:38:23] INFO root fetch - processPackages [cuspatial-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuspatial-cu11-24.2.0.tar.gz tmp/cuspatial_cu11-24.4.0.tar.gz --markdown 20240412/c/cuspatial-cu11/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:38:24] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-12 02:38:24] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-12 02:38:24] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-12 02:38:24] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.420.tar.gz]
+[2024-04-12 02:38:24] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.4200.tar.gz]
+[2024-04-12 02:38:24] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-12 02:38:24] INFO root fetch - processPackages [cuspatial-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuspatial-cu11-24.2.0.tar.gz]
+[2024-04-12 02:38:24] INFO root fetch - processPackages [cuspatial-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cuspatial_cu11-24.4.0.tar.gz]
+[2024-04-12 02:38:24] INFO root fetch - main [MainThread]: End processing [cuspatial-cu11]: success
+[2024-04-12 02:38:24] INFO root fetch - processPackages [cfbd-json-py]: executing diffoscope
+[2024-04-12 02:38:24] INFO root fetch - processPackages [cfbd-json-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfbd_json_py-0.1.1.tar.gz tmp/cfbd_json_py-0.1.2.tar.gz --markdown 20240412/c/cfbd-json-py/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-12 02:38:24] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.3.8.tar.gz]
+[2024-04-12 02:38:24] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.3.9.tar.gz]
+[2024-04-12 02:38:24] INFO root fetch - main [MainThread]: End processing [PyAibote]: success
+[2024-04-12 02:38:25] INFO root fetch - processPackages [cfbd-json-py]: Remove: archive file [/home/abi/fetcher/tmp/cfbd_json_py-0.1.1.tar.gz]
+[2024-04-12 02:38:25] INFO root fetch - processPackages [cfbd-json-py]: Remove: archive file [/home/abi/fetcher/tmp/cfbd_json_py-0.1.2.tar.gz]
+[2024-04-12 02:38:25] INFO root fetch - main [MainThread]: End processing [cfbd-json-py]: success
+[2024-04-12 02:38:25] INFO root fetch - main [MainThread]: Store serial: [22728693]
