@@ -14510,3 +14510,33 @@
 [2024-04-12 07:27:54] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-1.0.6.tar.gz]
 [2024-04-12 07:27:54] INFO root fetch - main [MainThread]: End processing [covdrugsim]: success
 [2024-04-12 07:27:54] INFO root fetch - main [MainThread]: Store serial: [22733027]
+[2024-04-12 07:29:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733027]
+[2024-04-12 07:30:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 07:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio-log
+[2024-04-12 07:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-common
+[2024-04-12 07:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monterey
+[2024-04-12 07:30:02] INFO root fetch - processPackages [monterey]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 07:30:02] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.4.4] Old Version: [1.0.7.4.3]
+[2024-04-12 07:30:02] INFO root fetch - processPackages [gradio-log]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 07:30:02] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/bb/46/4e97a57d768c0c162757f4535b3da7746ba4af0bc15ae3b4360b15925331/mns_common-1.0.7.4.3.tar.gz
+[2024-04-12 07:30:03] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/22/25/233e011175f12fdb038a64b7c45406b445bf533dc9001456e06b5417badc/monterey-0.0.1.tar.gz
+[2024-04-12 07:30:03] INFO root fetch - processPackages [gradio-log]: Downloading https://files.pythonhosted.org/packages/60/74/d76f14d1147766413d8128259cd5f9bf3abe2b0c9e7305c04e868ed5a511/gradio_log-0.0.3.tar.gz
+[2024-04-12 07:30:03] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/4d/50/f9a5cd48ec2de4043fa6e69bc99b54b0026ca325600a9dab5bd856e64880/mns_common-1.0.7.4.4.tar.gz
+[2024-04-12 07:30:03] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-12 07:30:03] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.4.3.tar.gz tmp/mns_common-1.0.7.4.4.tar.gz --markdown 20240412/m/mns-common/1.0.7.4.3-1.0.7.4.4/README.md --exclude *.pyd
+[2024-04-12 07:30:03] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/b2/60/f4a18bb513f37ace1acd96874d3b9b84071030cab130345d6e80b88c8dd2/monterey-0.0.2.tar.gz
+[2024-04-12 07:30:03] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 07:30:03] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.1.tar.gz tmp/monterey-0.0.2.tar.gz --markdown 20240412/m/monterey/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 07:30:03] INFO root fetch - processPackages [gradio-log]: Downloading https://files.pythonhosted.org/packages/67/0d/7ebd56a5720373bb10a9e4fa3b1f8c129864043a62abc055fc60bd8541ce/gradio_log-0.0.4.tar.gz
+[2024-04-12 07:30:03] INFO root fetch - processPackages [gradio-log]: executing diffoscope
+[2024-04-12 07:30:03] INFO root fetch - processPackages [gradio-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_log-0.0.3.tar.gz tmp/gradio_log-0.0.4.tar.gz --markdown 20240412/g/gradio-log/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 07:30:03] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.3.tar.gz]
+[2024-04-12 07:30:03] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.4.tar.gz]
+[2024-04-12 07:30:03] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-12 07:30:03] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.1.tar.gz]
+[2024-04-12 07:30:03] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.2.tar.gz]
+[2024-04-12 07:30:03] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 07:30:07] INFO root fetch - processPackages [gradio-log]: Remove: archive file [/home/abi/fetcher/tmp/gradio_log-0.0.3.tar.gz]
+[2024-04-12 07:30:07] INFO root fetch - processPackages [gradio-log]: Remove: archive file [/home/abi/fetcher/tmp/gradio_log-0.0.4.tar.gz]
+[2024-04-12 07:30:07] INFO root fetch - main [MainThread]: End processing [gradio-log]: success
+[2024-04-12 07:30:07] INFO root fetch - main [MainThread]: Store serial: [22733039]
