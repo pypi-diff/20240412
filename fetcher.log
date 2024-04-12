@@ -15820,3 +15820,27 @@
 [2024-04-12 08:38:27] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.4rc0.tar.gz]
 [2024-04-12 08:38:27] INFO root fetch - main [MainThread]: End processing [dbgpt]: success
 [2024-04-12 08:38:27] INFO root fetch - main [MainThread]: Store serial: [22733565]
+[2024-04-12 08:40:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733565]
+[2024-04-12 08:40:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 08:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqueen
+[2024-04-12 08:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pym3u8downloader
+[2024-04-12 08:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weld-deps
+[2024-04-12 08:40:37] INFO root fetch - processPackages [weld-deps]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-12 08:40:37] INFO root fetch - processPackages [pyqueen]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 08:40:37] WARNING root fetch - processPackages [pym3u8downloader]: Skipping, unable to determine old version
+[2024-04-12 08:40:37] INFO root fetch - main [MainThread]: End processing [pym3u8downloader] error
+[2024-04-12 08:40:38] INFO root fetch - processPackages [pyqueen]: Downloading https://files.pythonhosted.org/packages/0a/10/b23d8b81663cdab86625000c9a1173a2332177c5678c1d6a79f1b45d5cd6/pyqueen-1.0.8.tar.gz
+[2024-04-12 08:40:38] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/67/81/83a84d8ee38172e4e61be7018d4b6aeb075f6acc6a34084e09ef8517e33d/weld_deps-0.5.0.tar.gz
+[2024-04-12 08:40:38] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/81/04/d9f36e7b5d182f4977bc7ef2351ef6e964b5f8a3119a2975d4506dd871b3/weld_deps-0.6.0.tar.gz
+[2024-04-12 08:40:38] INFO root fetch - processPackages [pyqueen]: Downloading https://files.pythonhosted.org/packages/01/d2/8c6b250edcb2a4d24cd2de765c4544c491d31948789b0f4d435fdca9fc15/pyqueen-1.0.9.tar.gz
+[2024-04-12 08:40:38] INFO root fetch - processPackages [pyqueen]: executing diffoscope
+[2024-04-12 08:40:38] INFO root fetch - processPackages [pyqueen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqueen-1.0.8.tar.gz tmp/pyqueen-1.0.9.tar.gz --markdown 20240412/p/pyqueen/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 08:40:38] INFO root fetch - processPackages [weld-deps]: executing diffoscope
+[2024-04-12 08:40:38] INFO root fetch - processPackages [weld-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weld_deps-0.5.0.tar.gz tmp/weld_deps-0.6.0.tar.gz --markdown 20240412/w/weld-deps/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-12 08:40:39] INFO root fetch - processPackages [pyqueen]: Remove: archive file [/home/abi/fetcher/tmp/pyqueen-1.0.8.tar.gz]
+[2024-04-12 08:40:39] INFO root fetch - processPackages [pyqueen]: Remove: archive file [/home/abi/fetcher/tmp/pyqueen-1.0.9.tar.gz]
+[2024-04-12 08:40:39] INFO root fetch - main [MainThread]: End processing [pyqueen]: success
+[2024-04-12 08:40:39] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.5.0.tar.gz]
+[2024-04-12 08:40:39] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.6.0.tar.gz]
+[2024-04-12 08:40:39] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
+[2024-04-12 08:40:39] INFO root fetch - main [MainThread]: Store serial: [22733575]
