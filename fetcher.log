@@ -3303,3 +3303,41 @@
 [2024-04-12 02:47:40] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404110044.tar.gz]
 [2024-04-12 02:47:40] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-12 02:47:40] INFO root fetch - main [MainThread]: Store serial: [22728784]
+[2024-04-12 02:49:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728784]
+[2024-04-12 02:49:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 02:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2024-04-12 02:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sns-notify
+[2024-04-12 02:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qbraid-core
+[2024-04-12 02:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lama2923
+[2024-04-12 02:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vscode-server-bin
+[2024-04-12 02:49:50] WARNING root fetch - processPackages [lama2923]: Skipping, unable to determine old version
+[2024-04-12 02:49:50] INFO root fetch - main [MainThread]: End processing [lama2923] error
+[2024-04-12 02:49:50] INFO root fetch - processPackages [qbraid-core]: New version: [0.1.2.dev2] Old Version: [0.1.2.dev1]
+[2024-04-12 02:49:50] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-12 02:49:50] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-12 02:49:50] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/d8/65/b32ccd3851b6d87b1d7f3a8054da0a2d2397c3ce2e69eefb6b0c6f2d8e98/qbraid-core-0.1.2.dev1.tar.gz
+[2024-04-12 02:49:50] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-12 02:49:50] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-04-12 02:49:51] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-12 02:49:51] INFO root fetch - processPackages [vscode-server-bin]: New version: [1.88.1] Old Version: [1.88.0]
+[2024-04-12 02:49:51] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-04-12 02:49:51] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/3c/ae/9165c1648a16eac10c98a601ab98890d8ece746488d7e0072a7578b86aeb/qbraid-core-0.1.2.dev2.tar.gz
+[2024-04-12 02:49:51] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-12 02:49:51] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240412/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-12 02:49:51] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-04-12 02:49:51] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240412/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-12 02:49:51] INFO root fetch - processPackages [vscode-server-bin]: Downloading https://files.pythonhosted.org/packages/e1/7c/a323de0b3ea154fa6eca08f6788b98eecea7b93e2343c93943a5254a6b3f/vscode_server_bin-1.88.0-py3-none-any.whl
+[2024-04-12 02:49:51] WARNING root fetch - processPackages [vscode-server-bin]: Skipping package: exceeds size limit 56931117>=10485760
+[2024-04-12 02:49:51] INFO root fetch - main [MainThread]: End processing [vscode-server-bin] error
+[2024-04-12 02:49:51] INFO root fetch - processPackages [qbraid-core]: executing diffoscope
+[2024-04-12 02:49:51] INFO root fetch - processPackages [qbraid-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-core-0.1.2.dev1.tar.gz tmp/qbraid-core-0.1.2.dev2.tar.gz --markdown 20240412/q/qbraid-core/0.1.2.dev1-0.1.2.dev2/README.md --exclude *.pyd
+[2024-04-12 02:49:51] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-04-12 02:49:51] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-04-12 02:49:51] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-04-12 02:49:52] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.2.dev1.tar.gz]
+[2024-04-12 02:49:52] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-core-0.1.2.dev2.tar.gz]
+[2024-04-12 02:49:52] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
+[2024-04-12 02:50:10] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-12 02:50:10] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-12 02:50:10] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-12 02:50:10] INFO root fetch - main [MainThread]: Store serial: [22728801]
