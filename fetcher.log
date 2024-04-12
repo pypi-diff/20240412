@@ -14489,3 +14489,24 @@
 [2024-04-12 07:25:43] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev5-py3-none-any.whl.zip]
 [2024-04-12 07:25:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-queue-job]: success
 [2024-04-12 07:25:43] INFO root fetch - main [MainThread]: Store serial: [22733020]
+[2024-04-12 07:27:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733020]
+[2024-04-12 07:27:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 07:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trial-IGNchinmay
+[2024-04-12 07:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: covdrugsim
+[2024-04-12 07:27:52] INFO root fetch - processPackages [trial-IGNchinmay]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 07:27:52] INFO root fetch - processPackages [trial-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/49/72/2589990352eb8e262bdb24140d2c92728403281e1577dd54df9419817531/trial_IGNchinmay-0.0.2.tar.gz
+[2024-04-12 07:27:52] INFO root fetch - processPackages [covdrugsim]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-12 07:27:52] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/5e/8f/d773086be2c130eee02aa14a22af2c70cb9e53e27e6f8c09aad44cc4a65e/covdrugsim-1.0.5.tar.gz
+[2024-04-12 07:27:52] INFO root fetch - processPackages [trial-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/ac/eb/894bc5cd72558a11dc6ead7580ed74cbba16d6d4b7685355de9528a831ca/trial_IGNchinmay-0.0.3.tar.gz
+[2024-04-12 07:27:52] INFO root fetch - processPackages [trial-IGNchinmay]: executing diffoscope
+[2024-04-12 07:27:52] INFO root fetch - processPackages [trial-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trial_IGNchinmay-0.0.2.tar.gz tmp/trial_IGNchinmay-0.0.3.tar.gz --markdown 20240412/t/trial-IGNchinmay/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 07:27:53] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/c0/ed/5515a1613037f12e285322faa03a0bed242b6708036f2230961b2414cc0c/covdrugsim-1.0.6.tar.gz
+[2024-04-12 07:27:53] INFO root fetch - processPackages [covdrugsim]: executing diffoscope
+[2024-04-12 07:27:53] INFO root fetch - processPackages [covdrugsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covdrugsim-1.0.5.tar.gz tmp/covdrugsim-1.0.6.tar.gz --markdown 20240412/c/covdrugsim/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-12 07:27:53] INFO root fetch - processPackages [trial-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/trial_IGNchinmay-0.0.2.tar.gz]
+[2024-04-12 07:27:53] INFO root fetch - processPackages [trial-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/trial_IGNchinmay-0.0.3.tar.gz]
+[2024-04-12 07:27:53] INFO root fetch - main [MainThread]: End processing [trial-IGNchinmay]: success
+[2024-04-12 07:27:54] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-1.0.5.tar.gz]
+[2024-04-12 07:27:54] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-1.0.6.tar.gz]
+[2024-04-12 07:27:54] INFO root fetch - main [MainThread]: End processing [covdrugsim]: success
+[2024-04-12 07:27:54] INFO root fetch - main [MainThread]: Store serial: [22733027]
