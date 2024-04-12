@@ -13163,3 +13163,33 @@
 [2024-04-12 05:53:54] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.6.9.tar.gz]
 [2024-04-12 05:53:54] INFO root fetch - main [MainThread]: End processing [zen-dash]: success
 [2024-04-12 05:53:54] INFO root fetch - main [MainThread]: Store serial: [22732431]
+[2024-04-12 05:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732431]
+[2024-04-12 05:56:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 05:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruff
+[2024-04-12 05:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: person-local
+[2024-04-12 05:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-tingwu
+[2024-04-12 05:56:03] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-12 05:56:03] INFO root fetch - processPackages [ruff]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-12 05:56:03] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-12 05:56:03] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-04-12 05:56:03] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/ee/bc/f38c369c43e74ad172d2ba2053ebd6ce2743e863023b0dd6f7a65621beda/ruff-0.3.5.tar.gz
+[2024-04-12 05:56:04] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-04-12 05:56:04] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Downloading https://files.pythonhosted.org/packages/86/57/f91b9ae111c2b4e5bbbe3c7c7941f8ba098eb10bac0b67bd194d25b71eda/aliyun-python-sdk-tingwu-1.0.4.tar.gz
+[2024-04-12 05:56:04] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-04-12 05:56:04] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240412/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-12 05:56:04] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/00/5a/7fda7cb7121cb19e02401426d8a26b1d1dfda9de7d9f4d0b5dfa2a47b952/ruff-0.3.6.tar.gz
+[2024-04-12 05:56:04] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Downloading https://files.pythonhosted.org/packages/ad/a4/32c7c130ed6261d62513fc932efc1653004e68c39583277cbb9213f75e32/aliyun-python-sdk-tingwu-1.0.5.tar.gz
+[2024-04-12 05:56:04] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: executing diffoscope
+[2024-04-12 05:56:04] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-tingwu-1.0.4.tar.gz tmp/aliyun-python-sdk-tingwu-1.0.5.tar.gz --markdown 20240412/a/aliyun-python-sdk-tingwu/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-12 05:56:04] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2024-04-12 05:56:04] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.3.5.tar.gz tmp/ruff-0.3.6.tar.gz --markdown 20240412/r/ruff/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-12 05:56:04] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-04-12 05:56:04] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-04-12 05:56:04] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-04-12 05:56:05] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-tingwu-1.0.4.tar.gz]
+[2024-04-12 05:56:05] INFO root fetch - processPackages [aliyun-python-sdk-tingwu]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-tingwu-1.0.5.tar.gz]
+[2024-04-12 05:56:05] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-tingwu]: success
+[2024-04-12 05:56:17] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.3.5.tar.gz]
+[2024-04-12 05:56:17] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.3.6.tar.gz]
+[2024-04-12 05:56:17] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2024-04-12 05:56:17] INFO root fetch - main [MainThread]: Store serial: [22732455]
