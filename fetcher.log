@@ -2262,3 +2262,33 @@
 [2024-04-12 02:06:35] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240411.tar.gz]
 [2024-04-12 02:06:35] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-04-12 02:06:35] INFO root fetch - main [MainThread]: Store serial: [22728295]
+[2024-04-12 02:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728295]
+[2024-04-12 02:08:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 02:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2024-04-12 02:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-tagging-model
+[2024-04-12 02:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dijkstra3d
+[2024-04-12 02:08:45] INFO root fetch - processPackages [text-tagging-model]: New version: [0.1.4a2] Old Version: [0.1.4a1]
+[2024-04-12 02:08:45] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240412] Old Version: [0.0.8.dev20240411]
+[2024-04-12 02:08:45] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/74/be/9761407667cdf0adf64c3117f7f7db5f9d3592117902c33f8af2258871e1/text_tagging_model-0.1.4a1.tar.gz
+[2024-04-12 02:08:45] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/0f/2c/9b674055a29598e6704563051b1833e330cb038b7aae2b1012514ea53c2b/jaxutils-nightly-0.0.8.dev20240411.tar.gz
+[2024-04-12 02:08:46] INFO root fetch - processPackages [dijkstra3d]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-12 02:08:46] INFO root fetch - processPackages [text-tagging-model]: Downloading https://files.pythonhosted.org/packages/05/bb/f3c279b25535f52dd13d17ecef36ec0944821650f05e4b1de8831ee952f1/text_tagging_model-0.1.4a2.tar.gz
+[2024-04-12 02:08:46] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/d7/0c/8b72654fbe5b6ac4e9c9a2e2b1b36ca92a8d53beac8861bf5f36790b34af/jaxutils-nightly-0.0.8.dev20240412.tar.gz
+[2024-04-12 02:08:46] INFO root fetch - processPackages [dijkstra3d]: Downloading https://files.pythonhosted.org/packages/3b/c8/786dc2646d91585d9217045742e54f5b0c143f7924e5feff488b0d6dc8bc/dijkstra3d-1.9.1.tar.gz
+[2024-04-12 02:08:46] INFO root fetch - processPackages [text-tagging-model]: executing diffoscope
+[2024-04-12 02:08:46] INFO root fetch - processPackages [text-tagging-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_tagging_model-0.1.4a1.tar.gz tmp/text_tagging_model-0.1.4a2.tar.gz --markdown 20240412/t/text-tagging-model/0.1.4a1-0.1.4a2/README.md --exclude *.pyd
+[2024-04-12 02:08:46] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-12 02:08:46] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240411.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240412.tar.gz --markdown 20240412/j/jaxutils-nightly/0.0.8.dev20240411-0.0.8.dev20240412/README.md --exclude *.pyd
+[2024-04-12 02:08:46] INFO root fetch - processPackages [dijkstra3d]: Downloading https://files.pythonhosted.org/packages/62/97/e0300f87b3d26007c8aa6d05d602622a91e8c8f92722ae6621b46a27c725/dijkstra3d-1.9.2.tar.gz
+[2024-04-12 02:08:46] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240411.tar.gz]
+[2024-04-12 02:08:46] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240412.tar.gz]
+[2024-04-12 02:08:47] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-12 02:08:47] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.4a1.tar.gz]
+[2024-04-12 02:08:47] INFO root fetch - processPackages [text-tagging-model]: Remove: archive file [/home/abi/fetcher/tmp/text_tagging_model-0.1.4a2.tar.gz]
+[2024-04-12 02:08:47] INFO root fetch - main [MainThread]: End processing [text-tagging-model]: success
+[2024-04-12 02:08:47] INFO root fetch - processPackages [dijkstra3d]: executing diffoscope
+[2024-04-12 02:08:47] INFO root fetch - processPackages [dijkstra3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dijkstra3d-1.9.1.tar.gz tmp/dijkstra3d-1.9.2.tar.gz --markdown 20240412/d/dijkstra3d/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-12 02:08:48] INFO root fetch - processPackages [dijkstra3d]: Remove: archive file [/home/abi/fetcher/tmp/dijkstra3d-1.9.1.tar.gz]
+[2024-04-12 02:08:48] INFO root fetch - processPackages [dijkstra3d]: Remove: archive file [/home/abi/fetcher/tmp/dijkstra3d-1.9.2.tar.gz]
+[2024-04-12 02:08:48] INFO root fetch - main [MainThread]: End processing [dijkstra3d]: success
+[2024-04-12 02:08:48] INFO root fetch - main [MainThread]: Store serial: [22728333]
