@@ -11468,3 +11468,36 @@
 [2024-04-12 04:05:00] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.423.tar.gz]
 [2024-04-12 04:05:00] INFO root fetch - main [MainThread]: End processing [jemma]: success
 [2024-04-12 04:05:00] INFO root fetch - main [MainThread]: Store serial: [22731644]
+[2024-04-12 04:07:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731644]
+[2024-04-12 04:07:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 04:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mms-client
+[2024-04-12 04:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lxfcode
+[2024-04-12 04:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: layginutils
+[2024-04-12 04:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lisaanalysistools
+[2024-04-12 04:07:09] INFO root fetch - processPackages [lxfcode]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-12 04:07:09] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/c0/31/b587f0bf3c29d37b6d3eeba4242740a50a05dd9d229e92414a6660774e44/lxfcode-0.2.4-py2.py3-none-any.whl
+[2024-04-12 04:07:09] INFO root fetch - processPackages [mms-client]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-12 04:07:09] WARNING root fetch - processPackages [layginutils]: Skipping, unable to determine old version
+[2024-04-12 04:07:09] INFO root fetch - main [MainThread]: End processing [layginutils] error
+[2024-04-12 04:07:09] INFO root fetch - processPackages [lisaanalysistools]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-12 04:07:09] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/c2/75/98f0663d2066d117f7755d8c71387c7cb27e40211493ad8b1d1baa43ff55/mms_client-1.0.6.tar.gz
+[2024-04-12 04:07:09] INFO root fetch - processPackages [lisaanalysistools]: Downloading https://files.pythonhosted.org/packages/3d/96/9d626b30d52cdc419fda0b8c9ecd0a9bbcba3a9aa496bcf60bc9f8a7b847/lisaanalysistools-1.0.4.tar.gz
+[2024-04-12 04:07:10] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/59/50/13d22f9dd49d25fe46a38d2d7f0cd12d6ac4f889778141e5b1b1264fffae/lxfcode-0.2.5-py2.py3-none-any.whl
+[2024-04-12 04:07:10] INFO root fetch - processPackages [lxfcode]: executing diffoscope
+[2024-04-12 04:07:10] INFO root fetch - processPackages [lxfcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxfcode-0.2.4-py2.py3-none-any.whl.zip tmp/lxfcode-0.2.5-py2.py3-none-any.whl.zip --markdown 20240412/l/lxfcode/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-12 04:07:10] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/7f/e0/aa246a18dbb020b6312c0e66d58b67c30f33e71757dd98fe4d247b2e2a40/mms_client-1.1.0.tar.gz
+[2024-04-12 04:07:10] INFO root fetch - processPackages [lisaanalysistools]: Downloading https://files.pythonhosted.org/packages/24/de/710028fabc68fb74a668e61c80c5b57dc949615b25ea4f641a047d8d1942/lisaanalysistools-1.0.5.tar.gz
+[2024-04-12 04:07:10] INFO root fetch - processPackages [mms-client]: executing diffoscope
+[2024-04-12 04:07:10] INFO root fetch - processPackages [mms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_client-1.0.6.tar.gz tmp/mms_client-1.1.0.tar.gz --markdown 20240412/m/mms-client/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-04-12 04:07:10] INFO root fetch - processPackages [lisaanalysistools]: executing diffoscope
+[2024-04-12 04:07:10] INFO root fetch - processPackages [lisaanalysistools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisaanalysistools-1.0.4.tar.gz tmp/lisaanalysistools-1.0.5.tar.gz --markdown 20240412/l/lisaanalysistools/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-12 04:07:10] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.4-py2.py3-none-any.whl.zip]
+[2024-04-12 04:07:10] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.5-py2.py3-none-any.whl.zip]
+[2024-04-12 04:07:10] INFO root fetch - main [MainThread]: End processing [lxfcode]: success
+[2024-04-12 04:07:11] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.0.6.tar.gz]
+[2024-04-12 04:07:11] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.1.0.tar.gz]
+[2024-04-12 04:07:11] INFO root fetch - main [MainThread]: End processing [mms-client]: success
+[2024-04-12 04:07:11] INFO root fetch - processPackages [lisaanalysistools]: Remove: archive file [/home/abi/fetcher/tmp/lisaanalysistools-1.0.4.tar.gz]
+[2024-04-12 04:07:11] INFO root fetch - processPackages [lisaanalysistools]: Remove: archive file [/home/abi/fetcher/tmp/lisaanalysistools-1.0.5.tar.gz]
+[2024-04-12 04:07:11] INFO root fetch - main [MainThread]: End processing [lisaanalysistools]: success
+[2024-04-12 04:07:11] INFO root fetch - main [MainThread]: Store serial: [22731655]
