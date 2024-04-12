@@ -3341,3 +3341,27 @@
 [2024-04-12 02:50:10] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-12 02:50:10] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-12 02:50:10] INFO root fetch - main [MainThread]: Store serial: [22728801]
+[2024-04-12 02:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728801]
+[2024-04-12 02:52:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 02:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toolforge-builds-cli
+[2024-04-12 02:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dialog-lib
+[2024-04-12 02:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PytorchWildlife
+[2024-04-12 02:52:18] WARNING root fetch - processPackages [dialog-lib]: Skipping, unable to determine old version
+[2024-04-12 02:52:18] INFO root fetch - main [MainThread]: End processing [dialog-lib] error
+[2024-04-12 02:52:18] INFO root fetch - processPackages [toolforge-builds-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 02:52:18] INFO root fetch - processPackages [PytorchWildlife]: New version: [1.0.2.9] Old Version: [1.0.2.8]
+[2024-04-12 02:52:19] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/12/df/93324282c55a27d12d01543df215ed11f65e7cf01cf8dab36dd8d5253183/PytorchWildlife-1.0.2.8.tar.gz
+[2024-04-12 02:52:19] INFO root fetch - processPackages [toolforge-builds-cli]: Downloading https://files.pythonhosted.org/packages/8f/18/2c644376e2f25d02b5b28a5f6ad07737aaf26896bd866997a2c190164c7b/toolforge_builds_cli-0.0.8.tar.gz
+[2024-04-12 02:52:19] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/e7/cb/3a89fd670dc291f283a9781aae53e7311daed30b68a66bca3a8148310265/PytorchWildlife-1.0.2.9.tar.gz
+[2024-04-12 02:52:19] INFO root fetch - processPackages [PytorchWildlife]: executing diffoscope
+[2024-04-12 02:52:19] INFO root fetch - processPackages [PytorchWildlife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PytorchWildlife-1.0.2.8.tar.gz tmp/PytorchWildlife-1.0.2.9.tar.gz --markdown 20240412/P/PytorchWildlife/1.0.2.8-1.0.2.9/README.md --exclude *.pyd
+[2024-04-12 02:52:19] INFO root fetch - processPackages [toolforge-builds-cli]: Downloading https://files.pythonhosted.org/packages/f5/bc/c658bc263cfba3b47783c9760b76844cff32da5a92e58c5b2f340cb08d79/toolforge_builds_cli-0.0.9.tar.gz
+[2024-04-12 02:52:19] INFO root fetch - processPackages [toolforge-builds-cli]: executing diffoscope
+[2024-04-12 02:52:19] INFO root fetch - processPackages [toolforge-builds-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolforge_builds_cli-0.0.8.tar.gz tmp/toolforge_builds_cli-0.0.9.tar.gz --markdown 20240412/t/toolforge-builds-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 02:52:20] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.8.tar.gz]
+[2024-04-12 02:52:20] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.tar.gz]
+[2024-04-12 02:52:20] INFO root fetch - main [MainThread]: End processing [PytorchWildlife]: success
+[2024-04-12 02:52:20] INFO root fetch - processPackages [toolforge-builds-cli]: Remove: archive file [/home/abi/fetcher/tmp/toolforge_builds_cli-0.0.8.tar.gz]
+[2024-04-12 02:52:20] INFO root fetch - processPackages [toolforge-builds-cli]: Remove: archive file [/home/abi/fetcher/tmp/toolforge_builds_cli-0.0.9.tar.gz]
+[2024-04-12 02:52:20] INFO root fetch - main [MainThread]: End processing [toolforge-builds-cli]: success
+[2024-04-12 02:52:20] INFO root fetch - main [MainThread]: Store serial: [22728810]
