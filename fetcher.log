@@ -2292,3 +2292,190 @@
 [2024-04-12 02:08:48] INFO root fetch - processPackages [dijkstra3d]: Remove: archive file [/home/abi/fetcher/tmp/dijkstra3d-1.9.2.tar.gz]
 [2024-04-12 02:08:48] INFO root fetch - main [MainThread]: End processing [dijkstra3d]: success
 [2024-04-12 02:08:48] INFO root fetch - main [MainThread]: Store serial: [22728333]
+[2024-04-12 02:10:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728333]
+[2024-04-12 02:10:56] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renewenergy
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fprime-fpp-check
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fprime-fpp-depend
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fprime-fpp-filenames
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fprime-fpp-format
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fprime-fpp-from-xml
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fprime-fpp-locate-defs
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fprime-fpp
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fprime-fpp-locate-uses
+[2024-04-12 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openbb-nightly
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-check]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404110009] Old Version: [4.1.6.dev202404100009]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-format]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-filenames]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [renewenergy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-from-xml]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-depend]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-locate-uses]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-locate-defs]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-check]: Downloading https://files.pythonhosted.org/packages/29/65/f454274bdaed6eeefc25b96b66172cbd0b9b2c812fbd0e59596dbfb720eb/fprime_fpp_check-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:57] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/d6/f9/02190f657b84ee81763c0174a6a59bc785802bd0bd22310142dc3cc41669/openbb_nightly-4.1.6.dev202404100009.tar.gz
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-format]: Downloading https://files.pythonhosted.org/packages/60/7d/48e2450ded34eb97994af93b566398051adb3a0e3049186f876a67f13f66/fprime_fpp_format-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-from-xml]: Downloading https://files.pythonhosted.org/packages/95/e9/c90d1d611382888f5809a668368bfbd1eea9603c103e41a0dd7cbd726da0/fprime_fpp_from_xml-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-depend]: Downloading https://files.pythonhosted.org/packages/f5/c5/ad16f8dc28fb5bf11ae6b85cb677071252976836316887b1d9ef6f008b10/fprime_fpp_depend-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-filenames]: Downloading https://files.pythonhosted.org/packages/8b/a8/4ef964a459b9fa7ed70be8fcd5842b4f946e2f8fffd5b355c8fa9f4a01e2/fprime_fpp_filenames-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:57] INFO root fetch - processPackages [renewenergy]: Downloading https://files.pythonhosted.org/packages/c6/62/8d164d09b99c0eedb498c1d8e3568f0fdd84dece177cd0d2e8514cc2d480/renewenergy-0.1.0.tar.gz
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp]: Downloading https://files.pythonhosted.org/packages/29/63/f89c82952995dde0df1d7764f77831b56893dee58452e3b8382a0ad2a69e/fprime_fpp-2.1.0a6-py3-none-any.whl
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-locate-defs]: Downloading https://files.pythonhosted.org/packages/7d/12/1eab97ead3803a2f9411dc74f94ee72023f3ad01fd8af155625a8d6b4926/fprime_fpp_locate_defs-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:57] WARNING root fetch - processPackages [fprime-fpp-from-xml]: Skipping package: exceeds size limit 11042301>=10485760
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-from-xml]: Start processing: fprime-fpp-syntax
+[2024-04-12 02:10:57] INFO root fetch - main [MainThread]: End processing [fprime-fpp-from-xml] error
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-locate-uses]: Downloading https://files.pythonhosted.org/packages/d4/43/0d9f3dcffd9b30863fc37054e51242963f99efc24d240c53890c56d79dad/fprime_fpp_locate_uses-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-syntax]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:57] INFO root fetch - processPackages [renewenergy]: Downloading https://files.pythonhosted.org/packages/1a/49/f07e9bfc0cd9c5c0b49a674255f8f21e1816ce5c747f75ff4573f5500ece/renewenergy-0.1.1.tar.gz
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp]: Downloading https://files.pythonhosted.org/packages/f3/7f/f5e850c2edaee6c04dc6f8e8e6e7db139cf56168b29d00ffaacf88ce0682/fprime_fpp-2.1.0a7-py3-none-any.whl
+[2024-04-12 02:10:57] INFO root fetch - processPackages [fprime-fpp-syntax]: Downloading https://files.pythonhosted.org/packages/9b/c0/ede8f75aa1431211dfe0788abc819feaaf4551efaa76edb1ff9c34352fc5/fprime_fpp_syntax-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:57] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/a6/54/afe0d505947859f425bf165b8166252b68411f317a0d9892e4b007f1288b/openbb_nightly-4.1.6.dev202404110009.tar.gz
+[2024-04-12 02:10:58] INFO root fetch - processPackages [renewenergy]: executing diffoscope
+[2024-04-12 02:10:58] INFO root fetch - processPackages [renewenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renewenergy-0.1.0.tar.gz tmp/renewenergy-0.1.1.tar.gz --markdown 20240412/r/renewenergy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp-locate-defs]: Downloading https://files.pythonhosted.org/packages/ff/a1/123fbadf3885890378500ed4d1080769e2260bb204ea51a902b085751b85/fprime_fpp_locate_defs-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp]: executing diffoscope
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp-2.1.0a6-py3-none-any.whl.zip tmp/fprime_fpp-2.1.0a7-py3-none-any.whl.zip --markdown 20240412/f/fprime-fpp/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp-check]: Downloading https://files.pythonhosted.org/packages/a9/bf/7d38d99a896ff5f88bc0fd9b6763afb814f2b5193c0d513415a135f1a018/fprime_fpp_check-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp-format]: Downloading https://files.pythonhosted.org/packages/3c/19/d553f82d0de60775f16aa9e1806e768fb2f71c6e99e03c5f2128caf84881/fprime_fpp_format-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp-filenames]: Downloading https://files.pythonhosted.org/packages/2c/b0/afa5500e54cbfa93e0663ccdbf8aec5a2348d74015c79225f37dfa0aacc4/fprime_fpp_filenames-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp-depend]: Downloading https://files.pythonhosted.org/packages/64/ce/cb32d3a01cf29f3f4f64f21f9411adbccb7b46e778f12d7156696891863f/fprime_fpp_depend-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp-locate-uses]: Downloading https://files.pythonhosted.org/packages/44/11/b5b58094f24a9fcfa48a9779c5548de4e0e2fe012e8c5255a359e2b98cea/fprime_fpp_locate_uses-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:58] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-12 02:10:58] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404100009.tar.gz tmp/openbb_nightly-4.1.6.dev202404110009.tar.gz --markdown 20240412/o/openbb-nightly/4.1.6.dev202404100009-4.1.6.dev202404110009/README.md --exclude *.pyd
+[2024-04-12 02:10:58] INFO root fetch - processPackages [renewenergy]: Remove: archive file [/home/abi/fetcher/tmp/renewenergy-0.1.0.tar.gz]
+[2024-04-12 02:10:58] INFO root fetch - processPackages [renewenergy]: Remove: archive file [/home/abi/fetcher/tmp/renewenergy-0.1.1.tar.gz]
+[2024-04-12 02:10:58] INFO root fetch - processPackages [renewenergy]: Start processing: rats-pipelines
+[2024-04-12 02:10:58] INFO root fetch - main [MainThread]: End processing [renewenergy]: success
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp-2.1.0a6-py3-none-any.whl.zip]
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp-2.1.0a7-py3-none-any.whl.zip]
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp]: Start processing: fprime-fpp-to-cpp
+[2024-04-12 02:10:58] INFO root fetch - main [MainThread]: End processing [fprime-fpp]: success
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp-syntax]: Downloading https://files.pythonhosted.org/packages/47/00/d8467820963db9c061dd287fc5f107487453207d1939cc49a1b26c792d29/fprime_fpp_syntax-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:58] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-12 02:10:58] INFO root fetch - processPackages [fprime-fpp-to-cpp]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:58] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/fd/3d/9ac7bf4f5a002f3c5e7d488eb9b7bc9788a85f0a2f9a7910cf6ff07bd2e5/rats_pipelines-0.1.2.dev8-py3-none-any.whl
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-to-cpp]: Downloading https://files.pythonhosted.org/packages/f1/60/8953e337f4b7cf88ff31fc28bee53aa292a09d57e7eece0bf1ca2207bc7d/fprime_fpp_to_cpp-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:59] WARNING root fetch - processPackages [fprime-fpp-to-cpp]: Skipping package: exceeds size limit 11429701>=10485760
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-to-cpp]: Start processing: fprime-fpp-to-dict
+[2024-04-12 02:10:59] INFO root fetch - main [MainThread]: End processing [fprime-fpp-to-cpp] error
+[2024-04-12 02:10:59] WARNING root fetch - processPackages [fprime-fpp-to-dict]: Skipping, unable to determine old version
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-to-dict]: Start processing: fprime-fpp-to-json
+[2024-04-12 02:10:59] INFO root fetch - main [MainThread]: End processing [fprime-fpp-to-dict] error
+[2024-04-12 02:10:59] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/e2/8a/f408a3673d0e20732801e857a5f3a110cd2954b1891dc1928cd25b8852aa/rats_pipelines-0.1.2.dev9-py3-none-any.whl
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-to-json]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:10:59] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-12 02:10:59] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240412/r/rats-pipelines/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-locate-defs]: executing diffoscope
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-locate-defs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_locate_defs-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_locate_defs-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240412/f/fprime-fpp-locate-defs/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-to-json]: Downloading https://files.pythonhosted.org/packages/80/2e/6a51dbdd8f38b44b04fc1a70259e926486cd6064b40f6eaa889506a1c49e/fprime_fpp_to_json-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-filenames]: executing diffoscope
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-filenames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_filenames-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_filenames-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240412/f/fprime-fpp-filenames/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-format]: executing diffoscope
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_format-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_format-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240412/f/fprime-fpp-format/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-check]: executing diffoscope
+[2024-04-12 02:10:59] INFO root fetch - processPackages [fprime-fpp-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_check-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_check-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240412/f/fprime-fpp-check/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:11:00] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-12 02:11:00] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-12 02:11:00] INFO root fetch - processPackages [rats-pipelines]: Start processing: rats-apps
+[2024-04-12 02:11:00] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-12 02:11:00] INFO root fetch - processPackages [fprime-fpp-to-json]: Downloading https://files.pythonhosted.org/packages/ba/ee/3f7223e98261db7ceedee46bc8bafa2384aebb35606d2508b881f2450162/fprime_fpp_to_json-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:11:00] INFO root fetch - processPackages [rats-apps]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-12 02:11:00] INFO root fetch - processPackages [fprime-fpp-locate-uses]: executing diffoscope
+[2024-04-12 02:11:00] INFO root fetch - processPackages [fprime-fpp-locate-uses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_locate_uses-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_locate_uses-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240412/f/fprime-fpp-locate-uses/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:11:00] INFO root fetch - processPackages [fprime-fpp-depend]: executing diffoscope
+[2024-04-12 02:11:00] INFO root fetch - processPackages [fprime-fpp-depend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_depend-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_depend-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240412/f/fprime-fpp-depend/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:11:00] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/75/fa/bb66e052cb8be630a363579ebf75bc0e9f6af65552f35f7686e7ce9cedf8/rats_apps-0.1.2.dev8-py3-none-any.whl
+[2024-04-12 02:11:00] INFO root fetch - processPackages [fprime-fpp-syntax]: executing diffoscope
+[2024-04-12 02:11:00] INFO root fetch - processPackages [fprime-fpp-syntax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_syntax-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_syntax-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240412/f/fprime-fpp-syntax/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:11:01] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/c6/ef/123a368096a4d4dcec4671218e49b9d8aafdadad684dcaef1a28234060b0/rats_apps-0.1.2.dev9-py3-none-any.whl
+[2024-04-12 02:11:01] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-12 02:11:01] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240412/r/rats-apps/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-12 02:11:01] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-12 02:11:01] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-12 02:11:01] INFO root fetch - processPackages [rats-apps]: Start processing: fprime-fpp-to-xml
+[2024-04-12 02:11:01] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-12 02:11:01] INFO root fetch - processPackages [fprime-fpp-to-json]: executing diffoscope
+[2024-04-12 02:11:01] INFO root fetch - processPackages [fprime-fpp-to-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_to_json-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_to_json-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240412/f/fprime-fpp-to-json/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:11:01] INFO root fetch - processPackages [fprime-fpp-to-xml]: New version: [2.1.0a7] Old Version: [2.1.0a6]
+[2024-04-12 02:11:02] INFO root fetch - processPackages [fprime-fpp-to-xml]: Downloading https://files.pythonhosted.org/packages/93/71/dd3ad787900a7959fc27892890112da977a02dba32ea418ca7e438ab85ee/fprime_fpp_to_xml-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:11:02] INFO root fetch - processPackages [fprime-fpp-to-xml]: Downloading https://files.pythonhosted.org/packages/49/d4/58129315bd747eaece1ca7e39526b83ff62b28a86f31cf3ea6f2d551b6ea/fprime_fpp_to_xml-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl
+[2024-04-12 02:11:04] INFO root fetch - processPackages [fprime-fpp-to-xml]: executing diffoscope
+[2024-04-12 02:11:04] INFO root fetch - processPackages [fprime-fpp-to-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_fpp_to_xml-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip tmp/fprime_fpp_to_xml-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip --markdown 20240412/f/fprime-fpp-to-xml/2.1.0a6-2.1.0a7/README.md --exclude *.pyd
+[2024-04-12 02:11:05] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404100009.tar.gz]
+[2024-04-12 02:11:05] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404110009.tar.gz]
+[2024-04-12 02:11:05] INFO root fetch - processPackages [openbb-nightly]: Start processing: cdk-common
+[2024-04-12 02:11:05] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-12 02:11:06] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-12 02:11:06] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-12 02:11:06] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-12 02:11:06] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-12 02:11:06] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240412/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-12 02:11:07] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-12 02:11:07] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-12 02:11:07] INFO root fetch - processPackages [cdk-common]: Start processing: mct-quantizers-nightly
+[2024-04-12 02:11:07] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-12 02:11:08] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240411.post1046] Old Version: [1.4.0.20240410.post1030]
+[2024-04-12 02:11:08] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/48/b7/45b33e2d8df5e56c843483eab08225684c273ec563b5ef68dd1ba37bdd25/mct-quantizers-nightly-1.4.0.20240410.post1030.tar.gz
+[2024-04-12 02:11:08] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/e6/60/c007d9d6eb717831ff1d1631465ed37f1737e3fd2d658271986958b10fe7/mct-quantizers-nightly-1.5.0.20240411.post1046.tar.gz
+[2024-04-12 02:11:08] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-12 02:11:08] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.4.0.20240410.post1030.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240411.post1046.tar.gz --markdown 20240412/m/mct-quantizers-nightly/1.4.0.20240410.post1030-1.5.0.20240411.post1046/README.md --exclude *.pyd
+[2024-04-12 02:11:09] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240410.post1030.tar.gz]
+[2024-04-12 02:11:09] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240411.post1046.tar.gz]
+[2024-04-12 02:11:09] INFO root fetch - processPackages [mct-quantizers-nightly]: Start processing: systema
+[2024-04-12 02:11:09] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-12 02:11:09] INFO root fetch - processPackages [systema]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-12 02:11:10] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/8e/12/3ea864b91e6ace29d986b77a9abdafaa765d4cde0dddfcf21db1fee57b4b/systema-0.0.1a8.tar.gz
+[2024-04-12 02:11:10] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/f7/0c/34874be8791c7f4db6ea26318b29e34bb786e061416ab2691b4dfb05276e/systema-0.0.1a9.tar.gz
+[2024-04-12 02:11:10] INFO root fetch - processPackages [systema]: executing diffoscope
+[2024-04-12 02:11:10] INFO root fetch - processPackages [systema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systema-0.0.1a8.tar.gz tmp/systema-0.0.1a9.tar.gz --markdown 20240412/s/systema/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-12 02:11:11] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a8.tar.gz]
+[2024-04-12 02:11:11] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
+[2024-04-12 02:11:11] INFO root fetch - processPackages [systema]: Start processing: seeq
+[2024-04-12 02:11:11] INFO root fetch - main [MainThread]: End processing [systema]: success
+[2024-04-12 02:11:11] INFO root fetch - processPackages [seeq]: New version: [64.2.0] Old Version: [64.1.4]
+[2024-04-12 02:11:11] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/d2/47/bbee1c12ff1896416f373f07046b8a7e15eca28409e9a7a672c01214c76f/seeq-64.1.4.tar.gz
+[2024-04-12 02:11:12] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/ad/e5/7dc177fb255ab2597c541f700f56d54950e0ebe6688589849e9edc8e41cd/seeq-64.2.0.tar.gz
+[2024-04-12 02:11:12] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-04-12 02:11:12] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-64.1.4.tar.gz tmp/seeq-64.2.0.tar.gz --markdown 20240412/s/seeq/64.1.4-64.2.0/README.md --exclude *.pyd
+[2024-04-12 02:11:19] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.1.4.tar.gz]
+[2024-04-12 02:11:19] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.2.0.tar.gz]
+[2024-04-12 02:11:19] INFO root fetch - processPackages [seeq]: Start processing: rats-processors
+[2024-04-12 02:11:19] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-04-12 02:11:20] INFO root fetch - processPackages [rats-processors]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-12 02:11:20] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a6/7b/990aa2956336107e9272c402ea673b4571912e861b49230e8b209cebb487/rats_processors-0.1.2.dev8-py3-none-any.whl
+[2024-04-12 02:11:20] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a8/23/c3248b458a79c119a3ada7d2b23b95eced3f1c4c98ac0264b24a94517327/rats_processors-0.1.2.dev9-py3-none-any.whl
+[2024-04-12 02:11:21] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-12 02:11:21] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240412/r/rats-processors/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-12 02:11:22] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-12 02:11:22] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-12 02:11:22] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-12 02:13:25] INFO root fetch - processPackages [fprime-fpp-depend]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_depend-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:25] INFO root fetch - processPackages [fprime-fpp-depend]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_depend-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:25] INFO root fetch - main [MainThread]: End processing [fprime-fpp-depend]: success
+[2024-04-12 02:13:26] INFO root fetch - processPackages [fprime-fpp-format]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_format-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:26] INFO root fetch - processPackages [fprime-fpp-format]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_format-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:26] INFO root fetch - main [MainThread]: End processing [fprime-fpp-format]: success
+[2024-04-12 02:13:28] INFO root fetch - processPackages [fprime-fpp-syntax]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_syntax-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:28] INFO root fetch - processPackages [fprime-fpp-syntax]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_syntax-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:28] INFO root fetch - main [MainThread]: End processing [fprime-fpp-syntax]: success
+[2024-04-12 02:13:29] INFO root fetch - processPackages [fprime-fpp-locate-defs]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_locate_defs-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:29] INFO root fetch - processPackages [fprime-fpp-locate-defs]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_locate_defs-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:29] INFO root fetch - main [MainThread]: End processing [fprime-fpp-locate-defs]: success
+[2024-04-12 02:13:30] INFO root fetch - processPackages [fprime-fpp-check]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_check-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:30] INFO root fetch - processPackages [fprime-fpp-check]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_check-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:30] INFO root fetch - main [MainThread]: End processing [fprime-fpp-check]: success
+[2024-04-12 02:13:30] INFO root fetch - processPackages [fprime-fpp-filenames]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_filenames-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:30] INFO root fetch - processPackages [fprime-fpp-filenames]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_filenames-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:30] INFO root fetch - main [MainThread]: End processing [fprime-fpp-filenames]: success
+[2024-04-12 02:13:37] INFO root fetch - processPackages [fprime-fpp-to-json]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_json-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:37] INFO root fetch - processPackages [fprime-fpp-to-json]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_json-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:37] INFO root fetch - main [MainThread]: End processing [fprime-fpp-to-json]: success
+[2024-04-12 02:13:37] INFO root fetch - processPackages [fprime-fpp-locate-uses]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_locate_uses-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:37] INFO root fetch - processPackages [fprime-fpp-locate-uses]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_locate_uses-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:37] INFO root fetch - main [MainThread]: End processing [fprime-fpp-locate-uses]: success
+[2024-04-12 02:13:40] INFO root fetch - processPackages [fprime-fpp-to-xml]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_xml-2.1.0a6-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:40] INFO root fetch - processPackages [fprime-fpp-to-xml]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_xml-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
+[2024-04-12 02:13:40] INFO root fetch - main [MainThread]: End processing [fprime-fpp-to-xml]: success
+[2024-04-12 02:13:40] INFO root fetch - main [MainThread]: Store serial: [22728433]
