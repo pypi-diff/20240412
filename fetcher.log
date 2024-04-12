@@ -21056,3 +21056,144 @@
 [2024-04-12 11:40:42] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.8.2.tar.gz]
 [2024-04-12 11:40:42] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
 [2024-04-12 11:40:42] INFO root fetch - main [MainThread]: Store serial: [22736005]
+[2024-04-12 11:42:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22736005]
+[2024-04-12 11:42:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-dataintegration
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-dayu
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-dbbrain
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-dbdc
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-dc
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-dcdb
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: safe-init
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fdamages
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-dlc
+[2024-04-12 11:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-115
+[2024-04-12 11:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [fdamages]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [safe-init]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [python-115]: New version: [0.0.5.9.1] Old Version: [0.0.5.9]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-dayu]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:42:51] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/3e/4b/f170b02319dd60ace04243ea09815830edda69b7a4c94ebfc253e57a3248/fdamages-0.0.3.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Downloading https://files.pythonhosted.org/packages/d1/87/a3c242dcbc3177d28a091f094ca58a9c94c9232317262e2a132f178885ec/tencentcloud-sdk-python-dbdc-3.0.998.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: Downloading https://files.pythonhosted.org/packages/6d/47/9f87f49dd8e8a227e933b22fea8f53aeaf7369ef3f33be809450b7bc08bc/tencentcloud-sdk-python-dataintegration-3.0.998.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/7a/dd/a1ee0fbd1fcefd8f5a141be5fd9a2a075c22f5ff1754fddb76fd2c090769/python_115-0.0.5.9.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: Downloading https://files.pythonhosted.org/packages/37/f3/1ed52fac9bbdded74faf6dca54784eafb26cfbc300b9af21409b0167b8da/tencentcloud-sdk-python-dbbrain-3.0.998.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/21/e1/2381cff565d51723910e5136a53c017d39c2dadc735c5545f6608848e818/safe_init-1.0.1.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Downloading https://files.pythonhosted.org/packages/77/26/882302093c37af75b0bbd2eba6bd2a31eaf1070d14829fd8a5663bfabbed/tencentcloud-sdk-python-dlc-3.0.998.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dayu]: Downloading https://files.pythonhosted.org/packages/67/b7/f440c3da997a0605cac60d26555f072368e7c6b564024286e947b6bbb000/tencentcloud-sdk-python-dayu-3.0.998.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Downloading https://files.pythonhosted.org/packages/ed/29/ca7e68855be7a02cbc8ef9ceb58e86640b00732dd503c4f80ff3ccb1d214/tencentcloud-sdk-python-dc-3.0.998.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Downloading https://files.pythonhosted.org/packages/1e/84/e6447d63875295fa993392beae63077aeb98badcb7bf94337b76c1516fb0/tencentcloud-sdk-python-dcdb-3.0.998.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/a2/44/c3ebe7e709f0ef6d29da670e374f92b41dcb2a9408959af4986eea3e18e6/fdamages-0.0.4.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Downloading https://files.pythonhosted.org/packages/ae/d3/7f97324dfd9f8d25d79d40674754fbea75c89a0ac071908a4144e1f43b5d/tencentcloud-sdk-python-dbdc-3.0.999.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/e0/a4/80c51b28a6978799601573226fc0ad58c862fb6ead6f927a1d966706c8bb/safe_init-1.0.2.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dbdc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dbdc-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-dbdc/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: Downloading https://files.pythonhosted.org/packages/75/54/c994a2a7ded327b5cb6bc22c210ba5f353a97bbc2588792a095e4120aaaf/tencentcloud-sdk-python-dbbrain-3.0.999.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dayu]: Downloading https://files.pythonhosted.org/packages/3b/10/c01cd59e6a64cfc81bd523740c56a55e399db594f289d4d741b036b1ab80/tencentcloud-sdk-python-dayu-3.0.999.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/4f/17/45f783c564068859bc58ee52b7c6cf08433ae38e1d7d37289d50ad1f851e/python_115-0.0.5.9.1.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Downloading https://files.pythonhosted.org/packages/b7/d8/f75b5b755a1f360078e9fa445d2acd7bb3fe3eb14d4a2def5ae250f05faa/tencentcloud-sdk-python-dlc-3.0.999.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.3.tar.gz tmp/fdamages-0.0.4.tar.gz --markdown 20240412/f/fdamages/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Downloading https://files.pythonhosted.org/packages/09/c2/094e68550d2dcb79d9fb117edbfe476c341a1f7e340b77814f965597b6a9/tencentcloud-sdk-python-dc-3.0.999.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Downloading https://files.pythonhosted.org/packages/57/78/20bd5c842526739c8595b5a11bedf4c9a88cbd40a3f78e93b51c52e65a8d/tencentcloud-sdk-python-dcdb-3.0.999.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [safe-init]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [safe-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_init-1.0.1.tar.gz tmp/safe_init-1.0.2.tar.gz --markdown 20240412/s/safe-init/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: Downloading https://files.pythonhosted.org/packages/d8/98/6a3c0116dc7856214c8bcc7cbc99f5d9991c8492bc90a1b3cba3a63d83ae/tencentcloud-sdk-python-dataintegration-3.0.999.tar.gz
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dayu]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dayu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dayu-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dayu-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-dayu/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dbbrain-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dbbrain-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-dbbrain/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dc-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-dc/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:42:52] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.5.9.tar.gz tmp/python_115-0.0.5.9.1.tar.gz --markdown 20240412/p/python-115/0.0.5.9-0.0.5.9.1/README.md --exclude *.pyd
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dlc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dlc-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-dlc/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dcdb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dcdb-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-dcdb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: executing diffoscope
+[2024-04-12 11:42:52] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dataintegration-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dataintegration-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-dataintegration/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dbdc-3.0.998.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dbdc-3.0.999.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Start processing: PyQtUIkit
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dbdc]: success
+[2024-04-12 11:42:53] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.3.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.4.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [fdamages]: Start processing: PatrowlEnginesUtils
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-12 11:42:53] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/f6/cf/de5d4c8c9d7df408ecaa0e38dbac188e6b95859d78e50813dcc2cb3417eb/PyQtUIkit-2.2.3.tar.gz
+[2024-04-12 11:42:53] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.0.1.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.0.2.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [safe-init]: Start processing: floske
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [safe-init]: success
+[2024-04-12 11:42:53] INFO root fetch - processPackages [PatrowlEnginesUtils]: New version: [1.2.0rc3] Old Version: [1.2.0rc2]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dc-3.0.998.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dc-3.0.999.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Start processing: HawaData
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dc]: success
+[2024-04-12 11:42:53] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-12 11:42:53] WARNING root fetch - processPackages [floske]: Skipping, unable to determine old version
+[2024-04-12 11:42:53] INFO root fetch - processPackages [floske]: Start processing: fdamages
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [floske] error
+[2024-04-12 11:42:53] INFO root fetch - processPackages [fdamages]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dlc-3.0.998.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dlc-3.0.999.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Start processing: ibm-watson-machine-learning
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dlc]: success
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dbbrain-3.0.998.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dbbrain]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dbbrain-3.0.999.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dbbrain]: success
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dcdb-3.0.998.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dcdb-3.0.999.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dcdb]: success
+[2024-04-12 11:42:53] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.9.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.9.1.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dayu]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dayu-3.0.998.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - processPackages [tencentcloud-sdk-python-dayu]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dayu-3.0.999.tar.gz]
+[2024-04-12 11:42:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dayu]: success
+[2024-04-12 11:42:53] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/3e/4b/f170b02319dd60ace04243ea09815830edda69b7a4c94ebfc253e57a3248/fdamages-0.0.3.tar.gz
+[2024-04-12 11:42:53] INFO root fetch - processPackages [PatrowlEnginesUtils]: Downloading https://files.pythonhosted.org/packages/d1/94/4adcdbad14c957cdd7eea48710a2dcf967d984d044453d83e14d855d6492/PatrowlEnginesUtils-1.2.0rc2.tar.gz
+[2024-04-12 11:42:54] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dataintegration-3.0.998.tar.gz]
+[2024-04-12 11:42:54] INFO root fetch - processPackages [tencentcloud-sdk-python-dataintegration]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dataintegration-3.0.999.tar.gz]
+[2024-04-12 11:42:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dataintegration]: success
+[2024-04-12 11:42:54] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/c6/a2/812ca5fd600d94dd2387e095fe7bc64952fa50a250103097bf0e642ebdc6/PyQtUIkit-2.3.0.tar.gz
+[2024-04-12 11:42:54] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-12 11:42:54] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-12 11:42:54] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/a2/44/c3ebe7e709f0ef6d29da670e374f92b41dcb2a9408959af4986eea3e18e6/fdamages-0.0.4.tar.gz
+[2024-04-12 11:42:54] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-12 11:42:54] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240412/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-12 11:42:54] INFO root fetch - processPackages [PatrowlEnginesUtils]: Downloading https://files.pythonhosted.org/packages/a3/48/418c3ed56488976d4a4039ed95c530d5b6a7156d6c9e198aa18f050fde38/PatrowlEnginesUtils-1.2.0rc3.tar.gz
+[2024-04-12 11:42:54] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-12 11:42:54] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.3.tar.gz tmp/fdamages-0.0.4.tar.gz --markdown 20240412/f/fdamages/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 11:42:54] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-12 11:42:54] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.2.3.tar.gz tmp/PyQtUIkit-2.3.0.tar.gz --markdown 20240412/P/PyQtUIkit/2.2.3-2.3.0/README.md --exclude *.pyd
+[2024-04-12 11:42:54] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/58/40/a775ffda5d16f4fbab37ee9184852d0b9f96e7d7b19db541f8a51082509e/ibm_watson_machine_learning-1.0.96.tar.gz
+[2024-04-12 11:42:54] INFO root fetch - processPackages [PatrowlEnginesUtils]: executing diffoscope
+[2024-04-12 11:42:54] INFO root fetch - processPackages [PatrowlEnginesUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatrowlEnginesUtils-1.2.0rc2.tar.gz tmp/PatrowlEnginesUtils-1.2.0rc3.tar.gz --markdown 20240412/P/PatrowlEnginesUtils/1.2.0rc2-1.2.0rc3/README.md --exclude *.pyd
+[2024-04-12 11:42:54] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.3.tar.gz]
+[2024-04-12 11:42:54] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.4.tar.gz]
+[2024-04-12 11:42:54] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-12 11:42:54] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-12 11:42:54] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-12 11:42:54] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-12 11:42:54] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/48/45/3f32e9a705a7e6bf8b19591a86cc7099b54ca88fcf8660798dff04d4e6c2/ibm_watson_machine_learning-1.0.99.tar.gz
+[2024-04-12 11:42:55] INFO root fetch - processPackages [PatrowlEnginesUtils]: Remove: archive file [/home/abi/fetcher/tmp/PatrowlEnginesUtils-1.2.0rc2.tar.gz]
+[2024-04-12 11:42:55] INFO root fetch - processPackages [PatrowlEnginesUtils]: Remove: archive file [/home/abi/fetcher/tmp/PatrowlEnginesUtils-1.2.0rc3.tar.gz]
+[2024-04-12 11:42:55] INFO root fetch - main [MainThread]: End processing [PatrowlEnginesUtils]: success
+[2024-04-12 11:42:55] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2024-04-12 11:42:55] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20240412/i/ibm-watson-machine-learning/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-04-12 11:42:55] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.2.3.tar.gz]
+[2024-04-12 11:42:55] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.3.0.tar.gz]
+[2024-04-12 11:42:55] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-12 11:42:58] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.96.tar.gz]
+[2024-04-12 11:42:58] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
+[2024-04-12 11:42:58] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2024-04-12 11:42:58] INFO root fetch - main [MainThread]: Store serial: [22736064]
