@@ -18941,3 +18941,96 @@
 [2024-04-12 10:49:07] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-2.0.0.tar.gz]
 [2024-04-12 10:49:07] INFO root fetch - main [MainThread]: End processing [edumfa]: success
 [2024-04-12 10:49:07] INFO root fetch - main [MainThread]: Store serial: [22735116]
+[2024-04-12 10:51:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735116]
+[2024-04-12 10:51:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aily-sdk
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clld-audio-plugin
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fizz-cli
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: connected-components-3d
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NeoBase
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lnschema_core
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sts-lib
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RS2024
+[2024-04-12 10:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kurumii
+[2024-04-12 10:51:16] INFO root fetch - processPackages [sts-lib]: New version: [0.21.0] Old Version: [0.20.0]
+[2024-04-12 10:51:16] INFO root fetch - processPackages [fizz-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 10:51:17] INFO root fetch - processPackages [RS2024]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 10:51:17] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kfish]: New version: [99.0.202404120832] Old Version: [99.0.202404120610]
+[2024-04-12 10:51:17] INFO root fetch - processPackages [clld-audio-plugin]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kurumii]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-04-12 10:51:17] INFO root fetch - processPackages [aily-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-12 10:51:17] INFO root fetch - processPackages [RS2024]: Downloading https://files.pythonhosted.org/packages/93/94/e557810e8e3722febe92554dd81ccc1cc1b5ef46ffa0c9eaa2bbc11b4df0/RS2024-0.0.3-py3-none-any.whl
+[2024-04-12 10:51:17] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/da/5e/43633d58ffa94b3b0da5d12c24fe855fbc548ff38d6bc9c85739cf1c3100/kfish-99.0.202404120610-py3-none-any.whl
+[2024-04-12 10:51:17] INFO root fetch - processPackages [fizz-cli]: Downloading https://files.pythonhosted.org/packages/b5/10/389379003bddc3e588cc257deef1836d902a59f5ec1457c8c5bae2b3c528/fizz_cli-0.1.0.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/4a/39/ce780deeb54f39bbdf859544509ec5a985446151a1143f2d735892685ced/sts-lib-0.20.0.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2024-04-12 10:51:17] INFO root fetch - processPackages [clld-audio-plugin]: Downloading https://files.pythonhosted.org/packages/90/eb/e244eb093d56c31d890a60bef84d0bf171f445e209fc88545a659df49aa7/clld-audio-plugin-1.1.0.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kurumii]: Downloading https://files.pythonhosted.org/packages/e2/9e/52e8e812278343a1a102eb7fa9580636eab6ff344d71ec22e649e8ab02a3/kurumii-1.4.6.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/3a/9c/7370a51727952e3bb2421ad16f506a532c93a2a26a36e473d6909d897f7a/aily_sdk-0.8.0.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [connected-components-3d]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-12 10:51:17] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2024-04-12 10:51:17] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20240412/l/lnschema_core/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-12 10:51:17] INFO root fetch - processPackages [fizz-cli]: Downloading https://files.pythonhosted.org/packages/a4/5b/30d470bbcf63730ed79bf8af0a5cd06c4baa53c4c37f80c3cffeeb0fa686/fizz_cli-0.1.1.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [RS2024]: Downloading https://files.pythonhosted.org/packages/61/77/83699f43f411a20f2d17a6a92c71de0eab8be57267533843bde476aadd25/RS2024-0.0.4-py3-none-any.whl
+[2024-04-12 10:51:17] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/05/2f/685f8f0a10979b2af4a56f1f9075f6780b3e079e3297d69a5d97870dc3a5/kfish-99.0.202404120832-py3-none-any.whl
+[2024-04-12 10:51:17] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/5c/5b/24d0081fdf5d7e985c5049e9e93046754d22071550dbdd6730fa7df87ba1/sts-lib-0.21.0.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [clld-audio-plugin]: Downloading https://files.pythonhosted.org/packages/95/38/186fe2a868ae5280bd5eeb97f7ab254decc4f6ef326dca081a29ca642e95/clld-audio-plugin-1.2.0.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [fizz-cli]: executing diffoscope
+[2024-04-12 10:51:17] INFO root fetch - processPackages [fizz-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fizz_cli-0.1.0.tar.gz tmp/fizz_cli-0.1.1.tar.gz --markdown 20240412/f/fizz-cli/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 10:51:17] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/51/f7/273086ac8fbe360bd2595ef0d4dd153890299f2197dacb752a43441f87cf/connected-components-3d-3.9.0.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [RS2024]: executing diffoscope
+[2024-04-12 10:51:17] INFO root fetch - processPackages [RS2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RS2024-0.0.3-py3-none-any.whl.zip tmp/RS2024-0.0.4-py3-none-any.whl.zip --markdown 20240412/R/RS2024/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 10:51:17] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/08/a5/02998881950b9af6457fa27bef1feb81834a40abb70ef2b9a1b61a067920/aily_sdk-0.9.0.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kurumii]: Downloading https://files.pythonhosted.org/packages/d2/48/1ff759b5e3d96c4e1b2d814b8ce56890ed509d6fdd2adbd60a8b92d2f373/kurumii-1.4.7.tar.gz
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404120610-py3-none-any.whl.zip tmp/kfish-99.0.202404120832-py3-none-any.whl.zip --markdown 20240412/k/kfish/99.0.202404120610-99.0.202404120832/README.md --exclude *.pyd
+[2024-04-12 10:51:17] INFO root fetch - processPackages [clld-audio-plugin]: executing diffoscope
+[2024-04-12 10:51:17] INFO root fetch - processPackages [clld-audio-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clld-audio-plugin-1.1.0.tar.gz tmp/clld-audio-plugin-1.2.0.tar.gz --markdown 20240412/c/clld-audio-plugin/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-12 10:51:17] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-04-12 10:51:17] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts-lib-0.20.0.tar.gz tmp/sts-lib-0.21.0.tar.gz --markdown 20240412/s/sts-lib/0.20.0-0.21.0/README.md --exclude *.pyd
+[2024-04-12 10:51:17] INFO root fetch - processPackages [aily-sdk]: executing diffoscope
+[2024-04-12 10:51:17] INFO root fetch - processPackages [aily-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_sdk-0.8.0.tar.gz tmp/aily_sdk-0.9.0.tar.gz --markdown 20240412/a/aily-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kurumii]: executing diffoscope
+[2024-04-12 10:51:17] INFO root fetch - processPackages [kurumii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kurumii-1.4.6.tar.gz tmp/kurumii-1.4.7.tar.gz --markdown 20240412/k/kurumii/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-04-12 10:51:18] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/14/97/5d0d6bde68a8f6a4eca89d60116c7e6c1761f7d410f586fecde73d7d67dc/connected-components-3d-3.9.1.tar.gz
+[2024-04-12 10:51:18] INFO root fetch - processPackages [connected-components-3d]: executing diffoscope
+[2024-04-12 10:51:18] INFO root fetch - processPackages [connected-components-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connected-components-3d-3.9.0.tar.gz tmp/connected-components-3d-3.9.1.tar.gz --markdown 20240412/c/connected-components-3d/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-12 10:51:18] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2024-04-12 10:51:18] INFO root fetch - processPackages [RS2024]: Remove: archive file [/home/abi/fetcher/tmp/RS2024-0.0.3-py3-none-any.whl.zip]
+[2024-04-12 10:51:18] INFO root fetch - processPackages [RS2024]: Remove: archive file [/home/abi/fetcher/tmp/RS2024-0.0.4-py3-none-any.whl.zip]
+[2024-04-12 10:51:18] INFO root fetch - main [MainThread]: End processing [RS2024]: success
+[2024-04-12 10:51:18] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404120610-py3-none-any.whl.zip]
+[2024-04-12 10:51:18] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404120832-py3-none-any.whl.zip]
+[2024-04-12 10:51:18] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-12 10:51:18] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2024-04-12 10:51:18] INFO root fetch - processPackages [fizz-cli]: Remove: archive file [/home/abi/fetcher/tmp/fizz_cli-0.1.0.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - processPackages [fizz-cli]: Remove: archive file [/home/abi/fetcher/tmp/fizz_cli-0.1.1.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - main [MainThread]: End processing [fizz-cli]: success
+[2024-04-12 10:51:18] INFO root fetch - processPackages [clld-audio-plugin]: Remove: archive file [/home/abi/fetcher/tmp/clld-audio-plugin-1.1.0.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - processPackages [clld-audio-plugin]: Remove: archive file [/home/abi/fetcher/tmp/clld-audio-plugin-1.2.0.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - main [MainThread]: End processing [clld-audio-plugin]: success
+[2024-04-12 10:51:18] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.8.0.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.9.0.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - main [MainThread]: End processing [aily-sdk]: success
+[2024-04-12 10:51:18] INFO root fetch - processPackages [kurumii]: Remove: archive file [/home/abi/fetcher/tmp/kurumii-1.4.6.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - processPackages [kurumii]: Remove: archive file [/home/abi/fetcher/tmp/kurumii-1.4.7.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - main [MainThread]: End processing [kurumii]: success
+[2024-04-12 10:51:18] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts-lib-0.20.0.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts-lib-0.21.0.tar.gz]
+[2024-04-12 10:51:18] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-04-12 10:51:18] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2024-04-12 10:51:18] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20240412/N/NeoBase/0.8-0.9/README.md --exclude *.pyd
+[2024-04-12 10:51:19] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.0.tar.gz]
+[2024-04-12 10:51:19] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.1.tar.gz]
+[2024-04-12 10:51:19] INFO root fetch - main [MainThread]: End processing [connected-components-3d]: success
+[2024-04-12 10:51:20] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2024-04-12 10:51:20] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2024-04-12 10:51:20] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2024-04-12 10:51:20] INFO root fetch - main [MainThread]: Store serial: [22735219]
