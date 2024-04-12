@@ -12328,3 +12328,24 @@
 [2024-04-12 05:08:16] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-04-12 05:08:16] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-04-12 05:08:16] INFO root fetch - main [MainThread]: Store serial: [22732097]
+[2024-04-12 05:10:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732097]
+[2024-04-12 05:10:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 05:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chiefgram
+[2024-04-12 05:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mucstpy
+[2024-04-12 05:10:25] INFO root fetch - processPackages [chiefgram]: New version: [3.5] Old Version: [2.5]
+[2024-04-12 05:10:25] INFO root fetch - processPackages [chiefgram]: Downloading https://files.pythonhosted.org/packages/22/57/18ca44cd40920360dabdfe0c12693a0d8029b6f69452148245d2e81b95e4/chiefgram-2.5.tar.gz
+[2024-04-12 05:10:25] INFO root fetch - processPackages [mucstpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-12 05:10:25] INFO root fetch - processPackages [mucstpy]: Downloading https://files.pythonhosted.org/packages/0b/b9/2a78a3f01c36d0aa7aadc530f3f88211cbad780b76e5325ae01cb6acd696/mucstpy-1.0.2.tar.gz
+[2024-04-12 05:10:25] INFO root fetch - processPackages [chiefgram]: Downloading https://files.pythonhosted.org/packages/47/80/ebf84153613f027f1ef65746f5839b52a844f7ad9ef381e3eeb7c5dce7cc/chiefgram-3.5.tar.gz
+[2024-04-12 05:10:26] INFO root fetch - processPackages [chiefgram]: executing diffoscope
+[2024-04-12 05:10:26] INFO root fetch - processPackages [chiefgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiefgram-2.5.tar.gz tmp/chiefgram-3.5.tar.gz --markdown 20240412/c/chiefgram/2.5-3.5/README.md --exclude *.pyd
+[2024-04-12 05:10:26] INFO root fetch - processPackages [mucstpy]: Downloading https://files.pythonhosted.org/packages/19/f3/977a3cd0bb5ec98a02d3760c19a4a858e52d90f8d5917d07b0e5679a2f3e/mucstpy-1.0.3.tar.gz
+[2024-04-12 05:10:26] INFO root fetch - processPackages [mucstpy]: executing diffoscope
+[2024-04-12 05:10:26] INFO root fetch - processPackages [mucstpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mucstpy-1.0.2.tar.gz tmp/mucstpy-1.0.3.tar.gz --markdown 20240412/m/mucstpy/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-12 05:10:26] INFO root fetch - processPackages [mucstpy]: Remove: archive file [/home/abi/fetcher/tmp/mucstpy-1.0.2.tar.gz]
+[2024-04-12 05:10:26] INFO root fetch - processPackages [mucstpy]: Remove: archive file [/home/abi/fetcher/tmp/mucstpy-1.0.3.tar.gz]
+[2024-04-12 05:10:26] INFO root fetch - main [MainThread]: End processing [mucstpy]: success
+[2024-04-12 05:10:27] INFO root fetch - processPackages [chiefgram]: Remove: archive file [/home/abi/fetcher/tmp/chiefgram-2.5.tar.gz]
+[2024-04-12 05:10:27] INFO root fetch - processPackages [chiefgram]: Remove: archive file [/home/abi/fetcher/tmp/chiefgram-3.5.tar.gz]
+[2024-04-12 05:10:27] INFO root fetch - main [MainThread]: End processing [chiefgram]: success
+[2024-04-12 05:10:27] INFO root fetch - main [MainThread]: Store serial: [22732103]
