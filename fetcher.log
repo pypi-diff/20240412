@@ -3214,3 +3214,24 @@
 [2024-04-12 02:41:01] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.3rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-12 02:41:01] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
 [2024-04-12 02:41:01] INFO root fetch - main [MainThread]: Store serial: [22728716]
+[2024-04-12 02:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728716]
+[2024-04-12 02:43:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: barbara-updater
+[2024-04-12 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioopenexchangerates
+[2024-04-12 02:43:09] INFO root fetch - processPackages [barbara-updater]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-12 02:43:09] INFO root fetch - processPackages [aioopenexchangerates]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-12 02:43:09] INFO root fetch - processPackages [barbara-updater]: Downloading https://files.pythonhosted.org/packages/69/b4/fea46ebb605d72b1e00fa5fb9af4a4555cea4349c82b8dc84cba3e73fd07/barbara_updater-3.2.0.tar.gz
+[2024-04-12 02:43:09] INFO root fetch - processPackages [aioopenexchangerates]: Downloading https://files.pythonhosted.org/packages/10/45/2795310e52d921e44dc549da247794029ff018e525818c43d0a6503c8367/aioopenexchangerates-0.4.8.tar.gz
+[2024-04-12 02:43:09] INFO root fetch - processPackages [barbara-updater]: Downloading https://files.pythonhosted.org/packages/f1/f9/13a31ceccf624f713f744fade1bcf6b02e8029a477631c12f98f6faf921f/barbara_updater-3.3.0.tar.gz
+[2024-04-12 02:43:09] INFO root fetch - processPackages [barbara-updater]: executing diffoscope
+[2024-04-12 02:43:09] INFO root fetch - processPackages [barbara-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbara_updater-3.2.0.tar.gz tmp/barbara_updater-3.3.0.tar.gz --markdown 20240412/b/barbara-updater/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-04-12 02:43:09] INFO root fetch - processPackages [aioopenexchangerates]: Downloading https://files.pythonhosted.org/packages/4b/24/7453dd555e24c66ca010fde9b73a7113a9ebe4ea3c7e214175d83ee410ff/aioopenexchangerates-0.4.9.tar.gz
+[2024-04-12 02:43:09] INFO root fetch - processPackages [aioopenexchangerates]: executing diffoscope
+[2024-04-12 02:43:09] INFO root fetch - processPackages [aioopenexchangerates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioopenexchangerates-0.4.8.tar.gz tmp/aioopenexchangerates-0.4.9.tar.gz --markdown 20240412/a/aioopenexchangerates/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-12 02:43:10] INFO root fetch - processPackages [barbara-updater]: Remove: archive file [/home/abi/fetcher/tmp/barbara_updater-3.2.0.tar.gz]
+[2024-04-12 02:43:10] INFO root fetch - processPackages [barbara-updater]: Remove: archive file [/home/abi/fetcher/tmp/barbara_updater-3.3.0.tar.gz]
+[2024-04-12 02:43:10] INFO root fetch - main [MainThread]: End processing [barbara-updater]: success
+[2024-04-12 02:43:10] INFO root fetch - processPackages [aioopenexchangerates]: Remove: archive file [/home/abi/fetcher/tmp/aioopenexchangerates-0.4.8.tar.gz]
+[2024-04-12 02:43:10] INFO root fetch - processPackages [aioopenexchangerates]: Remove: archive file [/home/abi/fetcher/tmp/aioopenexchangerates-0.4.9.tar.gz]
+[2024-04-12 02:43:10] INFO root fetch - main [MainThread]: End processing [aioopenexchangerates]: success
+[2024-04-12 02:43:10] INFO root fetch - main [MainThread]: Store serial: [22728734]
