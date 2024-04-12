@@ -15119,3 +15119,18 @@
 [2024-04-12 07:59:46] INFO root fetch - processPackages [junos-eznc]: Remove: archive file [/home/abi/fetcher/tmp/junos-eznc-2.7.1.tar.gz]
 [2024-04-12 07:59:46] INFO root fetch - main [MainThread]: End processing [junos-eznc]: success
 [2024-04-12 07:59:46] INFO root fetch - main [MainThread]: Store serial: [22733275]
+[2024-04-12 08:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733275]
+[2024-04-12 08:01:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 08:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YanSH
+[2024-04-12 08:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renum
+[2024-04-12 08:01:56] INFO root fetch - processPackages [renum]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-12 08:01:56] WARNING root fetch - processPackages [YanSH]: Skipping, unable to determine old version
+[2024-04-12 08:01:56] INFO root fetch - main [MainThread]: End processing [YanSH] error
+[2024-04-12 08:01:56] INFO root fetch - processPackages [renum]: Downloading https://files.pythonhosted.org/packages/2d/77/4c27cca6902cc88033301b80d60e06806a6945e3861a1bfa8c37e1330272/renum-0.0.1a0.tar.gz
+[2024-04-12 08:01:57] INFO root fetch - processPackages [renum]: Downloading https://files.pythonhosted.org/packages/da/70/5b1f7d8c54a6569b5d2db31317ff030cfd86d6abb445a0bb1e7bfbadc2ba/renum-0.0.1a1.tar.gz
+[2024-04-12 08:01:57] INFO root fetch - processPackages [renum]: executing diffoscope
+[2024-04-12 08:01:57] INFO root fetch - processPackages [renum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renum-0.0.1a0.tar.gz tmp/renum-0.0.1a1.tar.gz --markdown 20240412/r/renum/0.0.1a0-0.0.1a1/README.md --exclude *.pyd
+[2024-04-12 08:01:57] INFO root fetch - processPackages [renum]: Remove: archive file [/home/abi/fetcher/tmp/renum-0.0.1a0.tar.gz]
+[2024-04-12 08:01:57] INFO root fetch - processPackages [renum]: Remove: archive file [/home/abi/fetcher/tmp/renum-0.0.1a1.tar.gz]
+[2024-04-12 08:01:57] INFO root fetch - main [MainThread]: End processing [renum]: success
+[2024-04-12 08:01:57] INFO root fetch - main [MainThread]: Store serial: [22733281]
