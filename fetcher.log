@@ -2144,3 +2144,43 @@
 [2024-04-12 01:59:54] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
 [2024-04-12 01:59:54] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2024-04-12 01:59:54] INFO root fetch - main [MainThread]: Store serial: [22728259]
+[2024-04-12 02:01:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728259]
+[2024-04-12 02:02:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 02:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prefect-client
+[2024-04-12 02:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sycamore-ai
+[2024-04-12 02:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prefect
+[2024-04-12 02:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-coda
+[2024-04-12 02:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-eventgrid
+[2024-04-12 02:02:04] INFO root fetch - processPackages [prefect-client]: New version: [2.17.0] Old Version: [2.16.9]
+[2024-04-12 02:02:04] INFO root fetch - processPackages [prefect]: New version: [2.9.0] Old Version: [2.82]
+[2024-04-12 02:02:04] INFO root fetch - processPackages [prefect-client]: Downloading https://files.pythonhosted.org/packages/95/6c/a80edb0ed4ba31f7bbbb1e156a73ea389f9d88013223f5e7ec29ee263129/prefect-client-2.16.9.tar.gz
+[2024-04-12 02:02:04] INFO root fetch - processPackages [sycamore-ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 02:02:04] INFO root fetch - processPackages [airbyte-source-coda]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-12 02:02:04] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/20/bd/9580e89a911969805904dd984258f2250f96726fbb91373970a41c36aab3/prefect-2.82.tar.gz
+[2024-04-12 02:02:04] INFO root fetch - processPackages [sycamore-ai]: Downloading https://files.pythonhosted.org/packages/b4/83/9b1a454882b103a1354a7814a4ff4a99688b00c68d3f0b96ceba74ac89e0/sycamore_ai-0.1.8.tar.gz
+[2024-04-12 02:02:04] INFO root fetch - processPackages [azure-eventgrid]: New version: [4.9.1] Old Version: [4.9.0b1]
+[2024-04-12 02:02:04] WARNING root fetch - processPackages [sycamore-ai]: Skipping package: exceeds size limit 11015854>=10485760
+[2024-04-12 02:02:04] INFO root fetch - main [MainThread]: End processing [sycamore-ai] error
+[2024-04-12 02:02:04] INFO root fetch - processPackages [airbyte-source-coda]: Downloading https://files.pythonhosted.org/packages/d3/58/614a1c110f6916f7cfb99c234d23b0355d891de2ca5f38d1232d96485077/airbyte-source-coda-1.2.0.tar.gz
+[2024-04-12 02:02:04] INFO root fetch - processPackages [prefect-client]: Downloading https://files.pythonhosted.org/packages/e5/fb/8b5faff57381532e77eccd561c234619ac5213ee1a48d8b61c07a7190652/prefect-client-2.17.0.tar.gz
+[2024-04-12 02:02:05] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/52/49/e4a42ea984b987b634f492725a5484b96da5a97fda925a3d37ff0821ecae/prefect-2.9.0.tar.gz
+[2024-04-12 02:02:05] INFO root fetch - processPackages [azure-eventgrid]: Downloading https://files.pythonhosted.org/packages/56/cd/69f8781d55d8fd0d2cb001b6b3127c4639fe6533f1395b044979fcabc2f0/azure-eventgrid-4.9.0b1.zip
+[2024-04-12 02:02:05] INFO root fetch - processPackages [prefect-client]: executing diffoscope
+[2024-04-12 02:02:05] INFO root fetch - processPackages [prefect-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-client-2.16.9.tar.gz tmp/prefect-client-2.17.0.tar.gz --markdown 20240412/p/prefect-client/2.16.9-2.17.0/README.md --exclude *.pyd
+[2024-04-12 02:02:05] ERROR root fetch - processPackages [airbyte-source-coda]: Unable to fetch info: No such project/version 'airbyte-source-coda' 1.2.1
+[2024-04-12 02:02:05] INFO root fetch - main [MainThread]: End processing [airbyte-source-coda] error
+[2024-04-12 02:02:05] INFO root fetch - processPackages [prefect]: executing diffoscope
+[2024-04-12 02:02:05] INFO root fetch - processPackages [prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-2.82.tar.gz tmp/prefect-2.9.0.tar.gz --markdown 20240412/p/prefect/2.82-2.9.0/README.md --exclude *.pyd
+[2024-04-12 02:02:05] INFO root fetch - processPackages [azure-eventgrid]: Downloading https://files.pythonhosted.org/packages/5f/24/6b22e91436974f4d420972637e3915724d130f1fe96d33e114152013359b/azure-eventgrid-4.9.1.zip
+[2024-04-12 02:02:05] INFO root fetch - processPackages [azure-eventgrid]: executing diffoscope
+[2024-04-12 02:02:05] INFO root fetch - processPackages [azure-eventgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-eventgrid-4.9.0b1.zip tmp/azure-eventgrid-4.9.1.zip --markdown 20240412/a/azure-eventgrid/4.9.0b1-4.9.1/README.md --exclude *.pyd
+[2024-04-12 02:02:06] INFO root fetch - processPackages [azure-eventgrid]: Remove: archive file [/home/abi/fetcher/tmp/azure-eventgrid-4.9.0b1.zip]
+[2024-04-12 02:02:06] INFO root fetch - processPackages [azure-eventgrid]: Remove: archive file [/home/abi/fetcher/tmp/azure-eventgrid-4.9.1.zip]
+[2024-04-12 02:02:06] INFO root fetch - main [MainThread]: End processing [azure-eventgrid]: success
+[2024-04-12 02:02:06] INFO root fetch - processPackages [prefect-client]: Remove: archive file [/home/abi/fetcher/tmp/prefect-client-2.16.9.tar.gz]
+[2024-04-12 02:02:06] INFO root fetch - processPackages [prefect-client]: Remove: archive file [/home/abi/fetcher/tmp/prefect-client-2.17.0.tar.gz]
+[2024-04-12 02:02:06] INFO root fetch - main [MainThread]: End processing [prefect-client]: success
+[2024-04-12 02:02:12] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.82.tar.gz]
+[2024-04-12 02:02:12] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.9.0.tar.gz]
+[2024-04-12 02:02:12] INFO root fetch - main [MainThread]: End processing [prefect]: success
+[2024-04-12 02:02:12] INFO root fetch - main [MainThread]: Store serial: [22728274]
