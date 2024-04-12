@@ -13054,3 +13054,15 @@
 [2024-04-12 05:46:59] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.0.tar.gz]
 [2024-04-12 05:46:59] INFO root fetch - main [MainThread]: End processing [tsugu]: success
 [2024-04-12 05:46:59] INFO root fetch - main [MainThread]: Store serial: [22732395]
+[2024-04-12 05:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732395]
+[2024-04-12 05:49:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-12 05:49:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: person-local
+[2024-04-12 05:49:08] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-12 05:49:08] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-04-12 05:49:08] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-04-12 05:49:08] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-04-12 05:49:08] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240412/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-12 05:49:09] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-04-12 05:49:09] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-04-12 05:49:09] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-04-12 05:49:09] INFO root fetch - main [MainThread]: Store serial: [22732398]
