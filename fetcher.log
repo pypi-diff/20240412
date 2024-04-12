@@ -11774,3 +11774,33 @@
 [2024-04-12 04:28:00] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
 [2024-04-12 04:28:00] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
 [2024-04-12 04:28:00] INFO root fetch - main [MainThread]: Store serial: [22731851]
+[2024-04-12 04:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731851]
+[2024-04-12 04:30:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 04:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: a3kazoo
+[2024-04-12 04:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2024-04-12 04:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: likelihood
+[2024-04-12 04:30:09] INFO root fetch - processPackages [likelihood]: New version: [1.2.9] Old Version: [1.2.10]
+[2024-04-12 04:30:09] INFO root fetch - processPackages [a3kazoo]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-12 04:30:09] INFO root fetch - processPackages [dcicutils]: New version: [8.8.2.1b8] Old Version: [8.8.2.1b7]
+[2024-04-12 04:30:09] INFO root fetch - processPackages [likelihood]: Downloading https://files.pythonhosted.org/packages/9e/d6/bcb5f36bbf515feac19b94b0e1d24d664189a0c1d17a4bca47e7bcaab6cf/likelihood-1.2.10.tar.gz
+[2024-04-12 04:30:09] INFO root fetch - processPackages [a3kazoo]: Downloading https://files.pythonhosted.org/packages/cd/8c/17bd835f132ad066d02c3ca42b226c28678f32d2019e7adc979cbe1ea5c2/a3kazoo-0.1.3.tar.gz
+[2024-04-12 04:30:09] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/f1/aa/58f3f91faf4ba207bc7d59947214451e31d1626369c078f498cf9e95c8cd/dcicutils-8.8.2.1b7.tar.gz
+[2024-04-12 04:30:09] INFO root fetch - processPackages [a3kazoo]: Downloading https://files.pythonhosted.org/packages/5d/98/96d160d36a03c617da67c4fe06f5e181a3b080264dca871300ff53a19533/a3kazoo-0.1.4.tar.gz
+[2024-04-12 04:30:10] INFO root fetch - processPackages [likelihood]: Downloading https://files.pythonhosted.org/packages/a9/ff/5a5be1e149ad1d3ed4fe492e1449c4426bca3ebb97411341b0da259fb8a9/likelihood-1.2.9.tar.gz
+[2024-04-12 04:30:10] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/98/3d/ac15744c2f753c80b3fbce30a3e8876fa8c620aecb4f47cde39cd17f096e/dcicutils-8.8.2.1b8.tar.gz
+[2024-04-12 04:30:10] INFO root fetch - processPackages [a3kazoo]: executing diffoscope
+[2024-04-12 04:30:10] INFO root fetch - processPackages [a3kazoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a3kazoo-0.1.3.tar.gz tmp/a3kazoo-0.1.4.tar.gz --markdown 20240412/a/a3kazoo/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-12 04:30:10] INFO root fetch - processPackages [likelihood]: executing diffoscope
+[2024-04-12 04:30:10] INFO root fetch - processPackages [likelihood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likelihood-1.2.10.tar.gz tmp/likelihood-1.2.9.tar.gz --markdown 20240412/l/likelihood/1.2.10-1.2.9/README.md --exclude *.pyd
+[2024-04-12 04:30:10] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-12 04:30:10] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.2.1b7.tar.gz tmp/dcicutils-8.8.2.1b8.tar.gz --markdown 20240412/d/dcicutils/8.8.2.1b7-8.8.2.1b8/README.md --exclude *.pyd
+[2024-04-12 04:30:10] INFO root fetch - processPackages [likelihood]: Remove: archive file [/home/abi/fetcher/tmp/likelihood-1.2.10.tar.gz]
+[2024-04-12 04:30:10] INFO root fetch - processPackages [likelihood]: Remove: archive file [/home/abi/fetcher/tmp/likelihood-1.2.9.tar.gz]
+[2024-04-12 04:30:10] INFO root fetch - main [MainThread]: End processing [likelihood]: success
+[2024-04-12 04:30:10] INFO root fetch - processPackages [a3kazoo]: Remove: archive file [/home/abi/fetcher/tmp/a3kazoo-0.1.3.tar.gz]
+[2024-04-12 04:30:10] INFO root fetch - processPackages [a3kazoo]: Remove: archive file [/home/abi/fetcher/tmp/a3kazoo-0.1.4.tar.gz]
+[2024-04-12 04:30:10] INFO root fetch - main [MainThread]: End processing [a3kazoo]: success
+[2024-04-12 04:30:11] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.2.1b7.tar.gz]
+[2024-04-12 04:30:11] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.2.1b8.tar.gz]
+[2024-04-12 04:30:11] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-12 04:30:11] INFO root fetch - main [MainThread]: Store serial: [22731859]
