@@ -18181,3 +18181,104 @@
 [2024-04-12 10:23:06] INFO root fetch - processPackages [fenix]: Remove: archive file [/home/abi/fetcher/tmp/fenix-1.0.5.tar.gz]
 [2024-04-12 10:23:06] INFO root fetch - main [MainThread]: End processing [fenix]: success
 [2024-04-12 10:23:06] INFO root fetch - main [MainThread]: Store serial: [22734780]
+[2024-04-12 10:25:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734780]
+[2024-04-12 10:25:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fenix
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioxdl
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tg-model
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbis-exc-manager
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monterey
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uitestrunner-syberos
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: controlnet-aux
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iturtle
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acetone-nnet
+[2024-04-12 10:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: saltedge
+[2024-04-12 10:25:15] INFO root fetch - processPackages [monterey]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 10:25:15] INFO root fetch - processPackages [fenix]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-12 10:25:15] INFO root fetch - processPackages [aioxdl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 10:25:15] INFO root fetch - processPackages [acetone-nnet]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2024-04-12 10:25:15] INFO root fetch - processPackages [tg-model]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-12 10:25:15] INFO root fetch - processPackages [uitestrunner-syberos]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-12 10:25:15] INFO root fetch - processPackages [controlnet-aux]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-12 10:25:15] INFO root fetch - processPackages [dbis-exc-manager]: New version: [1.0] Old Version: [0.4.0]
+[2024-04-12 10:25:15] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/ee/76/e38c1bed9d0d00523c2f48bc75104ce4da9567a13556044770197218c203/monterey-0.0.8.tar.gz
+[2024-04-12 10:25:15] INFO root fetch - processPackages [iturtle]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-12 10:25:15] WARNING root fetch - processPackages [saltedge]: Skipping, unable to determine old version
+[2024-04-12 10:25:15] INFO root fetch - processPackages [saltedge]: Start processing: unique-sdk
+[2024-04-12 10:25:15] INFO root fetch - main [MainThread]: End processing [saltedge] error
+[2024-04-12 10:25:16] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/9b/62/d33ead1d28fd4d8040f57aaa4fed666a29ea346a45d5829cd2676f02d536/aioxdl-0.0.8.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [tg-model]: Downloading https://files.pythonhosted.org/packages/43/b5/17c8d1f9bfb34810afbdd14105ec003c01cfe246b7f25a2ee69fc48ac49a/tg_model-1.0.1.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/d1/46/dd7309652aa1119bc3b27d44f498dbd4ef38025813f1389295461afc98c4/acetone-nnet-0.0.2.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [fenix]: Downloading https://files.pythonhosted.org/packages/da/d5/77afea1fd2df1c09b845bc5831a4a590f62dc3b694fb553e42fba3084743/fenix-1.0.4.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [uitestrunner-syberos]: Downloading https://files.pythonhosted.org/packages/03/05/6ab13a28b142c8c7533c339634795f00ae31f2b93adeeefd416232b457aa/uitestrunner_syberos-2.2.2.tar.gz
+[2024-04-12 10:25:16] WARNING root fetch - processPackages [uitestrunner-syberos]: Skipping package: exceeds size limit 65616732>=10485760
+[2024-04-12 10:25:16] INFO root fetch - processPackages [uitestrunner-syberos]: Start processing: seam
+[2024-04-12 10:25:16] INFO root fetch - main [MainThread]: End processing [uitestrunner-syberos] error
+[2024-04-12 10:25:16] INFO root fetch - processPackages [unique-sdk]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-12 10:25:16] INFO root fetch - processPackages [seam]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-12 10:25:16] INFO root fetch - processPackages [controlnet-aux]: Downloading https://files.pythonhosted.org/packages/4f/e5/81caa2ce9c0352a4a22e2551ead878e9d095470df306be9c509c6bc14972/controlnet_aux-0.0.7.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [iturtle]: Downloading https://files.pythonhosted.org/packages/e0/40/93cc3ee79828950900dc03679abcdafcfc816834e0a167820e0da802b200/iturtle-0.8.5-py2.py3-none-any.whl
+[2024-04-12 10:25:16] INFO root fetch - processPackages [dbis-exc-manager]: Downloading https://files.pythonhosted.org/packages/ea/39/7ca63a9b5ffe34b219fdcf1194f1edb784cc5b7ccf0ab19e79754193966e/dbis-exc-manager-0.4.0.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/a0/cc/83fc2b3fa07285f5c127a79f4aac2d73fd70fdd8fdc6a9006a15a1c2e34d/aioxdl-0.0.9.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/fe/43/94d0f8e948200a9edb3ed9daf80b7fe8568fbbe462c5c15be98777c3b71c/monterey-0.0.9.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/f6/02/37eaf029b23527c31d0cf2af9ab1f67a8ea24a5097573dfbecf7472885c5/seam-0.2.0.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [tg-model]: Downloading https://files.pythonhosted.org/packages/90/2c/99f04af76357eb14549e52dc35fff4c785e72fe088cb3c51d0fd31b4a192/tg_model-1.0.2.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [unique-sdk]: Downloading https://files.pythonhosted.org/packages/22/65/08545d4d2dee6954b52e4a8d3b4adf04f83054ce32730c721d9a4ed3437f/unique_sdk-0.7.0.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/7d/a5/4981f622db5411adea7a210ee782231f1b1fb29ef4ce544f4468d2572ef2/acetone-nnet-0.0.2.1.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [fenix]: Downloading https://files.pythonhosted.org/packages/87/b7/82b60127ea0610ed38b9b69d6ce97f8672ec3aa181e71a1adfeb576377da/fenix-1.0.5.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-04-12 10:25:16] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.8.tar.gz tmp/aioxdl-0.0.9.tar.gz --markdown 20240412/a/aioxdl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 10:25:16] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 10:25:16] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.8.tar.gz tmp/monterey-0.0.9.tar.gz --markdown 20240412/m/monterey/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 10:25:16] INFO root fetch - processPackages [tg-model]: executing diffoscope
+[2024-04-12 10:25:16] INFO root fetch - processPackages [tg-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_model-1.0.1.tar.gz tmp/tg_model-1.0.2.tar.gz --markdown 20240412/t/tg-model/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-12 10:25:16] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-12 10:25:16] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone-nnet-0.0.2.tar.gz tmp/acetone-nnet-0.0.2.1.tar.gz --markdown 20240412/a/acetone-nnet/0.0.2-0.0.2.1/README.md --exclude *.pyd
+[2024-04-12 10:25:16] INFO root fetch - processPackages [fenix]: executing diffoscope
+[2024-04-12 10:25:16] INFO root fetch - processPackages [fenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenix-1.0.4.tar.gz tmp/fenix-1.0.5.tar.gz --markdown 20240412/f/fenix/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-12 10:25:16] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/35/44/3da744b11d663847ea63d6b6d0a95d43dcb998d02571d2116a4f2870068c/seam-0.3.0.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [controlnet-aux]: Downloading https://files.pythonhosted.org/packages/13/be/7e1eb0ac37b5db0c7c3751ca3cbbc5af58d9bdb89190c48ac81ba7a8cb6c/controlnet_aux-0.0.8.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [dbis-exc-manager]: Downloading https://files.pythonhosted.org/packages/b5/c4/accc875e11508d95eed1fd6d36d6b1cedf1c586f7a9eee00bdc86ae0d43d/dbis-exc-manager-1.0.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [unique-sdk]: Downloading https://files.pythonhosted.org/packages/69/23/034fc49376f873dfd233dd1a54a5bf5a41f8ce90ef4bfec9d64d278f1a67/unique_sdk-0.7.1.tar.gz
+[2024-04-12 10:25:16] INFO root fetch - processPackages [iturtle]: Downloading https://files.pythonhosted.org/packages/df/6f/63a4ceb9ea7746a672a5d5cf5e12486692b091693e4e8d305d263a088d99/iturtle-0.8.6-py2.py3-none-any.whl
+[2024-04-12 10:25:16] INFO root fetch - processPackages [dbis-exc-manager]: executing diffoscope
+[2024-04-12 10:25:16] INFO root fetch - processPackages [dbis-exc-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis-exc-manager-0.4.0.tar.gz tmp/dbis-exc-manager-1.0.tar.gz --markdown 20240412/d/dbis-exc-manager/0.4.0-1.0/README.md --exclude *.pyd
+[2024-04-12 10:25:16] INFO root fetch - processPackages [seam]: executing diffoscope
+[2024-04-12 10:25:16] INFO root fetch - processPackages [seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seam-0.2.0.tar.gz tmp/seam-0.3.0.tar.gz --markdown 20240412/s/seam/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-12 10:25:17] INFO root fetch - processPackages [controlnet-aux]: executing diffoscope
+[2024-04-12 10:25:17] INFO root fetch - processPackages [controlnet-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/controlnet_aux-0.0.7.tar.gz tmp/controlnet_aux-0.0.8.tar.gz --markdown 20240412/c/controlnet-aux/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-12 10:25:17] INFO root fetch - processPackages [unique-sdk]: executing diffoscope
+[2024-04-12 10:25:17] INFO root fetch - processPackages [unique-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unique_sdk-0.7.0.tar.gz tmp/unique_sdk-0.7.1.tar.gz --markdown 20240412/u/unique-sdk/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-12 10:25:17] INFO root fetch - processPackages [iturtle]: executing diffoscope
+[2024-04-12 10:25:17] INFO root fetch - processPackages [iturtle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iturtle-0.8.5-py2.py3-none-any.whl.zip tmp/iturtle-0.8.6-py2.py3-none-any.whl.zip --markdown 20240412/i/iturtle/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-12 10:25:17] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.8.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.9.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 10:25:17] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.8.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.9.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-04-12 10:25:17] INFO root fetch - processPackages [tg-model]: Remove: archive file [/home/abi/fetcher/tmp/tg_model-1.0.1.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - processPackages [tg-model]: Remove: archive file [/home/abi/fetcher/tmp/tg_model-1.0.2.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - main [MainThread]: End processing [tg-model]: success
+[2024-04-12 10:25:17] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.2.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.2.1.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-12 10:25:17] INFO root fetch - processPackages [dbis-exc-manager]: Remove: archive file [/home/abi/fetcher/tmp/dbis-exc-manager-0.4.0.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - processPackages [dbis-exc-manager]: Remove: archive file [/home/abi/fetcher/tmp/dbis-exc-manager-1.0.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - main [MainThread]: End processing [dbis-exc-manager]: success
+[2024-04-12 10:25:17] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.2.0.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.3.0.tar.gz]
+[2024-04-12 10:25:17] INFO root fetch - main [MainThread]: End processing [seam]: success
+[2024-04-12 10:25:18] INFO root fetch - processPackages [unique-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unique_sdk-0.7.0.tar.gz]
+[2024-04-12 10:25:18] INFO root fetch - processPackages [unique-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unique_sdk-0.7.1.tar.gz]
+[2024-04-12 10:25:18] INFO root fetch - main [MainThread]: End processing [unique-sdk]: success
+[2024-04-12 10:25:18] INFO root fetch - processPackages [fenix]: Remove: archive file [/home/abi/fetcher/tmp/fenix-1.0.4.tar.gz]
+[2024-04-12 10:25:18] INFO root fetch - processPackages [fenix]: Remove: archive file [/home/abi/fetcher/tmp/fenix-1.0.5.tar.gz]
+[2024-04-12 10:25:18] INFO root fetch - main [MainThread]: End processing [fenix]: success
+[2024-04-12 10:25:18] INFO root fetch - processPackages [controlnet-aux]: Remove: archive file [/home/abi/fetcher/tmp/controlnet_aux-0.0.7.tar.gz]
+[2024-04-12 10:25:18] INFO root fetch - processPackages [controlnet-aux]: Remove: archive file [/home/abi/fetcher/tmp/controlnet_aux-0.0.8.tar.gz]
+[2024-04-12 10:25:18] INFO root fetch - main [MainThread]: End processing [controlnet-aux]: success
+[2024-04-12 10:25:25] INFO root fetch - processPackages [iturtle]: Remove: archive file [/home/abi/fetcher/tmp/iturtle-0.8.5-py2.py3-none-any.whl.zip]
+[2024-04-12 10:25:25] INFO root fetch - processPackages [iturtle]: Remove: archive file [/home/abi/fetcher/tmp/iturtle-0.8.6-py2.py3-none-any.whl.zip]
+[2024-04-12 10:25:25] INFO root fetch - main [MainThread]: End processing [iturtle]: success
+[2024-04-12 10:25:25] INFO root fetch - main [MainThread]: Store serial: [22734820]
