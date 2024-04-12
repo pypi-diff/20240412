@@ -11290,3 +11290,36 @@
 [2024-04-12 03:54:09] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-04-12 03:54:09] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-04-12 03:54:09] INFO root fetch - main [MainThread]: Store serial: [22731579]
+[2024-04-12 03:56:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731579]
+[2024-04-12 03:56:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 03:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-04-12 03:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openaichatlib
+[2024-04-12 03:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FitBridge
+[2024-04-12 03:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kwe
+[2024-04-12 03:56:18] WARNING root fetch - processPackages [kwe]: Skipping, unable to determine old version
+[2024-04-12 03:56:18] INFO root fetch - main [MainThread]: End processing [kwe] error
+[2024-04-12 03:56:18] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-12 03:56:18] INFO root fetch - processPackages [openaichatlib]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-12 03:56:18] INFO root fetch - processPackages [FitBridge]: New version: [0.3] Old Version: [0.2]
+[2024-04-12 03:56:18] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-12 03:56:18] INFO root fetch - processPackages [openaichatlib]: Downloading https://files.pythonhosted.org/packages/58/ff/a5bb2d15505f346a8695eccf1843cc8f410a79bae7a5b692010428da97b5/openaichatlib-1.0.4.tar.gz
+[2024-04-12 03:56:18] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-12 03:56:18] INFO root fetch - processPackages [FitBridge]: Downloading https://files.pythonhosted.org/packages/f1/16/5c0320a0f3a77b22697b89ca3d27cd6efbe071dc98d0de5dd3eca7fdfed8/FitBridge-0.2.tar.gz
+[2024-04-12 03:56:18] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-12 03:56:18] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240412/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-12 03:56:18] INFO root fetch - processPackages [FitBridge]: Downloading https://files.pythonhosted.org/packages/db/a0/c2070c47fe09cb570de90dba51913cfa03b09cc3d7049d50c2aa37987ccb/FitBridge-0.3.tar.gz
+[2024-04-12 03:56:18] INFO root fetch - processPackages [openaichatlib]: Downloading https://files.pythonhosted.org/packages/b5/e0/e5b0a8222b864910fd5b5afcb2cac8b3aca1db355b68904fad7f218b9383/openaichatlib-1.0.5.tar.gz
+[2024-04-12 03:56:18] INFO root fetch - processPackages [FitBridge]: executing diffoscope
+[2024-04-12 03:56:18] INFO root fetch - processPackages [FitBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FitBridge-0.2.tar.gz tmp/FitBridge-0.3.tar.gz --markdown 20240412/F/FitBridge/0.2-0.3/README.md --exclude *.pyd
+[2024-04-12 03:56:19] INFO root fetch - processPackages [openaichatlib]: executing diffoscope
+[2024-04-12 03:56:19] INFO root fetch - processPackages [openaichatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openaichatlib-1.0.4.tar.gz tmp/openaichatlib-1.0.5.tar.gz --markdown 20240412/o/openaichatlib/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-12 03:56:19] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-12 03:56:19] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-12 03:56:19] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-12 03:56:19] INFO root fetch - processPackages [FitBridge]: Remove: archive file [/home/abi/fetcher/tmp/FitBridge-0.2.tar.gz]
+[2024-04-12 03:56:19] INFO root fetch - processPackages [FitBridge]: Remove: archive file [/home/abi/fetcher/tmp/FitBridge-0.3.tar.gz]
+[2024-04-12 03:56:19] INFO root fetch - main [MainThread]: End processing [FitBridge]: success
+[2024-04-12 03:56:19] INFO root fetch - processPackages [openaichatlib]: Remove: archive file [/home/abi/fetcher/tmp/openaichatlib-1.0.4.tar.gz]
+[2024-04-12 03:56:19] INFO root fetch - processPackages [openaichatlib]: Remove: archive file [/home/abi/fetcher/tmp/openaichatlib-1.0.5.tar.gz]
+[2024-04-12 03:56:19] INFO root fetch - main [MainThread]: End processing [openaichatlib]: success
+[2024-04-12 03:56:19] INFO root fetch - main [MainThread]: Store serial: [22731591]
