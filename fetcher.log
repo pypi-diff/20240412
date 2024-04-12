@@ -15068,3 +15068,54 @@
 [2024-04-12 07:57:35] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
 [2024-04-12 07:57:35] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
 [2024-04-12 07:57:35] INFO root fetch - main [MainThread]: Store serial: [22733254]
+[2024-04-12 07:59:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733254]
+[2024-04-12 07:59:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truefoundry
+[2024-04-12 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ithaca-py
+[2024-04-12 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycommons
+[2024-04-12 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gw-pkg-scdev-pd-columns
+[2024-04-12 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qcloud-user
+[2024-04-12 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: junos-eznc
+[2024-04-12 07:59:44] INFO root fetch - processPackages [qcloud-user]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 07:59:44] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-12 07:59:44] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/6c/a0/9a73217fafc538a08bd3c697025df47715e0ac5daa09f9b92df99bd0d45d/qcloud_user-1.0.8.tar.gz
+[2024-04-12 07:59:44] WARNING root fetch - processPackages [gw-pkg-scdev-pd-columns]: Skipping, unable to determine old version
+[2024-04-12 07:59:44] INFO root fetch - main [MainThread]: End processing [gw-pkg-scdev-pd-columns] error
+[2024-04-12 07:59:44] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-12 07:59:44] INFO root fetch - processPackages [truefoundry]: New version: [0.2.0rc1] Old Version: [0.1.2]
+[2024-04-12 07:59:44] INFO root fetch - processPackages [ithaca-py]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-12 07:59:44] INFO root fetch - processPackages [junos-eznc]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-04-12 07:59:45] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/93/bc/2bf0b347616e039c2f630b3d46100df0490da6b624a3bf04853e2d2107f6/ithaca_py-0.2.0.tar.gz
+[2024-04-12 07:59:45] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/17/77/65fe2c13902ea2387de6a3e4ea5af3aad7edab11af78d720b9d53dc0a6e8/truefoundry-0.1.2.tar.gz
+[2024-04-12 07:59:45] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/ee/3a/d117c02a1979892a11c0a09509ab8da0d09acd6c4be8200e4989df4bd993/qcloud_user-1.0.9.tar.gz
+[2024-04-12 07:59:45] INFO root fetch - processPackages [junos-eznc]: Downloading https://files.pythonhosted.org/packages/1d/8c/cddab0785415c65fef67d5d55078e0c3eb3f7134c3db78a8d6bddec9ff2d/junos-eznc-2.7.0.tar.gz
+[2024-04-12 07:59:45] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-12 07:59:45] INFO root fetch - processPackages [qcloud-user]: executing diffoscope
+[2024-04-12 07:59:45] INFO root fetch - processPackages [qcloud-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_user-1.0.8.tar.gz tmp/qcloud_user-1.0.9.tar.gz --markdown 20240412/q/qcloud-user/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 07:59:45] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-12 07:59:45] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240412/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-12 07:59:45] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/6d/35/f55a008f5435910381601cb8ffcbd196611d4942e4df0afd693d441c356a/truefoundry-0.2.0rc1.tar.gz
+[2024-04-12 07:59:45] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/70/97/dbe5af64fbedc1ea0bdf8befd37fa18307bd82edb93a8a3e827ca373de37/ithaca_py-0.2.1.tar.gz
+[2024-04-12 07:59:45] INFO root fetch - processPackages [junos-eznc]: Downloading https://files.pythonhosted.org/packages/ce/c6/0dde3625873312c8a337334f0998491a07dfa71f378f25bf0e0cdd13eb5f/junos-eznc-2.7.1.tar.gz
+[2024-04-12 07:59:45] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-04-12 07:59:45] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.2.0.tar.gz tmp/ithaca_py-0.2.1.tar.gz --markdown 20240412/i/ithaca-py/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-12 07:59:45] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-04-12 07:59:45] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.1.2.tar.gz tmp/truefoundry-0.2.0rc1.tar.gz --markdown 20240412/t/truefoundry/0.1.2-0.2.0rc1/README.md --exclude *.pyd
+[2024-04-12 07:59:45] INFO root fetch - processPackages [junos-eznc]: executing diffoscope
+[2024-04-12 07:59:45] INFO root fetch - processPackages [junos-eznc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junos-eznc-2.7.0.tar.gz tmp/junos-eznc-2.7.1.tar.gz --markdown 20240412/j/junos-eznc/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-04-12 07:59:46] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-12 07:59:46] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.8.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.9.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - main [MainThread]: End processing [qcloud-user]: success
+[2024-04-12 07:59:46] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.1.2.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc1.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-04-12 07:59:46] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.2.0.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.2.1.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-04-12 07:59:46] INFO root fetch - processPackages [junos-eznc]: Remove: archive file [/home/abi/fetcher/tmp/junos-eznc-2.7.0.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - processPackages [junos-eznc]: Remove: archive file [/home/abi/fetcher/tmp/junos-eznc-2.7.1.tar.gz]
+[2024-04-12 07:59:46] INFO root fetch - main [MainThread]: End processing [junos-eznc]: success
+[2024-04-12 07:59:46] INFO root fetch - main [MainThread]: Store serial: [22733275]
