@@ -18847,3 +18847,97 @@
 [2024-04-12 10:46:51] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.1-cp312-none-macosx_10_9_universal2.whl.zip]
 [2024-04-12 10:46:51] INFO root fetch - main [MainThread]: End processing [axion]: success
 [2024-04-12 10:46:51] INFO root fetch - main [MainThread]: Store serial: [22735080]
+[2024-04-12 10:48:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735080]
+[2024-04-12 10:49:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypeline-runner
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dinamis-sdk
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multifutures
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rosbags
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rosbags
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kingsoftcloud-sdk-python
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edumfa
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: africanwhisper
+[2024-04-12 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fabio
+[2024-04-12 10:49:01] INFO root fetch - processPackages [multifutures]: New version: [0.3.1] Old Version: [0.3.0a2]
+[2024-04-12 10:49:01] INFO root fetch - processPackages [africanwhisper]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-12 10:49:01] INFO root fetch - processPackages [kcli]: New version: [99.0.202404120830] Old Version: [99.0.202404120607]
+[2024-04-12 10:49:01] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-12 10:49:01] INFO root fetch - processPackages [rosbags]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-12 10:49:01] INFO root fetch - processPackages [rosbags]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-12 10:49:01] WARNING root fetch - processPackages [pypeline-runner]: Skipping, unable to determine old version
+[2024-04-12 10:49:01] INFO root fetch - processPackages [edumfa]: New version: [2.0.0] Old Version: [1.5.1]
+[2024-04-12 10:49:01] INFO root fetch - processPackages [pypeline-runner]: Start processing: remotion-lambda
+[2024-04-12 10:49:01] INFO root fetch - main [MainThread]: End processing [pypeline-runner] error
+[2024-04-12 10:49:01] INFO root fetch - processPackages [multifutures]: Downloading https://files.pythonhosted.org/packages/02/06/bc9b121e02f8c414e11ecbad433a311dd94d78168e0082818c2cda377ae4/multifutures-0.3.0a2.tar.gz
+[2024-04-12 10:49:01] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-12 10:49:01] INFO root fetch - processPackages [africanwhisper]: Downloading https://files.pythonhosted.org/packages/2b/ec/3c0973c14121990d0b71ae2e66cb6ff978398532332f5d15efb624b59dd6/africanwhisper-0.5.0.tar.gz
+[2024-04-12 10:49:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/42/01/4dcf4c76614551d14af63c9e7fc1fdf42318d6c7b0601d3a6cd2b6859e24/kcli-99.0.202404120607.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [fabio]: New version: [2024.4.0] Old Version: [2023.6.0]
+[2024-04-12 10:49:02] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/0e/97/350b438f5e021961369ca3a60e4700eed1a33466e699ebfa3187acc545de/dinamis-sdk-0.1.0.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-04-12 10:49:02] INFO root fetch - processPackages [rosbags]: Downloading https://files.pythonhosted.org/packages/be/50/1dc1b241840389a7b691c41250ff12490d417146b5e7bbb66a672f9a4dc6/rosbags-0.9.8.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [rosbags]: Downloading https://files.pythonhosted.org/packages/be/50/1dc1b241840389a7b691c41250ff12490d417146b5e7bbb66a672f9a4dc6/rosbags-0.9.8.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [edumfa]: Downloading https://files.pythonhosted.org/packages/ba/0f/4f6b57123f60dc1782096b8f671f7d4eea3f113d24f58c9229278c4e311b/edumfa-1.5.1.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/70/9b/443953a4b2cea008cf66a54a74668eedff978d9ad51afe94fefa569d3f67/kingsoftcloud-sdk-python-1.3.8.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [multifutures]: Downloading https://files.pythonhosted.org/packages/c4/82/af1393188b6a4dfbc1605fb5be49e97ef6029ce2ea562088eee8b23b5dce/multifutures-0.3.1.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [africanwhisper]: Downloading https://files.pythonhosted.org/packages/03/67/0b6e0ddcc8eee0f17375f671d91963ef7650ec7cd186abe498889ab58fe6/africanwhisper-0.6.0.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [fabio]: Downloading https://files.pythonhosted.org/packages/a9/a5/caa8be66b6cb97f6f3dedd63476a8c60f2c096dd8b725980de5d1842568a/fabio-2023.6.0.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [multifutures]: executing diffoscope
+[2024-04-12 10:49:02] INFO root fetch - processPackages [multifutures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multifutures-0.3.0a2.tar.gz tmp/multifutures-0.3.1.tar.gz --markdown 20240412/m/multifutures/0.3.0a2-0.3.1/README.md --exclude *.pyd
+[2024-04-12 10:49:02] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/51/43/dc88ae4811229db5f834ea314ad3e2aeefd466ad757e0067792b002d6586/dinamis-sdk-0.1.2.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [africanwhisper]: executing diffoscope
+[2024-04-12 10:49:02] INFO root fetch - processPackages [africanwhisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/africanwhisper-0.5.0.tar.gz tmp/africanwhisper-0.6.0.tar.gz --markdown 20240412/a/africanwhisper/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-12 10:49:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/82/02/94fd2e544d96156e5d133c9b67155391c38fce8153aae796943484e6555c/kcli-99.0.202404120830.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [dinamis-sdk]: executing diffoscope
+[2024-04-12 10:49:02] INFO root fetch - processPackages [dinamis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinamis-sdk-0.1.0.tar.gz tmp/dinamis-sdk-0.1.2.tar.gz --markdown 20240412/d/dinamis-sdk/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-04-12 10:49:02] INFO root fetch - processPackages [rosbags]: Downloading https://files.pythonhosted.org/packages/cc/ad/5be6aea93a088caee179400c3a54b01fa1338e78a4b2c1dbf3fe65e7290b/rosbags-0.9.9.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [rosbags]: Downloading https://files.pythonhosted.org/packages/cc/ad/5be6aea93a088caee179400c3a54b01fa1338e78a4b2c1dbf3fe65e7290b/rosbags-0.9.9.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-12 10:49:02] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404120607.tar.gz tmp/kcli-99.0.202404120830.tar.gz --markdown 20240412/k/kcli/99.0.202404120607-99.0.202404120830/README.md --exclude *.pyd
+[2024-04-12 10:49:02] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/45/29/2ca7c96eca42957e32e6f4f2bfd988141212499beaebe5cf73f467781518/kingsoftcloud-sdk-python-1.3.9.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [rosbags]: executing diffoscope
+[2024-04-12 10:49:02] INFO root fetch - processPackages [rosbags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosbags-0.9.8.tar.gz tmp/rosbags-0.9.9.tar.gz --markdown 20240412/r/rosbags/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-12 10:49:02] INFO root fetch - processPackages [rosbags]: executing diffoscope
+[2024-04-12 10:49:02] INFO root fetch - processPackages [rosbags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosbags-0.9.8.tar.gz tmp/rosbags-0.9.9.tar.gz --markdown 20240412/r/rosbags/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-12 10:49:02] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [fabio]: Downloading https://files.pythonhosted.org/packages/e2/cd/c1df61991d4803ba503e2a26a6015b5618e643fecd337c50ba12be7abc84/fabio-2024.4.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-12 10:49:02] INFO root fetch - processPackages [edumfa]: Downloading https://files.pythonhosted.org/packages/23/00/8f7e1744abe86c2396bf08eb71d4c1472c40ec8e53a37b20490ebb3b9553/edumfa-2.0.0.tar.gz
+[2024-04-12 10:49:02] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-04-12 10:49:02] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240412/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-04-12 10:49:02] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: executing diffoscope
+[2024-04-12 10:49:02] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingsoftcloud-sdk-python-1.3.8.tar.gz tmp/kingsoftcloud-sdk-python-1.3.9.tar.gz --markdown 20240412/k/kingsoftcloud-sdk-python/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-12 10:49:03] INFO root fetch - processPackages [multifutures]: Remove: archive file [/home/abi/fetcher/tmp/multifutures-0.3.0a2.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - processPackages [multifutures]: Remove: archive file [/home/abi/fetcher/tmp/multifutures-0.3.1.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - main [MainThread]: End processing [multifutures]: success
+[2024-04-12 10:49:03] INFO root fetch - processPackages [africanwhisper]: Remove: archive file [/home/abi/fetcher/tmp/africanwhisper-0.5.0.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - processPackages [africanwhisper]: Remove: archive file [/home/abi/fetcher/tmp/africanwhisper-0.6.0.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - main [MainThread]: End processing [africanwhisper]: success
+[2024-04-12 10:49:03] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.1.0.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.1.2.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - main [MainThread]: End processing [dinamis-sdk]: success
+[2024-04-12 10:49:03] INFO root fetch - processPackages [rosbags]: Remove: archive file [/home/abi/fetcher/tmp/rosbags-0.9.8.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - processPackages [rosbags]: Remove: archive file [/home/abi/fetcher/tmp/rosbags-0.9.9.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - main [MainThread]: End processing [rosbags]: success
+[2024-04-12 10:49:03] INFO root fetch - main [MainThread]: End processing [rosbags]: success
+[2024-04-12 10:49:03] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-04-12 10:49:03] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-04-12 10:49:03] INFO root fetch - processPackages [edumfa]: executing diffoscope
+[2024-04-12 10:49:03] INFO root fetch - processPackages [edumfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edumfa-1.5.1.tar.gz tmp/edumfa-2.0.0.tar.gz --markdown 20240412/e/edumfa/1.5.1-2.0.0/README.md --exclude *.pyd
+[2024-04-12 10:49:04] INFO root fetch - processPackages [fabio]: executing diffoscope
+[2024-04-12 10:49:04] INFO root fetch - processPackages [fabio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabio-2023.6.0.tar.gz tmp/fabio-2024.4.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240412/f/fabio/2023.6.0-2024.4.0/README.md --exclude *.pyd
+[2024-04-12 10:49:04] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud-sdk-python-1.3.8.tar.gz]
+[2024-04-12 10:49:04] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud-sdk-python-1.3.9.tar.gz]
+[2024-04-12 10:49:04] INFO root fetch - main [MainThread]: End processing [kingsoftcloud-sdk-python]: success
+[2024-04-12 10:49:04] INFO root fetch - processPackages [fabio]: Remove: archive file [/home/abi/fetcher/tmp/fabio-2023.6.0.tar.gz]
+[2024-04-12 10:49:04] INFO root fetch - processPackages [fabio]: Remove: archive file [/home/abi/fetcher/tmp/fabio-2024.4.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-12 10:49:04] INFO root fetch - main [MainThread]: End processing [fabio]: success
+[2024-04-12 10:49:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404120607.tar.gz]
+[2024-04-12 10:49:05] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404120830.tar.gz]
+[2024-04-12 10:49:05] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-12 10:49:07] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-1.5.1.tar.gz]
+[2024-04-12 10:49:07] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-2.0.0.tar.gz]
+[2024-04-12 10:49:07] INFO root fetch - main [MainThread]: End processing [edumfa]: success
+[2024-04-12 10:49:07] INFO root fetch - main [MainThread]: Store serial: [22735116]
