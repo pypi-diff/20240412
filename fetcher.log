@@ -11876,3 +11876,42 @@
 [2024-04-12 04:37:35] INFO root fetch - processPackages [apoplast]: Remove: archive file [/home/abi/fetcher/tmp/apoplast-3.0.3.tar.gz]
 [2024-04-12 04:37:35] INFO root fetch - main [MainThread]: End processing [apoplast]: success
 [2024-04-12 04:37:35] INFO root fetch - main [MainThread]: Store serial: [22731884]
+[2024-04-12 04:39:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731884]
+[2024-04-12 04:39:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 04:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2024-04-12 04:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-financial-report
+[2024-04-12 04:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs.deco
+[2024-04-12 04:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2024-04-12 04:39:44] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.0.0.10] Old Version: [16.0.1.5.4.3]
+[2024-04-12 04:39:44] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/f7/d4/669bc12d86b3ab06c2bc815d94f5d0e2d740b7f070d0beb0a444d54fb807/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl
+[2024-04-12 04:39:44] INFO root fetch - processPackages [vector-vault]: New version: [4.4.3.8] Old Version: [4.4.3.7]
+[2024-04-12 04:39:44] INFO root fetch - processPackages [cs.deco]: New version: [20240412] Old Version: [20240326]
+[2024-04-12 04:39:44] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-12 04:39:44] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/0e/95/54c5b4877a8a46a50f66b9d2f5e6dbfb5e8ef59e41c07d1973cf945c8099/vector_vault-4.4.3.7.tar.gz
+[2024-04-12 04:39:44] INFO root fetch - processPackages [cs.deco]: Downloading https://files.pythonhosted.org/packages/e1/da/529f812f34cdbe3ecd750c86703677d13f063473332ab220a933a9f9574e/cs.deco-20240326.tar.gz
+[2024-04-12 04:39:44] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/7b/d2/2a87853582eedc928d967d940d379d0a2729de90a9b11614b37546e7d899/odoo_addon_account_financial_report-17.0.1.0.0.10-py3-none-any.whl
+[2024-04-12 04:39:44] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-04-12 04:39:45] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-12 04:39:45] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.0.0.10-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-account-financial-report/16.0.1.5.4.3-17.0.1.0.0.10/README.md --exclude *.pyd
+[2024-04-12 04:39:45] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/f9/c1/65d732f94e5cd46da94eef646c93e5f0bf17379ab930f838b908bf0adf6d/vector_vault-4.4.3.8.tar.gz
+[2024-04-12 04:39:45] INFO root fetch - processPackages [cs.deco]: Downloading https://files.pythonhosted.org/packages/6c/44/760454baca5e7c550ebd56d4fe4d013b59b2c93fd2df406302c283d7ef5f/cs.deco-20240412.tar.gz
+[2024-04-12 04:39:45] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-04-12 04:39:45] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-12 04:39:45] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.4.3.7.tar.gz tmp/vector_vault-4.4.3.8.tar.gz --markdown 20240412/v/vector-vault/4.4.3.7-4.4.3.8/README.md --exclude *.pyd
+[2024-04-12 04:39:45] INFO root fetch - processPackages [cs.deco]: executing diffoscope
+[2024-04-12 04:39:45] INFO root fetch - processPackages [cs.deco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.deco-20240326.tar.gz tmp/cs.deco-20240412.tar.gz --markdown 20240412/c/cs.deco/20240326-20240412/README.md --exclude *.pyd
+[2024-04-12 04:39:45] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-04-12 04:39:45] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240412/c/chalkpy/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-12 04:39:45] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.3.7.tar.gz]
+[2024-04-12 04:39:45] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.3.8.tar.gz]
+[2024-04-12 04:39:45] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-12 04:39:46] INFO root fetch - processPackages [cs.deco]: Remove: archive file [/home/abi/fetcher/tmp/cs.deco-20240326.tar.gz]
+[2024-04-12 04:39:46] INFO root fetch - processPackages [cs.deco]: Remove: archive file [/home/abi/fetcher/tmp/cs.deco-20240412.tar.gz]
+[2024-04-12 04:39:46] INFO root fetch - main [MainThread]: End processing [cs.deco]: success
+[2024-04-12 04:39:46] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.5.4.3-py3-none-any.whl.zip]
+[2024-04-12 04:39:46] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.0.0.10-py3-none-any.whl.zip]
+[2024-04-12 04:39:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-12 04:39:47] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-04-12 04:39:47] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-04-12 04:39:47] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-04-12 04:39:47] INFO root fetch - main [MainThread]: Store serial: [22731897]
