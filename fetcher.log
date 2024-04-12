@@ -13443,3 +13443,27 @@
 [2024-04-12 06:15:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz]
 [2024-04-12 06:15:51] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2024-04-12 06:15:51] INFO root fetch - main [MainThread]: Store serial: [22732596]
+[2024-04-12 06:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732596]
+[2024-04-12 06:18:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-04-12 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moby-distribution
+[2024-04-12 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lilavati
+[2024-04-12 06:18:02] INFO root fetch - processPackages [pyqqq]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-12 06:18:02] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/4b/36/ba2bb44b934827e2fa2b92152bc25f0f84e47acc03d8c7576dd03cd6d84a/pyqqq-0.7.1.tar.gz
+[2024-04-12 06:18:02] INFO root fetch - processPackages [moby-distribution]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-12 06:18:02] WARNING root fetch - processPackages [lilavati]: Skipping, unable to determine old version
+[2024-04-12 06:18:02] INFO root fetch - main [MainThread]: End processing [lilavati] error
+[2024-04-12 06:18:02] INFO root fetch - processPackages [moby-distribution]: Downloading https://files.pythonhosted.org/packages/63/ad/58744ce93f95488fa0928a0bb088c4d314fc0c87a36bfd7e2aab0a4e0199/moby_distribution-0.8.1.tar.gz
+[2024-04-12 06:18:02] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/0b/04/58ac78e1a3e683f969b9ad98e9ca090ebe420e656f9bd8087e06e7d8cd8b/pyqqq-0.7.2.tar.gz
+[2024-04-12 06:18:02] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-12 06:18:02] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.7.1.tar.gz tmp/pyqqq-0.7.2.tar.gz --markdown 20240412/p/pyqqq/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-12 06:18:02] INFO root fetch - processPackages [moby-distribution]: Downloading https://files.pythonhosted.org/packages/86/5b/216eb4775d140a92bad5152c479fa4560afd8ccab1f1e145a7480bf0120b/moby_distribution-0.8.2.tar.gz
+[2024-04-12 06:18:02] INFO root fetch - processPackages [moby-distribution]: executing diffoscope
+[2024-04-12 06:18:02] INFO root fetch - processPackages [moby-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moby_distribution-0.8.1.tar.gz tmp/moby_distribution-0.8.2.tar.gz --markdown 20240412/m/moby-distribution/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-12 06:18:03] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.1.tar.gz]
+[2024-04-12 06:18:03] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.2.tar.gz]
+[2024-04-12 06:18:03] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-12 06:18:03] INFO root fetch - processPackages [moby-distribution]: Remove: archive file [/home/abi/fetcher/tmp/moby_distribution-0.8.1.tar.gz]
+[2024-04-12 06:18:03] INFO root fetch - processPackages [moby-distribution]: Remove: archive file [/home/abi/fetcher/tmp/moby_distribution-0.8.2.tar.gz]
+[2024-04-12 06:18:03] INFO root fetch - main [MainThread]: End processing [moby-distribution]: success
+[2024-04-12 06:18:03] INFO root fetch - main [MainThread]: Store serial: [22732607]
