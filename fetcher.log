@@ -11849,3 +11849,30 @@
 [2024-04-12 04:35:22] INFO root fetch - processPackages [Lires]: Remove: archive file [/home/abi/fetcher/tmp/Lires-1.7.5.tar.gz]
 [2024-04-12 04:35:22] INFO root fetch - main [MainThread]: End processing [Lires]: success
 [2024-04-12 04:35:22] INFO root fetch - main [MainThread]: Store serial: [22731875]
+[2024-04-12 04:37:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731875]
+[2024-04-12 04:37:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 04:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs.py.stack
+[2024-04-12 04:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AITracker
+[2024-04-12 04:37:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apoplast
+[2024-04-12 04:37:32] INFO root fetch - processPackages [apoplast]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-12 04:37:32] INFO root fetch - processPackages [apoplast]: Downloading https://files.pythonhosted.org/packages/ea/04/11e9a2e79baa16833f20828eb717fc5c7c084d9cf47e4158791e4fc1d6f9/apoplast-3.0.2.tar.gz
+[2024-04-12 04:37:32] INFO root fetch - processPackages [cs.py.stack]: New version: [20240412] Old Version: [20220918]
+[2024-04-12 04:37:32] INFO root fetch - processPackages [AITracker]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-12 04:37:32] INFO root fetch - processPackages [cs.py.stack]: Downloading https://files.pythonhosted.org/packages/4b/a0/e1c6ec5c91f42051776fdac5b22f75364d47b4a2330827d970417c5c716d/cs.py.stack-20220918.tar.gz
+[2024-04-12 04:37:32] INFO root fetch - processPackages [AITracker]: Downloading https://files.pythonhosted.org/packages/e1/f2/3dfc1c03a742b21ee42997abe0572a66cfed2f6455e0195a48531015c9ba/AITracker-0.9.6.tar.gz
+[2024-04-12 04:37:33] INFO root fetch - processPackages [apoplast]: Downloading https://files.pythonhosted.org/packages/a2/60/4f8c63bac81b370582ac0ad1295673e3d19a65fe6c4ca6f6ffa1c04eb8cd/apoplast-3.0.3.tar.gz
+[2024-04-12 04:37:33] INFO root fetch - processPackages [AITracker]: Downloading https://files.pythonhosted.org/packages/dc/d7/38ea085db8ceadb47cb7198344671aa7e0bc0a00a412d8caca03038f119b/AITracker-0.9.7.tar.gz
+[2024-04-12 04:37:33] INFO root fetch - processPackages [apoplast]: executing diffoscope
+[2024-04-12 04:37:33] INFO root fetch - processPackages [apoplast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apoplast-3.0.2.tar.gz tmp/apoplast-3.0.3.tar.gz --markdown 20240412/a/apoplast/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-04-12 04:37:33] WARNING root fetch - processPackages [AITracker]: Skipping package: exceeds size limit 26179679>=10485760
+[2024-04-12 04:37:33] INFO root fetch - main [MainThread]: End processing [AITracker] error
+[2024-04-12 04:37:33] INFO root fetch - processPackages [cs.py.stack]: Downloading https://files.pythonhosted.org/packages/f5/03/8ede2fc10ea7e2573112fae8fb44c4866acd6fc0b10c0dde29920a5fc1da/cs.py.stack-20240412.tar.gz
+[2024-04-12 04:37:33] INFO root fetch - processPackages [cs.py.stack]: executing diffoscope
+[2024-04-12 04:37:33] INFO root fetch - processPackages [cs.py.stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.py.stack-20220918.tar.gz tmp/cs.py.stack-20240412.tar.gz --markdown 20240412/c/cs.py.stack/20220918-20240412/README.md --exclude *.pyd
+[2024-04-12 04:37:33] INFO root fetch - processPackages [cs.py.stack]: Remove: archive file [/home/abi/fetcher/tmp/cs.py.stack-20220918.tar.gz]
+[2024-04-12 04:37:33] INFO root fetch - processPackages [cs.py.stack]: Remove: archive file [/home/abi/fetcher/tmp/cs.py.stack-20240412.tar.gz]
+[2024-04-12 04:37:33] INFO root fetch - main [MainThread]: End processing [cs.py.stack]: success
+[2024-04-12 04:37:35] INFO root fetch - processPackages [apoplast]: Remove: archive file [/home/abi/fetcher/tmp/apoplast-3.0.2.tar.gz]
+[2024-04-12 04:37:35] INFO root fetch - processPackages [apoplast]: Remove: archive file [/home/abi/fetcher/tmp/apoplast-3.0.3.tar.gz]
+[2024-04-12 04:37:35] INFO root fetch - main [MainThread]: End processing [apoplast]: success
+[2024-04-12 04:37:35] INFO root fetch - main [MainThread]: Store serial: [22731884]
