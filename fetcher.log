@@ -14190,3 +14190,54 @@
 [2024-04-12 07:12:28] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.4.3.tar.gz]
 [2024-04-12 07:12:28] INFO root fetch - main [MainThread]: End processing [liminal-sdk-python]: success
 [2024-04-12 07:12:28] INFO root fetch - main [MainThread]: Store serial: [22732886]
+[2024-04-12 07:14:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732886]
+[2024-04-12 07:14:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-04-12 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodestack
+[2024-04-12 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dyff-audit
+[2024-04-12 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs.later
+[2024-04-12 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Jupyter-Bridge
+[2024-04-12 07:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: preprocess-docs
+[2024-04-12 07:14:38] INFO root fetch - processPackages [preprocess-docs]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 07:14:38] INFO root fetch - processPackages [dyff-audit]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-12 07:14:38] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-12 07:14:38] WARNING root fetch - processPackages [Jupyter-Bridge]: Skipping, unable to determine old version
+[2024-04-12 07:14:38] INFO root fetch - main [MainThread]: End processing [Jupyter-Bridge] error
+[2024-04-12 07:14:38] INFO root fetch - processPackages [nodestack]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 07:14:38] INFO root fetch - processPackages [cs.later]: New version: [20240412] Old Version: [20240305]
+[2024-04-12 07:14:38] INFO root fetch - processPackages [preprocess-docs]: Downloading https://files.pythonhosted.org/packages/09/4e/1dbb929448bb4ca498a404c6063988743800282073f8ac3feb867caf672a/preprocess-docs-0.0.3.tar.gz
+[2024-04-12 07:14:38] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/5d/81/98826547bf43b58f8b97898a7ce4c6b7da6519eb05c8431a0fcee3e580a4/dyff-audit-0.2.0.tar.gz
+[2024-04-12 07:14:38] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-12 07:14:38] INFO root fetch - processPackages [nodestack]: Downloading https://files.pythonhosted.org/packages/c2/8a/059b30097123038b7206abca31d9c82c06db8d109b4a1d740bae66034bee/nodestack-0.0.1.tar.gz
+[2024-04-12 07:14:38] INFO root fetch - processPackages [cs.later]: Downloading https://files.pythonhosted.org/packages/02/47/4edc4109a4ffd2db425b11eed6a706e6aaa5bc7bfd02e148a29a888430dc/cs.later-20240305.tar.gz
+[2024-04-12 07:14:38] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/bc/6b/154d19e7f0477044664be8b961f952ce6c8e338f54ef5fd12e2158be674a/dyff-audit-0.2.1.tar.gz
+[2024-04-12 07:14:38] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-12 07:14:38] INFO root fetch - processPackages [preprocess-docs]: Downloading https://files.pythonhosted.org/packages/ea/ff/429920a6c9633b1262fc402a94e9d1ed8eff2dcd0a74f1a7a4390f73a300/preprocess-docs-0.0.4.tar.gz
+[2024-04-12 07:14:38] INFO root fetch - processPackages [dyff-audit]: executing diffoscope
+[2024-04-12 07:14:38] INFO root fetch - processPackages [dyff-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-audit-0.2.0.tar.gz tmp/dyff-audit-0.2.1.tar.gz --markdown 20240412/d/dyff-audit/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-12 07:14:38] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-12 07:14:38] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240412/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-12 07:14:39] INFO root fetch - processPackages [preprocess-docs]: executing diffoscope
+[2024-04-12 07:14:39] INFO root fetch - processPackages [preprocess-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preprocess-docs-0.0.3.tar.gz tmp/preprocess-docs-0.0.4.tar.gz --markdown 20240412/p/preprocess-docs/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 07:14:39] INFO root fetch - processPackages [cs.later]: Downloading https://files.pythonhosted.org/packages/6a/72/82869b453784eb77244ae81b5e5945e17b4b766a84ab873ac94584781af4/cs.later-20240412.tar.gz
+[2024-04-12 07:14:39] INFO root fetch - processPackages [nodestack]: Downloading https://files.pythonhosted.org/packages/53/4d/c0d89f149ca002e84fb8f1b1cc43427d333d722a073b8d6e84f1b3f4cc44/nodestack-0.0.2.tar.gz
+[2024-04-12 07:14:39] INFO root fetch - processPackages [cs.later]: executing diffoscope
+[2024-04-12 07:14:39] INFO root fetch - processPackages [cs.later]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.later-20240305.tar.gz tmp/cs.later-20240412.tar.gz --markdown 20240412/c/cs.later/20240305-20240412/README.md --exclude *.pyd
+[2024-04-12 07:14:39] INFO root fetch - processPackages [nodestack]: executing diffoscope
+[2024-04-12 07:14:39] INFO root fetch - processPackages [nodestack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodestack-0.0.1.tar.gz tmp/nodestack-0.0.2.tar.gz --markdown 20240412/n/nodestack/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 07:14:39] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff-audit-0.2.0.tar.gz]
+[2024-04-12 07:14:39] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff-audit-0.2.1.tar.gz]
+[2024-04-12 07:14:39] INFO root fetch - main [MainThread]: End processing [dyff-audit]: success
+[2024-04-12 07:14:39] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-12 07:14:39] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-12 07:14:39] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-12 07:14:39] INFO root fetch - processPackages [cs.later]: Remove: archive file [/home/abi/fetcher/tmp/cs.later-20240305.tar.gz]
+[2024-04-12 07:14:39] INFO root fetch - processPackages [cs.later]: Remove: archive file [/home/abi/fetcher/tmp/cs.later-20240412.tar.gz]
+[2024-04-12 07:14:39] INFO root fetch - main [MainThread]: End processing [cs.later]: success
+[2024-04-12 07:14:39] INFO root fetch - processPackages [preprocess-docs]: Remove: archive file [/home/abi/fetcher/tmp/preprocess-docs-0.0.3.tar.gz]
+[2024-04-12 07:14:39] INFO root fetch - processPackages [preprocess-docs]: Remove: archive file [/home/abi/fetcher/tmp/preprocess-docs-0.0.4.tar.gz]
+[2024-04-12 07:14:39] INFO root fetch - main [MainThread]: End processing [preprocess-docs]: success
+[2024-04-12 07:14:40] INFO root fetch - processPackages [nodestack]: Remove: archive file [/home/abi/fetcher/tmp/nodestack-0.0.1.tar.gz]
+[2024-04-12 07:14:40] INFO root fetch - processPackages [nodestack]: Remove: archive file [/home/abi/fetcher/tmp/nodestack-0.0.2.tar.gz]
+[2024-04-12 07:14:40] INFO root fetch - main [MainThread]: End processing [nodestack]: success
+[2024-04-12 07:14:40] INFO root fetch - main [MainThread]: Store serial: [22732907]
