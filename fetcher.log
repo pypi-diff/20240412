@@ -15591,3 +15591,42 @@
 [2024-04-12 08:27:31] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-12 08:27:31] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-12 08:27:31] INFO root fetch - main [MainThread]: Store serial: [22733473]
+[2024-04-12 08:29:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733473]
+[2024-04-12 08:29:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-12 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg-logidater
+[2024-04-12 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weld-deps
+[2024-04-12 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqqq
+[2024-04-12 08:29:40] INFO root fetch - processPackages [weld-deps]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-12 08:29:40] INFO root fetch - processPackages [pyqqq]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-12 08:29:40] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-12 08:29:40] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/97/53/24a6b4f14c8cf3881cafabb21d96a6950f5a5e7af9e140e90a08b62d4309/weld_deps-0.2.0.tar.gz
+[2024-04-12 08:29:40] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/0b/04/58ac78e1a3e683f969b9ad98e9ca090ebe420e656f9bd8087e06e7d8cd8b/pyqqq-0.7.2.tar.gz
+[2024-04-12 08:29:40] INFO root fetch - processPackages [pg-logidater]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-12 08:29:40] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-12 08:29:40] INFO root fetch - processPackages [pg-logidater]: Downloading https://files.pythonhosted.org/packages/eb/a0/d504ea1b05ab831689b141c50dc63f2e7276f0ca7372d9a3b9252232af8d/pg_logidater-0.3.1.tar.gz
+[2024-04-12 08:29:41] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/50/1a/31962960d7ca81bd222f39a1d131746f143265ca65b4e77416d6e477c10c/weld_deps-0.3.0.tar.gz
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/b9/94/b32693fc5874a329040a0dc7068bc619eb99804dcae6129385cee1e9125b/pyqqq-0.7.3.tar.gz
+[2024-04-12 08:29:41] INFO root fetch - processPackages [weld-deps]: executing diffoscope
+[2024-04-12 08:29:41] INFO root fetch - processPackages [weld-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weld_deps-0.2.0.tar.gz tmp/weld_deps-0.3.0.tar.gz --markdown 20240412/w/weld-deps/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pg-logidater]: Downloading https://files.pythonhosted.org/packages/0d/45/3579f885d25ac0fe4afd466c5264b426c541ab4d807e530ac5fcf78521ea/pg_logidater-0.3.2.tar.gz
+[2024-04-12 08:29:41] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.7.2.tar.gz tmp/pyqqq-0.7.3.tar.gz --markdown 20240412/p/pyqqq/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pg-logidater]: executing diffoscope
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pg-logidater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_logidater-0.3.1.tar.gz tmp/pg_logidater-0.3.2.tar.gz --markdown 20240412/p/pg-logidater/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-12 08:29:41] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-12 08:29:41] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240412/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-12 08:29:41] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.2.0.tar.gz]
+[2024-04-12 08:29:41] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.3.0.tar.gz]
+[2024-04-12 08:29:41] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.2.tar.gz]
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.3.tar.gz]
+[2024-04-12 08:29:41] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pg-logidater]: Remove: archive file [/home/abi/fetcher/tmp/pg_logidater-0.3.1.tar.gz]
+[2024-04-12 08:29:41] INFO root fetch - processPackages [pg-logidater]: Remove: archive file [/home/abi/fetcher/tmp/pg_logidater-0.3.2.tar.gz]
+[2024-04-12 08:29:41] INFO root fetch - main [MainThread]: End processing [pg-logidater]: success
+[2024-04-12 08:29:42] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-12 08:29:42] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-12 08:29:42] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-12 08:29:42] INFO root fetch - main [MainThread]: Store serial: [22733485]
