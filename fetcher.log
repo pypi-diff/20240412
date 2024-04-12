@@ -19696,3 +19696,40 @@
 [2024-04-12 11:11:29] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.4.tar.gz]
 [2024-04-12 11:11:29] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
 [2024-04-12 11:11:29] INFO root fetch - main [MainThread]: Store serial: [22735472]
+[2024-04-12 11:13:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735472]
+[2024-04-12 11:13:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinyra
+[2024-04-12 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icometrix-SDK
+[2024-04-12 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BoSeokDonga
+[2024-04-12 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unique-sdk
+[2024-04-12 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dinamis-sdk
+[2024-04-12 11:13:48] INFO root fetch - processPackages [unique-sdk]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-12 11:13:48] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.1.6] Old Version: [0.1.0]
+[2024-04-12 11:13:48] INFO root fetch - processPackages [tinyra]: New version: [0.3.3rc3] Old Version: [0.3.3rc2]
+[2024-04-12 11:13:48] WARNING root fetch - processPackages [BoSeokDonga]: Skipping, unable to determine old version
+[2024-04-12 11:13:48] INFO root fetch - main [MainThread]: End processing [BoSeokDonga] error
+[2024-04-12 11:13:48] INFO root fetch - processPackages [unique-sdk]: Downloading https://files.pythonhosted.org/packages/22/65/08545d4d2dee6954b52e4a8d3b4adf04f83054ce32730c721d9a4ed3437f/unique_sdk-0.7.0.tar.gz
+[2024-04-12 11:13:48] INFO root fetch - processPackages [icometrix-SDK]: New version: [0.0.6rc2] Old Version: [0.0.6rc1]
+[2024-04-12 11:13:48] INFO root fetch - processPackages [tinyra]: Downloading https://files.pythonhosted.org/packages/43/f0/7d7d5df16992a53f4e54811f1746d613094a81e1dd58af54c8b93c29d2a4/tinyra-0.3.3rc2.tar.gz
+[2024-04-12 11:13:48] ERROR root fetch - processPackages [dinamis-sdk]: Unable to fetch info: No such project/version 'dinamis-sdk' 0.1.6
+[2024-04-12 11:13:48] INFO root fetch - main [MainThread]: End processing [dinamis-sdk] error
+[2024-04-12 11:13:48] INFO root fetch - processPackages [icometrix-SDK]: Downloading https://files.pythonhosted.org/packages/cf/2c/1963855887c3dbf1e90485f2272ddd5663ab8b1c465c4f464b2335a9e8d3/icometrix_sdk-0.0.6rc1.tar.gz
+[2024-04-12 11:13:48] INFO root fetch - processPackages [unique-sdk]: Downloading https://files.pythonhosted.org/packages/69/23/034fc49376f873dfd233dd1a54a5bf5a41f8ce90ef4bfec9d64d278f1a67/unique_sdk-0.7.1.tar.gz
+[2024-04-12 11:13:49] INFO root fetch - processPackages [tinyra]: Downloading https://files.pythonhosted.org/packages/b4/91/053247daebbaad671f920214497812a212b41bbbda57ab61769dd6601208/tinyra-0.3.3rc3.tar.gz
+[2024-04-12 11:13:49] INFO root fetch - processPackages [unique-sdk]: executing diffoscope
+[2024-04-12 11:13:49] INFO root fetch - processPackages [unique-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unique_sdk-0.7.0.tar.gz tmp/unique_sdk-0.7.1.tar.gz --markdown 20240412/u/unique-sdk/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-12 11:13:49] INFO root fetch - processPackages [tinyra]: executing diffoscope
+[2024-04-12 11:13:49] INFO root fetch - processPackages [tinyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyra-0.3.3rc2.tar.gz tmp/tinyra-0.3.3rc3.tar.gz --markdown 20240412/t/tinyra/0.3.3rc2-0.3.3rc3/README.md --exclude *.pyd
+[2024-04-12 11:13:49] INFO root fetch - processPackages [icometrix-SDK]: Downloading https://files.pythonhosted.org/packages/42/82/fee81b9efd864facd614137373909d5188eb472e5ef074f6bb2ec86b1496/icometrix_sdk-0.0.6rc2.tar.gz
+[2024-04-12 11:13:49] INFO root fetch - processPackages [icometrix-SDK]: executing diffoscope
+[2024-04-12 11:13:49] INFO root fetch - processPackages [icometrix-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icometrix_sdk-0.0.6rc1.tar.gz tmp/icometrix_sdk-0.0.6rc2.tar.gz --markdown 20240412/i/icometrix-SDK/0.0.6rc1-0.0.6rc2/README.md --exclude *.pyd
+[2024-04-12 11:13:49] INFO root fetch - processPackages [tinyra]: Remove: archive file [/home/abi/fetcher/tmp/tinyra-0.3.3rc2.tar.gz]
+[2024-04-12 11:13:49] INFO root fetch - processPackages [tinyra]: Remove: archive file [/home/abi/fetcher/tmp/tinyra-0.3.3rc3.tar.gz]
+[2024-04-12 11:13:49] INFO root fetch - main [MainThread]: End processing [tinyra]: success
+[2024-04-12 11:13:49] INFO root fetch - processPackages [unique-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unique_sdk-0.7.0.tar.gz]
+[2024-04-12 11:13:49] INFO root fetch - processPackages [unique-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unique_sdk-0.7.1.tar.gz]
+[2024-04-12 11:13:49] INFO root fetch - main [MainThread]: End processing [unique-sdk]: success
+[2024-04-12 11:13:50] INFO root fetch - processPackages [icometrix-SDK]: Remove: archive file [/home/abi/fetcher/tmp/icometrix_sdk-0.0.6rc1.tar.gz]
+[2024-04-12 11:13:50] INFO root fetch - processPackages [icometrix-SDK]: Remove: archive file [/home/abi/fetcher/tmp/icometrix_sdk-0.0.6rc2.tar.gz]
+[2024-04-12 11:13:50] INFO root fetch - main [MainThread]: End processing [icometrix-SDK]: success
+[2024-04-12 11:13:50] INFO root fetch - main [MainThread]: Store serial: [22735487]
