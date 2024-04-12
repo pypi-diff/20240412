@@ -3178,3 +3178,39 @@
 [2024-04-12 02:38:25] INFO root fetch - processPackages [cfbd-json-py]: Remove: archive file [/home/abi/fetcher/tmp/cfbd_json_py-0.1.2.tar.gz]
 [2024-04-12 02:38:25] INFO root fetch - main [MainThread]: End processing [cfbd-json-py]: success
 [2024-04-12 02:38:25] INFO root fetch - main [MainThread]: Store serial: [22728693]
+[2024-04-12 02:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728693]
+[2024-04-12 02:40:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 02:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfbd-json-py
+[2024-04-12 02:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Explicit
+[2024-04-12 02:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aritrends
+[2024-04-12 02:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FreeBack
+[2024-04-12 02:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Simplex
+[2024-04-12 02:40:34] INFO root fetch - processPackages [cfbd-json-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-12 02:40:34] INFO root fetch - processPackages [cfbd-json-py]: Downloading https://files.pythonhosted.org/packages/13/bd/5009ea9c2dbee253f7202eb9e95581428c052ffd806abb9aa2850f3384e2/cfbd_json_py-0.1.1.tar.gz
+[2024-04-12 02:40:34] WARNING root fetch - processPackages [FreeBack]: Skipping, unable to determine old version
+[2024-04-12 02:40:34] INFO root fetch - main [MainThread]: End processing [FreeBack] error
+[2024-04-12 02:40:34] INFO root fetch - processPackages [cfbd-json-py]: Downloading https://files.pythonhosted.org/packages/6c/45/937e29c0976c131d4b4b6482f2462f7407df2d64b7c9686367d43049cdaa/cfbd_json_py-0.1.2.tar.gz
+[2024-04-12 02:40:34] INFO root fetch - processPackages [cfbd-json-py]: executing diffoscope
+[2024-04-12 02:40:34] INFO root fetch - processPackages [cfbd-json-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfbd_json_py-0.1.1.tar.gz tmp/cfbd_json_py-0.1.2.tar.gz --markdown 20240412/c/cfbd-json-py/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-12 02:40:34] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.7.2rc1] Old Version: [6.7.2]
+[2024-04-12 02:40:34] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/1f/62/c01c972c645b478766e41dca2464fc9c0e2f89429e5e12cee53b9f419b7a/Geode_Simplex-6.7.2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-12 02:40:35] WARNING root fetch - processPackages [aritrends]: Skipping, unable to determine old version
+[2024-04-12 02:40:35] INFO root fetch - main [MainThread]: End processing [aritrends] error
+[2024-04-12 02:40:35] INFO root fetch - processPackages [cfbd-json-py]: Remove: archive file [/home/abi/fetcher/tmp/cfbd_json_py-0.1.1.tar.gz]
+[2024-04-12 02:40:35] INFO root fetch - processPackages [cfbd-json-py]: Remove: archive file [/home/abi/fetcher/tmp/cfbd_json_py-0.1.2.tar.gz]
+[2024-04-12 02:40:35] INFO root fetch - main [MainThread]: End processing [cfbd-json-py]: success
+[2024-04-12 02:40:36] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/12/f7/2b4711c409dac5988ef89f10156983148a2a65e7a58e27944026cd7748b4/Geode_Simplex-6.7.2rc1-cp39-cp39-win_amd64.whl
+[2024-04-12 02:40:37] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.7.3rc1] Old Version: [4.7.3]
+[2024-04-12 02:40:37] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/f1/c5/35eac751cbefea5ca8c3e4fc37313171cf1ee101c78f73a196fb1378626c/Geode_Explicit-4.7.3-cp39-cp39-win_amd64.whl
+[2024-04-12 02:40:37] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-04-12 02:40:37] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.7.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Simplex-6.7.2rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240412/G/Geode-Simplex/6.7.2-6.7.2rc1/README.md --exclude *.pyd
+[2024-04-12 02:40:38] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/04/73/83b0a3a773aad2b7ba75aaeb8c67ca9bf07489e8167638469c9f6229d8f0/Geode_Explicit-4.7.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-12 02:40:38] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-04-12 02:40:38] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.7.3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.7.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240412/G/Geode-Explicit/4.7.3-4.7.3rc1/README.md --exclude *.pyd
+[2024-04-12 02:40:38] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-12 02:40:38] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 02:40:38] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-04-12 02:41:01] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 02:41:01] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 02:41:01] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-04-12 02:41:01] INFO root fetch - main [MainThread]: Store serial: [22728716]
