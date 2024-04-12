@@ -13066,3 +13066,38 @@
 [2024-04-12 05:49:09] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
 [2024-04-12 05:49:09] INFO root fetch - main [MainThread]: End processing [person-local]: success
 [2024-04-12 05:49:09] INFO root fetch - main [MainThread]: Store serial: [22732398]
+[2024-04-12 05:51:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732398]
+[2024-04-12 05:51:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 05:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: R2CCP
+[2024-04-12 05:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Montreal-Forced-Aligner
+[2024-04-12 05:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wakautosolver
+[2024-04-12 05:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vtjson
+[2024-04-12 05:51:18] INFO root fetch - processPackages [vtjson]: New version: [1.7.0] Old Version: [1.6.9]
+[2024-04-12 05:51:18] INFO root fetch - processPackages [Montreal-Forced-Aligner]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-12 05:51:18] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/63/1e/b6dbacbfdcc09ff6639380f807158d47c2f1a56a6236b42678f86307dae8/vtjson-1.6.9.tar.gz
+[2024-04-12 05:51:18] INFO root fetch - processPackages [Montreal-Forced-Aligner]: Downloading https://files.pythonhosted.org/packages/03/4d/571e161cac4698b7cd5bbebb12f85709a969548afe7eda881d1b59d268c8/Montreal_Forced_Aligner-3.0.3.tar.gz
+[2024-04-12 05:51:18] INFO root fetch - processPackages [wakautosolver]: New version: [2024.4.7] Old Version: [2024.4.6]
+[2024-04-12 05:51:18] INFO root fetch - processPackages [R2CCP]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 05:51:18] WARNING root fetch - processPackages [Montreal-Forced-Aligner]: Skipping package: exceeds size limit 19113138>=10485760
+[2024-04-12 05:51:18] INFO root fetch - main [MainThread]: End processing [Montreal-Forced-Aligner] error
+[2024-04-12 05:51:18] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/96/71/1fa4591ea5048fe3bcc4739d672f0f7f6be3b09ecdcc86f19b95e0de3621/vtjson-1.7.0.tar.gz
+[2024-04-12 05:51:18] INFO root fetch - processPackages [R2CCP]: Downloading https://files.pythonhosted.org/packages/37/5a/fbbad929594c88966bebb2fe677a3167951c21a40292869a795f232035e6/R2CCP-0.0.6.tar.gz
+[2024-04-12 05:51:18] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/99/22/8c7efc1cf82ac1d334a6550c405b8448491904c8c0cafc121831f210d077/wakautosolver-2024.4.6-py3-none-any.whl
+[2024-04-12 05:51:18] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-04-12 05:51:18] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.6.9.tar.gz tmp/vtjson-1.7.0.tar.gz --markdown 20240412/v/vtjson/1.6.9-1.7.0/README.md --exclude *.pyd
+[2024-04-12 05:51:18] INFO root fetch - processPackages [R2CCP]: Downloading https://files.pythonhosted.org/packages/0f/2e/ab602d673efe5034b21ea6dd258807d5ba0c4288d80b87e4c81ef0f96760/R2CCP-0.0.7-py3-none-any.whl
+[2024-04-12 05:51:19] INFO root fetch - processPackages [R2CCP]: executing diffoscope
+[2024-04-12 05:51:19] INFO root fetch - processPackages [R2CCP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/R2CCP-0.0.6.tar.gz tmp/R2CCP-0.0.7-py3-none-any.whl.zip --markdown 20240412/R/R2CCP/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 05:51:19] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/35/3d/399192163c27784fac55b177f065de0479eaedd1aae8e7d28afafe44113d/wakautosolver-2024.4.7-py3-none-any.whl
+[2024-04-12 05:51:19] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.6.9.tar.gz]
+[2024-04-12 05:51:19] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.7.0.tar.gz]
+[2024-04-12 05:51:19] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-04-12 05:51:19] INFO root fetch - processPackages [wakautosolver]: executing diffoscope
+[2024-04-12 05:51:19] INFO root fetch - processPackages [wakautosolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakautosolver-2024.4.6-py3-none-any.whl.zip tmp/wakautosolver-2024.4.7-py3-none-any.whl.zip --markdown 20240412/w/wakautosolver/2024.4.6-2024.4.7/README.md --exclude *.pyd
+[2024-04-12 05:51:19] INFO root fetch - processPackages [R2CCP]: Remove: archive file [/home/abi/fetcher/tmp/R2CCP-0.0.6.tar.gz]
+[2024-04-12 05:51:19] INFO root fetch - processPackages [R2CCP]: Remove: archive file [/home/abi/fetcher/tmp/R2CCP-0.0.7-py3-none-any.whl.zip]
+[2024-04-12 05:51:19] INFO root fetch - main [MainThread]: End processing [R2CCP]: success
+[2024-04-12 05:51:20] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.6-py3-none-any.whl.zip]
+[2024-04-12 05:51:20] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.7-py3-none-any.whl.zip]
+[2024-04-12 05:51:20] INFO root fetch - main [MainThread]: End processing [wakautosolver]: success
+[2024-04-12 05:51:20] INFO root fetch - main [MainThread]: Store serial: [22732408]
