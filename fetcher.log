@@ -14241,3 +14241,72 @@
 [2024-04-12 07:14:40] INFO root fetch - processPackages [nodestack]: Remove: archive file [/home/abi/fetcher/tmp/nodestack-0.0.2.tar.gz]
 [2024-04-12 07:14:40] INFO root fetch - main [MainThread]: End processing [nodestack]: success
 [2024-04-12 07:14:40] INFO root fetch - main [MainThread]: Store serial: [22732907]
+[2024-04-12 07:16:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732907]
+[2024-04-12 07:16:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 07:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-variant-sale-price
+[2024-04-12 07:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowetl
+[2024-04-12 07:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowmachine
+[2024-04-12 07:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowkit-jwt-generator
+[2024-04-12 07:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowclient
+[2024-04-12 07:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-discord-html-transcripts
+[2024-04-12 07:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: th2-grpc-act-uiframework-win-demo
+[2024-04-12 07:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yosemite
+[2024-04-12 07:16:49] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.7]
+[2024-04-12 07:16:49] WARNING root fetch - processPackages [py-discord-html-transcripts]: Skipping, unable to determine old version
+[2024-04-12 07:16:49] INFO root fetch - main [MainThread]: End processing [py-discord-html-transcripts] error
+[2024-04-12 07:16:49] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: New version: [1.3.0.dev8646715192] Old Version: [1.3.0.dev8646358572]
+[2024-04-12 07:16:49] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Downloading https://files.pythonhosted.org/packages/dc/59/ffbf3c7f9e49d7d80476fca86e455221dea30364029cfd1afe9fe4d80129/odoo_addon_product_variant_sale_price-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-12 07:16:49] INFO root fetch - processPackages [yosemite]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-12 07:16:49] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Downloading https://files.pythonhosted.org/packages/9e/b2/a576bc984a05780ccfcba12dc405c059945fa917b875c8df9b287fd11beb/th2_grpc_act_uiframework_win_demo-1.3.0.dev8646358572.tar.gz
+[2024-04-12 07:16:49] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.24.0.post0.dev5] Old Version: [1.24.0.post0.dev17]
+[2024-04-12 07:16:49] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-04-12 07:16:49] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-04-12 07:16:49] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-04-12 07:16:49] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Downloading https://files.pythonhosted.org/packages/99/7f/986cea83335054ed2d342c84eb74d7c539afa36f9db59ba1f7c592a6a08c/odoo_addon_product_variant_sale_price-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-12 07:16:49] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/7a/d3/9f2a58f7a77651451b2509af93b6660a69620873cf20ee941587386b38ce/flowkit_jwt_generator-1.24.0.post0.dev17-py3-none-any.whl
+[2024-04-12 07:16:49] INFO root fetch - processPackages [yosemite]: Downloading https://files.pythonhosted.org/packages/fb/df/668820f72fe6623dc55e904e4346f2d78f97e25b8844b10431c2461190ef/yosemite-0.1.5.tar.gz
+[2024-04-12 07:16:49] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-04-12 07:16:49] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-04-12 07:16:49] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-04-12 07:16:49] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: executing diffoscope
+[2024-04-12 07:16:49] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_sale_price-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-product-variant-sale-price/16.0.1.0.0.7-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-12 07:16:49] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Downloading https://files.pythonhosted.org/packages/52/b8/a39368e203b0fe4b810d0e4977a7611cbfe611ce050f3671f14c657f5685/th2_grpc_act_uiframework_win_demo-1.3.0.dev8646715192.tar.gz
+[2024-04-12 07:16:49] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: executing diffoscope
+[2024-04-12 07:16:49] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8646358572.tar.gz tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8646715192.tar.gz --markdown 20240412/t/th2-grpc-act-uiframework-win-demo/1.3.0.dev8646358572-1.3.0.dev8646715192/README.md --exclude *.pyd
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/40/87/854ed6ff4867ce55d5dfca6af66786665fb93391e7909de7b4b758932d90/flowkit_jwt_generator-1.24.0.post0.dev5-py3-none-any.whl
+[2024-04-12 07:16:50] INFO root fetch - processPackages [yosemite]: Downloading https://files.pythonhosted.org/packages/30/18/946b7fd25def0814d1583492b97c631c4bdd460de82c1a0709be5d983d5c/yosemite-0.1.6.tar.gz
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.24.0.post0.dev17-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.24.0.post0.dev5-py3-none-any.whl.zip --markdown 20240412/f/flowkit-jwt-generator/1.24.0.post0.dev17-1.24.0.post0.dev5/README.md --exclude *.pyd
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240412/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-04-12 07:16:50] INFO root fetch - processPackages [yosemite]: executing diffoscope
+[2024-04-12 07:16:50] INFO root fetch - processPackages [yosemite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yosemite-0.1.5.tar.gz tmp/yosemite-0.1.6.tar.gz --markdown 20240412/y/yosemite/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240412/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240412/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-04-12 07:16:50] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8646358572.tar.gz]
+[2024-04-12 07:16:50] INFO root fetch - processPackages [th2-grpc-act-uiframework-win-demo]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_uiframework_win_demo-1.3.0.dev8646715192.tar.gz]
+[2024-04-12 07:16:50] INFO root fetch - main [MainThread]: End processing [th2-grpc-act-uiframework-win-demo]: success
+[2024-04-12 07:16:50] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_sale_price-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-12 07:16:50] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-12 07:16:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-sale-price]: success
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.24.0.post0.dev17-py3-none-any.whl.zip]
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.24.0.post0.dev5-py3-none-any.whl.zip]
+[2024-04-12 07:16:50] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-04-12 07:16:50] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-04-12 07:16:50] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-04-12 07:16:51] INFO root fetch - processPackages [yosemite]: Remove: archive file [/home/abi/fetcher/tmp/yosemite-0.1.5.tar.gz]
+[2024-04-12 07:16:51] INFO root fetch - processPackages [yosemite]: Remove: archive file [/home/abi/fetcher/tmp/yosemite-0.1.6.tar.gz]
+[2024-04-12 07:16:51] INFO root fetch - main [MainThread]: End processing [yosemite]: success
+[2024-04-12 07:16:51] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-04-12 07:16:51] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-04-12 07:16:51] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-04-12 07:16:51] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-04-12 07:16:51] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-04-12 07:16:51] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-04-12 07:16:51] INFO root fetch - main [MainThread]: Store serial: [22732925]
