@@ -13193,3 +13193,68 @@
 [2024-04-12 05:56:17] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.3.6.tar.gz]
 [2024-04-12 05:56:17] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2024-04-12 05:56:17] INFO root fetch - main [MainThread]: Store serial: [22732455]
+[2024-04-12 05:58:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732455]
+[2024-04-12 05:58:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 05:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-fly
+[2024-04-12 05:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mucstpy
+[2024-04-12 05:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-tingwu20230930
+[2024-04-12 05:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-tingwu20230930-py2
+[2024-04-12 05:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyzamzar
+[2024-04-12 05:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2024-04-12 05:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-core
+[2024-04-12 05:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trinnov-altitude
+[2024-04-12 05:58:26] INFO root fetch - processPackages [mucstpy]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-12 05:58:26] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 05:58:26] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-12 05:58:26] INFO root fetch - processPackages [mucstpy]: Downloading https://files.pythonhosted.org/packages/a3/c2/492f7a71391d0805a409020fd7355badaed882d654ffbf435de664f3540e/mucstpy-1.0.5.tar.gz
+[2024-04-12 05:58:26] INFO root fetch - processPackages [pytest-fly]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-04-12 05:58:26] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-04-12 05:58:26] INFO root fetch - processPackages [alibabacloud-tingwu20230930-py2]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-04-12 05:58:26] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/e4/ad/169810413c21e2c593e82ea39ba4c92b32cca2d1928f2f133bdc2dd5774d/trinnov-altitude-0.1.8.tar.gz
+[2024-04-12 05:58:26] WARNING root fetch - processPackages [pyzamzar]: Skipping, unable to determine old version
+[2024-04-12 05:58:26] INFO root fetch - main [MainThread]: End processing [pyzamzar] error
+[2024-04-12 05:58:26] INFO root fetch - processPackages [yplib]: New version: [5.6.0] Old Version: [5.5.8]
+[2024-04-12 05:58:26] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/76/2e/d188a8568df2fbd157a92850369057419ef690d42167df73acfde0838f4e/trinnov-altitude-0.1.9.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [pytest-fly]: Downloading https://files.pythonhosted.org/packages/e7/5e/1388b780201df60ec0074a8522c712c08a42b0501e8dc42d85d49ed80794/pytest_fly-0.0.6.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Downloading https://files.pythonhosted.org/packages/0b/7b/4596ea6a8bfb0b96412b5d590f529383756bc870faea0926bb927960c075/alibabacloud_tingwu20230930-2.0.7.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [alibabacloud-tingwu20230930-py2]: Downloading https://files.pythonhosted.org/packages/6e/99/77148046945ecac410c71c4d9cfd81d7836091b4d94f865580f62c278630/alibabacloud_tingwu20230930_py2-2.0.7.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/8c/55/bc4a98f5e6c02f2319c03c7c17025498fe533c50531b0006e9f25a187f5c/yplib-5.5.8.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2024-04-12 05:58:27] WARNING root fetch - processPackages [pytest-fly]: Skipping package: exceeds size limit 35697074>=10485760
+[2024-04-12 05:58:27] INFO root fetch - main [MainThread]: End processing [pytest-fly] error
+[2024-04-12 05:58:27] INFO root fetch - processPackages [mucstpy]: Downloading https://files.pythonhosted.org/packages/39/27/9a0f235106bbf82dd95897de7df0352ae11ce05d4a6b76f2dfe5d7ea2737/mucstpy-1.0.6.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-12 05:58:27] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.8.tar.gz tmp/trinnov-altitude-0.1.9.tar.gz --markdown 20240412/t/trinnov-altitude/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 05:58:27] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2024-04-12 05:58:27] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20240412/d/dragonfly-core/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-12 05:58:27] INFO root fetch - processPackages [mucstpy]: executing diffoscope
+[2024-04-12 05:58:27] INFO root fetch - processPackages [mucstpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mucstpy-1.0.5.tar.gz tmp/mucstpy-1.0.6.tar.gz --markdown 20240412/m/mucstpy/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-12 05:58:27] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Downloading https://files.pythonhosted.org/packages/bb/20/4c82afcb063e0c038ff228c6e90ddfa9b743b76cac0d0b0a733b56fb57d7/alibabacloud_tingwu20230930-2.0.8.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/89/0d/c7ece421ad17cfe66a61946043ca1975a79c3b84e184579ff1fca5ab4d2f/yplib-5.6.0.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [alibabacloud-tingwu20230930-py2]: Downloading https://files.pythonhosted.org/packages/e9/d2/65a2b653893cdb1150197ea9e507014b857820bde7e85f4d936726e079fb/alibabacloud_tingwu20230930_py2-2.0.8.tar.gz
+[2024-04-12 05:58:27] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: executing diffoscope
+[2024-04-12 05:58:27] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tingwu20230930-2.0.7.tar.gz tmp/alibabacloud_tingwu20230930-2.0.8.tar.gz --markdown 20240412/a/alibabacloud-tingwu20230930/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-04-12 05:58:27] INFO root fetch - processPackages [alibabacloud-tingwu20230930-py2]: executing diffoscope
+[2024-04-12 05:58:27] INFO root fetch - processPackages [alibabacloud-tingwu20230930-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tingwu20230930_py2-2.0.7.tar.gz tmp/alibabacloud_tingwu20230930_py2-2.0.8.tar.gz --markdown 20240412/a/alibabacloud-tingwu20230930-py2/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-04-12 05:58:27] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-04-12 05:58:27] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.5.8.tar.gz tmp/yplib-5.6.0.tar.gz --markdown 20240412/y/yplib/5.5.8-5.6.0/README.md --exclude *.pyd
+[2024-04-12 05:58:27] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.8.tar.gz]
+[2024-04-12 05:58:27] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.9.tar.gz]
+[2024-04-12 05:58:27] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-12 05:58:28] INFO root fetch - processPackages [mucstpy]: Remove: archive file [/home/abi/fetcher/tmp/mucstpy-1.0.5.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - processPackages [mucstpy]: Remove: archive file [/home/abi/fetcher/tmp/mucstpy-1.0.6.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - main [MainThread]: End processing [mucstpy]: success
+[2024-04-12 05:58:28] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2024-04-12 05:58:28] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.5.8.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.0.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-04-12 05:58:28] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tingwu20230930-2.0.7.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tingwu20230930-2.0.8.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-tingwu20230930]: success
+[2024-04-12 05:58:28] INFO root fetch - processPackages [alibabacloud-tingwu20230930-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tingwu20230930_py2-2.0.7.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - processPackages [alibabacloud-tingwu20230930-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tingwu20230930_py2-2.0.8.tar.gz]
+[2024-04-12 05:58:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-tingwu20230930-py2]: success
+[2024-04-12 05:58:28] INFO root fetch - main [MainThread]: Store serial: [22732483]
