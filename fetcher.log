@@ -16176,3 +16176,78 @@
 [2024-04-12 09:00:26] INFO root fetch - processPackages [fast-dev-cli]: Remove: archive file [/home/abi/fetcher/tmp/fast_dev_cli-0.6.5.tar.gz]
 [2024-04-12 09:00:26] INFO root fetch - main [MainThread]: End processing [fast-dev-cli]: success
 [2024-04-12 09:00:26] INFO root fetch - main [MainThread]: Store serial: [22733730]
+[2024-04-12 09:02:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733730]
+[2024-04-12 09:02:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 09:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcmds
+[2024-04-12 09:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adi-notebook
+[2024-04-12 09:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-models-nightly
+[2024-04-12 09:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xiaoranli
+[2024-04-12 09:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nurikit
+[2024-04-12 09:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2024-04-12 09:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-htmx
+[2024-04-12 09:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: logrepl
+[2024-04-12 09:02:36] INFO root fetch - processPackages [adi-notebook]: New version: [1.0.0a1] Old Version: [0.2.0]
+[2024-04-12 09:02:36] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-12 09:02:36] INFO root fetch - processPackages [logrepl]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-12 09:02:36] INFO root fetch - processPackages [nurikit]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2024-04-12 09:02:36] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-12 09:02:36] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-12 09:02:36] INFO root fetch - processPackages [fastapi-htmx]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-12 09:02:36] INFO root fetch - processPackages [xiaoranli]: New version: [0.7.8] Old Version: [0.7.21]
+[2024-04-12 09:02:36] INFO root fetch - processPackages [adi-notebook]: Downloading https://files.pythonhosted.org/packages/ce/44/1995f0695b43781122b99e16301da54b49edf60707f5aa6a688e1b7332ab/adi_notebook-0.2.0-py3-none-manylinux1_x86_64.whl
+[2024-04-12 09:02:36] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2024-04-12 09:02:36] INFO root fetch - processPackages [logrepl]: Downloading https://files.pythonhosted.org/packages/54/0a/d7e9d1114b04702335283e9fda21edc7069c8026eeaf15e647703e4f64f9/logrepl-0.2.4.tar.gz
+[2024-04-12 09:02:36] INFO root fetch - processPackages [nurikit]: Downloading https://files.pythonhosted.org/packages/63/32/ddc03ab2aadb0e09f136f979afe935eb639964de8a21e6ef5321996da69f/nurikit-0.1.0a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 09:02:36] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-12 09:02:36] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-12 09:02:36] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/57/2a/8ce43177a5d280f74cdab66c16041f025b61364c1372081d96d8aa0035b8/xiaoranli-0.7.21-py3-none-any.whl
+[2024-04-12 09:02:36] INFO root fetch - processPackages [fastapi-htmx]: Downloading https://files.pythonhosted.org/packages/c3/1d/566c7c12b1d94bc92bef40e0767cf0ec35b67ad0b8286ab61f1b44d81e13/fastapi_htmx-0.4.1.tar.gz
+[2024-04-12 09:02:36] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-04-12 09:02:36] INFO root fetch - processPackages [adi-notebook]: Downloading https://files.pythonhosted.org/packages/d3/4e/c2c00e6a8c656b9a8cd3a5164c276502812a8a2d8a93c466cc68bc632611/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl
+[2024-04-12 09:02:36] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-12 09:02:36] INFO root fetch - processPackages [logrepl]: Downloading https://files.pythonhosted.org/packages/d9/6b/9d14e3c6c43826071edf5a593a6d7d1b47b8d2f1e09d28a78302db8c1fea/logrepl-0.2.5.tar.gz
+[2024-04-12 09:02:36] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-04-12 09:02:36] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240412/z/zcmds/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-12 09:02:36] INFO root fetch - processPackages [adi-notebook]: executing diffoscope
+[2024-04-12 09:02:36] INFO root fetch - processPackages [adi-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adi_notebook-0.2.0-py3-none-manylinux1_x86_64.whl.zip tmp/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl.zip --markdown 20240412/a/adi-notebook/0.2.0-1.0.0a1/README.md --exclude *.pyd
+[2024-04-12 09:02:36] INFO root fetch - processPackages [nurikit]: Downloading https://files.pythonhosted.org/packages/2a/88/ba7a72392d31f31249f18d096fe7da8354027aec2f11f169dda902558e4b/nurikit-0.1.0a3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 09:02:36] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-12 09:02:36] INFO root fetch - processPackages [logrepl]: executing diffoscope
+[2024-04-12 09:02:36] INFO root fetch - processPackages [logrepl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logrepl-0.2.4.tar.gz tmp/logrepl-0.2.5.tar.gz --markdown 20240412/l/logrepl/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-12 09:02:36] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-12 09:02:36] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240412/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-04-12 09:02:36] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/e9/5b/e43b6250e9f8891fffdc1165cb4f968bb072984d6dfa0c333957416e2092/xiaoranli-0.7.8-py3-none-any.whl
+[2024-04-12 09:02:36] INFO root fetch - processPackages [fastapi-htmx]: Downloading https://files.pythonhosted.org/packages/6d/35/1c581ce6ea7cfa42e0bef305aab244d01f45b889ae157cac5a43d5d93e39/fastapi_htmx-0.4.2.tar.gz
+[2024-04-12 09:02:36] INFO root fetch - processPackages [nurikit]: executing diffoscope
+[2024-04-12 09:02:36] INFO root fetch - processPackages [nurikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nurikit-0.1.0a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nurikit-0.1.0a3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240412/n/nurikit/0.1.0a2-0.1.0a3/README.md --exclude *.pyd
+[2024-04-12 09:02:37] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-12 09:02:37] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240412/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-04-12 09:02:37] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2024-04-12 09:02:37] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-0.7.21-py3-none-any.whl.zip tmp/xiaoranli-0.7.8-py3-none-any.whl.zip --markdown 20240412/x/xiaoranli/0.7.21-0.7.8/README.md --exclude *.pyd
+[2024-04-12 09:02:37] INFO root fetch - processPackages [fastapi-htmx]: executing diffoscope
+[2024-04-12 09:02:37] INFO root fetch - processPackages [fastapi-htmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_htmx-0.4.1.tar.gz tmp/fastapi_htmx-0.4.2.tar.gz --markdown 20240412/f/fastapi-htmx/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-12 09:02:37] INFO root fetch - processPackages [adi-notebook]: Remove: archive file [/home/abi/fetcher/tmp/adi_notebook-0.2.0-py3-none-manylinux1_x86_64.whl.zip]
+[2024-04-12 09:02:37] INFO root fetch - processPackages [adi-notebook]: Remove: archive file [/home/abi/fetcher/tmp/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl.zip]
+[2024-04-12 09:02:37] INFO root fetch - main [MainThread]: End processing [adi-notebook]: success
+[2024-04-12 09:02:37] INFO root fetch - processPackages [logrepl]: Remove: archive file [/home/abi/fetcher/tmp/logrepl-0.2.4.tar.gz]
+[2024-04-12 09:02:37] INFO root fetch - processPackages [logrepl]: Remove: archive file [/home/abi/fetcher/tmp/logrepl-0.2.5.tar.gz]
+[2024-04-12 09:02:37] INFO root fetch - main [MainThread]: End processing [logrepl]: success
+[2024-04-12 09:02:37] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2024-04-12 09:02:37] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-04-12 09:02:37] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-04-12 09:02:37] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-12 09:02:37] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-12 09:02:37] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-12 09:02:37] INFO root fetch - processPackages [fastapi-htmx]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_htmx-0.4.1.tar.gz]
+[2024-04-12 09:02:37] INFO root fetch - processPackages [fastapi-htmx]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_htmx-0.4.2.tar.gz]
+[2024-04-12 09:02:37] INFO root fetch - main [MainThread]: End processing [fastapi-htmx]: success
+[2024-04-12 09:02:38] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.21-py3-none-any.whl.zip]
+[2024-04-12 09:02:38] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
+[2024-04-12 09:02:38] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2024-04-12 09:02:40] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-12 09:02:40] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-12 09:02:40] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-12 09:02:49] INFO root fetch - processPackages [nurikit]: Remove: archive file [/home/abi/fetcher/tmp/nurikit-0.1.0a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 09:02:49] INFO root fetch - processPackages [nurikit]: Remove: archive file [/home/abi/fetcher/tmp/nurikit-0.1.0a3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 09:02:49] INFO root fetch - main [MainThread]: End processing [nurikit]: success
+[2024-04-12 09:02:49] INFO root fetch - main [MainThread]: Store serial: [22733756]
