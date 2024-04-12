@@ -19373,3 +19373,144 @@
 [2024-04-12 11:04:45] INFO root fetch - processPackages [OSBModelValidation]: Remove: archive file [/home/abi/fetcher/tmp/OSBModelValidation-0.2.19.tar.gz]
 [2024-04-12 11:04:45] INFO root fetch - main [MainThread]: End processing [OSBModelValidation]: success
 [2024-04-12 11:04:45] INFO root fetch - main [MainThread]: Store serial: [22735353]
+[2024-04-12 11:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735353]
+[2024-04-12 11:06:54] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.core
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-elaboration
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m3-rest-gar
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.features
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.tabular
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyarithmeticlib
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrubino
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-move-packaging-qty
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.multimodal
+[2024-04-12 11:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.timeseries
+[2024-04-12 11:06:55] INFO root fetch - processPackages [pyrubino]: New version: [1.5.1] Old Version: [1.3.1]
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.0b20240411] Old Version: [1.1.0b20240410]
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.0b20240411] Old Version: [1.1.0b20240410]
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.0b20240411] Old Version: [1.1.0b20240410]
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.0b20240411] Old Version: [1.1.0b20240410]
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.0b20240411] Old Version: [1.1.0b20240410]
+[2024-04-12 11:06:55] WARNING root fetch - processPackages [pyarithmeticlib]: Skipping, unable to determine old version
+[2024-04-12 11:06:55] INFO root fetch - processPackages [pyarithmeticlib]: Start processing: spark-dataframe-tools
+[2024-04-12 11:06:55] INFO root fetch - main [MainThread]: End processing [pyarithmeticlib] error
+[2024-04-12 11:06:55] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1.2]
+[2024-04-12 11:06:55] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.1]
+[2024-04-12 11:06:55] INFO root fetch - processPackages [pyrubino]: Downloading https://files.pythonhosted.org/packages/a3/90/eaad49ee6cb9bd87c9446c50b170402e5d068fd14ca909d281fcc04a17f2/pyrubino-1.3.1.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [m3-rest-gar]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/89/db/1d486c92d9ca04d6da2f1ac704647df159390813dd9a792bdc0f7e4afc05/autogluon.multimodal-1.1.0b20240410.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/95/15/4b135b7cfac7f9304296bc63d7854f76249cb989c481cd07da33492c6f42/autogluon.features-1.1.0b20240410.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/8b/1b/be1aff68a6b68322bd6d051158589604eaf7eaaedf013a6f58f7726c8a5c/autogluon.tabular-1.1.0b20240410.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/24/92/36e7e83cb5031954f0108879edcc77ca7df28a80aff5a07b5e98534077de/autogluon.timeseries-1.1.0b20240410.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/93/1f/bc4c2153aea25a23ba27b1741f36fba7b71c5953e0f687c34aede4162c4e/autogluon.core-1.1.0b20240410.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [spark-dataframe-tools]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-12 11:06:55] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Downloading https://files.pythonhosted.org/packages/79/b9/0dae83cfafe62a22e5093355e25704966a5c76a659756fa18e71b427f81a/odoo_addon_stock_move_packaging_qty-16.0.1.1.1.2-py3-none-any.whl
+[2024-04-12 11:06:55] INFO root fetch - processPackages [m3-rest-gar]: Downloading https://files.pythonhosted.org/packages/a8/17/19ca8b968dfd80e2cec08e2130011d0492dd462cefbd6aad886c64129937/m3-rest-gar-1.0.8.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/2e/8f/a421035b52fb854599373d06c853cff4738de5cf696cb4ed10394ea18f26/odoo_addon_sale_elaboration-16.0.1.2.1-py3-none-any.whl
+[2024-04-12 11:06:55] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/60/ec/9377115fcc66470a9dc3df54c0e67633f0e822a5cc552f64fc53c09ceaeb/spark_dataframe_tools-0.6.5.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/ae/aa/ae68ace214628d5ebce24fc02053b43a0d72cf6cbb6795185103bb8611ee/autogluon.timeseries-1.1.0b20240411.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/1f/58/712828ac16f64043aa2757e4e55dbcccda34b822af8875ced09bd8fd5eb0/autogluon.features-1.1.0b20240411.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [pyrubino]: Downloading https://files.pythonhosted.org/packages/e8/b5/f07c983890cddbf6fb4fc51370b972b8d27fbd33596f9ece7829f966c7eb/pyrubino-1.5.1.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Downloading https://files.pythonhosted.org/packages/0b/54/a8f4654ed0afe6b8164ba026f1353013fe3dc1e82f060235f5880083d051/odoo_addon_stock_move_packaging_qty-16.0.1.2.0-py3-none-any.whl
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/b6/1e/78b127747f3c351f4625eadcd04d61a1ebd8bc8643398f299149ce4834dd/autogluon.core-1.1.0b20240411.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/50/62/418b53e70d454725ee392756f075a83d091bb0215c343093b892ee4176ac/autogluon.tabular-1.1.0b20240411.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/6b/54/9ce0ced8924d63bf6605da7a283bd1cbc435998c4906956d6a0b4542c8b7/autogluon.multimodal-1.1.0b20240411.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.0b20240410.tar.gz tmp/autogluon.timeseries-1.1.0b20240411.tar.gz --markdown 20240412/a/autogluon.timeseries/1.1.0b20240410-1.1.0b20240411/README.md --exclude *.pyd
+[2024-04-12 11:06:55] INFO root fetch - processPackages [pyrubino]: executing diffoscope
+[2024-04-12 11:06:55] INFO root fetch - processPackages [pyrubino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubino-1.3.1.tar.gz tmp/pyrubino-1.5.1.tar.gz --markdown 20240412/p/pyrubino/1.3.1-1.5.1/README.md --exclude *.pyd
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.0b20240410.tar.gz tmp/autogluon.features-1.1.0b20240411.tar.gz --markdown 20240412/a/autogluon.features/1.1.0b20240410-1.1.0b20240411/README.md --exclude *.pyd
+[2024-04-12 11:06:55] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: executing diffoscope
+[2024-04-12 11:06:55] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_packaging_qty-16.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_stock_move_packaging_qty-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-stock-move-packaging-qty/16.0.1.1.1.2-16.0.1.2.0/README.md --exclude *.pyd
+[2024-04-12 11:06:55] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/9c/a4/61d72759547e06350dc139119f6bc3bbb5aaf8e14dfa0a23e021a7a159f2/odoo_addon_sale_elaboration-16.0.1.3.0-py3-none-any.whl
+[2024-04-12 11:06:55] INFO root fetch - processPackages [m3-rest-gar]: Downloading https://files.pythonhosted.org/packages/ea/28/12e1e01bb4987eb6a317abdb1ae0cfb49df25c5fa387bf34f9b166b1eaba/m3-rest-gar-1.0.9.tar.gz
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.0b20240410.tar.gz tmp/autogluon.core-1.1.0b20240411.tar.gz --markdown 20240412/a/autogluon.core/1.1.0b20240410-1.1.0b20240411/README.md --exclude *.pyd
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.0b20240410.tar.gz tmp/autogluon.tabular-1.1.0b20240411.tar.gz --markdown 20240412/a/autogluon.tabular/1.1.0b20240410-1.1.0b20240411/README.md --exclude *.pyd
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-12 11:06:55] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.0b20240410.tar.gz tmp/autogluon.multimodal-1.1.0b20240411.tar.gz --markdown 20240412/a/autogluon.multimodal/1.1.0b20240410-1.1.0b20240411/README.md --exclude *.pyd
+[2024-04-12 11:06:55] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/71/07/619680bb86db87442881c51d3502c3f70d0ec5d2cdf472be33ca906c8d18/spark_dataframe_tools-0.6.6.tar.gz
+[2024-04-12 11:06:56] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: executing diffoscope
+[2024-04-12 11:06:56] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_elaboration-16.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_sale_elaboration-16.0.1.3.0-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-sale-elaboration/16.0.1.2.1-16.0.1.3.0/README.md --exclude *.pyd
+[2024-04-12 11:06:56] INFO root fetch - processPackages [m3-rest-gar]: executing diffoscope
+[2024-04-12 11:06:56] INFO root fetch - processPackages [m3-rest-gar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-rest-gar-1.0.8.tar.gz tmp/m3-rest-gar-1.0.9.tar.gz --markdown 20240412/m/m3-rest-gar/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 11:06:56] INFO root fetch - processPackages [spark-dataframe-tools]: executing diffoscope
+[2024-04-12 11:06:56] INFO root fetch - processPackages [spark-dataframe-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dataframe_tools-0.6.5.tar.gz tmp/spark_dataframe_tools-0.6.6.tar.gz --markdown 20240412/s/spark-dataframe-tools/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-12 11:06:56] INFO root fetch - processPackages [pyrubino]: Remove: archive file [/home/abi/fetcher/tmp/pyrubino-1.3.1.tar.gz]
+[2024-04-12 11:06:56] INFO root fetch - processPackages [pyrubino]: Remove: archive file [/home/abi/fetcher/tmp/pyrubino-1.5.1.tar.gz]
+[2024-04-12 11:06:56] INFO root fetch - processPackages [pyrubino]: Start processing: scraperapi-sdk
+[2024-04-12 11:06:56] INFO root fetch - main [MainThread]: End processing [pyrubino]: success
+[2024-04-12 11:06:56] INFO root fetch - processPackages [scraperapi-sdk]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-12 11:06:56] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240410.tar.gz]
+[2024-04-12 11:06:56] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240411.tar.gz]
+[2024-04-12 11:06:56] INFO root fetch - processPackages [autogluon.features]: Start processing: autogluon
+[2024-04-12 11:06:56] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-12 11:06:56] INFO root fetch - processPackages [autogluon]: New version: [1.1.0b20240411] Old Version: [1.1.0b20240410]
+[2024-04-12 11:06:56] INFO root fetch - processPackages [scraperapi-sdk]: Downloading https://files.pythonhosted.org/packages/bc/0f/f490ef761d3ca5cf6aaa77d001934f84ebdcfe5cd695f40ff4e23e1cd0cd/scraperapi_sdk-1.4.0.tar.gz
+[2024-04-12 11:06:56] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_packaging_qty-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2024-04-12 11:06:56] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_packaging_qty-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-12 11:06:56] INFO root fetch - processPackages [odoo-addon-stock-move-packaging-qty]: Start processing: ops-py-azure-key-vault-alert
+[2024-04-12 11:06:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-packaging-qty]: success
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/f4/5c/4f882d615847f3a97ab12f848b0706116b77d974aaad0703f33783fc414c/autogluon-1.1.0b20240410.tar.gz
+[2024-04-12 11:06:57] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: New version: [4.3.0] Old Version: [4.2.0]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240410.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240411.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: rabe-cridlib
+[2024-04-12 11:06:57] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-12 11:06:57] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.2.1-py3-none-any.whl.zip]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/73/92/3fb6ca8f2d58457360d991d60ec23ccbfc069f773db4a919c862f6969f88/ops-py-azure-key-vault-alert-4.2.0.tar.gz
+[2024-04-12 11:06:57] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Start processing: radioplayer-dataclasses
+[2024-04-12 11:06:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
+[2024-04-12 11:06:57] INFO root fetch - processPackages [scraperapi-sdk]: Downloading https://files.pythonhosted.org/packages/40/3e/ac147991817606901ced82b6ea36a50c081af02658351158f88b161eaed9/scraperapi_sdk-1.5.0.tar.gz
+[2024-04-12 11:06:57] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.6.5.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.6.6.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - main [MainThread]: End processing [spark-dataframe-tools]: success
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240410.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240411.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-12 11:06:57] INFO root fetch - processPackages [rabe-cridlib]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [m3-rest-gar]: Remove: archive file [/home/abi/fetcher/tmp/m3-rest-gar-1.0.8.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [m3-rest-gar]: Remove: archive file [/home/abi/fetcher/tmp/m3-rest-gar-1.0.9.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - main [MainThread]: End processing [m3-rest-gar]: success
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240410.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240411.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-12 11:06:57] INFO root fetch - processPackages [scraperapi-sdk]: executing diffoscope
+[2024-04-12 11:06:57] INFO root fetch - processPackages [scraperapi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraperapi_sdk-1.4.0.tar.gz tmp/scraperapi_sdk-1.5.0.tar.gz --markdown 20240412/s/scraperapi-sdk/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-12 11:06:57] INFO root fetch - processPackages [radioplayer-dataclasses]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/fd/8d/9e1ba2486833c4cf67e61583938824d186b17385b90e1dcf686751d196d1/autogluon-1.1.0b20240411.tar.gz
+[2024-04-12 11:06:57] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/3e/f7/9b9a41d71273d9b198c95d552f6cd57a05a3ec65d83713f0de4c71b40eb1/ops-py-azure-key-vault-alert-4.3.0.tar.gz
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240410.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240411.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-12 11:06:57] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.0b20240410.tar.gz tmp/autogluon-1.1.0b20240411.tar.gz --markdown 20240412/a/autogluon/1.1.0b20240410-1.1.0b20240411/README.md --exclude *.pyd
+[2024-04-12 11:06:57] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/a7/18/ed0fc17b87961f68e107cc40ce8d5dfe01408796304c8c581209cac8f168/rabe_cridlib-0.8.0.tar.gz
+[2024-04-12 11:06:57] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: executing diffoscope
+[2024-04-12 11:06:57] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-py-azure-key-vault-alert-4.2.0.tar.gz tmp/ops-py-azure-key-vault-alert-4.3.0.tar.gz --markdown 20240412/o/ops-py-azure-key-vault-alert/4.2.0-4.3.0/README.md --exclude *.pyd
+[2024-04-12 11:06:57] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/7b/a5/3ad51d515e16c27aef90aa1f742fa7cca98a2272bcaa1fa0c322e610b348/radioplayer_dataclasses-0.5.8.tar.gz
+[2024-04-12 11:06:57] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/e5/62/6970ce467b68609211ca982a9b28abe5ac5604a5ee1bec7a6726f07ee106/rabe_cridlib-0.9.0.tar.gz
+[2024-04-12 11:06:57] INFO root fetch - processPackages [scraperapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scraperapi_sdk-1.4.0.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - processPackages [scraperapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scraperapi_sdk-1.5.0.tar.gz]
+[2024-04-12 11:06:57] INFO root fetch - main [MainThread]: End processing [scraperapi-sdk]: success
+[2024-04-12 11:06:57] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/91/2c/663f46f67354c57ab93815d279d0a24b474cc5cbd2e055062810a8a40fd5/radioplayer_dataclasses-0.5.9.tar.gz
+[2024-04-12 11:06:57] INFO root fetch - processPackages [rabe-cridlib]: executing diffoscope
+[2024-04-12 11:06:57] INFO root fetch - processPackages [rabe-cridlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabe_cridlib-0.8.0.tar.gz tmp/rabe_cridlib-0.9.0.tar.gz --markdown 20240412/r/rabe-cridlib/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-12 11:06:58] INFO root fetch - processPackages [radioplayer-dataclasses]: executing diffoscope
+[2024-04-12 11:06:58] INFO root fetch - processPackages [radioplayer-dataclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radioplayer_dataclasses-0.5.8.tar.gz tmp/radioplayer_dataclasses-0.5.9.tar.gz --markdown 20240412/r/radioplayer-dataclasses/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-12 11:06:58] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops-py-azure-key-vault-alert-4.2.0.tar.gz]
+[2024-04-12 11:06:58] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops-py-azure-key-vault-alert-4.3.0.tar.gz]
+[2024-04-12 11:06:58] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-alert]: success
+[2024-04-12 11:06:58] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240410.tar.gz]
+[2024-04-12 11:06:58] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240411.tar.gz]
+[2024-04-12 11:06:58] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-12 11:06:58] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.5.8.tar.gz]
+[2024-04-12 11:06:58] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.5.9.tar.gz]
+[2024-04-12 11:06:58] INFO root fetch - main [MainThread]: End processing [radioplayer-dataclasses]: success
+[2024-04-12 11:06:58] INFO root fetch - processPackages [rabe-cridlib]: Remove: archive file [/home/abi/fetcher/tmp/rabe_cridlib-0.8.0.tar.gz]
+[2024-04-12 11:06:58] INFO root fetch - processPackages [rabe-cridlib]: Remove: archive file [/home/abi/fetcher/tmp/rabe_cridlib-0.9.0.tar.gz]
+[2024-04-12 11:06:58] INFO root fetch - main [MainThread]: End processing [rabe-cridlib]: success
+[2024-04-12 11:06:58] INFO root fetch - main [MainThread]: Store serial: [22735406]
