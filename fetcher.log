@@ -14118,3 +14118,45 @@
 [2024-04-12 07:08:05] INFO root fetch - processPackages [cs.progress]: Remove: archive file [/home/abi/fetcher/tmp/cs.progress-20240412.tar.gz]
 [2024-04-12 07:08:05] INFO root fetch - main [MainThread]: End processing [cs.progress]: success
 [2024-04-12 07:08:05] INFO root fetch - main [MainThread]: Store serial: [22732862]
+[2024-04-12 07:10:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732862]
+[2024-04-12 07:10:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 07:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monterey
+[2024-04-12 07:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fnschool
+[2024-04-12 07:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PheTK
+[2024-04-12 07:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs.buffer
+[2024-04-12 07:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unstract-adapters
+[2024-04-12 07:10:15] WARNING root fetch - processPackages [monterey]: Skipping, unable to determine old version
+[2024-04-12 07:10:15] INFO root fetch - main [MainThread]: End processing [monterey] error
+[2024-04-12 07:10:15] INFO root fetch - processPackages [fnschool]: New version: [20240411.800.36] Old Version: [20240411.1847.33]
+[2024-04-12 07:10:15] INFO root fetch - processPackages [cs.buffer]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 07:10:15] INFO root fetch - processPackages [PheTK]: New version: [0.1.38] Old Version: [0.1.37]
+[2024-04-12 07:10:15] INFO root fetch - processPackages [unstract-adapters]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-12 07:10:15] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/6b/14/04cf63aa1869640668c655af9cdacb1e432ef286dce136138ed003a0f85f/fnschool-20240411.1847.33.tar.gz
+[2024-04-12 07:10:15] INFO root fetch - processPackages [PheTK]: Downloading https://files.pythonhosted.org/packages/40/8d/398d7b0373ca2304f685af6bb1464aeb05068886f910c05c24ef2b1bbedd/PheTK-0.1.37.tar.gz
+[2024-04-12 07:10:15] INFO root fetch - processPackages [cs.buffer]: Downloading https://files.pythonhosted.org/packages/a9/e6/70f3083223f5dd70ae13a7ff3e049c33d2da07b02d7278cef604e744eb21/cs.buffer-20240316.tar.gz
+[2024-04-12 07:10:15] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/34/1e/b333e46a167fb6afb1b57a5c6e373447a3a907ebe7af4ec6aec6852e7250/unstract_adapters-0.8.1.tar.gz
+[2024-04-12 07:10:15] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/77/3a/7c285b84bf6cde81d80afe59268501405bf39af17c2a5a32bcfb323946b1/fnschool-20240411.800.36.tar.gz
+[2024-04-12 07:10:15] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-04-12 07:10:15] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240411.1847.33.tar.gz tmp/fnschool-20240411.800.36.tar.gz --markdown 20240412/f/fnschool/20240411.1847.33-20240411.800.36/README.md --exclude *.pyd
+[2024-04-12 07:10:15] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e8/8e/065b97ce989e6044404e38526e7f56617c4721e67eb13b24e0b64270bd97/unstract_adapters-0.9.0.tar.gz
+[2024-04-12 07:10:16] INFO root fetch - processPackages [cs.buffer]: Downloading https://files.pythonhosted.org/packages/2a/e3/b965cd9e092cea85831c1762c1c5dcc524936fafa3ad0c84006ddd198ccf/cs.buffer-20240412.tar.gz
+[2024-04-12 07:10:16] INFO root fetch - processPackages [PheTK]: Downloading https://files.pythonhosted.org/packages/d6/ba/5d70a1860a1dec77d35c8111077e653b21093b57dd14ca050f74b584414c/PheTK-0.1.38.tar.gz
+[2024-04-12 07:10:16] INFO root fetch - processPackages [cs.buffer]: executing diffoscope
+[2024-04-12 07:10:16] INFO root fetch - processPackages [cs.buffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.buffer-20240316.tar.gz tmp/cs.buffer-20240412.tar.gz --markdown 20240412/c/cs.buffer/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 07:10:16] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-04-12 07:10:16] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.8.1.tar.gz tmp/unstract_adapters-0.9.0.tar.gz --markdown 20240412/u/unstract-adapters/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-12 07:10:16] INFO root fetch - processPackages [PheTK]: executing diffoscope
+[2024-04-12 07:10:16] INFO root fetch - processPackages [PheTK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PheTK-0.1.37.tar.gz tmp/PheTK-0.1.38.tar.gz --markdown 20240412/P/PheTK/0.1.37-0.1.38/README.md --exclude *.pyd
+[2024-04-12 07:10:16] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.1847.33.tar.gz]
+[2024-04-12 07:10:16] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240411.800.36.tar.gz]
+[2024-04-12 07:10:16] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-04-12 07:10:16] INFO root fetch - processPackages [cs.buffer]: Remove: archive file [/home/abi/fetcher/tmp/cs.buffer-20240316.tar.gz]
+[2024-04-12 07:10:16] INFO root fetch - processPackages [cs.buffer]: Remove: archive file [/home/abi/fetcher/tmp/cs.buffer-20240412.tar.gz]
+[2024-04-12 07:10:16] INFO root fetch - main [MainThread]: End processing [cs.buffer]: success
+[2024-04-12 07:10:16] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.8.1.tar.gz]
+[2024-04-12 07:10:16] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.0.tar.gz]
+[2024-04-12 07:10:16] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-04-12 07:10:18] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.37.tar.gz]
+[2024-04-12 07:10:18] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.38.tar.gz]
+[2024-04-12 07:10:18] INFO root fetch - main [MainThread]: End processing [PheTK]: success
+[2024-04-12 07:10:18] INFO root fetch - main [MainThread]: Store serial: [22732878]
