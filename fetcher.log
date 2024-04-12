@@ -18119,3 +18119,65 @@
 [2024-04-12 10:20:54] INFO root fetch - processPackages [config2py]: Remove: archive file [/home/abi/fetcher/tmp/config2py-0.1.9.tar.gz]
 [2024-04-12 10:20:54] INFO root fetch - main [MainThread]: End processing [config2py]: success
 [2024-04-12 10:20:54] INFO root fetch - main [MainThread]: Store serial: [22734761]
+[2024-04-12 10:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734761]
+[2024-04-12 10:23:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: log21
+[2024-04-12 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuneapi
+[2024-04-12 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uitestrunner-syberos
+[2024-04-12 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: github-webhook-server
+[2024-04-12 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-dataframe-tools
+[2024-04-12 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataset-tools
+[2024-04-12 10:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fenix
+[2024-04-12 10:23:04] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 10:23:04] INFO root fetch - processPackages [uitestrunner-syberos]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-12 10:23:04] INFO root fetch - processPackages [github-webhook-server]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 10:23:04] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [spark-dataframe-tools]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-12 10:23:04] INFO root fetch - processPackages [log21]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-12 10:23:04] INFO root fetch - processPackages [tuneapi]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-12 10:23:04] INFO root fetch - processPackages [uitestrunner-syberos]: Downloading https://files.pythonhosted.org/packages/03/05/6ab13a28b142c8c7533c339634795f00ae31f2b93adeeefd416232b457aa/uitestrunner_syberos-2.2.2.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/ec/2a/88c2ec73233d7a316a421bd6c844153c808af2f516c54af787827a91425f/spark_dataframe_tools-0.6.3.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [github-webhook-server]: Downloading https://files.pythonhosted.org/packages/c0/56/cbab23c1ea2749d68d60c632e7929ca52c454aa52c5dc3fb32ac65b94db9/github_webhook_server-1.0.8.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [fenix]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-12 10:23:04] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/42/bd/9aa764a059ea4b8c6aba277405661ee5480458500a7122c887511b4c579c/tuneapi-0.2.7.tar.gz
+[2024-04-12 10:23:04] WARNING root fetch - processPackages [uitestrunner-syberos]: Skipping package: exceeds size limit 65616732>=10485760
+[2024-04-12 10:23:04] INFO root fetch - main [MainThread]: End processing [uitestrunner-syberos] error
+[2024-04-12 10:23:04] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/31/91/538faca933fa45324cbe838dc83f4ea9dfdc220260235ccc4ca946f97e15/log21-2.9.1.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-12 10:23:04] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240412/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 10:23:04] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/33/61/90c590e8bafc6fd5b1e0be74a8032bf359c7cbdcde2638fb221d9a697fdf/spark_dataframe_tools-0.6.4.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/a6/88/5ef59def8c943c55ada8e5f66507b4c652ca008e0d9ba777acbe09fa52b2/tuneapi-0.2.8.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [spark-dataframe-tools]: executing diffoscope
+[2024-04-12 10:23:04] INFO root fetch - processPackages [spark-dataframe-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dataframe_tools-0.6.3.tar.gz tmp/spark_dataframe_tools-0.6.4.tar.gz --markdown 20240412/s/spark-dataframe-tools/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-12 10:23:04] INFO root fetch - processPackages [fenix]: Downloading https://files.pythonhosted.org/packages/da/d5/77afea1fd2df1c09b845bc5831a4a590f62dc3b694fb553e42fba3084743/fenix-1.0.4.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [github-webhook-server]: Downloading https://files.pythonhosted.org/packages/d8/e5/6af680dbe8cc52383de6fd1b59cc6f4255b6801fe51655bd031999867ecf/github_webhook_server-1.0.9.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [tuneapi]: executing diffoscope
+[2024-04-12 10:23:04] INFO root fetch - processPackages [tuneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneapi-0.2.7.tar.gz tmp/tuneapi-0.2.8.tar.gz --markdown 20240412/t/tuneapi/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-12 10:23:04] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/cc/b4/cba9781abc9bddb78db24cd326404891f5859d8b40b358824ca7f4f25257/log21-2.9.2.tar.gz
+[2024-04-12 10:23:04] INFO root fetch - processPackages [github-webhook-server]: executing diffoscope
+[2024-04-12 10:23:04] INFO root fetch - processPackages [github-webhook-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_webhook_server-1.0.8.tar.gz tmp/github_webhook_server-1.0.9.tar.gz --markdown 20240412/g/github-webhook-server/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 10:23:05] INFO root fetch - processPackages [log21]: executing diffoscope
+[2024-04-12 10:23:05] INFO root fetch - processPackages [log21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log21-2.9.1.tar.gz tmp/log21-2.9.2.tar.gz --markdown 20240412/l/log21/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-12 10:23:05] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-12 10:23:05] INFO root fetch - processPackages [fenix]: Downloading https://files.pythonhosted.org/packages/87/b7/82b60127ea0610ed38b9b69d6ce97f8672ec3aa181e71a1adfeb576377da/fenix-1.0.5.tar.gz
+[2024-04-12 10:23:05] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.6.3.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.6.4.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - main [MainThread]: End processing [spark-dataframe-tools]: success
+[2024-04-12 10:23:05] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.2.7.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.2.8.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - main [MainThread]: End processing [tuneapi]: success
+[2024-04-12 10:23:05] INFO root fetch - processPackages [fenix]: executing diffoscope
+[2024-04-12 10:23:05] INFO root fetch - processPackages [fenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenix-1.0.4.tar.gz tmp/fenix-1.0.5.tar.gz --markdown 20240412/f/fenix/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-12 10:23:05] INFO root fetch - processPackages [github-webhook-server]: Remove: archive file [/home/abi/fetcher/tmp/github_webhook_server-1.0.8.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - processPackages [github-webhook-server]: Remove: archive file [/home/abi/fetcher/tmp/github_webhook_server-1.0.9.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - main [MainThread]: End processing [github-webhook-server]: success
+[2024-04-12 10:23:05] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.9.1.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.9.2.tar.gz]
+[2024-04-12 10:23:05] INFO root fetch - main [MainThread]: End processing [log21]: success
+[2024-04-12 10:23:06] INFO root fetch - processPackages [fenix]: Remove: archive file [/home/abi/fetcher/tmp/fenix-1.0.4.tar.gz]
+[2024-04-12 10:23:06] INFO root fetch - processPackages [fenix]: Remove: archive file [/home/abi/fetcher/tmp/fenix-1.0.5.tar.gz]
+[2024-04-12 10:23:06] INFO root fetch - main [MainThread]: End processing [fenix]: success
+[2024-04-12 10:23:06] INFO root fetch - main [MainThread]: Store serial: [22734780]
