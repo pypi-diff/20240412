@@ -12250,3 +12250,42 @@
 [2024-04-12 05:03:42] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-04-12 05:03:42] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-04-12 05:03:42] INFO root fetch - main [MainThread]: Store serial: [22732073]
+[2024-04-12 05:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732073]
+[2024-04-12 05:05:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 05:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte
+[2024-04-12 05:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poc-tool
+[2024-04-12 05:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-cdc
+[2024-04-12 05:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansar-connect
+[2024-04-12 05:05:52] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.137] Old Version: [0.1.136]
+[2024-04-12 05:05:52] INFO root fetch - processPackages [airbyte]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-12 05:05:52] INFO root fetch - processPackages [core-cdc]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-12 05:05:52] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/9b/74/ba74b9f0cfda50626a33c68cc743edc4b48f3d0dc48897b29cee9f9b53ea/ansar-connect-0.1.136.tar.gz
+[2024-04-12 05:05:52] INFO root fetch - processPackages [poc-tool]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-12 05:05:52] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/9c/15/0ed18f9974b025648515fd61318dbe0f600528ec50091886c43ef6af06b4/airbyte-0.8.4.tar.gz
+[2024-04-12 05:05:52] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/71/80/4c4ad193a8d49435ccc902d68585a81e19a3b30e1515e048857e05057bc9/ansar-connect-0.1.137.tar.gz
+[2024-04-12 05:05:52] INFO root fetch - processPackages [poc-tool]: Downloading https://files.pythonhosted.org/packages/ed/40/b767549db7698edf9650eddcf1985532d1009d3df30682320deedcdc994a/poc_tool-1.2.0.tar.gz
+[2024-04-12 05:05:52] INFO root fetch - processPackages [core-cdc]: Downloading https://files.pythonhosted.org/packages/03/28/543a634288a97c9ce5d064f52f8fe20d7acc2f9c5ca3c33baa9a4faaccb9/core-cdc-1.0.4.tar.gz
+[2024-04-12 05:05:52] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-12 05:05:52] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-connect-0.1.136.tar.gz tmp/ansar-connect-0.1.137.tar.gz --markdown 20240412/a/ansar-connect/0.1.136-0.1.137/README.md --exclude *.pyd
+[2024-04-12 05:05:53] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/06/cf/9fefa13386840a9fe89e98d160db3058aca5c16b50a0fbcc248f1728cc9d/airbyte-0.9.0.tar.gz
+[2024-04-12 05:05:53] INFO root fetch - processPackages [poc-tool]: Downloading https://files.pythonhosted.org/packages/e9/eb/a0f939ec3c6c1fad0a22cad46f4af16ee43971d88629d8bd9d5ebe052bc7/poc_tool-1.2.1.tar.gz
+[2024-04-12 05:05:53] INFO root fetch - processPackages [core-cdc]: Downloading https://files.pythonhosted.org/packages/6d/f1/c32d3ff65dcefd605cba831e5d44f2eef675e40f0426a7233777baeed227/core-cdc-1.0.5.tar.gz
+[2024-04-12 05:05:53] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2024-04-12 05:05:53] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-0.8.4.tar.gz tmp/airbyte-0.9.0.tar.gz --markdown 20240412/a/airbyte/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-12 05:05:53] INFO root fetch - processPackages [poc-tool]: executing diffoscope
+[2024-04-12 05:05:53] INFO root fetch - processPackages [poc-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poc_tool-1.2.0.tar.gz tmp/poc_tool-1.2.1.tar.gz --markdown 20240412/p/poc-tool/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-12 05:05:53] INFO root fetch - processPackages [core-cdc]: executing diffoscope
+[2024-04-12 05:05:53] INFO root fetch - processPackages [core-cdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-cdc-1.0.4.tar.gz tmp/core-cdc-1.0.5.tar.gz --markdown 20240412/c/core-cdc/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-12 05:05:53] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.136.tar.gz]
+[2024-04-12 05:05:53] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.137.tar.gz]
+[2024-04-12 05:05:53] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-12 05:05:53] INFO root fetch - processPackages [poc-tool]: Remove: archive file [/home/abi/fetcher/tmp/poc_tool-1.2.0.tar.gz]
+[2024-04-12 05:05:53] INFO root fetch - processPackages [poc-tool]: Remove: archive file [/home/abi/fetcher/tmp/poc_tool-1.2.1.tar.gz]
+[2024-04-12 05:05:53] INFO root fetch - main [MainThread]: End processing [poc-tool]: success
+[2024-04-12 05:05:53] INFO root fetch - processPackages [core-cdc]: Remove: archive file [/home/abi/fetcher/tmp/core-cdc-1.0.4.tar.gz]
+[2024-04-12 05:05:53] INFO root fetch - processPackages [core-cdc]: Remove: archive file [/home/abi/fetcher/tmp/core-cdc-1.0.5.tar.gz]
+[2024-04-12 05:05:53] INFO root fetch - main [MainThread]: End processing [core-cdc]: success
+[2024-04-12 05:05:53] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.4.tar.gz]
+[2024-04-12 05:05:53] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.9.0.tar.gz]
+[2024-04-12 05:05:53] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2024-04-12 05:05:53] INFO root fetch - main [MainThread]: Store serial: [22732085]
