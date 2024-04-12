@@ -15134,3 +15134,33 @@
 [2024-04-12 08:01:57] INFO root fetch - processPackages [renum]: Remove: archive file [/home/abi/fetcher/tmp/renum-0.0.1a1.tar.gz]
 [2024-04-12 08:01:57] INFO root fetch - main [MainThread]: End processing [renum]: success
 [2024-04-12 08:01:57] INFO root fetch - main [MainThread]: Store serial: [22733281]
+[2024-04-12 08:04:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733281]
+[2024-04-12 08:04:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 08:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goto-conversion
+[2024-04-12 08:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mxcubeweb
+[2024-04-12 08:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paaster
+[2024-04-12 08:04:07] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-12 08:04:07] INFO root fetch - processPackages [paaster]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-12 08:04:07] INFO root fetch - processPackages [goto-conversion]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-12 08:04:07] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-04-12 08:04:08] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/55/fd/85a58b7167c609a879d42929a1bb6eb3fbf42171f5aed5de5b4b4ede5be7/paaster-1.1.8.tar.gz
+[2024-04-12 08:04:08] INFO root fetch - processPackages [goto-conversion]: Downloading https://files.pythonhosted.org/packages/95/91/ed8dd2fb4e2d0f623cf733e59ddf589c840f58d3d8f6e09c6fa0839a5132/goto_conversion-0.1.1.tar.gz
+[2024-04-12 08:04:08] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-04-12 08:04:08] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-04-12 08:04:08] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240412/m/mxcubeweb/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-12 08:04:08] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/42/a6/a7cd20397267ae0ea7a89f3fa19fabeaf39eb6de877d08ba432681207d21/paaster-1.1.9.tar.gz
+[2024-04-12 08:04:08] INFO root fetch - processPackages [goto-conversion]: Downloading https://files.pythonhosted.org/packages/48/03/e9304844c98450346b40e27b087dbcf0c99af703e95c438ec71fe56b9932/goto_conversion-0.2.0.tar.gz
+[2024-04-12 08:04:08] INFO root fetch - processPackages [paaster]: executing diffoscope
+[2024-04-12 08:04:08] INFO root fetch - processPackages [paaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paaster-1.1.8.tar.gz tmp/paaster-1.1.9.tar.gz --markdown 20240412/p/paaster/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-12 08:04:08] INFO root fetch - processPackages [goto-conversion]: executing diffoscope
+[2024-04-12 08:04:08] INFO root fetch - processPackages [goto-conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goto_conversion-0.1.1.tar.gz tmp/goto_conversion-0.2.0.tar.gz --markdown 20240412/g/goto-conversion/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-12 08:04:09] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-04-12 08:04:09] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-04-12 08:04:09] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-04-12 08:04:09] INFO root fetch - processPackages [goto-conversion]: Remove: archive file [/home/abi/fetcher/tmp/goto_conversion-0.1.1.tar.gz]
+[2024-04-12 08:04:09] INFO root fetch - processPackages [goto-conversion]: Remove: archive file [/home/abi/fetcher/tmp/goto_conversion-0.2.0.tar.gz]
+[2024-04-12 08:04:09] INFO root fetch - main [MainThread]: End processing [goto-conversion]: success
+[2024-04-12 08:04:09] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.1.8.tar.gz]
+[2024-04-12 08:04:09] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.1.9.tar.gz]
+[2024-04-12 08:04:09] INFO root fetch - main [MainThread]: End processing [paaster]: success
+[2024-04-12 08:04:09] INFO root fetch - main [MainThread]: Store serial: [22733290]
