@@ -17277,3 +17277,50 @@
 [2024-04-12 09:47:43] INFO root fetch - processPackages [httpx-oauth]: Remove: archive file [/home/abi/fetcher/tmp/httpx-oauth-0.9.1.tar.gz]
 [2024-04-12 09:47:43] INFO root fetch - main [MainThread]: End processing [httpx-oauth]: success
 [2024-04-12 09:47:43] INFO root fetch - main [MainThread]: Store serial: [22734337]
+[2024-04-12 09:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734337]
+[2024-04-12 09:49:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 09:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES
+[2024-04-12 09:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caustic.lexer
+[2024-04-12 09:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-backblaze-b2
+[2024-04-12 09:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secator
+[2024-04-12 09:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stTransfer
+[2024-04-12 09:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybotx
+[2024-04-12 09:49:52] INFO root fetch - processPackages [stTransfer]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 09:49:53] INFO root fetch - processPackages [secator]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 09:49:53] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/e7/3d/6f32e797c5da76df593dd4645c178ceed0ef6593567c851a1c276320ca39/stTransfer-1.0.8.tar.gz
+[2024-04-12 09:49:53] INFO root fetch - processPackages [django-backblaze-b2]: New version: [6.0.0] Old Version: [5.1.0]
+[2024-04-12 09:49:53] INFO root fetch - processPackages [secator]: Downloading https://files.pythonhosted.org/packages/b8/77/ed674e7187a19711f376a6ec42df3cfb78f977db75e6dcedc268317c666b/secator-0.3.0.tar.gz
+[2024-04-12 09:49:53] INFO root fetch - processPackages [pybotx]: New version: [0.66.0] Old Version: [0.65.0]
+[2024-04-12 09:49:53] WARNING root fetch - processPackages [caustic.lexer]: Skipping, unable to determine old version
+[2024-04-12 09:49:53] INFO root fetch - main [MainThread]: End processing [caustic.lexer] error
+[2024-04-12 09:49:53] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-12 09:49:53] WARNING root fetch - processPackages [secator]: Skipping package: exceeds size limit 23068187>=10485760
+[2024-04-12 09:49:53] INFO root fetch - main [MainThread]: End processing [secator] error
+[2024-04-12 09:49:53] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/06/e1/7a2741ec44d36964ac0dca6f2a0f8e10cdb21ff31f764c5aa6a6603a5cfb/django_backblaze_b2-5.1.0.tar.gz
+[2024-04-12 09:49:53] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-04-12 09:49:53] INFO root fetch - processPackages [stTransfer]: Downloading https://files.pythonhosted.org/packages/a7/be/74161372cc083a46becbdc8ae9f3be2847446f6360d09831ac56762291c7/stTransfer-1.0.9.tar.gz
+[2024-04-12 09:49:53] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/16/3c/a6c38a3dfe424d3357eec3d61c0064d854b13405ed9618f1b0ce3b354674/pybotx-0.65.0.tar.gz
+[2024-04-12 09:49:53] INFO root fetch - processPackages [stTransfer]: executing diffoscope
+[2024-04-12 09:49:53] INFO root fetch - processPackages [stTransfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stTransfer-1.0.8.tar.gz tmp/stTransfer-1.0.9.tar.gz --markdown 20240412/s/stTransfer/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 09:49:53] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-04-12 09:49:53] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/46/ab/76e71c7a3fdb744ca649695bb9f4679e45dc14c3bbf69f8cb0352ee586ed/django_backblaze_b2-6.0.0.tar.gz
+[2024-04-12 09:49:53] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/ee/b2/68df4a5ba02307576b293d7a9c4ee0c3db2fa0a03549cb430c01ecef284c/pybotx-0.66.0.tar.gz
+[2024-04-12 09:49:53] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-04-12 09:49:53] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240412/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-12 09:49:53] INFO root fetch - processPackages [django-backblaze-b2]: executing diffoscope
+[2024-04-12 09:49:53] INFO root fetch - processPackages [django-backblaze-b2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_backblaze_b2-5.1.0.tar.gz tmp/django_backblaze_b2-6.0.0.tar.gz --markdown 20240412/d/django-backblaze-b2/5.1.0-6.0.0/README.md --exclude *.pyd
+[2024-04-12 09:49:53] INFO root fetch - processPackages [pybotx]: executing diffoscope
+[2024-04-12 09:49:53] INFO root fetch - processPackages [pybotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx-0.65.0.tar.gz tmp/pybotx-0.66.0.tar.gz --markdown 20240412/p/pybotx/0.65.0-0.66.0/README.md --exclude *.pyd
+[2024-04-12 09:49:54] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.8.tar.gz]
+[2024-04-12 09:49:54] INFO root fetch - processPackages [stTransfer]: Remove: archive file [/home/abi/fetcher/tmp/stTransfer-1.0.9.tar.gz]
+[2024-04-12 09:49:54] INFO root fetch - main [MainThread]: End processing [stTransfer]: success
+[2024-04-12 09:49:54] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-5.1.0.tar.gz]
+[2024-04-12 09:49:54] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-6.0.0.tar.gz]
+[2024-04-12 09:49:54] INFO root fetch - main [MainThread]: End processing [django-backblaze-b2]: success
+[2024-04-12 09:49:54] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-04-12 09:49:54] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-04-12 09:49:54] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-04-12 09:49:54] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.65.0.tar.gz]
+[2024-04-12 09:49:54] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.66.0.tar.gz]
+[2024-04-12 09:49:54] INFO root fetch - main [MainThread]: End processing [pybotx]: success
+[2024-04-12 09:49:54] INFO root fetch - main [MainThread]: Store serial: [22734356]
