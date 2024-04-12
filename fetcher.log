@@ -16005,3 +16005,74 @@
 [2024-04-12 08:51:38] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
 [2024-04-12 08:51:38] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
 [2024-04-12 08:51:38] INFO root fetch - main [MainThread]: Store serial: [22733644]
+[2024-04-12 08:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733644]
+[2024-04-12 08:53:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 08:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpboost
+[2024-04-12 08:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-04-12 08:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tulona
+[2024-04-12 08:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magpylib
+[2024-04-12 08:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agit
+[2024-04-12 08:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-analytics-simple
+[2024-04-12 08:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoai-libs
+[2024-04-12 08:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-snippets
+[2024-04-12 08:53:47] INFO root fetch - processPackages [django-analytics-simple]: New version: [2024.0.4] Old Version: [2024.0.3]
+[2024-04-12 08:53:47] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-12 08:53:47] INFO root fetch - processPackages [django-analytics-simple]: Downloading https://files.pythonhosted.org/packages/55/34/a6f27deb31036416315f512822829eb7c03287c914a0ceb5b1fe35b6e5cf/django_analytics_simple-2024.0.3.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [python-snippets]: New version: [0.0.6] Old Version: [0.0.42]
+[2024-04-12 08:53:47] INFO root fetch - processPackages [tulona]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-12 08:53:47] INFO root fetch - processPackages [magpylib]: New version: [5.0.1] Old Version: [5.0.0rc0]
+[2024-04-12 08:53:47] INFO root fetch - processPackages [agit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 08:53:47] INFO root fetch - processPackages [autoai-libs]: New version: [2.0.0] Old Version: [1.17.2]
+[2024-04-12 08:53:47] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-12 08:53:47] WARNING root fetch - processPackages [django-analytics-simple]: Skipping package: exceeds size limit 25921224>=10485760
+[2024-04-12 08:53:47] INFO root fetch - main [MainThread]: End processing [django-analytics-simple] error
+[2024-04-12 08:53:47] INFO root fetch - processPackages [gpboost]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-04-12 08:53:47] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/cb/a2/07682a52aa7f439ec3170d718eec53059cdfcd16a70b67c96847536a1e9e/tulona-0.3.3.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/47/e5/12ceb6a1e8eb31d6bf57b1c4fe223e5362a840274611f34e73852dea6ce8/python-snippets-0.0.42.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [autoai-libs]: Downloading https://files.pythonhosted.org/packages/76/de/a0cb988eaaa3df20d9b2d85e0a37169fedce94adc4fe7399acd60bcef427/autoai_libs-1.17.2-125-cp310-cp310-win_amd64.whl
+[2024-04-12 08:53:47] INFO root fetch - processPackages [magpylib]: Downloading https://files.pythonhosted.org/packages/4b/f6/6dee3483fe023933482547e91eb31e13a4410ee355871919f54734128008/magpylib-5.0.0rc0.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/8e/35/84e9bd83f61584d50d2835f5305579d1de65e01385e73fb4b7ce38c3eaea/agit-0.1.8.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [gpboost]: Downloading https://files.pythonhosted.org/packages/0a/f4/8ab038be5d58ce969a032bb9189e643f58123dc0ddb384f786bbb5a1502d/gpboost-1.3.3.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/44/45/db29622a426dbb7208914b6d483a4d75d24cb78706e0265f058c95d78a88/tulona-0.4.0.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-12 08:53:47] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240412/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-12 08:53:47] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/f6/c3/913b89642369dc97ecc362717e8cc63904613fbd509b670ce64e809ffc7a/python-snippets-0.0.6.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [agit]: Downloading https://files.pythonhosted.org/packages/60/33/b2bf26349fba7328d66c4a5b6fd237c552d1830b8eff1e2aa7cf9aab1d1f/agit-0.1.9.tar.gz
+[2024-04-12 08:53:47] INFO root fetch - processPackages [tulona]: executing diffoscope
+[2024-04-12 08:53:47] INFO root fetch - processPackages [tulona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulona-0.3.3.tar.gz tmp/tulona-0.4.0.tar.gz --markdown 20240412/t/tulona/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-04-12 08:53:47] INFO root fetch - processPackages [python-snippets]: executing diffoscope
+[2024-04-12 08:53:47] INFO root fetch - processPackages [python-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-snippets-0.0.42.tar.gz tmp/python-snippets-0.0.6.tar.gz --markdown 20240412/p/python-snippets/0.0.42-0.0.6/README.md --exclude *.pyd
+[2024-04-12 08:53:47] INFO root fetch - processPackages [agit]: executing diffoscope
+[2024-04-12 08:53:47] INFO root fetch - processPackages [agit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agit-0.1.8.tar.gz tmp/agit-0.1.9.tar.gz --markdown 20240412/a/agit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 08:53:48] INFO root fetch - processPackages [autoai-libs]: Downloading https://files.pythonhosted.org/packages/1a/80/076edc3e4b68834ffeb929779d8ed1abf65877bcfacec31b5e63364a4ef0/autoai_libs-2.0.0-134-cp311-cp311-win_amd64.whl
+[2024-04-12 08:53:48] INFO root fetch - processPackages [gpboost]: Downloading https://files.pythonhosted.org/packages/76/8d/eb3c3751ab9fb7974e1b51e13ac3c23993e03838d0208cbb1d6942e0254d/gpboost-1.4.0.tar.gz
+[2024-04-12 08:53:48] INFO root fetch - processPackages [gpboost]: executing diffoscope
+[2024-04-12 08:53:48] INFO root fetch - processPackages [gpboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpboost-1.3.3.tar.gz tmp/gpboost-1.4.0.tar.gz --markdown 20240412/g/gpboost/1.3.3-1.4.0/README.md --exclude *.pyd
+[2024-04-12 08:53:48] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.42.tar.gz]
+[2024-04-12 08:53:48] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.6.tar.gz]
+[2024-04-12 08:53:48] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
+[2024-04-12 08:53:48] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.8.tar.gz]
+[2024-04-12 08:53:48] INFO root fetch - processPackages [agit]: Remove: archive file [/home/abi/fetcher/tmp/agit-0.1.9.tar.gz]
+[2024-04-12 08:53:48] INFO root fetch - main [MainThread]: End processing [agit]: success
+[2024-04-12 08:53:48] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.3.3.tar.gz]
+[2024-04-12 08:53:48] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.4.0.tar.gz]
+[2024-04-12 08:53:48] INFO root fetch - main [MainThread]: End processing [tulona]: success
+[2024-04-12 08:53:48] INFO root fetch - processPackages [autoai-libs]: executing diffoscope
+[2024-04-12 08:53:48] INFO root fetch - processPackages [autoai-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoai_libs-1.17.2-125-cp310-cp310-win_amd64.whl.zip tmp/autoai_libs-2.0.0-134-cp311-cp311-win_amd64.whl.zip --markdown 20240412/a/autoai-libs/1.17.2-2.0.0/README.md --exclude *.pyd
+[2024-04-12 08:53:49] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-12 08:53:49] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-12 08:53:49] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-12 08:53:49] INFO root fetch - processPackages [autoai-libs]: Remove: archive file [/home/abi/fetcher/tmp/autoai_libs-1.17.2-125-cp310-cp310-win_amd64.whl.zip]
+[2024-04-12 08:53:49] INFO root fetch - processPackages [autoai-libs]: Remove: archive file [/home/abi/fetcher/tmp/autoai_libs-2.0.0-134-cp311-cp311-win_amd64.whl.zip]
+[2024-04-12 08:53:49] INFO root fetch - main [MainThread]: End processing [autoai-libs]: success
+[2024-04-12 08:53:49] INFO root fetch - processPackages [magpylib]: Downloading https://files.pythonhosted.org/packages/19/d3/8603a7392382bcc8927443281adcd8292318598c8889084f85acbc4a2ddb/magpylib-5.0.1.tar.gz
+[2024-04-12 08:53:51] INFO root fetch - processPackages [magpylib]: executing diffoscope
+[2024-04-12 08:53:51] INFO root fetch - processPackages [magpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magpylib-5.0.0rc0.tar.gz tmp/magpylib-5.0.1.tar.gz --markdown 20240412/m/magpylib/5.0.0rc0-5.0.1/README.md --exclude *.pyd
+[2024-04-12 08:53:52] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.3.3.tar.gz]
+[2024-04-12 08:53:52] INFO root fetch - processPackages [gpboost]: Remove: archive file [/home/abi/fetcher/tmp/gpboost-1.4.0.tar.gz]
+[2024-04-12 08:53:52] INFO root fetch - main [MainThread]: End processing [gpboost]: success
+[2024-04-12 08:53:53] INFO root fetch - processPackages [magpylib]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-5.0.0rc0.tar.gz]
+[2024-04-12 08:53:53] INFO root fetch - processPackages [magpylib]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-5.0.1.tar.gz]
+[2024-04-12 08:53:53] INFO root fetch - main [MainThread]: End processing [magpylib]: success
+[2024-04-12 08:53:53] INFO root fetch - main [MainThread]: Store serial: [22733683]
