@@ -14702,3 +14702,51 @@
 [2024-04-12 07:39:22] INFO root fetch - processPackages [atom-tools]: Remove: archive file [/home/abi/fetcher/tmp/atom-tools-0.5.4.tar.gz]
 [2024-04-12 07:39:22] INFO root fetch - main [MainThread]: End processing [atom-tools]: success
 [2024-04-12 07:39:22] INFO root fetch - main [MainThread]: Store serial: [22733111]
+[2024-04-12 07:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733111]
+[2024-04-12 07:41:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 07:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lineartest
+[2024-04-12 07:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memodules
+[2024-04-12 07:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clustutils4r
+[2024-04-12 07:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monterey
+[2024-04-12 07:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PytorchWildlife
+[2024-04-12 07:41:31] INFO root fetch - processPackages [clustutils4r]: New version: [1.0.0] Old Version: [0.0.8]
+[2024-04-12 07:41:31] INFO root fetch - processPackages [monterey]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-12 07:41:31] INFO root fetch - processPackages [lineartest]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-12 07:41:31] INFO root fetch - processPackages [memodules]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-04-12 07:41:31] INFO root fetch - processPackages [PytorchWildlife]: New version: [1.0.2.9.1] Old Version: [1.0.2.9]
+[2024-04-12 07:41:31] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/7a/0f/eb56423b75579c0e02dd3b609c2708cc0ba74031006335d26eca2fea3667/clustutils4r-0.0.8.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/64/62/38e2a3e60a47f091a9c1a3ff9f2be8ee36df0d77cb0e0dcd83e63e6ace3e/monterey-0.0.4.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/70/f7/94629f15fc733b065077ac01037a905da3370eaad20ad116aeaa05993bb1/lineartest-0.4.0.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/e7/cb/3a89fd670dc291f283a9781aae53e7311daed30b68a66bca3a8148310265/PytorchWildlife-1.0.2.9.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/e0/20/20a7f4a55290879aed1d431cc614f59d403ef9b245063537eb26c050517c/memodules-5.9.1.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/2e/3a/bb963a3b66ed782a993c7b97c2c6f9d44cfc93db123f809e158059e39948/clustutils4r-1.0.0.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [clustutils4r]: executing diffoscope
+[2024-04-12 07:41:32] INFO root fetch - processPackages [clustutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustutils4r-0.0.8.tar.gz tmp/clustutils4r-1.0.0.tar.gz --markdown 20240412/c/clustutils4r/0.0.8-1.0.0/README.md --exclude *.pyd
+[2024-04-12 07:41:32] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/4a/95/b0212233a6b41b3387b3adce3e548ead72d8391b86e9a84046e8d5ab73f3/monterey-0.0.5.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/8a/37/5af8f1069874e974edb3b1a72c79c94aaf50c7c4ee35e527772d5203115e/lineartest-0.4.1.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/63/82/dbeed959a88b9286b70da422706e4329e55e15a53429938ff4e13a88c559/memodules-5.9.2.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/b9/82/e763c6f2a9813750f43d8971aa0efa565b868d6dcf0b19642234c73cc488/PytorchWildlife-1.0.2.9.1.tar.gz
+[2024-04-12 07:41:32] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 07:41:32] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.4.tar.gz tmp/monterey-0.0.5.tar.gz --markdown 20240412/m/monterey/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-12 07:41:32] INFO root fetch - processPackages [lineartest]: executing diffoscope
+[2024-04-12 07:41:32] INFO root fetch - processPackages [lineartest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineartest-0.4.0.tar.gz tmp/lineartest-0.4.1.tar.gz --markdown 20240412/l/lineartest/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-12 07:41:32] INFO root fetch - processPackages [memodules]: executing diffoscope
+[2024-04-12 07:41:32] INFO root fetch - processPackages [memodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memodules-5.9.1.tar.gz tmp/memodules-5.9.2.tar.gz --markdown 20240412/m/memodules/5.9.1-5.9.2/README.md --exclude *.pyd
+[2024-04-12 07:41:32] INFO root fetch - processPackages [PytorchWildlife]: executing diffoscope
+[2024-04-12 07:41:32] INFO root fetch - processPackages [PytorchWildlife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PytorchWildlife-1.0.2.9.tar.gz tmp/PytorchWildlife-1.0.2.9.1.tar.gz --markdown 20240412/P/PytorchWildlife/1.0.2.9-1.0.2.9.1/README.md --exclude *.pyd
+[2024-04-12 07:41:32] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-0.0.8.tar.gz]
+[2024-04-12 07:41:32] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-1.0.0.tar.gz]
+[2024-04-12 07:41:33] INFO root fetch - main [MainThread]: End processing [clustutils4r]: success
+[2024-04-12 07:41:33] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.4.tar.gz]
+[2024-04-12 07:41:33] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.5.tar.gz]
+[2024-04-12 07:41:33] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 07:41:33] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.4.0.tar.gz]
+[2024-04-12 07:41:33] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.4.1.tar.gz]
+[2024-04-12 07:41:33] INFO root fetch - main [MainThread]: End processing [lineartest]: success
+[2024-04-12 07:41:33] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.9.1.tar.gz]
+[2024-04-12 07:41:33] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.9.2.tar.gz]
+[2024-04-12 07:41:33] INFO root fetch - main [MainThread]: End processing [memodules]: success
+[2024-04-12 07:41:33] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.tar.gz]
+[2024-04-12 07:41:33] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.1.tar.gz]
+[2024-04-12 07:41:33] INFO root fetch - main [MainThread]: End processing [PytorchWildlife]: success
+[2024-04-12 07:41:33] INFO root fetch - main [MainThread]: Store serial: [22733122]
