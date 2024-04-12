@@ -18303,3 +18303,59 @@
 [2024-04-12 10:27:39] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.7.0.tar.gz]
 [2024-04-12 10:27:39] INFO root fetch - main [MainThread]: End processing [ssb-dash-components]: success
 [2024-04-12 10:27:39] INFO root fetch - main [MainThread]: Store serial: [22734844]
+[2024-04-12 10:29:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734844]
+[2024-04-12 10:29:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 10:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rhino3dm
+[2024-04-12 10:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Teras
+[2024-04-12 10:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gotrackit
+[2024-04-12 10:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyleco
+[2024-04-12 10:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FastAPI-JSONAPI
+[2024-04-12 10:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RS2024
+[2024-04-12 10:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spark-dataframe-tools
+[2024-04-12 10:29:47] WARNING root fetch - processPackages [RS2024]: Skipping, unable to determine old version
+[2024-04-12 10:29:47] INFO root fetch - main [MainThread]: End processing [RS2024] error
+[2024-04-12 10:29:48] INFO root fetch - processPackages [spark-dataframe-tools]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-12 10:29:48] INFO root fetch - processPackages [Teras]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 10:29:48] INFO root fetch - processPackages [pyleco]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 10:29:48] INFO root fetch - processPackages [gotrackit]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-12 10:29:48] INFO root fetch - processPackages [FastAPI-JSONAPI]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-04-12 10:29:48] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/ec/2a/88c2ec73233d7a316a421bd6c844153c808af2f516c54af787827a91425f/spark_dataframe_tools-0.6.3.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [rhino3dm]: New version: [8.6.0b1] Old Version: [8.6.0b0]
+[2024-04-12 10:29:48] INFO root fetch - processPackages [Teras]: Downloading https://files.pythonhosted.org/packages/68/3e/9b7d30a63a0b359498717cb4e32bb48a2d2dd26329ec0c062bf5fa9e9bb8/Teras-0.3.0.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [gotrackit]: Downloading https://files.pythonhosted.org/packages/84/fb/62ddfb1616795d5f87a460bd7c3d71816c7c4878d0e8c54a358d75210f98/gotrackit-0.1.9.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [pyleco]: Downloading https://files.pythonhosted.org/packages/ae/d7/a7f7fd1a13e34f407dec70b04d9a491a62249fe7ba1428d2ba86d85d1436/pyleco-0.3.0.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [FastAPI-JSONAPI]: Downloading https://files.pythonhosted.org/packages/fd/0e/b82eb65d6c427e8d839e722edd4a0ee4448afcc88d70fd18b6f3b93e00e9/fastapi_jsonapi-2.6.0.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/33/61/90c590e8bafc6fd5b1e0be74a8032bf359c7cbdcde2638fb221d9a697fdf/spark_dataframe_tools-0.6.4.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [rhino3dm]: Downloading https://files.pythonhosted.org/packages/f2/71/18d5345061575193c21b0efc41ea771f3fe37fc9bf2440ee8e2a141d4756/rhino3dm-8.6.0b0.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [spark-dataframe-tools]: executing diffoscope
+[2024-04-12 10:29:48] INFO root fetch - processPackages [spark-dataframe-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dataframe_tools-0.6.3.tar.gz tmp/spark_dataframe_tools-0.6.4.tar.gz --markdown 20240412/s/spark-dataframe-tools/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-12 10:29:48] WARNING root fetch - processPackages [rhino3dm]: Skipping package: exceeds size limit 66022374>=10485760
+[2024-04-12 10:29:48] INFO root fetch - main [MainThread]: End processing [rhino3dm] error
+[2024-04-12 10:29:48] INFO root fetch - processPackages [Teras]: Downloading https://files.pythonhosted.org/packages/d3/54/0e7ee7a26783456daab53ca9da1319ee2e76dc1ae0f95be6c5e15157db01/Teras-0.3.1.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [FastAPI-JSONAPI]: Downloading https://files.pythonhosted.org/packages/31/38/d1fd06d0c4bbc4b8724322c3089abd55ff0ee39a67eba3a2e75b6eaa82d3/fastapi_jsonapi-2.7.0.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [pyleco]: Downloading https://files.pythonhosted.org/packages/23/d0/9321f780da730ee3afaedd737493e05a6a857d7d7900a2c07e36ab6a4c68/pyleco-0.3.1.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [gotrackit]: Downloading https://files.pythonhosted.org/packages/fe/1b/044970d3f8cc53019375c8a02e79f7fbd719a1b19e5edf5e4235b2d4cedf/gotrackit-0.2.0.tar.gz
+[2024-04-12 10:29:48] INFO root fetch - processPackages [Teras]: executing diffoscope
+[2024-04-12 10:29:48] INFO root fetch - processPackages [Teras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Teras-0.3.0.tar.gz tmp/Teras-0.3.1.tar.gz --markdown 20240412/T/Teras/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-12 10:29:48] INFO root fetch - processPackages [gotrackit]: executing diffoscope
+[2024-04-12 10:29:48] INFO root fetch - processPackages [gotrackit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotrackit-0.1.9.tar.gz tmp/gotrackit-0.2.0.tar.gz --markdown 20240412/g/gotrackit/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-12 10:29:48] INFO root fetch - processPackages [FastAPI-JSONAPI]: executing diffoscope
+[2024-04-12 10:29:48] INFO root fetch - processPackages [FastAPI-JSONAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_jsonapi-2.6.0.tar.gz tmp/fastapi_jsonapi-2.7.0.tar.gz --markdown 20240412/F/FastAPI-JSONAPI/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-04-12 10:29:48] INFO root fetch - processPackages [pyleco]: executing diffoscope
+[2024-04-12 10:29:48] INFO root fetch - processPackages [pyleco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyleco-0.3.0.tar.gz tmp/pyleco-0.3.1.tar.gz --markdown 20240412/p/pyleco/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-12 10:29:49] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.6.3.tar.gz]
+[2024-04-12 10:29:49] INFO root fetch - processPackages [spark-dataframe-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dataframe_tools-0.6.4.tar.gz]
+[2024-04-12 10:29:49] INFO root fetch - main [MainThread]: End processing [spark-dataframe-tools]: success
+[2024-04-12 10:29:49] INFO root fetch - processPackages [FastAPI-JSONAPI]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_jsonapi-2.6.0.tar.gz]
+[2024-04-12 10:29:49] INFO root fetch - processPackages [FastAPI-JSONAPI]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_jsonapi-2.7.0.tar.gz]
+[2024-04-12 10:29:49] INFO root fetch - main [MainThread]: End processing [FastAPI-JSONAPI]: success
+[2024-04-12 10:29:49] INFO root fetch - processPackages [pyleco]: Remove: archive file [/home/abi/fetcher/tmp/pyleco-0.3.0.tar.gz]
+[2024-04-12 10:29:49] INFO root fetch - processPackages [pyleco]: Remove: archive file [/home/abi/fetcher/tmp/pyleco-0.3.1.tar.gz]
+[2024-04-12 10:29:49] INFO root fetch - main [MainThread]: End processing [pyleco]: success
+[2024-04-12 10:29:49] INFO root fetch - processPackages [gotrackit]: Remove: archive file [/home/abi/fetcher/tmp/gotrackit-0.1.9.tar.gz]
+[2024-04-12 10:29:49] INFO root fetch - processPackages [gotrackit]: Remove: archive file [/home/abi/fetcher/tmp/gotrackit-0.2.0.tar.gz]
+[2024-04-12 10:29:49] INFO root fetch - main [MainThread]: End processing [gotrackit]: success
+[2024-04-12 10:29:50] INFO root fetch - processPackages [Teras]: Remove: archive file [/home/abi/fetcher/tmp/Teras-0.3.0.tar.gz]
+[2024-04-12 10:29:50] INFO root fetch - processPackages [Teras]: Remove: archive file [/home/abi/fetcher/tmp/Teras-0.3.1.tar.gz]
+[2024-04-12 10:29:50] INFO root fetch - main [MainThread]: End processing [Teras]: success
+[2024-04-12 10:29:50] INFO root fetch - main [MainThread]: Store serial: [22734865]
