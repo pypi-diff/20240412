@@ -15749,3 +15749,44 @@
 [2024-04-12 08:34:06] INFO root fetch - main [MainThread]: End processing [atorch]: success
 [2024-04-12 08:34:06] INFO root fetch - main [MainThread]: End processing [pyannote-onnx]: success
 [2024-04-12 08:34:06] INFO root fetch - main [MainThread]: Store serial: [22733523]
+[2024-04-12 08:36:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733523]
+[2024-04-12 08:36:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 08:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vagrant-file-generator-v0.2
+[2024-04-12 08:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weld-deps
+[2024-04-12 08:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsugu
+[2024-04-12 08:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secretflow-doctools
+[2024-04-12 08:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvremap
+[2024-04-12 08:36:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycotore
+[2024-04-12 08:36:15] INFO root fetch - processPackages [weld-deps]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-12 08:36:15] WARNING root fetch - processPackages [nvremap]: Skipping, unable to determine old version
+[2024-04-12 08:36:15] INFO root fetch - processPackages [pycotore]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-12 08:36:15] INFO root fetch - main [MainThread]: End processing [nvremap] error
+[2024-04-12 08:36:15] WARNING root fetch - processPackages [vagrant-file-generator-v0.2]: Skipping, unable to determine old version
+[2024-04-12 08:36:15] INFO root fetch - main [MainThread]: End processing [vagrant-file-generator-v0.2] error
+[2024-04-12 08:36:15] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/e8/24/64bd33dafc7e48f49f614e04dd97a54abe62315f42f3f5666c8ed0c119d8/weld_deps-0.3.1.tar.gz
+[2024-04-12 08:36:15] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/fd/e9/b406f78522f6882602db8819ebdbdbdf93ff038532cbfaacdf05fbd7ce58/pycotore-0.1.3.tar.gz
+[2024-04-12 08:36:15] INFO root fetch - processPackages [tsugu]: New version: [0.3.3] Old Version: [0.3.1]
+[2024-04-12 08:36:15] INFO root fetch - processPackages [secretflow-doctools]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-04-12 08:36:15] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/49/56/bc6e8712895fabd5e6fd3a4ae341a4ebd589453b374f9b4e6e638de2722d/tsugu-0.3.1.tar.gz
+[2024-04-12 08:36:15] INFO root fetch - processPackages [secretflow-doctools]: Downloading https://files.pythonhosted.org/packages/27/47/ca3f2e9f2d9068ea453650d847258e29c2ba41813c4c801c2fc0c0595c02/secretflow_doctools-0.6.2.tar.gz
+[2024-04-12 08:36:15] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/e9/e8/85dacaaa92db7c42f25f0ee6e7f13b9c36569cbbc937dbd115bfe6aac889/weld_deps-0.4.0.tar.gz
+[2024-04-12 08:36:15] WARNING root fetch - processPackages [secretflow-doctools]: Skipping package: exceeds size limit 50069823>=10485760
+[2024-04-12 08:36:15] INFO root fetch - main [MainThread]: End processing [secretflow-doctools] error
+[2024-04-12 08:36:15] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/db/38/bbe770351ac99ceb6e2b827cf81e4c55d37f5f93337511882c851941cd0d/pycotore-0.2.0.tar.gz
+[2024-04-12 08:36:15] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/8b/f0/fee59f6eee58d4c0c2e6de425748d665de5154f29a56b64c8650d4f74168/tsugu-0.3.3.tar.gz
+[2024-04-12 08:36:15] INFO root fetch - processPackages [weld-deps]: executing diffoscope
+[2024-04-12 08:36:15] INFO root fetch - processPackages [weld-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weld_deps-0.3.1.tar.gz tmp/weld_deps-0.4.0.tar.gz --markdown 20240412/w/weld-deps/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-12 08:36:15] INFO root fetch - processPackages [pycotore]: executing diffoscope
+[2024-04-12 08:36:15] INFO root fetch - processPackages [pycotore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycotore-0.1.3.tar.gz tmp/pycotore-0.2.0.tar.gz --markdown 20240412/p/pycotore/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-04-12 08:36:16] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-12 08:36:16] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.3.1.tar.gz tmp/tsugu-0.3.3.tar.gz --markdown 20240412/t/tsugu/0.3.1-0.3.3/README.md --exclude *.pyd
+[2024-04-12 08:36:16] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.3.1.tar.gz]
+[2024-04-12 08:36:16] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.4.0.tar.gz]
+[2024-04-12 08:36:16] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
+[2024-04-12 08:36:16] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.1.3.tar.gz]
+[2024-04-12 08:36:16] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.2.0.tar.gz]
+[2024-04-12 08:36:16] INFO root fetch - main [MainThread]: End processing [pycotore]: success
+[2024-04-12 08:36:16] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.1.tar.gz]
+[2024-04-12 08:36:16] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.3.tar.gz]
+[2024-04-12 08:36:16] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-12 08:36:16] INFO root fetch - main [MainThread]: Store serial: [22733554]
