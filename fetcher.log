@@ -16462,3 +16462,63 @@
 [2024-04-12 09:11:44] INFO root fetch - processPackages [OSS-Class]: Remove: archive file [/home/abi/fetcher/tmp/OSS_Class-0.0.2-py3-none-any.whl.zip]
 [2024-04-12 09:11:44] INFO root fetch - main [MainThread]: End processing [OSS-Class]: success
 [2024-04-12 09:11:44] INFO root fetch - main [MainThread]: Store serial: [22733883]
+[2024-04-12 09:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733883]
+[2024-04-12 09:13:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 09:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lytils
+[2024-04-12 09:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feliz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvremap
+[2024-04-12 09:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: core-pro
+[2024-04-12 09:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: truefoundry
+[2024-04-12 09:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chippy_ai
+[2024-04-12 09:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spin-templete
+[2024-04-12 09:13:53] INFO root fetch - processPackages [truefoundry]: New version: [0.2.0rc1] Old Version: [0.1.2]
+[2024-04-12 09:13:53] INFO root fetch - processPackages [nvremap]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 09:13:53] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 09:13:53] INFO root fetch - processPackages [lytils]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 09:13:53] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/17/77/65fe2c13902ea2387de6a3e4ea5af3aad7edab11af78d720b9d53dc0a6e8/truefoundry-0.1.2.tar.gz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [feliz]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 09:13:53] WARNING root fetch - processPackages [spin-templete]: Skipping, unable to determine old version
+[2024-04-12 09:13:53] INFO root fetch - main [MainThread]: End processing [spin-templete] error
+[2024-04-12 09:13:53] INFO root fetch - processPackages [chippy_ai]: New version: [0.1] Old Version: [0.0.1]
+[2024-04-12 09:13:53] INFO root fetch - processPackages [nvremap]: Downloading https://files.pythonhosted.org/packages/52/60/742172168e263914f98619ab105906831c561bda43359cd6e8b6f369b5bf/nvremap-0.1.0-cp36-cp36m-manylinux1_x86_64.whl
+[2024-04-12 09:13:53] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/1d/b9/67e0203b3ef20c41633a43c4fc9ad5775b83a89a8743f93034bfa47e5a93/lytils-0.1.0.tar.gz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [feliz]: Downloading https://files.pythonhosted.org/packages/cf/b9/ae2bedfdc0a272a7515149a98fef0534831e22dc80660d03ea23ab8a3d13/feliz-0.0.2.tar.gz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/02/38/5f2c228a73d6007a545631a26aa7b702fc387b054877c1626e822d7d79d4/chippy_ai-0.0.1.tar.gz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/6d/35/f55a008f5435910381601cb8ffcbd196611d4942e4df0afd693d441c356a/truefoundry-0.2.0rc1.tar.gz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-12 09:13:53] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240412/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 09:13:53] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-04-12 09:13:53] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.1.2.tar.gz tmp/truefoundry-0.2.0rc1.tar.gz --markdown 20240412/t/truefoundry/0.1.2-0.2.0rc1/README.md --exclude *.pyd
+[2024-04-12 09:13:53] INFO root fetch - processPackages [nvremap]: Downloading https://files.pythonhosted.org/packages/40/f1/a6aa60f398f6cc3570536f9d4d8a74f3cf137f71f45f017766c201ff3f61/nvremap-0.1.1-cp36-cp36m-manylinux1_x86_64.whl
+[2024-04-12 09:13:53] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/6c/95/a5618dc775ea90d66a1732489b95e5dc5e4e75d7bcfb7e96db8dea747cb5/lytils-0.1.1.tar.gz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-04-12 09:13:53] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.0.tar.gz tmp/lytils-0.1.1.tar.gz --markdown 20240412/l/lytils/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 09:13:53] INFO root fetch - processPackages [nvremap]: executing diffoscope
+[2024-04-12 09:13:53] INFO root fetch - processPackages [nvremap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvremap-0.1.0-cp36-cp36m-manylinux1_x86_64.whl.zip tmp/nvremap-0.1.1-cp36-cp36m-manylinux1_x86_64.whl.zip --markdown 20240412/n/nvremap/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 09:13:53] INFO root fetch - processPackages [feliz]: Downloading https://files.pythonhosted.org/packages/eb/8e/aee553fbfdcfea5dda7cb26f4020f885a67c50e18bcfe2b315f300e387c0/feliz-0.0.3.tar.gz
+[2024-04-12 09:13:53] INFO root fetch - processPackages [chippy_ai]: Downloading https://files.pythonhosted.org/packages/93/73/be3378e26f647a50fd525c1a74f0437c97b0e7759525327d03c2d1c23708/chippy-ai-0.1.tar.gz
+[2024-04-12 09:13:54] INFO root fetch - processPackages [feliz]: executing diffoscope
+[2024-04-12 09:13:54] INFO root fetch - processPackages [feliz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feliz-0.0.2.tar.gz tmp/feliz-0.0.3.tar.gz --markdown 20240412/f/feliz/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 09:13:54] INFO root fetch - processPackages [chippy_ai]: executing diffoscope
+[2024-04-12 09:13:54] INFO root fetch - processPackages [chippy_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chippy_ai-0.0.1.tar.gz tmp/chippy-ai-0.1.tar.gz --markdown 20240412/c/chippy_ai/0.0.1-0.1/README.md --exclude *.pyd
+[2024-04-12 09:13:54] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.1.2.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc1.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-04-12 09:13:54] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-12 09:13:54] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.0.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.1.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-04-12 09:13:54] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy_ai-0.0.1.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - processPackages [chippy_ai]: Remove: archive file [/home/abi/fetcher/tmp/chippy-ai-0.1.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - main [MainThread]: End processing [chippy_ai]: success
+[2024-04-12 09:13:54] INFO root fetch - processPackages [feliz]: Remove: archive file [/home/abi/fetcher/tmp/feliz-0.0.2.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - processPackages [feliz]: Remove: archive file [/home/abi/fetcher/tmp/feliz-0.0.3.tar.gz]
+[2024-04-12 09:13:54] INFO root fetch - main [MainThread]: End processing [feliz]: success
+[2024-04-12 09:13:55] INFO root fetch - processPackages [nvremap]: Remove: archive file [/home/abi/fetcher/tmp/nvremap-0.1.0-cp36-cp36m-manylinux1_x86_64.whl.zip]
+[2024-04-12 09:13:55] INFO root fetch - processPackages [nvremap]: Remove: archive file [/home/abi/fetcher/tmp/nvremap-0.1.1-cp36-cp36m-manylinux1_x86_64.whl.zip]
+[2024-04-12 09:13:55] INFO root fetch - main [MainThread]: End processing [nvremap]: success
+[2024-04-12 09:13:55] INFO root fetch - main [MainThread]: Store serial: [22733911]
