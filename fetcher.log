@@ -15512,3 +15512,52 @@
 [2024-04-12 08:23:10] WARNING root fetch - processPackages [illuminatapp]: Skipping package: exceeds size limit 42884007>=10485760
 [2024-04-12 08:23:10] INFO root fetch - main [MainThread]: End processing [illuminatapp] error
 [2024-04-12 08:23:10] INFO root fetch - main [MainThread]: Store serial: [22733426]
+[2024-04-12 08:25:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733426]
+[2024-04-12 08:25:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dquack
+[2024-04-12 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-analytics-simple
+[2024-04-12 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tad-libcint
+[2024-04-12 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycotore
+[2024-04-12 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ws-analytics
+[2024-04-12 08:25:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-predpurchase
+[2024-04-12 08:25:19] INFO root fetch - processPackages [pycotore]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-12 08:25:19] INFO root fetch - processPackages [py-predpurchase]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-12 08:25:19] INFO root fetch - processPackages [django-ws-analytics]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-12 08:25:19] INFO root fetch - processPackages [dquack]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-12 08:25:19] INFO root fetch - processPackages [django-analytics-simple]: New version: [2024.0.4] Old Version: [2024.0.3]
+[2024-04-12 08:25:19] INFO root fetch - processPackages [py-predpurchase]: Downloading https://files.pythonhosted.org/packages/9e/e5/7a5a2933ca7e9bcf4ad3436fc55c5a9d68bb1d6fbbde2a30e321c6392a72/py_predpurchase-0.1.2.tar.gz
+[2024-04-12 08:25:19] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/d3/92/6adfcfe85c51931256e3e8b742711936f1e240b70b9d43c68adb2b2c03fd/pycotore-0.1.2.tar.gz
+[2024-04-12 08:25:19] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/6d/f9/1a5b5f917fd0beff2816e07e84872585fe96fc02754df2555428e369c9e9/django-ws-analytics-1.0.7.tar.gz
+[2024-04-12 08:25:19] INFO root fetch - processPackages [tad-libcint]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-12 08:25:19] INFO root fetch - processPackages [dquack]: Downloading https://files.pythonhosted.org/packages/ed/23/c43cc115a919e84ff18e0b3e4f529f6f499e35eadc1ba0fc265dd2e4d19e/dquack-0.1.2.tar.gz
+[2024-04-12 08:25:19] INFO root fetch - processPackages [django-analytics-simple]: Downloading https://files.pythonhosted.org/packages/55/34/a6f27deb31036416315f512822829eb7c03287c914a0ceb5b1fe35b6e5cf/django_analytics_simple-2024.0.3.tar.gz
+[2024-04-12 08:25:19] WARNING root fetch - processPackages [django-analytics-simple]: Skipping package: exceeds size limit 25921224>=10485760
+[2024-04-12 08:25:19] INFO root fetch - main [MainThread]: End processing [django-analytics-simple] error
+[2024-04-12 08:25:19] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/60/4e/e84fd37a53687d65c63d95a5b49973cb5cee8905941f82fe705955fcd5f6/django-ws-analytics-1.0.9.tar.gz
+[2024-04-12 08:25:19] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/fd/e9/b406f78522f6882602db8819ebdbdbdf93ff038532cbfaacdf05fbd7ce58/pycotore-0.1.3.tar.gz
+[2024-04-12 08:25:19] INFO root fetch - processPackages [tad-libcint]: Downloading https://files.pythonhosted.org/packages/6d/11/7080d2dc8d40576b0aa8469b2bab338f6db2b7c9d9741d199d2f8174eff3/tad_libcint-0.0.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2024-04-12 08:25:19] INFO root fetch - processPackages [py-predpurchase]: Downloading https://files.pythonhosted.org/packages/89/7b/520378f35224e92211fa22ff52e5c09654f7ff3b7d79d08c446e09b43e9d/py_predpurchase-0.1.3.tar.gz
+[2024-04-12 08:25:19] INFO root fetch - processPackages [django-ws-analytics]: executing diffoscope
+[2024-04-12 08:25:19] INFO root fetch - processPackages [django-ws-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-analytics-1.0.7.tar.gz tmp/django-ws-analytics-1.0.9.tar.gz --markdown 20240412/d/django-ws-analytics/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-12 08:25:19] WARNING root fetch - processPackages [tad-libcint]: Skipping package: exceeds size limit 19849959>=10485760
+[2024-04-12 08:25:19] INFO root fetch - main [MainThread]: End processing [tad-libcint] error
+[2024-04-12 08:25:19] INFO root fetch - processPackages [dquack]: Downloading https://files.pythonhosted.org/packages/e5/02/519560437174aa4876f75d74911e596a4046760b980201ede3d1622ea0ba/dquack-0.1.3.tar.gz
+[2024-04-12 08:25:19] INFO root fetch - processPackages [pycotore]: executing diffoscope
+[2024-04-12 08:25:19] INFO root fetch - processPackages [pycotore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycotore-0.1.2.tar.gz tmp/pycotore-0.1.3.tar.gz --markdown 20240412/p/pycotore/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-12 08:25:19] INFO root fetch - processPackages [py-predpurchase]: executing diffoscope
+[2024-04-12 08:25:19] INFO root fetch - processPackages [py-predpurchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_predpurchase-0.1.2.tar.gz tmp/py_predpurchase-0.1.3.tar.gz --markdown 20240412/p/py-predpurchase/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-12 08:25:19] INFO root fetch - processPackages [dquack]: executing diffoscope
+[2024-04-12 08:25:19] INFO root fetch - processPackages [dquack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dquack-0.1.2.tar.gz tmp/dquack-0.1.3.tar.gz --markdown 20240412/d/dquack/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-12 08:25:20] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.7.tar.gz]
+[2024-04-12 08:25:20] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.9.tar.gz]
+[2024-04-12 08:25:20] INFO root fetch - main [MainThread]: End processing [django-ws-analytics]: success
+[2024-04-12 08:25:20] INFO root fetch - processPackages [py-predpurchase]: Remove: archive file [/home/abi/fetcher/tmp/py_predpurchase-0.1.2.tar.gz]
+[2024-04-12 08:25:20] INFO root fetch - processPackages [py-predpurchase]: Remove: archive file [/home/abi/fetcher/tmp/py_predpurchase-0.1.3.tar.gz]
+[2024-04-12 08:25:20] INFO root fetch - main [MainThread]: End processing [py-predpurchase]: success
+[2024-04-12 08:25:20] INFO root fetch - processPackages [dquack]: Remove: archive file [/home/abi/fetcher/tmp/dquack-0.1.2.tar.gz]
+[2024-04-12 08:25:20] INFO root fetch - processPackages [dquack]: Remove: archive file [/home/abi/fetcher/tmp/dquack-0.1.3.tar.gz]
+[2024-04-12 08:25:20] INFO root fetch - main [MainThread]: End processing [dquack]: success
+[2024-04-12 08:25:20] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.1.2.tar.gz]
+[2024-04-12 08:25:20] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.1.3.tar.gz]
+[2024-04-12 08:25:20] INFO root fetch - main [MainThread]: End processing [pycotore]: success
+[2024-04-12 08:25:20] INFO root fetch - main [MainThread]: Store serial: [22733445]
