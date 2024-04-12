@@ -16076,3 +16076,18 @@
 [2024-04-12 08:53:53] INFO root fetch - processPackages [magpylib]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-5.0.1.tar.gz]
 [2024-04-12 08:53:53] INFO root fetch - main [MainThread]: End processing [magpylib]: success
 [2024-04-12 08:53:53] INFO root fetch - main [MainThread]: Store serial: [22733683]
+[2024-04-12 08:55:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733683]
+[2024-04-12 08:56:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 08:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dotnetinteropt
+[2024-04-12 08:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: g2p-mix
+[2024-04-12 08:56:03] WARNING root fetch - processPackages [dotnetinteropt]: Skipping, unable to determine old version
+[2024-04-12 08:56:03] INFO root fetch - main [MainThread]: End processing [dotnetinteropt] error
+[2024-04-12 08:56:03] INFO root fetch - processPackages [g2p-mix]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-12 08:56:03] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/2a/ea/896679c9ec604803d15d284df4278e908b02e0cd350ffbf1fecc5b9c768b/g2p_mix-0.3.6.tar.gz
+[2024-04-12 08:56:04] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/17/10/98f13183592a20cadf9875d534ae346c0924a9b608d7f2b5e81efd2487ea/g2p_mix-0.3.7.tar.gz
+[2024-04-12 08:56:04] INFO root fetch - processPackages [g2p-mix]: executing diffoscope
+[2024-04-12 08:56:04] INFO root fetch - processPackages [g2p-mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2p_mix-0.3.6.tar.gz tmp/g2p_mix-0.3.7.tar.gz --markdown 20240412/g/g2p-mix/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-12 08:56:05] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p_mix-0.3.6.tar.gz]
+[2024-04-12 08:56:05] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p_mix-0.3.7.tar.gz]
+[2024-04-12 08:56:05] INFO root fetch - main [MainThread]: End processing [g2p-mix]: success
+[2024-04-12 08:56:05] INFO root fetch - main [MainThread]: Store serial: [22733697]
