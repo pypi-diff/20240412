@@ -14088,3 +14088,18 @@
 [2024-04-12 07:03:44] INFO root fetch - processPackages [superb-ai-curate]: Remove: archive file [/home/abi/fetcher/tmp/superb_ai_curate-1.2.2.tar.gz]
 [2024-04-12 07:03:44] INFO root fetch - main [MainThread]: End processing [superb-ai-curate]: success
 [2024-04-12 07:03:44] INFO root fetch - main [MainThread]: Store serial: [22732843]
+[2024-04-12 07:05:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732843]
+[2024-04-12 07:05:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 07:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-discord-html-transcripts
+[2024-04-12 07:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NexR-qc
+[2024-04-12 07:05:53] WARNING root fetch - processPackages [py-discord-html-transcripts]: Skipping, unable to determine old version
+[2024-04-12 07:05:53] INFO root fetch - processPackages [NexR-qc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 07:05:53] INFO root fetch - main [MainThread]: End processing [py-discord-html-transcripts] error
+[2024-04-12 07:05:53] INFO root fetch - processPackages [NexR-qc]: Downloading https://files.pythonhosted.org/packages/4f/a1/f02807bc418e06fb2af45746bb74d08c9b0ed0b9ba4d7dea3673c9b79d86/NexR_qc-0.0.8.tar.gz
+[2024-04-12 07:05:54] INFO root fetch - processPackages [NexR-qc]: Downloading https://files.pythonhosted.org/packages/d4/75/459ec20a79661ef39b968acb52f04f196e3693530ad36083008d355ae260/NexR_qc-0.0.9.tar.gz
+[2024-04-12 07:05:54] INFO root fetch - processPackages [NexR-qc]: executing diffoscope
+[2024-04-12 07:05:54] INFO root fetch - processPackages [NexR-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NexR_qc-0.0.8.tar.gz tmp/NexR_qc-0.0.9.tar.gz --markdown 20240412/N/NexR-qc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 07:05:54] INFO root fetch - processPackages [NexR-qc]: Remove: archive file [/home/abi/fetcher/tmp/NexR_qc-0.0.8.tar.gz]
+[2024-04-12 07:05:54] INFO root fetch - processPackages [NexR-qc]: Remove: archive file [/home/abi/fetcher/tmp/NexR_qc-0.0.9.tar.gz]
+[2024-04-12 07:05:54] INFO root fetch - main [MainThread]: End processing [NexR-qc]: success
+[2024-04-12 07:05:54] INFO root fetch - main [MainThread]: Store serial: [22732851]
