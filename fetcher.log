@@ -13550,3 +13550,15 @@
 [2024-04-12 06:22:26] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-12 06:22:26] INFO root fetch - main [MainThread]: End processing [jijzept]: success
 [2024-04-12 06:22:26] INFO root fetch - main [MainThread]: Store serial: [22732654]
+[2024-04-12 06:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732654]
+[2024-04-12 06:24:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-12 06:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncmodels
+[2024-04-12 06:24:36] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 06:24:36] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-12 06:24:36] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-12 06:24:36] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-12 06:24:36] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240412/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 06:24:37] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-12 06:24:37] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-12 06:24:37] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-12 06:24:37] INFO root fetch - main [MainThread]: Store serial: [22732672]
