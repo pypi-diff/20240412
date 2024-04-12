@@ -16632,3 +16632,18 @@
 [2024-04-12 09:20:29] WARNING root fetch - processPackages [qoria-pyguardian]: Skipping, unable to determine old version
 [2024-04-12 09:20:29] INFO root fetch - main [MainThread]: End processing [qoria-pyguardian] error
 [2024-04-12 09:20:29] INFO root fetch - main [MainThread]: Store serial: [22733994]
+[2024-04-12 09:22:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733994]
+[2024-04-12 09:22:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 09:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fps_notebook
+[2024-04-12 09:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starsim
+[2024-04-12 09:22:38] WARNING root fetch - processPackages [fps_notebook]: Skipping, unable to determine old version
+[2024-04-12 09:22:38] INFO root fetch - main [MainThread]: End processing [fps_notebook] error
+[2024-04-12 09:22:38] INFO root fetch - processPackages [starsim]: New version: [0.3.2] Old Version: [0.1.5]
+[2024-04-12 09:22:38] INFO root fetch - processPackages [starsim]: Downloading https://files.pythonhosted.org/packages/f0/17/16632712c44c4b29348b0c673c1a63f36456d70c9aaa5cbc63471dfe85fd/starsim-0.1.5.tar.gz
+[2024-04-12 09:22:38] INFO root fetch - processPackages [starsim]: Downloading https://files.pythonhosted.org/packages/b1/95/3caf744180551b23e9370c8ca383562cb7334f54a2b816f1b4b052c70120/starsim-0.3.2.tar.gz
+[2024-04-12 09:22:38] INFO root fetch - processPackages [starsim]: executing diffoscope
+[2024-04-12 09:22:38] INFO root fetch - processPackages [starsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starsim-0.1.5.tar.gz tmp/starsim-0.3.2.tar.gz --markdown 20240412/s/starsim/0.1.5-0.3.2/README.md --exclude *.pyd
+[2024-04-12 09:22:39] INFO root fetch - processPackages [starsim]: Remove: archive file [/home/abi/fetcher/tmp/starsim-0.1.5.tar.gz]
+[2024-04-12 09:22:39] INFO root fetch - processPackages [starsim]: Remove: archive file [/home/abi/fetcher/tmp/starsim-0.3.2.tar.gz]
+[2024-04-12 09:22:39] INFO root fetch - main [MainThread]: End processing [starsim]: success
+[2024-04-12 09:22:39] INFO root fetch - main [MainThread]: Store serial: [22734016]
