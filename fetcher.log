@@ -17645,3 +17645,45 @@
 [2024-04-12 10:00:54] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.8.99.tar.gz]
 [2024-04-12 10:00:54] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2024-04-12 10:00:54] INFO root fetch - main [MainThread]: Store serial: [22734528]
+[2024-04-12 10:02:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734528]
+[2024-04-12 10:03:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 10:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docker-inspector
+[2024-04-12 10:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imgw-data
+[2024-04-12 10:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MLGLUE
+[2024-04-12 10:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seacrowd
+[2024-04-12 10:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pldag
+[2024-04-12 10:03:03] INFO root fetch - processPackages [docker-inspector]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 10:03:03] INFO root fetch - processPackages [pldag]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-12 10:03:03] INFO root fetch - processPackages [seacrowd]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-12 10:03:03] WARNING root fetch - processPackages [imgw-data]: Skipping, unable to determine old version
+[2024-04-12 10:03:03] INFO root fetch - main [MainThread]: End processing [imgw-data] error
+[2024-04-12 10:03:03] INFO root fetch - processPackages [MLGLUE]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 10:03:03] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/89/e8/fa91feee60936b28ffd1274afa2d090c7145cd1856449d0ab18471c64326/pldag-0.5.1.tar.gz
+[2024-04-12 10:03:03] INFO root fetch - processPackages [docker-inspector]: Downloading https://files.pythonhosted.org/packages/8b/f0/cc250ff10f34211ab8a23c8b5fea37d8a04e6c68447163eb84e6aeec06c8/docker_inspector-0.1.8.tar.gz
+[2024-04-12 10:03:03] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/97/ba/8a18c64584237b7ef501e2974c6e554ecc8bfe47c5916417488ce0475974/seacrowd-0.0.7.tar.gz
+[2024-04-12 10:03:03] INFO root fetch - processPackages [MLGLUE]: Downloading https://files.pythonhosted.org/packages/ca/03/b606589a37f521c62c48667b0201f226d1998862f00411f9e020c1fa8db9/MLGLUE-0.0.2.tar.gz
+[2024-04-12 10:03:03] INFO root fetch - processPackages [docker-inspector]: Downloading https://files.pythonhosted.org/packages/cc/3a/900c3672770e1e66fc4d5a80e9b5bb1c91e35b9be914d3e55bb3252939ef/docker_inspector-0.1.9.tar.gz
+[2024-04-12 10:03:03] INFO root fetch - processPackages [docker-inspector]: executing diffoscope
+[2024-04-12 10:03:03] INFO root fetch - processPackages [docker-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_inspector-0.1.8.tar.gz tmp/docker_inspector-0.1.9.tar.gz --markdown 20240412/d/docker-inspector/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 10:03:03] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/29/57/ebbfcf187b978af963e4f5540ad096aba1bee71392576485399b2fc156ef/pldag-0.6.0.tar.gz
+[2024-04-12 10:03:04] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/1f/ba/346de6683a7e18210cd836f5cfbcd169e5daa3d6a3cd013d360925353530/seacrowd-0.0.8.tar.gz
+[2024-04-12 10:03:04] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-04-12 10:03:04] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.5.1.tar.gz tmp/pldag-0.6.0.tar.gz --markdown 20240412/p/pldag/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-12 10:03:04] INFO root fetch - processPackages [MLGLUE]: Downloading https://files.pythonhosted.org/packages/d0/a6/83822305b1b43e901981c19fad702dd73e87b983df1af69c2472006f6385/MLGLUE-0.0.3.tar.gz
+[2024-04-12 10:03:04] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-12 10:03:04] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.7.tar.gz tmp/seacrowd-0.0.8.tar.gz --markdown 20240412/s/seacrowd/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-12 10:03:04] INFO root fetch - processPackages [MLGLUE]: executing diffoscope
+[2024-04-12 10:03:04] INFO root fetch - processPackages [MLGLUE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLGLUE-0.0.2.tar.gz tmp/MLGLUE-0.0.3.tar.gz --markdown 20240412/M/MLGLUE/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 10:03:04] INFO root fetch - processPackages [docker-inspector]: Remove: archive file [/home/abi/fetcher/tmp/docker_inspector-0.1.8.tar.gz]
+[2024-04-12 10:03:04] INFO root fetch - processPackages [docker-inspector]: Remove: archive file [/home/abi/fetcher/tmp/docker_inspector-0.1.9.tar.gz]
+[2024-04-12 10:03:04] INFO root fetch - main [MainThread]: End processing [docker-inspector]: success
+[2024-04-12 10:03:04] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.5.1.tar.gz]
+[2024-04-12 10:03:04] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.6.0.tar.gz]
+[2024-04-12 10:03:04] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-04-12 10:03:04] INFO root fetch - processPackages [MLGLUE]: Remove: archive file [/home/abi/fetcher/tmp/MLGLUE-0.0.2.tar.gz]
+[2024-04-12 10:03:04] INFO root fetch - processPackages [MLGLUE]: Remove: archive file [/home/abi/fetcher/tmp/MLGLUE-0.0.3.tar.gz]
+[2024-04-12 10:03:04] INFO root fetch - main [MainThread]: End processing [MLGLUE]: success
+[2024-04-12 10:03:05] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.7.tar.gz]
+[2024-04-12 10:03:05] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.8.tar.gz]
+[2024-04-12 10:03:05] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-12 10:03:05] INFO root fetch - main [MainThread]: Store serial: [22734545]
