@@ -14465,3 +14465,27 @@
 [2024-04-12 07:23:33] INFO root fetch - processPackages [cs.fs]: Remove: archive file [/home/abi/fetcher/tmp/cs.fs-20240412.tar.gz]
 [2024-04-12 07:23:33] INFO root fetch - main [MainThread]: End processing [cs.fs]: success
 [2024-04-12 07:23:33] INFO root fetch - main [MainThread]: Store serial: [22733012]
+[2024-04-12 07:25:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733012]
+[2024-04-12 07:25:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 07:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-landed-cost
+[2024-04-12 07:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-purchase-workflow
+[2024-04-12 07:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-queue-job
+[2024-04-12 07:25:41] WARNING root fetch - processPackages [odoo-addon-purchase-landed-cost]: Skipping, unable to determine old version
+[2024-04-12 07:25:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-landed-cost] error
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo14-addon-queue-job]: New version: [14.0.3.5.5.dev5] Old Version: [14.0.3.5.5.dev4]
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20240411.0] Old Version: [16.0.20240319.2]
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo14-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/1b/ce/312eb63c92c64450713decede53d28894c8a1b85bab24cf9f48e0957d5ff/odoo14_addon_queue_job-14.0.3.5.5.dev4-py3-none-any.whl
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/91/e5/fd197f486404a12fccccaca34246ed4c3ef210aadaf3dde0cf7a2105153d/odoo_addons_oca_purchase_workflow-16.0.20240319.2-py3-none-any.whl
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/df/f0/8ad3fbab399e664167d3a7d3cae6dfd453005fcf1e0e1f657a9af9c7bd76/odoo_addons_oca_purchase_workflow-16.0.20240411.0-py3-none-any.whl
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo14-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/63/5a/06b984fe4810d053a71b566e1d6d924ef811169f247ae5bedcb11df90a25/odoo14_addon_queue_job-14.0.3.5.5.dev5-py3-none-any.whl
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20240319.2-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20240411.0-py3-none-any.whl.zip --markdown 20240412/o/odoo-addons-oca-purchase-workflow/16.0.20240319.2-16.0.20240411.0/README.md --exclude *.pyd
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo14-addon-queue-job]: executing diffoscope
+[2024-04-12 07:25:42] INFO root fetch - processPackages [odoo14-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_queue_job-14.0.3.5.5.dev4-py3-none-any.whl.zip tmp/odoo14_addon_queue_job-14.0.3.5.5.dev5-py3-none-any.whl.zip --markdown 20240412/o/odoo14-addon-queue-job/14.0.3.5.5.dev4-14.0.3.5.5.dev5/README.md --exclude *.pyd
+[2024-04-12 07:25:43] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20240319.2-py3-none-any.whl.zip]
+[2024-04-12 07:25:43] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20240411.0-py3-none-any.whl.zip]
+[2024-04-12 07:25:43] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2024-04-12 07:25:43] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev4-py3-none-any.whl.zip]
+[2024-04-12 07:25:43] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev5-py3-none-any.whl.zip]
+[2024-04-12 07:25:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-queue-job]: success
+[2024-04-12 07:25:43] INFO root fetch - main [MainThread]: Store serial: [22733020]
