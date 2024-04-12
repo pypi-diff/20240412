@@ -13717,3 +13717,60 @@
 [2024-04-12 06:37:39] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
 [2024-04-12 06:37:39] INFO root fetch - main [MainThread]: End processing [spiderx]: success
 [2024-04-12 06:37:39] INFO root fetch - main [MainThread]: Store serial: [22732727]
+[2024-04-12 06:39:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732727]
+[2024-04-12 06:39:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 06:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-12 06:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs.result
+[2024-04-12 06:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: preprocess-docs
+[2024-04-12 06:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartbetsAPI
+[2024-04-12 06:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comiccrawler
+[2024-04-12 06:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellink
+[2024-04-12 06:39:48] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.12a1712870115] Old Version: [0.0.12a1712858984]
+[2024-04-12 06:39:48] INFO root fetch - processPackages [preprocess-docs]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 06:39:48] INFO root fetch - processPackages [smartbetsAPI]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-04-12 06:39:48] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/28/f0/319427bdb0d1d261ba642e5f6fb3693618b88739ff8015843329045f1bae/pulumi_kubernetes_the_hard_way-0.0.12a1712858984.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [preprocess-docs]: Downloading https://files.pythonhosted.org/packages/da/51/6bfd85d9eb78e17079e713775974e46505a467a3726f4bdc1f9b89f2f339/preprocess-docs-0.0.2.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [cellink]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-12 06:39:48] INFO root fetch - processPackages [cs.result]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 06:39:48] INFO root fetch - processPackages [comiccrawler]: New version: [2024.4.2] Old Version: [2024.4.11]
+[2024-04-12 06:39:48] INFO root fetch - processPackages [smartbetsAPI]: Downloading https://files.pythonhosted.org/packages/46/2d/edd919796e0e56f46874feb6bc82bca1e38269b6579a1f36093c1a4ffcce/smartbetsAPI-1.2.6.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [comiccrawler]: Downloading https://files.pythonhosted.org/packages/ff/ad/4b85a7d051773457ed67b82638ea11e73f223f78198248c4b98991637585/comiccrawler-2024.4.11.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [cellink]: Downloading https://files.pythonhosted.org/packages/9b/32/d0ee8a4934d8e371cfbe4be5476b311b744f1a97a6964086c4c7db796437/cellink-1.3.3.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [cs.result]: Downloading https://files.pythonhosted.org/packages/e6/e3/88eead2abba9e7cf674e0246467a6685dab4220fc0ecad4722cb5b97ed37/cs.result-20240316.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [preprocess-docs]: Downloading https://files.pythonhosted.org/packages/09/4e/1dbb929448bb4ca498a404c6063988743800282073f8ac3feb867caf672a/preprocess-docs-0.0.3.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/61/7d/909c529042d96a3601be7749673a200a8b7b23aa376c21914ef0eaa5662e/pulumi_kubernetes_the_hard_way-0.0.12a1712870115.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [preprocess-docs]: executing diffoscope
+[2024-04-12 06:39:48] INFO root fetch - processPackages [preprocess-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preprocess-docs-0.0.2.tar.gz tmp/preprocess-docs-0.0.3.tar.gz --markdown 20240412/p/preprocess-docs/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 06:39:48] INFO root fetch - processPackages [smartbetsAPI]: Downloading https://files.pythonhosted.org/packages/2a/5b/a9f8df853895dc0bd0abe64c8a921b75335d35d37fcf44ed628c82ec88d8/smartbetsAPI-1.2.7.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-12 06:39:48] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.12a1712858984.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.12a1712870115.tar.gz --markdown 20240412/p/pulumi-kubernetes-the-hard-way/0.0.12a1712858984-0.0.12a1712870115/README.md --exclude *.pyd
+[2024-04-12 06:39:48] INFO root fetch - processPackages [cs.result]: Downloading https://files.pythonhosted.org/packages/b0/9a/c509bf0c3e41bf51cf952377fb4b4d12bc2bd159ebc27ad51c71cc65ae0a/cs.result-20240412.tar.gz
+[2024-04-12 06:39:48] INFO root fetch - processPackages [cs.result]: executing diffoscope
+[2024-04-12 06:39:48] INFO root fetch - processPackages [cs.result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.result-20240316.tar.gz tmp/cs.result-20240412.tar.gz --markdown 20240412/c/cs.result/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 06:39:48] INFO root fetch - processPackages [cellink]: Downloading https://files.pythonhosted.org/packages/a4/35/d3d7ef2f0e75cfbb37d6f0ffdf585aa0a9400c4ce6521d546573db2df535/cellink-1.3.4.tar.gz
+[2024-04-12 06:39:49] INFO root fetch - processPackages [comiccrawler]: Downloading https://files.pythonhosted.org/packages/af/20/572bfee6f205962ac41a75a3bbfc05aade9a3171b6f5246193a323b77cf5/comiccrawler-2024.4.2.tar.gz
+[2024-04-12 06:39:49] INFO root fetch - processPackages [smartbetsAPI]: executing diffoscope
+[2024-04-12 06:39:49] INFO root fetch - processPackages [smartbetsAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartbetsAPI-1.2.6.tar.gz tmp/smartbetsAPI-1.2.7.tar.gz --markdown 20240412/s/smartbetsAPI/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-04-12 06:39:49] INFO root fetch - processPackages [comiccrawler]: executing diffoscope
+[2024-04-12 06:39:49] INFO root fetch - processPackages [comiccrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comiccrawler-2024.4.11.tar.gz tmp/comiccrawler-2024.4.2.tar.gz --markdown 20240412/c/comiccrawler/2024.4.11-2024.4.2/README.md --exclude *.pyd
+[2024-04-12 06:39:49] INFO root fetch - processPackages [cellink]: executing diffoscope
+[2024-04-12 06:39:49] INFO root fetch - processPackages [cellink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellink-1.3.3.tar.gz tmp/cellink-1.3.4.tar.gz --markdown 20240412/c/cellink/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-12 06:39:49] INFO root fetch - processPackages [preprocess-docs]: Remove: archive file [/home/abi/fetcher/tmp/preprocess-docs-0.0.2.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - processPackages [preprocess-docs]: Remove: archive file [/home/abi/fetcher/tmp/preprocess-docs-0.0.3.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - main [MainThread]: End processing [preprocess-docs]: success
+[2024-04-12 06:39:49] INFO root fetch - processPackages [cs.result]: Remove: archive file [/home/abi/fetcher/tmp/cs.result-20240316.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - processPackages [cs.result]: Remove: archive file [/home/abi/fetcher/tmp/cs.result-20240412.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - main [MainThread]: End processing [cs.result]: success
+[2024-04-12 06:39:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.12a1712858984.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.12a1712870115.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-12 06:39:49] INFO root fetch - processPackages [smartbetsAPI]: Remove: archive file [/home/abi/fetcher/tmp/smartbetsAPI-1.2.6.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - processPackages [smartbetsAPI]: Remove: archive file [/home/abi/fetcher/tmp/smartbetsAPI-1.2.7.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - main [MainThread]: End processing [smartbetsAPI]: success
+[2024-04-12 06:39:49] INFO root fetch - processPackages [cellink]: Remove: archive file [/home/abi/fetcher/tmp/cellink-1.3.3.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - processPackages [cellink]: Remove: archive file [/home/abi/fetcher/tmp/cellink-1.3.4.tar.gz]
+[2024-04-12 06:39:49] INFO root fetch - main [MainThread]: End processing [cellink]: success
+[2024-04-12 06:39:50] INFO root fetch - processPackages [comiccrawler]: Remove: archive file [/home/abi/fetcher/tmp/comiccrawler-2024.4.11.tar.gz]
+[2024-04-12 06:39:50] INFO root fetch - processPackages [comiccrawler]: Remove: archive file [/home/abi/fetcher/tmp/comiccrawler-2024.4.2.tar.gz]
+[2024-04-12 06:39:50] INFO root fetch - main [MainThread]: End processing [comiccrawler]: success
+[2024-04-12 06:39:50] INFO root fetch - main [MainThread]: Store serial: [22732743]
