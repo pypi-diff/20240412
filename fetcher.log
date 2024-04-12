@@ -18359,3 +18359,75 @@
 [2024-04-12 10:29:50] INFO root fetch - processPackages [Teras]: Remove: archive file [/home/abi/fetcher/tmp/Teras-0.3.1.tar.gz]
 [2024-04-12 10:29:50] INFO root fetch - main [MainThread]: End processing [Teras]: success
 [2024-04-12 10:29:50] INFO root fetch - main [MainThread]: Store serial: [22734865]
+[2024-04-12 10:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734865]
+[2024-04-12 10:31:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-12 10:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saltedge
+[2024-04-12 10:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhijiang
+[2024-04-12 10:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2024-04-12 10:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udata-front
+[2024-04-12 10:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udata-front
+[2024-04-12 10:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: km3db
+[2024-04-12 10:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ubuntu-cloud-image-changelog
+[2024-04-12 10:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paradance
+[2024-04-12 10:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LaueTools
+[2024-04-12 10:32:00] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-12 10:32:00] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-12 10:32:00] WARNING root fetch - processPackages [saltedge]: Skipping, unable to determine old version
+[2024-04-12 10:32:00] INFO root fetch - main [MainThread]: End processing [saltedge] error
+[2024-04-12 10:32:00] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-12 10:32:00] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-12 10:32:00] INFO root fetch - processPackages [kcli]: New version: [99.0.202404120607] Old Version: [99.0.202404111805]
+[2024-04-12 10:32:00] INFO root fetch - processPackages [paradance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-12 10:32:00] INFO root fetch - processPackages [km3db]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-12 10:32:00] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-12 10:32:00] INFO root fetch - processPackages [LaueTools]: New version: [3.0.94] Old Version: [3.0.93]
+[2024-04-12 10:32:00] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-12 10:32:00] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-12 10:32:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/95/a8/ceca20a37834b325b9af1c0411beea599d23adf4a71c8ac02adc9365ea9a/kcli-99.0.202404111805.tar.gz
+[2024-04-12 10:32:00] INFO root fetch - processPackages [km3db]: Downloading https://files.pythonhosted.org/packages/a4/7f/02aa8deb1b1f240a8336b6782f794384c6d8d9f1d609b29e527ae4248cf7/km3db-0.8.0.tar.gz
+[2024-04-12 10:32:00] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/8f/4c/6a3c7d4731f17fd3b3e4130274d7bbae13be34f848072567de4b0ab61969/paradance-0.4.8.tar.gz
+[2024-04-12 10:32:00] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Downloading https://files.pythonhosted.org/packages/27/c6/ca2c3d95bad6b1138a1e90bbad4378f4f516d530d960b4f61419ae6b117d/ubuntu-cloud-image-changelog-0.9.7.tar.gz
+[2024-04-12 10:32:00] INFO root fetch - processPackages [LaueTools]: Downloading https://files.pythonhosted.org/packages/7b/94/944d12421ee67481711c09ddd8ead26d0094fd34e348442430da2d44dfdc/LaueTools-3.0.93.tar.gz
+[2024-04-12 10:32:00] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-12 10:32:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/42/01/4dcf4c76614551d14af63c9e7fc1fdf42318d6c7b0601d3a6cd2b6859e24/kcli-99.0.202404120607.tar.gz
+[2024-04-12 10:32:00] WARNING root fetch - processPackages [LaueTools]: Skipping package: exceeds size limit 53918961>=10485760
+[2024-04-12 10:32:00] INFO root fetch - main [MainThread]: End processing [LaueTools] error
+[2024-04-12 10:32:00] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-12 10:32:00] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240412/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-12 10:32:00] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-12 10:32:00] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Downloading https://files.pythonhosted.org/packages/72/76/5b87054656ddb4d853064d1b01e9dbe849e96f7a8d15137f3d099d076341/ubuntu-cloud-image-changelog-0.9.8.tar.gz
+[2024-04-12 10:32:00] INFO root fetch - processPackages [km3db]: Downloading https://files.pythonhosted.org/packages/c0/8b/848f4dcfae9e23544839723359449b10c6b67788ce5fca1f7a27d4fd6863/km3db-0.9.0.tar.gz
+[2024-04-12 10:32:01] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-12 10:32:01] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/ab/20/cc427c1600f67ef9036e4f225cc6bcdac42746ca6db329d2d1029be4c84e/paradance-0.4.9.tar.gz
+[2024-04-12 10:32:01] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-12 10:32:01] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404111805.tar.gz tmp/kcli-99.0.202404120607.tar.gz --markdown 20240412/k/kcli/99.0.202404111805-99.0.202404120607/README.md --exclude *.pyd
+[2024-04-12 10:32:01] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: executing diffoscope
+[2024-04-12 10:32:01] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubuntu-cloud-image-changelog-0.9.7.tar.gz tmp/ubuntu-cloud-image-changelog-0.9.8.tar.gz --markdown 20240412/u/ubuntu-cloud-image-changelog/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-12 10:32:01] INFO root fetch - processPackages [paradance]: executing diffoscope
+[2024-04-12 10:32:01] INFO root fetch - processPackages [paradance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradance-0.4.8.tar.gz tmp/paradance-0.4.9.tar.gz --markdown 20240412/p/paradance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-12 10:32:01] INFO root fetch - processPackages [km3db]: executing diffoscope
+[2024-04-12 10:32:01] INFO root fetch - processPackages [km3db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/km3db-0.8.0.tar.gz tmp/km3db-0.9.0.tar.gz --markdown 20240412/k/km3db/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-12 10:32:01] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-12 10:32:01] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240412/u/udata-front/3.5.5a1-3.5.5a117434/README.md --exclude *.pyd
+[2024-04-12 10:32:01] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-12 10:32:01] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240412/u/udata-front/3.5.5a1-3.5.5a117434/README.md --exclude *.pyd
+[2024-04-12 10:32:01] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Remove: archive file [/home/abi/fetcher/tmp/ubuntu-cloud-image-changelog-0.9.7.tar.gz]
+[2024-04-12 10:32:01] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Remove: archive file [/home/abi/fetcher/tmp/ubuntu-cloud-image-changelog-0.9.8.tar.gz]
+[2024-04-12 10:32:01] INFO root fetch - main [MainThread]: End processing [ubuntu-cloud-image-changelog]: success
+[2024-04-12 10:32:01] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.8.tar.gz]
+[2024-04-12 10:32:01] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.9.tar.gz]
+[2024-04-12 10:32:01] INFO root fetch - main [MainThread]: End processing [paradance]: success
+[2024-04-12 10:32:02] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-12 10:32:02] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-12 10:32:02] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-12 10:32:02] INFO root fetch - processPackages [km3db]: Remove: archive file [/home/abi/fetcher/tmp/km3db-0.8.0.tar.gz]
+[2024-04-12 10:32:02] INFO root fetch - processPackages [km3db]: Remove: archive file [/home/abi/fetcher/tmp/km3db-0.9.0.tar.gz]
+[2024-04-12 10:32:02] INFO root fetch - main [MainThread]: End processing [km3db]: success
+[2024-04-12 10:32:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404111805.tar.gz]
+[2024-04-12 10:32:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404120607.tar.gz]
+[2024-04-12 10:32:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-12 10:33:15] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip]
+[2024-04-12 10:33:15] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-12 10:33:15] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-12 10:33:15] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-12 10:33:15] INFO root fetch - main [MainThread]: Store serial: [22734894]
