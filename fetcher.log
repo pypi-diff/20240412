@@ -17687,3 +17687,36 @@
 [2024-04-12 10:03:05] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.8.tar.gz]
 [2024-04-12 10:03:05] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
 [2024-04-12 10:03:05] INFO root fetch - main [MainThread]: Store serial: [22734545]
+[2024-04-12 10:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734545]
+[2024-04-12 10:05:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 10:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfun
+[2024-04-12 10:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: misleep
+[2024-04-12 10:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zeroset
+[2024-04-12 10:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reqarg
+[2024-04-12 10:05:14] WARNING root fetch - processPackages [reqarg]: Skipping, unable to determine old version
+[2024-04-12 10:05:14] INFO root fetch - processPackages [zeroset]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 10:05:14] INFO root fetch - main [MainThread]: End processing [reqarg] error
+[2024-04-12 10:05:14] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240411] Old Version: [0.0.2.dev20240410]
+[2024-04-12 10:05:14] INFO root fetch - processPackages [zeroset]: Downloading https://files.pythonhosted.org/packages/ff/2d/40eacb38514783acac9295214a45e717983e8c1ee1b9ea1883f301146cad/zeroset-0.0.3.tar.gz
+[2024-04-12 10:05:14] INFO root fetch - processPackages [misleep]: New version: [0.1.5b0] Old Version: [0.1.4b0]
+[2024-04-12 10:05:14] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/d9/2c/8c15bc61dfae9149ed340420e1deb85750cb6f56c6d3a3daf4b63d1e1de7/langfun-0.0.2.dev20240410.tar.gz
+[2024-04-12 10:05:14] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/86/80/74295c2985d919123feb5eee5a17a077c953c243125c8a3814b9e9488dff/misleep-0.1.4b0.tar.gz
+[2024-04-12 10:05:15] INFO root fetch - processPackages [zeroset]: Downloading https://files.pythonhosted.org/packages/0d/d3/b739b5f5361df47c8151abf18ec7cef3da09f86d3a80b943d272cc9f28d1/zeroset-0.0.4.tar.gz
+[2024-04-12 10:05:15] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/01/ff/4a6173064adedf95b32fed923f5fe2ff2063527d09667209f146c181b232/langfun-0.0.2.dev20240411.tar.gz
+[2024-04-12 10:05:15] INFO root fetch - processPackages [zeroset]: executing diffoscope
+[2024-04-12 10:05:15] INFO root fetch - processPackages [zeroset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroset-0.0.3.tar.gz tmp/zeroset-0.0.4.tar.gz --markdown 20240412/z/zeroset/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 10:05:15] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-12 10:05:15] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240410.tar.gz tmp/langfun-0.0.2.dev20240411.tar.gz --markdown 20240412/l/langfun/0.0.2.dev20240410-0.0.2.dev20240411/README.md --exclude *.pyd
+[2024-04-12 10:05:15] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/b6/16/fdd6c668f86a9c4de319b9b8881cec7eeee4b3e3313fd0314109730517b0/misleep-0.1.5b0.tar.gz
+[2024-04-12 10:05:15] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-12 10:05:15] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.1.4b0.tar.gz tmp/misleep-0.1.5b0.tar.gz --markdown 20240412/m/misleep/0.1.4b0-0.1.5b0/README.md --exclude *.pyd
+[2024-04-12 10:05:15] INFO root fetch - processPackages [zeroset]: Remove: archive file [/home/abi/fetcher/tmp/zeroset-0.0.3.tar.gz]
+[2024-04-12 10:05:15] INFO root fetch - processPackages [zeroset]: Remove: archive file [/home/abi/fetcher/tmp/zeroset-0.0.4.tar.gz]
+[2024-04-12 10:05:15] INFO root fetch - main [MainThread]: End processing [zeroset]: success
+[2024-04-12 10:05:16] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240410.tar.gz]
+[2024-04-12 10:05:16] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240411.tar.gz]
+[2024-04-12 10:05:16] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-12 10:05:16] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.4b0.tar.gz]
+[2024-04-12 10:05:16] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.5b0.tar.gz]
+[2024-04-12 10:05:16] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-12 10:05:16] INFO root fetch - main [MainThread]: Store serial: [22734557]
