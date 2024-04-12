@@ -12289,3 +12289,42 @@
 [2024-04-12 05:05:53] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.9.0.tar.gz]
 [2024-04-12 05:05:53] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2024-04-12 05:05:53] INFO root fetch - main [MainThread]: Store serial: [22732085]
+[2024-04-12 05:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732085]
+[2024-04-12 05:08:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-screen-stats
+[2024-04-12 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DSSE
+[2024-04-12 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcvectordb
+[2024-04-12 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DESlib
+[2024-04-12 05:08:02] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 05:08:02] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-04-12 05:08:03] INFO root fetch - processPackages [tcvectordb]: New version: [1.3.2] Old Version: [1.3.0]
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DESlib]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DSSE]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-12 05:08:03] INFO root fetch - processPackages [tcvectordb]: Downloading https://files.pythonhosted.org/packages/5c/b0/6257fd1992c97c6cb75576758bdb1ef0a538002c7ea03538649905f91cde/tcvectordb-1.3.0.tar.gz
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DESlib]: Downloading https://files.pythonhosted.org/packages/f0/6e/8eddc3bee61f47e7ea99aab77ad39d45e613b0439466326721c3d1cdcc10/DESlib-0.3.6.tar.gz
+[2024-04-12 05:08:03] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DSSE]: Downloading https://files.pythonhosted.org/packages/2e/6e/3f07e0d4a317592ecfd7520408726c205351337d07e9cdd35799ee72f05b/DSSE-0.2.3.tar.gz
+[2024-04-12 05:08:03] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-04-12 05:08:03] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240412/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 05:08:03] INFO root fetch - processPackages [tcvectordb]: Downloading https://files.pythonhosted.org/packages/11/d2/c5c4349cdb09dbcfeed3d337b85c1fded53c49f489d9768e4b34d3c6de9f/tcvectordb-1.3.2.tar.gz
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DESlib]: Downloading https://files.pythonhosted.org/packages/68/af/8a61b8f298620883d392d1cabe41d5f7ebfeda2edd521f00d897b5de4669/DESlib-0.3.7.tar.gz
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DSSE]: Downloading https://files.pythonhosted.org/packages/c6/f8/ce37e1e70fffb0f3fb0ca26f8c0416dc564b974ea3c5a75971131f2b8b5f/DSSE-0.2.4.tar.gz
+[2024-04-12 05:08:03] INFO root fetch - processPackages [tcvectordb]: executing diffoscope
+[2024-04-12 05:08:03] INFO root fetch - processPackages [tcvectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcvectordb-1.3.0.tar.gz tmp/tcvectordb-1.3.2.tar.gz --markdown 20240412/t/tcvectordb/1.3.0-1.3.2/README.md --exclude *.pyd
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DSSE]: executing diffoscope
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DSSE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DSSE-0.2.3.tar.gz tmp/DSSE-0.2.4.tar.gz --markdown 20240412/D/DSSE/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DESlib]: executing diffoscope
+[2024-04-12 05:08:03] INFO root fetch - processPackages [DESlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DESlib-0.3.6.tar.gz tmp/DESlib-0.3.7.tar.gz --markdown 20240412/D/DESlib/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-12 05:08:04] INFO root fetch - processPackages [tcvectordb]: Remove: archive file [/home/abi/fetcher/tmp/tcvectordb-1.3.0.tar.gz]
+[2024-04-12 05:08:04] INFO root fetch - processPackages [tcvectordb]: Remove: archive file [/home/abi/fetcher/tmp/tcvectordb-1.3.2.tar.gz]
+[2024-04-12 05:08:04] INFO root fetch - main [MainThread]: End processing [tcvectordb]: success
+[2024-04-12 05:08:04] INFO root fetch - processPackages [DSSE]: Remove: archive file [/home/abi/fetcher/tmp/DSSE-0.2.3.tar.gz]
+[2024-04-12 05:08:04] INFO root fetch - processPackages [DSSE]: Remove: archive file [/home/abi/fetcher/tmp/DSSE-0.2.4.tar.gz]
+[2024-04-12 05:08:04] INFO root fetch - main [MainThread]: End processing [DSSE]: success
+[2024-04-12 05:08:04] INFO root fetch - processPackages [DESlib]: Remove: archive file [/home/abi/fetcher/tmp/DESlib-0.3.6.tar.gz]
+[2024-04-12 05:08:04] INFO root fetch - processPackages [DESlib]: Remove: archive file [/home/abi/fetcher/tmp/DESlib-0.3.7.tar.gz]
+[2024-04-12 05:08:04] INFO root fetch - main [MainThread]: End processing [DESlib]: success
+[2024-04-12 05:08:16] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-04-12 05:08:16] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-04-12 05:08:16] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-04-12 05:08:16] INFO root fetch - main [MainThread]: Store serial: [22732097]
