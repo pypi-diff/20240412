@@ -15194,3 +15194,54 @@
 [2024-04-12 08:07:15] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-04-12 08:07:15] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-04-12 08:07:15] INFO root fetch - main [MainThread]: Store serial: [22733296]
+[2024-04-12 08:09:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733296]
+[2024-04-12 08:09:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 08:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu
+[2024-04-12 08:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qcloud-setup
+[2024-04-12 08:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: igniter
+[2024-04-12 08:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snowball-stemmer-wheels
+[2024-04-12 08:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2024-04-12 08:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zzwwjj
+[2024-04-12 08:09:24] INFO root fetch - processPackages [tsugu]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 08:09:24] INFO root fetch - processPackages [igniter]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-12 08:09:24] WARNING root fetch - processPackages [zzwwjj]: Skipping, unable to determine old version
+[2024-04-12 08:09:24] INFO root fetch - main [MainThread]: End processing [zzwwjj] error
+[2024-04-12 08:09:24] INFO root fetch - processPackages [qcloud-setup]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 08:09:24] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/d0/89/72cc1050fe5a3f1a280875d0b3447dbfc70403837299f202f00036d60229/tsugu-0.3.0.tar.gz
+[2024-04-12 08:09:24] INFO root fetch - processPackages [snowball-stemmer-wheels]: New version: [0.1.0rc13] Old Version: [0.1.0rc1]
+[2024-04-12 08:09:24] INFO root fetch - processPackages [kcli]: New version: [99.0.202404120607] Old Version: [99.0.202404111805]
+[2024-04-12 08:09:24] INFO root fetch - processPackages [igniter]: Downloading https://files.pythonhosted.org/packages/19/1a/ee079f87119bceb962d2c242f6942f8f07981865fbfd1849be913f33aec9/igniter-1.0.1.tar.gz
+[2024-04-12 08:09:24] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/fb/56/8c189806712495a41635c775527eb4b3952336d5b3f5b20c5b377c6adc66/qcloud_setup-1.0.8.tar.gz
+[2024-04-12 08:09:24] INFO root fetch - processPackages [snowball-stemmer-wheels]: Downloading https://files.pythonhosted.org/packages/83/ae/31d8f984e0675ddf9b9e30c41fee3922313c59daeb924f894f29853c8457/snowball_stemmer_wheels-0.1.0rc1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 08:09:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/95/a8/ceca20a37834b325b9af1c0411beea599d23adf4a71c8ac02adc9365ea9a/kcli-99.0.202404111805.tar.gz
+[2024-04-12 08:09:24] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/49/56/bc6e8712895fabd5e6fd3a4ae341a4ebd589453b374f9b4e6e638de2722d/tsugu-0.3.1.tar.gz
+[2024-04-12 08:09:24] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-12 08:09:24] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.3.0.tar.gz tmp/tsugu-0.3.1.tar.gz --markdown 20240412/t/tsugu/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-12 08:09:24] INFO root fetch - processPackages [igniter]: Downloading https://files.pythonhosted.org/packages/cc/6c/43b71fe0cc4884171a87a20139b1709fac59f7b2bdb19143f50132901aad/igniter-1.0.2.tar.gz
+[2024-04-12 08:09:24] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/51/e3/46320aa18bcac027394c71063da5617b18d28d359fe1707f290f13c84ab5/qcloud_setup-1.0.9.tar.gz
+[2024-04-12 08:09:24] INFO root fetch - processPackages [igniter]: executing diffoscope
+[2024-04-12 08:09:24] INFO root fetch - processPackages [igniter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igniter-1.0.1.tar.gz tmp/igniter-1.0.2.tar.gz --markdown 20240412/i/igniter/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-12 08:09:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/42/01/4dcf4c76614551d14af63c9e7fc1fdf42318d6c7b0601d3a6cd2b6859e24/kcli-99.0.202404120607.tar.gz
+[2024-04-12 08:09:24] INFO root fetch - processPackages [qcloud-setup]: executing diffoscope
+[2024-04-12 08:09:24] INFO root fetch - processPackages [qcloud-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_setup-1.0.8.tar.gz tmp/qcloud_setup-1.0.9.tar.gz --markdown 20240412/q/qcloud-setup/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 08:09:24] INFO root fetch - processPackages [snowball-stemmer-wheels]: Downloading https://files.pythonhosted.org/packages/e6/dc/2a30829c123587d8b61891fdef752215d363609a082b0ac7a57f40cdd256/snowball_stemmer_wheels-0.1.0rc13-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 08:09:25] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-12 08:09:25] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404111805.tar.gz tmp/kcli-99.0.202404120607.tar.gz --markdown 20240412/k/kcli/99.0.202404111805-99.0.202404120607/README.md --exclude *.pyd
+[2024-04-12 08:09:25] INFO root fetch - processPackages [snowball-stemmer-wheels]: executing diffoscope
+[2024-04-12 08:09:25] INFO root fetch - processPackages [snowball-stemmer-wheels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowball_stemmer_wheels-0.1.0rc1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/snowball_stemmer_wheels-0.1.0rc13-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240412/s/snowball-stemmer-wheels/0.1.0rc1-0.1.0rc13/README.md --exclude *.pyd
+[2024-04-12 08:09:25] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.0.tar.gz]
+[2024-04-12 08:09:25] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.1.tar.gz]
+[2024-04-12 08:09:25] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-12 08:09:25] INFO root fetch - processPackages [igniter]: Remove: archive file [/home/abi/fetcher/tmp/igniter-1.0.1.tar.gz]
+[2024-04-12 08:09:25] INFO root fetch - processPackages [igniter]: Remove: archive file [/home/abi/fetcher/tmp/igniter-1.0.2.tar.gz]
+[2024-04-12 08:09:25] INFO root fetch - main [MainThread]: End processing [igniter]: success
+[2024-04-12 08:09:25] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.8.tar.gz]
+[2024-04-12 08:09:25] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.9.tar.gz]
+[2024-04-12 08:09:25] INFO root fetch - main [MainThread]: End processing [qcloud-setup]: success
+[2024-04-12 08:09:25] INFO root fetch - processPackages [snowball-stemmer-wheels]: Remove: archive file [/home/abi/fetcher/tmp/snowball_stemmer_wheels-0.1.0rc1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 08:09:25] INFO root fetch - processPackages [snowball-stemmer-wheels]: Remove: archive file [/home/abi/fetcher/tmp/snowball_stemmer_wheels-0.1.0rc13-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 08:09:25] INFO root fetch - main [MainThread]: End processing [snowball-stemmer-wheels]: success
+[2024-04-12 08:09:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404111805.tar.gz]
+[2024-04-12 08:09:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404120607.tar.gz]
+[2024-04-12 08:09:27] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-12 08:09:27] INFO root fetch - main [MainThread]: Store serial: [22733320]
