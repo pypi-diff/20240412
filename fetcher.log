@@ -12525,3 +12525,67 @@
 [2024-04-12 05:14:54] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-04-12 05:14:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
 [2024-04-12 05:14:54] INFO root fetch - main [MainThread]: Store serial: [22732231]
+[2024-04-12 05:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732231]
+[2024-04-12 05:17:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 05:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-contract
+[2024-04-12 05:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: l2m2
+[2024-04-12 05:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-product-contract
+[2024-04-12 05:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-contract
+[2024-04-12 05:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dlsia
+[2024-04-12 05:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-field-logger
+[2024-04-12 05:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansar-connect
+[2024-04-12 05:17:03] INFO root fetch - processPackages [odoo-addon-contract]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-12 05:17:03] INFO root fetch - processPackages [l2m2]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 05:17:03] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-04-12 05:17:03] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.138] Old Version: [0.1.137]
+[2024-04-12 05:17:03] INFO root fetch - processPackages [odoo-addon-contract]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-12 05:17:03] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/64/58/f1e2cf0232202175f8076f101a247cac8a81399024a3147930dc7b81a523/odoo_addon_contract-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-12 05:17:03] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/41/e7/cff6095825909b6bc4ceddd7b1253749756a12335a422f49fba516c1d602/l2m2-0.0.5.tar.gz
+[2024-04-12 05:17:03] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/72/72/8338d994a13b1d015bb1f2daa56535f3e9d4517545d1244dff16cf4df355/django-field-logger-0.0.23.tar.gz
+[2024-04-12 05:17:03] INFO root fetch - processPackages [dlsia]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 05:17:03] INFO root fetch - processPackages [odoo14-addon-product-contract]: New version: [14.0.1.2.1.dev3] Old Version: [14.0.1.2.1.dev2]
+[2024-04-12 05:17:03] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/71/80/4c4ad193a8d49435ccc902d68585a81e19a3b30e1515e048857e05057bc9/ansar-connect-0.1.137.tar.gz
+[2024-04-12 05:17:03] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/64/58/f1e2cf0232202175f8076f101a247cac8a81399024a3147930dc7b81a523/odoo_addon_contract-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/74/9f/7c8206f195995b8fac151155434000091ae32ad6cdc02a2d5d258318fab2/odoo14_addon_product_contract-14.0.1.2.1.dev2-py3-none-any.whl
+[2024-04-12 05:17:04] INFO root fetch - processPackages [dlsia]: Downloading https://files.pythonhosted.org/packages/0d/78/931178b325b867f1a0f8b02b78d027fe6a1d1d9d995a46decaab7ee05be3/dlsia-0.3.0.tar.gz
+[2024-04-12 05:17:04] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/39/1a/6ed63371e37620eab8a5d74632dce523341a96d38c6800c7c659dedd5b6e/django-field-logger-0.0.24.tar.gz
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/8d/bb/d50afb515c3e56d260410ab0eed49105077b7c0316a7b91477341751c96b/odoo_addon_contract-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/8d/bb/d50afb515c3e56d260410ab0eed49105077b7c0316a7b91477341751c96b/odoo_addon_contract-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-12 05:17:04] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-12 05:17:04] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-field-logger-0.0.23.tar.gz tmp/django-field-logger-0.0.24.tar.gz --markdown 20240412/d/django-field-logger/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-04-12 05:17:04] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/22/1d/2a2cabc295a71828411aad9a828f66e8dc673ce8e37b79cc56c53c376a71/l2m2-0.0.6.tar.gz
+[2024-04-12 05:17:04] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/ea/d1/e9d52af8c3b1164fbe7c4f2e18f253163ca0bf9ec4e707221b9cd9f4f851/ansar-connect-0.1.138.tar.gz
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/5b/dd/b907ff8b2552cf7247edc79c8bb506c10c108233ba82141b0bce0776fef3/odoo14_addon_product_contract-14.0.1.2.1.dev3-py3-none-any.whl
+[2024-04-12 05:17:04] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-04-12 05:17:04] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.5.tar.gz tmp/l2m2-0.0.6.tar.gz --markdown 20240412/l/l2m2/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_contract-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-contract/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-12 05:17:04] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-12 05:17:04] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-connect-0.1.137.tar.gz tmp/ansar-connect-0.1.138.tar.gz --markdown 20240412/a/ansar-connect/0.1.137-0.1.138/README.md --exclude *.pyd
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_contract-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-contract/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo14-addon-product-contract]: executing diffoscope
+[2024-04-12 05:17:04] INFO root fetch - processPackages [odoo14-addon-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_contract-14.0.1.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_product_contract-14.0.1.2.1.dev3-py3-none-any.whl.zip --markdown 20240412/o/odoo14-addon-product-contract/14.0.1.2.1.dev2-14.0.1.2.1.dev3/README.md --exclude *.pyd
+[2024-04-12 05:17:04] INFO root fetch - processPackages [dlsia]: Downloading https://files.pythonhosted.org/packages/63/a6/58e55ff23394b6afab804a234250d129fe3b1a4d2170fbcaf8947d1d26fd/dlsia-0.3.1.tar.gz
+[2024-04-12 05:17:04] INFO root fetch - processPackages [dlsia]: executing diffoscope
+[2024-04-12 05:17:04] INFO root fetch - processPackages [dlsia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlsia-0.3.0.tar.gz tmp/dlsia-0.3.1.tar.gz --markdown 20240412/d/dlsia/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-12 05:17:04] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.23.tar.gz]
+[2024-04-12 05:17:04] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.24.tar.gz]
+[2024-04-12 05:17:04] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-12 05:17:05] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.5.tar.gz]
+[2024-04-12 05:17:05] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.6.tar.gz]
+[2024-04-12 05:17:05] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-04-12 05:17:05] INFO root fetch - processPackages [odoo14-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_contract-14.0.1.2.1.dev2-py3-none-any.whl.zip]
+[2024-04-12 05:17:05] INFO root fetch - processPackages [odoo14-addon-product-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_contract-14.0.1.2.1.dev3-py3-none-any.whl.zip]
+[2024-04-12 05:17:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-contract]: success
+[2024-04-12 05:17:05] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.137.tar.gz]
+[2024-04-12 05:17:05] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.138.tar.gz]
+[2024-04-12 05:17:05] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-12 05:17:05] INFO root fetch - processPackages [dlsia]: Remove: archive file [/home/abi/fetcher/tmp/dlsia-0.3.0.tar.gz]
+[2024-04-12 05:17:05] INFO root fetch - processPackages [dlsia]: Remove: archive file [/home/abi/fetcher/tmp/dlsia-0.3.1.tar.gz]
+[2024-04-12 05:17:05] INFO root fetch - main [MainThread]: End processing [dlsia]: success
+[2024-04-12 05:17:08] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-12 05:17:08] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-12 05:17:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2024-04-12 05:17:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2024-04-12 05:17:08] INFO root fetch - main [MainThread]: Store serial: [22732248]
