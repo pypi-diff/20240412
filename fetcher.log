@@ -12049,3 +12049,24 @@
 [2024-04-12 04:46:21] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-5.2.0-py3-none-manylinux_2_27_aarch64.whl.zip]
 [2024-04-12 04:46:21] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
 [2024-04-12 04:46:21] INFO root fetch - main [MainThread]: Store serial: [22731974]
+[2024-04-12 04:48:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731974]
+[2024-04-12 04:48:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 04:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datascope-experiments
+[2024-04-12 04:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neoval-py-utils
+[2024-04-12 04:48:29] INFO root fetch - processPackages [neoval-py-utils]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 04:48:29] INFO root fetch - processPackages [datascope-experiments]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 04:48:30] INFO root fetch - processPackages [neoval-py-utils]: Downloading https://files.pythonhosted.org/packages/9a/64/c48ecaad7485a1c8f45cecc5df3a0ac6c005d0ebbecf74893ec49ed75030/neoval_py_utils-0.3.0.tar.gz
+[2024-04-12 04:48:30] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/45/04/38d90a22277d9e206a1f680f99cbfda58ca9cb856a5fdfdcee40e032f0e8/datascope-experiments-0.0.8.tar.gz
+[2024-04-12 04:48:30] INFO root fetch - processPackages [neoval-py-utils]: Downloading https://files.pythonhosted.org/packages/6b/11/5d8b7bea04b1f4c14de18a4965cc6ff4329dbd48da12645c8b6e691d9871/neoval_py_utils-0.3.1.tar.gz
+[2024-04-12 04:48:30] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/b1/bc/05ddc96ba1314c3a59709691d24646790023b2b8b38620c39e9ae4412371/datascope-experiments-0.0.9.tar.gz
+[2024-04-12 04:48:30] INFO root fetch - processPackages [neoval-py-utils]: executing diffoscope
+[2024-04-12 04:48:30] INFO root fetch - processPackages [neoval-py-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neoval_py_utils-0.3.0.tar.gz tmp/neoval_py_utils-0.3.1.tar.gz --markdown 20240412/n/neoval-py-utils/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-12 04:48:30] INFO root fetch - processPackages [datascope-experiments]: executing diffoscope
+[2024-04-12 04:48:30] INFO root fetch - processPackages [datascope-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-experiments-0.0.8.tar.gz tmp/datascope-experiments-0.0.9.tar.gz --markdown 20240412/d/datascope-experiments/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 04:48:31] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.8.tar.gz]
+[2024-04-12 04:48:31] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.9.tar.gz]
+[2024-04-12 04:48:31] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
+[2024-04-12 04:48:31] INFO root fetch - processPackages [neoval-py-utils]: Remove: archive file [/home/abi/fetcher/tmp/neoval_py_utils-0.3.0.tar.gz]
+[2024-04-12 04:48:31] INFO root fetch - processPackages [neoval-py-utils]: Remove: archive file [/home/abi/fetcher/tmp/neoval_py_utils-0.3.1.tar.gz]
+[2024-04-12 04:48:31] INFO root fetch - main [MainThread]: End processing [neoval-py-utils]: success
+[2024-04-12 04:48:31] INFO root fetch - main [MainThread]: Store serial: [22731986]
