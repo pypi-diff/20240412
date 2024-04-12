@@ -12800,3 +12800,42 @@
 [2024-04-12 05:31:41] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python-tgpt-0.6.0.tar.gz]
 [2024-04-12 05:31:41] INFO root fetch - main [MainThread]: End processing [python-tgpt]: success
 [2024-04-12 05:31:41] INFO root fetch - main [MainThread]: Store serial: [22732315]
+[2024-04-12 05:33:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732315]
+[2024-04-12 05:33:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 05:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs.threads
+[2024-04-12 05:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vidsrc-search
+[2024-04-12 05:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpop
+[2024-04-12 05:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: b2sim
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cpop]: New version: [33.0.1] Old Version: [33.0.0]
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cs.threads]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 05:33:51] INFO root fetch - processPackages [vidsrc-search]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-12 05:33:51] INFO root fetch - processPackages [b2sim]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/29/67/b8da4061cc7001f24298233a0779b96c0fb48e9f7b37e946fa518889a050/cpop-33.0.0.tar.gz
+[2024-04-12 05:33:51] INFO root fetch - processPackages [vidsrc-search]: Downloading https://files.pythonhosted.org/packages/74/6b/91c876ae0083b8adb0f8d0351990de8fe55dd80c21630217d8c466cddfdf/vidsrc-search-0.1.5.tar.gz
+[2024-04-12 05:33:51] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/1e/41/06ca0f4ddfd4f1548711fd0725e8dafb86300cfff8b7611bcda7ba8b8d70/b2sim-2.1.2.tar.gz
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cs.threads]: Downloading https://files.pythonhosted.org/packages/87/a4/fb18869e26770f2db1d2cd616a0b43eaadf62b7acb02ca838a6053e173bf/cs.threads-20240316.tar.gz
+[2024-04-12 05:33:51] INFO root fetch - processPackages [vidsrc-search]: Downloading https://files.pythonhosted.org/packages/62/63/6ff340dfb054af2c3fe24284a154879e3017a23f17b99a06c5609b2f3ae6/vidsrc-search-0.2.0.tar.gz
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/8c/c5/90dede1f7a2fd3e68c3fadcee06d983e6cb1c59e6a5f183c4d87f4337677/cpop-33.0.1.tar.gz
+[2024-04-12 05:33:51] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/3d/ad/4739b7bac9499c8514e49ba1a9595fa91063c10f3cc6d29fdf3205e36abf/b2sim-2.1.3-py3-none-any.whl
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cs.threads]: Downloading https://files.pythonhosted.org/packages/9b/d6/9518ec11602c048eb61bf9c8531fda4e6ba2ecf4f426da2a243ded58f5b3/cs.threads-20240412.tar.gz
+[2024-04-12 05:33:51] INFO root fetch - processPackages [vidsrc-search]: executing diffoscope
+[2024-04-12 05:33:51] INFO root fetch - processPackages [vidsrc-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidsrc-search-0.1.5.tar.gz tmp/vidsrc-search-0.2.0.tar.gz --markdown 20240412/v/vidsrc-search/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-33.0.0.tar.gz tmp/cpop-33.0.1.tar.gz --markdown 20240412/c/cpop/33.0.0-33.0.1/README.md --exclude *.pyd
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cs.threads]: executing diffoscope
+[2024-04-12 05:33:51] INFO root fetch - processPackages [cs.threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.threads-20240316.tar.gz tmp/cs.threads-20240412.tar.gz --markdown 20240412/c/cs.threads/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 05:33:51] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2024-04-12 05:33:51] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-2.1.2.tar.gz tmp/b2sim-2.1.3-py3-none-any.whl.zip --markdown 20240412/b/b2sim/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-12 05:33:52] INFO root fetch - processPackages [vidsrc-search]: Remove: archive file [/home/abi/fetcher/tmp/vidsrc-search-0.1.5.tar.gz]
+[2024-04-12 05:33:52] INFO root fetch - processPackages [vidsrc-search]: Remove: archive file [/home/abi/fetcher/tmp/vidsrc-search-0.2.0.tar.gz]
+[2024-04-12 05:33:52] INFO root fetch - main [MainThread]: End processing [vidsrc-search]: success
+[2024-04-12 05:33:52] INFO root fetch - processPackages [cs.threads]: Remove: archive file [/home/abi/fetcher/tmp/cs.threads-20240316.tar.gz]
+[2024-04-12 05:33:52] INFO root fetch - processPackages [cs.threads]: Remove: archive file [/home/abi/fetcher/tmp/cs.threads-20240412.tar.gz]
+[2024-04-12 05:33:52] INFO root fetch - main [MainThread]: End processing [cs.threads]: success
+[2024-04-12 05:33:52] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-2.1.2.tar.gz]
+[2024-04-12 05:33:52] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-2.1.3-py3-none-any.whl.zip]
+[2024-04-12 05:33:52] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2024-04-12 05:33:52] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-33.0.0.tar.gz]
+[2024-04-12 05:33:52] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-33.0.1.tar.gz]
+[2024-04-12 05:33:52] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-12 05:33:52] INFO root fetch - main [MainThread]: Store serial: [22732330]
