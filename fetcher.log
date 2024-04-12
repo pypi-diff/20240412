@@ -11365,3 +11365,42 @@
 [2024-04-12 03:58:29] INFO root fetch - processPackages [kaggle]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-1.6.9.tar.gz]
 [2024-04-12 03:58:29] INFO root fetch - main [MainThread]: End processing [kaggle]: success
 [2024-04-12 03:58:29] INFO root fetch - main [MainThread]: Store serial: [22731606]
+[2024-04-12 04:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731606]
+[2024-04-12 04:00:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 04:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lxfcode
+[2024-04-12 04:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reskyblock
+[2024-04-12 04:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhdl-pi-if
+[2024-04-12 04:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-dragonfly
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lxfcode]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-12 04:00:38] INFO root fetch - processPackages [reskyblock]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-12 04:00:38] INFO root fetch - processPackages [pyhdl-pi-if]: New version: [0.0.1.8655851045] Old Version: [0.0.1.8636791051]
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/f7/46/e0fc770c24ae3b103e468084748e98f3cdd3f755d7f52e88eabb6531b25d/lxfcode-0.2.2-py2.py3-none-any.whl
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-12 04:00:38] INFO root fetch - processPackages [reskyblock]: Downloading https://files.pythonhosted.org/packages/86/0e/1c89d9cd8336a8f52ca7cacf042ba193dcde4a24af907d512513dd6ce3c0/reskyblock-0.2.2.tar.gz
+[2024-04-12 04:00:38] INFO root fetch - processPackages [pyhdl-pi-if]: Downloading https://files.pythonhosted.org/packages/c4/31/6a52c02cf69cab916236c514aa5ed7ac95b3a06c19966e29f807004fee23/pyhdl_pi_if-0.0.1.8636791051-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/dd/28/777de6410cd2b91e3c36e5620066e4e9163461d16d9e9b9b1328fad08dbe/lxfcode-0.2.3-py2.py3-none-any.whl
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240412/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lxfcode]: executing diffoscope
+[2024-04-12 04:00:38] INFO root fetch - processPackages [lxfcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxfcode-0.2.2-py2.py3-none-any.whl.zip tmp/lxfcode-0.2.3-py2.py3-none-any.whl.zip --markdown 20240412/l/lxfcode/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-12 04:00:38] INFO root fetch - processPackages [pyhdl-pi-if]: Downloading https://files.pythonhosted.org/packages/4e/37/00fab872dd27beca9da528b3196978203355822c4392d492fea2f5e18114/pyhdl_pi_if-0.0.1.8655851045-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 04:00:39] INFO root fetch - processPackages [pyhdl-pi-if]: executing diffoscope
+[2024-04-12 04:00:39] INFO root fetch - processPackages [pyhdl-pi-if]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdl_pi_if-0.0.1.8636791051-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyhdl_pi_if-0.0.1.8655851045-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240412/p/pyhdl-pi-if/0.0.1.8636791051-0.0.1.8655851045/README.md --exclude *.pyd
+[2024-04-12 04:00:39] INFO root fetch - processPackages [reskyblock]: Downloading https://files.pythonhosted.org/packages/f0/35/8d559fe5c10ceee4361ed804ac99d7f0accc757abe6d3c00a02f0fe0e99e/reskyblock-0.2.3.tar.gz
+[2024-04-12 04:00:39] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-12 04:00:39] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-12 04:00:39] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-12 04:00:39] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.2-py2.py3-none-any.whl.zip]
+[2024-04-12 04:00:39] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.3-py2.py3-none-any.whl.zip]
+[2024-04-12 04:00:39] INFO root fetch - main [MainThread]: End processing [lxfcode]: success
+[2024-04-12 04:00:39] INFO root fetch - processPackages [reskyblock]: executing diffoscope
+[2024-04-12 04:00:39] INFO root fetch - processPackages [reskyblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reskyblock-0.2.2.tar.gz tmp/reskyblock-0.2.3.tar.gz --markdown 20240412/r/reskyblock/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-12 04:00:39] INFO root fetch - processPackages [pyhdl-pi-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_pi_if-0.0.1.8636791051-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 04:00:39] INFO root fetch - processPackages [pyhdl-pi-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_pi_if-0.0.1.8655851045-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 04:00:39] INFO root fetch - main [MainThread]: End processing [pyhdl-pi-if]: success
+[2024-04-12 04:00:40] INFO root fetch - processPackages [reskyblock]: Remove: archive file [/home/abi/fetcher/tmp/reskyblock-0.2.2.tar.gz]
+[2024-04-12 04:00:40] INFO root fetch - processPackages [reskyblock]: Remove: archive file [/home/abi/fetcher/tmp/reskyblock-0.2.3.tar.gz]
+[2024-04-12 04:00:40] INFO root fetch - main [MainThread]: End processing [reskyblock]: success
+[2024-04-12 04:00:40] INFO root fetch - main [MainThread]: Store serial: [22731620]
