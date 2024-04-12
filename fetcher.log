@@ -12349,3 +12349,56 @@
 [2024-04-12 05:10:27] INFO root fetch - processPackages [chiefgram]: Remove: archive file [/home/abi/fetcher/tmp/chiefgram-3.5.tar.gz]
 [2024-04-12 05:10:27] INFO root fetch - main [MainThread]: End processing [chiefgram]: success
 [2024-04-12 05:10:27] INFO root fetch - main [MainThread]: Store serial: [22732103]
+[2024-04-12 05:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732103]
+[2024-04-12 05:12:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 05:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-12 05:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: generate-core
+[2024-04-12 05:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcery-nightly
+[2024-04-12 05:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmake
+[2024-04-12 05:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastode
+[2024-04-12 05:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xchangelib
+[2024-04-12 05:12:36] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-12 05:12:36] INFO root fetch - processPackages [fastode]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-12 05:12:36] INFO root fetch - processPackages [xchangelib]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 05:12:36] INFO root fetch - processPackages [cmake]: New version: [3.9.6] Old Version: [3.8.2]
+[2024-04-12 05:12:36] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-04-12 05:12:36] INFO root fetch - processPackages [xchangelib]: Downloading https://files.pythonhosted.org/packages/e3/dc/648c8f01511d5d162b4537441bf467950f2e2c838f82eefcb2aba5e17383/xchangelib-0.0.6.tar.gz
+[2024-04-12 05:12:36] INFO root fetch - processPackages [generate-core]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-12 05:12:36] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-12 05:12:36] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-04-12 05:12:36] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-04-12 05:12:37] INFO root fetch - processPackages [fastode]: Downloading https://files.pythonhosted.org/packages/bf/7a/e9e11d36bed3f4d73ec5d0dcd86e3765e89854358de2be2e9970dce85894/fastode-0.1.2.tar.gz
+[2024-04-12 05:12:37] INFO root fetch - processPackages [cmake]: Downloading https://files.pythonhosted.org/packages/4d/ad/19916b99d0f65b090bf3cb24665209a9ddf1a698419d18b2a0e64d609378/cmake-3.8.2.tar.gz
+[2024-04-12 05:12:37] INFO root fetch - processPackages [xchangelib]: Downloading https://files.pythonhosted.org/packages/d0/7c/0d72174c1b934ad2ad797e7ffe15527841e70904bc22276fee58b59139c5/xchangelib-0.0.7.tar.gz
+[2024-04-12 05:12:37] INFO root fetch - processPackages [generate-core]: Downloading https://files.pythonhosted.org/packages/e6/2f/5f09140107b5073dcf1c80d2f525a605c65ec094b86b383ce25f27ed2dc5/generate_core-0.4.2.tar.gz
+[2024-04-12 05:12:37] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-12 05:12:37] INFO root fetch - processPackages [fastode]: Downloading https://files.pythonhosted.org/packages/37/54/c77a1ed03db55496618a9c73347852cf673414b4c20277ab73adee54f45f/fastode-0.1.3.tar.gz
+[2024-04-12 05:12:37] INFO root fetch - processPackages [xchangelib]: executing diffoscope
+[2024-04-12 05:12:37] INFO root fetch - processPackages [xchangelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchangelib-0.0.6.tar.gz tmp/xchangelib-0.0.7.tar.gz --markdown 20240412/x/xchangelib/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 05:12:37] INFO root fetch - processPackages [fastode]: executing diffoscope
+[2024-04-12 05:12:37] INFO root fetch - processPackages [fastode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastode-0.1.2.tar.gz tmp/fastode-0.1.3.tar.gz --markdown 20240412/f/fastode/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-12 05:12:37] INFO root fetch - processPackages [cmake]: Downloading https://files.pythonhosted.org/packages/d8/89/79dc57c6fa77f314917d2168e96bdd61c7349a101c4720421e50576c894e/cmake-3.9.6.tar.gz
+[2024-04-12 05:12:37] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-12 05:12:37] INFO root fetch - processPackages [generate-core]: Downloading https://files.pythonhosted.org/packages/ef/dd/55bb8f9cefa77fd54e62bc477a76a9611a75741fa6e75ff3422f1bc44dff/generate_core-0.4.3.tar.gz
+[2024-04-12 05:12:37] INFO root fetch - processPackages [cmake]: executing diffoscope
+[2024-04-12 05:12:37] INFO root fetch - processPackages [cmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmake-3.8.2.tar.gz tmp/cmake-3.9.6.tar.gz --markdown 20240412/c/cmake/3.8.2-3.9.6/README.md --exclude *.pyd
+[2024-04-12 05:12:37] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-12 05:12:37] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240412/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-12 05:12:37] INFO root fetch - processPackages [generate-core]: executing diffoscope
+[2024-04-12 05:12:37] INFO root fetch - processPackages [generate-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_core-0.4.2.tar.gz tmp/generate_core-0.4.3.tar.gz --markdown 20240412/g/generate-core/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-12 05:12:37] INFO root fetch - processPackages [xchangelib]: Remove: archive file [/home/abi/fetcher/tmp/xchangelib-0.0.6.tar.gz]
+[2024-04-12 05:12:37] INFO root fetch - processPackages [xchangelib]: Remove: archive file [/home/abi/fetcher/tmp/xchangelib-0.0.7.tar.gz]
+[2024-04-12 05:12:37] INFO root fetch - main [MainThread]: End processing [xchangelib]: success
+[2024-04-12 05:12:37] INFO root fetch - processPackages [fastode]: Remove: archive file [/home/abi/fetcher/tmp/fastode-0.1.2.tar.gz]
+[2024-04-12 05:12:37] INFO root fetch - processPackages [fastode]: Remove: archive file [/home/abi/fetcher/tmp/fastode-0.1.3.tar.gz]
+[2024-04-12 05:12:37] INFO root fetch - main [MainThread]: End processing [fastode]: success
+[2024-04-12 05:12:38] INFO root fetch - processPackages [cmake]: Remove: archive file [/home/abi/fetcher/tmp/cmake-3.8.2.tar.gz]
+[2024-04-12 05:12:38] INFO root fetch - processPackages [cmake]: Remove: archive file [/home/abi/fetcher/tmp/cmake-3.9.6.tar.gz]
+[2024-04-12 05:12:38] INFO root fetch - main [MainThread]: End processing [cmake]: success
+[2024-04-12 05:12:38] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-12 05:12:38] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-12 05:12:38] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-12 05:12:38] INFO root fetch - processPackages [generate-core]: Remove: archive file [/home/abi/fetcher/tmp/generate_core-0.4.2.tar.gz]
+[2024-04-12 05:12:38] INFO root fetch - processPackages [generate-core]: Remove: archive file [/home/abi/fetcher/tmp/generate_core-0.4.3.tar.gz]
+[2024-04-12 05:12:38] INFO root fetch - main [MainThread]: End processing [generate-core]: success
+[2024-04-12 05:12:38] INFO root fetch - main [MainThread]: Store serial: [22732129]
