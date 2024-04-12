@@ -11819,3 +11819,33 @@
 [2024-04-12 04:32:21] INFO root fetch - processPackages [blue-krill]: Remove: archive file [/home/abi/fetcher/tmp/blue_krill-2.0.4.tar.gz]
 [2024-04-12 04:32:21] INFO root fetch - main [MainThread]: End processing [blue-krill]: success
 [2024-04-12 04:32:21] INFO root fetch - main [MainThread]: Store serial: [22731866]
+[2024-04-12 04:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731866]
+[2024-04-12 04:34:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-flux
+[2024-04-12 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs.context
+[2024-04-12 04:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Lires
+[2024-04-12 04:34:29] INFO root fetch - processPackages [python-flux]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-12 04:34:29] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/90/cf/cc74c7e4738bffd0c824e097e6dc656d868b3864aaac5656cd1d84560adc/python-flux-0.8.4.tar.gz
+[2024-04-12 04:34:29] INFO root fetch - processPackages [Lires]: New version: [1.7.5] Old Version: [1.7.4]
+[2024-04-12 04:34:29] INFO root fetch - processPackages [cs.context]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 04:34:30] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/41/0c/a30d9fc0e8290358f3c35e92a3cc2b5169eee65f57566ec14975fab275a9/python_flux-0.9.0.tar.gz
+[2024-04-12 04:34:30] INFO root fetch - processPackages [cs.context]: Downloading https://files.pythonhosted.org/packages/5c/5f/ece5ae79fffe37846c7eb51932a1013129bc6562458d6f8930795e08633a/cs.context-20240316.tar.gz
+[2024-04-12 04:34:30] INFO root fetch - processPackages [Lires]: Downloading https://files.pythonhosted.org/packages/39/c5/82382e216588268629e365ae0b664ff0bbe7b431657674b926315eb63e20/Lires-1.7.4.tar.gz
+[2024-04-12 04:34:30] INFO root fetch - processPackages [python-flux]: executing diffoscope
+[2024-04-12 04:34:30] INFO root fetch - processPackages [python-flux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-flux-0.8.4.tar.gz tmp/python_flux-0.9.0.tar.gz --markdown 20240412/p/python-flux/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-12 04:34:30] INFO root fetch - processPackages [cs.context]: Downloading https://files.pythonhosted.org/packages/0a/42/0722b3b34cb5d455acc6d5ba81b9b02fd260240f25a6cad61aa2d7b24a87/cs.context-20240412.tar.gz
+[2024-04-12 04:34:30] INFO root fetch - processPackages [cs.context]: executing diffoscope
+[2024-04-12 04:34:30] INFO root fetch - processPackages [cs.context]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.context-20240316.tar.gz tmp/cs.context-20240412.tar.gz --markdown 20240412/c/cs.context/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 04:34:30] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python-flux-0.8.4.tar.gz]
+[2024-04-12 04:34:30] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-0.9.0.tar.gz]
+[2024-04-12 04:34:30] INFO root fetch - main [MainThread]: End processing [python-flux]: success
+[2024-04-12 04:34:30] INFO root fetch - processPackages [Lires]: Downloading https://files.pythonhosted.org/packages/55/66/d3a63acb74d935a43ad3ec6d1698a2f90e46e3e09830e0447c2476975282/Lires-1.7.5.tar.gz
+[2024-04-12 04:34:31] INFO root fetch - processPackages [cs.context]: Remove: archive file [/home/abi/fetcher/tmp/cs.context-20240316.tar.gz]
+[2024-04-12 04:34:31] INFO root fetch - processPackages [cs.context]: Remove: archive file [/home/abi/fetcher/tmp/cs.context-20240412.tar.gz]
+[2024-04-12 04:34:31] INFO root fetch - main [MainThread]: End processing [cs.context]: success
+[2024-04-12 04:34:31] INFO root fetch - processPackages [Lires]: executing diffoscope
+[2024-04-12 04:34:31] INFO root fetch - processPackages [Lires]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lires-1.7.4.tar.gz tmp/Lires-1.7.5.tar.gz --markdown 20240412/L/Lires/1.7.4-1.7.5/README.md --exclude *.pyd
+[2024-04-12 04:35:22] INFO root fetch - processPackages [Lires]: Remove: archive file [/home/abi/fetcher/tmp/Lires-1.7.4.tar.gz]
+[2024-04-12 04:35:22] INFO root fetch - processPackages [Lires]: Remove: archive file [/home/abi/fetcher/tmp/Lires-1.7.5.tar.gz]
+[2024-04-12 04:35:22] INFO root fetch - main [MainThread]: End processing [Lires]: success
+[2024-04-12 04:35:22] INFO root fetch - main [MainThread]: Store serial: [22731875]
