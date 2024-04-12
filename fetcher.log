@@ -13570,3 +13570,36 @@
 [2024-04-12 06:26:46] WARNING root fetch - processPackages [sqlmesh]: Skipping package: exceeds size limit 14323294>=10485760
 [2024-04-12 06:26:46] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
 [2024-04-12 06:26:46] INFO root fetch - main [MainThread]: Store serial: [22732675]
+[2024-04-12 06:28:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732675]
+[2024-04-12 06:28:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 06:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finalsa-s3-client
+[2024-04-12 06:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-espresso
+[2024-04-12 06:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trinnov-altitude
+[2024-04-12 06:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nyckel
+[2024-04-12 06:28:55] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 06:28:55] INFO root fetch - processPackages [nyckel]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-12 06:28:55] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/e4/ad/169810413c21e2c593e82ea39ba4c92b32cca2d1928f2f133bdc2dd5774d/trinnov-altitude-0.1.8.tar.gz
+[2024-04-12 06:28:55] WARNING root fetch - processPackages [finalsa-s3-client]: Skipping, unable to determine old version
+[2024-04-12 06:28:55] INFO root fetch - main [MainThread]: End processing [finalsa-s3-client] error
+[2024-04-12 06:28:55] INFO root fetch - processPackages [python-espresso]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-04-12 06:28:55] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/48/85/906ad774f4b3dd7b12b54a26b6b02285a64a1029bc992b4ec2f5103c8fe4/nyckel-0.3.2.tar.gz
+[2024-04-12 06:28:55] INFO root fetch - processPackages [python-espresso]: Downloading https://files.pythonhosted.org/packages/83/93/a003f563f0366302e31634df3aef593e5f9cb99737b6835723f4e9f863c3/python-espresso-1.8.3.tar.gz
+[2024-04-12 06:28:55] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/76/2e/d188a8568df2fbd157a92850369057419ef690d42167df73acfde0838f4e/trinnov-altitude-0.1.9.tar.gz
+[2024-04-12 06:28:55] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/a4/8b/f21de23f604c082d286ad20864173bc3e8313e04ee8cc12d59074bc56f1e/nyckel-0.3.3.tar.gz
+[2024-04-12 06:28:55] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-12 06:28:55] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.8.tar.gz tmp/trinnov-altitude-0.1.9.tar.gz --markdown 20240412/t/trinnov-altitude/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 06:28:56] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2024-04-12 06:28:56] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.3.2.tar.gz tmp/nyckel-0.3.3.tar.gz --markdown 20240412/n/nyckel/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-12 06:28:56] INFO root fetch - processPackages [python-espresso]: Downloading https://files.pythonhosted.org/packages/f7/0a/450af44f210fab7ab4ab880ed5b9254511d1f8580624a1e29837db2f65fb/python-espresso-1.8.4.tar.gz
+[2024-04-12 06:28:56] INFO root fetch - processPackages [python-espresso]: executing diffoscope
+[2024-04-12 06:28:56] INFO root fetch - processPackages [python-espresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-espresso-1.8.3.tar.gz tmp/python-espresso-1.8.4.tar.gz --markdown 20240412/p/python-espresso/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-04-12 06:28:56] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.8.tar.gz]
+[2024-04-12 06:28:56] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.9.tar.gz]
+[2024-04-12 06:28:56] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-12 06:28:56] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.3.2.tar.gz]
+[2024-04-12 06:28:56] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.3.3.tar.gz]
+[2024-04-12 06:28:56] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2024-04-12 06:28:56] INFO root fetch - processPackages [python-espresso]: Remove: archive file [/home/abi/fetcher/tmp/python-espresso-1.8.3.tar.gz]
+[2024-04-12 06:28:56] INFO root fetch - processPackages [python-espresso]: Remove: archive file [/home/abi/fetcher/tmp/python-espresso-1.8.4.tar.gz]
+[2024-04-12 06:28:56] INFO root fetch - main [MainThread]: End processing [python-espresso]: success
+[2024-04-12 06:28:56] INFO root fetch - main [MainThread]: Store serial: [22732689]
