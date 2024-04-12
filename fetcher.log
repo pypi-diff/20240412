@@ -2690,3 +2690,90 @@
 [2024-04-12 02:18:14] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.2.0.tar.gz]
 [2024-04-12 02:18:14] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-04-12 02:18:14] INFO root fetch - main [MainThread]: Store serial: [22728507]
+[2024-04-12 02:20:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728507]
+[2024-04-12 02:20:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-budibase
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nx-cugraph-cu12
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lama2923
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchao-nightly
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rats-processors
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rats-pipelines
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-apps
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nx-cugraph-cu11
+[2024-04-12 02:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-aurora-globaldatabase
+[2024-04-12 02:20:23] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-12 02:20:23] INFO root fetch - processPackages [rats-apps]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-12 02:20:23] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-12 02:20:23] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-12 02:20:23] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-12 02:20:23] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-12 02:20:23] INFO root fetch - processPackages [nx-cugraph-cu12]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:20:23] WARNING root fetch - processPackages [lama2923]: Skipping, unable to determine old version
+[2024-04-12 02:20:23] INFO root fetch - main [MainThread]: End processing [lama2923] error
+[2024-04-12 02:20:23] INFO root fetch - processPackages [rats-processors]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-12 02:20:23] INFO root fetch - processPackages [nx-cugraph-cu11]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:20:23] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/fd/3d/9ac7bf4f5a002f3c5e7d488eb9b7bc9788a85f0a2f9a7910cf6ff07bd2e5/rats_pipelines-0.1.2.dev8-py3-none-any.whl
+[2024-04-12 02:20:23] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/75/fa/bb66e052cb8be630a363579ebf75bc0e9f6af65552f35f7686e7ce9cedf8/rats_apps-0.1.2.dev8-py3-none-any.whl
+[2024-04-12 02:20:23] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a6/7b/990aa2956336107e9272c402ea673b4571912e861b49230e8b209cebb487/rats_processors-0.1.2.dev8-py3-none-any.whl
+[2024-04-12 02:20:23] INFO root fetch - processPackages [nx-cugraph-cu12]: Downloading https://files.pythonhosted.org/packages/9a/19/2bac1f2097c227fc9cc22e54a18745f31a4864fccbb8651e8225774df676/nx-cugraph-cu12-24.2.0.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [nx-cugraph-cu11]: Downloading https://files.pythonhosted.org/packages/81/8a/b520f872c6bb4b3291667bda5b39c691bd92d76bef2ece6a4a868062edf4/nx-cugraph-cu11-24.2.0.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/c6/ef/123a368096a4d4dcec4671218e49b9d8aafdadad684dcaef1a28234060b0/rats_apps-0.1.2.dev9-py3-none-any.whl
+[2024-04-12 02:20:23] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-12 02:20:23] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/e2/8a/f408a3673d0e20732801e857a5f3a110cd2954b1891dc1928cd25b8852aa/rats_pipelines-0.1.2.dev9-py3-none-any.whl
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240412/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-12 02:20:24] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a8/23/c3248b458a79c119a3ada7d2b23b95eced3f1c4c98ac0264b24a94517327/rats_processors-0.1.2.dev9-py3-none-any.whl
+[2024-04-12 02:20:24] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-12 02:20:24] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240412/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-12 02:20:24] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-12 02:20:24] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240412/r/rats-apps/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240412/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-12 02:20:24] INFO root fetch - processPackages [nx-cugraph-cu12]: Downloading https://files.pythonhosted.org/packages/48/6b/31e72bc55ff83d5d59bf8c97054e3a6d76666559c1da3286235f84ef30ce/nx_cugraph_cu12-24.4.0.tar.gz
+[2024-04-12 02:20:24] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-12 02:20:24] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240412/r/rats-pipelines/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240412/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-12 02:20:24] INFO root fetch - processPackages [nx-cugraph-cu11]: Downloading https://files.pythonhosted.org/packages/22/00/b90cee0a13355c7e72a5a42cdd900010f88d4ab81cff1a87c07f9654c21f/nx_cugraph_cu11-24.4.0.tar.gz
+[2024-04-12 02:20:24] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-12 02:20:24] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240412/r/rats-processors/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-12 02:20:24] INFO root fetch - processPackages [nx-cugraph-cu12]: executing diffoscope
+[2024-04-12 02:20:24] INFO root fetch - processPackages [nx-cugraph-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nx-cugraph-cu12-24.2.0.tar.gz tmp/nx_cugraph_cu12-24.4.0.tar.gz --markdown 20240412/n/nx-cugraph-cu12/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:20:24] INFO root fetch - processPackages [nx-cugraph-cu11]: executing diffoscope
+[2024-04-12 02:20:24] INFO root fetch - processPackages [nx-cugraph-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nx-cugraph-cu11-24.2.0.tar.gz tmp/nx_cugraph_cu11-24.4.0.tar.gz --markdown 20240412/n/nx-cugraph-cu11/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-12 02:20:24] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-12 02:20:24] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-12 02:20:24] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-12 02:20:24] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-12 02:20:24] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-12 02:20:24] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-12 02:20:24] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-12 02:20:24] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-12 02:20:25] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-12 02:20:25] INFO root fetch - processPackages [nx-cugraph-cu12]: Remove: archive file [/home/abi/fetcher/tmp/nx-cugraph-cu12-24.2.0.tar.gz]
+[2024-04-12 02:20:25] INFO root fetch - processPackages [nx-cugraph-cu12]: Remove: archive file [/home/abi/fetcher/tmp/nx_cugraph_cu12-24.4.0.tar.gz]
+[2024-04-12 02:20:25] INFO root fetch - main [MainThread]: End processing [nx-cugraph-cu12]: success
+[2024-04-12 02:20:25] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-12 02:20:25] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-12 02:20:25] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-12 02:20:25] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-12 02:20:25] INFO root fetch - processPackages [nx-cugraph-cu11]: Remove: archive file [/home/abi/fetcher/tmp/nx-cugraph-cu11-24.2.0.tar.gz]
+[2024-04-12 02:20:25] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-12 02:20:25] INFO root fetch - processPackages [nx-cugraph-cu11]: Remove: archive file [/home/abi/fetcher/tmp/nx_cugraph_cu11-24.4.0.tar.gz]
+[2024-04-12 02:20:25] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-12 02:20:25] INFO root fetch - main [MainThread]: End processing [nx-cugraph-cu11]: success
+[2024-04-12 02:20:25] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-12 02:20:25] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-12 02:20:25] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-12 02:20:25] INFO root fetch - main [MainThread]: Store serial: [22728533]
