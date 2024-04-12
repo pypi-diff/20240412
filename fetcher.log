@@ -2479,3 +2479,214 @@
 [2024-04-12 02:13:40] INFO root fetch - processPackages [fprime-fpp-to-xml]: Remove: archive file [/home/abi/fetcher/tmp/fprime_fpp_to_xml-2.1.0a7-py3-none-manylinux_2_28_aarch64.whl.zip]
 [2024-04-12 02:13:40] INFO root fetch - main [MainThread]: End processing [fprime-fpp-to-xml]: success
 [2024-04-12 02:13:40] INFO root fetch - main [MainThread]: Store serial: [22728433]
+[2024-04-12 02:18:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728433]
+[2024-04-12 02:18:06] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seeq
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cugraph-pyg-cu12
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-nag
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cugraph-pyg-cu11
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-gitlab-runner
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytorch-ignite
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-skylight
+[2024-04-12 02:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-events-notify
+[2024-04-12 02:18:06] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-12 02:18:06] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.94] Old Version: [2.2.93]
+[2024-04-12 02:18:06] INFO root fetch - processPackages [cugraph-pyg-cu12]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:18:06] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.94] Old Version: [2.2.93]
+[2024-04-12 02:18:07] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240411] Old Version: [0.6.0.dev20240410]
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cugraph-pyg-cu11]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:18:07] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.9.1] Old Version: [4.9.0a1709600505]
+[2024-04-12 02:18:07] INFO root fetch - processPackages [seeq]: New version: [64.2.0] Old Version: [64.1.4]
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3b/aa/053ca79eb0389d2521d3d7572385d45286742ec08445d48fe95add9afea4/cdk-events-notify-2.2.93.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3b/aa/053ca79eb0389d2521d3d7572385d45286742ec08445d48fe95add9afea4/cdk-events-notify-2.2.93.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cugraph-pyg-cu12]: Downloading https://files.pythonhosted.org/packages/88/b7/a71a61478562deb1ce2d7b503b1d206246643ee3d08cae2469678d94a2e8/cugraph-pyg-cu12-24.2.0.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cugraph-pyg-cu11]: Downloading https://files.pythonhosted.org/packages/47/c6/ff8179030571c5c1108d5158c697947140a8cd39a2f100c71ff8c0e58175/cugraph-pyg-cu11-24.2.0.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/19/7b/92436ac4bb57998cdc370f3c3ef34d34c0fdb4f5907084e52741849f0241/pytorch-ignite-0.6.0.dev20240410.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/d2/47/bbee1c12ff1896416f373f07046b8a7e15eca28409e9a7a672c01214c76f/seeq-64.1.4.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/f5/70/02e4a8984b201b842988e123d98828a8b1023a0fe6f592c98fdebdca7506/pulumi_kubernetes-4.9.0a1709600505.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/a2/a7/9c61a2c6bab15bd55363b427bf380afe4595e3d2a43cf3c34d0f22f32dd1/cdk-events-notify-2.2.94.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/a2/a7/9c61a2c6bab15bd55363b427bf380afe4595e3d2a43cf3c34d0f22f32dd1/cdk-events-notify-2.2.94.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cugraph-pyg-cu12]: Downloading https://files.pythonhosted.org/packages/40/5b/88a691a8e9230b3151cfa1ab38b203e81d92360f7232db1de70706a9feda/cugraph_pyg_cu12-24.4.0.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.93.tar.gz tmp/cdk-events-notify-2.2.94.tar.gz --markdown 20240412/c/cdk-events-notify/2.2.93-2.2.94/README.md --exclude *.pyd
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cugraph-pyg-cu11]: Downloading https://files.pythonhosted.org/packages/4e/fe/9fa57b4e2cf4b05eaceabc5e47ac1673531799a56fed4b67940e9a1b6166/cugraph_pyg_cu11-24.4.0.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240412/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.93.tar.gz tmp/cdk-events-notify-2.2.94.tar.gz --markdown 20240412/c/cdk-events-notify/2.2.93-2.2.94/README.md --exclude *.pyd
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240412/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cugraph-pyg-cu12]: executing diffoscope
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cugraph-pyg-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cugraph-pyg-cu12-24.2.0.tar.gz tmp/cugraph_pyg_cu12-24.4.0.tar.gz --markdown 20240412/c/cugraph-pyg-cu12/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:18:07] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/79/29/9d5278befa9711396416f768dbeb381213f708b3881851c39bc3fb747cf9/pytorch-ignite-0.6.0.dev20240411.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/ad/e5/7dc177fb255ab2597c541f700f56d54950e0ebe6688589849e9edc8e41cd/seeq-64.2.0.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cugraph-pyg-cu11]: executing diffoscope
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cugraph-pyg-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cugraph-pyg-cu11-24.2.0.tar.gz tmp/cugraph_pyg_cu11-24.4.0.tar.gz --markdown 20240412/c/cugraph-pyg-cu11/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:18:07] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-04-12 02:18:07] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-12 02:18:07] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240410.tar.gz tmp/pytorch-ignite-0.6.0.dev20240411.tar.gz --markdown 20240412/p/pytorch-ignite/0.6.0.dev20240410-0.6.0.dev20240411/README.md --exclude *.pyd
+[2024-04-12 02:18:07] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-04-12 02:18:07] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-64.1.4.tar.gz tmp/seeq-64.2.0.tar.gz --markdown 20240412/s/seeq/64.1.4-64.2.0/README.md --exclude *.pyd
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240412/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-04-12 02:18:08] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ae/8c/e58bd57f74c8cbc29a99be666c50a014e5a311981c62ce715186a4c80d41/pulumi_kubernetes-4.9.1.tar.gz
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cugraph-pyg-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cugraph-pyg-cu12-24.2.0.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cugraph-pyg-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cugraph_pyg_cu12-24.4.0.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cugraph-pyg-cu12]: Start processing: cugraph-equivariant-cu12
+[2024-04-12 02:18:08] INFO root fetch - main [MainThread]: End processing [cugraph-pyg-cu12]: success
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cugraph-pyg-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cugraph-pyg-cu11-24.2.0.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cugraph-pyg-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cugraph_pyg_cu11-24.4.0.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cugraph-pyg-cu11]: Start processing: speakeasy-client-sdk-python
+[2024-04-12 02:18:08] INFO root fetch - main [MainThread]: End processing [cugraph-pyg-cu11]: success
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.93.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.94.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-events-notify]: Start processing: open-space-toolkit-io
+[2024-04-12 02:18:08] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cugraph-equivariant-cu12]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-events-notify]: Start processing: cugraph-equivariant-cu11
+[2024-04-12 02:18:08] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdktf-gitlab-runner]: Start processing: cdk-common
+[2024-04-12 02:18:08] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-04-12 02:18:08] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.6.5] Old Version: [5.6.4]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [open-space-toolkit-io]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2024-04-12 02:18:08] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz tmp/pulumi_kubernetes-4.9.1.tar.gz --markdown 20240412/p/pulumi-kubernetes/4.9.0a1709600505-4.9.1/README.md --exclude *.pyd
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cugraph-equivariant-cu11]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-nag]: Start processing: datalogs
+[2024-04-12 02:18:08] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cugraph-equivariant-cu12]: Downloading https://files.pythonhosted.org/packages/ef/41/2601f684fc9190e4c8f8c1063d64839713728424a103eea0a142eb9b6690/cugraph-equivariant-cu12-24.2.0.tar.gz
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-04-12 02:18:08] INFO root fetch - processPackages [cdk-skylight]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-12 02:18:08] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-04-12 02:18:08] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/e0/d0/c44d25827e8fb02dc00d3aab4188331cffb31c5ead901a04be5982b8a3f4/speakeasy-client-sdk-python-5.6.4.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [open-space-toolkit-io]: Downloading https://files.pythonhosted.org/packages/81/cd/ecd2d4d911b4314b73a2fdacdd519121fd9f6cadefe83a90e88f53d3b9fc/open_space_toolkit_io-3.0.1-py39-none-manylinux2014_x86_64.whl
+[2024-04-12 02:18:09] WARNING root fetch - processPackages [datalogs]: Skipping, unable to determine old version
+[2024-04-12 02:18:09] INFO root fetch - processPackages [datalogs]: Start processing: cugraph-dgl-cu12
+[2024-04-12 02:18:09] INFO root fetch - main [MainThread]: End processing [datalogs] error
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-equivariant-cu11]: Downloading https://files.pythonhosted.org/packages/66/1e/d5f9ed88aa8eb78004f7bcc149a1d493a23cdd8aad30aad91e7ad36b486b/cugraph-equivariant-cu11-24.2.0.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-dgl-cu12]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-equivariant-cu12]: Downloading https://files.pythonhosted.org/packages/26/06/aea3af482530f2f6ec090ff9abf3311cb778b1ecb8cc900587bc47d6e2ab/cugraph_equivariant_cu12-24.4.0.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240410.tar.gz]
+[2024-04-12 02:18:09] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240411.tar.gz]
+[2024-04-12 02:18:09] INFO root fetch - processPackages [pytorch-ignite]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-12 02:18:09] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-12 02:18:09] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/aa/7790826a471ccaeb28e25ea18aa7ab1c3a8db46b792013dbf8e2061f5d75/speakeasy-client-sdk-python-5.6.5.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-equivariant-cu12]: executing diffoscope
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-equivariant-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cugraph-equivariant-cu12-24.2.0.tar.gz tmp/cugraph_equivariant_cu12-24.4.0.tar.gz --markdown 20240412/c/cugraph-equivariant-cu12/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-dgl-cu12]: Downloading https://files.pythonhosted.org/packages/d1/bf/8f48ff7baaa24c0fda6477ef50bf90997626dfdaab2fe2e816aaa63f1f1c/cugraph-dgl-cu12-24.2.0.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-equivariant-cu11]: Downloading https://files.pythonhosted.org/packages/16/fe/831eaf11ae51aeb3d1e84fe0d7e9d51b8499977e83be3fed782da5871028/cugraph_equivariant_cu11-24.4.0.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-04-12 02:18:09] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.6.4.tar.gz tmp/speakeasy-client-sdk-python-5.6.5.tar.gz --markdown 20240412/s/speakeasy-client-sdk-python/5.6.4-5.6.5/README.md --exclude *.pyd
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-equivariant-cu11]: executing diffoscope
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-equivariant-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cugraph-equivariant-cu11-24.2.0.tar.gz tmp/cugraph_equivariant_cu11-24.4.0.tar.gz --markdown 20240412/c/cugraph-equivariant-cu11/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240412/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-dgl-cu12]: Downloading https://files.pythonhosted.org/packages/7f/07/bbedc0e2a240e24b3c73a023afaea5040d7577b05728377dcfd39cfd4a2c/cugraph_dgl_cu12-24.4.0.tar.gz
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240412/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240412/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-dgl-cu12]: executing diffoscope
+[2024-04-12 02:18:09] INFO root fetch - processPackages [cugraph-dgl-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cugraph-dgl-cu12-24.2.0.tar.gz tmp/cugraph_dgl_cu12-24.4.0.tar.gz --markdown 20240412/c/cugraph-dgl-cu12/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:18:10] INFO root fetch - processPackages [open-space-toolkit-io]: Downloading https://files.pythonhosted.org/packages/7a/de/26b2688d48635b31748e9139882665818404be45d0ca08b33d1497768560/open_space_toolkit_io-3.0.2-py39-none-manylinux2014_x86_64.whl
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-equivariant-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cugraph-equivariant-cu12-24.2.0.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-equivariant-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cugraph_equivariant_cu12-24.4.0.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-equivariant-cu12]: Start processing: walkmate
+[2024-04-12 02:18:10] INFO root fetch - main [MainThread]: End processing [cugraph-equivariant-cu12]: success
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-equivariant-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cugraph-equivariant-cu11-24.2.0.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-equivariant-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cugraph_equivariant_cu11-24.4.0.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-equivariant-cu11]: Start processing: cugraph-dgl-cu11
+[2024-04-12 02:18:10] INFO root fetch - main [MainThread]: End processing [cugraph-equivariant-cu11]: success
+[2024-04-12 02:18:10] INFO root fetch - processPackages [walkmate]: New version: [1.3.1] Old Version: [1.2.2]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Start processing: gen3-tracker
+[2024-04-12 02:18:10] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-dgl-cu11]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [gen3-tracker]: New version: [0.0.3rc1] Old Version: [0.0.2rc9]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-dgl-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cugraph-dgl-cu12-24.2.0.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-dgl-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cugraph_dgl_cu12-24.4.0.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-dgl-cu12]: Start processing: cdklabs.appsync-utils
+[2024-04-12 02:18:10] INFO root fetch - main [MainThread]: End processing [cugraph-dgl-cu12]: success
+[2024-04-12 02:18:10] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/a5/e3/f4a38692501057b03e20276e198339744ffe0fb0b320c907aabb66dfabaf/gen3_tracker-0.0.2rc9.tar.gz
+[2024-04-12 02:18:10] INFO root fetch - processPackages [walkmate]: Downloading https://files.pythonhosted.org/packages/53/01/d6a27113abda2e7985e83a3076aeee80c7394e5c376448e758ad20cb4720/walkmate-1.2.2.tar.gz
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Start processing: cdk-gitlab-runner
+[2024-04-12 02:18:10] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cugraph-dgl-cu11]: Downloading https://files.pythonhosted.org/packages/22/8a/81ab092b088b21a6e478162236357662a23bfd64bcbafc5ee02428be202b/cugraph-dgl-cu11-24.2.0.tar.gz
+[2024-04-12 02:18:10] INFO root fetch - processPackages [open-space-toolkit-io]: executing diffoscope
+[2024-04-12 02:18:10] INFO root fetch - processPackages [open-space-toolkit-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_io-3.0.1-py39-none-manylinux2014_x86_64.whl.zip tmp/open_space_toolkit_io-3.0.2-py39-none-manylinux2014_x86_64.whl.zip --markdown 20240412/o/open-space-toolkit-io/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.6.4.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.6.5.tar.gz]
+[2024-04-12 02:18:10] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-04-12 02:18:10] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/ef/b0/a392e443bb44fc96ee876f86a82c21c18cc9c1a44b9717c25dcae4c94c30/gen3_tracker-0.0.3rc1.tar.gz
+[2024-04-12 02:18:10] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-12 02:18:11] INFO root fetch - processPackages [walkmate]: Downloading https://files.pythonhosted.org/packages/c4/d3/0a38ff729962ebedd9d49e53a212b6a487eab22a7cab5bd7268376860a67/walkmate-1.3.1.tar.gz
+[2024-04-12 02:18:11] INFO root fetch - processPackages [gen3-tracker]: executing diffoscope
+[2024-04-12 02:18:11] INFO root fetch - processPackages [gen3-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_tracker-0.0.2rc9.tar.gz tmp/gen3_tracker-0.0.3rc1.tar.gz --markdown 20240412/g/gen3-tracker/0.0.2rc9-0.0.3rc1/README.md --exclude *.pyd
+[2024-04-12 02:18:11] INFO root fetch - processPackages [walkmate]: executing diffoscope
+[2024-04-12 02:18:11] INFO root fetch - processPackages [walkmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walkmate-1.2.2.tar.gz tmp/walkmate-1.3.1.tar.gz --markdown 20240412/w/walkmate/1.2.2-1.3.1/README.md --exclude *.pyd
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cugraph-dgl-cu11]: Downloading https://files.pythonhosted.org/packages/e1/38/30838d53e27b321b816d71feab1d64dbfe345ba218de4eb3a1ce92f013e9/cugraph_dgl_cu11-24.4.0.tar.gz
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cugraph-dgl-cu11]: executing diffoscope
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cugraph-dgl-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cugraph-dgl-cu11-24.2.0.tar.gz tmp/cugraph_dgl_cu11-24.4.0.tar.gz --markdown 20240412/c/cugraph-dgl-cu11/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240412/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240412/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-12 02:18:11] INFO root fetch - processPackages [open-space-toolkit-io]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_io-3.0.1-py39-none-manylinux2014_x86_64.whl.zip]
+[2024-04-12 02:18:11] INFO root fetch - processPackages [open-space-toolkit-io]: Remove: archive file [/home/abi/fetcher/tmp/open_space_toolkit_io-3.0.2-py39-none-manylinux2014_x86_64.whl.zip]
+[2024-04-12 02:18:11] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-io]: success
+[2024-04-12 02:18:11] INFO root fetch - processPackages [walkmate]: Remove: archive file [/home/abi/fetcher/tmp/walkmate-1.2.2.tar.gz]
+[2024-04-12 02:18:11] INFO root fetch - processPackages [walkmate]: Remove: archive file [/home/abi/fetcher/tmp/walkmate-1.3.1.tar.gz]
+[2024-04-12 02:18:11] INFO root fetch - main [MainThread]: End processing [walkmate]: success
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cugraph-dgl-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cugraph-dgl-cu11-24.2.0.tar.gz]
+[2024-04-12 02:18:11] INFO root fetch - processPackages [cugraph-dgl-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cugraph_dgl_cu11-24.4.0.tar.gz]
+[2024-04-12 02:18:11] INFO root fetch - main [MainThread]: End processing [cugraph-dgl-cu11]: success
+[2024-04-12 02:18:12] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.2rc9.tar.gz]
+[2024-04-12 02:18:12] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.3rc1.tar.gz]
+[2024-04-12 02:18:12] INFO root fetch - main [MainThread]: End processing [gen3-tracker]: success
+[2024-04-12 02:18:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-12 02:18:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-12 02:18:12] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-12 02:18:12] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-12 02:18:12] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-12 02:18:12] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-12 02:18:12] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz]
+[2024-04-12 02:18:12] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
+[2024-04-12 02:18:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2024-04-12 02:18:14] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.1.4.tar.gz]
+[2024-04-12 02:18:14] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.2.0.tar.gz]
+[2024-04-12 02:18:14] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-04-12 02:18:14] INFO root fetch - main [MainThread]: Store serial: [22728507]
