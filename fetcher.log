@@ -11233,3 +11233,60 @@
 [2024-04-12 03:51:58] INFO root fetch - processPackages [altimate-datapilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/altimate-datapilot-cli-0.0.9.tar.gz]
 [2024-04-12 03:51:58] INFO root fetch - main [MainThread]: End processing [altimate-datapilot-cli]: success
 [2024-04-12 03:51:58] INFO root fetch - main [MainThread]: Store serial: [22731559]
+[2024-04-12 03:54:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731559]
+[2024-04-12 03:54:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 03:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-api
+[2024-04-12 03:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ktianc
+[2024-04-12 03:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiavatar
+[2024-04-12 03:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anyon
+[2024-04-12 03:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neo-sapiens
+[2024-04-12 03:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lxfcode
+[2024-04-12 03:54:07] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-12 03:54:07] INFO root fetch - processPackages [ktianc]: New version: [0.3.0] Old Version: [0.1.1]
+[2024-04-12 03:54:07] INFO root fetch - processPackages [aiavatar]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-12 03:54:07] INFO root fetch - processPackages [anyon]: New version: [4.1.7] Old Version: [4.1.6]
+[2024-04-12 03:54:07] INFO root fetch - processPackages [lxfcode]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-12 03:54:07] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-12 03:54:07] INFO root fetch - processPackages [neo-sapiens]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-12 03:54:07] INFO root fetch - processPackages [ktianc]: Downloading https://files.pythonhosted.org/packages/c9/48/7edbb06c2d374b24e4d0be9f5ec0352ad48f3ec91abdd6e5089f6ef67435/ktianc-0.1.1.tar.gz
+[2024-04-12 03:54:07] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/f7/46/e0fc770c24ae3b103e468084748e98f3cdd3f755d7f52e88eabb6531b25d/lxfcode-0.2.2-py2.py3-none-any.whl
+[2024-04-12 03:54:07] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/fc/a8/7181c992be84b95e6a6e4d780902b04a03a2195acc5630dad4dae8f0885f/anyon-4.1.6-cp312-none-win_amd64.whl
+[2024-04-12 03:54:07] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-12 03:54:07] INFO root fetch - processPackages [neo-sapiens]: Downloading https://files.pythonhosted.org/packages/79/1f/60939e6281fb5aa3da84d96e545ef15cff3915e7d3aeed2064eb8e44836f/neo_sapiens-0.0.4.tar.gz
+[2024-04-12 03:54:07] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-12 03:54:07] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240412/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-04-12 03:54:08] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/dd/28/777de6410cd2b91e3c36e5620066e4e9163461d16d9e9b9b1328fad08dbe/lxfcode-0.2.3-py2.py3-none-any.whl
+[2024-04-12 03:54:08] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/ca/38/04bff0bd4299f40fb71d169b349c9144744009f9bdd7588b50d5deb513c4/anyon-4.1.7-cp312-none-win_amd64.whl
+[2024-04-12 03:54:08] INFO root fetch - processPackages [lxfcode]: executing diffoscope
+[2024-04-12 03:54:08] INFO root fetch - processPackages [lxfcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxfcode-0.2.2-py2.py3-none-any.whl.zip tmp/lxfcode-0.2.3-py2.py3-none-any.whl.zip --markdown 20240412/l/lxfcode/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-12 03:54:08] INFO root fetch - processPackages [neo-sapiens]: Downloading https://files.pythonhosted.org/packages/ef/40/d0126ce37aaccd56deaaa9b2d6da874db7d8b248194d92f5c39ce91347dd/neo_sapiens-0.0.5.tar.gz
+[2024-04-12 03:54:08] INFO root fetch - processPackages [ktianc]: Downloading https://files.pythonhosted.org/packages/f7/02/0bd4da9b5cae9d9da117184c54f045a3804ded6be82cb42057828ca40f3a/ktianc-0.3.0.tar.gz
+[2024-04-12 03:54:08] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/4d/cc/48e866fd0df5ab1b13cee741a39c3cded30587d0873c8bb5dad7e1024543/aiavatar-0.4.1-py3-none-any.whl
+[2024-04-12 03:54:08] INFO root fetch - processPackages [neo-sapiens]: executing diffoscope
+[2024-04-12 03:54:08] INFO root fetch - processPackages [neo-sapiens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo_sapiens-0.0.4.tar.gz tmp/neo_sapiens-0.0.5.tar.gz --markdown 20240412/n/neo-sapiens/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-12 03:54:08] INFO root fetch - processPackages [ktianc]: executing diffoscope
+[2024-04-12 03:54:08] INFO root fetch - processPackages [ktianc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktianc-0.1.1.tar.gz tmp/ktianc-0.3.0.tar.gz --markdown 20240412/k/ktianc/0.1.1-0.3.0/README.md --exclude *.pyd
+[2024-04-12 03:54:08] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2024-04-12 03:54:08] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-4.1.6-cp312-none-win_amd64.whl.zip tmp/anyon-4.1.7-cp312-none-win_amd64.whl.zip --markdown 20240412/a/anyon/4.1.6-4.1.7/README.md --exclude *.pyd
+[2024-04-12 03:54:08] INFO root fetch - processPackages [aiavatar]: Downloading https://files.pythonhosted.org/packages/f9/68/8ed273aa471f1ff5d5e78e6f8ca674f599e52713bb58797a0e536e6ee6fe/aiavatar-0.4.2-py3-none-any.whl
+[2024-04-12 03:54:08] INFO root fetch - processPackages [aiavatar]: executing diffoscope
+[2024-04-12 03:54:08] INFO root fetch - processPackages [aiavatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiavatar-0.4.1-py3-none-any.whl.zip tmp/aiavatar-0.4.2-py3-none-any.whl.zip --markdown 20240412/a/aiavatar/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-12 03:54:08] INFO root fetch - processPackages [neo-sapiens]: Remove: archive file [/home/abi/fetcher/tmp/neo_sapiens-0.0.4.tar.gz]
+[2024-04-12 03:54:08] INFO root fetch - processPackages [neo-sapiens]: Remove: archive file [/home/abi/fetcher/tmp/neo_sapiens-0.0.5.tar.gz]
+[2024-04-12 03:54:08] INFO root fetch - main [MainThread]: End processing [neo-sapiens]: success
+[2024-04-12 03:54:09] INFO root fetch - processPackages [ktianc]: Remove: archive file [/home/abi/fetcher/tmp/ktianc-0.1.1.tar.gz]
+[2024-04-12 03:54:09] INFO root fetch - processPackages [ktianc]: Remove: archive file [/home/abi/fetcher/tmp/ktianc-0.3.0.tar.gz]
+[2024-04-12 03:54:09] INFO root fetch - main [MainThread]: End processing [ktianc]: success
+[2024-04-12 03:54:09] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.6-cp312-none-win_amd64.whl.zip]
+[2024-04-12 03:54:09] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-4.1.7-cp312-none-win_amd64.whl.zip]
+[2024-04-12 03:54:09] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2024-04-12 03:54:09] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.2-py2.py3-none-any.whl.zip]
+[2024-04-12 03:54:09] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.3-py2.py3-none-any.whl.zip]
+[2024-04-12 03:54:09] INFO root fetch - main [MainThread]: End processing [lxfcode]: success
+[2024-04-12 03:54:09] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.4.1-py3-none-any.whl.zip]
+[2024-04-12 03:54:09] INFO root fetch - processPackages [aiavatar]: Remove: archive file [/home/abi/fetcher/tmp/aiavatar-0.4.2-py3-none-any.whl.zip]
+[2024-04-12 03:54:09] INFO root fetch - main [MainThread]: End processing [aiavatar]: success
+[2024-04-12 03:54:09] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-12 03:54:09] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-12 03:54:09] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-12 03:54:09] INFO root fetch - main [MainThread]: Store serial: [22731579]
