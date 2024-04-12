@@ -21197,3 +21197,45 @@
 [2024-04-12 11:42:58] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
 [2024-04-12 11:42:58] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
 [2024-04-12 11:42:58] INFO root fetch - main [MainThread]: Store serial: [22736064]
+[2024-04-12 11:45:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22736064]
+[2024-04-12 11:45:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 11:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibm-watson-machine-learning
+[2024-04-12 11:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cefi
+[2024-04-12 11:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumiverse-grafana
+[2024-04-12 11:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kiam-astro
+[2024-04-12 11:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-rate-limiter-for-flask
+[2024-04-12 11:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: home-assistant-frontend
+[2024-04-12 11:45:07] INFO root fetch - processPackages [pulumiverse-grafana]: New version: [0.4.1a1712863719] Old Version: [0.4.1a1712730352]
+[2024-04-12 11:45:07] INFO root fetch - processPackages [kiam-astro]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-04-12 11:45:07] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-12 11:45:07] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20240404.1] Old Version: [20240404.0]
+[2024-04-12 11:45:08] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/1f/e5/79ee26c34a03ec029af235967fa29a57a60a43875e9c873ac4757bfa459c/pulumiverse_grafana-0.4.1a1712730352.tar.gz
+[2024-04-12 11:45:08] INFO root fetch - processPackages [cefi]: New version: [4.5.0] Old Version: [4.4.9]
+[2024-04-12 11:45:08] WARNING root fetch - processPackages [api-rate-limiter-for-flask]: Skipping, unable to determine old version
+[2024-04-12 11:45:08] INFO root fetch - main [MainThread]: End processing [api-rate-limiter-for-flask] error
+[2024-04-12 11:45:08] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/58/40/a775ffda5d16f4fbab37ee9184852d0b9f96e7d7b19db541f8a51082509e/ibm_watson_machine_learning-1.0.96.tar.gz
+[2024-04-12 11:45:08] ERROR root fetch - processPackages [kiam-astro]: Unable to fetch info: No such project/version 'kiam-astro' 5.0.0
+[2024-04-12 11:45:08] INFO root fetch - main [MainThread]: End processing [kiam-astro] error
+[2024-04-12 11:45:08] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/24/cb/bae47dd044182bcf7ae8adf3c1fccca44fa81eb4a9ecf576af925856d106/cefi-4.4.9.tar.gz
+[2024-04-12 11:45:08] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/13/2e/189f196deff24deda3f8de0ce103e4ac3ff147f5813069c53e4db4731114/pulumiverse_grafana-0.4.1a1712863719.tar.gz
+[2024-04-12 11:45:08] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/48/45/3f32e9a705a7e6bf8b19591a86cc7099b54ca88fcf8660798dff04d4e6c2/ibm_watson_machine_learning-1.0.99.tar.gz
+[2024-04-12 11:45:08] INFO root fetch - processPackages [pulumiverse-grafana]: executing diffoscope
+[2024-04-12 11:45:08] INFO root fetch - processPackages [pulumiverse-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_grafana-0.4.1a1712730352.tar.gz tmp/pulumiverse_grafana-0.4.1a1712863719.tar.gz --markdown 20240412/p/pulumiverse-grafana/0.4.1a1712730352-0.4.1a1712863719/README.md --exclude *.pyd
+[2024-04-12 11:45:08] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/6f/ab/28caf70e69d713662cff0ac5ea68119201812bd262af4484567475727021/home_assistant_frontend-20240404.0-py3-none-any.whl
+[2024-04-12 11:45:08] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 55648670>=10485760
+[2024-04-12 11:45:08] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2024-04-12 11:45:08] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2024-04-12 11:45:08] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20240412/i/ibm-watson-machine-learning/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-04-12 11:45:08] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/68/37/9fe2f8ff8ad9511d378c5fcc311f2d241e11a18125e53c3ccc395f787e7b/cefi-4.5.0.tar.gz
+[2024-04-12 11:45:08] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-12 11:45:08] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.4.9.tar.gz tmp/cefi-4.5.0.tar.gz --markdown 20240412/c/cefi/4.4.9-4.5.0/README.md --exclude *.pyd
+[2024-04-12 11:45:09] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.4.9.tar.gz]
+[2024-04-12 11:45:09] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.5.0.tar.gz]
+[2024-04-12 11:45:09] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-12 11:45:09] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.1a1712730352.tar.gz]
+[2024-04-12 11:45:09] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.1a1712863719.tar.gz]
+[2024-04-12 11:45:09] INFO root fetch - main [MainThread]: End processing [pulumiverse-grafana]: success
+[2024-04-12 11:45:11] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.96.tar.gz]
+[2024-04-12 11:45:11] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
+[2024-04-12 11:45:11] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2024-04-12 11:45:11] INFO root fetch - main [MainThread]: Store serial: [22736083]
