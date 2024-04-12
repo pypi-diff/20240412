@@ -13101,3 +13101,65 @@
 [2024-04-12 05:51:20] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.7-py3-none-any.whl.zip]
 [2024-04-12 05:51:20] INFO root fetch - main [MainThread]: End processing [wakautosolver]: success
 [2024-04-12 05:51:20] INFO root fetch - main [MainThread]: Store serial: [22732408]
+[2024-04-12 05:53:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732408]
+[2024-04-12 05:53:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 05:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petrosa
+[2024-04-12 05:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cypartagraphqlsubscriptionstools
+[2024-04-12 05:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-aws
+[2024-04-12 05:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: preprocess-docs
+[2024-04-12 05:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nitric
+[2024-04-12 05:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zen-dash
+[2024-04-12 05:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazyqyweixin
+[2024-04-12 05:53:28] INFO root fetch - processPackages [preprocess-docs]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 05:53:28] INFO root fetch - processPackages [lazyqyweixin]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 05:53:28] INFO root fetch - processPackages [cypartagraphqlsubscriptionstools]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-12 05:53:28] INFO root fetch - processPackages [petrosa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 05:53:28] INFO root fetch - processPackages [lazyqyweixin]: Downloading https://files.pythonhosted.org/packages/f9/3b/80f9ef3c5f6d78e87ab5cb6501913736cc3527cf1b54db12e9596de790e0/lazyqyweixin-0.0.6.tar.gz
+[2024-04-12 05:53:28] INFO root fetch - processPackages [nitric]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-12 05:53:28] INFO root fetch - processPackages [zen-dash]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-12 05:53:28] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-12 05:53:28] INFO root fetch - processPackages [preprocess-docs]: Downloading https://files.pythonhosted.org/packages/38/31/52470181662e7b40f0c80920c1864805b9ff34198d30bb6f3b14f029ddb7/preprocess-docs-0.0.1.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [cypartagraphqlsubscriptionstools]: Downloading https://files.pythonhosted.org/packages/49/a1/c98f73814db66406b2ec49c763c689193a6155409c6ebd3572b364949b66/cypartagraphqlsubscriptionstools-1.1.0.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [lazyqyweixin]: Downloading https://files.pythonhosted.org/packages/c2/e4/f759d5ae9aeb951dc98e054881a95097dc7bb9ad7d738be0c242769b7135/lazyqyweixin-0.0.7.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [petrosa]: Downloading https://files.pythonhosted.org/packages/e6/b9/0d446977c84ba028c6ed2dacf861f0724f3cb58cf628ae8bf9ab062ac258/petrosa-0.0.8.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/42/3a/a46497ee90843009e805a41e8c415c0132a20a8c34ad602fc4fb81127408/nitric-1.0.3.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Downloading https://files.pythonhosted.org/packages/aa/2e/834bb9d56f903b34743b3b8d5766864ad4e2a039b6c88e65b6d835c946e4/cdktf-cdktf-provider-aws-9.0.8.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/32/ad/3ddf45fab9ad1945675fe533031fa6a6db92c519959fa3621ccfd01487fc/zen_dash-0.6.8.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [lazyqyweixin]: executing diffoscope
+[2024-04-12 05:53:29] INFO root fetch - processPackages [lazyqyweixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqyweixin-0.0.6.tar.gz tmp/lazyqyweixin-0.0.7.tar.gz --markdown 20240412/l/lazyqyweixin/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 05:53:29] INFO root fetch - processPackages [preprocess-docs]: Downloading https://files.pythonhosted.org/packages/da/51/6bfd85d9eb78e17079e713775974e46505a467a3726f4bdc1f9b89f2f339/preprocess-docs-0.0.2.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/4b/4b/1cc70ed1392a27623da4c406a10dd42e76cae846cc08637e35dce8417a90/nitric-1.0.4.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [preprocess-docs]: executing diffoscope
+[2024-04-12 05:53:29] INFO root fetch - processPackages [preprocess-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preprocess-docs-0.0.1.tar.gz tmp/preprocess-docs-0.0.2.tar.gz --markdown 20240412/p/preprocess-docs/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 05:53:29] INFO root fetch - processPackages [cypartagraphqlsubscriptionstools]: Downloading https://files.pythonhosted.org/packages/e6/54/16f7f594739f9059ecced2953183c80872539c01a8f4a769ec26354bbd6c/cypartagraphqlsubscriptionstools-1.1.1.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [nitric]: executing diffoscope
+[2024-04-12 05:53:29] INFO root fetch - processPackages [nitric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitric-1.0.3.tar.gz tmp/nitric-1.0.4.tar.gz --markdown 20240412/n/nitric/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-12 05:53:29] INFO root fetch - processPackages [petrosa]: Downloading https://files.pythonhosted.org/packages/44/fe/1f3118a8d146a7e23eec51b4caff69f7fe9aa77052269f8ca078482d6985/petrosa-0.0.9.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [cypartagraphqlsubscriptionstools]: executing diffoscope
+[2024-04-12 05:53:29] INFO root fetch - processPackages [cypartagraphqlsubscriptionstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cypartagraphqlsubscriptionstools-1.1.0.tar.gz tmp/cypartagraphqlsubscriptionstools-1.1.1.tar.gz --markdown 20240412/c/cypartagraphqlsubscriptionstools/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-12 05:53:29] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/88/0c/114eaeb4813b36b96c403736a945532de73335855b80ab0614573f5ff9d2/zen_dash-0.6.9.tar.gz
+[2024-04-12 05:53:29] INFO root fetch - processPackages [lazyqyweixin]: Remove: archive file [/home/abi/fetcher/tmp/lazyqyweixin-0.0.6.tar.gz]
+[2024-04-12 05:53:29] INFO root fetch - processPackages [lazyqyweixin]: Remove: archive file [/home/abi/fetcher/tmp/lazyqyweixin-0.0.7.tar.gz]
+[2024-04-12 05:53:29] INFO root fetch - main [MainThread]: End processing [lazyqyweixin]: success
+[2024-04-12 05:53:29] INFO root fetch - processPackages [preprocess-docs]: Remove: archive file [/home/abi/fetcher/tmp/preprocess-docs-0.0.1.tar.gz]
+[2024-04-12 05:53:29] INFO root fetch - processPackages [preprocess-docs]: Remove: archive file [/home/abi/fetcher/tmp/preprocess-docs-0.0.2.tar.gz]
+[2024-04-12 05:53:29] INFO root fetch - main [MainThread]: End processing [preprocess-docs]: success
+[2024-04-12 05:53:30] INFO root fetch - processPackages [petrosa]: executing diffoscope
+[2024-04-12 05:53:30] INFO root fetch - processPackages [petrosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrosa-0.0.8.tar.gz tmp/petrosa-0.0.9.tar.gz --markdown 20240412/p/petrosa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 05:53:30] WARNING root fetch - processPackages [cdktf-cdktf-provider-aws]: Skipping package: exceeds size limit 23814479>=10485760
+[2024-04-12 05:53:30] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-aws] error
+[2024-04-12 05:53:30] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-1.0.3.tar.gz]
+[2024-04-12 05:53:30] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-1.0.4.tar.gz]
+[2024-04-12 05:53:30] INFO root fetch - main [MainThread]: End processing [nitric]: success
+[2024-04-12 05:53:30] INFO root fetch - processPackages [zen-dash]: executing diffoscope
+[2024-04-12 05:53:30] INFO root fetch - processPackages [zen-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_dash-0.6.8.tar.gz tmp/zen_dash-0.6.9.tar.gz --markdown 20240412/z/zen-dash/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-12 05:53:30] INFO root fetch - processPackages [cypartagraphqlsubscriptionstools]: Remove: archive file [/home/abi/fetcher/tmp/cypartagraphqlsubscriptionstools-1.1.0.tar.gz]
+[2024-04-12 05:53:30] INFO root fetch - processPackages [cypartagraphqlsubscriptionstools]: Remove: archive file [/home/abi/fetcher/tmp/cypartagraphqlsubscriptionstools-1.1.1.tar.gz]
+[2024-04-12 05:53:30] INFO root fetch - main [MainThread]: End processing [cypartagraphqlsubscriptionstools]: success
+[2024-04-12 05:53:31] INFO root fetch - processPackages [petrosa]: Remove: archive file [/home/abi/fetcher/tmp/petrosa-0.0.8.tar.gz]
+[2024-04-12 05:53:31] INFO root fetch - processPackages [petrosa]: Remove: archive file [/home/abi/fetcher/tmp/petrosa-0.0.9.tar.gz]
+[2024-04-12 05:53:31] INFO root fetch - main [MainThread]: End processing [petrosa]: success
+[2024-04-12 05:53:54] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.6.8.tar.gz]
+[2024-04-12 05:53:54] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.6.9.tar.gz]
+[2024-04-12 05:53:54] INFO root fetch - main [MainThread]: End processing [zen-dash]: success
+[2024-04-12 05:53:54] INFO root fetch - main [MainThread]: Store serial: [22732431]
