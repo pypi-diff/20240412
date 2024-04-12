@@ -18431,3 +18431,138 @@
 [2024-04-12 10:33:15] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-12 10:33:15] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-12 10:33:15] INFO root fetch - main [MainThread]: Store serial: [22734894]
+[2024-04-12 10:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734894]
+[2024-04-12 10:35:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrubino
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymagento
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goldenverba
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: floggit
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-energy-communities
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clickhouse-migrations
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-energy-communities-api
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tq42-grpc-client
+[2024-04-12 10:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsms-sdk
+[2024-04-12 10:35:26] INFO root fetch - processPackages [odoo14-addon-energy-communities]: New version: [14.0.8.1.0] Old Version: [14.0.8.0.1]
+[2024-04-12 10:35:26] WARNING root fetch - processPackages [odoo14-addon-energy-communities-api]: Skipping, unable to determine old version
+[2024-04-12 10:35:26] INFO root fetch - processPackages [odoo14-addon-energy-communities-api]: Start processing: SideJITServer
+[2024-04-12 10:35:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities-api] error
+[2024-04-12 10:35:26] INFO root fetch - processPackages [pyrubino]: New version: [1.3.1] Old Version: [1.1.1]
+[2024-04-12 10:35:26] INFO root fetch - processPackages [kfish]: New version: [99.0.202404120610] Old Version: [99.0.202404111808]
+[2024-04-12 10:35:26] INFO root fetch - processPackages [pymagento]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-12 10:35:26] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/3a/c4/e3d5fafcf153914f18ca86e327b0a5b5690ad1506cc08bceba0b9997cc80/odoo14_addon_energy_communities-14.0.8.0.1-py3-none-any.whl
+[2024-04-12 10:35:26] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.93] Old Version: [1.0.77]
+[2024-04-12 10:35:26] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc0] Old Version: [1.3.3]
+[2024-04-12 10:35:26] INFO root fetch - processPackages [clickhouse-migrations]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-12 10:35:26] INFO root fetch - processPackages [goldenverba]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-12 10:35:26] INFO root fetch - processPackages [pyrubino]: Downloading https://files.pythonhosted.org/packages/46/fc/e85ffeae8288f37f35dde599453085f24e1c7c1d71c14818e9985cf3bc22/pyrubino-1.1.1.tar.gz
+[2024-04-12 10:35:26] INFO root fetch - processPackages [floggit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 10:35:26] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b0/c5/6f4bfde755d182eb5d94c1f7838913090bedc4271b1f5a9fa15f51b693ee/kfish-99.0.202404111808-py3-none-any.whl
+[2024-04-12 10:35:26] INFO root fetch - processPackages [SideJITServer]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-12 10:35:26] INFO root fetch - processPackages [pymagento]: Downloading https://files.pythonhosted.org/packages/b6/39/f130e622008b1365fe6ee967cc05b49c5bc33fa7c6398f2dc59773f10ef6/pymagento-1.9.2.tar.gz
+[2024-04-12 10:35:26] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/a2/df/cbfcdb1800409cef2c5e69f557d61b194eb3868b612c88a250e6cd2bb918/tq42-grpc-client-1.0.77.tar.gz
+[2024-04-12 10:35:26] INFO root fetch - processPackages [clickhouse-migrations]: Downloading https://files.pythonhosted.org/packages/84/41/d4b2345a1a7ce41f615390fad4cf781e2d9c357583d09dddf7f40aa9f642/clickhouse-migrations-0.5.0.tar.gz
+[2024-04-12 10:35:26] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/85/a6/3b1f086a52a3c1699f38e6d1fcbbacdb88cfbc28e92de0c0ef25d9688134/dsms_sdk-1.3.3.tar.gz
+[2024-04-12 10:35:26] INFO root fetch - processPackages [floggit]: Downloading https://files.pythonhosted.org/packages/65/65/0975363734e4f3e5c92a979a7258d5ceb372a8c85436caf5e56e2f874297/floggit-0.0.8.tar.gz
+[2024-04-12 10:35:26] INFO root fetch - processPackages [goldenverba]: Downloading https://files.pythonhosted.org/packages/77/4e/a42e65c44f4535165f3161a29280b64bb7a11f31521b797c928ad6ac46c2/goldenverba-0.3.1.tar.gz
+[2024-04-12 10:35:26] INFO root fetch - processPackages [SideJITServer]: Downloading https://files.pythonhosted.org/packages/b4/a4/4d8fa3732677a67ef1d3c0a362b8b018610ef9436d66985b55e0bdada06a/SideJITServer-1.2.1.tar.gz
+[2024-04-12 10:35:26] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/6e/ff/750cad4d4d954c616f17135bec1e1287eb2b2b9d6ee5b9bb041741a1f12b/odoo14_addon_energy_communities-14.0.8.1.0-py3-none-any.whl
+[2024-04-12 10:35:27] INFO root fetch - processPackages [pyrubino]: Downloading https://files.pythonhosted.org/packages/a3/90/eaad49ee6cb9bd87c9446c50b170402e5d068fd14ca909d281fcc04a17f2/pyrubino-1.3.1.tar.gz
+[2024-04-12 10:35:27] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/da/5e/43633d58ffa94b3b0da5d12c24fe855fbc548ff38d6bc9c85739cf1c3100/kfish-99.0.202404120610-py3-none-any.whl
+[2024-04-12 10:35:27] INFO root fetch - processPackages [pymagento]: Downloading https://files.pythonhosted.org/packages/7a/52/072976f23b309801d9516bba6b759b39c11a7c5e4c0e15c441b975dcc3d0/pymagento-1.9.3.tar.gz
+[2024-04-12 10:35:27] INFO root fetch - processPackages [odoo14-addon-energy-communities]: executing diffoscope
+[2024-04-12 10:35:27] INFO root fetch - processPackages [odoo14-addon-energy-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_energy_communities-14.0.8.0.1-py3-none-any.whl.zip tmp/odoo14_addon_energy_communities-14.0.8.1.0-py3-none-any.whl.zip --markdown 20240412/o/odoo14-addon-energy-communities/14.0.8.0.1-14.0.8.1.0/README.md --exclude *.pyd
+[2024-04-12 10:35:27] INFO root fetch - processPackages [pyrubino]: executing diffoscope
+[2024-04-12 10:35:27] INFO root fetch - processPackages [pyrubino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubino-1.1.1.tar.gz tmp/pyrubino-1.3.1.tar.gz --markdown 20240412/p/pyrubino/1.1.1-1.3.1/README.md --exclude *.pyd
+[2024-04-12 10:35:27] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-12 10:35:27] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404111808-py3-none-any.whl.zip tmp/kfish-99.0.202404120610-py3-none-any.whl.zip --markdown 20240412/k/kfish/99.0.202404111808-99.0.202404120610/README.md --exclude *.pyd
+[2024-04-12 10:35:27] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/23/75/230d0b07dab73745caec1ff5a56e71ad0e38532f14c3db9582f03db91fe7/tq42-grpc-client-1.0.93.tar.gz
+[2024-04-12 10:35:27] INFO root fetch - processPackages [clickhouse-migrations]: Downloading https://files.pythonhosted.org/packages/98/88/9741f28605fa788f48c7320e5830717627748ff0d2a23323b25eecf9a0ad/clickhouse-migrations-0.6.0.tar.gz
+[2024-04-12 10:35:27] INFO root fetch - processPackages [floggit]: Downloading https://files.pythonhosted.org/packages/ef/14/6628c5399cbc7c4dc6dabc26eb9c8da6e20a9ae6a3903cbc0ac1df16b926/floggit-0.0.9.tar.gz
+[2024-04-12 10:35:27] INFO root fetch - processPackages [SideJITServer]: Downloading https://files.pythonhosted.org/packages/81/ad/4c927c9b9069f22c39490f0c3f69591725686b7510baa4ba8eccab941dbc/SideJITServer-1.3.0.tar.gz
+[2024-04-12 10:35:27] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/48/76/ae556d0632321879fff995085918711250b08dad6dc2a9c413316d0b980d/dsms_sdk-1.4.0rc0.tar.gz
+[2024-04-12 10:35:27] INFO root fetch - processPackages [clickhouse-migrations]: executing diffoscope
+[2024-04-12 10:35:27] INFO root fetch - processPackages [pymagento]: executing diffoscope
+[2024-04-12 10:35:27] INFO root fetch - processPackages [clickhouse-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-migrations-0.5.0.tar.gz tmp/clickhouse-migrations-0.6.0.tar.gz --markdown 20240412/c/clickhouse-migrations/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-12 10:35:27] INFO root fetch - processPackages [pymagento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymagento-1.9.2.tar.gz tmp/pymagento-1.9.3.tar.gz --markdown 20240412/p/pymagento/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-04-12 10:35:27] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-04-12 10:35:27] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42-grpc-client-1.0.77.tar.gz tmp/tq42-grpc-client-1.0.93.tar.gz --markdown 20240412/t/tq42-grpc-client/1.0.77-1.0.93/README.md --exclude *.pyd
+[2024-04-12 10:35:27] INFO root fetch - processPackages [SideJITServer]: executing diffoscope
+[2024-04-12 10:35:27] INFO root fetch - processPackages [SideJITServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SideJITServer-1.2.1.tar.gz tmp/SideJITServer-1.3.0.tar.gz --markdown 20240412/S/SideJITServer/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-04-12 10:35:27] INFO root fetch - processPackages [floggit]: executing diffoscope
+[2024-04-12 10:35:27] INFO root fetch - processPackages [floggit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/floggit-0.0.8.tar.gz tmp/floggit-0.0.9.tar.gz --markdown 20240412/f/floggit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 10:35:27] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-04-12 10:35:27] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.3.3.tar.gz tmp/dsms_sdk-1.4.0rc0.tar.gz --markdown 20240412/d/dsms-sdk/1.3.3-1.4.0rc0/README.md --exclude *.pyd
+[2024-04-12 10:35:27] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404111808-py3-none-any.whl.zip]
+[2024-04-12 10:35:27] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404120610-py3-none-any.whl.zip]
+[2024-04-12 10:35:27] INFO root fetch - processPackages [kfish]: Start processing: m9s-account-batch
+[2024-04-12 10:35:27] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-12 10:35:28] INFO root fetch - processPackages [pyrubino]: Remove: archive file [/home/abi/fetcher/tmp/pyrubino-1.1.1.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [pyrubino]: Remove: archive file [/home/abi/fetcher/tmp/pyrubino-1.3.1.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [pyrubino]: Start processing: nucliadb-admin-assets
+[2024-04-12 10:35:28] INFO root fetch - main [MainThread]: End processing [pyrubino]: success
+[2024-04-12 10:35:28] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1485] Old Version: [1.0.0.post1484]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [m9s-account-batch]: New version: [7.0.4] Old Version: [7.0.3]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/57/c5/6ea85edd7f063156d330ce2f877bcc25349d5aa6cf850491d93a34a5107b/nucliadb_admin_assets-1.0.0.post1484-py3-none-any.whl
+[2024-04-12 10:35:28] INFO root fetch - processPackages [goldenverba]: Downloading https://files.pythonhosted.org/packages/e6/3c/cce560162a0b01c0b0b9b9a06455ea7bf0797826358f7eb2942431760bc6/goldenverba-0.4.0.tar.gz
+[2024-04-12 10:35:28] INFO root fetch - processPackages [floggit]: Remove: archive file [/home/abi/fetcher/tmp/floggit-0.0.8.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [floggit]: Remove: archive file [/home/abi/fetcher/tmp/floggit-0.0.9.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [floggit]: Start processing: azureml-designer-classic-modules
+[2024-04-12 10:35:28] INFO root fetch - main [MainThread]: End processing [floggit]: success
+[2024-04-12 10:35:28] INFO root fetch - processPackages [m9s-account-batch]: Downloading https://files.pythonhosted.org/packages/c3/b3/881814b410c398d274ec2b73f4462b31267efc3be4274fb582953c891eb6/m9s_account_batch-7.0.3.tar.gz
+[2024-04-12 10:35:28] INFO root fetch - processPackages [clickhouse-migrations]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-migrations-0.5.0.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [clickhouse-migrations]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-migrations-0.6.0.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [clickhouse-migrations]: Start processing: GRSprocessor
+[2024-04-12 10:35:28] INFO root fetch - main [MainThread]: End processing [clickhouse-migrations]: success
+[2024-04-12 10:35:28] INFO root fetch - processPackages [pymagento]: Remove: archive file [/home/abi/fetcher/tmp/pymagento-1.9.2.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [pymagento]: Remove: archive file [/home/abi/fetcher/tmp/pymagento-1.9.3.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [pymagento]: Start processing: imgx
+[2024-04-12 10:35:28] INFO root fetch - main [MainThread]: End processing [pymagento]: success
+[2024-04-12 10:35:28] INFO root fetch - processPackages [SideJITServer]: Remove: archive file [/home/abi/fetcher/tmp/SideJITServer-1.2.1.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [SideJITServer]: Remove: archive file [/home/abi/fetcher/tmp/SideJITServer-1.3.0.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - main [MainThread]: End processing [SideJITServer]: success
+[2024-04-12 10:35:28] INFO root fetch - processPackages [azureml-designer-classic-modules]: New version: [0.0.180] Old Version: [0.0.179]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.3.3.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc0.tar.gz]
+[2024-04-12 10:35:28] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-04-12 10:35:28] WARNING root fetch - processPackages [GRSprocessor]: Skipping, unable to determine old version
+[2024-04-12 10:35:28] INFO root fetch - main [MainThread]: End processing [GRSprocessor] error
+[2024-04-12 10:35:28] INFO root fetch - processPackages [imgx]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [m9s-account-batch]: Downloading https://files.pythonhosted.org/packages/c1/f7/628402420e868da89a57c43ca58627b0a8af2e564973fde0e0c9f09f6c92/m9s_account_batch-7.0.4.tar.gz
+[2024-04-12 10:35:28] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/61/e9/18478f7443cd584b341eb704253841f745fce8ee0274c72e7a5dcdbfb1d3/nucliadb_admin_assets-1.0.0.post1485-py3-none-any.whl
+[2024-04-12 10:35:28] INFO root fetch - processPackages [goldenverba]: executing diffoscope
+[2024-04-12 10:35:28] INFO root fetch - processPackages [goldenverba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goldenverba-0.3.1.tar.gz tmp/goldenverba-0.4.0.tar.gz --markdown 20240412/g/goldenverba/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-12 10:35:28] INFO root fetch - processPackages [azureml-designer-classic-modules]: Downloading https://files.pythonhosted.org/packages/7e/53/b568344646daa4f0f36257eb0867c7e648a4880d29efa3e902a007409f74/azureml_designer_classic_modules-0.0.179-py3-none-any.whl
+[2024-04-12 10:35:28] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities-14.0.8.0.1-py3-none-any.whl.zip]
+[2024-04-12 10:35:28] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities-14.0.8.1.0-py3-none-any.whl.zip]
+[2024-04-12 10:35:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities]: success
+[2024-04-12 10:35:28] INFO root fetch - processPackages [m9s-account-batch]: executing diffoscope
+[2024-04-12 10:35:28] INFO root fetch - processPackages [m9s-account-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_account_batch-7.0.3.tar.gz tmp/m9s_account_batch-7.0.4.tar.gz --markdown 20240412/m/m9s-account-batch/7.0.3-7.0.4/README.md --exclude *.pyd
+[2024-04-12 10:35:28] INFO root fetch - processPackages [imgx]: Downloading https://files.pythonhosted.org/packages/18/fd/85fd43b8e8cf5b96891ff29738951eed70aa49927c67da12f0ea148e8beb/imgx-0.1.0.tar.gz
+[2024-04-12 10:35:28] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-12 10:35:28] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1484-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1485-py3-none-any.whl.zip --markdown 20240412/n/nucliadb-admin-assets/1.0.0.post1484-1.0.0.post1485/README.md --exclude *.pyd
+[2024-04-12 10:35:29] INFO root fetch - processPackages [azureml-designer-classic-modules]: Downloading https://files.pythonhosted.org/packages/23/17/753b82a597cd2b018c1d4a77e061cbaf683e126b29597c382d689304207a/azureml_designer_classic_modules-0.0.180-py3-none-any.whl
+[2024-04-12 10:35:29] INFO root fetch - processPackages [imgx]: Downloading https://files.pythonhosted.org/packages/60/1e/388f070e2a007a2d4b006edaad9f532abc05be2de9005cf4be23806395f5/imgx-0.1.1.tar.gz
+[2024-04-12 10:35:29] INFO root fetch - processPackages [imgx]: executing diffoscope
+[2024-04-12 10:35:29] INFO root fetch - processPackages [imgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgx-0.1.0.tar.gz tmp/imgx-0.1.1.tar.gz --markdown 20240412/i/imgx/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 10:35:29] INFO root fetch - processPackages [azureml-designer-classic-modules]: executing diffoscope
+[2024-04-12 10:35:29] INFO root fetch - processPackages [azureml-designer-classic-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_designer_classic_modules-0.0.179-py3-none-any.whl.zip tmp/azureml_designer_classic_modules-0.0.180-py3-none-any.whl.zip --markdown 20240412/a/azureml-designer-classic-modules/0.0.179-0.0.180/README.md --exclude *.pyd
+[2024-04-12 10:35:29] INFO root fetch - processPackages [m9s-account-batch]: Remove: archive file [/home/abi/fetcher/tmp/m9s_account_batch-7.0.3.tar.gz]
+[2024-04-12 10:35:29] INFO root fetch - processPackages [m9s-account-batch]: Remove: archive file [/home/abi/fetcher/tmp/m9s_account_batch-7.0.4.tar.gz]
+[2024-04-12 10:35:29] INFO root fetch - main [MainThread]: End processing [m9s-account-batch]: success
+[2024-04-12 10:35:29] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42-grpc-client-1.0.77.tar.gz]
+[2024-04-12 10:35:29] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42-grpc-client-1.0.93.tar.gz]
+[2024-04-12 10:35:29] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-04-12 10:35:29] INFO root fetch - processPackages [imgx]: Remove: archive file [/home/abi/fetcher/tmp/imgx-0.1.0.tar.gz]
+[2024-04-12 10:35:29] INFO root fetch - processPackages [imgx]: Remove: archive file [/home/abi/fetcher/tmp/imgx-0.1.1.tar.gz]
+[2024-04-12 10:35:29] INFO root fetch - main [MainThread]: End processing [imgx]: success
+[2024-04-12 10:35:30] INFO root fetch - processPackages [azureml-designer-classic-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_classic_modules-0.0.179-py3-none-any.whl.zip]
+[2024-04-12 10:35:30] INFO root fetch - processPackages [azureml-designer-classic-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_classic_modules-0.0.180-py3-none-any.whl.zip]
+[2024-04-12 10:35:30] INFO root fetch - main [MainThread]: End processing [azureml-designer-classic-modules]: success
+[2024-04-12 10:35:31] INFO root fetch - processPackages [goldenverba]: Remove: archive file [/home/abi/fetcher/tmp/goldenverba-0.3.1.tar.gz]
+[2024-04-12 10:35:31] INFO root fetch - processPackages [goldenverba]: Remove: archive file [/home/abi/fetcher/tmp/goldenverba-0.4.0.tar.gz]
+[2024-04-12 10:35:31] INFO root fetch - main [MainThread]: End processing [goldenverba]: success
+[2024-04-12 10:35:42] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1484-py3-none-any.whl.zip]
+[2024-04-12 10:35:42] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1485-py3-none-any.whl.zip]
+[2024-04-12 10:35:42] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-12 10:35:42] INFO root fetch - main [MainThread]: Store serial: [22734947]
