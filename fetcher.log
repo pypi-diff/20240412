@@ -17720,3 +17720,60 @@
 [2024-04-12 10:05:16] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.5b0.tar.gz]
 [2024-04-12 10:05:16] INFO root fetch - main [MainThread]: End processing [misleep]: success
 [2024-04-12 10:05:16] INFO root fetch - main [MainThread]: Store serial: [22734557]
+[2024-04-12 10:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734557]
+[2024-04-12 10:07:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 10:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usearch
+[2024-04-12 10:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hs-correct
+[2024-04-12 10:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcsMysql
+[2024-04-12 10:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astabc
+[2024-04-12 10:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seacrowd
+[2024-04-12 10:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvremap
+[2024-04-12 10:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyglove
+[2024-04-12 10:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: astabc
+[2024-04-12 10:07:25] WARNING root fetch - processPackages [astabc]: Skipping, unable to determine old version
+[2024-04-12 10:07:25] INFO root fetch - main [MainThread]: End processing [astabc] error
+[2024-04-12 10:07:25] WARNING root fetch - processPackages [astabc]: Skipping, unable to determine old version
+[2024-04-12 10:07:25] INFO root fetch - main [MainThread]: End processing [astabc] error
+[2024-04-12 10:07:25] INFO root fetch - processPackages [nvremap]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-12 10:07:25] INFO root fetch - processPackages [seacrowd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 10:07:25] INFO root fetch - processPackages [nvremap]: Downloading https://files.pythonhosted.org/packages/40/f1/a6aa60f398f6cc3570536f9d4d8a74f3cf137f71f45f017766c201ff3f61/nvremap-0.1.1-cp36-cp36m-manylinux1_x86_64.whl
+[2024-04-12 10:07:25] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/1f/ba/346de6683a7e18210cd836f5cfbcd169e5daa3d6a3cd013d360925353530/seacrowd-0.0.8.tar.gz
+[2024-04-12 10:07:25] INFO root fetch - processPackages [hs-correct]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 10:07:25] WARNING root fetch - processPackages [dcsMysql]: Skipping, unable to determine old version
+[2024-04-12 10:07:25] INFO root fetch - main [MainThread]: End processing [dcsMysql] error
+[2024-04-12 10:07:25] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-12 10:07:25] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240412] Old Version: [0.4.5.dev20240411]
+[2024-04-12 10:07:25] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-12 10:07:25] INFO root fetch - processPackages [hs-correct]: Downloading https://files.pythonhosted.org/packages/d1/2c/a047bd0c5a5496a22d3f7336a88ed413041b224ebf5d0f484b3ca29688c0/hs_correct-0.0.5.tar.gz
+[2024-04-12 10:07:25] INFO root fetch - processPackages [nvremap]: Downloading https://files.pythonhosted.org/packages/29/3b/c99ed82c14286bef13d824431d149ee9aa339bf2aa887c214e604e6af2fc/nvremap-0.1.2-cp311-cp311-manylinux1_x86_64.whl
+[2024-04-12 10:07:25] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/8c/a3/65367fd16e815d40c8f2d9487edb843b4bb6a0b20d314338def3262dc841/pyglove-0.4.5.dev20240411.tar.gz
+[2024-04-12 10:07:25] INFO root fetch - processPackages [nvremap]: executing diffoscope
+[2024-04-12 10:07:25] INFO root fetch - processPackages [nvremap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvremap-0.1.1-cp36-cp36m-manylinux1_x86_64.whl.zip tmp/nvremap-0.1.2-cp311-cp311-manylinux1_x86_64.whl.zip --markdown 20240412/n/nvremap/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-12 10:07:25] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/db/e5/e823c1dd15f44fad1df7f17a4bc789afab1d6f35bdcec84ae1dcd8010936/seacrowd-0.0.9.tar.gz
+[2024-04-12 10:07:25] INFO root fetch - processPackages [hs-correct]: Downloading https://files.pythonhosted.org/packages/ba/27/af048daa24c3cc59802a385aba097058af30ffdc3c99978488e8b2e9a716/hs_correct-0.0.6.tar.gz
+[2024-04-12 10:07:25] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-12 10:07:25] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-12 10:07:25] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.8.tar.gz tmp/seacrowd-0.0.9.tar.gz --markdown 20240412/s/seacrowd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 10:07:25] INFO root fetch - processPackages [hs-correct]: executing diffoscope
+[2024-04-12 10:07:25] INFO root fetch - processPackages [hs-correct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hs_correct-0.0.5.tar.gz tmp/hs_correct-0.0.6.tar.gz --markdown 20240412/h/hs-correct/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 10:07:25] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/d6/f7/d4bdc022102e7ddda790244606f4a515b86f97e1edacc6d2238567859fc0/pyglove-0.4.5.dev20240412.tar.gz
+[2024-04-12 10:07:26] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-12 10:07:26] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240412/u/usearch/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-12 10:07:26] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-12 10:07:26] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240411.tar.gz tmp/pyglove-0.4.5.dev20240412.tar.gz --markdown 20240412/p/pyglove/0.4.5.dev20240411-0.4.5.dev20240412/README.md --exclude *.pyd
+[2024-04-12 10:07:26] INFO root fetch - processPackages [hs-correct]: Remove: archive file [/home/abi/fetcher/tmp/hs_correct-0.0.5.tar.gz]
+[2024-04-12 10:07:26] INFO root fetch - processPackages [hs-correct]: Remove: archive file [/home/abi/fetcher/tmp/hs_correct-0.0.6.tar.gz]
+[2024-04-12 10:07:26] INFO root fetch - main [MainThread]: End processing [hs-correct]: success
+[2024-04-12 10:07:26] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 10:07:26] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 10:07:26] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-12 10:07:26] INFO root fetch - processPackages [nvremap]: Remove: archive file [/home/abi/fetcher/tmp/nvremap-0.1.1-cp36-cp36m-manylinux1_x86_64.whl.zip]
+[2024-04-12 10:07:26] INFO root fetch - processPackages [nvremap]: Remove: archive file [/home/abi/fetcher/tmp/nvremap-0.1.2-cp311-cp311-manylinux1_x86_64.whl.zip]
+[2024-04-12 10:07:26] INFO root fetch - main [MainThread]: End processing [nvremap]: success
+[2024-04-12 10:07:27] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240411.tar.gz]
+[2024-04-12 10:07:27] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240412.tar.gz]
+[2024-04-12 10:07:27] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-12 10:07:27] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.8.tar.gz]
+[2024-04-12 10:07:27] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.9.tar.gz]
+[2024-04-12 10:07:27] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-12 10:07:27] INFO root fetch - main [MainThread]: Store serial: [22734635]
