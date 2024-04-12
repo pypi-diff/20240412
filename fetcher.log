@@ -12646,3 +12646,59 @@
 [2024-04-12 05:19:30] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-04-12 05:19:30] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-04-12 05:19:30] INFO root fetch - main [MainThread]: Store serial: [22732264]
+[2024-04-12 05:21:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732264]
+[2024-04-12 05:21:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vidfetch
+[2024-04-12 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ColabGeek
+[2024-04-12 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asgi-cors
+[2024-04-12 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2024-04-12 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mucstpy
+[2024-04-12 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arknights-toolkit
+[2024-04-12 05:21:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-currency
+[2024-04-12 05:21:39] INFO root fetch - processPackages [mucstpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-12 05:21:39] INFO root fetch - processPackages [keras-nightly]: New version: [3.2.1.dev2024041103] Old Version: [3.2.0.dev2024041003]
+[2024-04-12 05:21:39] INFO root fetch - processPackages [mucstpy]: Downloading https://files.pythonhosted.org/packages/0b/b9/2a78a3f01c36d0aa7aadc530f3f88211cbad780b76e5325ae01cb6acd696/mucstpy-1.0.2.tar.gz
+[2024-04-12 05:21:39] INFO root fetch - processPackages [asgi-cors]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-12 05:21:39] WARNING root fetch - processPackages [vidfetch]: Skipping, unable to determine old version
+[2024-04-12 05:21:39] INFO root fetch - main [MainThread]: End processing [vidfetch] error
+[2024-04-12 05:21:39] INFO root fetch - processPackages [arknights-toolkit]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-12 05:21:39] INFO root fetch - processPackages [odoo-addons-oca-currency]: New version: [16.0.20240411.0] Old Version: [16.0.20230609.0]
+[2024-04-12 05:21:39] INFO root fetch - processPackages [ColabGeek]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-12 05:21:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/55/0e/6e961318c6053156e15d48595d87fd463bd927fec128e2fe91f084038949/keras-nightly-3.2.0.dev2024041003.tar.gz
+[2024-04-12 05:21:39] INFO root fetch - processPackages [asgi-cors]: Downloading https://files.pythonhosted.org/packages/0d/8c/002a5d968785a69cf7e6098a6358e99284a005d1087bc9052ebdee9ba7e5/asgi-cors-1.0.tar.gz
+[2024-04-12 05:21:39] INFO root fetch - processPackages [mucstpy]: Downloading https://files.pythonhosted.org/packages/19/f3/977a3cd0bb5ec98a02d3760c19a4a858e52d90f8d5917d07b0e5679a2f3e/mucstpy-1.0.3.tar.gz
+[2024-04-12 05:21:39] INFO root fetch - processPackages [arknights-toolkit]: Downloading https://files.pythonhosted.org/packages/45/66/efdb7914f4a022f65d0b63b4e22c5bea05dfe679ae41b2b36478348f0408/arknights_toolkit-0.6.4.tar.gz
+[2024-04-12 05:21:39] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/c1/ae/5e082d3baf80725809af57c7eeb6b2a21d0350a5214a142b4706a0932ee4/ColabGeek-1.3.3.tar.gz
+[2024-04-12 05:21:39] WARNING root fetch - processPackages [arknights-toolkit]: Skipping package: exceeds size limit 17435090>=10485760
+[2024-04-12 05:21:39] INFO root fetch - main [MainThread]: End processing [arknights-toolkit] error
+[2024-04-12 05:21:39] INFO root fetch - processPackages [odoo-addons-oca-currency]: Downloading https://files.pythonhosted.org/packages/29/2e/96c9df318b065ca62406fd25f395073f6916ca6a8455fb0ad8e2e93a6fd8/odoo_addons_oca_currency-16.0.20230609.0-py3-none-any.whl
+[2024-04-12 05:21:39] INFO root fetch - processPackages [mucstpy]: executing diffoscope
+[2024-04-12 05:21:39] INFO root fetch - processPackages [mucstpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mucstpy-1.0.2.tar.gz tmp/mucstpy-1.0.3.tar.gz --markdown 20240412/m/mucstpy/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-12 05:21:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/34/6a/c901546883f01c9c70bac06eff563b72df076ef97e0970433e41bb97a25b/keras-nightly-3.2.1.dev2024041103.tar.gz
+[2024-04-12 05:21:39] INFO root fetch - processPackages [asgi-cors]: Downloading https://files.pythonhosted.org/packages/4b/72/75047bc62e3d1bb2c7bc5cbabf7727b965e6a9130b6e1deac6ab72879c86/asgi-cors-1.0.1.tar.gz
+[2024-04-12 05:21:39] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/83/ca/164a6ff65bf26c72a450a635874967f9b9ce9be39611bf4e7c54a77b9266/ColabGeek-1.3.4.tar.gz
+[2024-04-12 05:21:39] INFO root fetch - processPackages [odoo-addons-oca-currency]: Downloading https://files.pythonhosted.org/packages/14/2d/d5b982ea66ed03b02fca60f7a95878e32c20f688be8a2c591f0bb23132ba/odoo_addons_oca_currency-16.0.20240411.0-py3-none-any.whl
+[2024-04-12 05:21:39] INFO root fetch - processPackages [asgi-cors]: executing diffoscope
+[2024-04-12 05:21:39] INFO root fetch - processPackages [asgi-cors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgi-cors-1.0.tar.gz tmp/asgi-cors-1.0.1.tar.gz --markdown 20240412/a/asgi-cors/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-12 05:21:39] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-12 05:21:39] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nightly-3.2.0.dev2024041003.tar.gz tmp/keras-nightly-3.2.1.dev2024041103.tar.gz --markdown 20240412/k/keras-nightly/3.2.0.dev2024041003-3.2.1.dev2024041103/README.md --exclude *.pyd
+[2024-04-12 05:21:39] INFO root fetch - processPackages [ColabGeek]: executing diffoscope
+[2024-04-12 05:21:39] INFO root fetch - processPackages [ColabGeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ColabGeek-1.3.3.tar.gz tmp/ColabGeek-1.3.4.tar.gz --markdown 20240412/C/ColabGeek/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-12 05:21:39] INFO root fetch - processPackages [odoo-addons-oca-currency]: executing diffoscope
+[2024-04-12 05:21:39] INFO root fetch - processPackages [odoo-addons-oca-currency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_currency-16.0.20230609.0-py3-none-any.whl.zip tmp/odoo_addons_oca_currency-16.0.20240411.0-py3-none-any.whl.zip --markdown 20240412/o/odoo-addons-oca-currency/16.0.20230609.0-16.0.20240411.0/README.md --exclude *.pyd
+[2024-04-12 05:21:40] INFO root fetch - processPackages [mucstpy]: Remove: archive file [/home/abi/fetcher/tmp/mucstpy-1.0.2.tar.gz]
+[2024-04-12 05:21:40] INFO root fetch - processPackages [mucstpy]: Remove: archive file [/home/abi/fetcher/tmp/mucstpy-1.0.3.tar.gz]
+[2024-04-12 05:21:40] INFO root fetch - main [MainThread]: End processing [mucstpy]: success
+[2024-04-12 05:21:40] INFO root fetch - processPackages [asgi-cors]: Remove: archive file [/home/abi/fetcher/tmp/asgi-cors-1.0.tar.gz]
+[2024-04-12 05:21:40] INFO root fetch - processPackages [asgi-cors]: Remove: archive file [/home/abi/fetcher/tmp/asgi-cors-1.0.1.tar.gz]
+[2024-04-12 05:21:40] INFO root fetch - main [MainThread]: End processing [asgi-cors]: success
+[2024-04-12 05:21:40] INFO root fetch - processPackages [odoo-addons-oca-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_currency-16.0.20230609.0-py3-none-any.whl.zip]
+[2024-04-12 05:21:40] INFO root fetch - processPackages [odoo-addons-oca-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_currency-16.0.20240411.0-py3-none-any.whl.zip]
+[2024-04-12 05:21:40] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-currency]: success
+[2024-04-12 05:21:40] INFO root fetch - processPackages [ColabGeek]: Remove: archive file [/home/abi/fetcher/tmp/ColabGeek-1.3.3.tar.gz]
+[2024-04-12 05:21:40] INFO root fetch - processPackages [ColabGeek]: Remove: archive file [/home/abi/fetcher/tmp/ColabGeek-1.3.4.tar.gz]
+[2024-04-12 05:21:40] INFO root fetch - main [MainThread]: End processing [ColabGeek]: success
+[2024-04-12 05:21:41] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024041003.tar.gz]
+[2024-04-12 05:21:41] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.1.dev2024041103.tar.gz]
+[2024-04-12 05:21:41] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-12 05:21:41] INFO root fetch - main [MainThread]: Store serial: [22732286]
