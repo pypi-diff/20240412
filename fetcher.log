@@ -11501,3 +11501,45 @@
 [2024-04-12 04:07:11] INFO root fetch - processPackages [lisaanalysistools]: Remove: archive file [/home/abi/fetcher/tmp/lisaanalysistools-1.0.5.tar.gz]
 [2024-04-12 04:07:11] INFO root fetch - main [MainThread]: End processing [lisaanalysistools]: success
 [2024-04-12 04:07:11] INFO root fetch - main [MainThread]: Store serial: [22731655]
+[2024-04-12 04:09:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731655]
+[2024-04-12 04:09:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 04:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gwml
+[2024-04-12 04:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylibwholegraph-cu12
+[2024-04-12 04:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydflow
+[2024-04-12 04:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stginga
+[2024-04-12 04:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamini
+[2024-04-12 04:09:21] INFO root fetch - processPackages [lamini]: New version: [2.1.5a6] Old Version: [2.1.5a5]
+[2024-04-12 04:09:21] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/48/49/43bef7c0684b4d10689fb698ee9f0f18d449f5549fbffe1435c2fd61eb9f/lamini-2.1.5a5-119-py3-none-any.whl
+[2024-04-12 04:09:21] INFO root fetch - processPackages [pylibwholegraph-cu12]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 04:09:21] WARNING root fetch - processPackages [gwml]: Skipping, unable to determine old version
+[2024-04-12 04:09:21] INFO root fetch - main [MainThread]: End processing [gwml] error
+[2024-04-12 04:09:21] INFO root fetch - processPackages [stginga]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-12 04:09:21] INFO root fetch - processPackages [pydflow]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-12 04:09:21] INFO root fetch - processPackages [pylibwholegraph-cu12]: Downloading https://files.pythonhosted.org/packages/ac/c4/31b9963e94bba3bfc9588bbc544eb0960f86732f8f548e254e187f381bf7/pylibwholegraph-cu12-24.2.0.tar.gz
+[2024-04-12 04:09:21] INFO root fetch - processPackages [stginga]: Downloading https://files.pythonhosted.org/packages/56/ad/dd3ca3207f75815c294ec294df2011251dcb40b6d1c2f944cd96dd1e2b86/stginga-1.5.0.tar.gz
+[2024-04-12 04:09:21] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/8d/22/584c02b6b9a49c26a40cc22b7f10af25724fe70df5357e5a527c2c36729a/pydflow-1.8.8.tar.gz
+[2024-04-12 04:09:21] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/1a/23/182004da9b559a447543baf4836622b4880b2135275f5443e00d13c6961c/lamini-2.1.5a6-119-py3-none-any.whl
+[2024-04-12 04:09:22] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2024-04-12 04:09:22] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-2.1.5a5-119-py3-none-any.whl.zip tmp/lamini-2.1.5a6-119-py3-none-any.whl.zip --markdown 20240412/l/lamini/2.1.5a5-2.1.5a6/README.md --exclude *.pyd
+[2024-04-12 04:09:22] INFO root fetch - processPackages [pylibwholegraph-cu12]: Downloading https://files.pythonhosted.org/packages/52/6f/785f50a46a8a01c8effa007cc53923db9bdf14d8ef6f74352b0be0926660/pylibwholegraph_cu12-24.4.0.tar.gz
+[2024-04-12 04:09:22] INFO root fetch - processPackages [pylibwholegraph-cu12]: executing diffoscope
+[2024-04-12 04:09:22] INFO root fetch - processPackages [pylibwholegraph-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibwholegraph-cu12-24.2.0.tar.gz tmp/pylibwholegraph_cu12-24.4.0.tar.gz --markdown 20240412/p/pylibwholegraph-cu12/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 04:09:22] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/b8/ee/62435e12ce818ae5c15b7256f01e225eb1dd5e3d49e3bde8e913944b4caa/pydflow-1.8.9.tar.gz
+[2024-04-12 04:09:22] INFO root fetch - processPackages [stginga]: Downloading https://files.pythonhosted.org/packages/6f/ff/2fc0340766b56e01b5e2789661411f984648f374472252e264097495c853/stginga-1.5.1.tar.gz
+[2024-04-12 04:09:22] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2024-04-12 04:09:22] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.8.8.tar.gz tmp/pydflow-1.8.9.tar.gz --markdown 20240412/p/pydflow/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-12 04:09:22] INFO root fetch - processPackages [pylibwholegraph-cu12]: Remove: archive file [/home/abi/fetcher/tmp/pylibwholegraph-cu12-24.2.0.tar.gz]
+[2024-04-12 04:09:22] INFO root fetch - processPackages [pylibwholegraph-cu12]: Remove: archive file [/home/abi/fetcher/tmp/pylibwholegraph_cu12-24.4.0.tar.gz]
+[2024-04-12 04:09:22] INFO root fetch - main [MainThread]: End processing [pylibwholegraph-cu12]: success
+[2024-04-12 04:09:22] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.5a5-119-py3-none-any.whl.zip]
+[2024-04-12 04:09:22] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.5a6-119-py3-none-any.whl.zip]
+[2024-04-12 04:09:22] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2024-04-12 04:09:23] INFO root fetch - processPackages [stginga]: executing diffoscope
+[2024-04-12 04:09:23] INFO root fetch - processPackages [stginga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stginga-1.5.0.tar.gz tmp/stginga-1.5.1.tar.gz --markdown 20240412/s/stginga/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-12 04:09:23] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.8.tar.gz]
+[2024-04-12 04:09:23] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.9.tar.gz]
+[2024-04-12 04:09:23] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2024-04-12 04:09:24] INFO root fetch - processPackages [stginga]: Remove: archive file [/home/abi/fetcher/tmp/stginga-1.5.0.tar.gz]
+[2024-04-12 04:09:24] INFO root fetch - processPackages [stginga]: Remove: archive file [/home/abi/fetcher/tmp/stginga-1.5.1.tar.gz]
+[2024-04-12 04:09:24] INFO root fetch - main [MainThread]: End processing [stginga]: success
+[2024-04-12 04:09:24] INFO root fetch - main [MainThread]: Store serial: [22731670]
