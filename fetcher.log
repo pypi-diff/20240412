@@ -18650,3 +18650,45 @@
 [2024-04-12 10:40:11] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev31.tar.gz]
 [2024-04-12 10:40:11] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-12 10:40:11] INFO root fetch - main [MainThread]: Store serial: [22734981]
+[2024-04-12 10:42:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734981]
+[2024-04-12 10:42:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuzu
+[2024-04-12 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffoscope
+[2024-04-12 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datafarmclient
+[2024-04-12 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RS2024
+[2024-04-12 10:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcube
+[2024-04-12 10:42:20] INFO root fetch - processPackages [RS2024]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 10:42:20] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev32] Old Version: [0.3.3.dev31]
+[2024-04-12 10:42:20] WARNING root fetch - processPackages [datafarmclient]: Skipping, unable to determine old version
+[2024-04-12 10:42:20] INFO root fetch - main [MainThread]: End processing [datafarmclient] error
+[2024-04-12 10:42:20] INFO root fetch - processPackages [diffoscope]: New version: [99] Old Version: [98]
+[2024-04-12 10:42:20] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-12 10:42:20] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/02/b9/0acd9642e7736069e095afce0ea7eeb4034683e2e642afbeb060457aec04/kuzu-0.3.3.dev31.tar.gz
+[2024-04-12 10:42:21] INFO root fetch - processPackages [RS2024]: Downloading https://files.pythonhosted.org/packages/f2/d4/c4537c7408f3dccb2eeb0c153c23aa7aa50c4d0d750bee961f5ab8ce6eb6/RS2024-0.0.1-py3-none-any.whl
+[2024-04-12 10:42:21] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/3a/3e/308a04b435a6c8c9956656b7f2a66d6ed38d5972df453d70202834c4ff43/diffoscope-98.tar.gz
+[2024-04-12 10:42:21] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-04-12 10:42:21] INFO root fetch - processPackages [RS2024]: Downloading https://files.pythonhosted.org/packages/fd/a6/c07261855166bdea70de6a7b7b971d3fba8d29744037492153b78848d0b7/RS2024-0.0.2-py3-none-any.whl
+[2024-04-12 10:42:21] INFO root fetch - processPackages [RS2024]: executing diffoscope
+[2024-04-12 10:42:21] INFO root fetch - processPackages [RS2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RS2024-0.0.1-py3-none-any.whl.zip tmp/RS2024-0.0.2-py3-none-any.whl.zip --markdown 20240412/R/RS2024/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 10:42:21] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/0c/03/cb635b30b90557ee1bd8a9aff6bd6ec425ba8dff2e78ff50f618af770c7c/kuzu-0.3.3.dev32.tar.gz
+[2024-04-12 10:42:21] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-04-12 10:42:21] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-04-12 10:42:21] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240412/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-12 10:42:21] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-12 10:42:21] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev31.tar.gz tmp/kuzu-0.3.3.dev32.tar.gz --markdown 20240412/k/kuzu/0.3.3.dev31-0.3.3.dev32/README.md --exclude *.pyd
+[2024-04-12 10:42:22] INFO root fetch - processPackages [RS2024]: Remove: archive file [/home/abi/fetcher/tmp/RS2024-0.0.1-py3-none-any.whl.zip]
+[2024-04-12 10:42:22] INFO root fetch - processPackages [RS2024]: Remove: archive file [/home/abi/fetcher/tmp/RS2024-0.0.2-py3-none-any.whl.zip]
+[2024-04-12 10:42:22] INFO root fetch - main [MainThread]: End processing [RS2024]: success
+[2024-04-12 10:42:22] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-04-12 10:42:22] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-04-12 10:42:22] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-04-12 10:42:24] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/8d/e7/b8881e47097497471c7112ef2abc4328496f66e5c91772837ef365f39dc1/diffoscope-99.tar.gz
+[2024-04-12 10:42:26] INFO root fetch - processPackages [diffoscope]: executing diffoscope
+[2024-04-12 10:42:26] INFO root fetch - processPackages [diffoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffoscope-98.tar.gz tmp/diffoscope-99.tar.gz --markdown 20240412/d/diffoscope/98-99/README.md --exclude *.pyd
+[2024-04-12 10:42:27] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev31.tar.gz]
+[2024-04-12 10:42:27] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev32.tar.gz]
+[2024-04-12 10:42:27] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-12 10:42:28] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-98.tar.gz]
+[2024-04-12 10:42:28] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
+[2024-04-12 10:42:28] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
+[2024-04-12 10:42:28] INFO root fetch - main [MainThread]: Store serial: [22735025]
