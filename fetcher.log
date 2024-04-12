@@ -13813,3 +13813,24 @@
 [2024-04-12 06:42:00] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes_client-0.8.4-py3-none-any.whl.zip]
 [2024-04-12 06:42:00] INFO root fetch - main [MainThread]: End processing [runes-client]: success
 [2024-04-12 06:42:00] INFO root fetch - main [MainThread]: Store serial: [22732751]
+[2024-04-12 06:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732751]
+[2024-04-12 06:44:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 06:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runes-client
+[2024-04-12 06:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs.resources
+[2024-04-12 06:44:09] INFO root fetch - processPackages [runes-client]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-12 06:44:09] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/ee/d1/e6f33921918c37591be7f08f413703d4deda1bc7e081a1da07e31bdff608/runes-client-0.8.3.tar.gz
+[2024-04-12 06:44:09] INFO root fetch - processPackages [cs.resources]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 06:44:09] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/24/0f/67c262b2ce7e3f73eebc40e3e1791233f69584498b7c966f015b45a99a9e/runes_client-0.8.4-py3-none-any.whl
+[2024-04-12 06:44:09] INFO root fetch - processPackages [cs.resources]: Downloading https://files.pythonhosted.org/packages/86/f2/30d81a60c5b42d54395993ad6b73eb8a84ee40c0b0ade57029f0d65c4942/cs.resources-20240316.tar.gz
+[2024-04-12 06:44:09] INFO root fetch - processPackages [runes-client]: executing diffoscope
+[2024-04-12 06:44:09] INFO root fetch - processPackages [runes-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runes-client-0.8.3.tar.gz tmp/runes_client-0.8.4-py3-none-any.whl.zip --markdown 20240412/r/runes-client/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-12 06:44:09] INFO root fetch - processPackages [cs.resources]: Downloading https://files.pythonhosted.org/packages/93/b2/3634475bc7586fa113e0a55e213a1e8b4066699a5b4485d7c459c8528221/cs.resources-20240412.tar.gz
+[2024-04-12 06:44:09] INFO root fetch - processPackages [cs.resources]: executing diffoscope
+[2024-04-12 06:44:09] INFO root fetch - processPackages [cs.resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.resources-20240316.tar.gz tmp/cs.resources-20240412.tar.gz --markdown 20240412/c/cs.resources/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 06:44:10] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes-client-0.8.3.tar.gz]
+[2024-04-12 06:44:10] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes_client-0.8.4-py3-none-any.whl.zip]
+[2024-04-12 06:44:10] INFO root fetch - main [MainThread]: End processing [runes-client]: success
+[2024-04-12 06:44:10] INFO root fetch - processPackages [cs.resources]: Remove: archive file [/home/abi/fetcher/tmp/cs.resources-20240316.tar.gz]
+[2024-04-12 06:44:10] INFO root fetch - processPackages [cs.resources]: Remove: archive file [/home/abi/fetcher/tmp/cs.resources-20240412.tar.gz]
+[2024-04-12 06:44:10] INFO root fetch - main [MainThread]: End processing [cs.resources]: success
+[2024-04-12 06:44:10] INFO root fetch - main [MainThread]: Store serial: [22732757]
