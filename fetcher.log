@@ -3365,3 +3365,33 @@
 [2024-04-12 02:52:20] INFO root fetch - processPackages [toolforge-builds-cli]: Remove: archive file [/home/abi/fetcher/tmp/toolforge_builds_cli-0.0.9.tar.gz]
 [2024-04-12 02:52:20] INFO root fetch - main [MainThread]: End processing [toolforge-builds-cli]: success
 [2024-04-12 02:52:20] INFO root fetch - main [MainThread]: Store serial: [22728810]
+[2024-04-12 02:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728810]
+[2024-04-12 02:54:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 02:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2024-04-12 02:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freedownload
+[2024-04-12 02:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytoy
+[2024-04-12 02:54:30] INFO root fetch - processPackages [pytoy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 02:54:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-12 02:54:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-12 02:54:30] INFO root fetch - processPackages [pytoy]: Downloading https://files.pythonhosted.org/packages/71/38/6bb8008552f2995c6662ad4770bf8359d346173a58ef11d038df55c7bb40/pytoy-0.0.1.tar.gz
+[2024-04-12 02:54:30] INFO root fetch - processPackages [freedownload]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-12 02:54:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-12 02:54:30] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/71/75/9bb1361454dc69a59630be40a416b52347bb7ae49b31c136879f72c75da3/freedownload-1.0.5.tar.gz
+[2024-04-12 02:54:30] INFO root fetch - processPackages [pytoy]: Downloading https://files.pythonhosted.org/packages/76/c0/ce4d379d7523bf74d74efb192e5f3a4a0743d9bb03006c197ab3c2216783/pytoy-0.0.2.tar.gz
+[2024-04-12 02:54:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-12 02:54:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240412/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-12 02:54:31] INFO root fetch - processPackages [pytoy]: executing diffoscope
+[2024-04-12 02:54:31] INFO root fetch - processPackages [pytoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoy-0.0.1.tar.gz tmp/pytoy-0.0.2.tar.gz --markdown 20240412/p/pytoy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 02:54:31] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/70/c7/98e41967ef13557f29e600fa3ef9bb508fcc852ee226e7b4de530a3b743f/freedownload-1.0.6.tar.gz
+[2024-04-12 02:54:31] INFO root fetch - processPackages [pytoy]: Remove: archive file [/home/abi/fetcher/tmp/pytoy-0.0.1.tar.gz]
+[2024-04-12 02:54:31] INFO root fetch - processPackages [pytoy]: Remove: archive file [/home/abi/fetcher/tmp/pytoy-0.0.2.tar.gz]
+[2024-04-12 02:54:31] INFO root fetch - main [MainThread]: End processing [pytoy]: success
+[2024-04-12 02:54:31] INFO root fetch - processPackages [freedownload]: executing diffoscope
+[2024-04-12 02:54:31] INFO root fetch - processPackages [freedownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freedownload-1.0.5.tar.gz tmp/freedownload-1.0.6.tar.gz --markdown 20240412/f/freedownload/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-12 02:54:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-12 02:54:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-12 02:54:31] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-12 02:54:32] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-1.0.5.tar.gz]
+[2024-04-12 02:54:32] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-1.0.6.tar.gz]
+[2024-04-12 02:54:32] INFO root fetch - main [MainThread]: End processing [freedownload]: success
+[2024-04-12 02:54:32] INFO root fetch - main [MainThread]: Store serial: [22728819]
