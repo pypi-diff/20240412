@@ -16369,3 +16369,96 @@
 [2024-04-12 09:09:32] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.9.tar.gz]
 [2024-04-12 09:09:32] INFO root fetch - main [MainThread]: End processing [http-content-parser]: success
 [2024-04-12 09:09:32] INFO root fetch - main [MainThread]: Store serial: [22733793]
+[2024-04-12 09:11:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733793]
+[2024-04-12 09:11:42] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plugin-converter-fields
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plugin-csv-parser
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plugin-data-masker
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plugin-decorators
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plugin-demo-data-generator
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plugin-derived
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plugin-example-data-generator
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plugin-fandas
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plugin-flatten-dict
+[2024-04-12 09:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plugin-google-oauth
+[2024-04-12 09:11:42] WARNING root fetch - processPackages [plugin-converter-fields]: Skipping, unable to determine old version
+[2024-04-12 09:11:42] INFO root fetch - processPackages [plugin-converter-fields]: Start processing: plugin-invalidate
+[2024-04-12 09:11:42] INFO root fetch - main [MainThread]: End processing [plugin-converter-fields] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-decorators]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-decorators]: Start processing: plugin-md-table
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-decorators] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-demo-data-generator]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-demo-data-generator]: Start processing: plugin-mutate-functions
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-demo-data-generator] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-fandas]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-fandas]: Start processing: plugin-ocean-utils
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-fandas] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-example-data-generator]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-example-data-generator]: Start processing: plugin-parser-utils
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-example-data-generator] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-flatten-dict]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-flatten-dict]: Start processing: plugin-pface-utils
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-flatten-dict] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-data-masker]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-data-masker]: Start processing: renewenergy
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-data-masker] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-derived]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-derived]: Start processing: plugin-utils-light
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-derived] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-csv-parser]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-csv-parser]: Start processing: plugin-validation
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-csv-parser] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-google-oauth]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-google-oauth]: Start processing: OSS-Class
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-google-oauth] error
+[2024-04-12 09:11:43] INFO root fetch - processPackages [renewenergy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-invalidate]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-invalidate]: Start processing: plugin-xlsx-parser
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-invalidate] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-parser-utils]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-parser-utils]: Start processing: vagrant-init-generator
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-parser-utils] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-pface-utils]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-pface-utils]: Start processing: basek2
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-pface-utils] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-md-table]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - processPackages [plugin-md-table]: Start processing: tsugu
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-md-table] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-ocean-utils]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-ocean-utils] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-mutate-functions]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-mutate-functions] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [vagrant-init-generator]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [vagrant-init-generator] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [basek2]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [basek2] error
+[2024-04-12 09:11:43] INFO root fetch - processPackages [OSS-Class]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 09:11:43] INFO root fetch - processPackages [tsugu]: New version: [0.3.3] Old Version: [0.3.1]
+[2024-04-12 09:11:43] INFO root fetch - processPackages [renewenergy]: Downloading https://files.pythonhosted.org/packages/c6/62/8d164d09b99c0eedb498c1d8e3568f0fdd84dece177cd0d2e8514cc2d480/renewenergy-0.1.0.tar.gz
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-utils-light]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-utils-light] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-validation]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-validation] error
+[2024-04-12 09:11:43] WARNING root fetch - processPackages [plugin-xlsx-parser]: Skipping, unable to determine old version
+[2024-04-12 09:11:43] INFO root fetch - main [MainThread]: End processing [plugin-xlsx-parser] error
+[2024-04-12 09:11:43] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/49/56/bc6e8712895fabd5e6fd3a4ae341a4ebd589453b374f9b4e6e638de2722d/tsugu-0.3.1.tar.gz
+[2024-04-12 09:11:43] INFO root fetch - processPackages [renewenergy]: Downloading https://files.pythonhosted.org/packages/1a/49/f07e9bfc0cd9c5c0b49a674255f8f21e1816ce5c747f75ff4573f5500ece/renewenergy-0.1.1.tar.gz
+[2024-04-12 09:11:43] INFO root fetch - processPackages [OSS-Class]: Downloading https://files.pythonhosted.org/packages/86/f3/31689796d39e31b3f69d3831acc4b906c53d867d7dafd73e66825203c19a/OSS_Class-0.0.1-py3-none-any.whl
+[2024-04-12 09:11:43] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/8b/f0/fee59f6eee58d4c0c2e6de425748d665de5154f29a56b64c8650d4f74168/tsugu-0.3.3.tar.gz
+[2024-04-12 09:11:43] INFO root fetch - processPackages [renewenergy]: executing diffoscope
+[2024-04-12 09:11:43] INFO root fetch - processPackages [renewenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renewenergy-0.1.0.tar.gz tmp/renewenergy-0.1.1.tar.gz --markdown 20240412/r/renewenergy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 09:11:43] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-12 09:11:43] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.3.1.tar.gz tmp/tsugu-0.3.3.tar.gz --markdown 20240412/t/tsugu/0.3.1-0.3.3/README.md --exclude *.pyd
+[2024-04-12 09:11:43] INFO root fetch - processPackages [OSS-Class]: Downloading https://files.pythonhosted.org/packages/63/be/857cb2a87547355aecdea6180a7090fdd5f82114f9176d0779a1df2860f9/OSS_Class-0.0.2-py3-none-any.whl
+[2024-04-12 09:11:43] INFO root fetch - processPackages [OSS-Class]: executing diffoscope
+[2024-04-12 09:11:43] INFO root fetch - processPackages [OSS-Class]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OSS_Class-0.0.1-py3-none-any.whl.zip tmp/OSS_Class-0.0.2-py3-none-any.whl.zip --markdown 20240412/O/OSS-Class/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 09:11:44] INFO root fetch - processPackages [renewenergy]: Remove: archive file [/home/abi/fetcher/tmp/renewenergy-0.1.0.tar.gz]
+[2024-04-12 09:11:44] INFO root fetch - processPackages [renewenergy]: Remove: archive file [/home/abi/fetcher/tmp/renewenergy-0.1.1.tar.gz]
+[2024-04-12 09:11:44] INFO root fetch - main [MainThread]: End processing [renewenergy]: success
+[2024-04-12 09:11:44] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.1.tar.gz]
+[2024-04-12 09:11:44] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.3.tar.gz]
+[2024-04-12 09:11:44] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-12 09:11:44] INFO root fetch - processPackages [OSS-Class]: Remove: archive file [/home/abi/fetcher/tmp/OSS_Class-0.0.1-py3-none-any.whl.zip]
+[2024-04-12 09:11:44] INFO root fetch - processPackages [OSS-Class]: Remove: archive file [/home/abi/fetcher/tmp/OSS_Class-0.0.2-py3-none-any.whl.zip]
+[2024-04-12 09:11:44] INFO root fetch - main [MainThread]: End processing [OSS-Class]: success
+[2024-04-12 09:11:44] INFO root fetch - main [MainThread]: Store serial: [22733883]
