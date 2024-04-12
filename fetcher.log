@@ -17012,3 +17012,42 @@
 [2024-04-12 09:34:34] INFO root fetch - processPackages [fps-yjs]: Remove: archive file [/home/abi/fetcher/tmp/fps_yjs-0.5.0.tar.gz]
 [2024-04-12 09:34:34] INFO root fetch - main [MainThread]: End processing [fps-yjs]: success
 [2024-04-12 09:34:34] INFO root fetch - main [MainThread]: Store serial: [22734220]
+[2024-04-12 09:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734220]
+[2024-04-12 09:36:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mesido
+[2024-04-12 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyverse
+[2024-04-12 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2024-04-12 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Common
+[2024-04-12 09:36:43] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-12 09:36:43] INFO root fetch - processPackages [mesido]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 09:36:43] INFO root fetch - processPackages [jupyverse]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-12 09:36:43] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-12 09:36:43] INFO root fetch - processPackages [Geode-Common]: New version: [31.0.7rc1] Old Version: [31.0.6rc1]
+[2024-04-12 09:36:43] INFO root fetch - processPackages [mesido]: Downloading https://files.pythonhosted.org/packages/9f/5f/6463c0a18890e686ac5f27ed6f41b541f19d70467f933321be7712b3cef3/mesido-0.1.0.tar.gz
+[2024-04-12 09:36:43] INFO root fetch - processPackages [jupyverse]: Downloading https://files.pythonhosted.org/packages/a7/c7/0ce48c3549d318201aa3c0983342506a0709fa07a235ca9e8a7a157f59c3/jupyverse-0.4.2.tar.gz
+[2024-04-12 09:36:43] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/3a/d7/32a6b1150ca0e4b76113b74e100947ac746ae84f239bcc8ad74b424ea557/Geode_Common-31.0.6rc1-cp39-cp39-win_amd64.whl
+[2024-04-12 09:36:44] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-12 09:36:44] INFO root fetch - processPackages [mesido]: Downloading https://files.pythonhosted.org/packages/a6/ce/756cbcf5b7832902b98242ba13df35504040123864bb07fb87f10997da97/mesido-0.1.1.tar.gz
+[2024-04-12 09:36:44] INFO root fetch - processPackages [jupyverse]: Downloading https://files.pythonhosted.org/packages/99/20/322ba0af780466a926d70de807e9cb7430236d4419bd56873e8b037665a6/jupyverse-0.5.0.tar.gz
+[2024-04-12 09:36:44] INFO root fetch - processPackages [mesido]: executing diffoscope
+[2024-04-12 09:36:44] INFO root fetch - processPackages [mesido]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesido-0.1.0.tar.gz tmp/mesido-0.1.1.tar.gz --markdown 20240412/m/mesido/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 09:36:44] INFO root fetch - processPackages [jupyverse]: executing diffoscope
+[2024-04-12 09:36:44] INFO root fetch - processPackages [jupyverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyverse-0.4.2.tar.gz tmp/jupyverse-0.5.0.tar.gz --markdown 20240412/j/jupyverse/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-12 09:36:44] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-12 09:36:44] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240412/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-12 09:36:44] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/fe/db/1c5d20957bdbc4ef4582465da9f54f4b6ace3293287fe49e6d4b5d5aa4ab/Geode_Common-31.0.7rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-12 09:36:45] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2024-04-12 09:36:45] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-31.0.6rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-31.0.7rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240412/G/Geode-Common/31.0.6rc1-31.0.7rc1/README.md --exclude *.pyd
+[2024-04-12 09:36:45] INFO root fetch - processPackages [jupyverse]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse-0.4.2.tar.gz]
+[2024-04-12 09:36:45] INFO root fetch - processPackages [jupyverse]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse-0.5.0.tar.gz]
+[2024-04-12 09:36:45] INFO root fetch - main [MainThread]: End processing [jupyverse]: success
+[2024-04-12 09:36:45] INFO root fetch - processPackages [mesido]: Remove: archive file [/home/abi/fetcher/tmp/mesido-0.1.0.tar.gz]
+[2024-04-12 09:36:45] INFO root fetch - processPackages [mesido]: Remove: archive file [/home/abi/fetcher/tmp/mesido-0.1.1.tar.gz]
+[2024-04-12 09:36:45] INFO root fetch - main [MainThread]: End processing [mesido]: success
+[2024-04-12 09:36:45] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-12 09:36:45] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-12 09:36:45] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-12 09:36:46] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 09:36:46] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.7rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-12 09:36:46] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2024-04-12 09:36:46] INFO root fetch - main [MainThread]: Store serial: [22734243]
