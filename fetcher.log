@@ -13021,3 +13021,36 @@
 [2024-04-12 05:44:48] INFO root fetch - processPackages [lazyqyweixin]: Remove: archive file [/home/abi/fetcher/tmp/lazyqyweixin-0.0.7.tar.gz]
 [2024-04-12 05:44:48] INFO root fetch - main [MainThread]: End processing [lazyqyweixin]: success
 [2024-04-12 05:44:48] INFO root fetch - main [MainThread]: Store serial: [22732384]
+[2024-04-12 05:46:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732384]
+[2024-04-12 05:46:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 05:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: harlequin-risingwave
+[2024-04-12 05:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-term-condition-mixin
+[2024-04-12 05:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vulcan-logger
+[2024-04-12 05:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsugu
+[2024-04-12 05:46:57] INFO root fetch - processPackages [harlequin-risingwave]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-12 05:46:57] WARNING root fetch - processPackages [odoo14-addon-ssi-term-condition-mixin]: Skipping, unable to determine old version
+[2024-04-12 05:46:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-term-condition-mixin] error
+[2024-04-12 05:46:57] INFO root fetch - processPackages [harlequin-risingwave]: Downloading https://files.pythonhosted.org/packages/b5/9e/20885e1da565391967149ead1f4236ffc73264f154a5a18147ecf26e7703/harlequin_risingwave-0.2.1.tar.gz
+[2024-04-12 05:46:57] INFO root fetch - processPackages [vulcan-logger]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-12 05:46:57] INFO root fetch - processPackages [tsugu]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-12 05:46:58] INFO root fetch - processPackages [vulcan-logger]: Downloading https://files.pythonhosted.org/packages/6e/0c/9f65c48726bdc80ce86aae5cce479221d8e6437db62a995d424f8e409cde/vulcan-logger-1.8.0.tar.gz
+[2024-04-12 05:46:58] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/fe/dd/4bfd58d92671f5040f6889fc782627efbe42ad1188ae146145b7341cfea2/tsugu-0.2.2.tar.gz
+[2024-04-12 05:46:58] INFO root fetch - processPackages [harlequin-risingwave]: Downloading https://files.pythonhosted.org/packages/d7/b3/60bfa4f6e6ef993bad603a3d3008adea2e5ff6ab85b6747565f0099ffd45/harlequin_risingwave-0.3.0.tar.gz
+[2024-04-12 05:46:58] INFO root fetch - processPackages [harlequin-risingwave]: executing diffoscope
+[2024-04-12 05:46:58] INFO root fetch - processPackages [harlequin-risingwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin_risingwave-0.2.1.tar.gz tmp/harlequin_risingwave-0.3.0.tar.gz --markdown 20240412/h/harlequin-risingwave/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-12 05:46:58] INFO root fetch - processPackages [vulcan-logger]: Downloading https://files.pythonhosted.org/packages/07/8d/e708d414784a6aac6157e1487db169ca8068cc2166e80bd939685ceb4e12/vulcan-logger-1.9.0.tar.gz
+[2024-04-12 05:46:58] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/d0/89/72cc1050fe5a3f1a280875d0b3447dbfc70403837299f202f00036d60229/tsugu-0.3.0.tar.gz
+[2024-04-12 05:46:58] INFO root fetch - processPackages [vulcan-logger]: executing diffoscope
+[2024-04-12 05:46:58] INFO root fetch - processPackages [vulcan-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-logger-1.8.0.tar.gz tmp/vulcan-logger-1.9.0.tar.gz --markdown 20240412/v/vulcan-logger/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-12 05:46:58] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-12 05:46:58] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.2.2.tar.gz tmp/tsugu-0.3.0.tar.gz --markdown 20240412/t/tsugu/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-12 05:46:58] INFO root fetch - processPackages [harlequin-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_risingwave-0.2.1.tar.gz]
+[2024-04-12 05:46:58] INFO root fetch - processPackages [harlequin-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_risingwave-0.3.0.tar.gz]
+[2024-04-12 05:46:58] INFO root fetch - main [MainThread]: End processing [harlequin-risingwave]: success
+[2024-04-12 05:46:59] INFO root fetch - processPackages [vulcan-logger]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-logger-1.8.0.tar.gz]
+[2024-04-12 05:46:59] INFO root fetch - processPackages [vulcan-logger]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-logger-1.9.0.tar.gz]
+[2024-04-12 05:46:59] INFO root fetch - main [MainThread]: End processing [vulcan-logger]: success
+[2024-04-12 05:46:59] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.2.2.tar.gz]
+[2024-04-12 05:46:59] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.0.tar.gz]
+[2024-04-12 05:46:59] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-12 05:46:59] INFO root fetch - main [MainThread]: Store serial: [22732395]
