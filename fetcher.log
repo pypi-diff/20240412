@@ -18068,3 +18068,54 @@
 [2024-04-12 10:18:43] INFO root fetch - processPackages [limepkg-getaccept]: Remove: archive file [/home/abi/fetcher/tmp/limepkg_getaccept-1.3.7.dev2-py3-none-any.whl.zip]
 [2024-04-12 10:18:43] INFO root fetch - main [MainThread]: End processing [limepkg-getaccept]: success
 [2024-04-12 10:18:43] INFO root fetch - main [MainThread]: Store serial: [22734742]
+[2024-04-12 10:20:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734742]
+[2024-04-12 10:20:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 10:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-app-dev
+[2024-04-12 10:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytract
+[2024-04-12 10:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imgw-data
+[2024-04-12 10:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acetone-nnet
+[2024-04-12 10:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-bootstrap5
+[2024-04-12 10:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: config2py
+[2024-04-12 10:20:53] WARNING root fetch - processPackages [imgw-data]: Skipping, unable to determine old version
+[2024-04-12 10:20:53] INFO root fetch - main [MainThread]: End processing [imgw-data] error
+[2024-04-12 10:20:53] INFO root fetch - processPackages [acetone-nnet]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2024-04-12 10:20:53] INFO root fetch - processPackages [py-app-dev]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-12 10:20:53] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/d1/46/dd7309652aa1119bc3b27d44f498dbd4ef38025813f1389295461afc98c4/acetone-nnet-0.0.2.tar.gz
+[2024-04-12 10:20:53] INFO root fetch - processPackages [pytract]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 10:20:53] INFO root fetch - processPackages [django-bootstrap5]: New version: [24.1] Old Version: [23.4]
+[2024-04-12 10:20:53] INFO root fetch - processPackages [config2py]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 10:20:53] INFO root fetch - processPackages [py-app-dev]: Downloading https://files.pythonhosted.org/packages/c5/e9/590020951a1bee652cc90ff2f8fe4d19490f2ee336455a448c486ee1e537/py_app_dev-2.1.0.tar.gz
+[2024-04-12 10:20:53] INFO root fetch - processPackages [pytract]: Downloading https://files.pythonhosted.org/packages/f1/08/23818972ed72c63c8cd9807f985859361ebc161ebd4c0f67de14d1d48b4d/pytract-0.0.1.tar.gz
+[2024-04-12 10:20:53] INFO root fetch - processPackages [django-bootstrap5]: Downloading https://files.pythonhosted.org/packages/85/21/b245532712dc59167fbe3553523cfb9599c9e3d23aa803d856842d83dc93/django-bootstrap5-23.4.tar.gz
+[2024-04-12 10:20:53] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/7d/a5/4981f622db5411adea7a210ee782231f1b1fb29ef4ce544f4468d2572ef2/acetone-nnet-0.0.2.1.tar.gz
+[2024-04-12 10:20:53] INFO root fetch - processPackages [config2py]: Downloading https://files.pythonhosted.org/packages/cb/e3/48245f5a60648c8aff2523d56720d305144fde9dc72b9518b764973f2d58/config2py-0.1.8.tar.gz
+[2024-04-12 10:20:53] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-12 10:20:53] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone-nnet-0.0.2.tar.gz tmp/acetone-nnet-0.0.2.1.tar.gz --markdown 20240412/a/acetone-nnet/0.0.2-0.0.2.1/README.md --exclude *.pyd
+[2024-04-12 10:20:53] INFO root fetch - processPackages [py-app-dev]: Downloading https://files.pythonhosted.org/packages/be/c5/c63eb71372234926c92eb229facf6c1d0fdc1e34d32e9420da475f31cd5b/py_app_dev-2.1.1.tar.gz
+[2024-04-12 10:20:53] INFO root fetch - processPackages [pytract]: Downloading https://files.pythonhosted.org/packages/74/22/d4bbfa92099cd915fe8cd942cdd3523a661d35a9d7f0d980cb2e3a0bdc32/pytract-0.0.2.tar.gz
+[2024-04-12 10:20:53] INFO root fetch - processPackages [django-bootstrap5]: Downloading https://files.pythonhosted.org/packages/39/21/d15fc1f5bc99733af8397143d50cb971cd680f56756fa882963319632aed/django-bootstrap5-24.1.tar.gz
+[2024-04-12 10:20:53] INFO root fetch - processPackages [py-app-dev]: executing diffoscope
+[2024-04-12 10:20:53] INFO root fetch - processPackages [py-app-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_app_dev-2.1.0.tar.gz tmp/py_app_dev-2.1.1.tar.gz --markdown 20240412/p/py-app-dev/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-12 10:20:53] INFO root fetch - processPackages [django-bootstrap5]: executing diffoscope
+[2024-04-12 10:20:53] INFO root fetch - processPackages [django-bootstrap5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap5-23.4.tar.gz tmp/django-bootstrap5-24.1.tar.gz --markdown 20240412/d/django-bootstrap5/23.4-24.1/README.md --exclude *.pyd
+[2024-04-12 10:20:54] INFO root fetch - processPackages [pytract]: executing diffoscope
+[2024-04-12 10:20:54] INFO root fetch - processPackages [pytract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytract-0.0.1.tar.gz tmp/pytract-0.0.2.tar.gz --markdown 20240412/p/pytract/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 10:20:54] INFO root fetch - processPackages [config2py]: Downloading https://files.pythonhosted.org/packages/3e/8c/cda45f792442d2910489c27fd9edd958de507b570d1aca97511aeafc3adf/config2py-0.1.9.tar.gz
+[2024-04-12 10:20:54] INFO root fetch - processPackages [config2py]: executing diffoscope
+[2024-04-12 10:20:54] INFO root fetch - processPackages [config2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config2py-0.1.8.tar.gz tmp/config2py-0.1.9.tar.gz --markdown 20240412/c/config2py/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 10:20:54] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.2.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.2.1.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-12 10:20:54] INFO root fetch - processPackages [pytract]: Remove: archive file [/home/abi/fetcher/tmp/pytract-0.0.1.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - processPackages [pytract]: Remove: archive file [/home/abi/fetcher/tmp/pytract-0.0.2.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - main [MainThread]: End processing [pytract]: success
+[2024-04-12 10:20:54] INFO root fetch - processPackages [py-app-dev]: Remove: archive file [/home/abi/fetcher/tmp/py_app_dev-2.1.0.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - processPackages [py-app-dev]: Remove: archive file [/home/abi/fetcher/tmp/py_app_dev-2.1.1.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - main [MainThread]: End processing [py-app-dev]: success
+[2024-04-12 10:20:54] INFO root fetch - processPackages [django-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap5-23.4.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - processPackages [django-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap5-24.1.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - main [MainThread]: End processing [django-bootstrap5]: success
+[2024-04-12 10:20:54] INFO root fetch - processPackages [config2py]: Remove: archive file [/home/abi/fetcher/tmp/config2py-0.1.8.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - processPackages [config2py]: Remove: archive file [/home/abi/fetcher/tmp/config2py-0.1.9.tar.gz]
+[2024-04-12 10:20:54] INFO root fetch - main [MainThread]: End processing [config2py]: success
+[2024-04-12 10:20:54] INFO root fetch - main [MainThread]: Store serial: [22734761]
