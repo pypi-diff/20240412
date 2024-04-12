@@ -12986,3 +12986,38 @@
 [2024-04-12 05:42:38] INFO root fetch - processPackages [marcgrep]: Remove: archive file [/home/abi/fetcher/tmp/marcgrep-0.4.0.tar.gz]
 [2024-04-12 05:42:38] INFO root fetch - main [MainThread]: End processing [marcgrep]: success
 [2024-04-12 05:42:38] INFO root fetch - main [MainThread]: Store serial: [22732371]
+[2024-04-12 05:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732371]
+[2024-04-12 05:44:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 05:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: b2sim
+[2024-04-12 05:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kwe
+[2024-04-12 05:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-azurerm
+[2024-04-12 05:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazyqyweixin
+[2024-04-12 05:44:47] INFO root fetch - processPackages [kwe]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-12 05:44:47] INFO root fetch - processPackages [kwe]: Downloading https://files.pythonhosted.org/packages/2c/10/18ffb531d37a63341bd3539bf56e2fe38d2d6db571962dbfd8312c4a49ff/kwe-0.1.1.tar.gz
+[2024-04-12 05:44:47] INFO root fetch - processPackages [lazyqyweixin]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 05:44:47] INFO root fetch - processPackages [b2sim]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-12 05:44:47] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [9.0.8] Old Version: [9.0.7]
+[2024-04-12 05:44:47] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/3d/ad/4739b7bac9499c8514e49ba1a9595fa91063c10f3cc6d29fdf3205e36abf/b2sim-2.1.3-py3-none-any.whl
+[2024-04-12 05:44:47] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/bf/17/c9386b4842b68525aae4b3da38fa0030881fa08061804f556c93dd424cda/cdktf-cdktf-provider-azurerm-9.0.7.tar.gz
+[2024-04-12 05:44:47] INFO root fetch - processPackages [kwe]: Downloading https://files.pythonhosted.org/packages/4e/df/9416c6caf4cca71075e05fe83416096032f53ce05e0fac76f7f380959629/kwe-0.1.2.tar.gz
+[2024-04-12 05:44:47] INFO root fetch - processPackages [kwe]: executing diffoscope
+[2024-04-12 05:44:47] INFO root fetch - processPackages [kwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwe-0.1.1.tar.gz tmp/kwe-0.1.2.tar.gz --markdown 20240412/k/kwe/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-12 05:44:47] INFO root fetch - processPackages [lazyqyweixin]: Downloading https://files.pythonhosted.org/packages/f9/3b/80f9ef3c5f6d78e87ab5cb6501913736cc3527cf1b54db12e9596de790e0/lazyqyweixin-0.0.6.tar.gz
+[2024-04-12 05:44:47] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/83/89/0553f4b87c8a22a12f3abb14693034a4846fc3e72b235f76a8a5fb6bc176/b2sim-2.1.4.tar.gz
+[2024-04-12 05:44:47] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2024-04-12 05:44:47] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-2.1.3-py3-none-any.whl.zip tmp/b2sim-2.1.4.tar.gz --markdown 20240412/b/b2sim/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-04-12 05:44:48] INFO root fetch - processPackages [lazyqyweixin]: Downloading https://files.pythonhosted.org/packages/c2/e4/f759d5ae9aeb951dc98e054881a95097dc7bb9ad7d738be0c242769b7135/lazyqyweixin-0.0.7.tar.gz
+[2024-04-12 05:44:48] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 31649071>=10485760
+[2024-04-12 05:44:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2024-04-12 05:44:48] INFO root fetch - processPackages [kwe]: Remove: archive file [/home/abi/fetcher/tmp/kwe-0.1.1.tar.gz]
+[2024-04-12 05:44:48] INFO root fetch - processPackages [kwe]: Remove: archive file [/home/abi/fetcher/tmp/kwe-0.1.2.tar.gz]
+[2024-04-12 05:44:48] INFO root fetch - main [MainThread]: End processing [kwe]: success
+[2024-04-12 05:44:48] INFO root fetch - processPackages [lazyqyweixin]: executing diffoscope
+[2024-04-12 05:44:48] INFO root fetch - processPackages [lazyqyweixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqyweixin-0.0.6.tar.gz tmp/lazyqyweixin-0.0.7.tar.gz --markdown 20240412/l/lazyqyweixin/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 05:44:48] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-2.1.3-py3-none-any.whl.zip]
+[2024-04-12 05:44:48] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-2.1.4.tar.gz]
+[2024-04-12 05:44:48] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2024-04-12 05:44:48] INFO root fetch - processPackages [lazyqyweixin]: Remove: archive file [/home/abi/fetcher/tmp/lazyqyweixin-0.0.6.tar.gz]
+[2024-04-12 05:44:48] INFO root fetch - processPackages [lazyqyweixin]: Remove: archive file [/home/abi/fetcher/tmp/lazyqyweixin-0.0.7.tar.gz]
+[2024-04-12 05:44:48] INFO root fetch - main [MainThread]: End processing [lazyqyweixin]: success
+[2024-04-12 05:44:48] INFO root fetch - main [MainThread]: Store serial: [22732384]
