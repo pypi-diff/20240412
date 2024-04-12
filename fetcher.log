@@ -19908,3 +19908,75 @@
 [2024-04-12 11:22:38] INFO root fetch - processPackages [tqsdk2]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk2-2.2.9-cp39-cp39-win_amd64.whl.zip]
 [2024-04-12 11:22:38] INFO root fetch - main [MainThread]: End processing [tqsdk2]: success
 [2024-04-12 11:22:38] INFO root fetch - main [MainThread]: Store serial: [22735554]
+[2024-04-12 11:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735554]
+[2024-04-12 11:24:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyiArduinoI2Cexpander
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: formula-validation
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faasmctl
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ob-metaflow
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crawlist
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alviss
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feliz-db
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QuartzFramework
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autodoc_pydantic
+[2024-04-12 11:24:47] WARNING root fetch - processPackages [alviss]: Skipping, unable to determine old version
+[2024-04-12 11:24:47] INFO root fetch - main [MainThread]: End processing [alviss] error
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ob-metaflow]: New version: [2.9.8.2] Old Version: [2.9.7.2]
+[2024-04-12 11:24:47] INFO root fetch - processPackages [crawlist]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 11:24:47] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: New version: [1.0.1] Old Version: [0.9.9]
+[2024-04-12 11:24:47] WARNING root fetch - processPackages [QuartzFramework]: Skipping, unable to determine old version
+[2024-04-12 11:24:47] INFO root fetch - processPackages [autodoc_pydantic]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-12 11:24:47] INFO root fetch - main [MainThread]: End processing [QuartzFramework] error
+[2024-04-12 11:24:47] INFO root fetch - processPackages [formula-validation]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-12 11:24:47] INFO root fetch - processPackages [feliz-db]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 11:24:47] INFO root fetch - processPackages [faasmctl]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-12 11:24:47] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: Downloading https://files.pythonhosted.org/packages/a4/d2/5866d6a8a440a42597e924f1d8a4d694d46fe28e89125441f0701c5eda81/pyiArduinoI2Cexpander-0.9.9.tar.gz
+[2024-04-12 11:24:47] INFO root fetch - processPackages [crawlist]: Downloading https://files.pythonhosted.org/packages/22/71/7b7b370b3005e72a11b64ffed142fd154eef9e31ea921c65bf7d1e5539fa/crawlist-0.0.1.tar.gz
+[2024-04-12 11:24:47] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/d3/01/7b00a35e44dcec3a289d7ce4bbd4fbf5ba60a0d517faf7eefab46462c416/ob-metaflow-2.9.7.2.tar.gz
+[2024-04-12 11:24:47] INFO root fetch - processPackages [feliz-db]: Downloading https://files.pythonhosted.org/packages/d4/94/7c2d043eb6360e904a2c16fce48181b5dcd0368e68dcdc4cc03c8cdca2ec/feliz_db-0.0.6.tar.gz
+[2024-04-12 11:24:47] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/38/e4/dff09873a8761498bf090bc86a2364dfcd7753dd9bc74448aa6c71a828eb/faasmctl-0.9.0.tar.gz
+[2024-04-12 11:24:47] INFO root fetch - processPackages [autodoc_pydantic]: Downloading https://files.pythonhosted.org/packages/ab/b0/94d92ec31a1abddd4eea6eb4fce67423fc5f91ba2f8dc6a5f0c5ca7874dd/autodoc_pydantic-2.0.1.tar.gz
+[2024-04-12 11:24:47] INFO root fetch - processPackages [formula-validation]: Downloading https://files.pythonhosted.org/packages/76/43/334fe069780063597c46e18735e3c8ad1d09aa73582c253938972349b5b0/formula_validation-1.0.3.tar.gz
+[2024-04-12 11:24:48] INFO root fetch - processPackages [crawlist]: Downloading https://files.pythonhosted.org/packages/17/a1/31f87e09d7883006b20e7f24a23b0692f3e7a3b6bba195db1dd12239e0f4/crawlist-0.0.2.tar.gz
+[2024-04-12 11:24:48] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: Downloading https://files.pythonhosted.org/packages/6b/4b/deee665e146070343ddcb38905b6b74a05b4ece95d7bd370a3e8b9614650/pyiArduinoI2Cexpander-1.0.1.tar.gz
+[2024-04-12 11:24:48] INFO root fetch - processPackages [feliz-db]: Downloading https://files.pythonhosted.org/packages/9a/01/1bd23c48627b81b59e7bee1d4cc683216ad45925026ad4d29fc9a57e8fae/feliz_db-0.0.7.tar.gz
+[2024-04-12 11:24:48] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/12/94/9638f501b93a4d5196fdc4cc2fabae586b16cd83dfce921eca78c2dec55f/faasmctl-0.9.1.tar.gz
+[2024-04-12 11:24:48] INFO root fetch - processPackages [crawlist]: executing diffoscope
+[2024-04-12 11:24:48] INFO root fetch - processPackages [crawlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlist-0.0.1.tar.gz tmp/crawlist-0.0.2.tar.gz --markdown 20240412/c/crawlist/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 11:24:48] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: executing diffoscope
+[2024-04-12 11:24:48] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Cexpander-0.9.9.tar.gz tmp/pyiArduinoI2Cexpander-1.0.1.tar.gz --markdown 20240412/p/pyiArduinoI2Cexpander/0.9.9-1.0.1/README.md --exclude *.pyd
+[2024-04-12 11:24:48] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/87/6a/263a2c169f08c12eb7a83616e2011c96487f3c804fb07915ab6f6677dd0b/ob-metaflow-2.9.8.2.tar.gz
+[2024-04-12 11:24:48] INFO root fetch - processPackages [feliz-db]: executing diffoscope
+[2024-04-12 11:24:48] INFO root fetch - processPackages [feliz-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feliz_db-0.0.6.tar.gz tmp/feliz_db-0.0.7.tar.gz --markdown 20240412/f/feliz-db/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 11:24:48] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2024-04-12 11:24:48] INFO root fetch - processPackages [formula-validation]: Downloading https://files.pythonhosted.org/packages/68/41/e698157b6741a0218ddbecdc98ee9507a7924aa565177040084f2557e23c/formula_validation-1.0.4.tar.gz
+[2024-04-12 11:24:48] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.9.0.tar.gz tmp/faasmctl-0.9.1.tar.gz --markdown 20240412/f/faasmctl/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-12 11:24:48] INFO root fetch - processPackages [autodoc_pydantic]: Downloading https://files.pythonhosted.org/packages/00/f3/047ceb5c0b8ac31345faadc3e6c686356a122da91e8d4385c789cfd3992f/autodoc_pydantic-2.1.0.tar.gz
+[2024-04-12 11:24:48] INFO root fetch - processPackages [autodoc_pydantic]: executing diffoscope
+[2024-04-12 11:24:48] INFO root fetch - processPackages [autodoc_pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodoc_pydantic-2.0.1.tar.gz tmp/autodoc_pydantic-2.1.0.tar.gz --markdown 20240412/a/autodoc_pydantic/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-12 11:24:48] INFO root fetch - processPackages [formula-validation]: executing diffoscope
+[2024-04-12 11:24:48] INFO root fetch - processPackages [formula-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formula_validation-1.0.3.tar.gz tmp/formula_validation-1.0.4.tar.gz --markdown 20240412/f/formula-validation/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-12 11:24:48] INFO root fetch - processPackages [ob-metaflow]: executing diffoscope
+[2024-04-12 11:24:48] INFO root fetch - processPackages [ob-metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-2.9.7.2.tar.gz tmp/ob-metaflow-2.9.8.2.tar.gz --markdown 20240412/o/ob-metaflow/2.9.7.2-2.9.8.2/README.md --exclude *.pyd
+[2024-04-12 11:24:48] INFO root fetch - processPackages [crawlist]: Remove: archive file [/home/abi/fetcher/tmp/crawlist-0.0.1.tar.gz]
+[2024-04-12 11:24:48] INFO root fetch - processPackages [crawlist]: Remove: archive file [/home/abi/fetcher/tmp/crawlist-0.0.2.tar.gz]
+[2024-04-12 11:24:48] INFO root fetch - main [MainThread]: End processing [crawlist]: success
+[2024-04-12 11:24:48] INFO root fetch - processPackages [feliz-db]: Remove: archive file [/home/abi/fetcher/tmp/feliz_db-0.0.6.tar.gz]
+[2024-04-12 11:24:48] INFO root fetch - processPackages [feliz-db]: Remove: archive file [/home/abi/fetcher/tmp/feliz_db-0.0.7.tar.gz]
+[2024-04-12 11:24:48] INFO root fetch - main [MainThread]: End processing [feliz-db]: success
+[2024-04-12 11:24:49] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.0.tar.gz]
+[2024-04-12 11:24:49] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.1.tar.gz]
+[2024-04-12 11:24:49] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2024-04-12 11:24:49] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cexpander-0.9.9.tar.gz]
+[2024-04-12 11:24:49] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cexpander-1.0.1.tar.gz]
+[2024-04-12 11:24:49] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cexpander]: success
+[2024-04-12 11:24:49] INFO root fetch - processPackages [autodoc_pydantic]: Remove: archive file [/home/abi/fetcher/tmp/autodoc_pydantic-2.0.1.tar.gz]
+[2024-04-12 11:24:49] INFO root fetch - processPackages [autodoc_pydantic]: Remove: archive file [/home/abi/fetcher/tmp/autodoc_pydantic-2.1.0.tar.gz]
+[2024-04-12 11:24:49] INFO root fetch - main [MainThread]: End processing [autodoc_pydantic]: success
+[2024-04-12 11:24:49] INFO root fetch - processPackages [formula-validation]: Remove: archive file [/home/abi/fetcher/tmp/formula_validation-1.0.3.tar.gz]
+[2024-04-12 11:24:49] INFO root fetch - processPackages [formula-validation]: Remove: archive file [/home/abi/fetcher/tmp/formula_validation-1.0.4.tar.gz]
+[2024-04-12 11:24:49] INFO root fetch - main [MainThread]: End processing [formula-validation]: success
+[2024-04-12 11:24:53] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.7.2.tar.gz]
+[2024-04-12 11:24:53] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.8.2.tar.gz]
+[2024-04-12 11:24:53] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
+[2024-04-12 11:24:53] INFO root fetch - main [MainThread]: Store serial: [22735582]
