@@ -11672,3 +11672,30 @@
 [2024-04-12 04:19:11] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
 [2024-04-12 04:19:11] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2024-04-12 04:19:11] INFO root fetch - main [MainThread]: Store serial: [22731813]
+[2024-04-12 04:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731813]
+[2024-04-12 04:21:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 04:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-qrbill
+[2024-04-12 04:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-tensorflow
+[2024-04-12 04:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ktianc
+[2024-04-12 04:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: small-gicp
+[2024-04-12 04:21:20] INFO root fetch - processPackages [ktianc]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 04:21:20] INFO root fetch - processPackages [types-tensorflow]: New version: [2.15.0.20240411] Old Version: [2.15.0.20240314]
+[2024-04-12 04:21:20] INFO root fetch - processPackages [ktianc]: Downloading https://files.pythonhosted.org/packages/f7/02/0bd4da9b5cae9d9da117184c54f045a3804ded6be82cb42057828ca40f3a/ktianc-0.3.0.tar.gz
+[2024-04-12 04:21:20] WARNING root fetch - processPackages [small-gicp]: Skipping, unable to determine old version
+[2024-04-12 04:21:20] INFO root fetch - main [MainThread]: End processing [small-gicp] error
+[2024-04-12 04:21:20] WARNING root fetch - processPackages [types-qrbill]: Skipping, unable to determine old version
+[2024-04-12 04:21:20] INFO root fetch - main [MainThread]: End processing [types-qrbill] error
+[2024-04-12 04:21:20] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/86/80/9e17b30ce441a422983a9b50861e1fd722c1e18fb1dbc7efcddcca2bd64a/types-tensorflow-2.15.0.20240314.tar.gz
+[2024-04-12 04:21:20] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/bc/23/29a42b80b70dcef0542f50ad31c0880a6e10cd971e321b2feccf6ae0d5fe/types-tensorflow-2.15.0.20240411.tar.gz
+[2024-04-12 04:21:20] INFO root fetch - processPackages [ktianc]: Downloading https://files.pythonhosted.org/packages/9e/bb/4402a88f8c0c20566f340ef5fa1689a448a1c094a584527f948b26d3295d/ktianc-0.3.1.tar.gz
+[2024-04-12 04:21:20] INFO root fetch - processPackages [types-tensorflow]: executing diffoscope
+[2024-04-12 04:21:20] INFO root fetch - processPackages [types-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tensorflow-2.15.0.20240314.tar.gz tmp/types-tensorflow-2.15.0.20240411.tar.gz --markdown 20240412/t/types-tensorflow/2.15.0.20240314-2.15.0.20240411/README.md --exclude *.pyd
+[2024-04-12 04:21:20] INFO root fetch - processPackages [ktianc]: executing diffoscope
+[2024-04-12 04:21:20] INFO root fetch - processPackages [ktianc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktianc-0.3.0.tar.gz tmp/ktianc-0.3.1.tar.gz --markdown 20240412/k/ktianc/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-12 04:21:21] INFO root fetch - processPackages [ktianc]: Remove: archive file [/home/abi/fetcher/tmp/ktianc-0.3.0.tar.gz]
+[2024-04-12 04:21:21] INFO root fetch - processPackages [ktianc]: Remove: archive file [/home/abi/fetcher/tmp/ktianc-0.3.1.tar.gz]
+[2024-04-12 04:21:21] INFO root fetch - main [MainThread]: End processing [ktianc]: success
+[2024-04-12 04:21:22] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.15.0.20240314.tar.gz]
+[2024-04-12 04:21:22] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.15.0.20240411.tar.gz]
+[2024-04-12 04:21:22] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
+[2024-04-12 04:21:22] INFO root fetch - main [MainThread]: Store serial: [22731828]
