@@ -17546,3 +17546,102 @@
 [2024-04-12 09:58:39] INFO root fetch - processPackages [nvremap]: Remove: archive file [/home/abi/fetcher/tmp/nvremap-0.1.2-cp311-cp311-manylinux1_x86_64.whl.zip]
 [2024-04-12 09:58:39] INFO root fetch - main [MainThread]: End processing [nvremap]: success
 [2024-04-12 09:58:39] INFO root fetch - main [MainThread]: Store serial: [22734489]
+[2024-04-12 10:00:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734489]
+[2024-04-12 10:00:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windmill-api
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seacrowd
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill-pg
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libredr
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funding-service-design-utils
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zeroset
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: esrt
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hiddifypanel
+[2024-04-12 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: l2m2
+[2024-04-12 10:00:48] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [zeroset]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [l2m2]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [seacrowd]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-12 10:00:48] INFO root fetch - processPackages [libredr]: New version: [0.0.18] Old Version: [0.0.17]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [esrt]: New version: [1.33.0] Old Version: [1.32.0]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [hiddifypanel]: New version: [8.8.99] Old Version: [8.8.97]
+[2024-04-12 10:00:48] INFO root fetch - processPackages [zeroset]: Downloading https://files.pythonhosted.org/packages/f1/e9/b34c58ea7f70d2afbd1d53ac36fd8607579fe022aaa3f1411e46090513fd/zeroset-0.0.2.tar.gz
+[2024-04-12 10:00:48] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/22/1d/2a2cabc295a71828411aad9a828f66e8dc673ce8e37b79cc56c53c376a71/l2m2-0.0.6.tar.gz
+[2024-04-12 10:00:48] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-12 10:00:48] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/5e/21/f192ad4306b3d83673875e05edc8824d11296838bd28f89e6c0561fcb1f1/seacrowd-0.0.6.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [libredr]: Downloading https://files.pythonhosted.org/packages/ac/c2/1aff190ed559712d4c8094a73fb1333efe19a7d24000d979e1be5e33263c/libredr-0.0.17.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/8e/a3/c6322dd70e39c8ea920cea5a00222af52dcf859d2dbf7dd9766a3daf0446/esrt-1.32.0.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/fc/05/ebfd1361ff3bd9a9b0a15e036dfd215e147713cb058c15778765feded45b/funding-service-design-utils-2.0.8.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/3b/4c/15ca81d9764c196bd632b929c178a21ce2569604e1b7958aaf21f3591f24/hiddifypanel-8.8.97.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [zeroset]: Downloading https://files.pythonhosted.org/packages/ff/2d/40eacb38514783acac9295214a45e717983e8c1ee1b9ea1883f301146cad/zeroset-0.0.3.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/b2/0b/1734a1df002dd768a63617e26c559b42c44a8e52f84f69ee1ffde68e357a/l2m2-0.0.7.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-12 10:00:49] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240412/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-12 10:00:49] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/97/ba/8a18c64584237b7ef501e2974c6e554ecc8bfe47c5916417488ce0475974/seacrowd-0.0.7.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [zeroset]: executing diffoscope
+[2024-04-12 10:00:49] INFO root fetch - processPackages [zeroset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroset-0.0.2.tar.gz tmp/zeroset-0.0.3.tar.gz --markdown 20240412/z/zeroset/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 10:00:49] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-12 10:00:49] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240412/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-12 10:00:49] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/19/9e/917dc8ca91910dd338cd170441d9eb02f75f824720d9ae7182fbc9a1533c/esrt-1.33.0.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-04-12 10:00:49] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.6.tar.gz tmp/l2m2-0.0.7.tar.gz --markdown 20240412/l/l2m2/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 10:00:49] INFO root fetch - processPackages [libredr]: Downloading https://files.pythonhosted.org/packages/e1/aa/4657e322d8434231e274a82fe56e70dc97cc106746bee1c2ce480db7cdb4/libredr-0.0.18.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-12 10:00:49] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.6.tar.gz tmp/seacrowd-0.0.7.tar.gz --markdown 20240412/s/seacrowd/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-12 10:00:49] INFO root fetch - processPackages [esrt]: executing diffoscope
+[2024-04-12 10:00:49] INFO root fetch - processPackages [esrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esrt-1.32.0.tar.gz tmp/esrt-1.33.0.tar.gz --markdown 20240412/e/esrt/1.32.0-1.33.0/README.md --exclude *.pyd
+[2024-04-12 10:00:49] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/64/dd/5468aa90577e921b62adb3b2a2ce40bcdbcbdf4133e3ffe35bab68233cc6/funding-service-design-utils-2.0.9.tar.gz
+[2024-04-12 10:00:49] INFO root fetch - processPackages [libredr]: executing diffoscope
+[2024-04-12 10:00:49] INFO root fetch - processPackages [libredr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libredr-0.0.17.tar.gz tmp/libredr-0.0.18.tar.gz --markdown 20240412/l/libredr/0.0.17-0.0.18/README.md --exclude *.pyd
+[2024-04-12 10:00:49] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-12 10:00:49] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240412/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-12 10:00:49] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2024-04-12 10:00:49] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.8.tar.gz tmp/funding-service-design-utils-2.0.9.tar.gz --markdown 20240412/f/funding-service-design-utils/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-12 10:00:50] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ef/74/ab9bc5ebe1c31d96fcff0642f25280d3eebba3d867bbf874c9e8c9fe2a23/hiddifypanel-8.8.99.tar.gz
+[2024-04-12 10:00:50] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - processPackages [wmill]: Start processing: astabc
+[2024-04-12 10:00:50] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-12 10:00:50] INFO root fetch - processPackages [zeroset]: Remove: archive file [/home/abi/fetcher/tmp/zeroset-0.0.2.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - processPackages [zeroset]: Remove: archive file [/home/abi/fetcher/tmp/zeroset-0.0.3.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - processPackages [zeroset]: Start processing: MyPack1024
+[2024-04-12 10:00:50] INFO root fetch - main [MainThread]: End processing [zeroset]: success
+[2024-04-12 10:00:50] WARNING root fetch - processPackages [astabc]: Skipping, unable to determine old version
+[2024-04-12 10:00:50] INFO root fetch - main [MainThread]: End processing [astabc] error
+[2024-04-12 10:00:50] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2024-04-12 10:00:50] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.8.97.tar.gz tmp/hiddifypanel-8.8.99.tar.gz --markdown 20240412/h/hiddifypanel/8.8.97-8.8.99/README.md --exclude *.pyd
+[2024-04-12 10:00:50] WARNING root fetch - processPackages [MyPack1024]: Skipping, unable to determine old version
+[2024-04-12 10:00:50] INFO root fetch - main [MainThread]: End processing [MyPack1024] error
+[2024-04-12 10:00:50] INFO root fetch - processPackages [esrt]: Remove: archive file [/home/abi/fetcher/tmp/esrt-1.32.0.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - processPackages [esrt]: Remove: archive file [/home/abi/fetcher/tmp/esrt-1.33.0.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - main [MainThread]: End processing [esrt]: success
+[2024-04-12 10:00:50] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.6.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.7.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-04-12 10:00:50] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-12 10:00:50] INFO root fetch - processPackages [libredr]: Remove: archive file [/home/abi/fetcher/tmp/libredr-0.0.17.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - processPackages [libredr]: Remove: archive file [/home/abi/fetcher/tmp/libredr-0.0.18.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - main [MainThread]: End processing [libredr]: success
+[2024-04-12 10:00:50] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.8.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.9.tar.gz]
+[2024-04-12 10:00:50] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2024-04-12 10:00:51] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.6.tar.gz]
+[2024-04-12 10:00:51] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.7.tar.gz]
+[2024-04-12 10:00:51] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-12 10:00:53] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-12 10:00:53] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-12 10:00:53] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-12 10:00:54] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.8.97.tar.gz]
+[2024-04-12 10:00:54] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.8.99.tar.gz]
+[2024-04-12 10:00:54] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2024-04-12 10:00:54] INFO root fetch - main [MainThread]: Store serial: [22734528]
