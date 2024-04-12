@@ -14343,3 +14343,95 @@
 [2024-04-12 07:19:05] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.1.0.tar.gz]
 [2024-04-12 07:19:05] INFO root fetch - main [MainThread]: End processing [stripe]: success
 [2024-04-12 07:19:05] INFO root fetch - main [MainThread]: Store serial: [22732940]
+[2024-04-12 07:21:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732940]
+[2024-04-12 07:21:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynyairbnb
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yosemite
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-train-dev
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecmo-invoicing-pdf
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytiqs
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cs.hashutils
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl-cli-dev
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-core-dev
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neuanwi02
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composabl-dev
+[2024-04-12 07:21:17] INFO root fetch - processPackages [pynyairbnb]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [yosemite]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [neuanwi02]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [pytiqs]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [pynyairbnb]: Downloading https://files.pythonhosted.org/packages/dc/c3/d4f94f7f690586a11307c706c3323500ff9044c6aeeaf428253b41acf2eb/pynyairbnb-0.1.0.tar.gz
+[2024-04-12 07:21:17] WARNING root fetch - processPackages [ecmo-invoicing-pdf]: Skipping, unable to determine old version
+[2024-04-12 07:21:17] INFO root fetch - processPackages [ecmo-invoicing-pdf]: Start processing: cuteSV
+[2024-04-12 07:21:17] INFO root fetch - main [MainThread]: End processing [ecmo-invoicing-pdf] error
+[2024-04-12 07:21:17] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/4a/a0/fae4202dc7e27017437fbafdfdb9257b93f97fc3d65b2bca67f173871cab/composabl_core_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 07:21:17] INFO root fetch - processPackages [cs.hashutils]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/df/cb/ce9f1a0aefea84e7469898677e98feba1c28be47aa46f3f54825423434a9/pytiqs-1.0.3.tar.gz
+[2024-04-12 07:21:17] INFO root fetch - processPackages [neuanwi02]: Downloading https://files.pythonhosted.org/packages/46/40/25a274c923fa84df9cd61cca556abf073c9771fcf927283d46a7f8ac8e6a/neuanwi02-0.0.3-py3-none-any.whl
+[2024-04-12 07:21:17] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/d5/b9/11fd9112091b8548d9b8fcbf58f48a6d09c00d9bd49b1c25636873971c2b/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 07:21:17] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21365442>=10485760
+[2024-04-12 07:21:17] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-12 07:21:17] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/19/92/d2cc81d1932bc78afddf0cf92c75659eee58d38d34d9e8471d60b63233f7/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 07:21:17] INFO root fetch - processPackages [yosemite]: Downloading https://files.pythonhosted.org/packages/fb/df/668820f72fe6623dc55e904e4346f2d78f97e25b8844b10431c2461190ef/yosemite-0.1.5.tar.gz
+[2024-04-12 07:21:17] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/3f/87/aeed0c05640a655a9f7a9651405c023e800537ac5400c580f59a119cd1bf/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 07:21:17] INFO root fetch - processPackages [cuteSV]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-12 07:21:17] INFO root fetch - processPackages [cs.hashutils]: Downloading https://files.pythonhosted.org/packages/9c/a7/10415fc54d4b73c9d6f40509bebb0434cf17e277e917f0230277be0dacd9/cs.hashutils-20240316.tar.gz
+[2024-04-12 07:21:17] INFO root fetch - processPackages [pynyairbnb]: Downloading https://files.pythonhosted.org/packages/99/8a/1e3a9440e18e9a8c2b76760ab3de39b4993e1c8ba464ed048cd43ef63017/pynyairbnb-0.2.0.tar.gz
+[2024-04-12 07:21:17] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/7c/97/1d31f7b207106d6280e0683d62ecb882fcda0e2bd4961c7c0834726417d0/pytiqs-1.0.4-py3-none-any.whl
+[2024-04-12 07:21:18] INFO root fetch - processPackages [neuanwi02]: Downloading https://files.pythonhosted.org/packages/89/d9/5eab2c3d5a38edd4da72b89ed052ce258b34cc17786f17bf048e9de11108/neuanwi02-0.0.4-py3-none-any.whl
+[2024-04-12 07:21:18] INFO root fetch - processPackages [yosemite]: Downloading https://files.pythonhosted.org/packages/30/18/946b7fd25def0814d1583492b97c631c4bdd460de82c1a0709be5d983d5c/yosemite-0.1.6.tar.gz
+[2024-04-12 07:21:18] INFO root fetch - processPackages [pynyairbnb]: executing diffoscope
+[2024-04-12 07:21:18] INFO root fetch - processPackages [pynyairbnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynyairbnb-0.1.0.tar.gz tmp/pynyairbnb-0.2.0.tar.gz --markdown 20240412/p/pynyairbnb/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-12 07:21:18] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 07:21:18] INFO root fetch - processPackages [cuteSV]: Downloading https://files.pythonhosted.org/packages/a5/50/3bb331ce84788ae71ec4e55e0d4a0306abef92ca6d788a2ccc09947282e0/cuteSV-2.1.0.tar.gz
+[2024-04-12 07:21:18] INFO root fetch - processPackages [pytiqs]: executing diffoscope
+[2024-04-12 07:21:18] INFO root fetch - processPackages [pytiqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiqs-1.0.3.tar.gz tmp/pytiqs-1.0.4-py3-none-any.whl.zip --markdown 20240412/p/pytiqs/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-12 07:21:18] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 07:21:18] INFO root fetch - processPackages [yosemite]: executing diffoscope
+[2024-04-12 07:21:18] INFO root fetch - processPackages [yosemite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yosemite-0.1.5.tar.gz tmp/yosemite-0.1.6.tar.gz --markdown 20240412/y/yosemite/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-12 07:21:18] INFO root fetch - processPackages [neuanwi02]: executing diffoscope
+[2024-04-12 07:21:18] INFO root fetch - processPackages [neuanwi02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuanwi02-0.0.3-py3-none-any.whl.zip tmp/neuanwi02-0.0.4-py3-none-any.whl.zip --markdown 20240412/n/neuanwi02/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 07:21:18] INFO root fetch - processPackages [cs.hashutils]: Downloading https://files.pythonhosted.org/packages/5e/6c/73a369b4b6e50284ac5e59d088c0ce7a4288dd451f5835af60dcbc45c91a/cs.hashutils-20240412.tar.gz
+[2024-04-12 07:21:18] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-12 07:21:18] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240412/c/composabl-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-12 07:21:18] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 07:21:18] INFO root fetch - processPackages [cs.hashutils]: executing diffoscope
+[2024-04-12 07:21:18] INFO root fetch - processPackages [cs.hashutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.hashutils-20240316.tar.gz tmp/cs.hashutils-20240412.tar.gz --markdown 20240412/c/cs.hashutils/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 07:21:18] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-04-12 07:21:18] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240412/c/composabl-cli-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-12 07:21:18] INFO root fetch - processPackages [cuteSV]: Downloading https://files.pythonhosted.org/packages/30/3b/68278a636d9c74c9b64411cee170871525ab171559cde3cd8ed62d25ee82/cuteSV-2.1.1.tar.gz
+[2024-04-12 07:21:18] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-04-12 07:21:18] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240412/c/composabl-train-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-12 07:21:18] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.3.tar.gz]
+[2024-04-12 07:21:18] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.4-py3-none-any.whl.zip]
+[2024-04-12 07:21:18] INFO root fetch - main [MainThread]: End processing [pytiqs]: success
+[2024-04-12 07:21:18] INFO root fetch - processPackages [pynyairbnb]: Remove: archive file [/home/abi/fetcher/tmp/pynyairbnb-0.1.0.tar.gz]
+[2024-04-12 07:21:18] INFO root fetch - processPackages [pynyairbnb]: Remove: archive file [/home/abi/fetcher/tmp/pynyairbnb-0.2.0.tar.gz]
+[2024-04-12 07:21:18] INFO root fetch - main [MainThread]: End processing [pynyairbnb]: success
+[2024-04-12 07:21:18] INFO root fetch - processPackages [cuteSV]: executing diffoscope
+[2024-04-12 07:21:18] INFO root fetch - processPackages [cuteSV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuteSV-2.1.0.tar.gz tmp/cuteSV-2.1.1.tar.gz --markdown 20240412/c/cuteSV/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-12 07:21:18] INFO root fetch - processPackages [neuanwi02]: Remove: archive file [/home/abi/fetcher/tmp/neuanwi02-0.0.3-py3-none-any.whl.zip]
+[2024-04-12 07:21:18] INFO root fetch - processPackages [neuanwi02]: Remove: archive file [/home/abi/fetcher/tmp/neuanwi02-0.0.4-py3-none-any.whl.zip]
+[2024-04-12 07:21:18] INFO root fetch - main [MainThread]: End processing [neuanwi02]: success
+[2024-04-12 07:21:19] INFO root fetch - processPackages [yosemite]: Remove: archive file [/home/abi/fetcher/tmp/yosemite-0.1.5.tar.gz]
+[2024-04-12 07:21:19] INFO root fetch - processPackages [yosemite]: Remove: archive file [/home/abi/fetcher/tmp/yosemite-0.1.6.tar.gz]
+[2024-04-12 07:21:19] INFO root fetch - main [MainThread]: End processing [yosemite]: success
+[2024-04-12 07:21:19] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 07:21:19] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 07:21:19] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-12 07:21:19] INFO root fetch - processPackages [cs.hashutils]: Remove: archive file [/home/abi/fetcher/tmp/cs.hashutils-20240316.tar.gz]
+[2024-04-12 07:21:19] INFO root fetch - processPackages [cs.hashutils]: Remove: archive file [/home/abi/fetcher/tmp/cs.hashutils-20240412.tar.gz]
+[2024-04-12 07:21:19] INFO root fetch - main [MainThread]: End processing [cs.hashutils]: success
+[2024-04-12 07:21:19] INFO root fetch - processPackages [cuteSV]: Remove: archive file [/home/abi/fetcher/tmp/cuteSV-2.1.0.tar.gz]
+[2024-04-12 07:21:19] INFO root fetch - processPackages [cuteSV]: Remove: archive file [/home/abi/fetcher/tmp/cuteSV-2.1.1.tar.gz]
+[2024-04-12 07:21:19] INFO root fetch - main [MainThread]: End processing [cuteSV]: success
+[2024-04-12 07:21:19] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 07:21:19] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 07:21:19] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-04-12 07:21:22] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 07:21:22] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 07:21:22] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-04-12 07:21:22] INFO root fetch - main [MainThread]: Store serial: [22733004]
