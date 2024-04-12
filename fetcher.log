@@ -19980,3 +19980,96 @@
 [2024-04-12 11:24:53] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.8.2.tar.gz]
 [2024-04-12 11:24:53] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
 [2024-04-12 11:24:53] INFO root fetch - main [MainThread]: Store serial: [22735582]
+[2024-04-12 11:26:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735582]
+[2024-04-12 11:27:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agent-os-py
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tad-dftd4
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acetone-nnet
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqqq-cli
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-aa
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geo-parameters
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-product-cost-security
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: remotecall
+[2024-04-12 11:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seam
+[2024-04-12 11:27:02] INFO root fetch - processPackages [acetone-nnet]: New version: [0.0.1.2.3] Old Version: [0.0.1.2.1]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [geo-parameters]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [seam]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/2a/38/d5df9d34d265d706976086e14148f4196687922b3dd50650551737a34489/acetone-nnet-0.0.1.2.1.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [tad-dftd4]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [agent-os-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [remotecall]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [odoo-addon-product-cost-security]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.3]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [geo-parameters]: Downloading https://files.pythonhosted.org/packages/a5/9f/f99e86c7badc6de53ae7390cba0d91f79ca73069c3e896fe705a1d78826c/geo_parameters-0.2.3.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/c2/c2/c175003e563333b34578e3b5ca53b4e005dab2fd260cf9390d4383b3d6e4/pyqqq_cli-0.1.9.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/35/44/3da744b11d663847ea63d6b6d0a95d43dcb998d02571d2116a4f2870068c/seam-0.3.0.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 11:27:02] INFO root fetch - processPackages [tad-dftd4]: Downloading https://files.pythonhosted.org/packages/a8/f2/ab1a7ace84e437bbd2843855b6fded664ae5f8113a77ddf6cef079b7e5f0/tad_dftd4-0.0.4.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [agent-os-py]: Downloading https://files.pythonhosted.org/packages/0f/c2/4f04653b1a94ef1a6599508050e6f146971fa25049a1f33c9799dcf9042e/agent_os_py-0.1.0.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [remotecall]: Downloading https://files.pythonhosted.org/packages/9d/5f/777e5c0fd6bae7ffdd1209c9557eccdca097cc6723e1f8667ad2a288459c/remotecall-0.1.6.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Downloading https://files.pythonhosted.org/packages/d9/2d/5f405b5317cc69205fe843827d725ab0b272ae8b9d012bb0e50293646135/odoo_addon_product_cost_security-16.0.1.1.0.3-py3-none-any.whl
+[2024-04-12 11:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/0e/49/d3deea1dbe9eed3d486f850eab70b665bc903e06042c7b39c19585e01b6a/tencentcloud-sdk-python-3.0.998.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/a2/4c/3c7c6150a011e32b81b38a92f8897a5c6ee494b584fd6090858e85489c02/tencentcloud-sdk-python-aa-3.0.998.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/72/ec/c674bb7da9fdced3b026006f488841bb3c900a9555f4b1c46b3721f873a0/acetone-nnet-0.0.1.2.3.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [geo-parameters]: Downloading https://files.pythonhosted.org/packages/16/94/d2c9f0faac5e59a025c89e86f4f31f9c41da8af1771070842cff0afeb217/geo_parameters-0.2.4.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/e0/97/5ba69af242df1fbb3e86b23ba092a0b6ba864562b95e87369d803d124e92/pyqqq_cli-0.2.0.tar.gz
+[2024-04-12 11:27:02] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/25/82/aaf427cf9142af0884d4dc46a4a1c241359c9d44f2d165c18c7c5141e59a/seam-0.3.1.tar.gz
+[2024-04-12 11:27:03] INFO root fetch - processPackages [geo-parameters]: executing diffoscope
+[2024-04-12 11:27:03] INFO root fetch - processPackages [geo-parameters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_parameters-0.2.3.tar.gz tmp/geo_parameters-0.2.4.tar.gz --markdown 20240412/g/geo-parameters/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-12 11:27:03] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-12 11:27:03] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone-nnet-0.0.1.2.1.tar.gz tmp/acetone-nnet-0.0.1.2.3.tar.gz --markdown 20240412/a/acetone-nnet/0.0.1.2.1-0.0.1.2.3/README.md --exclude *.pyd
+[2024-04-12 11:27:03] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-04-12 11:27:03] INFO root fetch - processPackages [tad-dftd4]: Downloading https://files.pythonhosted.org/packages/e9/03/89d15f216cb378a98af243f27fcf1a19db14aa001082c82982cf37adf245/tad_dftd4-0.1.0.tar.gz
+[2024-04-12 11:27:03] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.1.9.tar.gz tmp/pyqqq_cli-0.2.0.tar.gz --markdown 20240412/p/pyqqq-cli/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-12 11:27:03] INFO root fetch - processPackages [remotecall]: Downloading https://files.pythonhosted.org/packages/ed/df/4a29a974212530e9eed03ecfeadeb1c2daf7b011a522a79ee6383df7579d/remotecall-0.2.0.tar.gz
+[2024-04-12 11:27:03] INFO root fetch - processPackages [seam]: executing diffoscope
+[2024-04-12 11:27:03] INFO root fetch - processPackages [seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seam-0.3.0.tar.gz tmp/seam-0.3.1.tar.gz --markdown 20240412/s/seam/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-12 11:27:03] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Downloading https://files.pythonhosted.org/packages/7d/5b/dafb2b0a31992044a6a3656ab16d571f07c0dd1fcf50ad2576c2f84930cb/odoo_addon_product_cost_security-16.0.1.2.0-py3-none-any.whl
+[2024-04-12 11:27:03] INFO root fetch - processPackages [agent-os-py]: Downloading https://files.pythonhosted.org/packages/86/08/dc823bf36566c1e937255cfa95dda1a4ccb10cbd41629b9cf62d3d2a7ebe/agent_os_py-0.1.1.tar.gz
+[2024-04-12 11:27:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/4c/d6/5bd523bd521bb045390dcbe68344c43369604ab7a14166596994e4a2a42f/tencentcloud-sdk-python-aa-3.0.999.tar.gz
+[2024-04-12 11:27:03] INFO root fetch - processPackages [tad-dftd4]: executing diffoscope
+[2024-04-12 11:27:03] INFO root fetch - processPackages [tad-dftd4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tad_dftd4-0.0.4.tar.gz tmp/tad_dftd4-0.1.0.tar.gz --markdown 20240412/t/tad-dftd4/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-12 11:27:03] INFO root fetch - processPackages [remotecall]: executing diffoscope
+[2024-04-12 11:27:03] INFO root fetch - processPackages [remotecall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotecall-0.1.6.tar.gz tmp/remotecall-0.2.0.tar.gz --markdown 20240412/r/remotecall/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-12 11:27:03] INFO root fetch - processPackages [odoo-addon-product-cost-security]: executing diffoscope
+[2024-04-12 11:27:03] INFO root fetch - processPackages [odoo-addon-product-cost-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_cost_security-16.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_cost_security-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-product-cost-security/16.0.1.1.0.3-16.0.1.2.0/README.md --exclude *.pyd
+[2024-04-12 11:27:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: executing diffoscope
+[2024-04-12 11:27:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-aa/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:27:03] INFO root fetch - processPackages [agent-os-py]: executing diffoscope
+[2024-04-12 11:27:03] INFO root fetch - processPackages [agent-os-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_os_py-0.1.0.tar.gz tmp/agent_os_py-0.1.1.tar.gz --markdown 20240412/a/agent-os-py/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 11:27:03] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/72/eb/b7f20f227c30beeb1298a5013dbd98cf616d9c321398cf216c1b15940a8b/tencentcloud-sdk-python-3.0.999.tar.gz
+[2024-04-12 11:27:03] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.1.9.tar.gz]
+[2024-04-12 11:27:03] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.0.tar.gz]
+[2024-04-12 11:27:03] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-04-12 11:27:03] INFO root fetch - processPackages [geo-parameters]: Remove: archive file [/home/abi/fetcher/tmp/geo_parameters-0.2.3.tar.gz]
+[2024-04-12 11:27:03] INFO root fetch - processPackages [geo-parameters]: Remove: archive file [/home/abi/fetcher/tmp/geo_parameters-0.2.4.tar.gz]
+[2024-04-12 11:27:03] INFO root fetch - main [MainThread]: End processing [geo-parameters]: success
+[2024-04-12 11:27:04] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2024-04-12 11:27:04] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.998.tar.gz tmp/tencentcloud-sdk-python-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 11:27:04] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.3.0.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.3.1.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - main [MainThread]: End processing [seam]: success
+[2024-04-12 11:27:04] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.1.2.1.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.1.2.3.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-12 11:27:04] INFO root fetch - processPackages [remotecall]: Remove: archive file [/home/abi/fetcher/tmp/remotecall-0.1.6.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - processPackages [remotecall]: Remove: archive file [/home/abi/fetcher/tmp/remotecall-0.2.0.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - main [MainThread]: End processing [remotecall]: success
+[2024-04-12 11:27:04] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aa]: success
+[2024-04-12 11:27:04] INFO root fetch - processPackages [tad-dftd4]: Remove: archive file [/home/abi/fetcher/tmp/tad_dftd4-0.0.4.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - processPackages [tad-dftd4]: Remove: archive file [/home/abi/fetcher/tmp/tad_dftd4-0.1.0.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - main [MainThread]: End processing [tad-dftd4]: success
+[2024-04-12 11:27:04] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_cost_security-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-12 11:27:04] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_cost_security-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-12 11:27:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-cost-security]: success
+[2024-04-12 11:27:04] INFO root fetch - processPackages [agent-os-py]: Remove: archive file [/home/abi/fetcher/tmp/agent_os_py-0.1.0.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - processPackages [agent-os-py]: Remove: archive file [/home/abi/fetcher/tmp/agent_os_py-0.1.1.tar.gz]
+[2024-04-12 11:27:04] INFO root fetch - main [MainThread]: End processing [agent-os-py]: success
+[2024-04-12 11:27:14] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.998.tar.gz]
+[2024-04-12 11:27:14] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
+[2024-04-12 11:27:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2024-04-12 11:27:14] INFO root fetch - main [MainThread]: Store serial: [22735607]
