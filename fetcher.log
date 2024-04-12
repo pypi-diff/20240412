@@ -12070,3 +12070,15 @@
 [2024-04-12 04:48:31] INFO root fetch - processPackages [neoval-py-utils]: Remove: archive file [/home/abi/fetcher/tmp/neoval_py_utils-0.3.1.tar.gz]
 [2024-04-12 04:48:31] INFO root fetch - main [MainThread]: End processing [neoval-py-utils]: success
 [2024-04-12 04:48:31] INFO root fetch - main [MainThread]: Store serial: [22731986]
+[2024-04-12 04:50:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731986]
+[2024-04-12 04:50:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-12 04:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swebench
+[2024-04-12 04:50:39] INFO root fetch - processPackages [swebench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 04:50:40] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/9f/5f/e1b27b554c9d461ee219864c4084395d8c393b8c84491f779e65107362bb/swebench-1.0.8.tar.gz
+[2024-04-12 04:50:40] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/f4/1e/da0a5ff7fec617ab4a890a381f312d0e2e1121cc800b024ac5b967ba62a7/swebench-1.0.9.tar.gz
+[2024-04-12 04:50:40] INFO root fetch - processPackages [swebench]: executing diffoscope
+[2024-04-12 04:50:40] INFO root fetch - processPackages [swebench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swebench-1.0.8.tar.gz tmp/swebench-1.0.9.tar.gz --markdown 20240412/s/swebench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 04:50:40] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.8.tar.gz]
+[2024-04-12 04:50:40] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.9.tar.gz]
+[2024-04-12 04:50:40] INFO root fetch - main [MainThread]: End processing [swebench]: success
+[2024-04-12 04:50:40] INFO root fetch - main [MainThread]: Store serial: [22731989]
