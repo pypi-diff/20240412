@@ -16767,3 +16767,42 @@
 [2024-04-12 09:27:58] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.0rc1.tar.gz]
 [2024-04-12 09:27:58] INFO root fetch - main [MainThread]: End processing [datumaro]: success
 [2024-04-12 09:27:58] INFO root fetch - main [MainThread]: Store serial: [22734092]
+[2024-04-12 09:30:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734092]
+[2024-04-12 09:30:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 09:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-creartramas
+[2024-04-12 09:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alpharaw
+[2024-04-12 09:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vector-vault
+[2024-04-12 09:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AlgDiff
+[2024-04-12 09:30:07] INFO root fetch - processPackages [robotframework-creartramas]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-12 09:30:07] INFO root fetch - processPackages [vector-vault]: New version: [4.4.3.9] Old Version: [4.4.3.8]
+[2024-04-12 09:30:08] INFO root fetch - processPackages [alpharaw]: New version: [0.4.5] Old Version: [0.4.3]
+[2024-04-12 09:30:08] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/e9/55/1f056d2001b642a05730a6179b1bd0aad7ce2ecb2749dc1d545095586a43/robotframework_creartramas-2.1.4.tar.gz
+[2024-04-12 09:30:08] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/f9/c1/65d732f94e5cd46da94eef646c93e5f0bf17379ab930f838b908bf0adf6d/vector_vault-4.4.3.8.tar.gz
+[2024-04-12 09:30:08] INFO root fetch - processPackages [AlgDiff]: New version: [2.4] Old Version: [2.3]
+[2024-04-12 09:30:08] INFO root fetch - processPackages [alpharaw]: Downloading https://files.pythonhosted.org/packages/55/51/04a88e9f3ab29cb14accd9fa2cf0f701669f2ab06db335514fb8e371f5c6/alpharaw-0.4.3.tar.gz
+[2024-04-12 09:30:08] INFO root fetch - processPackages [AlgDiff]: Downloading https://files.pythonhosted.org/packages/eb/b7/ce26ec80dfe8077434a0d489f0b28997f7d0368f8387bbd368aea4bcabb6/AlgDiff-2.3.tar.gz
+[2024-04-12 09:30:08] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/4d/b0/d5a677924474e58edb7d59a4d7719a037fb874b1b567b2018353b7a7794d/robotframework_creartramas-2.1.5.tar.gz
+[2024-04-12 09:30:08] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/76/e9/b8a98a19e6f6426d4af6bcfae2e4389a6cea0b21db0d1096810f29ef986d/vector_vault-4.4.3.9.tar.gz
+[2024-04-12 09:30:08] INFO root fetch - processPackages [robotframework-creartramas]: executing diffoscope
+[2024-04-12 09:30:08] INFO root fetch - processPackages [robotframework-creartramas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_creartramas-2.1.4.tar.gz tmp/robotframework_creartramas-2.1.5.tar.gz --markdown 20240412/r/robotframework-creartramas/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-12 09:30:08] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-12 09:30:08] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.4.3.8.tar.gz tmp/vector_vault-4.4.3.9.tar.gz --markdown 20240412/v/vector-vault/4.4.3.8-4.4.3.9/README.md --exclude *.pyd
+[2024-04-12 09:30:08] INFO root fetch - processPackages [AlgDiff]: Downloading https://files.pythonhosted.org/packages/78/78/236523f26e6bcc5f2b05b7d138ed812d0be656967e0d83b114b8c159bdb4/AlgDiff-2.4.tar.gz
+[2024-04-12 09:30:08] INFO root fetch - processPackages [alpharaw]: Downloading https://files.pythonhosted.org/packages/2b/0c/5f3c60169babc04eaaf15f25fd26eec50964f11cdeca3ca41943ad68cc09/alpharaw-0.4.5.tar.gz
+[2024-04-12 09:30:08] INFO root fetch - processPackages [AlgDiff]: executing diffoscope
+[2024-04-12 09:30:08] INFO root fetch - processPackages [AlgDiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgDiff-2.3.tar.gz tmp/AlgDiff-2.4.tar.gz --markdown 20240412/A/AlgDiff/2.3-2.4/README.md --exclude *.pyd
+[2024-04-12 09:30:09] INFO root fetch - processPackages [alpharaw]: executing diffoscope
+[2024-04-12 09:30:09] INFO root fetch - processPackages [alpharaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpharaw-0.4.3.tar.gz tmp/alpharaw-0.4.5.tar.gz --markdown 20240412/a/alpharaw/0.4.3-0.4.5/README.md --exclude *.pyd
+[2024-04-12 09:30:09] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.4.tar.gz]
+[2024-04-12 09:30:09] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.5.tar.gz]
+[2024-04-12 09:30:09] INFO root fetch - main [MainThread]: End processing [robotframework-creartramas]: success
+[2024-04-12 09:30:09] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.3.8.tar.gz]
+[2024-04-12 09:30:09] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.3.9.tar.gz]
+[2024-04-12 09:30:09] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-12 09:30:09] INFO root fetch - processPackages [AlgDiff]: Remove: archive file [/home/abi/fetcher/tmp/AlgDiff-2.3.tar.gz]
+[2024-04-12 09:30:09] INFO root fetch - processPackages [AlgDiff]: Remove: archive file [/home/abi/fetcher/tmp/AlgDiff-2.4.tar.gz]
+[2024-04-12 09:30:09] INFO root fetch - main [MainThread]: End processing [AlgDiff]: success
+[2024-04-12 09:30:10] INFO root fetch - processPackages [alpharaw]: Remove: archive file [/home/abi/fetcher/tmp/alpharaw-0.4.3.tar.gz]
+[2024-04-12 09:30:10] INFO root fetch - processPackages [alpharaw]: Remove: archive file [/home/abi/fetcher/tmp/alpharaw-0.4.5.tar.gz]
+[2024-04-12 09:30:10] INFO root fetch - main [MainThread]: End processing [alpharaw]: success
+[2024-04-12 09:30:10] INFO root fetch - main [MainThread]: Store serial: [22734119]
