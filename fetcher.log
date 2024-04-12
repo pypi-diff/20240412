@@ -14798,3 +14798,51 @@
 [2024-04-12 07:43:43] INFO root fetch - processPackages [cs.cmdutils]: Remove: archive file [/home/abi/fetcher/tmp/cs.cmdutils-20240412.tar.gz]
 [2024-04-12 07:43:43] INFO root fetch - main [MainThread]: End processing [cs.cmdutils]: success
 [2024-04-12 07:43:43] INFO root fetch - main [MainThread]: Store serial: [22733142]
+[2024-04-12 07:45:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733142]
+[2024-04-12 07:45:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jupyter-Bridge
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultra-logger
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lineartest
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volstreet
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs.fstags
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ultra-logger]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-12 07:45:52] INFO root fetch - processPackages [Jupyter-Bridge]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-12 07:45:52] INFO root fetch - processPackages [lineartest]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-12 07:45:52] INFO root fetch - processPackages [volstreet]: New version: [7.1.3] Old Version: [7.1.2]
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ultra-logger]: Downloading https://files.pythonhosted.org/packages/46/ea/2d65a7885087f046fc8653ea521f8cd2cd96479332f651abbd9dd469820b/ultra_logger-0.1.1.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [cs.fstags]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 07:45:52] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/8a/37/5af8f1069874e974edb3b1a72c79c94aaf50c7c4ee35e527772d5203115e/lineartest-0.4.1.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/c8/92/28332c3859b077978ce42abfc0b97714a84521ffe9a8d3c3cd41cf0d878c/volstreet-7.1.2.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [Jupyter-Bridge]: Downloading https://files.pythonhosted.org/packages/40/8a/d0502850ddf7db35957e758ef5c2fb73cf8e74491864b3ca687795ffc99c/jupyter_bridge-0.1.0.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [cs.fstags]: Downloading https://files.pythonhosted.org/packages/a3/e6/f0dcfeb965beaa59e4ed49b109e287a634f0abae4d9305f3ea79fb441f83/cs.fstags-20240316.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/e3/10/df598bb0734237f82dd317e4284936bc543bb2d0a7e6d7822c2523d40b3e/volstreet-7.1.3.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/8f/db/9c953b87f36f43481e34ca26498942cc00471e4c88942cf20f92d410ed8c/lineartest-0.4.2.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ultra-logger]: Downloading https://files.pythonhosted.org/packages/44/79/fbc557056981d71827e213a53789fc6118e311848c5a6a62b50e95b7757f/ultra_logger-0.1.2.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-12 07:45:52] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-7.1.2.tar.gz tmp/volstreet-7.1.3.tar.gz --markdown 20240412/v/volstreet/7.1.2-7.1.3/README.md --exclude *.pyd
+[2024-04-12 07:45:52] INFO root fetch - processPackages [Jupyter-Bridge]: Downloading https://files.pythonhosted.org/packages/90/e2/b8181a3911ebc3cbea5b68436fef0737375644247175e6d616f6d8ee02a3/jupyter_bridge-0.2.0.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [lineartest]: executing diffoscope
+[2024-04-12 07:45:52] INFO root fetch - processPackages [lineartest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineartest-0.4.1.tar.gz tmp/lineartest-0.4.2.tar.gz --markdown 20240412/l/lineartest/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ultra-logger]: executing diffoscope
+[2024-04-12 07:45:52] INFO root fetch - processPackages [ultra-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultra_logger-0.1.1.tar.gz tmp/ultra_logger-0.1.2.tar.gz --markdown 20240412/u/ultra-logger/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-12 07:45:52] INFO root fetch - processPackages [cs.fstags]: Downloading https://files.pythonhosted.org/packages/d2/da/2cfc963c7b8cc1aaeaa80dab1f8432e2eab8fc684f0e18ba3500d5bd6d13/cs.fstags-20240412.tar.gz
+[2024-04-12 07:45:52] INFO root fetch - processPackages [Jupyter-Bridge]: executing diffoscope
+[2024-04-12 07:45:52] INFO root fetch - processPackages [Jupyter-Bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_bridge-0.1.0.tar.gz tmp/jupyter_bridge-0.2.0.tar.gz --markdown 20240412/J/Jupyter-Bridge/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-12 07:45:53] INFO root fetch - processPackages [cs.fstags]: executing diffoscope
+[2024-04-12 07:45:53] INFO root fetch - processPackages [cs.fstags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.fstags-20240316.tar.gz tmp/cs.fstags-20240412.tar.gz --markdown 20240412/c/cs.fstags/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 07:45:53] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.4.1.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.4.2.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - main [MainThread]: End processing [lineartest]: success
+[2024-04-12 07:45:53] INFO root fetch - processPackages [ultra-logger]: Remove: archive file [/home/abi/fetcher/tmp/ultra_logger-0.1.1.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - processPackages [ultra-logger]: Remove: archive file [/home/abi/fetcher/tmp/ultra_logger-0.1.2.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - main [MainThread]: End processing [ultra-logger]: success
+[2024-04-12 07:45:53] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.2.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.3.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-12 07:45:53] INFO root fetch - processPackages [Jupyter-Bridge]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_bridge-0.1.0.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - processPackages [Jupyter-Bridge]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_bridge-0.2.0.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - main [MainThread]: End processing [Jupyter-Bridge]: success
+[2024-04-12 07:45:53] INFO root fetch - processPackages [cs.fstags]: Remove: archive file [/home/abi/fetcher/tmp/cs.fstags-20240316.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - processPackages [cs.fstags]: Remove: archive file [/home/abi/fetcher/tmp/cs.fstags-20240412.tar.gz]
+[2024-04-12 07:45:53] INFO root fetch - main [MainThread]: End processing [cs.fstags]: success
+[2024-04-12 07:45:53] INFO root fetch - main [MainThread]: Store serial: [22733157]
