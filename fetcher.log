@@ -12108,3 +12108,24 @@
 [2024-04-12 04:52:51] INFO root fetch - processPackages [djaodjin-pages]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-pages-0.8.0.tar.gz]
 [2024-04-12 04:52:51] INFO root fetch - main [MainThread]: End processing [djaodjin-pages]: success
 [2024-04-12 04:52:51] INFO root fetch - main [MainThread]: Store serial: [22731998]
+[2024-04-12 04:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731998]
+[2024-04-12 04:55:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 04:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-payment-return-import
+[2024-04-12 04:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-reconcile-oca
+[2024-04-12 04:55:00] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [16.0.1.2.9] Old Version: [16.0.1.2.8.4]
+[2024-04-12 04:55:00] INFO root fetch - processPackages [odoo-addon-account-payment-return-import]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-04-12 04:55:00] INFO root fetch - processPackages [odoo-addon-account-payment-return-import]: Downloading https://files.pythonhosted.org/packages/dc/8a/7fc1d4d84970ea5164e37f4e674a1c86b04b45e09731af01148bfed7c10b/odoo_addon_account_payment_return_import-16.0.1.0.1-py3-none-any.whl
+[2024-04-12 04:55:00] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/07/47/3301720faf6ec7397d28882f4c13a5f269cc547ed86d3bcf1faa6cd72025/odoo_addon_account_reconcile_oca-16.0.1.2.8.4-py3-none-any.whl
+[2024-04-12 04:55:01] INFO root fetch - processPackages [odoo-addon-account-payment-return-import]: Downloading https://files.pythonhosted.org/packages/e6/4b/cee03798df1613128ee0ccb6f86cb3b4ae778f060ba9728a1daa0f557dfe/odoo_addon_account_payment_return_import-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-12 04:55:01] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/53/5f/42e9047f73576c856db6492ae0ad0ee9ad2b1a8debd058d7f71a894e3c5b/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl
+[2024-04-12 04:55:01] INFO root fetch - processPackages [odoo-addon-account-payment-return-import]: executing diffoscope
+[2024-04-12 04:55:01] INFO root fetch - processPackages [odoo-addon-account-payment-return-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_return_import-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_return_import-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-account-payment-return-import/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-04-12 04:55:01] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-04-12 04:55:01] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-16.0.1.2.8.4-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-account-reconcile-oca/16.0.1.2.8.4-16.0.1.2.9/README.md --exclude *.pyd
+[2024-04-12 04:55:01] INFO root fetch - processPackages [odoo-addon-account-payment-return-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return_import-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-12 04:55:01] INFO root fetch - processPackages [odoo-addon-account-payment-return-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return_import-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-12 04:55:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-return-import]: success
+[2024-04-12 04:55:02] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-16.0.1.2.8.4-py3-none-any.whl.zip]
+[2024-04-12 04:55:02] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-16.0.1.2.9-py3-none-any.whl.zip]
+[2024-04-12 04:55:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-04-12 04:55:02] INFO root fetch - main [MainThread]: Store serial: [22732003]
