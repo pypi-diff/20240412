@@ -17938,3 +17938,77 @@
 [2024-04-12 10:13:02] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-12 10:13:02] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-12 10:13:02] INFO root fetch - main [MainThread]: Store serial: [22734687]
+[2024-04-12 10:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734687]
+[2024-04-12 10:15:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-12 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udata-front
+[2024-04-12 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: collective.classification.folder
+[2024-04-12 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2024-04-12 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monterey
+[2024-04-12 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: byma
+[2024-04-12 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-dummy-tools
+[2024-04-12 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chellow
+[2024-04-12 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alviss
+[2024-04-12 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenVisusNoGui
+[2024-04-12 10:15:13] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-12 10:15:13] INFO root fetch - processPackages [monterey]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 10:15:13] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-04-12 10:15:13] INFO root fetch - processPackages [spark-dummy-tools]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-12 10:15:13] WARNING root fetch - processPackages [alviss]: Skipping, unable to determine old version
+[2024-04-12 10:15:13] INFO root fetch - main [MainThread]: End processing [alviss] error
+[2024-04-12 10:15:13] INFO root fetch - processPackages [byma]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-04-12 10:15:13] INFO root fetch - processPackages [OpenVisusNoGui]: New version: [2.2.81.3] Old Version: [2.2.81.2]
+[2024-04-12 10:15:13] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/ee/76/e38c1bed9d0d00523c2f48bc75104ce4da9567a13556044770197218c203/monterey-0.0.8.tar.gz
+[2024-04-12 10:15:13] INFO root fetch - processPackages [collective.classification.folder]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-12 10:15:13] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-12 10:15:13] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-12 10:15:13] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-04-12 10:15:13] INFO root fetch - processPackages [byma]: Downloading https://files.pythonhosted.org/packages/49/58/02ef62c95f242e9de0450f46fa6b957fecefe7cd078aea9f2b2d742fc7ce/byma-0.1.3.tar.gz
+[2024-04-12 10:15:13] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/47/1e/5bba7ed81c4f082684a1481322ff83d849a7f339e36c31742704c0a2a959/spark_dummy_tools-0.8.2.tar.gz
+[2024-04-12 10:15:13] INFO root fetch - processPackages [collective.classification.folder]: Downloading https://files.pythonhosted.org/packages/3f/ce/a1469b6941fbc49205c53ac2efdda007dd89441c61f5bf7d7ee9ac468cc8/collective.classification.folder-1.1.1.tar.gz
+[2024-04-12 10:15:13] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/fe/43/94d0f8e948200a9edb3ed9daf80b7fe8568fbbe462c5c15be98777c3b71c/monterey-0.0.9.tar.gz
+[2024-04-12 10:15:13] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-04-12 10:15:13] INFO root fetch - processPackages [OpenVisusNoGui]: Downloading https://files.pythonhosted.org/packages/01/01/94a0a931d4e47eca67676baf8be7831d3b184723537c90065ffa80c5fb77/OpenVisusNoGui-2.2.81.2-cp38-none-manylinux2010_x86_64.whl
+[2024-04-12 10:15:14] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-04-12 10:15:14] WARNING root fetch - processPackages [OpenVisusNoGui]: Skipping package: exceeds size limit 32744688>=10485760
+[2024-04-12 10:15:14] INFO root fetch - main [MainThread]: End processing [OpenVisusNoGui] error
+[2024-04-12 10:15:14] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 10:15:14] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.8.tar.gz tmp/monterey-0.0.9.tar.gz --markdown 20240412/m/monterey/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 10:15:14] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-04-12 10:15:14] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240412/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-04-12 10:15:14] INFO root fetch - processPackages [byma]: Downloading https://files.pythonhosted.org/packages/ff/7e/7b6c1135ba797fbcee580a4f8060f38d517e946baa862bd677ee2372f5f8/byma-0.1.5.tar.gz
+[2024-04-12 10:15:14] INFO root fetch - processPackages [spark-dummy-tools]: Downloading https://files.pythonhosted.org/packages/2f/b9/4a8ade7df9fe73969c90c1e1d1943c04de0c7bf9fd01af1c4ffef9dc2b34/spark_dummy_tools-0.8.3.tar.gz
+[2024-04-12 10:15:14] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-12 10:15:14] INFO root fetch - processPackages [collective.classification.folder]: Downloading https://files.pythonhosted.org/packages/c1/f7/933bcfd53ec5bb00a3fc9e9397b68ce65ec4a472fa816b3b08d1ea2041d7/collective.classification.folder-1.1.2.tar.gz
+[2024-04-12 10:15:14] INFO root fetch - processPackages [byma]: executing diffoscope
+[2024-04-12 10:15:14] INFO root fetch - processPackages [byma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byma-0.1.3.tar.gz tmp/byma-0.1.5.tar.gz --markdown 20240412/b/byma/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-04-12 10:15:14] INFO root fetch - processPackages [collective.classification.folder]: executing diffoscope
+[2024-04-12 10:15:14] INFO root fetch - processPackages [collective.classification.folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.classification.folder-1.1.1.tar.gz tmp/collective.classification.folder-1.1.2.tar.gz --markdown 20240412/c/collective.classification.folder/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-12 10:15:14] INFO root fetch - processPackages [spark-dummy-tools]: executing diffoscope
+[2024-04-12 10:15:14] INFO root fetch - processPackages [spark-dummy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dummy_tools-0.8.2.tar.gz tmp/spark_dummy_tools-0.8.3.tar.gz --markdown 20240412/s/spark-dummy-tools/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-12 10:15:14] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-04-12 10:15:14] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-04-12 10:15:14] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240412/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-12 10:15:14] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-12 10:15:14] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240412/u/udata-front/3.5.5a1-3.5.5a117434/README.md --exclude *.pyd
+[2024-04-12 10:15:14] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.8.tar.gz]
+[2024-04-12 10:15:14] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.9.tar.gz]
+[2024-04-12 10:15:14] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 10:15:15] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.8.2.tar.gz]
+[2024-04-12 10:15:15] INFO root fetch - processPackages [spark-dummy-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dummy_tools-0.8.3.tar.gz]
+[2024-04-12 10:15:15] INFO root fetch - main [MainThread]: End processing [spark-dummy-tools]: success
+[2024-04-12 10:15:15] INFO root fetch - processPackages [byma]: Remove: archive file [/home/abi/fetcher/tmp/byma-0.1.3.tar.gz]
+[2024-04-12 10:15:15] INFO root fetch - processPackages [byma]: Remove: archive file [/home/abi/fetcher/tmp/byma-0.1.5.tar.gz]
+[2024-04-12 10:15:15] INFO root fetch - main [MainThread]: End processing [byma]: success
+[2024-04-12 10:15:15] INFO root fetch - processPackages [collective.classification.folder]: Remove: archive file [/home/abi/fetcher/tmp/collective.classification.folder-1.1.1.tar.gz]
+[2024-04-12 10:15:15] INFO root fetch - processPackages [collective.classification.folder]: Remove: archive file [/home/abi/fetcher/tmp/collective.classification.folder-1.1.2.tar.gz]
+[2024-04-12 10:15:15] INFO root fetch - main [MainThread]: End processing [collective.classification.folder]: success
+[2024-04-12 10:15:15] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-04-12 10:15:15] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-04-12 10:15:15] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-04-12 10:15:16] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-04-12 10:15:16] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-04-12 10:15:16] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-04-12 10:16:28] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip]
+[2024-04-12 10:16:28] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-12 10:16:28] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-12 10:16:28] INFO root fetch - main [MainThread]: Store serial: [22734716]
