@@ -22193,3 +22193,110 @@
 [2024-04-12 12:00:46] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-monitor-3.0.999.tar.gz]
 [2024-04-12 12:00:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-monitor]: success
 [2024-04-12 12:00:46] INFO root fetch - main [MainThread]: Store serial: [22736487]
+[2024-04-12 12:02:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22736487]
+[2024-04-12 12:02:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aplustools
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoai-ts-libs
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GeoHD
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-ms
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-msp
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-dicky-pk
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-mvj
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-nlp
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-npp
+[2024-04-12 12:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trial-IGNchinmay
+[2024-04-12 12:02:55] INFO root fetch - processPackages [trial-IGNchinmay]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [aplustools]: New version: [1.4.8] Old Version: [1.4.6.2]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [GeoHD]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [autoai-ts-libs]: New version: [4.0.2] Old Version: [3.2.3]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [nonebot-plugin-dicky-pk]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [trial-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/3f/f8/803a28c1ad1bc19bdcb2356acd2d7dac4aec693552840c1c7abdc3115bfd/trial_IGNchinmay-0.0.8.tar.gz
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 12:02:55] INFO root fetch - processPackages [aplustools]: Downloading https://files.pythonhosted.org/packages/cd/65/6e811ea97b728cab1c11cac1327bfe220b56a357c48ffaa085ebfd1eba04/aplustools-1.4.6.2.tar.gz
+[2024-04-12 12:02:55] INFO root fetch - processPackages [GeoHD]: Downloading https://files.pythonhosted.org/packages/39/dd/3ff7f7d995c858d7111c3887fbca98945e88b3e1cb423ff2f717f4d3c917/GeoHD-0.2.4.tar.gz
+[2024-04-12 12:02:55] INFO root fetch - processPackages [autoai-ts-libs]: Downloading https://files.pythonhosted.org/packages/02/9a/9142b56799166145e2feb3becc18ef5f7af6c00faf149871a99c8884b495/autoai_ts_libs-3.2.3-cp310-cp310-win_amd64.whl
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Downloading https://files.pythonhosted.org/packages/d0/e2/4880d252a2e324328e499669fecbcb1abcd99ec79a950369d7937252ef07/tencentcloud-sdk-python-ms-3.0.998.tar.gz
+[2024-04-12 12:02:55] INFO root fetch - processPackages [nonebot-plugin-dicky-pk]: Downloading https://files.pythonhosted.org/packages/31/9f/6bf4fffbd597527da6413f28e489c5e74eef0ad4b8731b29da11b805edb5/nonebot_plugin_dicky_pk-0.5.0.tar.gz
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Downloading https://files.pythonhosted.org/packages/4a/4a/dba9a441d0d468ac4ac91d2bf6f8d215782ed43ce2bb85301ed87e213ff7/tencentcloud-sdk-python-msp-3.0.998.tar.gz
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Downloading https://files.pythonhosted.org/packages/13/73/955b082c96439789648018c8f3a7feb31a31b64081a7f03929a045e38fdb/tencentcloud-sdk-python-nlp-3.0.998.tar.gz
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Downloading https://files.pythonhosted.org/packages/35/2f/7be07bdedcbc4f997d328b54b723bc0a6f9d2f1289c977708e6d31c8b552/tencentcloud-sdk-python-npp-3.0.998.tar.gz
+[2024-04-12 12:02:55] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/3c/cd/a545700530aee9bc5907dadac4cb46848ff8f7aa74caba6eb8345a882808/tencentcloud-sdk-python-mvj-3.0.998.tar.gz
+[2024-04-12 12:02:55] INFO root fetch - processPackages [trial-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/c1/aa/01bc5c2c90b1601076c77fd81058368f4f694227ae5e34dd150487d5c27e/trial_IGNchinmay-0.0.9.tar.gz
+[2024-04-12 12:02:56] INFO root fetch - processPackages [aplustools]: Downloading https://files.pythonhosted.org/packages/a6/a4/29798d2c8829f7eae20a090e2d5c4977a7719e3c40c4b71848e7a8af466a/aplustools-1.4.8.tar.gz
+[2024-04-12 12:02:56] INFO root fetch - processPackages [trial-IGNchinmay]: executing diffoscope
+[2024-04-12 12:02:56] INFO root fetch - processPackages [trial-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trial_IGNchinmay-0.0.8.tar.gz tmp/trial_IGNchinmay-0.0.9.tar.gz --markdown 20240412/t/trial-IGNchinmay/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 12:02:56] INFO root fetch - processPackages [GeoHD]: Downloading https://files.pythonhosted.org/packages/3f/e9/d583ef007532242f1f7a1755ce5211613dec87de3ae9b012036b950948eb/GeoHD-0.2.5.tar.gz
+[2024-04-12 12:02:56] WARNING root fetch - processPackages [autoai-ts-libs]: Skipping package: exceeds size limit 23812804>=10485760
+[2024-04-12 12:02:56] INFO root fetch - processPackages [autoai-ts-libs]: Start processing: tencentcloud-sdk-python-oceanus
+[2024-04-12 12:02:56] INFO root fetch - main [MainThread]: End processing [autoai-ts-libs] error
+[2024-04-12 12:02:56] INFO root fetch - processPackages [nonebot-plugin-dicky-pk]: Downloading https://files.pythonhosted.org/packages/6e/a4/649446aab68cf0e66f259783ffc6a76862243d8624d94598618772e0e9bb/nonebot_plugin_dicky_pk-0.5.1.tar.gz
+[2024-04-12 12:02:56] INFO root fetch - processPackages [aplustools]: executing diffoscope
+[2024-04-12 12:02:56] INFO root fetch - processPackages [aplustools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aplustools-1.4.6.2.tar.gz tmp/aplustools-1.4.8.tar.gz --markdown 20240412/a/aplustools/1.4.6.2-1.4.8/README.md --exclude *.pyd
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Downloading https://files.pythonhosted.org/packages/f9/41/084521dc5d9ee234d4155d0b75dbd6a1364c659b8d9d6f3d051e4f8f91d7/tencentcloud-sdk-python-ms-3.0.999.tar.gz
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Downloading https://files.pythonhosted.org/packages/e3/3e/ccf98b9b557bd05fb013714b3672879029ce3496b939428a14d509bc0f39/tencentcloud-sdk-python-nlp-3.0.999.tar.gz
+[2024-04-12 12:02:56] INFO root fetch - processPackages [GeoHD]: executing diffoscope
+[2024-04-12 12:02:56] INFO root fetch - processPackages [GeoHD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeoHD-0.2.4.tar.gz tmp/GeoHD-0.2.5.tar.gz --markdown 20240412/G/GeoHD/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Downloading https://files.pythonhosted.org/packages/42/0e/4c65162bf147d10ca9caf55a27898d93b9ee01b6fd503fc4bfcb15c68f4e/tencentcloud-sdk-python-msp-3.0.999.tar.gz
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Downloading https://files.pythonhosted.org/packages/94/b9/7eecc3778b75dd2522b621c795d78a5625277df65226ba45c67361956990/tencentcloud-sdk-python-npp-3.0.999.tar.gz
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/83/20/c591399e8d1e7051d1881a38515f56f6cccf1995e68c7a59e55c0d18456e/tencentcloud-sdk-python-mvj-3.0.999.tar.gz
+[2024-04-12 12:02:56] INFO root fetch - processPackages [nonebot-plugin-dicky-pk]: executing diffoscope
+[2024-04-12 12:02:56] INFO root fetch - processPackages [nonebot-plugin-dicky-pk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_dicky_pk-0.5.0.tar.gz tmp/nonebot_plugin_dicky_pk-0.5.1.tar.gz --markdown 20240412/n/nonebot-plugin-dicky-pk/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: executing diffoscope
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ms-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-ms/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: executing diffoscope
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-nlp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-nlp-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-nlp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: executing diffoscope
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-npp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-npp-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-npp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: executing diffoscope
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-msp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-msp-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-msp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: executing diffoscope
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mvj-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mvj-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-mvj/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 12:02:56] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-12 12:02:56] INFO root fetch - processPackages [trial-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/trial_IGNchinmay-0.0.8.tar.gz]
+[2024-04-12 12:02:56] INFO root fetch - processPackages [trial-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/trial_IGNchinmay-0.0.9.tar.gz]
+[2024-04-12 12:02:56] INFO root fetch - processPackages [trial-IGNchinmay]: Start processing: django-ws-analytics
+[2024-04-12 12:02:56] INFO root fetch - main [MainThread]: End processing [trial-IGNchinmay]: success
+[2024-04-12 12:02:56] INFO root fetch - processPackages [django-ws-analytics]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-12 12:02:56] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/6d/f9/1a5b5f917fd0beff2816e07e84872585fe96fc02754df2555428e369c9e9/django-ws-analytics-1.0.7.tar.gz
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Downloading https://files.pythonhosted.org/packages/06/89/e81ea8c1b030a87b88b4b1ea62d562060a99c318781f50739beea7813fcf/tencentcloud-sdk-python-oceanus-3.0.998.tar.gz
+[2024-04-12 12:02:57] INFO root fetch - processPackages [django-ws-analytics]: Downloading https://files.pythonhosted.org/packages/60/4e/e84fd37a53687d65c63d95a5b49973cb5cee8905941f82fe705955fcd5f6/django-ws-analytics-1.0.9.tar.gz
+[2024-04-12 12:02:57] INFO root fetch - processPackages [nonebot-plugin-dicky-pk]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dicky_pk-0.5.0.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [nonebot-plugin-dicky-pk]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dicky_pk-0.5.1.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-dicky-pk]: success
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-msp-3.0.998.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [django-ws-analytics]: executing diffoscope
+[2024-04-12 12:02:57] INFO root fetch - processPackages [django-ws-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ws-analytics-1.0.7.tar.gz tmp/django-ws-analytics-1.0.9.tar.gz --markdown 20240412/d/django-ws-analytics/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ms-3.0.998.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-msp-3.0.999.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ms-3.0.999.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-msp]: success
+[2024-04-12 12:02:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ms]: success
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Downloading https://files.pythonhosted.org/packages/2c/0d/a97d27e823345bd269a67b08a511ad7ef6607826c04e8faf694ee9ff1900/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz
+[2024-04-12 12:02:57] INFO root fetch - processPackages [aplustools]: Remove: archive file [/home/abi/fetcher/tmp/aplustools-1.4.6.2.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [aplustools]: Remove: archive file [/home/abi/fetcher/tmp/aplustools-1.4.8.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - main [MainThread]: End processing [aplustools]: success
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-nlp-3.0.998.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-nlp-3.0.999.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-nlp]: success
+[2024-04-12 12:02:57] INFO root fetch - processPackages [GeoHD]: Remove: archive file [/home/abi/fetcher/tmp/GeoHD-0.2.4.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [GeoHD]: Remove: archive file [/home/abi/fetcher/tmp/GeoHD-0.2.5.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - main [MainThread]: End processing [GeoHD]: success
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: executing diffoscope
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-oceanus-3.0.998.tar.gz tmp/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz --markdown 20240412/t/tencentcloud-sdk-python-oceanus/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-npp-3.0.998.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-npp-3.0.999.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-npp]: success
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mvj-3.0.998.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mvj-3.0.999.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mvj]: success
+[2024-04-12 12:02:57] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.7.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - processPackages [django-ws-analytics]: Remove: archive file [/home/abi/fetcher/tmp/django-ws-analytics-1.0.9.tar.gz]
+[2024-04-12 12:02:57] INFO root fetch - main [MainThread]: End processing [django-ws-analytics]: success
+[2024-04-12 12:02:58] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-oceanus-3.0.998.tar.gz]
+[2024-04-12 12:02:58] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz]
+[2024-04-12 12:02:58] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-oceanus]: success
+[2024-04-12 12:02:58] INFO root fetch - main [MainThread]: Store serial: [22736524]
