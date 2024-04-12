@@ -13627,3 +13627,51 @@
 [2024-04-12 06:31:06] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
 [2024-04-12 06:31:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
 [2024-04-12 06:31:06] INFO root fetch - main [MainThread]: Store serial: [22732699]
+[2024-04-12 06:33:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732699]
+[2024-04-12 06:33:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 06:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2024-04-12 06:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANX
+[2024-04-12 06:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2024-04-12 06:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: krabby
+[2024-04-12 06:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-vat-book
+[2024-04-12 06:33:15] INFO root fetch - processPackages [ANX]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-12 06:33:15] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-12 06:33:15] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-12 06:33:15] INFO root fetch - processPackages [krabby]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 06:33:15] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: New version: [16.0.1.4.0.2] Old Version: [16.0.1.4.0.1]
+[2024-04-12 06:33:15] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/1e/43/f0acd078a56460bddc22adbf9e128617c00ec7661ef62139f7dbf5240c50/ANX-0.7.4.tar.gz
+[2024-04-12 06:33:16] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-12 06:33:16] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-12 06:33:16] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/2d/32/21ff930f51ed1ee0f82e5811082a3758952762b4a89f18d60bf592d3c95a/odoo_addon_l10n_es_vat_book-16.0.1.4.0.1-py3-none-any.whl
+[2024-04-12 06:33:16] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/81/43/322c72eedc21fb3ea17c8e0132cc5362e3d6a6f1b2b94a4f12affb177990/krabby-0.1.8.tar.gz
+[2024-04-12 06:33:16] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-12 06:33:16] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-12 06:33:16] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-12 06:33:16] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240412/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-12 06:33:16] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/7f/9d/50cd2fc7d36b352f03aefa0b5c4fc9aa404f7a4e1d115a1e4cc73b303f7f/ANX-0.7.5.tar.gz
+[2024-04-12 06:33:16] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-12 06:33:16] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240412/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-12 06:33:16] INFO root fetch - processPackages [ANX]: executing diffoscope
+[2024-04-12 06:33:16] INFO root fetch - processPackages [ANX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANX-0.7.4.tar.gz tmp/ANX-0.7.5.tar.gz --markdown 20240412/A/ANX/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-12 06:33:16] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/14/b2/dde75359c4b87fe1fe26ff24086bc515e612ff9253940b1e509844c4c7c2/krabby-0.1.9.tar.gz
+[2024-04-12 06:33:16] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/e9/22/66f3645bd80a3f54a0d295327685b5aef4690997018d61c4d66ddc51f0c9/odoo_addon_l10n_es_vat_book-16.0.1.4.0.2-py3-none-any.whl
+[2024-04-12 06:33:16] INFO root fetch - processPackages [krabby]: executing diffoscope
+[2024-04-12 06:33:16] INFO root fetch - processPackages [krabby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krabby-0.1.8.tar.gz tmp/krabby-0.1.9.tar.gz --markdown 20240412/k/krabby/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 06:33:16] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: executing diffoscope
+[2024-04-12 06:33:16] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_vat_book-16.0.1.4.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_vat_book-16.0.1.4.0.2-py3-none-any.whl.zip --markdown 20240412/o/odoo-addon-l10n-es-vat-book/16.0.1.4.0.1-16.0.1.4.0.2/README.md --exclude *.pyd
+[2024-04-12 06:33:17] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-12 06:33:17] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-12 06:33:17] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-12 06:33:17] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.4.tar.gz]
+[2024-04-12 06:33:17] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.5.tar.gz]
+[2024-04-12 06:33:17] INFO root fetch - main [MainThread]: End processing [ANX]: success
+[2024-04-12 06:33:17] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.8.tar.gz]
+[2024-04-12 06:33:17] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.9.tar.gz]
+[2024-04-12 06:33:17] INFO root fetch - main [MainThread]: End processing [krabby]: success
+[2024-04-12 06:33:17] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-12 06:33:17] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-12 06:33:17] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-12 06:33:17] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_vat_book-16.0.1.4.0.1-py3-none-any.whl.zip]
+[2024-04-12 06:33:17] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_vat_book-16.0.1.4.0.2-py3-none-any.whl.zip]
+[2024-04-12 06:33:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-vat-book]: success
+[2024-04-12 06:33:17] INFO root fetch - main [MainThread]: Store serial: [22732713]
