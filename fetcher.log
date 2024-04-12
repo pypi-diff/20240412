@@ -11158,3 +11158,78 @@
 [2024-04-12 03:49:47] INFO root fetch - processPackages [llmfunctionclient]: Remove: archive file [/home/abi/fetcher/tmp/llmfunctionclient-0.1.5.tar.gz]
 [2024-04-12 03:49:47] INFO root fetch - main [MainThread]: End processing [llmfunctionclient]: success
 [2024-04-12 03:49:47] INFO root fetch - main [MainThread]: Store serial: [22731527]
+[2024-04-12 03:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731527]
+[2024-04-12 03:51:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 03:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: altimate-datapilot-cli
+[2024-04-12 03:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-honeybee
+[2024-04-12 03:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragonfly-uwg
+[2024-04-12 03:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamini
+[2024-04-12 03:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taospy
+[2024-04-12 03:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepview-converter
+[2024-04-12 03:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-energy
+[2024-04-12 03:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbt-dragonfly
+[2024-04-12 03:51:55] INFO root fetch - processPackages [taospy]: New version: [2.7.9] Old Version: [2.7.8]
+[2024-04-12 03:51:55] INFO root fetch - processPackages [lamini]: New version: [2.1.5a6] Old Version: [2.1.5a5]
+[2024-04-12 03:51:55] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-12 03:51:55] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-12 03:51:55] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-12 03:51:55] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-12 03:51:55] INFO root fetch - processPackages [deepview-converter]: New version: [2.6.8] Old Version: [2.6.7]
+[2024-04-12 03:51:55] INFO root fetch - processPackages [taospy]: Downloading https://files.pythonhosted.org/packages/35/ff/cda1530c1d9dee5fc8e1a15c6388ca0a50e52810ba4a17d31395b69b4f5d/taospy-2.7.8.tar.gz
+[2024-04-12 03:51:55] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-04-12 03:51:55] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-04-12 03:51:55] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/48/49/43bef7c0684b4d10689fb698ee9f0f18d449f5549fbffe1435c2fd61eb9f/lamini-2.1.5a5-119-py3-none-any.whl
+[2024-04-12 03:51:55] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-04-12 03:51:55] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-12 03:51:56] INFO root fetch - processPackages [altimate-datapilot-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 03:51:56] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-04-12 03:51:56] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-04-12 03:51:56] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-04-12 03:51:56] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/1a/23/182004da9b559a447543baf4836622b4880b2135275f5443e00d13c6961c/lamini-2.1.5a6-119-py3-none-any.whl
+[2024-04-12 03:51:56] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-12 03:51:56] INFO root fetch - processPackages [taospy]: Downloading https://files.pythonhosted.org/packages/f7/94/670a69737a044133c2a29a3207f792c2b8867d37ee68b1e14794e7a89fb3/taospy-2.7.9.tar.gz
+[2024-04-12 03:51:56] INFO root fetch - processPackages [altimate-datapilot-cli]: Downloading https://files.pythonhosted.org/packages/ea/bb/48a59c7c829175eb3149c6adf5c2f503ca84ad79625a14efb4056185387c/altimate-datapilot-cli-0.0.8.tar.gz
+[2024-04-12 03:51:56] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-04-12 03:51:56] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240412/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-12 03:51:56] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-12 03:51:56] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240412/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-12 03:51:56] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-04-12 03:51:56] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240412/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-12 03:51:56] INFO root fetch - processPackages [taospy]: executing diffoscope
+[2024-04-12 03:51:56] INFO root fetch - processPackages [taospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taospy-2.7.8.tar.gz tmp/taospy-2.7.9.tar.gz --markdown 20240412/t/taospy/2.7.8-2.7.9/README.md --exclude *.pyd
+[2024-04-12 03:51:56] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-04-12 03:51:56] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240412/d/dragonfly-uwg/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-12 03:51:56] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2024-04-12 03:51:56] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-2.1.5a5-119-py3-none-any.whl.zip tmp/lamini-2.1.5a6-119-py3-none-any.whl.zip --markdown 20240412/l/lamini/2.1.5a5-2.1.5a6/README.md --exclude *.pyd
+[2024-04-12 03:51:56] INFO root fetch - processPackages [deepview-converter]: Downloading https://files.pythonhosted.org/packages/92/39/760c5a6d2ec04b5339f9040c23cb9cc0e74743fe6c8d0ede64d598bf57a4/deepview_converter-2.6.7-cp39-cp39-win_amd64.whl
+[2024-04-12 03:51:56] INFO root fetch - processPackages [altimate-datapilot-cli]: Downloading https://files.pythonhosted.org/packages/ed/cc/5c354145ec1a88da4b65f3eb99b322fed53860f9d6c58b57fef26dc08a34/altimate-datapilot-cli-0.0.9.tar.gz
+[2024-04-12 03:51:56] INFO root fetch - processPackages [deepview-converter]: Downloading https://files.pythonhosted.org/packages/c2/8f/77f39abd7b8695ccfcad078c1ba157479809fcd0e89dd2242a749f591a83/deepview_converter-2.6.8-cp39-cp39-win_amd64.whl
+[2024-04-12 03:51:56] INFO root fetch - processPackages [altimate-datapilot-cli]: executing diffoscope
+[2024-04-12 03:51:56] INFO root fetch - processPackages [altimate-datapilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altimate-datapilot-cli-0.0.8.tar.gz tmp/altimate-datapilot-cli-0.0.9.tar.gz --markdown 20240412/a/altimate-datapilot-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 03:51:57] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-12 03:51:57] INFO root fetch - processPackages [deepview-converter]: executing diffoscope
+[2024-04-12 03:51:57] INFO root fetch - processPackages [deepview-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_converter-2.6.7-cp39-cp39-win_amd64.whl.zip tmp/deepview_converter-2.6.8-cp39-cp39-win_amd64.whl.zip --markdown 20240412/d/deepview-converter/2.6.7-2.6.8/README.md --exclude *.pyd
+[2024-04-12 03:51:57] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-04-12 03:51:57] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-04-12 03:51:57] INFO root fetch - processPackages [taospy]: Remove: archive file [/home/abi/fetcher/tmp/taospy-2.7.8.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - processPackages [taospy]: Remove: archive file [/home/abi/fetcher/tmp/taospy-2.7.9.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - main [MainThread]: End processing [taospy]: success
+[2024-04-12 03:51:57] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.5a5-119-py3-none-any.whl.zip]
+[2024-04-12 03:51:57] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.1.5a6-119-py3-none-any.whl.zip]
+[2024-04-12 03:51:57] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2024-04-12 03:51:57] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-04-12 03:51:57] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-04-12 03:51:57] INFO root fetch - processPackages [deepview-converter]: Remove: archive file [/home/abi/fetcher/tmp/deepview_converter-2.6.7-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 03:51:57] INFO root fetch - processPackages [deepview-converter]: Remove: archive file [/home/abi/fetcher/tmp/deepview_converter-2.6.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 03:51:57] INFO root fetch - main [MainThread]: End processing [deepview-converter]: success
+[2024-04-12 03:51:58] INFO root fetch - processPackages [altimate-datapilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/altimate-datapilot-cli-0.0.8.tar.gz]
+[2024-04-12 03:51:58] INFO root fetch - processPackages [altimate-datapilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/altimate-datapilot-cli-0.0.9.tar.gz]
+[2024-04-12 03:51:58] INFO root fetch - main [MainThread]: End processing [altimate-datapilot-cli]: success
+[2024-04-12 03:51:58] INFO root fetch - main [MainThread]: Store serial: [22731559]
