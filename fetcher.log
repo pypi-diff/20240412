@@ -14310,3 +14310,36 @@
 [2024-04-12 07:16:51] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-04-12 07:16:51] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-04-12 07:16:51] INFO root fetch - main [MainThread]: Store serial: [22732925]
+[2024-04-12 07:18:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732925]
+[2024-04-12 07:19:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 07:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stripe
+[2024-04-12 07:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowball-stemmer-wheels
+[2024-04-12 07:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs.packetstream
+[2024-04-12 07:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pingdomv3
+[2024-04-12 07:19:00] INFO root fetch - processPackages [stripe]: New version: [9.1.0] Old Version: [9.0.0]
+[2024-04-12 07:19:00] WARNING root fetch - processPackages [snowball-stemmer-wheels]: Skipping, unable to determine old version
+[2024-04-12 07:19:00] INFO root fetch - processPackages [pingdomv3]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-12 07:19:00] INFO root fetch - main [MainThread]: End processing [snowball-stemmer-wheels] error
+[2024-04-12 07:19:00] INFO root fetch - processPackages [cs.packetstream]: New version: [20240412] Old Version: [20211208]
+[2024-04-12 07:19:00] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/a3/55/27d853529ef13521c1146794e51b7c73dd00f6147d76e6ad766b5c7bcf4f/stripe-9.0.0.tar.gz
+[2024-04-12 07:19:00] INFO root fetch - processPackages [pingdomv3]: Downloading https://files.pythonhosted.org/packages/68/c2/13d12cbe2b46a032637e316b9cf1d0a4b61d664f657feb2380b48011641e/pingdomv3-1.0.0-py2.py3-none-any.whl
+[2024-04-12 07:19:00] INFO root fetch - processPackages [cs.packetstream]: Downloading https://files.pythonhosted.org/packages/f7/d0/6c7d9ba0388d5e8d36a09542a538914f7dbe576e284efad4fc0763ec02c9/cs.packetstream-20211208.tar.gz
+[2024-04-12 07:19:01] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/22/d5/2195a03a90b90a1b477577f704cf02cb3ecfc6b3eb929f54c5fe810260b2/stripe-9.1.0.tar.gz
+[2024-04-12 07:19:01] INFO root fetch - processPackages [pingdomv3]: Downloading https://files.pythonhosted.org/packages/30/fb/09f0a78bc22aac9fe498b6597a305269dbfb3a8c52db56d61ddde90a8c0e/pingdomv3-1.1.0-py2.py3-none-any.whl
+[2024-04-12 07:19:01] INFO root fetch - processPackages [cs.packetstream]: Downloading https://files.pythonhosted.org/packages/c6/07/ce8dbb323b170305677439e59879ea83b18cce090ff62d4ea579f37b0bd8/cs.packetstream-20240412.tar.gz
+[2024-04-12 07:19:01] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-04-12 07:19:01] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-9.0.0.tar.gz tmp/stripe-9.1.0.tar.gz --markdown 20240412/s/stripe/9.0.0-9.1.0/README.md --exclude *.pyd
+[2024-04-12 07:19:01] INFO root fetch - processPackages [pingdomv3]: executing diffoscope
+[2024-04-12 07:19:01] INFO root fetch - processPackages [pingdomv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingdomv3-1.0.0-py2.py3-none-any.whl.zip tmp/pingdomv3-1.1.0-py2.py3-none-any.whl.zip --markdown 20240412/p/pingdomv3/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-12 07:19:01] INFO root fetch - processPackages [cs.packetstream]: executing diffoscope
+[2024-04-12 07:19:01] INFO root fetch - processPackages [cs.packetstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.packetstream-20211208.tar.gz tmp/cs.packetstream-20240412.tar.gz --markdown 20240412/c/cs.packetstream/20211208-20240412/README.md --exclude *.pyd
+[2024-04-12 07:19:01] INFO root fetch - processPackages [pingdomv3]: Remove: archive file [/home/abi/fetcher/tmp/pingdomv3-1.0.0-py2.py3-none-any.whl.zip]
+[2024-04-12 07:19:01] INFO root fetch - processPackages [pingdomv3]: Remove: archive file [/home/abi/fetcher/tmp/pingdomv3-1.1.0-py2.py3-none-any.whl.zip]
+[2024-04-12 07:19:01] INFO root fetch - main [MainThread]: End processing [pingdomv3]: success
+[2024-04-12 07:19:01] INFO root fetch - processPackages [cs.packetstream]: Remove: archive file [/home/abi/fetcher/tmp/cs.packetstream-20211208.tar.gz]
+[2024-04-12 07:19:01] INFO root fetch - processPackages [cs.packetstream]: Remove: archive file [/home/abi/fetcher/tmp/cs.packetstream-20240412.tar.gz]
+[2024-04-12 07:19:01] INFO root fetch - main [MainThread]: End processing [cs.packetstream]: success
+[2024-04-12 07:19:05] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.0.0.tar.gz]
+[2024-04-12 07:19:05] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.1.0.tar.gz]
+[2024-04-12 07:19:05] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-04-12 07:19:05] INFO root fetch - main [MainThread]: Store serial: [22732940]
