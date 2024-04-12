@@ -14972,3 +14972,87 @@
 [2024-04-12 07:52:58] INFO root fetch - processPackages [tzfpy]: Remove: archive file [/home/abi/fetcher/tmp/tzfpy-0.9.2-pp39-pypy39_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-12 07:52:58] INFO root fetch - main [MainThread]: End processing [tzfpy]: success
 [2024-04-12 07:52:58] INFO root fetch - main [MainThread]: Store serial: [22733195]
+[2024-04-12 07:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733195]
+[2024-04-12 07:55:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-12 07:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bellek
+[2024-04-12 07:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pure-cv
+[2024-04-12 07:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PytorchWildlife
+[2024-04-12 07:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mns-common
+[2024-04-12 07:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TPTBox
+[2024-04-12 07:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudflare-radar
+[2024-04-12 07:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cs.cache
+[2024-04-12 07:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lineartest
+[2024-04-12 07:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantplay
+[2024-04-12 07:55:23] INFO root fetch - processPackages [lineartest]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-12 07:55:23] INFO root fetch - processPackages [PytorchWildlife]: New version: [1.0.2.9.1] Old Version: [1.0.2.9]
+[2024-04-12 07:55:23] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.4.5] Old Version: [1.0.7.4.4]
+[2024-04-12 07:55:23] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-12 07:55:23] INFO root fetch - processPackages [bellek]: New version: [0.9.0] Old Version: [0.73.1]
+[2024-04-12 07:55:23] INFO root fetch - processPackages [TPTBox]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 07:55:23] INFO root fetch - processPackages [cs.cache]: New version: [20240412] Old Version: [20181228]
+[2024-04-12 07:55:23] INFO root fetch - processPackages [pure-cv]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-12 07:55:23] INFO root fetch - processPackages [cloudflare-radar]: New version: [0.3] Old Version: [0.2]
+[2024-04-12 07:55:24] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/8f/db/9c953b87f36f43481e34ca26498942cc00471e4c88942cf20f92d410ed8c/lineartest-0.4.2.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/e7/cb/3a89fd670dc291f283a9781aae53e7311daed30b68a66bca3a8148310265/PytorchWildlife-1.0.2.9.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/4d/50/f9a5cd48ec2de4043fa6e69bc99b54b0026ca325600a9dab5bd856e64880/mns_common-1.0.7.4.4.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/bc/d4/f706d785043ba7150633527fc39b0552716b297e5806a1587406caf45558/bellek-0.73.1.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [pure-cv]: Downloading https://files.pythonhosted.org/packages/c2/49/7d7ae2cc9e35c4f4538ab135588d063da2abce58b5c4f4eca024f4c6d2e0/pure-cv-0.1.6.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [TPTBox]: Downloading https://files.pythonhosted.org/packages/7f/ac/54fc2e45a7c011c358202638f7b0e0417e42cd80043fe39e0d27d16daec2/tptbox-0.1.0-py3-none-any.whl
+[2024-04-12 07:55:24] INFO root fetch - processPackages [cs.cache]: Downloading https://files.pythonhosted.org/packages/94/8b/61841cbc6cab870a7a73a8cd9cfc4153d82c5850740409f322c963555f7d/cs.cache-20181228.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [cloudflare-radar]: Downloading https://files.pythonhosted.org/packages/b8/a4/45678c2cf755fbb7203c5229ce8f0b36a1f16db34bcc8318518753f62b26/cloudflare-radar-0.2.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/b9/82/e763c6f2a9813750f43d8971aa0efa565b868d6dcf0b19642234c73cc488/PytorchWildlife-1.0.2.9.1.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/e6/ab/2fc7f642e226a3782605414c752b82ecff3ec464393cfaaf93ded0b28c78/mns_common-1.0.7.4.5.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [lineartest]: Downloading https://files.pythonhosted.org/packages/2a/00/e2ee4a5b6936760f5224cb0d12c40e3cff038e37015e6498a4d828a36591/lineartest-0.4.3.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [PytorchWildlife]: executing diffoscope
+[2024-04-12 07:55:24] INFO root fetch - processPackages [PytorchWildlife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PytorchWildlife-1.0.2.9.tar.gz tmp/PytorchWildlife-1.0.2.9.1.tar.gz --markdown 20240412/P/PytorchWildlife/1.0.2.9-1.0.2.9.1/README.md --exclude *.pyd
+[2024-04-12 07:55:24] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-12 07:55:24] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240412/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-12 07:55:24] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/ec/cb/2e453e973c51c52f57d3533e8d2f7192b8c626e0078fe08fb907191e69fb/bellek-0.9.0.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [lineartest]: executing diffoscope
+[2024-04-12 07:55:24] INFO root fetch - processPackages [lineartest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineartest-0.4.2.tar.gz tmp/lineartest-0.4.3.tar.gz --markdown 20240412/l/lineartest/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-12 07:55:24] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-12 07:55:24] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.4.4.tar.gz tmp/mns_common-1.0.7.4.5.tar.gz --markdown 20240412/m/mns-common/1.0.7.4.4-1.0.7.4.5/README.md --exclude *.pyd
+[2024-04-12 07:55:24] INFO root fetch - processPackages [cloudflare-radar]: Downloading https://files.pythonhosted.org/packages/60/4e/0e7f88f61ec6496ce4bd2ca50d2903db1bfa9aea027c03a24ffcaa0a284f/cloudflare-radar-0.3.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [TPTBox]: Downloading https://files.pythonhosted.org/packages/8c/e0/f5a2ec02a7a349771149141edea19131de3338f103547c7d7ee29030daa0/tptbox-0.1.1-py3-none-any.whl
+[2024-04-12 07:55:24] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-04-12 07:55:24] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.73.1.tar.gz tmp/bellek-0.9.0.tar.gz --markdown 20240412/b/bellek/0.73.1-0.9.0/README.md --exclude *.pyd
+[2024-04-12 07:55:24] INFO root fetch - processPackages [pure-cv]: Downloading https://files.pythonhosted.org/packages/39/c8/698a451f5ae7eae734eed89378c8ba1e6acae6dde3695151b90c6b00ff00/pure-cv-0.1.7.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [cs.cache]: Downloading https://files.pythonhosted.org/packages/41/46/62e6f66ac93cff2608a2e9c4f121e0a92f7e8463088f25aa37d030c64fa3/cs.cache-20240412.tar.gz
+[2024-04-12 07:55:24] INFO root fetch - processPackages [cloudflare-radar]: executing diffoscope
+[2024-04-12 07:55:24] INFO root fetch - processPackages [cloudflare-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-radar-0.2.tar.gz tmp/cloudflare-radar-0.3.tar.gz --markdown 20240412/c/cloudflare-radar/0.2-0.3/README.md --exclude *.pyd
+[2024-04-12 07:55:24] INFO root fetch - processPackages [cs.cache]: executing diffoscope
+[2024-04-12 07:55:24] INFO root fetch - processPackages [cs.cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.cache-20181228.tar.gz tmp/cs.cache-20240412.tar.gz --markdown 20240412/c/cs.cache/20181228-20240412/README.md --exclude *.pyd
+[2024-04-12 07:55:24] INFO root fetch - processPackages [pure-cv]: executing diffoscope
+[2024-04-12 07:55:24] INFO root fetch - processPackages [pure-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure-cv-0.1.6.tar.gz tmp/pure-cv-0.1.7.tar.gz --markdown 20240412/p/pure-cv/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-12 07:55:25] INFO root fetch - processPackages [TPTBox]: executing diffoscope
+[2024-04-12 07:55:25] INFO root fetch - processPackages [TPTBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tptbox-0.1.0-py3-none-any.whl.zip tmp/tptbox-0.1.1-py3-none-any.whl.zip --markdown 20240412/T/TPTBox/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 07:55:25] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.1.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [PytorchWildlife]: success
+[2024-04-12 07:55:25] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.4.2.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - processPackages [lineartest]: Remove: archive file [/home/abi/fetcher/tmp/lineartest-0.4.3.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [lineartest]: success
+[2024-04-12 07:55:25] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-12 07:55:25] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.4.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.5.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-12 07:55:25] INFO root fetch - processPackages [cs.cache]: Remove: archive file [/home/abi/fetcher/tmp/cs.cache-20181228.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - processPackages [cs.cache]: Remove: archive file [/home/abi/fetcher/tmp/cs.cache-20240412.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [cs.cache]: success
+[2024-04-12 07:55:25] INFO root fetch - processPackages [pure-cv]: Remove: archive file [/home/abi/fetcher/tmp/pure-cv-0.1.6.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - processPackages [pure-cv]: Remove: archive file [/home/abi/fetcher/tmp/pure-cv-0.1.7.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [pure-cv]: success
+[2024-04-12 07:55:25] INFO root fetch - processPackages [cloudflare-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-radar-0.2.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - processPackages [cloudflare-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-radar-0.3.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [cloudflare-radar]: success
+[2024-04-12 07:55:25] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.73.1.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.9.0.tar.gz]
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-04-12 07:55:25] INFO root fetch - processPackages [TPTBox]: Remove: archive file [/home/abi/fetcher/tmp/tptbox-0.1.0-py3-none-any.whl.zip]
+[2024-04-12 07:55:25] INFO root fetch - processPackages [TPTBox]: Remove: archive file [/home/abi/fetcher/tmp/tptbox-0.1.1-py3-none-any.whl.zip]
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [TPTBox]: success
+[2024-04-12 07:55:25] INFO root fetch - main [MainThread]: Store serial: [22733250]
