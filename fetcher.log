@@ -16806,3 +16806,33 @@
 [2024-04-12 09:30:10] INFO root fetch - processPackages [alpharaw]: Remove: archive file [/home/abi/fetcher/tmp/alpharaw-0.4.5.tar.gz]
 [2024-04-12 09:30:10] INFO root fetch - main [MainThread]: End processing [alpharaw]: success
 [2024-04-12 09:30:10] INFO root fetch - main [MainThread]: Store serial: [22734119]
+[2024-04-12 09:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734119]
+[2024-04-12 09:32:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 09:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spin-templete
+[2024-04-12 09:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seacrowd
+[2024-04-12 09:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fab-react-toolkit
+[2024-04-12 09:32:19] INFO root fetch - processPackages [spin-templete]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-12 09:32:19] INFO root fetch - processPackages [seacrowd]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-12 09:32:19] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/0a/47/ad19a8fe6937f67617e5fbeb24b5a1a3aae91ea4d1f0bd3073a574366e1d/seacrowd-0.0.4.tar.gz
+[2024-04-12 09:32:19] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-04-12 09:32:19] INFO root fetch - processPackages [spin-templete]: Downloading https://files.pythonhosted.org/packages/31/a9/eaab43e15c47ed898546041be3ee39c61def214870e4026f91299c61e41d/spin_templete-0.1-py3-none-any.whl
+[2024-04-12 09:32:19] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/ad/ad/cadc81342abde16dde897919312af0b6a270c40b1bf302339f1c906b851c/fab-react-toolkit-0.3.7.tar.gz
+[2024-04-12 09:32:19] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/f8/85/f2a2a9c8cfa059e16ec9b03e85629ebf4ba9ef62e7342a1fd53799ea49b5/seacrowd-0.0.5.tar.gz
+[2024-04-12 09:32:19] INFO root fetch - processPackages [spin-templete]: Downloading https://files.pythonhosted.org/packages/46/f5/87bb006121d788d837d828f28afa217bd5464dc8b633d5ad222076a0368c/spin_templete-0.1.1.tar.gz
+[2024-04-12 09:32:19] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/a6/33/8a8757eafb721d07bd652dfee00c629c6c1ba7d6804fe6d9afb444c4748e/fab-react-toolkit-0.3.9.tar.gz
+[2024-04-12 09:32:19] INFO root fetch - processPackages [spin-templete]: executing diffoscope
+[2024-04-12 09:32:19] INFO root fetch - processPackages [spin-templete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spin_templete-0.1-py3-none-any.whl.zip tmp/spin_templete-0.1.1.tar.gz --markdown 20240412/s/spin-templete/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-12 09:32:19] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-12 09:32:19] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.4.tar.gz tmp/seacrowd-0.0.5.tar.gz --markdown 20240412/s/seacrowd/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-12 09:32:19] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-04-12 09:32:19] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab-react-toolkit-0.3.7.tar.gz tmp/fab-react-toolkit-0.3.9.tar.gz --markdown 20240412/f/fab-react-toolkit/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-04-12 09:32:20] INFO root fetch - processPackages [spin-templete]: Remove: archive file [/home/abi/fetcher/tmp/spin_templete-0.1-py3-none-any.whl.zip]
+[2024-04-12 09:32:20] INFO root fetch - processPackages [spin-templete]: Remove: archive file [/home/abi/fetcher/tmp/spin_templete-0.1.1.tar.gz]
+[2024-04-12 09:32:20] INFO root fetch - main [MainThread]: End processing [spin-templete]: success
+[2024-04-12 09:32:20] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.7.tar.gz]
+[2024-04-12 09:32:20] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.9.tar.gz]
+[2024-04-12 09:32:20] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-04-12 09:32:21] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.4.tar.gz]
+[2024-04-12 09:32:21] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.5.tar.gz]
+[2024-04-12 09:32:21] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-12 09:32:21] INFO root fetch - main [MainThread]: Store serial: [22734143]
