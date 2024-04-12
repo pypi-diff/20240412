@@ -11404,3 +11404,46 @@
 [2024-04-12 04:00:40] INFO root fetch - processPackages [reskyblock]: Remove: archive file [/home/abi/fetcher/tmp/reskyblock-0.2.3.tar.gz]
 [2024-04-12 04:00:40] INFO root fetch - main [MainThread]: End processing [reskyblock]: success
 [2024-04-12 04:00:40] INFO root fetch - main [MainThread]: Store serial: [22731620]
+[2024-04-12 04:02:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731620]
+[2024-04-12 04:02:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 04:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gekko
+[2024-04-12 04:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlmesh
+[2024-04-12 04:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lxfcode
+[2024-04-12 04:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cuvs-cu11
+[2024-04-12 04:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jemma
+[2024-04-12 04:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drawpyo
+[2024-04-12 04:02:49] INFO root fetch - processPackages [lxfcode]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-12 04:02:49] INFO root fetch - processPackages [jemma]: New version: [0.1.422] Old Version: [0.1.4200]
+[2024-04-12 04:02:49] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.85.0]
+[2024-04-12 04:02:49] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/dd/28/777de6410cd2b91e3c36e5620066e4e9163461d16d9e9b9b1328fad08dbe/lxfcode-0.2.3-py2.py3-none-any.whl
+[2024-04-12 04:02:49] INFO root fetch - processPackages [drawpyo]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-12 04:02:49] INFO root fetch - processPackages [gekko]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-12 04:02:49] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/d9/63/51ec556f3f0370b05808408de880483a939b0a2fbbb9cc0e33cbd2415477/jemma-0.1.4200.tar.gz
+[2024-04-12 04:02:49] ERROR root fetch - processPackages [cuvs-cu11]: Unable to get metadata: No such project 'cuvs-cu11'
+[2024-04-12 04:02:49] INFO root fetch - main [MainThread]: End processing [cuvs-cu11] error
+[2024-04-12 04:02:49] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/d7/27/02533a9fcf6bb6f4dbb1a3df347855dcf9ea818f54e3555356a08e820aec/sqlmesh-0.85.0.tar.gz
+[2024-04-12 04:02:49] WARNING root fetch - processPackages [sqlmesh]: Skipping package: exceeds size limit 14321556>=10485760
+[2024-04-12 04:02:49] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2024-04-12 04:02:49] INFO root fetch - processPackages [drawpyo]: Downloading https://files.pythonhosted.org/packages/ea/48/b1c84c703eb167d91fdf3b3db55b4e89a276eab5567c7720270a11bba145/drawpyo-0.1.1.tar.gz
+[2024-04-12 04:02:49] INFO root fetch - processPackages [gekko]: Downloading https://files.pythonhosted.org/packages/04/74/91d8822f722f8abde05edd5150a97d31228dba08a91f7347961be663be14/gekko-1.1.0.tar.gz
+[2024-04-12 04:02:49] INFO root fetch - processPackages [lxfcode]: Downloading https://files.pythonhosted.org/packages/c0/31/b587f0bf3c29d37b6d3eeba4242740a50a05dd9d229e92414a6660774e44/lxfcode-0.2.4-py2.py3-none-any.whl
+[2024-04-12 04:02:49] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/63/6b/a863031d8cf2af2bd9d83e3bd45b62d23a37f487e591861cbdb407f6b975/jemma-0.1.422.tar.gz
+[2024-04-12 04:02:50] WARNING root fetch - processPackages [gekko]: Skipping package: exceeds size limit 13063944>=10485760
+[2024-04-12 04:02:50] INFO root fetch - main [MainThread]: End processing [gekko] error
+[2024-04-12 04:02:50] INFO root fetch - processPackages [lxfcode]: executing diffoscope
+[2024-04-12 04:02:50] INFO root fetch - processPackages [lxfcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxfcode-0.2.3-py2.py3-none-any.whl.zip tmp/lxfcode-0.2.4-py2.py3-none-any.whl.zip --markdown 20240412/l/lxfcode/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-12 04:02:50] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-12 04:02:50] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.4200.tar.gz tmp/jemma-0.1.422.tar.gz --markdown 20240412/j/jemma/0.1.4200-0.1.422/README.md --exclude *.pyd
+[2024-04-12 04:02:50] INFO root fetch - processPackages [drawpyo]: Downloading https://files.pythonhosted.org/packages/4a/87/41df2d6edaaba76e960a4b322793312a00e3a63081c88b165db9d551ae47/drawpyo-0.1.2.tar.gz
+[2024-04-12 04:02:50] INFO root fetch - processPackages [drawpyo]: executing diffoscope
+[2024-04-12 04:02:50] INFO root fetch - processPackages [drawpyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drawpyo-0.1.1.tar.gz tmp/drawpyo-0.1.2.tar.gz --markdown 20240412/d/drawpyo/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-12 04:02:50] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.4200.tar.gz]
+[2024-04-12 04:02:50] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.422.tar.gz]
+[2024-04-12 04:02:50] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-12 04:02:50] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.3-py2.py3-none-any.whl.zip]
+[2024-04-12 04:02:50] INFO root fetch - processPackages [lxfcode]: Remove: archive file [/home/abi/fetcher/tmp/lxfcode-0.2.4-py2.py3-none-any.whl.zip]
+[2024-04-12 04:02:50] INFO root fetch - main [MainThread]: End processing [lxfcode]: success
+[2024-04-12 04:02:50] INFO root fetch - processPackages [drawpyo]: Remove: archive file [/home/abi/fetcher/tmp/drawpyo-0.1.1.tar.gz]
+[2024-04-12 04:02:50] INFO root fetch - processPackages [drawpyo]: Remove: archive file [/home/abi/fetcher/tmp/drawpyo-0.1.2.tar.gz]
+[2024-04-12 04:02:50] INFO root fetch - main [MainThread]: End processing [drawpyo]: success
+[2024-04-12 04:02:50] INFO root fetch - main [MainThread]: Store serial: [22731638]
