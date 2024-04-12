@@ -11031,3 +11031,36 @@
 [2024-04-12 03:38:55] INFO root fetch - processPackages [vectara-cli]: Remove: archive file [/home/abi/fetcher/tmp/vectara-cli-0.1.9.tar.gz]
 [2024-04-12 03:38:55] INFO root fetch - main [MainThread]: End processing [vectara-cli]: success
 [2024-04-12 03:38:55] INFO root fetch - main [MainThread]: Store serial: [22731436]
+[2024-04-12 03:40:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731436]
+[2024-04-12 03:41:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 03:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imap-box-up
+[2024-04-12 03:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-aiobotocore
+[2024-04-12 03:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-aiobotocore-lite
+[2024-04-12 03:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hugchat
+[2024-04-12 03:41:04] INFO root fetch - processPackages [hugchat]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-12 03:41:04] INFO root fetch - processPackages [types-aiobotocore-lite]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-12 03:41:04] INFO root fetch - processPackages [types-aiobotocore]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-12 03:41:04] WARNING root fetch - processPackages [imap-box-up]: Skipping, unable to determine old version
+[2024-04-12 03:41:04] INFO root fetch - main [MainThread]: End processing [imap-box-up] error
+[2024-04-12 03:41:04] INFO root fetch - processPackages [types-aiobotocore]: Downloading https://files.pythonhosted.org/packages/96/dc/c0a38917a0890cb828bcf1b3b561ca39602bd19d6d27ce64b1d475da4c73/types-aiobotocore-2.9.0.tar.gz
+[2024-04-12 03:41:04] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/9a/06/60d708e9e30b79e6a24cf6624793052d893586f79f4317d804902d9b3408/hugchat-0.4.1.tar.gz
+[2024-04-12 03:41:05] INFO root fetch - processPackages [types-aiobotocore]: Downloading https://files.pythonhosted.org/packages/20/6c/bd04e378acc41804a313a968d254a684f7a627d828be09d46c1d396bdd28/types-aiobotocore-2.9.1.tar.gz
+[2024-04-12 03:41:05] INFO root fetch - processPackages [types-aiobotocore]: executing diffoscope
+[2024-04-12 03:41:05] INFO root fetch - processPackages [types-aiobotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-2.9.0.tar.gz tmp/types-aiobotocore-2.9.1.tar.gz --markdown 20240412/t/types-aiobotocore/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-12 03:41:05] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/e3/b0/fc3194f6a92afaf822ca59a78acddf16443056f503b8a252156bcb6a53d0/hugchat-0.4.2.tar.gz
+[2024-04-12 03:41:05] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2024-04-12 03:41:05] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.4.1.tar.gz tmp/hugchat-0.4.2.tar.gz --markdown 20240412/h/hugchat/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-12 03:41:05] INFO root fetch - processPackages [types-aiobotocore-lite]: Downloading https://files.pythonhosted.org/packages/6f/e7/06097a27938cffaac20180abb3e0aa234c6c889619671a25ac98587e145a/types-aiobotocore-lite-2.9.0.tar.gz
+[2024-04-12 03:41:05] INFO root fetch - processPackages [types-aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-2.9.0.tar.gz]
+[2024-04-12 03:41:05] INFO root fetch - processPackages [types-aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-2.9.1.tar.gz]
+[2024-04-12 03:41:05] INFO root fetch - main [MainThread]: End processing [types-aiobotocore]: success
+[2024-04-12 03:41:05] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.4.1.tar.gz]
+[2024-04-12 03:41:05] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.4.2.tar.gz]
+[2024-04-12 03:41:05] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2024-04-12 03:41:06] INFO root fetch - processPackages [types-aiobotocore-lite]: Downloading https://files.pythonhosted.org/packages/42/fd/3243ed0257d0f788ebcaaeb751a56444c2c34a5d9dc55dbdbd08cbaf4537/types-aiobotocore-lite-2.9.1.tar.gz
+[2024-04-12 03:41:06] INFO root fetch - processPackages [types-aiobotocore-lite]: executing diffoscope
+[2024-04-12 03:41:06] INFO root fetch - processPackages [types-aiobotocore-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lite-2.9.0.tar.gz tmp/types-aiobotocore-lite-2.9.1.tar.gz --markdown 20240412/t/types-aiobotocore-lite/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-12 03:41:06] INFO root fetch - processPackages [types-aiobotocore-lite]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lite-2.9.0.tar.gz]
+[2024-04-12 03:41:06] INFO root fetch - processPackages [types-aiobotocore-lite]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lite-2.9.1.tar.gz]
+[2024-04-12 03:41:06] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lite]: success
+[2024-04-12 03:41:06] INFO root fetch - main [MainThread]: Store serial: [22731450]
