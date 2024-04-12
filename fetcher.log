@@ -16522,3 +16522,75 @@
 [2024-04-12 09:13:55] INFO root fetch - processPackages [nvremap]: Remove: archive file [/home/abi/fetcher/tmp/nvremap-0.1.1-cp36-cp36m-manylinux1_x86_64.whl.zip]
 [2024-04-12 09:13:55] INFO root fetch - main [MainThread]: End processing [nvremap]: success
 [2024-04-12 09:13:55] INFO root fetch - main [MainThread]: Store serial: [22733911]
+[2024-04-12 09:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733911]
+[2024-04-12 09:16:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-12 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vjepa-encoder
+[2024-04-12 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edit-distance-correction
+[2024-04-12 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twyn
+[2024-04-12 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BrickBundles
+[2024-04-12 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BrickAgx
+[2024-04-12 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huojiweiguoba
+[2024-04-12 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lnctApi
+[2024-04-12 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyqueen
+[2024-04-12 09:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-proxmoxve
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pyqueen]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 09:16:06] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [6.3.0] Old Version: [6.2.1]
+[2024-04-12 09:16:06] WARNING root fetch - processPackages [vjepa-encoder]: Skipping, unable to determine old version
+[2024-04-12 09:16:06] INFO root fetch - main [MainThread]: End processing [vjepa-encoder] error
+[2024-04-12 09:16:06] INFO root fetch - processPackages [BrickAgx]: New version: [0.5.0] Old Version: [0.4.6]
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pyqueen]: Downloading https://files.pythonhosted.org/packages/0a/10/b23d8b81663cdab86625000c9a1173a2332177c5678c1d6a79f1b45d5cd6/pyqueen-1.0.8.tar.gz
+[2024-04-12 09:16:06] INFO root fetch - processPackages [lnctApi]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 09:16:06] INFO root fetch - processPackages [twyn]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-04-12 09:16:06] INFO root fetch - processPackages [BrickBundles]: New version: [0.5.0] Old Version: [0.4.6]
+[2024-04-12 09:16:06] WARNING root fetch - processPackages [edit-distance-correction]: Skipping, unable to determine old version
+[2024-04-12 09:16:06] INFO root fetch - main [MainThread]: End processing [edit-distance-correction] error
+[2024-04-12 09:16:06] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/5e/c5/3bd0cb763372a7d58c5b3070346e7b185164261dd7dd5cb350c2e192cc2a/pulumi_proxmoxve-6.2.1.tar.gz
+[2024-04-12 09:16:06] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/3e/65/9a67763e70ad9b9b3fe662256881abfbdd085de12bd040fa57c2a3fa47d3/twyn-2.6.8.tar.gz
+[2024-04-12 09:16:06] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/21/9a/ef28299741945860362367227a11ca08737296ef57814a5e5c840708a9a3/brickagx-0.4.6-cp39-cp39-win_amd64.whl
+[2024-04-12 09:16:06] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/46/2a/68f6c7bad6e8aeeb37fee1344e5bf9e486dd2365346a9a9357dfd06657d7/brickbundles-0.4.6-py3-none-any.whl
+[2024-04-12 09:16:06] INFO root fetch - processPackages [lnctApi]: Downloading https://files.pythonhosted.org/packages/7b/0d/3eea1e0b005589f3779bd85eebd9a6d4cc8ac93b485f4a872294e96c2f2b/lnctApi-0.0.5.tar.gz
+[2024-04-12 09:16:06] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/58/65/ff909d26445bcaf39c11e0c43f11c3b7428f03045c7bd818cba024bd81f1/pulumi_proxmoxve-6.3.0.tar.gz
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pyqueen]: Downloading https://files.pythonhosted.org/packages/01/d2/8c6b250edcb2a4d24cd2de765c4544c491d31948789b0f4d435fdca9fc15/pyqueen-1.0.9.tar.gz
+[2024-04-12 09:16:06] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-12 09:16:06] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240412/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pyqueen]: executing diffoscope
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-6.2.1.tar.gz tmp/pulumi_proxmoxve-6.3.0.tar.gz --markdown 20240412/p/pulumi-proxmoxve/6.2.1-6.3.0/README.md --exclude *.pyd
+[2024-04-12 09:16:06] INFO root fetch - processPackages [pyqueen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqueen-1.0.8.tar.gz tmp/pyqueen-1.0.9.tar.gz --markdown 20240412/p/pyqueen/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 09:16:06] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/61/66/200fb13e9086b43ae9bb85b1e3325ec6da3d55eb634ac4b1bd2020be5677/twyn-2.6.9.tar.gz
+[2024-04-12 09:16:06] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/92/57/8f68e250a427cca01b86d216b0eba6dd43deeda164b4be3dcc3660e7f954/brickbundles-0.5.0-py3-none-any.whl
+[2024-04-12 09:16:06] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2024-04-12 09:16:06] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.6.8.tar.gz tmp/twyn-2.6.9.tar.gz --markdown 20240412/t/twyn/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-04-12 09:16:06] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-04-12 09:16:06] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.4.6-py3-none-any.whl.zip tmp/brickbundles-0.5.0-py3-none-any.whl.zip --markdown 20240412/B/BrickBundles/0.4.6-0.5.0/README.md --exclude *.pyd
+[2024-04-12 09:16:06] INFO root fetch - processPackages [lnctApi]: Downloading https://files.pythonhosted.org/packages/49/41/fe856365f5a30931b3a40a40469fb2aee508c30820977778886cd2a87f32/lnctApi-0.0.6.tar.gz
+[2024-04-12 09:16:07] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/92/fa/86ef84df6510dde5e6342bed761113c6bdd22653adaa9160d11ca7965eb0/brickagx-0.5.0-cp39-cp39-win_amd64.whl
+[2024-04-12 09:16:07] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-12 09:16:07] INFO root fetch - processPackages [lnctApi]: executing diffoscope
+[2024-04-12 09:16:07] INFO root fetch - processPackages [lnctApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnctApi-0.0.5.tar.gz tmp/lnctApi-0.0.6.tar.gz --markdown 20240412/l/lnctApi/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 09:16:07] INFO root fetch - processPackages [pyqueen]: Remove: archive file [/home/abi/fetcher/tmp/pyqueen-1.0.8.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - processPackages [pyqueen]: Remove: archive file [/home/abi/fetcher/tmp/pyqueen-1.0.9.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - main [MainThread]: End processing [pyqueen]: success
+[2024-04-12 09:16:07] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.8.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.9.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2024-04-12 09:16:07] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.2.1.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.3.0.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2024-04-12 09:16:07] INFO root fetch - processPackages [lnctApi]: Remove: archive file [/home/abi/fetcher/tmp/lnctApi-0.0.5.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - processPackages [lnctApi]: Remove: archive file [/home/abi/fetcher/tmp/lnctApi-0.0.6.tar.gz]
+[2024-04-12 09:16:07] INFO root fetch - main [MainThread]: End processing [lnctApi]: success
+[2024-04-12 09:16:08] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.4.6-py3-none-any.whl.zip]
+[2024-04-12 09:16:08] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.5.0-py3-none-any.whl.zip]
+[2024-04-12 09:16:08] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-04-12 09:16:08] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-04-12 09:16:08] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.4.6-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.5.0-cp39-cp39-win_amd64.whl.zip --markdown 20240412/B/BrickAgx/0.4.6-0.5.0/README.md --exclude *.pyd
+[2024-04-12 09:16:09] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 09:16:09] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.5.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 09:16:09] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-04-12 09:16:09] INFO root fetch - main [MainThread]: Store serial: [22733950]
