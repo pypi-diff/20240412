@@ -14750,3 +14750,51 @@
 [2024-04-12 07:41:33] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.1.tar.gz]
 [2024-04-12 07:41:33] INFO root fetch - main [MainThread]: End processing [PytorchWildlife]: success
 [2024-04-12 07:41:33] INFO root fetch - main [MainThread]: Store serial: [22733122]
+[2024-04-12 07:43:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733122]
+[2024-04-12 07:43:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PytorchWildlife
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weld-deps
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs.cmdutils
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basek2
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickstart-vdk
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Jupyter-Bridge
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ultra-logger
+[2024-04-12 07:43:42] WARNING root fetch - processPackages [Jupyter-Bridge]: Skipping, unable to determine old version
+[2024-04-12 07:43:42] INFO root fetch - main [MainThread]: End processing [Jupyter-Bridge] error
+[2024-04-12 07:43:42] INFO root fetch - processPackages [PytorchWildlife]: New version: [1.0.2.9.1] Old Version: [1.0.2.9]
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ultra-logger]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-12 07:43:42] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-12 07:43:42] WARNING root fetch - processPackages [weld-deps]: Skipping, unable to determine old version
+[2024-04-12 07:43:42] INFO root fetch - main [MainThread]: End processing [weld-deps] error
+[2024-04-12 07:43:42] WARNING root fetch - processPackages [basek2]: Skipping, unable to determine old version
+[2024-04-12 07:43:42] INFO root fetch - main [MainThread]: End processing [basek2] error
+[2024-04-12 07:43:42] INFO root fetch - processPackages [cs.cmdutils]: New version: [20240412] Old Version: [20240316]
+[2024-04-12 07:43:42] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/e7/cb/3a89fd670dc291f283a9781aae53e7311daed30b68a66bca3a8148310265/PytorchWildlife-1.0.2.9.tar.gz
+[2024-04-12 07:43:42] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ultra-logger]: Downloading https://files.pythonhosted.org/packages/2a/17/1dae9dea0d3a0cad10e470a9246c05629cb5fb07fa34d9944faa0eeacf95/ultra_logger-0.1.tar.gz
+[2024-04-12 07:43:42] INFO root fetch - processPackages [cs.cmdutils]: Downloading https://files.pythonhosted.org/packages/f5/3e/69f84f17284fbfa81aa20a4aea9d698f21c5549fc44a576ce8dc46df1de1/cs.cmdutils-20240316.tar.gz
+[2024-04-12 07:43:42] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/b9/82/e763c6f2a9813750f43d8971aa0efa565b868d6dcf0b19642234c73cc488/PytorchWildlife-1.0.2.9.1.tar.gz
+[2024-04-12 07:43:42] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-12 07:43:42] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-12 07:43:42] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240412/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-12 07:43:42] INFO root fetch - processPackages [PytorchWildlife]: executing diffoscope
+[2024-04-12 07:43:42] INFO root fetch - processPackages [PytorchWildlife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PytorchWildlife-1.0.2.9.tar.gz tmp/PytorchWildlife-1.0.2.9.1.tar.gz --markdown 20240412/P/PytorchWildlife/1.0.2.9-1.0.2.9.1/README.md --exclude *.pyd
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ultra-logger]: Downloading https://files.pythonhosted.org/packages/46/ea/2d65a7885087f046fc8653ea521f8cd2cd96479332f651abbd9dd469820b/ultra_logger-0.1.1.tar.gz
+[2024-04-12 07:43:42] INFO root fetch - processPackages [cs.cmdutils]: Downloading https://files.pythonhosted.org/packages/4a/3d/e3d6fb1680e9cfd297212f5a7f2caabe284fd1820a01395edd1b265f8e81/cs.cmdutils-20240412.tar.gz
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ultra-logger]: executing diffoscope
+[2024-04-12 07:43:42] INFO root fetch - processPackages [ultra-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultra_logger-0.1.tar.gz tmp/ultra_logger-0.1.1.tar.gz --markdown 20240412/u/ultra-logger/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-12 07:43:43] INFO root fetch - processPackages [cs.cmdutils]: executing diffoscope
+[2024-04-12 07:43:43] INFO root fetch - processPackages [cs.cmdutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.cmdutils-20240316.tar.gz tmp/cs.cmdutils-20240412.tar.gz --markdown 20240412/c/cs.cmdutils/20240316-20240412/README.md --exclude *.pyd
+[2024-04-12 07:43:43] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-12 07:43:43] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-12 07:43:43] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-12 07:43:43] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.tar.gz]
+[2024-04-12 07:43:43] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.1.tar.gz]
+[2024-04-12 07:43:43] INFO root fetch - main [MainThread]: End processing [PytorchWildlife]: success
+[2024-04-12 07:43:43] INFO root fetch - processPackages [ultra-logger]: Remove: archive file [/home/abi/fetcher/tmp/ultra_logger-0.1.tar.gz]
+[2024-04-12 07:43:43] INFO root fetch - processPackages [ultra-logger]: Remove: archive file [/home/abi/fetcher/tmp/ultra_logger-0.1.1.tar.gz]
+[2024-04-12 07:43:43] INFO root fetch - main [MainThread]: End processing [ultra-logger]: success
+[2024-04-12 07:43:43] INFO root fetch - processPackages [cs.cmdutils]: Remove: archive file [/home/abi/fetcher/tmp/cs.cmdutils-20240316.tar.gz]
+[2024-04-12 07:43:43] INFO root fetch - processPackages [cs.cmdutils]: Remove: archive file [/home/abi/fetcher/tmp/cs.cmdutils-20240412.tar.gz]
+[2024-04-12 07:43:43] INFO root fetch - main [MainThread]: End processing [cs.cmdutils]: success
+[2024-04-12 07:43:43] INFO root fetch - main [MainThread]: Store serial: [22733142]
