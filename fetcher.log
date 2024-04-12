@@ -13675,3 +13675,15 @@
 [2024-04-12 06:33:17] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_vat_book-16.0.1.4.0.2-py3-none-any.whl.zip]
 [2024-04-12 06:33:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-vat-book]: success
 [2024-04-12 06:33:17] INFO root fetch - main [MainThread]: Store serial: [22732713]
+[2024-04-12 06:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732713]
+[2024-04-12 06:35:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-12 06:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-l10n-spain
+[2024-04-12 06:35:26] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20240411.0] Old Version: [16.0.20240325.0]
+[2024-04-12 06:35:26] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/a3/e6/c245e51d946f392c0b73a4ecd53f724e59f5c4fa36b9cf5a19054cced65b/odoo_addons_oca_l10n_spain-16.0.20240325.0-py3-none-any.whl
+[2024-04-12 06:35:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/91/b6/0094f5fdd88490fa3aae32cc5836c5d6db588b0a707653189cc7d2d69503/odoo_addons_oca_l10n_spain-16.0.20240411.0-py3-none-any.whl
+[2024-04-12 06:35:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2024-04-12 06:35:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20240325.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20240411.0-py3-none-any.whl.zip --markdown 20240412/o/odoo-addons-oca-l10n-spain/16.0.20240325.0-16.0.20240411.0/README.md --exclude *.pyd
+[2024-04-12 06:35:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20240325.0-py3-none-any.whl.zip]
+[2024-04-12 06:35:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20240411.0-py3-none-any.whl.zip]
+[2024-04-12 06:35:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2024-04-12 06:35:27] INFO root fetch - main [MainThread]: Store serial: [22732719]
