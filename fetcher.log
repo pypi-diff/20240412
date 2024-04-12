@@ -15056,3 +15056,15 @@
 [2024-04-12 07:55:25] INFO root fetch - processPackages [TPTBox]: Remove: archive file [/home/abi/fetcher/tmp/tptbox-0.1.1-py3-none-any.whl.zip]
 [2024-04-12 07:55:25] INFO root fetch - main [MainThread]: End processing [TPTBox]: success
 [2024-04-12 07:55:25] INFO root fetch - main [MainThread]: Store serial: [22733250]
+[2024-04-12 07:57:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733250]
+[2024-04-12 07:57:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-12 07:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-coder
+[2024-04-12 07:57:34] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 07:57:34] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-12 07:57:35] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-12 07:57:35] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-12 07:57:35] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240412/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 07:57:35] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-12 07:57:35] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-12 07:57:35] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-12 07:57:35] INFO root fetch - main [MainThread]: Store serial: [22733254]
