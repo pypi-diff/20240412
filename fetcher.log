@@ -15723,3 +15723,29 @@
 [2024-04-12 08:31:54] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.9.tar.gz]
 [2024-04-12 08:31:54] INFO root fetch - main [MainThread]: End processing [deep-utils]: success
 [2024-04-12 08:31:54] INFO root fetch - main [MainThread]: Store serial: [22733516]
+[2024-04-12 08:33:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733516]
+[2024-04-12 08:34:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyannote-onnx
+[2024-04-12 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atorch
+[2024-04-12 08:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intersight
+[2024-04-12 08:34:04] INFO root fetch - processPackages [pyannote-onnx]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 08:34:04] INFO root fetch - processPackages [atorch]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-12 08:34:04] INFO root fetch - processPackages [intersight]: New version: [1.0.9.6484] Old Version: [1.0.9.6207]
+[2024-04-12 08:34:04] INFO root fetch - processPackages [atorch]: Downloading https://files.pythonhosted.org/packages/01/16/f728b0f760be3e2ebc3b8a97e5922da7e9ed2f37accf9e6471007e12d20b/atorch-0.1.7-py3-none-any.whl
+[2024-04-12 08:34:04] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/3f/f0/f51a75f6b767dc8109fc3b2835730a91f98e0fd24cb642a08cede1ec6c74/pyannote-onnx-0.0.2.tar.gz
+[2024-04-12 08:34:04] INFO root fetch - processPackages [intersight]: Downloading https://files.pythonhosted.org/packages/ff/40/daaa754993e7cb8462afdc89a9772328cc5717951e766da83fa93944e043/intersight-1.0.9.6207.tar.gz
+[2024-04-12 08:34:04] INFO root fetch - processPackages [atorch]: Downloading https://files.pythonhosted.org/packages/98/80/508151070cfaad1a140f6dbf2c7954b46d3d550dd7dc45fce0426fd51d41/atorch-0.1.8-py3-none-any.whl
+[2024-04-12 08:34:04] WARNING root fetch - processPackages [intersight]: Skipping package: exceeds size limit 16195201>=10485760
+[2024-04-12 08:34:04] INFO root fetch - main [MainThread]: End processing [intersight] error
+[2024-04-12 08:34:04] INFO root fetch - processPackages [atorch]: executing diffoscope
+[2024-04-12 08:34:04] INFO root fetch - processPackages [atorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atorch-0.1.7-py3-none-any.whl.zip tmp/atorch-0.1.8-py3-none-any.whl.zip --markdown 20240412/a/atorch/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-12 08:34:05] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/b4/fb/17343d500d108359b2f37dc3cddcc41a5216d7dc30e8fd98f4955fa52c81/pyannote-onnx-0.0.3.tar.gz
+[2024-04-12 08:34:05] INFO root fetch - processPackages [pyannote-onnx]: executing diffoscope
+[2024-04-12 08:34:05] INFO root fetch - processPackages [pyannote-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyannote-onnx-0.0.2.tar.gz tmp/pyannote-onnx-0.0.3.tar.gz --markdown 20240412/p/pyannote-onnx/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 08:34:06] INFO root fetch - processPackages [atorch]: Remove: archive file [/home/abi/fetcher/tmp/atorch-0.1.7-py3-none-any.whl.zip]
+[2024-04-12 08:34:06] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.2.tar.gz]
+[2024-04-12 08:34:06] INFO root fetch - processPackages [atorch]: Remove: archive file [/home/abi/fetcher/tmp/atorch-0.1.8-py3-none-any.whl.zip]
+[2024-04-12 08:34:06] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.3.tar.gz]
+[2024-04-12 08:34:06] INFO root fetch - main [MainThread]: End processing [atorch]: success
+[2024-04-12 08:34:06] INFO root fetch - main [MainThread]: End processing [pyannote-onnx]: success
+[2024-04-12 08:34:06] INFO root fetch - main [MainThread]: Store serial: [22733523]
