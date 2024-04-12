@@ -12010,3 +12010,42 @@
 [2024-04-12 04:44:08] INFO root fetch - processPackages [FinRL]: Remove: archive file [/home/abi/fetcher/tmp/FinRL-0.3.7.tar.gz]
 [2024-04-12 04:44:08] INFO root fetch - main [MainThread]: End processing [FinRL]: success
 [2024-04-12 04:44:08] INFO root fetch - main [MainThread]: Store serial: [22731959]
+[2024-04-12 04:46:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731959]
+[2024-04-12 04:46:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: b2aiprep
+[2024-04-12 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quick-python-project
+[2024-04-12 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zaber-motion
+[2024-04-12 04:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mucstpy
+[2024-04-12 04:46:17] INFO root fetch - processPackages [mucstpy]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-12 04:46:17] INFO root fetch - processPackages [quick-python-project]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-12 04:46:17] INFO root fetch - processPackages [b2aiprep]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-12 04:46:17] INFO root fetch - processPackages [quick-python-project]: Downloading https://files.pythonhosted.org/packages/a7/ef/2cb5caafec30234f903bd604efda01cb33676d99982cd8e8dcedf668d287/quick_python_project-0.4.1.tar.gz
+[2024-04-12 04:46:17] INFO root fetch - processPackages [mucstpy]: Downloading https://files.pythonhosted.org/packages/3b/58/8a7e9e14f7bb6b1f39fde5445a52bfbdb3e66e0dd3228e31662ccc4fb08a/mucstpy-1.0.0.tar.gz
+[2024-04-12 04:46:17] INFO root fetch - processPackages [zaber-motion]: New version: [5.2.0] Old Version: [5.1.5]
+[2024-04-12 04:46:17] INFO root fetch - processPackages [b2aiprep]: Downloading https://files.pythonhosted.org/packages/a7/69/75783e3edb1f1ae984ed03018dd6cb7e65eaee07dfed0a6a1524a30a40f2/b2aiprep-0.8.1.tar.gz
+[2024-04-12 04:46:17] INFO root fetch - processPackages [quick-python-project]: Downloading https://files.pythonhosted.org/packages/8a/bf/71fb72902d9374c81637efe11549d633ea5078f8fcb8653a424f7f176264/quick_python_project-0.4.2.tar.gz
+[2024-04-12 04:46:17] INFO root fetch - processPackages [mucstpy]: Downloading https://files.pythonhosted.org/packages/96/ab/3c6bd9778ed27858f99d5cf89ac3193de1009c572aa1c6e6c701bc76bb20/mucstpy-1.0.1.tar.gz
+[2024-04-12 04:46:18] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/42/56/9438c12242aca93839db0c7b747c7998a7a3d1c13ad8fadd614ba6d6c2c0/zaber_motion-5.1.5.tar.gz
+[2024-04-12 04:46:18] INFO root fetch - processPackages [quick-python-project]: executing diffoscope
+[2024-04-12 04:46:18] INFO root fetch - processPackages [quick-python-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_python_project-0.4.1.tar.gz tmp/quick_python_project-0.4.2.tar.gz --markdown 20240412/q/quick-python-project/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-12 04:46:18] INFO root fetch - processPackages [mucstpy]: executing diffoscope
+[2024-04-12 04:46:18] INFO root fetch - processPackages [mucstpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mucstpy-1.0.0.tar.gz tmp/mucstpy-1.0.1.tar.gz --markdown 20240412/m/mucstpy/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-12 04:46:18] INFO root fetch - processPackages [b2aiprep]: Downloading https://files.pythonhosted.org/packages/15/26/a272554d70f3b2d49bbcf7b9f9d633806c01bc22f471db8eb5b45b57e385/b2aiprep-0.9.0.tar.gz
+[2024-04-12 04:46:18] INFO root fetch - processPackages [b2aiprep]: executing diffoscope
+[2024-04-12 04:46:18] INFO root fetch - processPackages [b2aiprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2aiprep-0.8.1.tar.gz tmp/b2aiprep-0.9.0.tar.gz --markdown 20240412/b/b2aiprep/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-12 04:46:18] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/63/98/ad15e19c55bac37b4f72d4106c2f69ec7060cfe1398ae98c25ab489e3539/zaber_motion-5.2.0-py3-none-manylinux_2_27_aarch64.whl
+[2024-04-12 04:46:18] INFO root fetch - processPackages [mucstpy]: Remove: archive file [/home/abi/fetcher/tmp/mucstpy-1.0.0.tar.gz]
+[2024-04-12 04:46:18] INFO root fetch - processPackages [mucstpy]: Remove: archive file [/home/abi/fetcher/tmp/mucstpy-1.0.1.tar.gz]
+[2024-04-12 04:46:18] INFO root fetch - main [MainThread]: End processing [mucstpy]: success
+[2024-04-12 04:46:18] INFO root fetch - processPackages [quick-python-project]: Remove: archive file [/home/abi/fetcher/tmp/quick_python_project-0.4.1.tar.gz]
+[2024-04-12 04:46:18] INFO root fetch - processPackages [quick-python-project]: Remove: archive file [/home/abi/fetcher/tmp/quick_python_project-0.4.2.tar.gz]
+[2024-04-12 04:46:18] INFO root fetch - main [MainThread]: End processing [quick-python-project]: success
+[2024-04-12 04:46:18] INFO root fetch - processPackages [b2aiprep]: Remove: archive file [/home/abi/fetcher/tmp/b2aiprep-0.8.1.tar.gz]
+[2024-04-12 04:46:18] INFO root fetch - processPackages [b2aiprep]: Remove: archive file [/home/abi/fetcher/tmp/b2aiprep-0.9.0.tar.gz]
+[2024-04-12 04:46:18] INFO root fetch - main [MainThread]: End processing [b2aiprep]: success
+[2024-04-12 04:46:20] INFO root fetch - processPackages [zaber-motion]: executing diffoscope
+[2024-04-12 04:46:20] INFO root fetch - processPackages [zaber-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaber_motion-5.1.5.tar.gz tmp/zaber_motion-5.2.0-py3-none-manylinux_2_27_aarch64.whl.zip --markdown 20240412/z/zaber-motion/5.1.5-5.2.0/README.md --exclude *.pyd
+[2024-04-12 04:46:21] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-5.1.5.tar.gz]
+[2024-04-12 04:46:21] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-5.2.0-py3-none-manylinux_2_27_aarch64.whl.zip]
+[2024-04-12 04:46:21] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
+[2024-04-12 04:46:21] INFO root fetch - main [MainThread]: Store serial: [22731974]
