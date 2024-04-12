@@ -13891,3 +13891,42 @@
 [2024-04-12 06:46:21] INFO root fetch - processPackages [scml-vis]: Remove: archive file [/home/abi/fetcher/tmp/scml-vis-0.3.2.tar.gz]
 [2024-04-12 06:46:21] INFO root fetch - main [MainThread]: End processing [scml-vis]: success
 [2024-04-12 06:46:21] INFO root fetch - main [MainThread]: Store serial: [22732773]
+[2024-04-12 06:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732773]
+[2024-04-12 06:48:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 06:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioxdl
+[2024-04-12 06:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytiqs
+[2024-04-12 06:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-field-logger
+[2024-04-12 06:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs.queues
+[2024-04-12 06:48:30] INFO root fetch - processPackages [aioxdl]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-12 06:48:30] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.25] Old Version: [0.0.24]
+[2024-04-12 06:48:30] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/39/1a/6ed63371e37620eab8a5d74632dce523341a96d38c6800c7c659dedd5b6e/django-field-logger-0.0.24.tar.gz
+[2024-04-12 06:48:30] INFO root fetch - processPackages [pytiqs]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-12 06:48:30] INFO root fetch - processPackages [cs.queues]: New version: [20240412] Old Version: [20240318]
+[2024-04-12 06:48:30] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/8c/5a/db0e0897d263d1a399ed00dc32677fb42ae8f71e42274a9c766447a14264/aioxdl-0.0.7.tar.gz
+[2024-04-12 06:48:31] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/df/cb/ce9f1a0aefea84e7469898677e98feba1c28be47aa46f3f54825423434a9/pytiqs-1.0.3.tar.gz
+[2024-04-12 06:48:31] INFO root fetch - processPackages [cs.queues]: Downloading https://files.pythonhosted.org/packages/f0/2d/57779c79f56daa8f6443658a4919e82f6f3e499fdd44f257d946641e876f/cs.queues-20240318.tar.gz
+[2024-04-12 06:48:31] INFO root fetch - processPackages [aioxdl]: Downloading https://files.pythonhosted.org/packages/9b/62/d33ead1d28fd4d8040f57aaa4fed666a29ea346a45d5829cd2676f02d536/aioxdl-0.0.8.tar.gz
+[2024-04-12 06:48:31] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/04/b9/93b6d5fc5d1e61e4fe5f4f7c472c74a580b2b8deee273172bc8d52313ddb/django-field-logger-0.0.25.tar.gz
+[2024-04-12 06:48:31] INFO root fetch - processPackages [aioxdl]: executing diffoscope
+[2024-04-12 06:48:31] INFO root fetch - processPackages [aioxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxdl-0.0.7.tar.gz tmp/aioxdl-0.0.8.tar.gz --markdown 20240412/a/aioxdl/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-12 06:48:31] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-12 06:48:31] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-field-logger-0.0.24.tar.gz tmp/django-field-logger-0.0.25.tar.gz --markdown 20240412/d/django-field-logger/0.0.24-0.0.25/README.md --exclude *.pyd
+[2024-04-12 06:48:31] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/7c/97/1d31f7b207106d6280e0683d62ecb882fcda0e2bd4961c7c0834726417d0/pytiqs-1.0.4-py3-none-any.whl
+[2024-04-12 06:48:31] INFO root fetch - processPackages [cs.queues]: Downloading https://files.pythonhosted.org/packages/7e/2e/940d3c637080c84d7c6ee940e8d4044e305202554cd3c554d0d22a2e8fcc/cs.queues-20240412.tar.gz
+[2024-04-12 06:48:31] INFO root fetch - processPackages [pytiqs]: executing diffoscope
+[2024-04-12 06:48:31] INFO root fetch - processPackages [pytiqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiqs-1.0.3.tar.gz tmp/pytiqs-1.0.4-py3-none-any.whl.zip --markdown 20240412/p/pytiqs/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-12 06:48:31] INFO root fetch - processPackages [cs.queues]: executing diffoscope
+[2024-04-12 06:48:31] INFO root fetch - processPackages [cs.queues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.queues-20240318.tar.gz tmp/cs.queues-20240412.tar.gz --markdown 20240412/c/cs.queues/20240318-20240412/README.md --exclude *.pyd
+[2024-04-12 06:48:32] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.24.tar.gz]
+[2024-04-12 06:48:32] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.25.tar.gz]
+[2024-04-12 06:48:32] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-12 06:48:32] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.7.tar.gz]
+[2024-04-12 06:48:32] INFO root fetch - processPackages [aioxdl]: Remove: archive file [/home/abi/fetcher/tmp/aioxdl-0.0.8.tar.gz]
+[2024-04-12 06:48:32] INFO root fetch - main [MainThread]: End processing [aioxdl]: success
+[2024-04-12 06:48:32] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.3.tar.gz]
+[2024-04-12 06:48:32] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.4-py3-none-any.whl.zip]
+[2024-04-12 06:48:32] INFO root fetch - main [MainThread]: End processing [pytiqs]: success
+[2024-04-12 06:48:32] INFO root fetch - processPackages [cs.queues]: Remove: archive file [/home/abi/fetcher/tmp/cs.queues-20240318.tar.gz]
+[2024-04-12 06:48:32] INFO root fetch - processPackages [cs.queues]: Remove: archive file [/home/abi/fetcher/tmp/cs.queues-20240412.tar.gz]
+[2024-04-12 06:48:32] INFO root fetch - main [MainThread]: End processing [cs.queues]: success
+[2024-04-12 06:48:32] INFO root fetch - main [MainThread]: Store serial: [22732785]
