@@ -15275,3 +15275,36 @@
 [2024-04-12 08:12:04] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.0.tar.gz]
 [2024-04-12 08:12:04] INFO root fetch - main [MainThread]: End processing [cumo]: success
 [2024-04-12 08:12:04] INFO root fetch - main [MainThread]: Store serial: [22733328]
+[2024-04-12 08:14:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733328]
+[2024-04-12 08:14:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 08:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowball-stemmer-wheels
+[2024-04-12 08:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2024-04-12 08:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weld-deps
+[2024-04-12 08:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymatgen
+[2024-04-12 08:14:14] INFO root fetch - processPackages [snowball-stemmer-wheels]: New version: [0.1.0rc13] Old Version: [0.1.0rc1]
+[2024-04-12 08:14:14] WARNING root fetch - processPackages [weld-deps]: Skipping, unable to determine old version
+[2024-04-12 08:14:14] INFO root fetch - main [MainThread]: End processing [weld-deps] error
+[2024-04-12 08:14:14] INFO root fetch - processPackages [snowball-stemmer-wheels]: Downloading https://files.pythonhosted.org/packages/83/ae/31d8f984e0675ddf9b9e30c41fee3922313c59daeb924f894f29853c8457/snowball_stemmer_wheels-0.1.0rc1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 08:14:14] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240412] Old Version: [2.6.0.dev20240411]
+[2024-04-12 08:14:15] INFO root fetch - processPackages [snowball-stemmer-wheels]: Downloading https://files.pythonhosted.org/packages/e6/dc/2a30829c123587d8b61891fdef752215d363609a082b0ac7a57f40cdd256/snowball_stemmer_wheels-0.1.0rc13-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-12 08:14:15] INFO root fetch - processPackages [pymatgen]: New version: [4.7.7] Old Version: [4.7.6]
+[2024-04-12 08:14:15] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ba/59/24c608bea688431746a4c0f04c2f22408a480da14882e104380fba0b7dee/pyg_nightly-2.6.0.dev20240411.tar.gz
+[2024-04-12 08:14:15] INFO root fetch - processPackages [snowball-stemmer-wheels]: executing diffoscope
+[2024-04-12 08:14:15] INFO root fetch - processPackages [snowball-stemmer-wheels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowball_stemmer_wheels-0.1.0rc1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/snowball_stemmer_wheels-0.1.0rc13-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240412/s/snowball-stemmer-wheels/0.1.0rc1-0.1.0rc13/README.md --exclude *.pyd
+[2024-04-12 08:14:15] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/f8/11/932dcc4ebb444717ca49389e060aeb54f98ed9df48131df12df030e2ad3d/pymatgen-4.7.6.tar.gz
+[2024-04-12 08:14:15] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ab/ed/424f316ed410a7a9678251d219f9cfffe0a666dc6deb2d8c9528afe571ce/pyg_nightly-2.6.0.dev20240412.tar.gz
+[2024-04-12 08:14:15] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-12 08:14:15] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240411.tar.gz tmp/pyg_nightly-2.6.0.dev20240412.tar.gz --markdown 20240412/p/pyg-nightly/2.6.0.dev20240411-2.6.0.dev20240412/README.md --exclude *.pyd
+[2024-04-12 08:14:15] INFO root fetch - processPackages [snowball-stemmer-wheels]: Remove: archive file [/home/abi/fetcher/tmp/snowball_stemmer_wheels-0.1.0rc1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 08:14:15] INFO root fetch - processPackages [snowball-stemmer-wheels]: Remove: archive file [/home/abi/fetcher/tmp/snowball_stemmer_wheels-0.1.0rc13-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-12 08:14:15] INFO root fetch - main [MainThread]: End processing [snowball-stemmer-wheels]: success
+[2024-04-12 08:14:15] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/5d/70/264aa342dff7f1c5fa6c1870cf2fb08b1e89462261dfd880f3107cfb8788/pymatgen-4.7.7.tar.gz
+[2024-04-12 08:14:16] INFO root fetch - processPackages [pymatgen]: executing diffoscope
+[2024-04-12 08:14:16] INFO root fetch - processPackages [pymatgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-4.7.6.tar.gz tmp/pymatgen-4.7.7.tar.gz --markdown 20240412/p/pymatgen/4.7.6-4.7.7/README.md --exclude *.pyd
+[2024-04-12 08:14:17] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240411.tar.gz]
+[2024-04-12 08:14:17] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240412.tar.gz]
+[2024-04-12 08:14:17] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-12 08:14:18] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.6.tar.gz]
+[2024-04-12 08:14:18] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.7.tar.gz]
+[2024-04-12 08:14:18] INFO root fetch - main [MainThread]: End processing [pymatgen]: success
+[2024-04-12 08:14:18] INFO root fetch - main [MainThread]: Store serial: [22733354]
