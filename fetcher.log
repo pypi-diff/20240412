@@ -17324,3 +17324,42 @@
 [2024-04-12 09:49:54] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.66.0.tar.gz]
 [2024-04-12 09:49:54] INFO root fetch - main [MainThread]: End processing [pybotx]: success
 [2024-04-12 09:49:54] INFO root fetch - main [MainThread]: Store serial: [22734356]
+[2024-04-12 09:51:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734356]
+[2024-04-12 09:52:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 09:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monterey
+[2024-04-12 09:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ip-check
+[2024-04-12 09:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gddoc2yml
+[2024-04-12 09:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrubino
+[2024-04-12 09:52:04] INFO root fetch - processPackages [monterey]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-12 09:52:04] INFO root fetch - processPackages [pyrubino]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-12 09:52:04] INFO root fetch - processPackages [ip-check]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-12 09:52:04] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/66/9d/32bbd369d2ec4c849265b295cdb52988b2a3d5e0dbf59ad632dfe01c35ed/monterey-0.0.7.tar.gz
+[2024-04-12 09:52:04] INFO root fetch - processPackages [pyrubino]: Downloading https://files.pythonhosted.org/packages/5c/d2/1275b39c37bb4cbfaaaafd2a0383392da1edee171b71dd64979300c31169/pyrubino-1.1.0.tar.gz
+[2024-04-12 09:52:04] INFO root fetch - processPackages [gddoc2yml]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-12 09:52:05] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/db/68/ebbb3046dc52a79183a05a1e26e8ed0e40ec20cd0e101811fd120cda8391/ip_check-1.5.8-py3-none-any.whl
+[2024-04-12 09:52:05] INFO root fetch - processPackages [gddoc2yml]: Downloading https://files.pythonhosted.org/packages/c4/7d/96efb6cb61dddbd94efc0d702a6843b6e15821e53fbec9996dc4e27381a1/gddoc2yml-0.0.0.tar.gz
+[2024-04-12 09:52:05] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/ee/76/e38c1bed9d0d00523c2f48bc75104ce4da9567a13556044770197218c203/monterey-0.0.8.tar.gz
+[2024-04-12 09:52:05] INFO root fetch - processPackages [pyrubino]: Downloading https://files.pythonhosted.org/packages/46/fc/e85ffeae8288f37f35dde599453085f24e1c7c1d71c14818e9985cf3bc22/pyrubino-1.1.1.tar.gz
+[2024-04-12 09:52:05] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 09:52:05] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.7.tar.gz tmp/monterey-0.0.8.tar.gz --markdown 20240412/m/monterey/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-12 09:52:05] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/3e/13/bac600348088204bd2dce3f1dd063bb98d2ae47c8a6cb2f55c4b779d7a04/ip_check-1.5.9-py3-none-any.whl
+[2024-04-12 09:52:05] INFO root fetch - processPackages [pyrubino]: executing diffoscope
+[2024-04-12 09:52:05] INFO root fetch - processPackages [pyrubino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubino-1.1.0.tar.gz tmp/pyrubino-1.1.1.tar.gz --markdown 20240412/p/pyrubino/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-12 09:52:05] INFO root fetch - processPackages [gddoc2yml]: Downloading https://files.pythonhosted.org/packages/af/d9/b4824aeb4ae47f46f779389809384ab0965708dfe4f5407af07da26e5446/gddoc2yml-0.0.1.tar.gz
+[2024-04-12 09:52:05] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-04-12 09:52:05] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.5.8-py3-none-any.whl.zip tmp/ip_check-1.5.9-py3-none-any.whl.zip --markdown 20240412/i/ip-check/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-12 09:52:05] INFO root fetch - processPackages [gddoc2yml]: executing diffoscope
+[2024-04-12 09:52:05] INFO root fetch - processPackages [gddoc2yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gddoc2yml-0.0.0.tar.gz tmp/gddoc2yml-0.0.1.tar.gz --markdown 20240412/g/gddoc2yml/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-12 09:52:05] INFO root fetch - processPackages [pyrubino]: Remove: archive file [/home/abi/fetcher/tmp/pyrubino-1.1.0.tar.gz]
+[2024-04-12 09:52:05] INFO root fetch - processPackages [pyrubino]: Remove: archive file [/home/abi/fetcher/tmp/pyrubino-1.1.1.tar.gz]
+[2024-04-12 09:52:05] INFO root fetch - main [MainThread]: End processing [pyrubino]: success
+[2024-04-12 09:52:06] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.7.tar.gz]
+[2024-04-12 09:52:06] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.8.tar.gz]
+[2024-04-12 09:52:06] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 09:52:06] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.8-py3-none-any.whl.zip]
+[2024-04-12 09:52:06] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.9-py3-none-any.whl.zip]
+[2024-04-12 09:52:06] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-04-12 09:52:06] INFO root fetch - processPackages [gddoc2yml]: Remove: archive file [/home/abi/fetcher/tmp/gddoc2yml-0.0.0.tar.gz]
+[2024-04-12 09:52:06] INFO root fetch - processPackages [gddoc2yml]: Remove: archive file [/home/abi/fetcher/tmp/gddoc2yml-0.0.1.tar.gz]
+[2024-04-12 09:52:06] INFO root fetch - main [MainThread]: End processing [gddoc2yml]: success
+[2024-04-12 09:52:06] INFO root fetch - main [MainThread]: Store serial: [22734367]
