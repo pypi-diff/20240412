@@ -12082,3 +12082,29 @@
 [2024-04-12 04:50:40] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.9.tar.gz]
 [2024-04-12 04:50:40] INFO root fetch - main [MainThread]: End processing [swebench]: success
 [2024-04-12 04:50:40] INFO root fetch - main [MainThread]: Store serial: [22731989]
+[2024-04-12 04:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731989]
+[2024-04-12 04:52:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 04:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xinference
+[2024-04-12 04:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djaodjin-pages
+[2024-04-12 04:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xinference-client
+[2024-04-12 04:52:49] INFO root fetch - processPackages [djaodjin-pages]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-12 04:52:50] INFO root fetch - processPackages [xinference-client]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-12 04:52:50] INFO root fetch - processPackages [xinference]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-12 04:52:50] INFO root fetch - processPackages [djaodjin-pages]: Downloading https://files.pythonhosted.org/packages/ec/7d/813618a7acd47544095fadb00043d60938e7e3ebfea638e11aec9134767a/djaodjin-pages-0.7.1.tar.gz
+[2024-04-12 04:52:50] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/4f/20/18ca8f4fdf1042e2a6f62625da7822eea401a90019e36e7b0d66b5b83d99/xinference-0.9.3.tar.gz
+[2024-04-12 04:52:50] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/6d/b8/345520866b2a4eb03a3d6c561cf46ac494e6acf0df5c25ed27d73a37d6c4/xinference-client-0.9.3.tar.gz
+[2024-04-12 04:52:50] INFO root fetch - processPackages [djaodjin-pages]: Downloading https://files.pythonhosted.org/packages/12/94/14e83fcd7e51461838c38c9b4e2d54d8b42b494566f09df78fc70e0d516f/djaodjin-pages-0.8.0.tar.gz
+[2024-04-12 04:52:50] WARNING root fetch - processPackages [xinference]: Skipping package: exceeds size limit 12053117>=10485760
+[2024-04-12 04:52:50] INFO root fetch - main [MainThread]: End processing [xinference] error
+[2024-04-12 04:52:50] INFO root fetch - processPackages [djaodjin-pages]: executing diffoscope
+[2024-04-12 04:52:50] INFO root fetch - processPackages [djaodjin-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-pages-0.7.1.tar.gz tmp/djaodjin-pages-0.8.0.tar.gz --markdown 20240412/d/djaodjin-pages/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-04-12 04:52:50] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/d9/51/a0c540e0cc12db8debdfbcd787c091fe47401f5b510b3dced4113987d99c/xinference-client-0.9.4.tar.gz
+[2024-04-12 04:52:50] INFO root fetch - processPackages [xinference-client]: executing diffoscope
+[2024-04-12 04:52:50] INFO root fetch - processPackages [xinference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinference-client-0.9.3.tar.gz tmp/xinference-client-0.9.4.tar.gz --markdown 20240412/x/xinference-client/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-12 04:52:51] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.3.tar.gz]
+[2024-04-12 04:52:51] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.4.tar.gz]
+[2024-04-12 04:52:51] INFO root fetch - main [MainThread]: End processing [xinference-client]: success
+[2024-04-12 04:52:51] INFO root fetch - processPackages [djaodjin-pages]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-pages-0.7.1.tar.gz]
+[2024-04-12 04:52:51] INFO root fetch - processPackages [djaodjin-pages]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-pages-0.8.0.tar.gz]
+[2024-04-12 04:52:51] INFO root fetch - main [MainThread]: End processing [djaodjin-pages]: success
+[2024-04-12 04:52:51] INFO root fetch - main [MainThread]: Store serial: [22731998]
