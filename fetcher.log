@@ -12905,3 +12905,33 @@
 [2024-04-12 05:36:06] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
 [2024-04-12 05:36:06] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2024-04-12 05:36:06] INFO root fetch - main [MainThread]: Store serial: [22732350]
+[2024-04-12 05:38:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732350]
+[2024-04-12 05:38:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 05:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volstreet
+[2024-04-12 05:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2docfx
+[2024-04-12 05:38:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tyjuliacall
+[2024-04-12 05:38:15] INFO root fetch - processPackages [py2docfx]: New version: [0.1.4rc1690176] Old Version: [0.1.4.dev1689521]
+[2024-04-12 05:38:16] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/bc/6d/9a3d674673b6bbf99ec83ab345a864d70bf0961e362280e74b3c5f08a560/py2docfx-0.1.4.dev1689521-py3-none-any.whl
+[2024-04-12 05:38:16] INFO root fetch - processPackages [tyjuliacall]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-12 05:38:16] INFO root fetch - processPackages [volstreet]: New version: [7.1.3] Old Version: [7.1.2]
+[2024-04-12 05:38:16] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/8a/89/92fad384f2155a5bd7d53e077137cbde350759805d3d8ffca87f25c05e42/py2docfx-0.1.4rc1690176-py3-none-any.whl
+[2024-04-12 05:38:16] INFO root fetch - processPackages [tyjuliacall]: Downloading https://files.pythonhosted.org/packages/53/e0/7727a0e0948415fd02e5644f7f894dcd6127230fd2e4d03cb8d6d868e7db/tyjuliacall-0.7.2.tar.gz
+[2024-04-12 05:38:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/c8/92/28332c3859b077978ce42abfc0b97714a84521ffe9a8d3c3cd41cf0d878c/volstreet-7.1.2.tar.gz
+[2024-04-12 05:38:16] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-12 05:38:16] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4.dev1689521-py3-none-any.whl.zip tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip --markdown 20240412/p/py2docfx/0.1.4.dev1689521-0.1.4rc1690176/README.md --exclude *.pyd
+[2024-04-12 05:38:16] INFO root fetch - processPackages [tyjuliacall]: Downloading https://files.pythonhosted.org/packages/d3/4d/2d76b50b5f0304dde39de03ef46baf7c85787986a3185161fd3afca4dd69/tyjuliacall-0.7.3.tar.gz
+[2024-04-12 05:38:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/e3/10/df598bb0734237f82dd317e4284936bc543bb2d0a7e6d7822c2523d40b3e/volstreet-7.1.3.tar.gz
+[2024-04-12 05:38:16] INFO root fetch - processPackages [tyjuliacall]: executing diffoscope
+[2024-04-12 05:38:16] INFO root fetch - processPackages [tyjuliacall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyjuliacall-0.7.2.tar.gz tmp/tyjuliacall-0.7.3.tar.gz --markdown 20240412/t/tyjuliacall/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-12 05:38:16] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-12 05:38:16] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-7.1.2.tar.gz tmp/volstreet-7.1.3.tar.gz --markdown 20240412/v/volstreet/7.1.2-7.1.3/README.md --exclude *.pyd
+[2024-04-12 05:38:17] INFO root fetch - processPackages [tyjuliacall]: Remove: archive file [/home/abi/fetcher/tmp/tyjuliacall-0.7.2.tar.gz]
+[2024-04-12 05:38:17] INFO root fetch - processPackages [tyjuliacall]: Remove: archive file [/home/abi/fetcher/tmp/tyjuliacall-0.7.3.tar.gz]
+[2024-04-12 05:38:17] INFO root fetch - main [MainThread]: End processing [tyjuliacall]: success
+[2024-04-12 05:38:17] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4.dev1689521-py3-none-any.whl.zip]
+[2024-04-12 05:38:17] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip]
+[2024-04-12 05:38:17] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-12 05:38:17] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.2.tar.gz]
+[2024-04-12 05:38:17] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.3.tar.gz]
+[2024-04-12 05:38:17] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-12 05:38:17] INFO root fetch - main [MainThread]: Store serial: [22732359]
