@@ -13422,3 +13422,24 @@
 [2024-04-12 06:13:39] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
 [2024-04-12 06:13:39] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
 [2024-04-12 06:13:39] INFO root fetch - main [MainThread]: Store serial: [22732567]
+[2024-04-12 06:15:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732567]
+[2024-04-12 06:15:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 06:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-04-12 06:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake-connector-python-nightly
+[2024-04-12 06:15:49] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-12 06:15:49] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2024.4.9] Old Version: [2024.4.4]
+[2024-04-12 06:15:49] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-12 06:15:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/12/c3/4f218d7aee744ff4a81b162500c54788da9c3b3370b16f12d83c186af581/snowflake-connector-python-nightly-2024.4.4.tar.gz
+[2024-04-12 06:15:50] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-12 06:15:50] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-12 06:15:50] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240412/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-12 06:15:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/2b/1f/ba851f8a5f400cf41366dc7216d298165e7c4fe21d731943caebce0a7907/snowflake-connector-python-nightly-2024.4.9.tar.gz
+[2024-04-12 06:15:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2024-04-12 06:15:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz --markdown 20240412/s/snowflake-connector-python-nightly/2024.4.4-2024.4.9/README.md --exclude *.pyd
+[2024-04-12 06:15:50] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-12 06:15:50] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-12 06:15:50] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-12 06:15:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz]
+[2024-04-12 06:15:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz]
+[2024-04-12 06:15:51] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2024-04-12 06:15:51] INFO root fetch - main [MainThread]: Store serial: [22732596]
