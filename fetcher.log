@@ -13288,3 +13288,39 @@
 [2024-04-12 06:00:38] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog-workflow-local-0.0.94.tar.gz]
 [2024-04-12 06:00:38] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
 [2024-04-12 06:00:38] INFO root fetch - main [MainThread]: Store serial: [22732497]
+[2024-04-12 06:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732497]
+[2024-04-12 06:02:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 06:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvremap
+[2024-04-12 06:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-service-contract-tnc
+[2024-04-12 06:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chikbip158
+[2024-04-12 06:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kwe
+[2024-04-12 06:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py2docfx
+[2024-04-12 06:02:48] INFO root fetch - processPackages [kwe]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-12 06:02:48] INFO root fetch - processPackages [py2docfx]: New version: [0.1.4rc1690176] Old Version: [0.1.4.dev1691218]
+[2024-04-12 06:02:48] INFO root fetch - processPackages [kwe]: Downloading https://files.pythonhosted.org/packages/4e/df/9416c6caf4cca71075e05fe83416096032f53ce05e0fac76f7f380959629/kwe-0.1.2.tar.gz
+[2024-04-12 06:02:48] WARNING root fetch - processPackages [odoo14-addon-ssi-service-contract-tnc]: Skipping, unable to determine old version
+[2024-04-12 06:02:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-service-contract-tnc] error
+[2024-04-12 06:02:48] WARNING root fetch - processPackages [nvremap]: Skipping, unable to determine old version
+[2024-04-12 06:02:48] INFO root fetch - main [MainThread]: End processing [nvremap] error
+[2024-04-12 06:02:48] INFO root fetch - processPackages [chikbip158]: New version: [1.4] Old Version: [1.3]
+[2024-04-12 06:02:48] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/f5/fb/c7d0bfcf0792d77cc0c5bcc76e588199a2a66914299fa8d1fe204f58330b/py2docfx-0.1.4.dev1691218-py3-none-any.whl
+[2024-04-12 06:02:49] INFO root fetch - processPackages [chikbip158]: Downloading https://files.pythonhosted.org/packages/de/6d/a6a26a668614349c7e56a4c2f1e3248c8f26d6ba4fe08cf148aee5dce30a/chikbip158-1.3.tar.gz
+[2024-04-12 06:02:49] INFO root fetch - processPackages [kwe]: Downloading https://files.pythonhosted.org/packages/1d/a2/bd48953639398254454529f65b4e02e8ef3182b46993597213b90f848e86/kwe-0.1.4.tar.gz
+[2024-04-12 06:02:49] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/8a/89/92fad384f2155a5bd7d53e077137cbde350759805d3d8ffca87f25c05e42/py2docfx-0.1.4rc1690176-py3-none-any.whl
+[2024-04-12 06:02:49] INFO root fetch - processPackages [kwe]: executing diffoscope
+[2024-04-12 06:02:49] INFO root fetch - processPackages [kwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwe-0.1.2.tar.gz tmp/kwe-0.1.4.tar.gz --markdown 20240412/k/kwe/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-12 06:02:49] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-12 06:02:49] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4.dev1691218-py3-none-any.whl.zip tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip --markdown 20240412/p/py2docfx/0.1.4.dev1691218-0.1.4rc1690176/README.md --exclude *.pyd
+[2024-04-12 06:02:49] INFO root fetch - processPackages [chikbip158]: Downloading https://files.pythonhosted.org/packages/95/c5/1bb015c14ca65195b3ac183104fadc94b1eb7f8eb47fa63c99228cf08018/chikbip158-1.4.tar.gz
+[2024-04-12 06:02:49] INFO root fetch - processPackages [chikbip158]: executing diffoscope
+[2024-04-12 06:02:49] INFO root fetch - processPackages [chikbip158]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chikbip158-1.3.tar.gz tmp/chikbip158-1.4.tar.gz --markdown 20240412/c/chikbip158/1.3-1.4/README.md --exclude *.pyd
+[2024-04-12 06:02:49] INFO root fetch - processPackages [kwe]: Remove: archive file [/home/abi/fetcher/tmp/kwe-0.1.2.tar.gz]
+[2024-04-12 06:02:49] INFO root fetch - processPackages [kwe]: Remove: archive file [/home/abi/fetcher/tmp/kwe-0.1.4.tar.gz]
+[2024-04-12 06:02:49] INFO root fetch - main [MainThread]: End processing [kwe]: success
+[2024-04-12 06:02:50] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4.dev1691218-py3-none-any.whl.zip]
+[2024-04-12 06:02:50] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip]
+[2024-04-12 06:02:50] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-12 06:02:50] INFO root fetch - processPackages [chikbip158]: Remove: archive file [/home/abi/fetcher/tmp/chikbip158-1.3.tar.gz]
+[2024-04-12 06:02:50] INFO root fetch - processPackages [chikbip158]: Remove: archive file [/home/abi/fetcher/tmp/chikbip158-1.4.tar.gz]
+[2024-04-12 06:02:50] INFO root fetch - main [MainThread]: End processing [chikbip158]: success
+[2024-04-12 06:02:50] INFO root fetch - main [MainThread]: Store serial: [22732536]
