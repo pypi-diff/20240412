@@ -13401,3 +13401,24 @@
 [2024-04-12 06:11:29] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
 [2024-04-12 06:11:29] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
 [2024-04-12 06:11:29] INFO root fetch - main [MainThread]: Store serial: [22732561]
+[2024-04-12 06:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732561]
+[2024-04-12 06:13:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 06:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: patent-chart
+[2024-04-12 06:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-uwg
+[2024-04-12 06:13:38] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-12 06:13:38] INFO root fetch - processPackages [patent-chart]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-12 06:13:38] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-04-12 06:13:38] INFO root fetch - processPackages [patent-chart]: Downloading https://files.pythonhosted.org/packages/cb/4c/dbca22f8d51ab689c532d796296eb42e09719beff7b9501802fac9ccdad7/patent_chart-0.2.8.tar.gz
+[2024-04-12 06:13:38] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-04-12 06:13:38] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-04-12 06:13:38] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240412/d/dragonfly-uwg/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-12 06:13:38] INFO root fetch - processPackages [patent-chart]: Downloading https://files.pythonhosted.org/packages/d6/94/1ad35cc0d3efd15798a556f84c644a44bdb6c5ce1f1a24a8cf0c9104728b/patent_chart-0.2.9.tar.gz
+[2024-04-12 06:13:39] INFO root fetch - processPackages [patent-chart]: executing diffoscope
+[2024-04-12 06:13:39] INFO root fetch - processPackages [patent-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patent_chart-0.2.8.tar.gz tmp/patent_chart-0.2.9.tar.gz --markdown 20240412/p/patent-chart/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-12 06:13:39] INFO root fetch - processPackages [patent-chart]: Remove: archive file [/home/abi/fetcher/tmp/patent_chart-0.2.8.tar.gz]
+[2024-04-12 06:13:39] INFO root fetch - processPackages [patent-chart]: Remove: archive file [/home/abi/fetcher/tmp/patent_chart-0.2.9.tar.gz]
+[2024-04-12 06:13:39] INFO root fetch - main [MainThread]: End processing [patent-chart]: success
+[2024-04-12 06:13:39] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-04-12 06:13:39] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-04-12 06:13:39] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-04-12 06:13:39] INFO root fetch - main [MainThread]: Store serial: [22732567]
