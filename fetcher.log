@@ -2986,3 +2986,69 @@
 [2024-04-12 02:29:09] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.21.5.tar.gz]
 [2024-04-12 02:29:09] INFO root fetch - main [MainThread]: End processing [Unified-python-sdk]: success
 [2024-04-12 02:29:09] INFO root fetch - main [MainThread]: Store serial: [22728622]
+[2024-04-12 02:31:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728622]
+[2024-04-12 02:31:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-12 02:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monai-deploy-app-sdk
+[2024-04-12 02:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Simba-UW-tf-dev
+[2024-04-12 02:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djaodjin-survey
+[2024-04-12 02:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: walkmate
+[2024-04-12 02:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-predpurchase
+[2024-04-12 02:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aeppl-nightly
+[2024-04-12 02:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cuspatial-cu12
+[2024-04-12 02:31:18] INFO root fetch - processPackages [walkmate]: New version: [1.3.1] Old Version: [1.2.2]
+[2024-04-12 02:31:18] INFO root fetch - processPackages [py-predpurchase]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 02:31:18] INFO root fetch - processPackages [monai-deploy-app-sdk]: New version: [1.0.0] Old Version: [0.6.0]
+[2024-04-12 02:31:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.89.6] Old Version: [1.89.5]
+[2024-04-12 02:31:18] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240411] Old Version: [0.1.5.dev20240410]
+[2024-04-12 02:31:18] INFO root fetch - processPackages [djaodjin-survey]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-12 02:31:18] INFO root fetch - processPackages [cuspatial-cu12]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-12 02:31:18] INFO root fetch - processPackages [monai-deploy-app-sdk]: Downloading https://files.pythonhosted.org/packages/67/df/414c50600c56de434df8a794fadecddad42fcad46f1d6b162c795d54a376/monai_deploy_app_sdk-0.6.0-py3-none-any.whl
+[2024-04-12 02:31:18] INFO root fetch - processPackages [walkmate]: Downloading https://files.pythonhosted.org/packages/53/01/d6a27113abda2e7985e83a3076aeee80c7394e5c376448e758ad20cb4720/walkmate-1.2.2.tar.gz
+[2024-04-12 02:31:18] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/6a/85/d7365b6b9b116a42330b7302a2ab8f0ad45b9ffe00fcfea7ebf67ce4d611/aeppl-nightly-0.1.5.dev20240410.tar.gz
+[2024-04-12 02:31:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/5d/6a/203460979618e11f287bd3635ad18bb6e5d8862e112820eb8883a5ca01d4/Simba-UW-tf-dev-1.89.5.tar.gz
+[2024-04-12 02:31:18] INFO root fetch - processPackages [py-predpurchase]: Downloading https://files.pythonhosted.org/packages/96/ab/14db00a1d735a0742200dc31ec3de46f0b56801943c7b311ca4614121b0c/py_predpurchase-0.1.0.tar.gz
+[2024-04-12 02:31:18] INFO root fetch - processPackages [djaodjin-survey]: Downloading https://files.pythonhosted.org/packages/74/c0/6d7c304505d4d005e6e4c000ea7973514d2f0c7b9879def464aef29a4840/djaodjin-survey-0.9.8.tar.gz
+[2024-04-12 02:31:18] INFO root fetch - processPackages [cuspatial-cu12]: Downloading https://files.pythonhosted.org/packages/b6/81/6030854888dd0f90883ec2a636586a56d3e4aa0e48e8c7eb56afca3864fd/cuspatial-cu12-24.2.0.tar.gz
+[2024-04-12 02:31:18] INFO root fetch - processPackages [monai-deploy-app-sdk]: Downloading https://files.pythonhosted.org/packages/45/66/7aaeb1fa6b2a925d2a05715dce24394a12849e22ea8c6f31acb0581fddef/monai_deploy_app_sdk-1.0.0-py3-none-any.whl
+[2024-04-12 02:31:18] INFO root fetch - processPackages [walkmate]: Downloading https://files.pythonhosted.org/packages/c4/d3/0a38ff729962ebedd9d49e53a212b6a487eab22a7cab5bd7268376860a67/walkmate-1.3.1.tar.gz
+[2024-04-12 02:31:18] INFO root fetch - processPackages [py-predpurchase]: Downloading https://files.pythonhosted.org/packages/69/48/2c2a0b2faba596a2e1fbcfcedb0680e586d52ae0ade532735ca898c136f9/py_predpurchase-0.1.1.tar.gz
+[2024-04-12 02:31:18] INFO root fetch - processPackages [walkmate]: executing diffoscope
+[2024-04-12 02:31:18] INFO root fetch - processPackages [walkmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/walkmate-1.2.2.tar.gz tmp/walkmate-1.3.1.tar.gz --markdown 20240412/w/walkmate/1.2.2-1.3.1/README.md --exclude *.pyd
+[2024-04-12 02:31:18] INFO root fetch - processPackages [monai-deploy-app-sdk]: executing diffoscope
+[2024-04-12 02:31:18] INFO root fetch - processPackages [monai-deploy-app-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai_deploy_app_sdk-0.6.0-py3-none-any.whl.zip tmp/monai_deploy_app_sdk-1.0.0-py3-none-any.whl.zip --markdown 20240412/m/monai-deploy-app-sdk/0.6.0-1.0.0/README.md --exclude *.pyd
+[2024-04-12 02:31:18] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/b3/e2/0eb72f8c02eacb38f4b08eb2c1f540e82ffec9dbdec792be152bea62b429/aeppl-nightly-0.1.5.dev20240411.tar.gz
+[2024-04-12 02:31:19] INFO root fetch - processPackages [djaodjin-survey]: Downloading https://files.pythonhosted.org/packages/35/04/3d9343f815684c4ad06a31f3efccc997ad2743b6ca18fafae4c6c4a1b338/djaodjin-survey-0.9.9.tar.gz
+[2024-04-12 02:31:19] INFO root fetch - processPackages [cuspatial-cu12]: Downloading https://files.pythonhosted.org/packages/38/7a/be17e18688d4234d76e7158fdf78feaf66ec02657c2d54b4029a26e57b66/cuspatial_cu12-24.4.0.tar.gz
+[2024-04-12 02:31:19] INFO root fetch - processPackages [py-predpurchase]: executing diffoscope
+[2024-04-12 02:31:19] INFO root fetch - processPackages [py-predpurchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_predpurchase-0.1.0.tar.gz tmp/py_predpurchase-0.1.1.tar.gz --markdown 20240412/p/py-predpurchase/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 02:31:19] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-12 02:31:19] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240410.tar.gz tmp/aeppl-nightly-0.1.5.dev20240411.tar.gz --markdown 20240412/a/aeppl-nightly/0.1.5.dev20240410-0.1.5.dev20240411/README.md --exclude *.pyd
+[2024-04-12 02:31:19] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/c4/6d/ab4642cda51ee4dda2e2ecbf6708f5cc6e29ea0a498379d57ac63c011fdb/Simba-UW-tf-dev-1.89.6.tar.gz
+[2024-04-12 02:31:19] INFO root fetch - processPackages [djaodjin-survey]: executing diffoscope
+[2024-04-12 02:31:19] INFO root fetch - processPackages [djaodjin-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-survey-0.9.8.tar.gz tmp/djaodjin-survey-0.9.9.tar.gz --markdown 20240412/d/djaodjin-survey/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-12 02:31:19] INFO root fetch - processPackages [walkmate]: Remove: archive file [/home/abi/fetcher/tmp/walkmate-1.2.2.tar.gz]
+[2024-04-12 02:31:19] INFO root fetch - processPackages [walkmate]: Remove: archive file [/home/abi/fetcher/tmp/walkmate-1.3.1.tar.gz]
+[2024-04-12 02:31:19] INFO root fetch - main [MainThread]: End processing [walkmate]: success
+[2024-04-12 02:31:19] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-04-12 02:31:19] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.89.5.tar.gz tmp/Simba-UW-tf-dev-1.89.6.tar.gz --markdown 20240412/S/Simba-UW-tf-dev/1.89.5-1.89.6/README.md --exclude *.pyd
+[2024-04-12 02:31:19] INFO root fetch - processPackages [py-predpurchase]: Remove: archive file [/home/abi/fetcher/tmp/py_predpurchase-0.1.0.tar.gz]
+[2024-04-12 02:31:19] INFO root fetch - processPackages [py-predpurchase]: Remove: archive file [/home/abi/fetcher/tmp/py_predpurchase-0.1.1.tar.gz]
+[2024-04-12 02:31:19] INFO root fetch - main [MainThread]: End processing [py-predpurchase]: success
+[2024-04-12 02:31:19] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-0.6.0-py3-none-any.whl.zip]
+[2024-04-12 02:31:19] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-1.0.0-py3-none-any.whl.zip]
+[2024-04-12 02:31:19] INFO root fetch - main [MainThread]: End processing [monai-deploy-app-sdk]: success
+[2024-04-12 02:31:19] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240410.tar.gz]
+[2024-04-12 02:31:19] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240411.tar.gz]
+[2024-04-12 02:31:19] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-12 02:31:20] INFO root fetch - processPackages [djaodjin-survey]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-survey-0.9.8.tar.gz]
+[2024-04-12 02:31:20] INFO root fetch - processPackages [djaodjin-survey]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-survey-0.9.9.tar.gz]
+[2024-04-12 02:31:20] INFO root fetch - main [MainThread]: End processing [djaodjin-survey]: success
+[2024-04-12 02:31:22] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.5.tar.gz]
+[2024-04-12 02:31:22] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.6.tar.gz]
+[2024-04-12 02:31:22] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-04-12 02:31:22] INFO root fetch - processPackages [cuspatial-cu12]: executing diffoscope
+[2024-04-12 02:31:22] INFO root fetch - processPackages [cuspatial-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuspatial-cu12-24.2.0.tar.gz tmp/cuspatial_cu12-24.4.0.tar.gz --markdown 20240412/c/cuspatial-cu12/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-12 02:31:23] INFO root fetch - processPackages [cuspatial-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuspatial-cu12-24.2.0.tar.gz]
+[2024-04-12 02:31:23] INFO root fetch - processPackages [cuspatial-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cuspatial_cu12-24.4.0.tar.gz]
+[2024-04-12 02:31:23] INFO root fetch - main [MainThread]: End processing [cuspatial-cu12]: success
+[2024-04-12 02:31:23] INFO root fetch - main [MainThread]: Store serial: [22728641]
