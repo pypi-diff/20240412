@@ -14014,3 +14014,44 @@
 [2024-04-12 06:55:06] INFO root fetch - processPackages [neuanwi02]: Remove: archive file [/home/abi/fetcher/tmp/neuanwi02-0.0.3-py3-none-any.whl.zip]
 [2024-04-12 06:55:06] INFO root fetch - main [MainThread]: End processing [neuanwi02]: success
 [2024-04-12 06:55:06] INFO root fetch - main [MainThread]: Store serial: [22732817]
+[2024-04-12 06:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732817]
+[2024-04-12 06:57:15] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-12 06:59:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732818]
+[2024-04-12 06:59:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs.py.doc
+[2024-04-12 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rdf-doctor
+[2024-04-12 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarms
+[2024-04-12 06:59:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getgauge
+[2024-04-12 06:59:21] INFO root fetch - processPackages [swarms]: New version: [4.8.0] Old Version: [4.7.9]
+[2024-04-12 06:59:21] INFO root fetch - processPackages [rdf-doctor]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2024-04-12 06:59:21] INFO root fetch - processPackages [cs.py.doc]: New version: [20240412] Old Version: [20220311]
+[2024-04-12 06:59:21] INFO root fetch - processPackages [getgauge]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-12 06:59:21] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/91/f2/3142a0c287a4223a611677dc12543cb69104df260967c04a7128c7abd7eb/swarms-4.7.9.tar.gz
+[2024-04-12 06:59:22] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/2c/06/a256a006b8b5f5a54cc07acc19d6bdcb860e09e88dbfe07fb05d18b55fe6/rdf_doctor-1.1.0rc1-py3-none-any.whl
+[2024-04-12 06:59:22] INFO root fetch - processPackages [cs.py.doc]: Downloading https://files.pythonhosted.org/packages/c8/b1/1fbca4e104ea171c32771d0462e71349ad508871c3c0f2010b43d2c2e9fc/cs.py.doc-20220311.tar.gz
+[2024-04-12 06:59:22] INFO root fetch - processPackages [getgauge]: Downloading https://files.pythonhosted.org/packages/78/f5/e7aabfdb02bf8813374b60441c0369522adb79de5145cbdc1017cb9fd357/getgauge-0.4.2.tar.gz
+[2024-04-12 06:59:22] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/c1/60/cea10705aaf352f62abbe586c3aad861066dab35116b1a7aeec6f48bf068/swarms-4.8.0.tar.gz
+[2024-04-12 06:59:22] INFO root fetch - processPackages [getgauge]: Downloading https://files.pythonhosted.org/packages/b8/d8/b32b1b0a6cf172b1432e1bf5d32d883d62e8dc98df68af792523a7284fda/getgauge-0.4.3.tar.gz
+[2024-04-12 06:59:22] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/b4/ec/fabe8c8c89c90a76b80b244f89fd38d5f40cdab1783dd026a48a652340f9/rdf_doctor-1.1.0rc2-py3-none-any.whl
+[2024-04-12 06:59:22] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-04-12 06:59:22] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.7.9.tar.gz tmp/swarms-4.8.0.tar.gz --markdown 20240412/s/swarms/4.7.9-4.8.0/README.md --exclude *.pyd
+[2024-04-12 06:59:22] INFO root fetch - processPackages [cs.py.doc]: Downloading https://files.pythonhosted.org/packages/a0/fd/27f1e81343ad475111d7570d4bcf2decd3f8818a8779e3ad4d5474deb6a5/cs.py.doc-20240412.tar.gz
+[2024-04-12 06:59:22] INFO root fetch - processPackages [getgauge]: executing diffoscope
+[2024-04-12 06:59:22] INFO root fetch - processPackages [getgauge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getgauge-0.4.2.tar.gz tmp/getgauge-0.4.3.tar.gz --markdown 20240412/g/getgauge/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-12 06:59:22] INFO root fetch - processPackages [cs.py.doc]: executing diffoscope
+[2024-04-12 06:59:22] INFO root fetch - processPackages [cs.py.doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.py.doc-20220311.tar.gz tmp/cs.py.doc-20240412.tar.gz --markdown 20240412/c/cs.py.doc/20220311-20240412/README.md --exclude *.pyd
+[2024-04-12 06:59:22] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2024-04-12 06:59:22] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-1.1.0rc1-py3-none-any.whl.zip tmp/rdf_doctor-1.1.0rc2-py3-none-any.whl.zip --markdown 20240412/r/rdf-doctor/1.1.0rc1-1.1.0rc2/README.md --exclude *.pyd
+[2024-04-12 06:59:23] INFO root fetch - processPackages [getgauge]: Remove: archive file [/home/abi/fetcher/tmp/getgauge-0.4.2.tar.gz]
+[2024-04-12 06:59:23] INFO root fetch - processPackages [getgauge]: Remove: archive file [/home/abi/fetcher/tmp/getgauge-0.4.3.tar.gz]
+[2024-04-12 06:59:23] INFO root fetch - main [MainThread]: End processing [getgauge]: success
+[2024-04-12 06:59:23] INFO root fetch - processPackages [cs.py.doc]: Remove: archive file [/home/abi/fetcher/tmp/cs.py.doc-20220311.tar.gz]
+[2024-04-12 06:59:23] INFO root fetch - processPackages [cs.py.doc]: Remove: archive file [/home/abi/fetcher/tmp/cs.py.doc-20240412.tar.gz]
+[2024-04-12 06:59:23] INFO root fetch - main [MainThread]: End processing [cs.py.doc]: success
+[2024-04-12 06:59:23] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.0rc1-py3-none-any.whl.zip]
+[2024-04-12 06:59:23] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.0rc2-py3-none-any.whl.zip]
+[2024-04-12 06:59:23] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2024-04-12 06:59:23] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.9.tar.gz]
+[2024-04-12 06:59:23] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.8.0.tar.gz]
+[2024-04-12 06:59:23] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-04-12 06:59:23] INFO root fetch - main [MainThread]: Store serial: [22732828]
