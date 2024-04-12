@@ -11447,3 +11447,24 @@
 [2024-04-12 04:02:50] INFO root fetch - processPackages [drawpyo]: Remove: archive file [/home/abi/fetcher/tmp/drawpyo-0.1.2.tar.gz]
 [2024-04-12 04:02:50] INFO root fetch - main [MainThread]: End processing [drawpyo]: success
 [2024-04-12 04:02:50] INFO root fetch - main [MainThread]: Store serial: [22731638]
+[2024-04-12 04:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731638]
+[2024-04-12 04:04:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 04:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firecrawl-py
+[2024-04-12 04:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jemma
+[2024-04-12 04:04:59] INFO root fetch - processPackages [jemma]: New version: [0.1.423] Old Version: [0.1.422]
+[2024-04-12 04:04:59] INFO root fetch - processPackages [firecrawl-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 04:04:59] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/27/bd/57035277eed0d6b9fadc7ef998c055da7d1a46ee73c18c72008561ea2bb8/firecrawl-py-0.0.3.tar.gz
+[2024-04-12 04:04:59] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/63/6b/a863031d8cf2af2bd9d83e3bd45b62d23a37f487e591861cbdb407f6b975/jemma-0.1.422.tar.gz
+[2024-04-12 04:05:00] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/a7/67/fad5ee99cee7c8a2be8ed799451a79018313f3c750e845631620d851c6d0/jemma-0.1.423.tar.gz
+[2024-04-12 04:05:00] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/d2/3b/4aad2a81d13ad1e3360e4b11b7c389fe7901eb38af187a16c5c887a66ce3/firecrawl-py-0.0.4.tar.gz
+[2024-04-12 04:05:00] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-04-12 04:05:00] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.422.tar.gz tmp/jemma-0.1.423.tar.gz --markdown 20240412/j/jemma/0.1.422-0.1.423/README.md --exclude *.pyd
+[2024-04-12 04:05:00] INFO root fetch - processPackages [firecrawl-py]: executing diffoscope
+[2024-04-12 04:05:00] INFO root fetch - processPackages [firecrawl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firecrawl-py-0.0.3.tar.gz tmp/firecrawl-py-0.0.4.tar.gz --markdown 20240412/f/firecrawl-py/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 04:05:00] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.3.tar.gz]
+[2024-04-12 04:05:00] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.4.tar.gz]
+[2024-04-12 04:05:00] INFO root fetch - main [MainThread]: End processing [firecrawl-py]: success
+[2024-04-12 04:05:00] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.422.tar.gz]
+[2024-04-12 04:05:00] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.423.tar.gz]
+[2024-04-12 04:05:00] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-04-12 04:05:00] INFO root fetch - main [MainThread]: Store serial: [22731644]
