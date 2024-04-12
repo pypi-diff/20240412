@@ -14579,3 +14579,42 @@
 [2024-04-12 07:32:18] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-1.1.3.tar.gz]
 [2024-04-12 07:32:18] INFO root fetch - main [MainThread]: End processing [sphractal]: success
 [2024-04-12 07:32:18] INFO root fetch - main [MainThread]: Store serial: [22733055]
+[2024-04-12 07:34:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733055]
+[2024-04-12 07:34:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-12 07:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: memodules
+[2024-04-12 07:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buckshot-roulette
+[2024-04-12 07:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clustutils4r
+[2024-04-12 07:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unstract-sdk
+[2024-04-12 07:34:27] INFO root fetch - processPackages [memodules]: New version: [5.9.1] Old Version: [5.9.0]
+[2024-04-12 07:34:27] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/29/e6/0fbad7a0e8110c2a2be7fac5f08d1b38ec7f4d948605a9a34f2eb2db72a2/memodules-5.9.0.tar.gz
+[2024-04-12 07:34:27] INFO root fetch - processPackages [clustutils4r]: New version: [1.0.0] Old Version: [0.0.8]
+[2024-04-12 07:34:27] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.19.0]
+[2024-04-12 07:34:27] INFO root fetch - processPackages [buckshot-roulette]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-04-12 07:34:27] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/7a/0f/eb56423b75579c0e02dd3b609c2708cc0ba74031006335d26eca2fea3667/clustutils4r-0.0.8.tar.gz
+[2024-04-12 07:34:27] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/7e/3c/f4b7fb199164f016a6d692333b40d5cba36e22b90ab7e3bbd2d838ea514e/unstract_sdk-0.19.0.tar.gz
+[2024-04-12 07:34:27] INFO root fetch - processPackages [buckshot-roulette]: Downloading https://files.pythonhosted.org/packages/87/c2/0c3609c0c20f55c9a0c4a5046b49908e67b71870e5da7f8fa4db47c729cc/buckshot-roulette-0.0.5.tar.gz
+[2024-04-12 07:34:27] INFO root fetch - processPackages [buckshot-roulette]: Downloading https://files.pythonhosted.org/packages/b8/03/1aca8e5b560ffd5b00ca5ad6c5748c72201c97c3e9d76baa6223c22e13e0/buckshot-roulette-0.1.0.tar.gz
+[2024-04-12 07:34:27] INFO root fetch - processPackages [memodules]: Downloading https://files.pythonhosted.org/packages/e0/20/20a7f4a55290879aed1d431cc614f59d403ef9b245063537eb26c050517c/memodules-5.9.1.tar.gz
+[2024-04-12 07:34:27] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-04-12 07:34:27] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/2e/3a/bb963a3b66ed782a993c7b97c2c6f9d44cfc93db123f809e158059e39948/clustutils4r-1.0.0.tar.gz
+[2024-04-12 07:34:27] INFO root fetch - processPackages [memodules]: executing diffoscope
+[2024-04-12 07:34:27] INFO root fetch - processPackages [memodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memodules-5.9.0.tar.gz tmp/memodules-5.9.1.tar.gz --markdown 20240412/m/memodules/5.9.0-5.9.1/README.md --exclude *.pyd
+[2024-04-12 07:34:27] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-04-12 07:34:27] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.19.0.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240412/u/unstract-sdk/0.19.0-0.9.0/README.md --exclude *.pyd
+[2024-04-12 07:34:27] INFO root fetch - processPackages [buckshot-roulette]: executing diffoscope
+[2024-04-12 07:34:27] INFO root fetch - processPackages [buckshot-roulette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckshot-roulette-0.0.5.tar.gz tmp/buckshot-roulette-0.1.0.tar.gz --markdown 20240412/b/buckshot-roulette/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-04-12 07:34:27] INFO root fetch - processPackages [clustutils4r]: executing diffoscope
+[2024-04-12 07:34:27] INFO root fetch - processPackages [clustutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustutils4r-0.0.8.tar.gz tmp/clustutils4r-1.0.0.tar.gz --markdown 20240412/c/clustutils4r/0.0.8-1.0.0/README.md --exclude *.pyd
+[2024-04-12 07:34:28] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.9.0.tar.gz]
+[2024-04-12 07:34:28] INFO root fetch - processPackages [memodules]: Remove: archive file [/home/abi/fetcher/tmp/memodules-5.9.1.tar.gz]
+[2024-04-12 07:34:28] INFO root fetch - main [MainThread]: End processing [memodules]: success
+[2024-04-12 07:34:28] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-0.0.8.tar.gz]
+[2024-04-12 07:34:28] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-1.0.0.tar.gz]
+[2024-04-12 07:34:28] INFO root fetch - main [MainThread]: End processing [clustutils4r]: success
+[2024-04-12 07:34:28] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.19.0.tar.gz]
+[2024-04-12 07:34:28] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-04-12 07:34:28] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-04-12 07:34:28] INFO root fetch - processPackages [buckshot-roulette]: Remove: archive file [/home/abi/fetcher/tmp/buckshot-roulette-0.0.5.tar.gz]
+[2024-04-12 07:34:28] INFO root fetch - processPackages [buckshot-roulette]: Remove: archive file [/home/abi/fetcher/tmp/buckshot-roulette-0.1.0.tar.gz]
+[2024-04-12 07:34:28] INFO root fetch - main [MainThread]: End processing [buckshot-roulette]: success
+[2024-04-12 07:34:28] INFO root fetch - main [MainThread]: Store serial: [22733069]
