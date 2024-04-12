@@ -12956,3 +12956,33 @@
 [2024-04-12 05:40:28] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-04-12 05:40:28] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-04-12 05:40:28] INFO root fetch - main [MainThread]: Store serial: [22732365]
+[2024-04-12 05:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22732365]
+[2024-04-12 05:42:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vulcan-logger
+[2024-04-12 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marcgrep
+[2024-04-12 05:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: b2sim
+[2024-04-12 05:42:37] INFO root fetch - processPackages [vulcan-logger]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-12 05:42:37] INFO root fetch - processPackages [b2sim]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-12 05:42:37] INFO root fetch - processPackages [marcgrep]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-12 05:42:37] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/1e/41/06ca0f4ddfd4f1548711fd0725e8dafb86300cfff8b7611bcda7ba8b8d70/b2sim-2.1.2.tar.gz
+[2024-04-12 05:42:37] INFO root fetch - processPackages [vulcan-logger]: Downloading https://files.pythonhosted.org/packages/34/27/d78042f4ef3c023fd2456ca235f247b210bbf648c96fe6aaca581c98e33c/vulcan-logger-1.6.0.tar.gz
+[2024-04-12 05:42:37] INFO root fetch - processPackages [marcgrep]: Downloading https://files.pythonhosted.org/packages/91/f2/791e85fff20ffb44849c32680fbbbde658d0621e6f614b2e574b7c65ad8d/marcgrep-0.3.0.tar.gz
+[2024-04-12 05:42:37] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/3d/ad/4739b7bac9499c8514e49ba1a9595fa91063c10f3cc6d29fdf3205e36abf/b2sim-2.1.3-py3-none-any.whl
+[2024-04-12 05:42:37] INFO root fetch - processPackages [vulcan-logger]: Downloading https://files.pythonhosted.org/packages/36/c7/365f7ec55b321488ea850d103f6b78481208c6c64dbee6028c9786118583/vulcan-logger-1.7.0.tar.gz
+[2024-04-12 05:42:37] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2024-04-12 05:42:37] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-2.1.2.tar.gz tmp/b2sim-2.1.3-py3-none-any.whl.zip --markdown 20240412/b/b2sim/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-12 05:42:37] INFO root fetch - processPackages [vulcan-logger]: executing diffoscope
+[2024-04-12 05:42:37] INFO root fetch - processPackages [vulcan-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-logger-1.6.0.tar.gz tmp/vulcan-logger-1.7.0.tar.gz --markdown 20240412/v/vulcan-logger/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-12 05:42:37] INFO root fetch - processPackages [marcgrep]: Downloading https://files.pythonhosted.org/packages/f4/4a/44f24f6294d52b0218805a75953ea442a9b5a99a5249b81070f8c58468fd/marcgrep-0.4.0.tar.gz
+[2024-04-12 05:42:37] INFO root fetch - processPackages [marcgrep]: executing diffoscope
+[2024-04-12 05:42:37] INFO root fetch - processPackages [marcgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcgrep-0.3.0.tar.gz tmp/marcgrep-0.4.0.tar.gz --markdown 20240412/m/marcgrep/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-12 05:42:38] INFO root fetch - processPackages [vulcan-logger]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-logger-1.6.0.tar.gz]
+[2024-04-12 05:42:38] INFO root fetch - processPackages [vulcan-logger]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-logger-1.7.0.tar.gz]
+[2024-04-12 05:42:38] INFO root fetch - main [MainThread]: End processing [vulcan-logger]: success
+[2024-04-12 05:42:38] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-2.1.2.tar.gz]
+[2024-04-12 05:42:38] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-2.1.3-py3-none-any.whl.zip]
+[2024-04-12 05:42:38] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2024-04-12 05:42:38] INFO root fetch - processPackages [marcgrep]: Remove: archive file [/home/abi/fetcher/tmp/marcgrep-0.3.0.tar.gz]
+[2024-04-12 05:42:38] INFO root fetch - processPackages [marcgrep]: Remove: archive file [/home/abi/fetcher/tmp/marcgrep-0.4.0.tar.gz]
+[2024-04-12 05:42:38] INFO root fetch - main [MainThread]: End processing [marcgrep]: success
+[2024-04-12 05:42:38] INFO root fetch - main [MainThread]: Store serial: [22732371]
