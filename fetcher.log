@@ -17363,3 +17363,76 @@
 [2024-04-12 09:52:06] INFO root fetch - processPackages [gddoc2yml]: Remove: archive file [/home/abi/fetcher/tmp/gddoc2yml-0.0.1.tar.gz]
 [2024-04-12 09:52:06] INFO root fetch - main [MainThread]: End processing [gddoc2yml]: success
 [2024-04-12 09:52:06] INFO root fetch - main [MainThread]: Store serial: [22734367]
+[2024-04-12 09:54:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734367]
+[2024-04-12 09:54:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-12 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monterey
+[2024-04-12 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-genesiscloud
+[2024-04-12 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-gauss
+[2024-04-12 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqqq-cli
+[2024-04-12 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantplay
+[2024-04-12 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blueapps
+[2024-04-12 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monterey
+[2024-04-12 09:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seacrowd
+[2024-04-12 09:54:14] INFO root fetch - processPackages [monterey]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 09:54:14] INFO root fetch - processPackages [monterey]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 09:54:14] INFO root fetch - processPackages [pulumi-genesiscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 09:54:14] INFO root fetch - processPackages [seacrowd]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 09:54:14] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/ee/76/e38c1bed9d0d00523c2f48bc75104ce4da9567a13556044770197218c203/monterey-0.0.8.tar.gz
+[2024-04-12 09:54:14] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 09:54:14] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-12 09:54:14] INFO root fetch - processPackages [fast-gauss]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 09:54:14] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/ee/76/e38c1bed9d0d00523c2f48bc75104ce4da9567a13556044770197218c203/monterey-0.0.8.tar.gz
+[2024-04-12 09:54:14] INFO root fetch - processPackages [blueapps]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-12 09:54:14] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/f8/85/f2a2a9c8cfa059e16ec9b03e85629ebf4ba9ef62e7342a1fd53799ea49b5/seacrowd-0.0.5.tar.gz
+[2024-04-12 09:54:14] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/7b/eb/c1987063b7330a56617c62d967ff70d44c2fde9e6c027effd7bd05f44cfc/pulumi_genesiscloud-0.0.8.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/08/33/8855e6d5b38eafac7c7319259343811f3a791d12bdba4e8f32d9ffce92d9/pyqqq_cli-0.1.8.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [fast-gauss]: Downloading https://files.pythonhosted.org/packages/c0/62/11f8ac1cf9be8f2d5b3697f8aa46c47e882c33f106a770a0b613e33a73be/fast_gauss-0.0.5.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/c7/f5/c64698c6e952eb290412cb543ed450b5a240851d2725d6cc6e944efd6563/blueapps-4.9.0.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/85/48/c33e3e8789275770f6ecf59b3f8ba30057d291ef8fff95f7d0077bb2638c/pulumi_genesiscloud-0.0.9.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/fe/43/94d0f8e948200a9edb3ed9daf80b7fe8568fbbe462c5c15be98777c3b71c/monterey-0.0.9.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/fe/43/94d0f8e948200a9edb3ed9daf80b7fe8568fbbe462c5c15be98777c3b71c/monterey-0.0.9.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/5e/21/f192ad4306b3d83673875e05edc8824d11296838bd28f89e6c0561fcb1f1/seacrowd-0.0.6.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [pulumi-genesiscloud]: executing diffoscope
+[2024-04-12 09:54:15] INFO root fetch - processPackages [pulumi-genesiscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_genesiscloud-0.0.8.tar.gz tmp/pulumi_genesiscloud-0.0.9.tar.gz --markdown 20240412/p/pulumi-genesiscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 09:54:15] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 09:54:15] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.8.tar.gz tmp/monterey-0.0.9.tar.gz --markdown 20240412/m/monterey/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 09:54:15] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 09:54:15] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.8.tar.gz tmp/monterey-0.0.9.tar.gz --markdown 20240412/m/monterey/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 09:54:15] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/c2/c2/c175003e563333b34578e3b5ca53b4e005dab2fd260cf9390d4383b3d6e4/pyqqq_cli-0.1.9.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [fast-gauss]: Downloading https://files.pythonhosted.org/packages/78/1f/4cb4ef780203c6da0a8a627479a9cfb59c3aec72ca81a299015dd8bf146b/fast_gauss-0.0.6.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-04-12 09:54:15] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.5.tar.gz tmp/seacrowd-0.0.6.tar.gz --markdown 20240412/s/seacrowd/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 09:54:15] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-04-12 09:54:15] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.1.8.tar.gz tmp/pyqqq_cli-0.1.9.tar.gz --markdown 20240412/p/pyqqq-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 09:54:15] INFO root fetch - processPackages [fast-gauss]: executing diffoscope
+[2024-04-12 09:54:15] INFO root fetch - processPackages [fast-gauss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_gauss-0.0.5.tar.gz tmp/fast_gauss-0.0.6.tar.gz --markdown 20240412/f/fast-gauss/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 09:54:15] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/20/b7/37d72d821d3c9d365e2bda8ab4643f2460f1f37519b94f1967bd277a72f5/blueapps-4.9.1.tar.gz
+[2024-04-12 09:54:15] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-12 09:54:15] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240412/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-12 09:54:15] INFO root fetch - processPackages [blueapps]: executing diffoscope
+[2024-04-12 09:54:15] INFO root fetch - processPackages [blueapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapps-4.9.0.tar.gz tmp/blueapps-4.9.1.tar.gz --markdown 20240412/b/blueapps/4.9.0-4.9.1/README.md --exclude *.pyd
+[2024-04-12 09:54:16] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.8.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.9.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 09:54:16] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.1.8.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.1.9.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-04-12 09:54:16] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 09:54:16] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.8.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
+[2024-04-12 09:54:16] INFO root fetch - processPackages [fast-gauss]: Remove: archive file [/home/abi/fetcher/tmp/fast_gauss-0.0.5.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - processPackages [fast-gauss]: Remove: archive file [/home/abi/fetcher/tmp/fast_gauss-0.0.6.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - main [MainThread]: End processing [fast-gauss]: success
+[2024-04-12 09:54:16] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-12 09:54:16] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-12 09:54:17] INFO root fetch - processPackages [blueapps]: Remove: archive file [/home/abi/fetcher/tmp/blueapps-4.9.0.tar.gz]
+[2024-04-12 09:54:17] INFO root fetch - processPackages [blueapps]: Remove: archive file [/home/abi/fetcher/tmp/blueapps-4.9.1.tar.gz]
+[2024-04-12 09:54:17] INFO root fetch - main [MainThread]: End processing [blueapps]: success
+[2024-04-12 09:54:17] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.5.tar.gz]
+[2024-04-12 09:54:17] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.6.tar.gz]
+[2024-04-12 09:54:17] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-04-12 09:54:17] INFO root fetch - main [MainThread]: Store serial: [22734389]
