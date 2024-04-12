@@ -11097,3 +11097,15 @@
 [2024-04-12 03:43:18] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
 [2024-04-12 03:43:18] INFO root fetch - main [MainThread]: End processing [stim]: success
 [2024-04-12 03:43:18] INFO root fetch - main [MainThread]: Store serial: [22731502]
+[2024-04-12 03:45:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731502]
+[2024-04-12 03:45:27] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-12 03:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trinnov-altitude
+[2024-04-12 03:45:27] INFO root fetch - processPackages [trinnov-altitude]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 03:45:27] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/e4/ad/169810413c21e2c593e82ea39ba4c92b32cca2d1928f2f133bdc2dd5774d/trinnov-altitude-0.1.8.tar.gz
+[2024-04-12 03:45:27] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/76/2e/d188a8568df2fbd157a92850369057419ef690d42167df73acfde0838f4e/trinnov-altitude-0.1.9.tar.gz
+[2024-04-12 03:45:27] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-12 03:45:27] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov-altitude-0.1.8.tar.gz tmp/trinnov-altitude-0.1.9.tar.gz --markdown 20240412/t/trinnov-altitude/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 03:45:28] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.8.tar.gz]
+[2024-04-12 03:45:28] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov-altitude-0.1.9.tar.gz]
+[2024-04-12 03:45:28] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-12 03:45:28] INFO root fetch - main [MainThread]: Store serial: [22731505]
