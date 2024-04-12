@@ -2938,3 +2938,51 @@
 [2024-04-12 02:26:58] INFO root fetch - processPackages [barbara-updater]: Remove: archive file [/home/abi/fetcher/tmp/barbara_updater-3.3.0.tar.gz]
 [2024-04-12 02:26:58] INFO root fetch - main [MainThread]: End processing [barbara-updater]: success
 [2024-04-12 02:26:58] INFO root fetch - main [MainThread]: Store serial: [22728600]
+[2024-04-12 02:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728600]
+[2024-04-12 02:29:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 02:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-04-12 02:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Unified-python-sdk
+[2024-04-12 02:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-04-12 02:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipl-pipeline-py-common
+[2024-04-12 02:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monai-deploy-app-sdk
+[2024-04-12 02:29:06] INFO root fetch - processPackages [ipl-pipeline-py-common]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-12 02:29:06] INFO root fetch - processPackages [Unified-python-sdk]: New version: [0.21.5] Old Version: [0.21.4]
+[2024-04-12 02:29:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-12 02:29:06] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/eb/f0/a89ea8e40f2e1f21f17c332921c9ef29df1ea6ccffd523fc41013d3d11f1/ipl_pipeline_py_common-0.8.0.tar.gz
+[2024-04-12 02:29:06] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/02/a3/cff92e06ea016239229fa1abde0f6d70fb7cc9b2d083bad95795af38c14e/Unified-python-sdk-0.21.4.tar.gz
+[2024-04-12 02:29:06] INFO root fetch - processPackages [monai-deploy-app-sdk]: New version: [1.0.0] Old Version: [0.6.0]
+[2024-04-12 02:29:06] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-12 02:29:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-12 02:29:07] INFO root fetch - processPackages [ipl-pipeline-py-common]: Downloading https://files.pythonhosted.org/packages/8d/0e/0f582e8c4d15dd2e49c2909c457e74259d0cf92d9d0029d22f5a5af10753/ipl_pipeline_py_common-0.8.1.tar.gz
+[2024-04-12 02:29:07] INFO root fetch - processPackages [monai-deploy-app-sdk]: Downloading https://files.pythonhosted.org/packages/67/df/414c50600c56de434df8a794fadecddad42fcad46f1d6b162c795d54a376/monai_deploy_app_sdk-0.6.0-py3-none-any.whl
+[2024-04-12 02:29:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-12 02:29:07] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/46/33/144b9f1eb84cabc19582ce28d9910ae3635f43d7ac6885b5d97871fde7a8/Unified-python-sdk-0.21.5.tar.gz
+[2024-04-12 02:29:07] INFO root fetch - processPackages [ipl-pipeline-py-common]: executing diffoscope
+[2024-04-12 02:29:07] INFO root fetch - processPackages [ipl-pipeline-py-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipl_pipeline_py_common-0.8.0.tar.gz tmp/ipl_pipeline_py_common-0.8.1.tar.gz --markdown 20240412/i/ipl-pipeline-py-common/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-12 02:29:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-12 02:29:07] INFO root fetch - processPackages [Unified-python-sdk]: executing diffoscope
+[2024-04-12 02:29:07] INFO root fetch - processPackages [Unified-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Unified-python-sdk-0.21.4.tar.gz tmp/Unified-python-sdk-0.21.5.tar.gz --markdown 20240412/U/Unified-python-sdk/0.21.4-0.21.5/README.md --exclude *.pyd
+[2024-04-12 02:29:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-12 02:29:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240412/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-12 02:29:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-12 02:29:07] INFO root fetch - processPackages [monai-deploy-app-sdk]: Downloading https://files.pythonhosted.org/packages/45/66/7aaeb1fa6b2a925d2a05715dce24394a12849e22ea8c6f31acb0581fddef/monai_deploy_app_sdk-1.0.0-py3-none-any.whl
+[2024-04-12 02:29:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-12 02:29:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240412/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-12 02:29:07] INFO root fetch - processPackages [monai-deploy-app-sdk]: executing diffoscope
+[2024-04-12 02:29:07] INFO root fetch - processPackages [monai-deploy-app-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai_deploy_app_sdk-0.6.0-py3-none-any.whl.zip tmp/monai_deploy_app_sdk-1.0.0-py3-none-any.whl.zip --markdown 20240412/m/monai-deploy-app-sdk/0.6.0-1.0.0/README.md --exclude *.pyd
+[2024-04-12 02:29:07] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.8.0.tar.gz]
+[2024-04-12 02:29:07] INFO root fetch - processPackages [ipl-pipeline-py-common]: Remove: archive file [/home/abi/fetcher/tmp/ipl_pipeline_py_common-0.8.1.tar.gz]
+[2024-04-12 02:29:07] INFO root fetch - main [MainThread]: End processing [ipl-pipeline-py-common]: success
+[2024-04-12 02:29:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-12 02:29:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-12 02:29:07] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-12 02:29:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-12 02:29:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-12 02:29:08] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-12 02:29:08] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-0.6.0-py3-none-any.whl.zip]
+[2024-04-12 02:29:08] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-1.0.0-py3-none-any.whl.zip]
+[2024-04-12 02:29:08] INFO root fetch - main [MainThread]: End processing [monai-deploy-app-sdk]: success
+[2024-04-12 02:29:09] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.21.4.tar.gz]
+[2024-04-12 02:29:09] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.21.5.tar.gz]
+[2024-04-12 02:29:09] INFO root fetch - main [MainThread]: End processing [Unified-python-sdk]: success
+[2024-04-12 02:29:09] INFO root fetch - main [MainThread]: Store serial: [22728622]
