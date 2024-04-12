@@ -16647,3 +16647,60 @@
 [2024-04-12 09:22:39] INFO root fetch - processPackages [starsim]: Remove: archive file [/home/abi/fetcher/tmp/starsim-0.3.2.tar.gz]
 [2024-04-12 09:22:39] INFO root fetch - main [MainThread]: End processing [starsim]: success
 [2024-04-12 09:22:39] INFO root fetch - main [MainThread]: Store serial: [22734016]
+[2024-04-12 09:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734016]
+[2024-04-12 09:24:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-12 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monisha
+[2024-04-12 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: m3-gar
+[2024-04-12 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OSS-Class
+[2024-04-12 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notebook
+[2024-04-12 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bluepymm
+[2024-04-12 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: joo
+[2024-04-12 09:24:48] INFO root fetch - processPackages [OSS-Class]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-12 09:24:48] INFO root fetch - processPackages [joo]: New version: [0.1.0.139] Old Version: [0.1.0.138]
+[2024-04-12 09:24:48] INFO root fetch - processPackages [notebook]: New version: [7.2.0a0] Old Version: [7.1.2]
+[2024-04-12 09:24:48] INFO root fetch - processPackages [OSS-Class]: Downloading https://files.pythonhosted.org/packages/86/f3/31689796d39e31b3f69d3831acc4b906c53d867d7dafd73e66825203c19a/OSS_Class-0.0.1-py3-none-any.whl
+[2024-04-12 09:24:48] INFO root fetch - processPackages [joo]: Downloading https://files.pythonhosted.org/packages/41/42/08055cd05f088fe0bf1740933f305cd3405443364a70eae63f246743d11d/joo-0.1.0.138.tar.gz
+[2024-04-12 09:24:48] INFO root fetch - processPackages [bluepymm]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-12 09:24:48] INFO root fetch - processPackages [m3-gar]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-12 09:24:48] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/f6/81/139ee6df23b78da7563f63e9058608e6ee88be10bc2d626477ac4016d596/notebook-7.1.2.tar.gz
+[2024-04-12 09:24:48] INFO root fetch - processPackages [monisha]: New version: [0.0.41] Old Version: [0.0.40]
+[2024-04-12 09:24:48] INFO root fetch - processPackages [OSS-Class]: Downloading https://files.pythonhosted.org/packages/63/be/857cb2a87547355aecdea6180a7090fdd5f82114f9176d0779a1df2860f9/OSS_Class-0.0.2-py3-none-any.whl
+[2024-04-12 09:24:48] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/1e/79/4f4b54c2b26168ceca308dca54b84e37c42e28579c6373e9f04bbae70c9e/monisha-0.0.40.tar.gz
+[2024-04-12 09:24:48] INFO root fetch - processPackages [m3-gar]: Downloading https://files.pythonhosted.org/packages/9c/c2/c765952f58aa08390bf179a4ff03fe88352830b23015f1e0ae2d231e72b6/m3-gar-1.0.9.tar.gz
+[2024-04-12 09:24:49] INFO root fetch - processPackages [bluepymm]: Downloading https://files.pythonhosted.org/packages/83/59/889475cf73743945796690f78012f5ca46e03b1df91b16199d0b3b88f2f4/bluepymm-0.9.8.tar.gz
+[2024-04-12 09:24:49] INFO root fetch - processPackages [joo]: Downloading https://files.pythonhosted.org/packages/ce/2c/e7f8fca29e2daff68b6b58b7dfb5319a0214791de38bbfdbbe3d6a36b0b7/joo-0.1.0.139.tar.gz
+[2024-04-12 09:24:49] INFO root fetch - processPackages [OSS-Class]: executing diffoscope
+[2024-04-12 09:24:49] INFO root fetch - processPackages [OSS-Class]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OSS_Class-0.0.1-py3-none-any.whl.zip tmp/OSS_Class-0.0.2-py3-none-any.whl.zip --markdown 20240412/O/OSS-Class/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-12 09:24:49] INFO root fetch - processPackages [joo]: executing diffoscope
+[2024-04-12 09:24:49] INFO root fetch - processPackages [joo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joo-0.1.0.138.tar.gz tmp/joo-0.1.0.139.tar.gz --markdown 20240412/j/joo/0.1.0.138-0.1.0.139/README.md --exclude *.pyd
+[2024-04-12 09:24:49] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/1c/c4/8822cc65efd2a2697f8b6560536783e9d899f6d21a36257099ba17ed2f09/monisha-0.0.41.tar.gz
+[2024-04-12 09:24:49] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/c8/f5/da5ed8e2de1d11307348c6ab74a5427c68bdf809b13cd1b41139d8bf84ef/notebook-7.2.0a0.tar.gz
+[2024-04-12 09:24:49] INFO root fetch - processPackages [bluepymm]: Downloading https://files.pythonhosted.org/packages/f2/93/c3904d8a6a8e7a4fcc1b45cade769da51c160a711efa66fa70167fee8fdd/bluepymm-0.9.9.tar.gz
+[2024-04-12 09:24:49] INFO root fetch - processPackages [m3-gar]: Downloading https://files.pythonhosted.org/packages/a5/2f/7d2706b3a426e8f2296e9f1e0e605286867a6c97317a0df2153853f4c051/m3-gar-1.1.0.tar.gz
+[2024-04-12 09:24:49] INFO root fetch - processPackages [monisha]: executing diffoscope
+[2024-04-12 09:24:49] INFO root fetch - processPackages [monisha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monisha-0.0.40.tar.gz tmp/monisha-0.0.41.tar.gz --markdown 20240412/m/monisha/0.0.40-0.0.41/README.md --exclude *.pyd
+[2024-04-12 09:24:49] INFO root fetch - processPackages [bluepymm]: executing diffoscope
+[2024-04-12 09:24:49] INFO root fetch - processPackages [bluepymm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepymm-0.9.8.tar.gz tmp/bluepymm-0.9.9.tar.gz --markdown 20240412/b/bluepymm/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-12 09:24:49] INFO root fetch - processPackages [m3-gar]: executing diffoscope
+[2024-04-12 09:24:49] INFO root fetch - processPackages [m3-gar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-gar-1.0.9.tar.gz tmp/m3-gar-1.1.0.tar.gz --markdown 20240412/m/m3-gar/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-12 09:24:49] INFO root fetch - processPackages [OSS-Class]: Remove: archive file [/home/abi/fetcher/tmp/OSS_Class-0.0.1-py3-none-any.whl.zip]
+[2024-04-12 09:24:49] INFO root fetch - processPackages [OSS-Class]: Remove: archive file [/home/abi/fetcher/tmp/OSS_Class-0.0.2-py3-none-any.whl.zip]
+[2024-04-12 09:24:49] INFO root fetch - main [MainThread]: End processing [OSS-Class]: success
+[2024-04-12 09:24:49] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2024-04-12 09:24:49] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.1.2.tar.gz tmp/notebook-7.2.0a0.tar.gz --markdown 20240412/n/notebook/7.1.2-7.2.0a0/README.md --exclude *.pyd
+[2024-04-12 09:24:49] INFO root fetch - processPackages [joo]: Remove: archive file [/home/abi/fetcher/tmp/joo-0.1.0.138.tar.gz]
+[2024-04-12 09:24:49] INFO root fetch - processPackages [joo]: Remove: archive file [/home/abi/fetcher/tmp/joo-0.1.0.139.tar.gz]
+[2024-04-12 09:24:49] INFO root fetch - main [MainThread]: End processing [joo]: success
+[2024-04-12 09:24:50] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.40.tar.gz]
+[2024-04-12 09:24:50] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.41.tar.gz]
+[2024-04-12 09:24:50] INFO root fetch - main [MainThread]: End processing [monisha]: success
+[2024-04-12 09:24:50] INFO root fetch - processPackages [bluepymm]: Remove: archive file [/home/abi/fetcher/tmp/bluepymm-0.9.8.tar.gz]
+[2024-04-12 09:24:50] INFO root fetch - processPackages [bluepymm]: Remove: archive file [/home/abi/fetcher/tmp/bluepymm-0.9.9.tar.gz]
+[2024-04-12 09:24:50] INFO root fetch - main [MainThread]: End processing [bluepymm]: success
+[2024-04-12 09:24:50] INFO root fetch - processPackages [m3-gar]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-1.0.9.tar.gz]
+[2024-04-12 09:24:50] INFO root fetch - processPackages [m3-gar]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-1.1.0.tar.gz]
+[2024-04-12 09:24:50] INFO root fetch - main [MainThread]: End processing [m3-gar]: success
+[2024-04-12 09:25:45] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.1.2.tar.gz]
+[2024-04-12 09:25:45] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.2.0a0.tar.gz]
+[2024-04-12 09:25:45] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2024-04-12 09:25:45] INFO root fetch - main [MainThread]: Store serial: [22734045]
