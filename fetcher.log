@@ -15955,3 +15955,23 @@
 [2024-04-12 08:47:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-12 08:47:15] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-12 08:47:15] INFO root fetch - main [MainThread]: Store serial: [22733617]
+[2024-04-12 08:49:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733617]
+[2024-04-12 08:49:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 08:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbtrunner-dtacs
+[2024-04-12 08:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoai-ts-libs
+[2024-04-12 08:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: h5io-browser
+[2024-04-12 08:49:24] WARNING root fetch - processPackages [dbtrunner-dtacs]: Skipping, unable to determine old version
+[2024-04-12 08:49:24] INFO root fetch - main [MainThread]: End processing [dbtrunner-dtacs] error
+[2024-04-12 08:49:24] INFO root fetch - processPackages [h5io-browser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 08:49:24] INFO root fetch - processPackages [autoai-ts-libs]: New version: [4.0.2] Old Version: [3.2.2]
+[2024-04-12 08:49:24] INFO root fetch - processPackages [h5io-browser]: Downloading https://files.pythonhosted.org/packages/fb/e2/202a693711b19c51edeb67a5f3ce79db58d0a563fa705a3f471814f7bd41/h5io_browser-0.0.8.tar.gz
+[2024-04-12 08:49:24] INFO root fetch - processPackages [autoai-ts-libs]: Downloading https://files.pythonhosted.org/packages/fa/22/d07d7a04ff8d44f6e152b06cbdf1212c4ad0515aacd524f4a47b1cb11f20/autoai_ts_libs-3.2.2-cp310-cp310-win_amd64.whl
+[2024-04-12 08:49:24] WARNING root fetch - processPackages [autoai-ts-libs]: Skipping package: exceeds size limit 23812643>=10485760
+[2024-04-12 08:49:24] INFO root fetch - main [MainThread]: End processing [autoai-ts-libs] error
+[2024-04-12 08:49:25] INFO root fetch - processPackages [h5io-browser]: Downloading https://files.pythonhosted.org/packages/c2/8b/320e42e1253e4aba3b33dff79a0658c80c5a404d0a9794fe0eeba5742b2d/h5io_browser-0.0.9.tar.gz
+[2024-04-12 08:49:25] INFO root fetch - processPackages [h5io-browser]: executing diffoscope
+[2024-04-12 08:49:25] INFO root fetch - processPackages [h5io-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5io_browser-0.0.8.tar.gz tmp/h5io_browser-0.0.9.tar.gz --markdown 20240412/h/h5io-browser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 08:49:25] INFO root fetch - processPackages [h5io-browser]: Remove: archive file [/home/abi/fetcher/tmp/h5io_browser-0.0.8.tar.gz]
+[2024-04-12 08:49:25] INFO root fetch - processPackages [h5io-browser]: Remove: archive file [/home/abi/fetcher/tmp/h5io_browser-0.0.9.tar.gz]
+[2024-04-12 08:49:25] INFO root fetch - main [MainThread]: End processing [h5io-browser]: success
+[2024-04-12 08:49:25] INFO root fetch - main [MainThread]: Store serial: [22733631]
