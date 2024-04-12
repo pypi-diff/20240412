@@ -18608,3 +18608,45 @@
 [2024-04-12 10:37:56] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.3.tar.gz]
 [2024-04-12 10:37:56] INFO root fetch - main [MainThread]: End processing [pdm]: success
 [2024-04-12 10:37:56] INFO root fetch - main [MainThread]: Store serial: [22734965]
+[2024-04-12 10:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22734965]
+[2024-04-12 10:40:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 10:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ichandbook
+[2024-04-12 10:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiddifypanel
+[2024-04-12 10:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: translatable-enums
+[2024-04-12 10:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: config2py
+[2024-04-12 10:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuzu
+[2024-04-12 10:40:05] INFO root fetch - processPackages [config2py]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-12 10:40:05] WARNING root fetch - processPackages [ichandbook]: Skipping, unable to determine old version
+[2024-04-12 10:40:05] INFO root fetch - main [MainThread]: End processing [ichandbook] error
+[2024-04-12 10:40:05] INFO root fetch - processPackages [hiddifypanel]: New version: [8.8.99] Old Version: [8.8.97]
+[2024-04-12 10:40:05] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev31] Old Version: [0.3.3.dev30]
+[2024-04-12 10:40:05] INFO root fetch - processPackages [translatable-enums]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 10:40:05] INFO root fetch - processPackages [config2py]: Downloading https://files.pythonhosted.org/packages/cb/e3/48245f5a60648c8aff2523d56720d305144fde9dc72b9518b764973f2d58/config2py-0.1.8.tar.gz
+[2024-04-12 10:40:05] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/3b/4c/15ca81d9764c196bd632b929c178a21ce2569604e1b7958aaf21f3591f24/hiddifypanel-8.8.97.tar.gz
+[2024-04-12 10:40:05] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/00/d2/7e7db97fde5ec89a13ae4fdebba228e0e0ab06323d69cce640a3821e800b/kuzu-0.3.3.dev30.tar.gz
+[2024-04-12 10:40:05] INFO root fetch - processPackages [translatable-enums]: Downloading https://files.pythonhosted.org/packages/90/0a/d0e06f5957af1dc4c6a38a08c1f61e6299c6ed909207f1450cb040b3804d/translatable_enums-0.0.5.tar.gz
+[2024-04-12 10:40:05] INFO root fetch - processPackages [config2py]: Downloading https://files.pythonhosted.org/packages/3e/8c/cda45f792442d2910489c27fd9edd958de507b570d1aca97511aeafc3adf/config2py-0.1.9.tar.gz
+[2024-04-12 10:40:05] INFO root fetch - processPackages [config2py]: executing diffoscope
+[2024-04-12 10:40:05] INFO root fetch - processPackages [config2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config2py-0.1.8.tar.gz tmp/config2py-0.1.9.tar.gz --markdown 20240412/c/config2py/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-12 10:40:05] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ef/74/ab9bc5ebe1c31d96fcff0642f25280d3eebba3d867bbf874c9e8c9fe2a23/hiddifypanel-8.8.99.tar.gz
+[2024-04-12 10:40:05] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/02/b9/0acd9642e7736069e095afce0ea7eeb4034683e2e642afbeb060457aec04/kuzu-0.3.3.dev31.tar.gz
+[2024-04-12 10:40:05] INFO root fetch - processPackages [translatable-enums]: Downloading https://files.pythonhosted.org/packages/3a/51/245f9c4b5535776dfecc1ae32c756483e355171f7fde1b85749af22ea764/translatable_enums-0.0.6.tar.gz
+[2024-04-12 10:40:05] INFO root fetch - processPackages [translatable-enums]: executing diffoscope
+[2024-04-12 10:40:05] INFO root fetch - processPackages [translatable-enums]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translatable_enums-0.0.5.tar.gz tmp/translatable_enums-0.0.6.tar.gz --markdown 20240412/t/translatable-enums/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 10:40:05] INFO root fetch - processPackages [config2py]: Remove: archive file [/home/abi/fetcher/tmp/config2py-0.1.8.tar.gz]
+[2024-04-12 10:40:05] INFO root fetch - processPackages [config2py]: Remove: archive file [/home/abi/fetcher/tmp/config2py-0.1.9.tar.gz]
+[2024-04-12 10:40:05] INFO root fetch - main [MainThread]: End processing [config2py]: success
+[2024-04-12 10:40:05] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-12 10:40:05] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev30.tar.gz tmp/kuzu-0.3.3.dev31.tar.gz --markdown 20240412/k/kuzu/0.3.3.dev30-0.3.3.dev31/README.md --exclude *.pyd
+[2024-04-12 10:40:06] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2024-04-12 10:40:06] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.8.97.tar.gz tmp/hiddifypanel-8.8.99.tar.gz --markdown 20240412/h/hiddifypanel/8.8.97-8.8.99/README.md --exclude *.pyd
+[2024-04-12 10:40:06] INFO root fetch - processPackages [translatable-enums]: Remove: archive file [/home/abi/fetcher/tmp/translatable_enums-0.0.5.tar.gz]
+[2024-04-12 10:40:06] INFO root fetch - processPackages [translatable-enums]: Remove: archive file [/home/abi/fetcher/tmp/translatable_enums-0.0.6.tar.gz]
+[2024-04-12 10:40:06] INFO root fetch - main [MainThread]: End processing [translatable-enums]: success
+[2024-04-12 10:40:09] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.8.97.tar.gz]
+[2024-04-12 10:40:09] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.8.99.tar.gz]
+[2024-04-12 10:40:09] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2024-04-12 10:40:11] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev30.tar.gz]
+[2024-04-12 10:40:11] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev31.tar.gz]
+[2024-04-12 10:40:11] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-12 10:40:11] INFO root fetch - main [MainThread]: Store serial: [22734981]
