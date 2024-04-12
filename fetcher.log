@@ -11588,3 +11588,18 @@
 [2024-04-12 04:11:36] INFO root fetch - processPackages [goodsync]: Remove: archive file [/home/abi/fetcher/tmp/goodsync-0.0.6-cp312-cp312-musllinux_1_1_s390x.whl.zip]
 [2024-04-12 04:11:36] INFO root fetch - main [MainThread]: End processing [goodsync]: success
 [2024-04-12 04:11:36] INFO root fetch - main [MainThread]: Store serial: [22731726]
+[2024-04-12 04:13:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22731726]
+[2024-04-12 04:13:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-12 04:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-cdn-host
+[2024-04-12 04:13:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mikeman89-flitton-fib-py
+[2024-04-12 04:13:45] WARNING root fetch - processPackages [mikeman89-flitton-fib-py]: Skipping, unable to determine old version
+[2024-04-12 04:13:45] INFO root fetch - main [MainThread]: End processing [mikeman89-flitton-fib-py] error
+[2024-04-12 04:13:45] INFO root fetch - processPackages [fastapi-cdn-host]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-12 04:13:45] INFO root fetch - processPackages [fastapi-cdn-host]: Downloading https://files.pythonhosted.org/packages/e9/25/0d293ddaf9021ae1cb7198296c161dfda00f0db1b14bd965733dcb8437f3/fastapi_cdn_host-0.4.0.tar.gz
+[2024-04-12 04:13:46] INFO root fetch - processPackages [fastapi-cdn-host]: Downloading https://files.pythonhosted.org/packages/7f/df/ee9578c39e8458a99292bacb83285daea1a1d6dc29c8d782b1a0516f6ad2/fastapi_cdn_host-0.4.1.tar.gz
+[2024-04-12 04:13:46] INFO root fetch - processPackages [fastapi-cdn-host]: executing diffoscope
+[2024-04-12 04:13:46] INFO root fetch - processPackages [fastapi-cdn-host]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cdn_host-0.4.0.tar.gz tmp/fastapi_cdn_host-0.4.1.tar.gz --markdown 20240412/f/fastapi-cdn-host/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-12 04:13:46] INFO root fetch - processPackages [fastapi-cdn-host]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cdn_host-0.4.0.tar.gz]
+[2024-04-12 04:13:46] INFO root fetch - processPackages [fastapi-cdn-host]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cdn_host-0.4.1.tar.gz]
+[2024-04-12 04:13:46] INFO root fetch - main [MainThread]: End processing [fastapi-cdn-host]: success
+[2024-04-12 04:13:46] INFO root fetch - main [MainThread]: Store serial: [22731784]
