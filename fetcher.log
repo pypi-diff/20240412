@@ -15164,3 +15164,33 @@
 [2024-04-12 08:04:09] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.1.9.tar.gz]
 [2024-04-12 08:04:09] INFO root fetch - main [MainThread]: End processing [paaster]: success
 [2024-04-12 08:04:09] INFO root fetch - main [MainThread]: Store serial: [22733290]
+[2024-04-12 08:06:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733290]
+[2024-04-12 08:06:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 08:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jupyter-Bridge
+[2024-04-12 08:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basedpyright
+[2024-04-12 08:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsugu
+[2024-04-12 08:06:18] INFO root fetch - processPackages [tsugu]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-12 08:06:18] INFO root fetch - processPackages [Jupyter-Bridge]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-12 08:06:18] INFO root fetch - processPackages [basedpyright]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-12 08:06:18] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/fe/dd/4bfd58d92671f5040f6889fc782627efbe42ad1188ae146145b7341cfea2/tsugu-0.2.2.tar.gz
+[2024-04-12 08:06:18] INFO root fetch - processPackages [Jupyter-Bridge]: Downloading https://files.pythonhosted.org/packages/90/e2/b8181a3911ebc3cbea5b68436fef0737375644247175e6d616f6d8ee02a3/jupyter_bridge-0.2.0.tar.gz
+[2024-04-12 08:06:18] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/04/34/97132270879839d644d10df18ac5c2390d425fd082dc74de2016d30314fd/basedpyright-1.9.0.tar.gz
+[2024-04-12 08:06:18] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/d0/89/72cc1050fe5a3f1a280875d0b3447dbfc70403837299f202f00036d60229/tsugu-0.3.0.tar.gz
+[2024-04-12 08:06:18] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-12 08:06:18] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.2.2.tar.gz tmp/tsugu-0.3.0.tar.gz --markdown 20240412/t/tsugu/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-12 08:06:18] INFO root fetch - processPackages [Jupyter-Bridge]: Downloading https://files.pythonhosted.org/packages/fe/ce/aa478d2554b2217fdd307b8764a1c0a217a41e78ccbdaa967303a9bc849c/jupyter_bridge-0.3.0.tar.gz
+[2024-04-12 08:06:19] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/69/13/81adfdea3fff1b30c9dd7840dab4cd0508bd762521d896ae056b2fc14936/basedpyright-1.9.1.tar.gz
+[2024-04-12 08:06:19] INFO root fetch - processPackages [Jupyter-Bridge]: executing diffoscope
+[2024-04-12 08:06:19] INFO root fetch - processPackages [Jupyter-Bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_bridge-0.2.0.tar.gz tmp/jupyter_bridge-0.3.0.tar.gz --markdown 20240412/J/Jupyter-Bridge/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-12 08:06:19] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.2.2.tar.gz]
+[2024-04-12 08:06:19] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.0.tar.gz]
+[2024-04-12 08:06:19] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-12 08:06:19] INFO root fetch - processPackages [basedpyright]: executing diffoscope
+[2024-04-12 08:06:19] INFO root fetch - processPackages [basedpyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedpyright-1.9.0.tar.gz tmp/basedpyright-1.9.1.tar.gz --markdown 20240412/b/basedpyright/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-12 08:06:20] INFO root fetch - processPackages [Jupyter-Bridge]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_bridge-0.2.0.tar.gz]
+[2024-04-12 08:06:20] INFO root fetch - processPackages [Jupyter-Bridge]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_bridge-0.3.0.tar.gz]
+[2024-04-12 08:06:20] INFO root fetch - main [MainThread]: End processing [Jupyter-Bridge]: success
+[2024-04-12 08:07:15] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.0.tar.gz]
+[2024-04-12 08:07:15] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
+[2024-04-12 08:07:15] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
+[2024-04-12 08:07:15] INFO root fetch - main [MainThread]: Store serial: [22733296]
