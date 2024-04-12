@@ -15245,3 +15245,33 @@
 [2024-04-12 08:09:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404120607.tar.gz]
 [2024-04-12 08:09:27] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-12 08:09:27] INFO root fetch - main [MainThread]: Store serial: [22733320]
+[2024-04-12 08:11:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733320]
+[2024-04-12 08:11:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 08:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cumo
+[2024-04-12 08:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-04-12 08:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minimax-client
+[2024-04-12 08:11:36] INFO root fetch - processPackages [cumo]: New version: [0.33.0] Old Version: [0.32.0]
+[2024-04-12 08:11:36] INFO root fetch - processPackages [kfish]: New version: [99.0.202404111808] Old Version: [99.0.202404110609]
+[2024-04-12 08:11:36] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/c6/97/4e267fcf50a95da84d68c54b7027091d8fa3a00968c7a3749ff081624afa/cumo-0.32.0.tar.gz
+[2024-04-12 08:11:36] INFO root fetch - processPackages [minimax-client]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-12 08:11:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/43/45/5e13cee81764e200c542b0f3a290a75add1114d48461471c291f56c94c44/kfish-99.0.202404110609-py3-none-any.whl
+[2024-04-12 08:11:36] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/41/0e/5133a053a1b7e6253a1753ff2db0d038fe06737badcbfdf8617675e4f7fa/minimax_client-0.5.0.tar.gz
+[2024-04-12 08:11:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b0/c5/6f4bfde755d182eb5d94c1f7838913090bedc4271b1f5a9fa15f51b693ee/kfish-99.0.202404111808-py3-none-any.whl
+[2024-04-12 08:11:37] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/f4/54/1a90c6ded607e34974eeb77d5a49ed017e51ce5e7a684eefcb778f8bbfbb/cumo-0.33.0.tar.gz
+[2024-04-12 08:11:37] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-12 08:11:37] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404110609-py3-none-any.whl.zip tmp/kfish-99.0.202404111808-py3-none-any.whl.zip --markdown 20240412/k/kfish/99.0.202404110609-99.0.202404111808/README.md --exclude *.pyd
+[2024-04-12 08:11:37] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/45/72/2a7de2edb0afe61ea4d42bbffaccd55c65ea867069619c842d81f11fcf27/minimax_client-0.5.1.tar.gz
+[2024-04-12 08:11:37] INFO root fetch - processPackages [cumo]: executing diffoscope
+[2024-04-12 08:11:37] INFO root fetch - processPackages [cumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumo-0.32.0.tar.gz tmp/cumo-0.33.0.tar.gz --markdown 20240412/c/cumo/0.32.0-0.33.0/README.md --exclude *.pyd
+[2024-04-12 08:11:37] INFO root fetch - processPackages [minimax-client]: executing diffoscope
+[2024-04-12 08:11:37] INFO root fetch - processPackages [minimax-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minimax_client-0.5.0.tar.gz tmp/minimax_client-0.5.1.tar.gz --markdown 20240412/m/minimax-client/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-12 08:11:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404110609-py3-none-any.whl.zip]
+[2024-04-12 08:11:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404111808-py3-none-any.whl.zip]
+[2024-04-12 08:11:37] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-12 08:11:37] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.5.0.tar.gz]
+[2024-04-12 08:11:37] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.5.1.tar.gz]
+[2024-04-12 08:11:37] INFO root fetch - main [MainThread]: End processing [minimax-client]: success
+[2024-04-12 08:12:04] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.32.0.tar.gz]
+[2024-04-12 08:12:04] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.0.tar.gz]
+[2024-04-12 08:12:04] INFO root fetch - main [MainThread]: End processing [cumo]: success
+[2024-04-12 08:12:04] INFO root fetch - main [MainThread]: Store serial: [22733328]
