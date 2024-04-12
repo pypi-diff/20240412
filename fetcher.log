@@ -14846,3 +14846,51 @@
 [2024-04-12 07:45:53] INFO root fetch - processPackages [cs.fstags]: Remove: archive file [/home/abi/fetcher/tmp/cs.fstags-20240412.tar.gz]
 [2024-04-12 07:45:53] INFO root fetch - main [MainThread]: End processing [cs.fstags]: success
 [2024-04-12 07:45:53] INFO root fetch - main [MainThread]: Store serial: [22733157]
+[2024-04-12 07:47:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22733157]
+[2024-04-12 07:48:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-12 07:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcloud-user
+[2024-04-12 07:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trial-IGNchinmay
+[2024-04-12 07:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycityagent
+[2024-04-12 07:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs.hashindex
+[2024-04-12 07:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monterey
+[2024-04-12 07:48:03] INFO root fetch - processPackages [pycityagent]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-12 07:48:03] INFO root fetch - processPackages [trial-IGNchinmay]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-12 07:48:03] INFO root fetch - processPackages [monterey]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-12 07:48:04] INFO root fetch - processPackages [trial-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/ac/eb/894bc5cd72558a11dc6ead7580ed74cbba16d6d4b7685355de9528a831ca/trial_IGNchinmay-0.0.3.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [cs.hashindex]: New version: [20240412] Old Version: [20240317]
+[2024-04-12 07:48:04] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/4a/95/b0212233a6b41b3387b3adce3e548ead72d8391b86e9a84046e8d5ab73f3/monterey-0.0.5.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/cb/f3/ebf270604dadf55629eaebf75216132c2590e0ff15c3a0686c0953d0ccc4/pycityagent-1.1.3.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [qcloud-user]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-12 07:48:04] INFO root fetch - processPackages [cs.hashindex]: Downloading https://files.pythonhosted.org/packages/ff/8a/5bd76b4d265bb3a8377e6bb5a07643ae81da083d4848f4059bfb98825267/cs.hashindex-20240317.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/6c/a0/9a73217fafc538a08bd3c697025df47715e0ac5daa09f9b92df99bd0d45d/qcloud_user-1.0.8.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/ef/eb/98fb549d68efed5cd303f03d482161b63ef76cd6a07d673e6140810906a5/monterey-0.0.6.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [trial-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/23/6f/cb369bb2cf4b3718d530f4e799c824f6b8a4acba5065773e24c6f29ec092/trial_IGNchinmay-0.0.4.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/d1/e2/68ae331cdfb2177fd037a5718a905784f372ae0060ca17b82b38a1996c27/pycityagent-1.1.4.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 07:48:04] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.5.tar.gz tmp/monterey-0.0.6.tar.gz --markdown 20240412/m/monterey/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-12 07:48:04] INFO root fetch - processPackages [cs.hashindex]: Downloading https://files.pythonhosted.org/packages/c5/f1/ac0e2d60c387f05c03cfb8918535f72d1f5923bd08b3f3c68d0e170d42f1/cs.hashindex-20240412.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [trial-IGNchinmay]: executing diffoscope
+[2024-04-12 07:48:04] INFO root fetch - processPackages [trial-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trial_IGNchinmay-0.0.3.tar.gz tmp/trial_IGNchinmay-0.0.4.tar.gz --markdown 20240412/t/trial-IGNchinmay/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-12 07:48:04] INFO root fetch - processPackages [pycityagent]: executing diffoscope
+[2024-04-12 07:48:04] INFO root fetch - processPackages [pycityagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycityagent-1.1.3.tar.gz tmp/pycityagent-1.1.4.tar.gz --markdown 20240412/p/pycityagent/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-12 07:48:04] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/ee/3a/d117c02a1979892a11c0a09509ab8da0d09acd6c4be8200e4989df4bd993/qcloud_user-1.0.9.tar.gz
+[2024-04-12 07:48:04] INFO root fetch - processPackages [cs.hashindex]: executing diffoscope
+[2024-04-12 07:48:04] INFO root fetch - processPackages [cs.hashindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.hashindex-20240317.tar.gz tmp/cs.hashindex-20240412.tar.gz --markdown 20240412/c/cs.hashindex/20240317-20240412/README.md --exclude *.pyd
+[2024-04-12 07:48:04] INFO root fetch - processPackages [qcloud-user]: executing diffoscope
+[2024-04-12 07:48:04] INFO root fetch - processPackages [qcloud-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_user-1.0.8.tar.gz tmp/qcloud_user-1.0.9.tar.gz --markdown 20240412/q/qcloud-user/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-12 07:48:05] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.5.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.6.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 07:48:05] INFO root fetch - processPackages [trial-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/trial_IGNchinmay-0.0.3.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - processPackages [trial-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/trial_IGNchinmay-0.0.4.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - main [MainThread]: End processing [trial-IGNchinmay]: success
+[2024-04-12 07:48:05] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.8.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.9.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - main [MainThread]: End processing [qcloud-user]: success
+[2024-04-12 07:48:05] INFO root fetch - processPackages [cs.hashindex]: Remove: archive file [/home/abi/fetcher/tmp/cs.hashindex-20240317.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - processPackages [cs.hashindex]: Remove: archive file [/home/abi/fetcher/tmp/cs.hashindex-20240412.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - main [MainThread]: End processing [cs.hashindex]: success
+[2024-04-12 07:48:05] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.3.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.4.tar.gz]
+[2024-04-12 07:48:05] INFO root fetch - main [MainThread]: End processing [pycityagent]: success
+[2024-04-12 07:48:05] INFO root fetch - main [MainThread]: Store serial: [22733172]
