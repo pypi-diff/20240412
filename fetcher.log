@@ -19594,3 +19594,105 @@
 [2024-04-12 11:09:11] INFO root fetch - processPackages [geniac]: Remove: archive file [/home/abi/fetcher/tmp/geniac-3.3.0.tar.gz]
 [2024-04-12 11:09:11] INFO root fetch - main [MainThread]: End processing [geniac]: success
 [2024-04-12 11:09:11] INFO root fetch - main [MainThread]: Store serial: [22735434]
+[2024-04-12 11:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735434]
+[2024-04-12 11:11:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lendsmart-reva
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jhu
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragger
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recon-lw
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyco-types
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saltedge
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zhijiang
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localcosmos-server
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cmeel-mim-solvers
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-btripopen20220520
+[2024-04-12 11:11:20] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ragger]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [lendsmart-reva]: New version: [2.7] Old Version: [2.6]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [jhu]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [saltedge]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [pyco-types]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [cmeel-mim-solvers]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [localcosmos-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-12 11:11:20] INFO root fetch - processPackages [recon-lw]: New version: [3.0.0.dev8659705443] Old Version: [3.0.0.dev8434188366]
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/82/04/82bc3bf0c47a6f88a45e1b5604b67e6f9d9d9068f3a4713025a7590f00e8/ragger-1.9.1.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [lendsmart-reva]: Downloading https://files.pythonhosted.org/packages/4d/88/860a8d7c6d544ef6cc491304e8905e2780baabf7528af0475dc9d5656603/lendsmart_reva-2.6.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [jhu]: Downloading https://files.pythonhosted.org/packages/f5/14/f71a548a7fa0ff1773aa06667f19e771cbca80468f87e92184b1e21649de/jhu-1.4.1.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [cmeel-mim-solvers]: Downloading https://files.pythonhosted.org/packages/6b/dd/14fa05d93bd308798a15be657c585f8607b27e427d97a320af6156710ea0/cmeel_mim_solvers-0.0.2.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [pyco-types]: Downloading https://files.pythonhosted.org/packages/de/93/d36686c05735aba28bede53c4f2be1167b5c69a4642ce8efd30bbefd9c9e/pyco-types-1.1.7.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [saltedge]: Downloading https://files.pythonhosted.org/packages/b1/c8/750e074010f9bc42d605e5fc376f8777091e57e8885b0a18bc978949e6a0/saltedge-0.1.2.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/61/00/ab654a56ccee649ce5ffc92e70830470f4b118aba44f5448791ded818adf/localcosmos_server-0.9.3.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/b8/16/cf95d997029380715979461142056bd8cf1b4bf12a9859d40f2aaf849380/recon_lw-3.0.0.dev8434188366.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/21/26/b57a009cc3260972f7c4333e3176a09e023487543f99fc58a0807a8b52ba/alibabacloud_btripopen20220520-2.6.0.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/55/ac/75fc7e94a713ed26019e36497774d89d7eaa377fab2ac4183dd45fc028b5/ragger-1.9.2.tar.gz
+[2024-04-12 11:11:20] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-12 11:11:21] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2024-04-12 11:11:21] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.9.1.tar.gz tmp/ragger-1.9.2.tar.gz --markdown 20240412/r/ragger/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-12 11:11:21] INFO root fetch - processPackages [jhu]: Downloading https://files.pythonhosted.org/packages/8c/c9/3d180577dd27fd11ed9b2dd34e1e49d41eeeee72b2ce821758ad176e21be/jhu-1.4.2.tar.gz
+[2024-04-12 11:11:21] INFO root fetch - processPackages [saltedge]: Downloading https://files.pythonhosted.org/packages/4e/02/c2d494eb1da1da6bd66670e4f08da3e20f503bfc83162ccd9427f083d2dd/saltedge-0.1.3.tar.gz
+[2024-04-12 11:11:21] INFO root fetch - processPackages [pyco-types]: Downloading https://files.pythonhosted.org/packages/ef/e9/d4035cf714f9d2afafe8028507b572965ff4ceeba75e12271e80d59073e9/pyco-types-1.1.8.tar.gz
+[2024-04-12 11:11:21] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-12 11:11:21] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240412/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-12 11:11:21] INFO root fetch - processPackages [lendsmart-reva]: Downloading https://files.pythonhosted.org/packages/88/49/52def8f4475ff9c26212e14ec0cdcba550a0de9e1a09e0fcd5ebb8316081/lendsmart_reva-2.7.tar.gz
+[2024-04-12 11:11:21] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/58/c8/85f42a45c009b4cbb52a3a236e6d87374e9b57c15f80a224ad8008f66162/recon_lw-3.0.0.dev8659705443.tar.gz
+[2024-04-12 11:11:21] INFO root fetch - processPackages [jhu]: executing diffoscope
+[2024-04-12 11:11:21] INFO root fetch - processPackages [jhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhu-1.4.1.tar.gz tmp/jhu-1.4.2.tar.gz --markdown 20240412/j/jhu/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-12 11:11:21] INFO root fetch - processPackages [saltedge]: executing diffoscope
+[2024-04-12 11:11:21] INFO root fetch - processPackages [saltedge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saltedge-0.1.2.tar.gz tmp/saltedge-0.1.3.tar.gz --markdown 20240412/s/saltedge/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-12 11:11:21] INFO root fetch - processPackages [cmeel-mim-solvers]: Downloading https://files.pythonhosted.org/packages/58/38/130d1ad5cba8f9c4fea315ef9dae4df38562968f9d898a93f2ce33b3af40/cmeel_mim_solvers-0.0.4.tar.gz
+[2024-04-12 11:11:21] INFO root fetch - processPackages [pyco-types]: executing diffoscope
+[2024-04-12 11:11:21] INFO root fetch - processPackages [pyco-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyco-types-1.1.7.tar.gz tmp/pyco-types-1.1.8.tar.gz --markdown 20240412/p/pyco-types/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-12 11:11:21] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/28/d5/12cfe543c42d0f7cde9122572dbc47036fd395d767316eed362b2741dc4a/alibabacloud_btripopen20220520-2.7.0.tar.gz
+[2024-04-12 11:11:21] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2024-04-12 11:11:21] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-3.0.0.dev8434188366.tar.gz tmp/recon_lw-3.0.0.dev8659705443.tar.gz --markdown 20240412/r/recon-lw/3.0.0.dev8434188366-3.0.0.dev8659705443/README.md --exclude *.pyd
+[2024-04-12 11:11:21] INFO root fetch - processPackages [lendsmart-reva]: executing diffoscope
+[2024-04-12 11:11:21] INFO root fetch - processPackages [lendsmart-reva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_reva-2.6.tar.gz tmp/lendsmart_reva-2.7.tar.gz --markdown 20240412/l/lendsmart-reva/2.6-2.7/README.md --exclude *.pyd
+[2024-04-12 11:11:21] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2024-04-12 11:11:21] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-2.6.0.tar.gz tmp/alibabacloud_btripopen20220520-2.7.0.tar.gz --markdown 20240412/a/alibabacloud-btripopen20220520/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-04-12 11:11:21] INFO root fetch - processPackages [cmeel-mim-solvers]: executing diffoscope
+[2024-04-12 11:11:21] INFO root fetch - processPackages [cmeel-mim-solvers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel_mim_solvers-0.0.2.tar.gz tmp/cmeel_mim_solvers-0.0.4.tar.gz --markdown 20240412/c/cmeel-mim-solvers/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-04-12 11:11:22] INFO root fetch - processPackages [saltedge]: Remove: archive file [/home/abi/fetcher/tmp/saltedge-0.1.2.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - processPackages [saltedge]: Remove: archive file [/home/abi/fetcher/tmp/saltedge-0.1.3.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - processPackages [saltedge]: Start processing: alibabacloud-btripopen20220520-py2
+[2024-04-12 11:11:22] INFO root fetch - main [MainThread]: End processing [saltedge]: success
+[2024-04-12 11:11:22] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.1.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.2.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2024-04-12 11:11:22] INFO root fetch - processPackages [pyco-types]: Remove: archive file [/home/abi/fetcher/tmp/pyco-types-1.1.7.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - processPackages [pyco-types]: Remove: archive file [/home/abi/fetcher/tmp/pyco-types-1.1.8.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - main [MainThread]: End processing [pyco-types]: success
+[2024-04-12 11:11:22] INFO root fetch - processPackages [lendsmart-reva]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_reva-2.6.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - processPackages [lendsmart-reva]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_reva-2.7.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - main [MainThread]: End processing [lendsmart-reva]: success
+[2024-04-12 11:11:22] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-12 11:11:22] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-12 11:11:22] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-12 11:11:22] INFO root fetch - processPackages [jhu]: Remove: archive file [/home/abi/fetcher/tmp/jhu-1.4.1.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - processPackages [jhu]: Remove: archive file [/home/abi/fetcher/tmp/jhu-1.4.2.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - main [MainThread]: End processing [jhu]: success
+[2024-04-12 11:11:22] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.0.0.dev8434188366.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.0.0.dev8659705443.tar.gz]
+[2024-04-12 11:11:22] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2024-04-12 11:11:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-04-12 11:11:22] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/e2/a6/e065169bc1019d8f975baf1c2de34a4e86910c5e1b76bb8ac766d87f891f/alibabacloud_btripopen20220520_py2-2.6.0.tar.gz
+[2024-04-12 11:11:23] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/5d/b5/0c97a340dd47c39e15214419963c0d28f5e1c89f1340833bc42fc71f32e2/localcosmos_server-0.9.4.tar.gz
+[2024-04-12 11:11:23] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/7e/f4/3892767eedeb884d13fa9994c54181bdc82e1567ff6c3fbcfe8e996cfd44/alibabacloud_btripopen20220520_py2-2.7.0.tar.gz
+[2024-04-12 11:11:23] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2024-04-12 11:11:23] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-2.6.0.tar.gz tmp/alibabacloud_btripopen20220520_py2-2.7.0.tar.gz --markdown 20240412/a/alibabacloud-btripopen20220520-py2/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-04-12 11:11:23] INFO root fetch - processPackages [cmeel-mim-solvers]: Remove: archive file [/home/abi/fetcher/tmp/cmeel_mim_solvers-0.0.2.tar.gz]
+[2024-04-12 11:11:23] INFO root fetch - processPackages [cmeel-mim-solvers]: Remove: archive file [/home/abi/fetcher/tmp/cmeel_mim_solvers-0.0.4.tar.gz]
+[2024-04-12 11:11:23] INFO root fetch - main [MainThread]: End processing [cmeel-mim-solvers]: success
+[2024-04-12 11:11:24] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-2.6.0.tar.gz]
+[2024-04-12 11:11:24] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-2.7.0.tar.gz]
+[2024-04-12 11:11:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2024-04-12 11:11:25] INFO root fetch - processPackages [localcosmos-server]: executing diffoscope
+[2024-04-12 11:11:25] INFO root fetch - processPackages [localcosmos-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_server-0.9.3.tar.gz tmp/localcosmos_server-0.9.4.tar.gz --markdown 20240412/l/localcosmos-server/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-12 11:11:26] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-2.6.0.tar.gz]
+[2024-04-12 11:11:26] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-2.7.0.tar.gz]
+[2024-04-12 11:11:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2024-04-12 11:11:29] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.3.tar.gz]
+[2024-04-12 11:11:29] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.4.tar.gz]
+[2024-04-12 11:11:29] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
+[2024-04-12 11:11:29] INFO root fetch - main [MainThread]: Store serial: [22735472]
