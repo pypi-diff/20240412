@@ -18731,3 +18731,119 @@
 [2024-04-12 10:44:39] INFO root fetch - processPackages [archadeptcli]: Remove: archive file [/home/abi/fetcher/tmp/archadeptcli-1.2.2.tar.gz]
 [2024-04-12 10:44:39] INFO root fetch - main [MainThread]: End processing [archadeptcli]: success
 [2024-04-12 10:44:39] INFO root fetch - main [MainThread]: Store serial: [22735037]
+[2024-04-12 10:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22735037]
+[2024-04-12 10:46:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multifutures
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ministryofjustice-data-platform-catalogue
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ICIW-Plots
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monterey
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mxcubeweb
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-cpu
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RS2024
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdkmaster-io-klayout
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ul-py-tool
+[2024-04-12 10:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantify-core
+[2024-04-12 10:46:48] INFO root fetch - processPackages [RS2024]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [monterey]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [pdkmaster-io-klayout]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ICIW-Plots]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [RS2024]: Downloading https://files.pythonhosted.org/packages/fd/a6/c07261855166bdea70de6a7b7b971d3fba8d29744037492153b78848d0b7/RS2024-0.0.2-py3-none-any.whl
+[2024-04-12 10:46:48] INFO root fetch - processPackages [multifutures]: New version: [0.3.1] Old Version: [0.3.0a2]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [quantify-core]: New version: [0.7.6.dev0] Old Version: [0.7.4]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/ee/76/e38c1bed9d0d00523c2f48bc75104ce4da9567a13556044770197218c203/monterey-0.0.8.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ul-py-tool]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240412] Old Version: [2.17.0.dev20240411]
+[2024-04-12 10:46:48] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ICIW-Plots]: Downloading https://files.pythonhosted.org/packages/49/3a/a43f6029fd9ef9ae61c0e835b02778e168a3175f74af464f79cce4b861ad/ICIW_Plots-1.0.6.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Downloading https://files.pythonhosted.org/packages/17/12/58683cde79a1acca71392639c77739657285134078e33a62f49eebf63d69/ministryofjustice_data_platform_catalogue-0.8.1.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [pdkmaster-io-klayout]: Downloading https://files.pythonhosted.org/packages/b7/b3/02b0df1542f52a48810b6f2aac44210f7d1bf14e1fa2effe5e10fc205b69/pdkmaster_io_klayout-0.1.0.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c1/72/0a21f6194ea75d7c7575c94055cdf0ec3d1adf21df79c5a17faa7e63fa18/tf_nightly_cpu-2.17.0.dev20240411-cp39-cp39-win_amd64.whl
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/e7/3d/8585d3c079ab7fc04908f16aba2f8ef0a65ab3a51d782d1a2dffb4b6b644/ul-py-tool-2.0.0.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [multifutures]: Downloading https://files.pythonhosted.org/packages/02/06/bc9b121e02f8c414e11ecbad433a311dd94d78168e0082818c2cda377ae4/multifutures-0.3.0a2.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [monterey]: Downloading https://files.pythonhosted.org/packages/fe/43/94d0f8e948200a9edb3ed9daf80b7fe8568fbbe462c5c15be98777c3b71c/monterey-0.0.9.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [quantify-core]: Downloading https://files.pythonhosted.org/packages/99/35/6b2668b368a38a2309dec0830ec41da9e302e1b21b3d5f3b64b482842a0e/quantify-core-0.7.4.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [RS2024]: Downloading https://files.pythonhosted.org/packages/93/94/e557810e8e3722febe92554dd81ccc1cc1b5ef46ffa0c9eaa2bbc11b4df0/RS2024-0.0.3-py3-none-any.whl
+[2024-04-12 10:46:48] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [monterey]: executing diffoscope
+[2024-04-12 10:46:48] INFO root fetch - processPackages [monterey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monterey-0.0.8.tar.gz tmp/monterey-0.0.9.tar.gz --markdown 20240412/m/monterey/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ICIW-Plots]: Downloading https://files.pythonhosted.org/packages/14/25/a5540a229c5fa44acc386f6afb533359ddb0c8d28425bf19ebc02a21b1f8/ICIW_Plots-1.0.7.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [RS2024]: executing diffoscope
+[2024-04-12 10:46:48] INFO root fetch - processPackages [RS2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RS2024-0.0.2-py3-none-any.whl.zip tmp/RS2024-0.0.3-py3-none-any.whl.zip --markdown 20240412/R/RS2024/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-12 10:46:48] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-04-12 10:46:48] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240412/m/mxcubeweb/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Downloading https://files.pythonhosted.org/packages/75/9f/397792792afd0fa8dcccfefd91c3d82f0141d25e0e4598229d9229f11efd/ministryofjustice_data_platform_catalogue-0.9.0.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f3/c2/cbc49172d668dd2afd4adcd58686f9aa54745bf4d3e76d38c86d2c76abe6/tf_nightly_cpu-2.17.0.dev20240412-cp39-cp39-win_amd64.whl
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ICIW-Plots]: executing diffoscope
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ICIW-Plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICIW_Plots-1.0.6.tar.gz tmp/ICIW_Plots-1.0.7.tar.gz --markdown 20240412/I/ICIW-Plots/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-12 10:46:48] INFO root fetch - processPackages [pdkmaster-io-klayout]: Downloading https://files.pythonhosted.org/packages/36/6b/086c7791baa71e739b46686157117884ba37899ed1cd0e7b9260535849d8/pdkmaster_io_klayout-0.1.1.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [multifutures]: Downloading https://files.pythonhosted.org/packages/c4/82/af1393188b6a4dfbc1605fb5be49e97ef6029ce2ea562088eee8b23b5dce/multifutures-0.3.1.tar.gz
+[2024-04-12 10:46:48] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/a4/34/23f6b67894cd38bc0180d1bda48cae068ce3431cd22720e4e149000e3c8a/ul-py-tool-2.1.0.tar.gz
+[2024-04-12 10:46:49] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: executing diffoscope
+[2024-04-12 10:46:49] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ministryofjustice_data_platform_catalogue-0.8.1.tar.gz tmp/ministryofjustice_data_platform_catalogue-0.9.0.tar.gz --markdown 20240412/m/ministryofjustice-data-platform-catalogue/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-12 10:46:49] INFO root fetch - processPackages [pdkmaster-io-klayout]: executing diffoscope
+[2024-04-12 10:46:49] INFO root fetch - processPackages [pdkmaster-io-klayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdkmaster_io_klayout-0.1.0.tar.gz tmp/pdkmaster_io_klayout-0.1.1.tar.gz --markdown 20240412/p/pdkmaster-io-klayout/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-12 10:46:49] INFO root fetch - processPackages [multifutures]: executing diffoscope
+[2024-04-12 10:46:49] INFO root fetch - processPackages [multifutures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multifutures-0.3.0a2.tar.gz tmp/multifutures-0.3.1.tar.gz --markdown 20240412/m/multifutures/0.3.0a2-0.3.1/README.md --exclude *.pyd
+[2024-04-12 10:46:49] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2024-04-12 10:46:49] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-2.0.0.tar.gz tmp/ul-py-tool-2.1.0.tar.gz --markdown 20240412/u/ul-py-tool/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-12 10:46:49] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-12 10:46:49] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240411-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240412-cp39-cp39-win_amd64.whl.zip --markdown 20240412/t/tf-nightly-cpu/2.17.0.dev20240411-2.17.0.dev20240412/README.md --exclude *.pyd
+[2024-04-12 10:46:49] INFO root fetch - processPackages [quantify-core]: Downloading https://files.pythonhosted.org/packages/bd/92/dc721c5ecbe9f89a3fe9b601850207d381b125a24e74b60b8e7aef191136/quantify_core-0.7.6.dev0-py3-none-any.whl
+[2024-04-12 10:46:49] INFO root fetch - processPackages [quantify-core]: executing diffoscope
+[2024-04-12 10:46:49] INFO root fetch - processPackages [quantify-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantify-core-0.7.4.tar.gz tmp/quantify_core-0.7.6.dev0-py3-none-any.whl.zip --markdown 20240412/q/quantify-core/0.7.4-0.7.6.dev0/README.md --exclude *.pyd
+[2024-04-12 10:46:49] INFO root fetch - processPackages [RS2024]: Remove: archive file [/home/abi/fetcher/tmp/RS2024-0.0.2-py3-none-any.whl.zip]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [RS2024]: Remove: archive file [/home/abi/fetcher/tmp/RS2024-0.0.3-py3-none-any.whl.zip]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [RS2024]: Start processing: axion
+[2024-04-12 10:46:49] INFO root fetch - main [MainThread]: End processing [RS2024]: success
+[2024-04-12 10:46:49] INFO root fetch - processPackages [ICIW-Plots]: Remove: archive file [/home/abi/fetcher/tmp/ICIW_Plots-1.0.6.tar.gz]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [ICIW-Plots]: Remove: archive file [/home/abi/fetcher/tmp/ICIW_Plots-1.0.7.tar.gz]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [ICIW-Plots]: Start processing: alerta-server
+[2024-04-12 10:46:49] INFO root fetch - main [MainThread]: End processing [ICIW-Plots]: success
+[2024-04-12 10:46:49] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.8.tar.gz]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [monterey]: Remove: archive file [/home/abi/fetcher/tmp/monterey-0.0.9.tar.gz]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [monterey]: Start processing: uitestrunner-syberos
+[2024-04-12 10:46:49] INFO root fetch - main [MainThread]: End processing [monterey]: success
+[2024-04-12 10:46:49] INFO root fetch - processPackages [axion]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [uitestrunner-syberos]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-04-12 10:46:49] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-04-12 10:46:49] INFO root fetch - processPackages [alerta-server]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Remove: archive file [/home/abi/fetcher/tmp/ministryofjustice_data_platform_catalogue-0.8.1.tar.gz]
+[2024-04-12 10:46:49] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Remove: archive file [/home/abi/fetcher/tmp/ministryofjustice_data_platform_catalogue-0.9.0.tar.gz]
+[2024-04-12 10:46:49] INFO root fetch - main [MainThread]: End processing [ministryofjustice-data-platform-catalogue]: success
+[2024-04-12 10:46:50] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/19/a1/e4b2709148063c0df8e42bad7d181d9881ee8971150926b04c23873c0ed1/axion-4.2.0-cp312-none-win_amd64.whl
+[2024-04-12 10:46:50] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240411-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 10:46:50] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240412-cp39-cp39-win_amd64.whl.zip]
+[2024-04-12 10:46:50] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-12 10:46:50] INFO root fetch - processPackages [multifutures]: Remove: archive file [/home/abi/fetcher/tmp/multifutures-0.3.0a2.tar.gz]
+[2024-04-12 10:46:50] INFO root fetch - processPackages [multifutures]: Remove: archive file [/home/abi/fetcher/tmp/multifutures-0.3.1.tar.gz]
+[2024-04-12 10:46:50] INFO root fetch - main [MainThread]: End processing [multifutures]: success
+[2024-04-12 10:46:50] INFO root fetch - processPackages [pdkmaster-io-klayout]: Remove: archive file [/home/abi/fetcher/tmp/pdkmaster_io_klayout-0.1.0.tar.gz]
+[2024-04-12 10:46:50] INFO root fetch - processPackages [pdkmaster-io-klayout]: Remove: archive file [/home/abi/fetcher/tmp/pdkmaster_io_klayout-0.1.1.tar.gz]
+[2024-04-12 10:46:50] INFO root fetch - main [MainThread]: End processing [pdkmaster-io-klayout]: success
+[2024-04-12 10:46:50] INFO root fetch - processPackages [alerta-server]: Downloading https://files.pythonhosted.org/packages/75/1a/bd1411ff089e54c1a18e7a23cc8b867a07aa6e0eb77c21ce8b4ff0379f01/alerta-server-9.0.2.tar.gz
+[2024-04-12 10:46:50] INFO root fetch - processPackages [uitestrunner-syberos]: Downloading https://files.pythonhosted.org/packages/5f/0d/ae7a96462ed4a209f4e2732dcedc8582aef8c39cc04246882b19f11840a0/uitestrunner_syberos-2.2.3.tar.gz
+[2024-04-12 10:46:50] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.0.0.tar.gz]
+[2024-04-12 10:46:50] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.1.0.tar.gz]
+[2024-04-12 10:46:50] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2024-04-12 10:46:50] WARNING root fetch - processPackages [uitestrunner-syberos]: Skipping package: exceeds size limit 65616854>=10485760
+[2024-04-12 10:46:50] INFO root fetch - main [MainThread]: End processing [uitestrunner-syberos] error
+[2024-04-12 10:46:50] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/01/17/cf8aa451946b14698ab14e18ec43954fc6a39d70a2547f514750355275da/axion-4.2.1-cp312-none-macosx_10_9_universal2.whl
+[2024-04-12 10:46:50] INFO root fetch - processPackages [alerta-server]: Downloading https://files.pythonhosted.org/packages/06/3b/e0eeb5fcfad9d1b7eed77d7f23ed64966ba441cf85c30bdc802ee6f2bd44/alerta-server-9.0.3.tar.gz
+[2024-04-12 10:46:50] INFO root fetch - processPackages [quantify-core]: Remove: archive file [/home/abi/fetcher/tmp/quantify-core-0.7.4.tar.gz]
+[2024-04-12 10:46:50] INFO root fetch - processPackages [quantify-core]: Remove: archive file [/home/abi/fetcher/tmp/quantify_core-0.7.6.dev0-py3-none-any.whl.zip]
+[2024-04-12 10:46:50] INFO root fetch - main [MainThread]: End processing [quantify-core]: success
+[2024-04-12 10:46:50] INFO root fetch - processPackages [alerta-server]: executing diffoscope
+[2024-04-12 10:46:50] INFO root fetch - processPackages [alerta-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alerta-server-9.0.2.tar.gz tmp/alerta-server-9.0.3.tar.gz --markdown 20240412/a/alerta-server/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-12 10:46:51] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-04-12 10:46:51] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.2.0-cp312-none-win_amd64.whl.zip tmp/axion-4.2.1-cp312-none-macosx_10_9_universal2.whl.zip --markdown 20240412/a/axion/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-04-12 10:46:51] INFO root fetch - processPackages [alerta-server]: Remove: archive file [/home/abi/fetcher/tmp/alerta-server-9.0.2.tar.gz]
+[2024-04-12 10:46:51] INFO root fetch - processPackages [alerta-server]: Remove: archive file [/home/abi/fetcher/tmp/alerta-server-9.0.3.tar.gz]
+[2024-04-12 10:46:51] INFO root fetch - main [MainThread]: End processing [alerta-server]: success
+[2024-04-12 10:46:51] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.0-cp312-none-win_amd64.whl.zip]
+[2024-04-12 10:46:51] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.1-cp312-none-macosx_10_9_universal2.whl.zip]
+[2024-04-12 10:46:51] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-04-12 10:46:51] INFO root fetch - main [MainThread]: Store serial: [22735080]
