@@ -3283,3 +3283,23 @@
 [2024-04-12 02:45:22] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240412.254.tar.gz]
 [2024-04-12 02:45:22] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-04-12 02:45:22] INFO root fetch - main [MainThread]: Store serial: [22728775]
+[2024-04-12 02:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22728775]
+[2024-04-12 02:47:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-12 02:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2024-04-12 02:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dialog-lib
+[2024-04-12 02:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nm-magic-wand-nightly
+[2024-04-12 02:47:31] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404110044] Old Version: [4.9.4.dev202404100044]
+[2024-04-12 02:47:31] WARNING root fetch - processPackages [dialog-lib]: Skipping, unable to determine old version
+[2024-04-12 02:47:31] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240412] Old Version: [0.2.2.20240411]
+[2024-04-12 02:47:31] INFO root fetch - main [MainThread]: End processing [dialog-lib] error
+[2024-04-12 02:47:31] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/64/b6/de033285c9bbac72f91eb2a91736256cc507976125c7ae5c713d3cd0902b/tfds-nightly-4.9.4.dev202404100044.tar.gz
+[2024-04-12 02:47:31] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/68/d6/3ccc9e6f8471f18e1c515e79eb5d3d6262eeaeec2d87a95e10c18e5a659b/nm_magic_wand_nightly-0.2.2.20240411-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-12 02:47:31] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 78349265>=10485760
+[2024-04-12 02:47:31] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-12 02:47:31] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ac/0c/79d6ee0355e0361628c9e0d209208b39bf9a8443240f587def77b773b0a3/tfds-nightly-4.9.4.dev202404110044.tar.gz
+[2024-04-12 02:47:31] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-12 02:47:31] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240412:/home/abi/fetcher/20240412:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404100044.tar.gz tmp/tfds-nightly-4.9.4.dev202404110044.tar.gz --markdown 20240412/t/tfds-nightly/4.9.4.dev202404100044-4.9.4.dev202404110044/README.md --exclude *.pyd
+[2024-04-12 02:47:40] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404100044.tar.gz]
+[2024-04-12 02:47:40] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404110044.tar.gz]
+[2024-04-12 02:47:40] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-12 02:47:40] INFO root fetch - main [MainThread]: Store serial: [22728784]
